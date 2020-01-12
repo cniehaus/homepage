@@ -2,16 +2,20 @@ Title: Test 2 Biologie
 
 ----
 
-Featured: false
+Featured: true
 
 ----
 
-Tags: foo, bar, tip, top
+Published: 2020-01-22
 
 ----
 
-Heading: 
+Tags: foo, bar, tip, top, NTW, Biologie
 
 ----
 
-Text: Inhalt, ganz wichtig
+Heading: UEBERSCHRIFT
+
+----
+
+Text: INHALT
