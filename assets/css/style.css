@@ -24,10 +24,25 @@ header {
     justify-content: space-between;
 }
 
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
 .menu {
     display: flex;
 }
 
 .menu a {
     margin-left: 1.5rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, lfr);
+    list-style: none;
+    grid-gap: 1.5rem;
 }
