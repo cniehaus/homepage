@@ -1,0 +1,17 @@
+Title: CHris
+
+----
+
+Featured: true
+
+----
+
+Tags: berlin
+
+----
+
+Heading: Berlin rockt
+
+----
+
+Text: Frankfurt auch

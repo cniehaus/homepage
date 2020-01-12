@@ -1,16 +1,11 @@
 <?php snippet('header') ?>
 
-FACHNACHRICHTEN
 
-TEST MIT CHEMIE
-
-
-<?php snippet('blogs'), [
-    'blogs' => page('blogs')
+<?php snippet('blogs', [
+  'blogs' => page('blogs')
     ->children()
     ->listed()
-    
-]) ?>
-
+    ->filterBy('tags', 'berlin', ',')
+  ]) ?>
 
 <?php snippet('footer') ?>

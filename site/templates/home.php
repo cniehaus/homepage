@@ -1,11 +1,10 @@
 <?php snippet('header') ?>
 
-
-HIER DAS SNIPPET
-
-  <?php snippet('blogs', ['limit' => 1]) ?>
-
-
-HIER IST DAS SNIPPET ZU ENDE
+<?php snippet('blogs', [
+  'blogs' => page('blogs')
+    ->children()
+    ->listed()
+    ->filterBy('featured', true)
+  ]) ?>
 
 <?php snippet('footer') ?>

@@ -1,10 +1,7 @@
 <?php snippet('header') ?>
 
-HIER DAS SNIPPET
-
-<?php snippet('blogs', ['limit' => 20]) ?>
-
-
-HIER IST DAS SNIPPET ZU ENDE
+<?php snippet('blogs', [
+  'blogs' => $page->children()->listed()
+  ]) ?>
 
 <?php snippet('footer') ?>

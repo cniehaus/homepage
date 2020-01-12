@@ -1,11 +1,11 @@
 <?= $page->text()->kirbytext() ?>
 
-  <?php foreach(page('blogs')->children()->listed()->flip()->limit($limit) as $article): ?>
+  <?php foreach($blogs as $blog): ?>
 
   <article>
-    <h1><?= $article->title()->html() ?></h1>
-    <p><?= $article->text()->excerpt(200) ?></p>
-    <a href="<?= $article->url() ?>">Mehr lesen…</a>
+    <h1><?= $blog->title()->html() ?></h1>
+    <p><?= $blog->text()->excerpt(200) ?></p>
+    <a href="<?= $blog->url() ?>">Mehr lesen…</a>
   </article>
 
   <?php endforeach ?>
