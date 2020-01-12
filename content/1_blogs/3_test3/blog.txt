@@ -1,3 +1,17 @@
-Title: Test § Chemie
+Title: Test 3 Chemie
+
 ----
+
+Featured: false
+
+----
+
+Tags: cheme, chemie, ntw
+
+----
+
+Heading: 
+
+----
+
 Text: Inhalt, ganz wichtig

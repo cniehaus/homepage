@@ -1,3 +1,17 @@
 Title: Test 2 Biologie
+
 ----
+
+Featured: false
+
+----
+
+Tags: foo, bar, tip, top
+
+----
+
+Heading: 
+
+----
+
 Text: Inhalt, ganz wichtig

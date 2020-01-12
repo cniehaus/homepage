@@ -1,6 +1,13 @@
 Title: Langer Test
+
 ----
-Text: 
+
+Heading: Schulprogramm der KGS
+
+----
+
+Text:
+
 Schulprogramm
 
 Kooperative Gesamtschule Rastede
