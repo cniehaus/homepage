@@ -1,24 +1,18 @@
 <?php snippet('header') ?>
 
-<?php
-foreach (page('blogs')->children()->filterBy('featured', true) as $subpage) {
-    echo "<div class=\"row\">\n";
-    echo "<div class=\"col-sm-6\">\n";
-    echo "<div class=\"card\">\n";
-    echo "<div class=\"card-body\">\n";
-    echo "<h5 class=\"card-title\">\n";
-    echo $subpage->title();
-    echo "</h5>";
-    echo "<p class=\"card-text\">";
-    echo $subpage->Text()->excerpt(150);
-    echo "</p>";
-    echo "<a href=\"";
-    echo $subpage->url();
-    echo "\" class=\"btn btn-primary\">...weiterlesen</a>";
-    echo "</div>\n";
-    echo "</div>\n";
-    echo "</div>\n";
-    echo "</div>\n";
-}?>
+<?php foreach (page('blogs')->children()->filterBy('featured', true) as $subpage) : ?>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><?= $subpage->title() ?></h5>
+                    <p class="card-text"><?= $subpage->Text()->excerpt(150) ?></p>
+                    <a href="<?= $subpage->url() ?>" class="btn btn-primary">...weiterlesen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php endforeach ?>
+
 
 <?php snippet('footer') ?>
