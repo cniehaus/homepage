@@ -1,35 +1,45 @@
 title: Blogeintrag
 
 columns:
-  left:
+  main:
     width: 2/3
     sections:
       content:
         type: fields
         fields:
-          featured:
-            type: toggle
-            label: Startseite
-            help: Wird immer auf der Startseite angezeigt
-          published:
-              label: Veröffentlicht am
-              type: date
-          tags:
-            label: Tags
-            type: tags
           heading:
             type: text
             label: Überschrift
           text:
             label: Inhalt
             type: textarea
-  right:
+          gallery:
+            type: files
+            layout: cards
+            image:
+              cover: true
+              ratio: 1/1
+  sidebar:
     width: 1/3
     sections:
-      gallery:
-        type: files
-        layout: cards
-        image:
-          cover: true
-          ratio: 1/1
+      meta:
+        meta:
+        type: fields
+        fields:
+          date:
+            label: Veröffentlicht am
+            type: date
+            time: true
+            default: now
+          author:
+            type: users
+          tags:
+            type: tags
+          featured:
+            type: toggle
+            label: Startseite
+            help: Wird immer auf der Startseite angezeigt
+            
+
+        
       
