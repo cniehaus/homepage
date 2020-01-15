@@ -9,7 +9,7 @@ columns:
         fields:
           heading:
             type: text
-            label: Überschrift
+            label: Untertitel
           text:
             label: Inhalt
             type: textarea
@@ -34,7 +34,20 @@ columns:
           author:
             type: users
           tags:
+            label: Tags
             type: tags
+            options:
+              - Biologie
+              - Chemie
+              - Physik
+              - Sport
+              - Mathematik
+              - Englisch
+              - Spanisch
+              - Französisch
+              - AGs
+              - SSD
+
           featured:
             type: toggle
             label: Startseite
