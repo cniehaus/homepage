@@ -4,6 +4,9 @@
 <h1><?= $page->title()->kirbytext() ?></h1>
 <h2><?= $page->heading()->kirbytext() ?></h2>
 
+<?= $page->date() ?>
+<?= $page->author() ?>
+
 
 <?= $page->text()->kirbytext() ?>
 

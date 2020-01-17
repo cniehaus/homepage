@@ -1,0 +1,45 @@
+Title: Titel vom Testartikel zum Demonstrieren wie es geht!
+
+----
+
+Heading: Hier steht der Untertitel
+
+----
+
+Text:
+
+Hier steht der Text
+
+Und hier ein Bild (image: demobild1.jpg width:400 caption:Ein tolles Haus) wobei hier ein zweites Bild ist (image: demobild2.jpg width:400 caption:Fotograph von hinten mit Sonne).
+
+Nach dem zweiten Bild steht noch ganz viel Text. Zum Teil sogar mit **fetten **Wörtern und solchen, die *kursiv *sind. Wow.
+
+----
+
+Gallery:
+
+- demobild1.jpg
+- demobild2.jpg
+- kaffeepause.jpg
+
+----
+
+Date: 2020-01-14 07:15
+
+----
+
+Author:
+
+- e5xQFqwr
+
+----
+
+Tags: Spanisch, Biologie
+
+----
+
+Featured: false
+
+----
+
+Published: 2020-01-21
