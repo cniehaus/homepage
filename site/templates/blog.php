@@ -54,7 +54,7 @@ Autor: <?= $page->author() ?>
     <li class="list-group-item">
       <figure class="figure">
         <img alt="<?= $image->alt() ?>" class="rounded img-thumbnail img-fluid" src="<?= $image->url() ?>">
-        <figcaption class="figure-caption"><?= $image->bildunterschrift() ?></figcaption>
+        <figcaption class="figure-caption"><?= $image->bildunterschrift () ?></figcaption>
       </figure>
     </li>
   <?php endforeach ?>
