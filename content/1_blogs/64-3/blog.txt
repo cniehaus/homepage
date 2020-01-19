@@ -54,7 +54,7 @@ Featured: false
 
 ----
 
-Fotoansicht: gallery
+Fotoansicht: carousel
 
 ----
 
