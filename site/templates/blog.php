@@ -13,7 +13,7 @@ Autor: <?= $page->author() ?>
 
 <?php if ($page->fotoansicht() == 'carousel') : ?>
   <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
 
         <?php $count = -1;
@@ -31,7 +31,10 @@ Autor: <?= $page->author() ?>
             <?php else : ?>
               <div class="carousel-item">
               <?php endif ?>
-              <img src=<?= $image->url() ?> class="d-block w-100" alt="<?= $image->caption() ?>"" />
+              <img src=<?= $image->url() ?> class="d-block w-100" alt="<?= $image->bildunterschrift() ?>" />
+              <div class="carousel-caption d-none d-md-block">
+                <h3><?= $image->bildunterschrift() ?></h3>
+              </div>
             </div>
           <?php endforeach ?>
           </div>
@@ -54,7 +57,7 @@ Autor: <?= $page->author() ?>
     <li class="list-group-item">
       <figure class="figure">
         <img alt="<?= $image->alt() ?>" class="rounded img-thumbnail img-fluid" src="<?= $image->url() ?>">
-        <figcaption class="figure-caption"><?= $image->bildunterschrift () ?></figcaption>
+        <figcaption class="figure-caption"><?= $image->bildunterschrift() ?></figcaption>
       </figure>
     </li>
   <?php endforeach ?>
