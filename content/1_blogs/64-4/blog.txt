@@ -51,4 +51,8 @@ Featured: false
 
 ----
 
+Fotoansicht: carousel
+
+----
+
 Published: 2020-01-21
