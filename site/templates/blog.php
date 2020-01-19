@@ -11,46 +11,68 @@ Autor: <?= $page->author() ?>
 
 <?= $page->text()->kirbytext() ?>
 
-<div class="container">
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
+<?php if ($page->fotoansicht() == 'carousel') : ?>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
 
-      <?php $count = -1;
-      foreach ($page->images() as $image) : $count++ ?>
-        <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
-      <?php endforeach ?>
+        <?php $count = -1;
+        foreach ($page->images() as $image) : $count++ ?>
+          <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
+        <?php endforeach ?>
 
-    </ol>
-    <div class="carousel-inner">
+      </ol>
+      <div class="carousel-inner">
 
-      <?php $count = -1;
-      foreach ($page->images() as $image) : $count++ ?>
-        <?php if ($count == 0) : ?>
-          <div class="carousel-item active">
-          <?php else : ?>
-            <div class="carousel-item">
-            <?php endif ?>
-            <img src=<?= $image->url() ?> class="d-block w-100" alt="<?= $image->caption() ?>"" />
+        <?php $count = -1;
+        foreach ($page->images() as $image) : $count++ ?>
+          <?php if ($count == 0) : ?>
+            <div class="carousel-item active">
+            <?php else : ?>
+              <div class="carousel-item">
+              <?php endif ?>
+              <img src=<?= $image->url() ?> class="d-block w-100" alt="<?= $image->caption() ?>"" />
             </div>
           <?php endforeach ?>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <a class=" carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+      </div>
     </div>
   </div>
+<?php elseif($page->fotoansicht() == 'gallery') : ?> 
+  <h2>Galerie</h2>
 
-  <h3>Tags</h3>
+<ul class="list-group">
+  <?php foreach ($page->images() as $image) : ?>
+    <li class="list-group-item">
+      <img alt="<?= $image->alt() ?>" class="rounded img-thumbnail img-fluid" src="<?= $image->url() ?>">
+    </li>
+  <?php endforeach ?>
+</ul>
 
-  <ul>
-    <?php foreach ($page->tags()->split() as $category) : ?>
-      <li><?= $category ?></li>
-    <?php endforeach ?>
-  </ul>
 
-  <?php snippet('footer') ?>
+
+  <?php else: ?> 
+  
+<h2>WEDER NOCH AUSGEWÄHLT</h2>
+
+
+<?php endif ?>
+
+
+    <h3>Tags</h3>
+
+    <ul>
+      <?php foreach ($page->tags()->split() as $category) : ?>
+        <li><?= $category ?></li>
+      <?php endforeach ?>
+    </ul>
+
+    <?php snippet('footer') ?>
