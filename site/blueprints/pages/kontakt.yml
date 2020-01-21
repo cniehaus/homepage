@@ -35,7 +35,7 @@ columns:
               lehrer: Lehrer
               sek: Sekretariat
               soz: Sozialpädagogen
-              hausmeister: hausmeister
+              hausmeister: Hausmeister
       # sections in the left column
   right:
     width: 1/3
