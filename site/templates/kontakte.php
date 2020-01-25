@@ -1,26 +1,45 @@
 <?php snippet('header') ?>
 
-<div class="jumbotron">
-  <h1 class="display-4"><?= $page->title() ?></h1>
-  <p class="lead"><?= $page->text() ?></p>
-</div>
-
-
-<div class="row row-cols-sm-2 row-cols-md-5">
-    <?php foreach ($page->children() as $kontakt) : ?>
-        <div class="card">
-            <img src="<?= $kontakt->images()->first()->url() ?>" class="rounded card-img-top" alt="<?= $kontakt->images()->first()->alt() ?>">
-            <div class="card-body bg-dark text-white">
-                <h2 class="card-title"><?= $kontakt->position() ?></h2>
-                <h3 class="card-subtitle"><?= $kontakt->title() ?></h3>
-                <hr class="my-4">
-                <p class="card-text p-3 mb-2">&#9993;<?= $kontakt->email() ?></p>
-                <p class="card-text p-3 mb-2">&#9743; <?= $kontakt->phone() ?></p>
+<div class="team-1" id="team-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title"><?= $page->title() ?></h2>
+                <h5 class="description">
+                    <?= $page->text() ?>
+                </h5>
             </div>
-            
-                
         </div>
-    <?php endforeach ?>
+        <div class="row">
+            <?php foreach ($page->children() as $kontakt) : ?>
+
+
+                <div class="col-md-3">
+                    <div class="card card-profile card-plain">
+                        <div class="card-header card-avatar">
+                            <a href="#pablo">
+                                <img class="img" src="<?= $kontakt->images()->first()->url() ?>" />
+                            </a>
+                        </div>
+                        <div class="card-body ">
+                            <h4 class="card-title"><?= $kontakt->title() ?></h4>
+                            <h6 class="card-category text-muted"><?= $kontakt->position() ?></h6>
+                            <p class="card-description">
+                                <?= $kontakt->email() ?>
+                            </p>
+                        </div>
+                        <div class="card-footer justify-content-center">
+                            <button class="btn btn-primary btn-round">
+                                <i class="material-icons">email</i><?= $kontakt->email() ?>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <?php endforeach ?>
+
+        </div>
+    </div>
 </div>
 
 
