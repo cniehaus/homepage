@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
+<?php snippet('page-header') ?>
+
+
 <section class="jumbotron text-center">
   <div class="container">
     <h1>Die Fächer stellen sich vor</h1>

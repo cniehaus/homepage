@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
+<?php snippet('page-header') ?>
+
+
 <?= $page->text() ?>
 
 <ul class="projects">

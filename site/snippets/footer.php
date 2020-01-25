@@ -1,4 +1,9 @@
 
+      <!-- es müssen noch 3 divs aus dem Template geschlossen werden -->
+      </div>
+  </div>
+</div>
+
 <?php snippet('skripte-im-footer') ?>
 
 

@@ -1,5 +1,9 @@
 <?php snippet('header') ?>
 
+<?php snippet('page-header') ?>
+
+
+
 <div class="team-1" id="team-1">
     <div class="container">
         <div class="row">

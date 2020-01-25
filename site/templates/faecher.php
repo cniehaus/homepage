@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<?php snippet('page-header') ?>
+
 
 <h1>Über die Fächer</h1>
 
