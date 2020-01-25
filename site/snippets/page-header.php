@@ -1,0 +1,15 @@
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('<?= $kirby->url('assets') ?>/img/bg3.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 ml-auto mr-auto">
+        <div class="brand text-center">
+          <h1><?= $page->title() ?></h1>
+          <h3 class="title text-center"><?= $page->subtitle() ?></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main main-raised">
+  <div class="container">
+    <div class="section text-center">
