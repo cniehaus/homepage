@@ -3,21 +3,10 @@
 
 
 
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('<?= $kirby->url('assets') ?>/img/bg3.jpg')">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto">
-        <div class="brand text-center">
-          <h1><?= $page->title() ?></h1>
-          <h3 class="title text-center">Die Schule in Rastede</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="main main-raised">
-  <div class="container">
-    <div class="section text-center">
+
+
+<?php snippet('page-header') ?>
+
 
 
       <!-- -->
@@ -40,7 +29,7 @@
 
 
     
-                <?php $index = 0; foreach (page('blogs')->children()->filterBy('featured', true) as $subpage) : $index++ ?>
+                <?php $index = 0; foreach (page('blogs')->children()->filterBy('featured', true) as $subpage) : $index++ ?>           
 
                 <?php if ($index % 2 == 0) : ?>
 
@@ -71,11 +60,6 @@
                   </div>
 
                 <?php else : ?>
-
-
-
-                  <div class="card card-plain card-blog">
-                <div class="row">
                   <div class="col-md-7">
                     <h3 class="card-title">
                       <a href="#pablo"><?= $subpage->title() ?></a>
@@ -103,10 +87,6 @@
                     
                     </div>
                   </div>
-                </div>
-              </div>
-
-
                 <?php endif ?>
 
                   
