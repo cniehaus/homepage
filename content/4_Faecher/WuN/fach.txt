@@ -1,0 +1,17 @@
+Title: Werte und Normen
+
+----
+
+Heading: Werte und Normen
+
+----
+
+Text: Punkt vor Strich!
+
+----
+
+Haupttag: WuN
+
+----
+
+Fotoansicht: carousel

@@ -1,0 +1,17 @@
+Title: Mathmatik
+
+----
+
+Heading: Pi mag e
+
+----
+
+Text: Punkt vor Strich!
+
+----
+
+Haupttag: Mathematik
+
+----
+
+Fotoansicht: carousel
