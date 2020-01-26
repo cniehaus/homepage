@@ -4,7 +4,7 @@
 
   <article>
     <h1><?= $blog->title()->html() ?></h1>
-    <p><?= $blog->text()->excerpt(200) ?></p>
+    <p><?= $blog->text()->blocks()->excerpt(200) ?></p>
     <a href="<?= $blog->url() ?>">Mehr lesen…</a>
   </article>
 
