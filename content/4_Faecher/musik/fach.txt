@@ -1,0 +1,21 @@
+Title: Musik
+
+----
+
+Heading: 
+
+----
+
+Text: 
+
+----
+
+Gallery: 
+
+----
+
+Haupttag: Musik
+
+----
+
+Fotoansicht: gallery
