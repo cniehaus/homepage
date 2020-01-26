@@ -103,7 +103,7 @@
         <div class="col-md-4">
           <h5>Kontakt</h5>
           <ul class="links-vertical">
-            <li><a class="text-muted" href="#">Schulleitung</a></li>
+            <li><a class="text-muted" href="<?= page('kontakte/schulleitung')->url() ?>">Schulleitung</a></li>
             <li><a class="text-muted" href="#">Fachbereichsleiter</a></li>
             <li><a class="text-muted" href="#">Sekreatriat Hauptgebäude</a></li>
             <li><a class="text-muted" href="#">Sekretariat Feldbreite</a></li>
@@ -120,10 +120,8 @@
         <div class="col-md-3">
           <h5>Über die KGS</h5>
           <ul class="links-vertical">
-            <li><a class="text-muted" href="#">Geschichte</a></li>
+            <li><a class="text-muted" href="#">Unsere Geschichte</a></li>
             <li><a class="text-muted" href="lageplan.php">Anfahrt</a></li>
-            <li><a class="text-muted" href="#">Schuleitung</a></li>
-            <li><a class="text-muted" href="#">Kontakt</a></li>
           </ul>
         </div>
       </div>
