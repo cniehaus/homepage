@@ -1,5 +1,21 @@
-Title: NN
+Title: N N
 
 ----
 
-Fotoansicht: lehrer
+Heading: nn
+
+----
+
+Email: NN@kgs-rastede.de
+
+----
+
+Position: Fachbereich Naturwissenschaften
+
+----
+
+Phone: 
+
+----
+
+Fotoansicht: fbl
