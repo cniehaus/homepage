@@ -28,5 +28,5 @@
 * wenn man das nicht macht wird der Artikel versteckt, bis man es nachholt. So kann man z.B. für Projektteage schon Artikel verfassen, die noch nicht zu sehen sein sollen. Am Stichtag macht man die 2 Klicks und alles wird sichtbar.
 
 
-![Kirby läuft](anfang.png)
+![Kirby läuft](veroeffentlichen.png)
 
