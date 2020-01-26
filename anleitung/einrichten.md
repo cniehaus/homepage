@@ -47,7 +47,7 @@ Wer mitmachen möchte sollte zumindestens grob verstanden hat, wie Git funktioni
 
 ## CSS
 Wir müssen natürlich CSS verwenden. [Bootstrap](https://getbootstrap.com/) ist ein sinnvolles, bekanntes System. 
-Die Anleitung ist gut und wie man in unserem Code sehen kann ist es auch nicht schwierig zu bedienen. Daher wird es auf Bootstrap hinauslaufen.
+Die Anleitung für das von uns verwendete Theme findet man hier: https://demos.creative-tim.com/material-kit-pro/docs/2.1/getting-started/introduction.html
 
 
 # Wie UNSERE Homepage runterladen
