@@ -43,7 +43,12 @@
             <a class="dropdown-item" href="<?= page('Faecher/Informatik')->url() ?>"><i class="material-icons">computer</i>Informatik</a>
             <a class="dropdown-item" href="<?= page('Faecher/Mathematik')->url() ?>"><i class="material-icons">add</i>Mathematik</a>
             <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">thumbs_up_down</i>Werte und Normen</a>
-
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">thumbs_up_down</i>Religion</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">traffic</i>Technik</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">emoji_food_beverage</i>Hauswirtschaft</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">history</i>Geschichte</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">landscape</i>Erdkunde</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">monetization_on</i>Politik/Wirtschaft</a>
             </div>
           </li>
         </ul>
