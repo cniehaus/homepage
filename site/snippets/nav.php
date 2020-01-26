@@ -41,6 +41,8 @@
             <a class="dropdown-item" href="<?= page('Faecher/Biologie')->url() ?>"><i class="material-icons">filter_vintage</i>Biologie</a>
             <a class="dropdown-item" href="<?= page('Faecher/Chemie')->url() ?>"><i class="material-icons">outdoor_grill</i>Chemie</a>
             <a class="dropdown-item" href="<?= page('Faecher/Informatik')->url() ?>"><i class="material-icons">computer</i>Informatik</a>
+            <a class="dropdown-item" href="<?= page('Faecher/Mathematik')->url() ?>"><i class="material-icons">add</i>Mathematik</a>
+            <a class="dropdown-item" href="<?= page('Faecher/WuN')->url() ?>"><i class="material-icons">thumbs_up_down</i>Werte und Normen</a>
 
             </div>
           </li>
