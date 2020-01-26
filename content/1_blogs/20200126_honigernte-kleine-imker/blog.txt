@@ -1,0 +1,81 @@
+Title: Honigernte der Imker AG und der 7B3
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "An drei Tagen Umweltwoche hat die 7B3 in Begleitung von Frau Reershemius, Herrn Weusmann und Frau Lisbach einen umfangreichen Einblick in die Schulimkerei erhalten.",
+        "id": "_39l1h1sqq",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Dank der Spende von Familie Riemer f\u00fcr den Bienenableger konnte ein kleines Bienenvolk in einem Einwabenkasten f\u00fcr Untersuchungen mit in den Klassenraum genommen werden.",
+        "id": "_7nt1rl48q",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/blogs+demoblog-zum-testen/files/ree4.jpg",
+            "src": "https://niehaus-ol.de/media/pages/blogs/demoblog-zum-testen/2802168223-1580050957/ree4.jpg",
+            "id": "blogs/demoblog-zum-testen/ree4.jpg",
+            "ratio": 1.3333333333333333,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_9j0u73eri",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Es wurde der K\u00f6rperbau und die Entwicklung der Honigbiene erforscht und mit Hilfe von Binokularen untersucht. Arbeitsger\u00e4te eines Imkern benannt und am Bienenvolk unter Anleitung eingesetzt. Zudem wurden Kerzen hergestellt und verkauft, Materialien repariert und eine Stellwand gestaltet. Zum Schluss konnte der Honig geerntet werden. Hierzu wurden die Honigr\u00e4ume von den Bienenst\u00f6cken entfernt, die Honigr\u00e4hmchen entdeckelt und ausgeschleudert. 16 kg KGS Honig konnten geerntet werden. Auch das Etikett f\u00fcr den Honig 2015 wurde schon gestaltet. Wir danken Herrn Kip, der sich in diesem Jahr bereiterkl\u00e4rt hat, die Etiketten f\u00fcr uns auszudrucken.",
+        "id": "_cb4hf5090",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "In den n\u00e4chsten Wochen muss der Honig t\u00e4glich ger\u00fchrt werden. Im kommenden Schuljahr wird die Imker AG den Honig in Gl\u00e4ser abf\u00fcllen, mit Etiketten versehen und verkaufen.",
+        "id": "_nfr6ewn9x",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery:
+
+- ree4.jpg
+- ree5.jpg
+- ree6.jpg
+- ree7.jpg
+- ree1.jpg
+- ree8.jpg
+- ree2.jpg
+- ree3.jpg
+
+----
+
+Date: 2020-01-26 12:30
+
+----
+
+Author: Nicola Reershemius
+
+----
+
+Tags: Biologie, AGs, Imkerei
+
+----
+
+Featured: true
+
+----
+
+Fotoansicht: carousel
