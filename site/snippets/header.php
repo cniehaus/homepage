@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/css/material-kit.css" >
+  <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/css/kgs.css" >
+
 </head>
 
 <body class="sections-page sidebar-collapse">
