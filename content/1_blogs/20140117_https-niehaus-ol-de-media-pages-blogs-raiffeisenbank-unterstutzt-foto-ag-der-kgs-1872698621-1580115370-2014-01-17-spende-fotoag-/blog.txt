@@ -1,0 +1,44 @@
+Title: Foto-AG der KGS freut sich über neue Kameras
+
+----
+
+Heading: ÜBERGABE Raiffeisenbank spendet 1000 Euro aus Erträgen des Gewinnsparens
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "RASTEDE/FJ\u2013Zwei neue Spie-gelreflexkameras und vierWechselobjektive konntedieFoto-AGderKooperativenGe-samtschule(KGS)Rastedean-schaffen.Siehatte eine Spen-dederRaiffeisenbankRastedeerhalten.Am Donnerstag-nachmittag\u00fcberreichte Bri-gitte Hillerns einensymboli-schen Scheck \u00fcber 1000 Euro.DasGeld stammtaus denReinertr\u00e4gen des Gewinnspa-rens der Volksbanken undRaiffeisenbanken.DieLeiterin der Schul-AG,StefanieChristiansen,unddie24 Sch\u00fclerinnen und Sch\u00fclerder Jahrg\u00e4nge 7bis 10 freutensich \u00fcber die Zuwendungebensowie UweAhlers undAnna Papenroth vomF\u00f6rder-verein der KGS. DerF\u00f6rder-vereinhattediebisherigeAus-stattungder Foto-AGfinan-ziert,sagteAhlers.Bisher standenden Sch\u00fc-lernzweiSpiegelreflexkame-raszur Verf\u00fcgung.Nunk\u00f6n-nen sie f\u00fcr ihreArbeit in derAGaufvierGer\u00e4tezur\u00fcckgrei-fen. \u201eWir schulenin der AGden fotografischenBlick derSch\u00fclerund vermitteln dastechnischeWissen\u201c, berichte-te Stefanie Christiansen. Au-\u00dferdem werden die Bilder amComputerweiterbearbeitet.Zurzeit besch\u00e4ftigen sichdie Sch\u00fclermit Portr\u00e4tfoto-grafie.DankderneuenObjek-tivegel\u00e4ngenjetzt auch Auf-nahmenmit der n\u00f6tigenTie-fensch\u00e4rfe,sagtedieLehrerin.Wasfotografiertwird, h\u00e4n-ge auch vomInteresse derSch\u00fclerab.ImvergangenenSchuljahrseizumBeispielmitWasser experimentiertwor-den. \u201eWir haben etwa die Be-wegung bei flie\u00dfendemWas-ser eingefroren\u201c, erz\u00e4hlte Ste-fanie Christiansen. Auch aneinem Wettbewerb habe dieAG sich im vergangenenJahrbeteiligt.In der Foto-AGregistriertdie Lehrerin einen regen Zu-wachs.Als das Angebot vorvier Jahren startete,h\u00e4ttennoch nicht so viele Sch\u00fclermitgemacht.Alle zwei Wo-chenkommtdieAGamNach-mittagf\u00fcr gleich vier Unter-richtsstundenzusammen.\u201eSonst lohnt sich der Aufbauder Technik gar nicht\u201c, schil-derteStefanieChristiansen.",
+        "id": "_pi1m39a9j",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery:
+
+- 2014-01-17_spende-fotoag.pdf
+
+----
+
+Date: 2014-01-17 10:50
+
+----
+
+Author: Frank Jacob
+
+----
+
+Tags: Kunst, Foto-AG
+
+----
+
+Featured: true
+
+----
+
+Fotoansicht: gallery
