@@ -2,11 +2,19 @@ Title: Kunst
 
 ----
 
+Heading: 
+
+----
+
 Text: 
 
 ----
 
 Gallery: 
+
+----
+
+Haupttag: Kunst
 
 ----
 
