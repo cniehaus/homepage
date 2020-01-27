@@ -2,11 +2,19 @@ Title: Politik-Wirtschaft
 
 ----
 
+Heading: 
+
+----
+
 Text: 
 
 ----
 
 Gallery: 
+
+----
+
+Haupttag: PoWi
 
 ----
 
