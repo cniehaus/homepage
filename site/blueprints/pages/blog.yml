@@ -17,6 +17,8 @@ columns:
             type: editor
           gallery:
             type: files
+            label: Fotos für den Artikel
+            help: Hier nur Fotos, KEINE PDF-Dateien
             layout: cards
             image:
               cover: true
@@ -35,10 +37,10 @@ columns:
             default: now
           author:
             type: text
-            label: Name des Autorens
+            label: Name des Autors
             help: Was hier steht taucht 1:1 im Artikel als Name auf
           tags:
-            label: Tags
+            label: Kategorie
             type: tags
             help: Bitte nach Möglichkeit die Vorschläge übernehmen und keine eigenen Tags erfinden
             options:
