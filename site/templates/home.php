@@ -52,7 +52,7 @@
                     <a href="<?= $subpage->url() ?>">...weiterlesen</a>
                     </p>
                     <p class="author">
-                      by
+                      von
                       <a href="#pablo">
                         <b><?= $subpage->author() ?></b>
                       </a> Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
@@ -69,7 +69,7 @@
                       <a href="<?= $subpage->url() ?>">...weiterlesen</a>
                     </p>
                     <p class="author">
-                      by
+                      von
                       <a href="#pablo">
                         <b><?= $subpage->author() ?></b>
                       </a> Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
