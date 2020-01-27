@@ -62,10 +62,18 @@ columns:
               - AGs
               - SSD
 
+          line:
+            type: line
+          
           featured:
             type: toggle
             label: Startseite
             help: Wird immer auf der Startseite angezeigt
+
+          downloads:
+            label: Zugehörige Dateien
+            help: Hier können beliebige Dateien für den Download bereitgestellt werden
+            type: files
 
           fotoansicht:
             label: Fotos anzeigen
