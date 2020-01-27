@@ -15,6 +15,9 @@
 * In dem Feld **Inhalt** will man in 99% der Fälle **"Text"** haben
 * Im Text kann man dann (links klicken) natürlich auf Überschriften, **fett**, *kursiv* und so weiter einstellen.
 
+> Bitte *immer* Bilder manuell hochladen und im Text auf diese verweisen. *Kein Copy&Paste von Bildern in den Text*, das führt später zu Problemen.
+> Jedes Bild ist also auch unter dem Textabschnitt in der Gallerie zu sehen, sonst ist was falsch!
+
 ![Kirby läuft](anfang.png)
 
 
