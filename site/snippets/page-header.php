@@ -1,15 +1,12 @@
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('<?= $kirby->url('assets') ?>/img/bg3.jpg')">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto">
-        <div class="brand text-center">
-          <h1><?= $page->title() ?></h1>
-          <h3 class="title text-center"><?= $page->subtitle() ?></h3>
-        </div>
-      </div>
-    </div>
+<div class="p-3 p-md-5 m-md-3 text-center">
+  <div class="col-md-2 p-lg-1 mx-auto my-5">
+    <h1 class="display-4 font-weight-normal"><?= $page->title() ?></h1>
+    <p class="lead font-weight-normal"><?= $page->subtitle() ?></p>
   </div>
 </div>
+
+<!-- Ab hier der richtige Inhalt, der auf jeder Seite individuell sein kann -->
+
 <div class="main main-raised">
   <div class="container">
-    <div class="section text-center">
+    <div class="section text-left">
