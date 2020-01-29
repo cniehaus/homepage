@@ -2,9 +2,17 @@
 <?php snippet('page-header') ?>
 
 <div class="row">
-  <?php snippet('rotier-knopf') ?>
-  <?php snippet('rotier-knopf') ?>
-  <?php snippet('rotier-knopf') ?>
+
+  <?php foreach (page('allgemeines')->children()->filterBy('startseite', true) as $subpage) :  ?>
+    
+    <?php snippet('rotier-knopf', [
+      'subpage' => $subpage
+    ]) ?>
+
+
+  <?php endforeach ?>
+
+
 </row>
 
 

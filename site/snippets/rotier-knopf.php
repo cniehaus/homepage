@@ -1,16 +1,16 @@
 <div class="col-md-6 col-lg-4 mr-auto">
     <div class="rotating-card-container manual-flip">
-        <div class="card card-rotate bg-warning">
+        <div class="card card-rotate bg-success">
             <div class="front">
                 <div class="card-body">
                     <h5 class="card-category card-category-social">
-                        <i class="material-icons">receipt</i> Elternsprechtag
+                        <i class="material-icons">receipt</i> <?= $subpage->title() ?>
                     </h5>
                     <h4 class="card-title">
-                        <a href="#pablo">Der Elternsprechtag findet am 30.2.2020 statt</a>
+                        <a href="#pablo"> <?= $subpage->substitle() ?></a>
                     </h4>
                     <p class="card-description">
-                        Dort sprechen Eltern mit Lehrern
+                        <?= $subpage->vorne() ?>
                     </p>
                     <div class="stats text-center">
                         <button type="button" name="button" class="btn btn-white btn-fill btn-round btn-rotate">
@@ -23,16 +23,20 @@
                 <div class="card-body">
                     <br>
                     <h5 class="card-title">
-                        Elternsprechtag 2020
+                        <?= $subpage->title() ?>
                     </h5>
                     <p class="card-description">
-                        Treffen Sie uns im Forum
+                        <?= $subpage->hinten() ?>
                     </p>
                     <div class="stats text-center">
-                        <a href="#pablo" class="btn btn-white btn-round">
-                            <i class="material-icons">subject</i> ...weiterlesen
+
+                    <?php if ($subpage->weiterleitung() ) : ?>
+
+                        <a href="<?= $subpage->url() ?>" class="btn btn-white btn-round">
+                            <i class="material-icons">subject</i> ...<?= $subpage->weiterleitung() ?>
                         </a>
                         <br>
+                    <?php endif ?>
                         <div class="stats text-center">
                             <button type="button" name="button" class="btn btn-white btn-fill btn-round">
                                 <i class="material-icons">attachment</i> Infozettel runterladen

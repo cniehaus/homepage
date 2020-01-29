@@ -1,0 +1,66 @@
+Title: Elternsprechtag
+
+----
+
+Heading: moin test moin
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "wow, richtig toller Text",
+        "id": "_ne5uqz6ge",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery: 
+
+----
+
+Date-von: 
+
+----
+
+Date-bis: 
+
+----
+
+Startseite: true
+
+----
+
+Author: Hildegard Varelmann
+
+----
+
+Url: https://www.kgs-rastede.de
+
+----
+
+Downloads: 
+
+----
+
+Date: 
+
+----
+
+Tags: 
+
+----
+
+Featured: false
+
+----
+
+Fotoansicht: 
+
+----
+
+Autor: Mike Mustermann
