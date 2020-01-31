@@ -17,6 +17,7 @@
       <div class="row">
 
         <div class="coo-md-2">
+        <a href="<?= $site->url() ?>">
           <svg xml:space="preserve" width="1in" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality" viewBox="-1291 0 2070 3369">
             <defs>
               <style type="text/css">
@@ -98,6 +99,7 @@
               </g>
             </g>
           </svg>
+          </a>
         </div>
 
         <div class="col-md-4">
