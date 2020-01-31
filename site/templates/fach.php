@@ -2,13 +2,18 @@
 
 <?php snippet('page-header') ?>
 
+<h2><?= $page->heading() ?></h2>
+
+<p>
+  <?= $page->text()->kirbytext() ?>
+</p>
+
+
+
 
 <div class="container">
   <div class="row">
-  <h3><?= $page->heading() ?></h3>
     
-  <?= $page->text()->kirbytext() ?>
-
       <h2>Aktuelles aus dem Fach</h2>
 
         <?php snippet('blogs', [
