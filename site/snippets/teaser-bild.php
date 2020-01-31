@@ -1,4 +1,4 @@
-<div class="col-md-5">
+<div class="col-md-5 mt-4">
     <div class="card-header card-header-image">
 
         <?php if ($subpage->hasImages() > 0) : ?>
