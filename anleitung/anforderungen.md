@@ -3,6 +3,7 @@
 
 ## SchülerInnen
 - [ ] Stundenplan einsehen
+  - [ ] Links müssen noch erstellt werden
 - [ ] Termine Klasse/Kurs
   - [ ] Das bildet Webuntis ab, zusammen mit dem Messenger. Können wir uns eventuell sparen. Weniger ist mehr.
      
@@ -10,14 +11,21 @@
 - [ ] FAQ zu
   - [ ] Datenschutz    
   - [ ] Abitur 
+
+## Außendarstellung der Schule
+- [ ] Fächer / Fachbereiche
+  - [x] Pro Fach eine Übersichtsseite
+    - [x] Blogs
+      - [ ] Bessere Navigation innerhalb eines Blog: https://getkirby.com/docs/cookbook/templating/previous-next
+    - [ ] Dokumente pro Fach (z.B: Lehrpläne, besondere Formulare, die Fachspezifisch sind)
+    - [ ] Ein Bild pro Fach, damit das ganz hübsch ist (Vorbild: Homepage vom Herbart-Gmynasium)
   
 ## Zugriff Dateien
 - [ ] ABI
 - [ ] Abschlussarbeiten    
 - [ ] Formulare aller Art
-- [ ] Verschicken der Voucher 
-  - [JS Plugin](https://statamic.com/forum/4165-javascript-php-plugin)
-  - [Event-Listener](https://docs.statamic.com/addons/classes/event-listeners)
+- [ ] Verschicken der Voucher
+  - [ ] https://getkirby.com/docs/cookbook/security/access-restriction
 - [ ] Eltern (ohne Login???)
 - [ ] Lehrmittelausleihe/Bücherlisten
 - [ ] PDFs
@@ -36,13 +44,15 @@
 - [ ] Anfahrt Schule
   - [ ] https://statamic.com/marketplace/addons/google-maps 
 
+# Kalenderfunktion
+- [ ] https://fullcalendar.io/#demos 
 
 
 ## Alle
 - [ ] Informationen finden
 - [ ] Artikel lesen
-- [ ] Kontakt Sekri
-- [ ] Kontakt Schulleitung
+- [x] Kontakt Sekri
+- [x] Kontakt Schulleitung
 - [ ] Konzepte
 - [ ] Termine der Schule
 
@@ -51,21 +61,11 @@
 - [ ] Login-Mechanismus    
   - [ ] https://docs.statamic.com/permissions 
 - [ ] Sehr gute Durchsuchbarkeit der Seite
-  - [ ] https://docs.statamic.com/search 
+  - [ ] https://getkirby.com/docs/cookbook/content/search
+  - [ ] https://getkirby.com/docs/cookbook/content/sitemap
+- [ ] Krankmeldung per EMail
+  - [ ] https://getkirby.com/docs/cookbook/forms/basic-contact-form
+  - [ ] https://getkirby.com/docs/cookbook/forms/email-with-attachments
 - [ ] Ical o.ä. Einbettung
-  - [ ] https://statamic.com/marketplace/addons/ical/docs 
-  - [ ] https://github.com/edalzell/statamic-ical/issues 
-  - [ ] https://statamic.com/marketplace/addons/happy-dates
-  - [ ] Kostet 40 Euro
-- [ ] Kollektion Kollegium mit Rollen als Export aus DB
-- [ ] Ebenso Login SchülerInnen (Verwendung Hash?)
-- [ ] Müssen Schüler (oder Eltern) wirklich einen Login haben? wozu?
-- [ ] Import der Inhalte aus altem CMS muss möglich sein
-  - [ ] Idealerweise ja, aber sonst:
-    - [ ] Alle Fachbereichsleiter und ein paar Freiwillige setzen sich 2 Stunden dran und fertig. Man braucht nicht lange für das manuelle kopieren. Wenn man das vorbereitet sollte das gehen.
-    - [ ] Das waren dann sowas wie 16 Personen-Stunden...
+  - [ ] Womit?!
 
-
-## Konsequenzen
-- [ ] Entrümpelung der “alten” HP
-- [ ] Doppelte Pflege von L und S Daten unbedingt zu vermeiden. Ggf. per Skript Erzeugung der notwendigen Dateien
