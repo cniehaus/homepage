@@ -59,7 +59,7 @@
 ## Anforderungen
 ### Öffentlicher und geschützter Bereich
 - [ ] Login-Mechanismus    
-  - [ ] https://docs.statamic.com/permissions 
+  - [ ] https://getkirby.com/docs/guide/users/permissions 
 - [ ] Sehr gute Durchsuchbarkeit der Seite
   - [ ] https://getkirby.com/docs/cookbook/content/search
   - [ ] https://getkirby.com/docs/cookbook/content/sitemap
