@@ -67,6 +67,10 @@
 
 ## Anforderungen
 
+- [ ] Fetter Banner für Schneefrei / Sturmfrei / Heizung kaputt
+  - [ ] Wenn angeordnetes Schulfrei gibt, muss das mit einem *dicken* Banner sichtbar sein!
+
+
 ### Öffentlicher und geschützter Bereich
 
 - [ ] Login-Mechanismus    
