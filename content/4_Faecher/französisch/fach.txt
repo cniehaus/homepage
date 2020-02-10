@@ -1,0 +1,21 @@
+Title: Französisch
+
+----
+
+Heading: Ola
+
+----
+
+Text: 
+
+----
+
+Gallery: 
+
+----
+
+Haupttag: Französisch
+
+----
+
+Fotoansicht: gallery

@@ -1,0 +1,21 @@
+Title: Spanisch
+
+----
+
+Heading: Ola
+
+----
+
+Text: 
+
+----
+
+Gallery: 
+
+----
+
+Haupttag: Spanisch
+
+----
+
+Fotoansicht: gallery

@@ -23,7 +23,11 @@ Gleichzeitig wird das Fach in verschiedenen Ausschüssen und Dienstbesprechungen
 
 ----
 
-Gallery: 
+Gallery:
+
+- cs1.jpg
+- physik.jpg
+- cs2.jpg
 
 ----
 
@@ -31,4 +35,4 @@ Haupttag: Biologie
 
 ----
 
-Fotoansicht: gallery
+Fotoansicht: carousel
