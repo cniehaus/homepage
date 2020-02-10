@@ -1,6 +1,26 @@
 <?php snippet('header') ?>
 <?php snippet('page-header') ?>
 
+<!-- 
+  An besonderen Tagen (Schneefrei, Heizungsburch, ...) soll ganz schnell
+  ein Banner angezeigt werden, damit die Eltern schnell informiert werden können
+ -->
+<?php if( page('allgemeines/notfall')->aktiv() == true ) : ?>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 ml-auto mr-auto">
+        <div class="jumbotron jumbotron-fluid bg-danger">
+          <div class="container">
+            <h1 class="display-4"><?= page('allgemeines/notfall')->title() ?></h1>
+            <p class="lead"><?= page('allgemeines/notfall')->text() ?></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<?php endif ?>
+
+
 <div class="row">
 
   <?php foreach (page('allgemeines')->children()->filterBy('startseite', true) as $subpage) :  ?>
