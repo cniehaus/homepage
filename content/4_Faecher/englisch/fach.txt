@@ -1,0 +1,21 @@
+Title: Englisch
+
+----
+
+Heading: Hi, what up
+
+----
+
+Text: 
+
+----
+
+Gallery: 
+
+----
+
+Haupttag: Englisch
+
+----
+
+Fotoansicht: gallery
