@@ -1,12 +1,25 @@
-Title: Mathmatik
+Title: Mathematik
 
 ----
 
-Heading: Pi mag e
+Heading: "Mathematik ist das Alphabet, mit dessen Hilfe Gott das Universum beschrieben hat." (Galileo Galilei)
 
 ----
 
-Text: Punkt vor Strich!
+Text:
+
+Die Mathematik ist eine Wissenschaft, die vielen anderen Wissenschaften als Werkzeug dient. War sie bereits in China und im Orient schon vor tausenden von Jahren weit entwickelt, fand sie durch die griechischen Philosophen und Mathematiker auch ihren Weg nach Europa. Bis heute spielt sie nicht nur in den Naturwissenschaften, sondern auch in den Sozial- und Geisteswissenschaften eine wichtige Rolle. So sind z.B. statistische Untersuchungen (nicht zuletzt auch wegen der seit einigen Jahren gut zu nutzenden elektronischen Hilfsmittel) wichtige Bereiche in Soziologie, Psychologie, Pädagogik etc. 
+**Die Schule hat heute die Aufgaben** 
+- die rechnerischen bzw. algebraischen Fähigkeiten der Schülerinnen und Schüler zu fördern.
+- die Problemlösungskompetenzen und Argumentationsstrukturen am Beispiel mathematischer Aufgabenstellungen zu entwickeln.
+- das logische Denken als Notwendigkeit zur Lösung auch komplexer Sachverhalte zu verdeutlichen.
+- den Umgang mit elektronischen Hilfsmitteln zu vermitteln.
+
+Dabei ist wichtig, dies auf verschiedenen, den Schülerinnen und Schülern angemessenen Wegen zu tun. Dies ist das Ziel unserer didaktischen und methodischen Bemühungen.
+
+----
+
+Gallery: 
 
 ----
 
