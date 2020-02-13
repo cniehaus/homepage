@@ -1,3 +1,5 @@
-Title: Über die Fächer...
+Title: Nachrichten (Blogs)
+
 ----
+
 Text: moin
