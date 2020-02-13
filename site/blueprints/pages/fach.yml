@@ -17,6 +17,7 @@ columns:
             type: textarea
           gallery:
             type: files
+            label: Bilder zum Fach
             layout: cards
             image:
               cover: true
