@@ -25,9 +25,15 @@ Gleichzeitig wird das Fach in verschiedenen Ausschüssen und Dienstbesprechungen
 
 Gallery:
 
-- cs1.jpg
-- physik.jpg
-- cs2.jpg
+- bio4.jpg
+- bio6.jpg
+- bio5.jpg
+- bio1.jpg
+- bio3.jpg
+- bio2.jpg
+- hintergrund_bio.jpg
+- bio7.jpg
+- bio8.jpg
 
 ----
 
