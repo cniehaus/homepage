@@ -19,8 +19,19 @@
           </div>
         </div>
       </div>
+<!--MUKUBA-->
+  <div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Musisch-Kultureller Bereich</h4>
+        <div class="list-group">
+          <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Musik</a></li>
+          <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Kunst</a></li>
+          <a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Darstellendes Spiel</a></li>
+        </div>
+      </div>
+  </div>
 <!--NTW-->
-  <div class="card p-3">
+  <div class="card">
     <div class="card-body">
         <h4 class="card-title">Mathematik und Naturwissenschaften</h4>
           <div class="list-group">
@@ -34,6 +45,15 @@
         </div>
       </div>
     </div>
+<!--SPORT-->
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Sport</h4>
+      <div class="list-group">
+        <a href="<?= page('Faecher/Sport')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Sport</a></li>
+      </div>
+    </div>
+  </div>
 <!--GSW-->
       <div class="card">
         <div class="card-body">
@@ -47,26 +67,7 @@
           </div>
         </div>
       </div>
-<!--MUKUBA-->
-  <div class="card p-3">
-    <div class="card-body">
-        <h4 class="card-title">Musisch-Kultureller Bereich</h4>
-        <div class="list-group">
-          <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Musik</a></li>
-          <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Kunst</a></li>
-          <a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Darstellendes Spiel</a></li>
-        </div>
-      </div>
-  </div>
-<!--SPORT-->
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">Sport</h4>
-      <div class="list-group">
-        <a href="<?= page('Faecher/Sport')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Sport</a></li>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 
