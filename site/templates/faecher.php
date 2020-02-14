@@ -4,9 +4,89 @@
 
 
 <h1>Über die Fächer</h1>
+<!--Reihe1-->
+<div class="row">
+  <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Sprachen</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
+            <li class="list-group-item"><a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Englisch</a></li>
+            <li class="list-group-item"><a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Französisch</a></li>
+            <li class="list-group-item"><a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Spanisch</a></li>
+            <li class="list-group-item"><a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Latein</a></li>
+          </ul>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+  <div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Naturwissenschaften</h4>
+          <div class="list-group">
+            <a href="<?= page('Faecher/physik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Physik</a>
+            <a href="<?= page('Faecher/biologie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Biologie</a>
+            <a href="<?= page('Faecher/chemie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Chemie</a>
+            <a href="<?= page('Faecher/mathematik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Informatik</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Reihe2-->
+<div class="row">
+  <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Gesellschaftswissenschaften</h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#0" class="list-group-item list-group-item-action">
+              <i class="material-icons">chat_bubble_outline</i>Biologie</a></li>
+            <li class="list-group-item"><a href="#0" class="card-link">Physik</a></li>
+            <li class="list-group-item"><a href="#0" class="card-link">Chemie</a></li>
+          </ul>
+          </div>
+        </div>
+    </div>
+<div class="col-md-6">
+  <div class="card">
+    <div class="card-body">
+        <h4 class="card-title">
+            Musisch-Kultureller Bereich
+        </h4>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#0" class="list-group-item list-group-item-action">
+            <i class="material-icons">chat_bubble_outline</i>Biologie</a></li>
+          <li class="list-group-item"><a href="#0" class="card-link">Physik</a></li>
+          <li class="list-group-item"><a href="#0" class="card-link">Chemie</a></li>
+        </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<!--Reihe3-->
+<div class="row">
+  <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">
+            Sport
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#0" class="list-group-item list-group-item-action">
+              <i class="material-icons">chat_bubble_outline</i>Biologie</a></li>
+            <li class="list-group-item"><a href="#0" class="card-link">Physik</a></li>
+            <li class="list-group-item"><a href="#0" class="card-link">Chemie</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 
 <div class="card-group">
-  <div class="card">
+  <div class="card bg-danger">
     <div class="card-body">
       <h5 class="card-title">Aufgabenfeld A</h5>
       <div class="list-group">
@@ -25,7 +105,6 @@
         <a href="<?= page('Faecher/Physik')->url() ?>" class="list-group-item list-group-item-action">
           <i class="material-icons">chat_bubble_outline</i>Latein
         </a>
-      </div>
     </div>
   </div>
   <div class="card">
@@ -46,7 +125,7 @@
   </div>
   <div class="card">
     <!-- so könnte man hier ein hübsches Bild einfügen  -->
-    <!-- <img src="./logo-kgs.jpg" class="card-img-top" alt="..."> -->
+    <!-- <img src="./logo-kgs.jpg" class="card-img-top" alt="...">-->
     <div class="card-body">
       <h5 class="card-title">Aufgabenfeld C</h5>
       <div class="list-group">
@@ -69,7 +148,6 @@
     </div>
   </div>
 </div>
-
 
 <?php snippet('blogs', [
   'blogs' => page('blogs')
