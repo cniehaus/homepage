@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-<!--MUKUBA-->
+<!--KULTURELL-->
   <div class="card">
   <div class="card-header card-header-primary"><h4 class="card-title">Musisch-Kultureller Bereich</h4></div>
     <div class="card-body">
