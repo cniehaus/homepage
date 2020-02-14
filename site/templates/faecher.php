@@ -11,24 +11,24 @@
         <div class="card-body">
           <h4 class="card-title">Sprachen</h4>
           <ul class="list-group">
-            <li class="list-group-item"><a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
-            <li class="list-group-item"><a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Englisch</a></li>
-            <li class="list-group-item"><a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Französisch</a></li>
-            <li class="list-group-item"><a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Spanisch</a></li>
-            <li class="list-group-item"><a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Latein</a></li>
+            <a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
+            <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Englisch</a></li>
+            <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Französisch</a></li>
+            <a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Spanisch</a></li>
+            <a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Latein</a></li>
           </ul>
           </div>
         </div>
     </div>
-    <div class="col-md-6">
+<div class="col-md-6">
   <div class="card">
     <div class="card-body">
         <h4 class="card-title">Naturwissenschaften</h4>
           <div class="list-group">
-            <a href="<?= page('Faecher/physik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Physik</a>
-            <a href="<?= page('Faecher/biologie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Biologie</a>
-            <a href="<?= page('Faecher/chemie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Chemie</a>
-            <a href="<?= page('Faecher/mathematik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Informatik</a>
+            <a href="#" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Physik</a>
+            <a href="<?= page('Faecher/Biologie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Biologie</a>
+            <a href="<?= page('Faecher/Chemie')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Chemie</a>
+            <a href="<?= page('Faecher/informatik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">monetization_on</i>Informatik</a>
           </div>
         </div>
       </div>
