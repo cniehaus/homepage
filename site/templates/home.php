@@ -5,7 +5,7 @@
   An besonderen Tagen (Schneefrei, Heizungsburch, ...) soll ganz schnell
   ein Banner angezeigt werden, damit die Eltern schnell informiert werden können
  -->
-<?php if( page('allgemeines/notfall')->aktiv() == true ) : ?>
+<?php if( page('allgemeines/notfall')->sichtbarkeit() == "ja" ) : ?>
   <div class="container">
     <div class="row">
       <div class="col-md-10 ml-auto mr-auto">

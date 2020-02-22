@@ -6,8 +6,4 @@ Text: Heute fällt die Schule aus. Das ist schön.
 
 ----
 
-Category: schneefrei
-
-----
-
-Aktiv: true
+Sichtbarkeit: ja

@@ -10,12 +10,11 @@ sections:
       text:
         label: Inhalt
         type: textarea
-      category:
-        label: Category
+      sichtbarkeit:
+        label: Sichtbarkeit
         type: select
         options:
-          schneefrei: Schneefrei
-          heizung: Ausfall wegen defekter Heizung
-          sturmfrei: Sturmfrei (Unwetterlage)
-          hitzefrei: Hitzefrei
+          ja: Banner anzeigen
+          nein: Banner verstecken
+
                 
