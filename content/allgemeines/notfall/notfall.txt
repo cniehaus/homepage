@@ -1,8 +1,16 @@
-Title: Schneefrei
+Title: Schulausfall: Banner für die Startseite
 
 ----
 
-Text: Heute fällt die Schule aus. Das ist schön.
+Titeltext: Schulausfall wegen Starkregen
+
+----
+
+Text:
+
+Heute fällt die Schule aus. Das ist schön.
+
+Leider wird die Schule bis zum 1. Mai 2019 ausfallen, Rettungsboote stehen zur Verfügung.
 
 ----
 

@@ -11,7 +11,7 @@
       <div class="col-md-10 ml-auto mr-auto">
         <div class="jumbotron jumbotron-fluid bg-danger">
           <div class="container">
-            <h1 class="display-4"><?= page('allgemeines/notfall')->title() ?></h1>
+            <h1 class="display-4"><?= page('allgemeines/notfall')->Titeltext() ?></h1>
             <p class="lead"><?= page('allgemeines/notfall')->text() ?></p>
           </div>
         </div>

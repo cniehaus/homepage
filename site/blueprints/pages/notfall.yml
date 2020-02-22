@@ -7,6 +7,9 @@ sections:
   content:
     type: fields
     fields:
+      titeltext:
+        label: Titel des Schulausfalls
+        type: text
       text:
         label: Inhalt
         type: textarea
