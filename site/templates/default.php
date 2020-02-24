@@ -11,7 +11,9 @@
                 <?= $page->text()->kirbytext() ?>
             </div>
             <div class="col-md-3">
-                <?= $page->url() ?>
+                <div class="card">
+                    <?= $page->text()->kirbytext() ?>
+                </div>
             </div>
 
         </div>
