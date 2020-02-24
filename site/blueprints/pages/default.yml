@@ -14,3 +14,9 @@ columns:
       downloads:
         label: Verknüpfte Dateien
         type: files
+      url:
+        label: URL
+        type: url
+      name:
+        label: Bezeichnung des Links
+        type: text

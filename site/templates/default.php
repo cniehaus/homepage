@@ -11,8 +11,7 @@
                 <?= $page->text()->kirbytext() ?>
             </div>
             <div class="col-md-3">
-                <p>Moin moin </p>
-                <!-- Hier steht nix -->
+                <?= $page->url() ?>
             </div>
 
         </div>
