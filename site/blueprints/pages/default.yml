@@ -13,7 +13,7 @@ columns:
       downloads:
         label: Verknüpfte Dateien
         type: files
-      Toggle:
+      toggle:
         label: Toggle
         type: toggle
         text: Sidebar anzeigen?
