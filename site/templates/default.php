@@ -1,21 +1,32 @@
 <?php snippet('header') ?>
 <?php snippet('page-header') ?>
 
+
 <div class="container">
     <div class="content">
+    <?php if ($page->filterBy('toggle', true))?>
+        {
         <div class="row">
-            <div class="col-md-9">
-            <div class="container-md-flex"><?= $page->text()->kirbytext() ?></div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <?= $page->text()->kirbytext() ?>
+                <div class="col-md-9">
+                    <div class="container-md-flex"><?= $page->text()->kirbytext() ?></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"><a href="#"><?= $page->name() ?></a></div>
                 </div>
             </div>
-        </div>
+        }
     </div>
 </div>
 
+
+<?php
+if (true)
+{
+}
+else?>
+{
+
+}
 
 
 <?php snippet('footer') ?>

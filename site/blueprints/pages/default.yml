@@ -13,6 +13,10 @@ columns:
       downloads:
         label: Verknüpfte Dateien
         type: files
+      Toggle:
+        label: Toggle
+        type: toggle
+        text: Sidebar anzeigen?
       url:
         label: URL
         type: url
