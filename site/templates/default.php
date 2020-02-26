@@ -11,6 +11,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
+                        <div class="card-header card-header-info">
+                            <h5 class="card-title"><?= $page->sidetitel()->kirbytext() ?></h5>
+                        </div>
                         <div class="card-body">
                             <div class="list-group">
                                 <?php foreach ($page->sidebar()->toStructure() as $sidebar): ?>

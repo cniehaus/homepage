@@ -7,23 +7,33 @@ columns:
       text:
         label: Text
         type: textarea
-  sidebar:
+  rechts:
     width: 1/3
     fields:
       downloads:
         label: Verknüpfte Dateien
         type: files
       toggle:
-        label: Toggle
+        label: Sidebar
         type: toggle
-        text: Sidebar anzeigen?
+        text:
+          Deaktiviert
+          Aktiviert
+      sidetitel:
+        label: Titel der Sidebar
+        type: text
+        placeholder: Ähnliche Themen
+        when:
+          toggle: true
       sidebar:
         label: Links
         type: structure
+        when:
+          toggle: true
         fields:
           link:
-            label: URL
+            label: Link (URL)
             type: url
           name:
-            label: Bezeichnung
+            label: Bezeichnung des Links
             type: text

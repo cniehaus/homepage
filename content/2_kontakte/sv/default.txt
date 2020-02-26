@@ -23,7 +23,11 @@ Downloads:
 
 ----
 
-Toggle: true
+Toggle: false
+
+----
+
+Sidetitel: Mehr zum Thema
 
 ----
 
@@ -31,11 +35,15 @@ Sidebar:
 
 - 
   link: https://www.google.de/
-  name: ndsdjd
+  name: Das ist der erste Link
 - 
   link: >
     https://getkirby.com/docs/reference/templates/field-methods/to-structure
-  name: krirby
+  name: Hier geht es zu Kirby
+
+----
+
+Sidetoggle: false
 
 ----
 
