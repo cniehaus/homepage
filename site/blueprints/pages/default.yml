@@ -4,15 +4,24 @@ columns:
   main:
     width: 2/3
     fields:
+      pageSettings1:
+        label: Texteintrag
+        type: headline
       text:
         label: Text
         type: textarea
   rechts:
     width: 1/3
     fields:
+      pageSettings2:
+        label: Dateien
+        type: headline
       downloads:
         label: Verknüpfte Dateien
         type: files
+      pageSettings3:
+        label: Sidebar
+        type: headline
       toggle:
         label: Sidebar
         type: toggle
