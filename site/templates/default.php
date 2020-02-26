@@ -10,13 +10,19 @@
                     <div class="container"><?= $page->text()->kirbytext() ?></div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card"><a href="#"><?= $page->name() ?></a></div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="list-group">
+                                <a href="<?php echo $page->content()->url() ?>" class="list-group-item list-group-item-action"><?= $page->name() ?></a></li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <?php }
             else:
             { ?>
-                sdfjkdsfh
+                <div class="container"><?= $page->text()->kirbytext() ?></div>
             <?php }
             endif ?>
 

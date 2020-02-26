@@ -23,7 +23,7 @@ Downloads:
 
 ----
 
-Toggle: false
+Toggle: true
 
 ----
 
@@ -31,4 +31,4 @@ Url: https://www.youtube.com/watch?v=84znrPmOePc
 
 ----
 
-Name: ssfd
+Name: Link zur Homepage der Kooperativen Gesamtschule Rastede
