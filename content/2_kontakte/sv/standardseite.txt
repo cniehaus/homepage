@@ -1,3 +1,7 @@
+Title: Schülervertretung
+
+----
+
 Text:
 
 Lernangebote am Schüler*innenprojekttag
@@ -23,7 +27,7 @@ Downloads:
 
 ----
 
-Toggle: false
+Toggle: true
 
 ----
 
@@ -56,3 +60,11 @@ Name: Zur beliebtesten Suchmaschine der Welt
 ----
 
 Links: 
+
+----
+
+Categories:
+
+- 
+  text: Photography
+  value: photography
