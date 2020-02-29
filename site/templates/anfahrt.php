@@ -2,8 +2,23 @@
 
 <?php snippet('page-header') ?>
 
-
-<div class="team-1" id="team-1">
+<div class="row">
+<div class="col-md-4">
+          <h5>Kontakt</h5>
+          <ul class="links-vertical">
+            <li><a class="text-muted"> <?= $page->adresse_s1()->blocks() ?> </a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>Wichtige Downloads</h5>
+          <ul class="links-vertical">
+            <li><a class="text-muted" href="#">AG-Listen</a></li>
+            <li><a class="text-muted" href="#">Tadel</a></li>
+            <li><a class="text-muted" href="#">Schulordnung</a></li>
+          </ul>
+        </div>
+</div>
+<!-- <div class="team-1" id="team-1">
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto text-center">
@@ -30,7 +45,7 @@
             </div>
         <div class="row">
     </div>
-</div>
+</div> -->
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
 
