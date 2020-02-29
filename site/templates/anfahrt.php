@@ -2,50 +2,34 @@
 
 <?php snippet('page-header') ?>
 
-<div class="row">
-<div class="col-md-4">
-          <h5>Kontakt</h5>
-          <ul class="links-vertical">
-            <li><a class="text-muted"> <?= $page->adresse_s1()->blocks() ?> </a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h5>Wichtige Downloads</h5>
-          <ul class="links-vertical">
-            <li><a class="text-muted" href="#">AG-Listen</a></li>
-            <li><a class="text-muted" href="#">Tadel</a></li>
-            <li><a class="text-muted" href="#">Schulordnung</a></li>
-          </ul>
-        </div>
+<div class="col-md-8 ml-auto mr-auto text-center">
+    <h2 class="title"> <?= $page->main_text() ?> </h2>
+
+    <h5 class="description"> <?= $page->anfahrt_text() ?> </h5>
 </div>
-<!-- <div class="team-1" id="team-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 ml-auto mr-auto text-center">
-                <h2 class="title"><?= $page->main_text() ?></h2>
-                <h4 class="description">
-                    <?= $page->adresse_s1()->blocks() ?>
-                </h4>
-                <h4 class="description">
-                    <?= $page->adresse_s2()->blocks() ?>
-                </h4>
-                <h5 class="description">
-                    <?= $page->anfahrt_text() ?>
-                </h5>
+
+<div class="content">
+    <div class="row">
+            <div class="col-md-auto ml-auto mr-auto text-auto">
+                <h6> <?= $page->adresse_s1()->blocks() ?> </h6>
             </div>
-            <div class="col-md-8 ml-auto mr-auto text-center">
-                <h4 class="description">
-                    <?= $page->anfahrt_text_s1()->blocks() ?>
-                </h4>
+
+            <div class="col-md-auto ml-auto mr-auto text-auto">
+                <h6> <?= $page->adresse_s2()->blocks() ?> </h6>
             </div>
-            <div class="col-md-8 ml-auto mr-auto text-center">
-                <h4 class="description">
-                    <?= $page->anfahrt_text_s2()->blocks() ?>
-                </h4>
-            </div>
-        <div class="row">
     </div>
-</div> -->
+</div>
+<div class="content">
+    <div class="row">
+            <div class="col-md-5 ml-auto mr-auto text-left">
+                <h5 class="description h5"> <?= $page->anfahrt_text_s1()->blocks() ?> </h5>
+            </div>
+            <div class="col-md-5 ml-auto mr-auto text-auto">
+                <h5 class="description"> <?= $page->anfahrt_text_s2()->blocks() ?> </h5>
+            </div>
+    </div>
+</div>
+
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
 
