@@ -10,15 +10,12 @@ fields:
       titel:
         label: Titel
         type: text
-      textvorne:
-        label: Text vorne
+      text:
+        label: Text
         type: text
       datei:
         label: Datei
         type: files
-      texthinten:
-        label: Text hinten
-        type: text
       link:
         label: Link
         type: url

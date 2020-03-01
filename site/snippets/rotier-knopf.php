@@ -1,8 +1,8 @@
-<div class="col-md-6">
+<div class="col-md-6 ml-auto mr-auto">
     <div class="card bg-success text-center">
         <div class="card-body">
             <h3 class="card-title"><?= $subpage->titel() ?></h3>
-            <p class="card-description"><?= $subpage->textvorne() ?></p>
+            <p class="card-description"><?= $subpage->text() ?></p>
             <?php if($image = $subpage->datei()->toFile()): ?>
                 <a href="<?php $subpage->datei()->toFile() ?>" download="18.png" class="btn btn-warning btn-round">Download</a>
             <?php endif ?>
