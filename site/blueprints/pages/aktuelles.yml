@@ -19,12 +19,12 @@ fields:
       link:
         label: Link
         type: url
-      date-von:
+      dateVon:
         label: Veröffentlicht von...
         type: date
         time: false
         default: now
-      date-bis:
+      dateBis:
         label: Veröffentlicht bis...
         type: date
         time: false
