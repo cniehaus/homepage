@@ -34,11 +34,11 @@ endif ?>
 
 <div class="row">
   <?php foreach (page('allgemeines/aktuelles')->banner()->toStructure() as $subpage) :  ?>
-    <?php snippet('rotier-knopf', ['subpage' => $subpage]) ?>
+          <?php if ($subpage->dateBis()->toDate('Y-m-d') >= date('Y-m-d')) :
+          snippet('rotier-knopf', ['subpage' => $subpage]);
+          endif ?>
   <?php endforeach ?>
 </row>
-
-
 <!-- -->
 
 <div class="blogs-1" id="blogs-1">
