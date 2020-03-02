@@ -10,6 +10,17 @@ fields:
     text: Für die NWZ muss jedes Mal Herr Thomas extra benachrichtig werden thomas _punkt_ haselier _at_ nwzmedien.de
   sidebar:
     type: structure
+    columns: 
+      link: 
+        width: 2/10      
+      name: 
+        width: 3/10
+      anfang: 
+        width: 3/10
+      datum: 
+        width: 1/10
+      zeitung: 
+        width: 1/10
     fields:
       link:
         label: Link (URL)
