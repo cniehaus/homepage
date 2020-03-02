@@ -64,3 +64,50 @@ Pressenachrichten:
     Chor freut sich über Spenden.
   datum: 2019-12-06
   zeitung: rastederrundschau
+- 
+  link: >
+    https://rasteder-rundschau.de/2017/06/02/tv-schuelerquiz-kgs-rastede-eine-runde-weiter/
+  name: ' TV-Schülerquiz: KGS Rastede eine Runde weiter'
+  anfang: >
+    Die 7e3 der KGS und Maskottchen Banane
+    „Fred“ ziehen bei Deutschlands
+    größtem Schülerquiz ins Wochenfinale
+    ein. Weiter geht es heute um 19.30 Uhr
+    im Fernsehsender KiKA
+  datum: 2017-06-02
+  zeitung: rastederrundschau
+- 
+  link: >
+    https://rasteder-rundschau.de/2018/09/27/chance-azubi-in-der-kgs-rastede/
+  name: ' Chance Azubi in der KGS Rastede '
+  anfang: >
+    Auch in diesem Jahr fand an der KGS
+    Rastede wieder eine Ausbildungsmesse des
+    Vereins „Chance Azubi“ statt. 19
+    Aussteller hatten im Foyer der Schule
+    ihre Stände aufgebaut. Mehr als 200
+    Schüler und Schülerinnen informierten
+    sich über die verschiedenen
+    Ausbildungsmöglichkeiten.
+  datum: 2018-09-27
+  zeitung: rastederrundschau
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/gegen-rassismus_a_50,7,1513482766.html
+  name: Gegen Rassismus
+  anfang: '„Wie die Schule den Rassismus zum Stolpern bringen kann“: Unter dieser Überschrift stand ein Vortrag, den Hanna Wachholz (links) und Veronika Dinter von der AG „Für den Frieden“ der Kooperativen Gesamtschule Rastede jetzt an der IGS Flötenteich in Oldenburg hielten. Die IGS möchte so wie die KGS Rastede den Titel einer „Schule ohne Rassismus – Schule mit Courage“ tragen.'
+  datum: 2020-02-19
+  zeitung: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus/rastede-kgs-rastede-sanierungsstau-macht-schule_a_50,7,1358531991.html
+  name: Sanierungsstau macht Schule
+  anfang: >
+    Ein Neubau, der alle Bedürfnisse der
+    Kooperativen Gesamtschule
+    berücksichtigt, ist teuer. Im
+    Schulausschuss wird deshalb an diesem
+    Montag eine kleine Lösung vorgestellt.
+    Reicht diese aus?
+  datum: 2020-02-17
+  zeitung: nwz
