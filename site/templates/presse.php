@@ -2,85 +2,18 @@
 
 <?php snippet('page-header') ?>
 
-<h2><?= $page->heading() ?></h2>
 
-<p>
-  <?= $page->text()->blocks() ?>
-</p>
-
-<div class="row">
-
-  <h2>Aktuelles aus dem Fach</h2>
-  
-<?php $index = 0;
- foreach(page('blogs')
-->children()
-->listed()
-->filterBy('immer_sichtbar', true)
-->filterBy('tags', $page->haupttag(), ',') as $subpage) : $index++ ?>
-
-<?php if ($index  != 0) : ?>
-
-                <?php snippet('teaser-bild', [
-                  'subpage' => $subpage
-                ]) ?>
-
-                <?php snippet('teaser-bild-text', [
-                  'subpage' => $subpage
-                ]) ?>
-
-                
-
-
-
-              <?php else : ?>
-              <?php endif ?>
-            <?php endforeach?>
-
-
-</div>
-
-
-<div class="container">
-  <div class="row">
-    
-      
-
-        <?php snippet('blogs', [
-          'blogs' => page('blogs')
-            ->children()
-            ->listed()
-            ->filterBy('tags', $page->haupttag(), ',')
-        ]) ?>
-
-
-        <?php if ($page->fotoansicht() == 'carousel') : ?>
-          <?php snippet('carousel') ?>
-        <?php elseif ($page->fotoansicht() == 'gallery') : ?>
-          <?php snippet('gallery') ?>
-        <?php else : ?>
-          <!-- Bilder werden vom Autor manuel gesetzt -->
-        <?php endif ?>  
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php 
+// using the `toStructure()` method, we create a structure collection
+$items = $page->pressenachrichten()->toStructure();
+// we can then loop through the entries and render the individual fields
+foreach ($items as $item): ?>
+  <h2><?= $item->name()->html() ?></h2>
+  <?php foreach ($item->images()->toFiles() as $image): ?>
+    <img src="<?= $image->crop(400)->url() ?>">
+  <?php endforeach ?>
+  <p><?= $item->price() ?></p>
+<?php endforeach ?>
 
 
 <?php snippet('footer') ?>
