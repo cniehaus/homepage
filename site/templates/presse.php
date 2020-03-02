@@ -2,20 +2,35 @@
 
 <?php snippet('page-header') ?>
 
+
 <nav aria-label="presse-navigation">
   <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+    <?php 
+    // `toStructure()` erzeugt einen Iterator fuer die URLs
+    $items = $page->pressenachrichten()->toStructure();
+
+    $i = 0;
+
+    // die 4 ist nur zum testen, das muss natürlich über die URL gehen
+    foreach ($items->paginate(8) as $item): $i++ ?>
+        <?php if ($i== 4) : ?>
+          <li class="page-item active"><a class="page-link" href="#"><?= $i ?></a></li>
+        <?php else : ?>
+          <li class="page-item"><a class="page-link" href="#"><?= $i ?></a></li>
+        <?php endif ?>
+
+    <?php endforeach ?>
 
   </ul>
 </nav>
 
-
+<!--  -->
 
 <?php 
 // `toStructure()` erzeugt einen Iterator fuer die URLs
 $items = $page->pressenachrichten()->toStructure();
+
 // Nun kann man jede URL durchgehen und jeweils einen Links erzeugen
 foreach ($items->paginate(2) as $item): ?>
  
