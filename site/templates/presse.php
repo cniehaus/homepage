@@ -17,7 +17,7 @@
 // `toStructure()` erzeugt einen Iterator fuer die URLs
 $items = $page->pressenachrichten()->toStructure();
 // Nun kann man jede URL durchgehen und jeweils einen Links erzeugen
-foreach ($items as $item): ?>
+foreach ($items->paginate(2) as $item): ?>
  
   <h2 class="title">
     <a href="<?= $item->link() ?>">
