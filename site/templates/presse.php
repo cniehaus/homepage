@@ -4,15 +4,17 @@
 
 
 <?php 
-// using the `toStructure()` method, we create a structure collection
+// `toStructure()` erzeugt einen Iterator fuer die URLs
 $items = $page->pressenachrichten()->toStructure();
-// we can then loop through the entries and render the individual fields
+// Nun kann man jede URL durchgehen und jeweils einen Links erzeugen
 foreach ($items as $item): ?>
-  <h2><?= $item->name()->html() ?></h2>
-  <?php foreach ($item->images()->toFiles() as $image): ?>
-    <img src="<?= $image->crop(400)->url() ?>">
-  <?php endforeach ?>
-  <p><?= $item->price() ?></p>
+  <h2>
+    <a href="<?= $item->link() ?>">
+      <?= $item->name()->html() ?>
+    </a>
+  </h2>
+
+  <p><?= $item->anfang() ?></p>
 <?php endforeach ?>
 
 
