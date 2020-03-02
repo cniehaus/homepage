@@ -44,9 +44,10 @@
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               <i class="material-icons">school</i> &Uuml;ber die Schule
             </a>
-            <div class="dropdown-menu dropdown-with-icons">     
+            <div class="dropdown-menu dropdown-with-icons">    
+            <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><i class="material-icons">directions_bus</i>Schulbusverkehr</a>
             <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><i class="material-icons">timer</i>Zeitraster</a>
-            <a class="dropdown-item" href="<?= page('Faecher')->url() ?>"><i class="material-icons">timer</i>Fächer</a>
+            <a class="dropdown-item" href="<?= page('Faecher')->url() ?>"><i class="material-icons">library_books</i>Fächer</a>
             <a class="dropdown-item" href="<?= page('ser/vorstand')->url() ?>"><i class="material-icons">people_alt</i>Schulelternrat (SER)</a>
 
 
