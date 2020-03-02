@@ -1,0 +1,68 @@
+Title: Neues aus der Presse
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Schulbusverkehr",
+        "id": "_pTGrEHlNz",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Kontakt",
+        "id": "_E65HiW0XM",
+        "type": "h3"
+    },
+    {
+        "attrs": [],
+        "content": "EMail: <a href=\"mailto:schulbus@kgs-rastede.de\">schulbus@kgs-rastede.de</a>",
+        "id": "_3EhVqlpZB",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_52s9vx7lo",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Weitere Informationen",
+        "id": "_6SwnKvGxA",
+        "type": "h3"
+    },
+    {
+        "attrs": [],
+        "content": "Anfragen zum Schulbusverkehr werden \u00fcber einen Verteiler an die zust\u00e4ndigen Stellen weitergeleitet. Die Emailadresse lautet: <a href=\"mailto:schulbus@kgs-rastede.de\">schulbus@kgs-rastede.de</a>",
+        "id": "_y3axG1Dp5",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: Links zum Schulbusnetz
+
+----
+
+Sidebar:
+
+- 
+  link: https://www.vwg.de/
+  name: Homepage der VWG
+
+----
+
+Heading: Übersicht über die Stunden
