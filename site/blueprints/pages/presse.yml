@@ -7,7 +7,7 @@ fields:
   info:
     label: Info
     type: info
-    text: Für die NWZ muss jedes Mal Herr Thomas extra benachrichtig werdenthomas.haselier@nwzmedien.de
+    text: Für die NWZ muss jedes Mal Herr Thomas extra benachrichtig werden thomas _punkt_ haselier _at_ nwzmedien.de
   sidebar:
     type: structure
     fields:
@@ -17,9 +17,15 @@ fields:
       name:
         label: Bezeichnung des Links
         type: text
+      anfang:
+        label: Anriss
+        type: text
       datum:
         label: Datum des Artikels
         type: date
       zeitung:
         label: Medium
         type: select
+        options:
+          nwz: NWZ
+          rastederrundschau: Rasteder Rundschau
