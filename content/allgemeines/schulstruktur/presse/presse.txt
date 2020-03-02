@@ -2,7 +2,7 @@ Title: Neues aus der Presse
 
 ----
 
-Sidebar:
+Pressenachrichten:
 
 - 
   link: >
@@ -18,20 +18,6 @@ Sidebar:
     erstmals Schulsportassistenten neue
     Impulse geben.
   datum: 2020-03-02
-  zeitung: nwz
-- 
-  link: >
-    https://www.nwzonline.de/bildung-beruf/oldenburg-im-nordwesten-technik-in-acht-minuten-in-die-sichere-zone_a_50,7,1903410453.html
-  name: In acht Minuten in die sichere Zone
-  anfang: >
-    Die Aula des Herbartgymnasiums ist voll.
-    Schüler sitzen an ihren Laptops,
-    zwischen ihnen Setzkästen gefüllt mit
-    Rädern und Bausteinen. Es wird
-    justiert, gebaut, neu programmiert.
-    Alles, damit die Roboter ihren Weg durch
-    das Labyrinth erfolgreich bewältigen.
-  datum: 2020-02-28
   zeitung: nwz
 - 
   link: >
@@ -51,6 +37,20 @@ Sidebar:
     Tage rund um den „Red Hand Day“ am
     12. Februar vorbereitet.
   datum: 2020-02-21
+  zeitung: nwz
+- 
+  link: >
+    https://www.nwzonline.de/bildung-beruf/oldenburg-im-nordwesten-technik-in-acht-minuten-in-die-sichere-zone_a_50,7,1903410453.html
+  name: In acht Minuten in die sichere Zone
+  anfang: >
+    Die Aula des Herbartgymnasiums ist voll.
+    Schüler sitzen an ihren Laptops,
+    zwischen ihnen Setzkästen gefüllt mit
+    Rädern und Bausteinen. Es wird
+    justiert, gebaut, neu programmiert.
+    Alles, damit die Roboter ihren Weg durch
+    das Labyrinth erfolgreich bewältigen.
+  datum: 2020-02-28
   zeitung: nwz
 - 
   link: >
