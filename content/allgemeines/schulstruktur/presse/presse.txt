@@ -162,3 +162,34 @@ Pressenachrichten:
     neue Tricks.
   datum: 2020-02-15
   zeitung: nwz
+- 
+  link: >
+    https://www.nwzonline.de/rastede/rastede-valentinstag-schueler-senden-herzliche-gruesse_a_50,7,1301506116.html
+  name: ' Schüler senden herzliche Grüße'
+  anfang: 'Bunt bemalt, mit Glitzer beklebt oder anderweitig originell gestaltet: Zum Valentinstag wurden an der KGS Rastede Grüße in Herzform überbracht. Das kam auch bei den Lehrern gut an.'
+  datum: 2020-02-15
+  zeitung: nwz
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2018/01/03/lesefoerderung-wird-an-der-kgs-gross-geschrieben/
+  name: >
+     Leseförderung wird an der KGS groß
+    geschrieben
+  anfang: >
+    Der Förderverein der KGS unterstützt
+    die Schulbücherei mit einer Spende in
+    Höhe von 500 Euro
+  datum: 2018-01-03
+  zeitung: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2019/05/06/kgs-bietet-unternehmen-zusammenarbeit-an/
+  name: >
+    KGS bietet Unternehmen Zusammenarbeit
+    an
+  anfang: >
+    Die Praktikumswochen an der KGS sind
+    vorbei. Nun möchte die Schule den
+    Kontakt zu Firmen intensivieren.
+  datum: 2019-05-06
+  zeitung: rastederrundschau
