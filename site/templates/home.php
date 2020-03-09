@@ -131,8 +131,13 @@
               <?php
               $items = page('allgemeines/schulstruktur/presse')->pressenachrichten()->toStructure()->paginate(5);
               
+              
+
               foreach ($items as $item): ?>
-                <a href="<?= $item->link() ?>" class="list-group-item list-group-item-action"><?= $item->name() ?></a></li>
+                <div class="alert alert-primary" role="alert">
+                  <a class="alert-link" href="<?= $item->link() ?>" class="list-group-item list-group-item-action"><?= $item->name() ?></a></li>
+                </div>
+
               <?php endforeach ?>  
             </div>
           </div>
