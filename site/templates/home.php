@@ -126,11 +126,14 @@
           </div>
           <div class="card-body">
             <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">Presseartikel 1</a></li>
-                <a href="#" class="list-group-item list-group-item-action">Presseartikel 1</a></li>
-                <a href="#" class="list-group-item list-group-item-action">Presseartikel 1</a></li>
-                <a href="#" class="list-group-item list-group-item-action">Presseartikel 1</a></li>
-                <a href="#" class="list-group-item list-group-item-action">Presseartikel 1</a></li>
+
+              <!-- die Daten sind in allgemeines/schulstruktur/presse -->
+              <?php
+              $items = page('allgemeines/schulstruktur/presse')->pressenachrichten()->toStructure();
+              
+              foreach ($items as $item): ?>
+                <a href="#" class="list-group-item list-group-item-action"><?= $item->name() ?></a></li>
+              <?php endforeach ?>  
             </div>
           </div>
         </div>
