@@ -9,7 +9,7 @@
 
 <?php 
 // `toStructure()` erzeugt einen Iterator fuer die URLs
-$items = $page->pressenachrichten()->toStructure();
+$items = $page->pressenachrichten()->toStructure()->sortBy("datum")->flip();
 
 $list = $items->paginate(5);
 
