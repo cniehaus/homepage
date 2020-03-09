@@ -135,7 +135,11 @@
 
               foreach ($items as $item): ?>
                 <div class="alert alert-primary" role="alert">
-                  <a class="alert-link" href="<?= $item->link() ?>" class="list-group-item list-group-item-action"><?= $item->name() ?></a></li>
+                  <a class="alert-link" href="<?= $item->link() ?>" class="list-group-item list-group-item-action"><?= $item->name() ?></a>
+                  
+                  (<?= $item->datum()->toDate('d.m.y') ?>)
+
+                  </li>
                 </div>
 
               <?php endforeach ?>  
