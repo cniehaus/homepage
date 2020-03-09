@@ -1095,3 +1095,19 @@ Pressenachrichten:
     Impulse geben.
   datum: 2020-03-02
   zeitung: nwz
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2020/03/09/wie-geht-es-weiter-nach-dem-abitur/
+  name: >
+    Die KGS bietet heute, 9. März, einen
+    Informationsnachmittag rund um das duale
+    Studium an
+  anfang: >
+    Was mache ich nach dem Abitur? Studieren
+    oder doch eine Ausbildung beginnen?
+    Diese Fragen stellen sich zurzeit wieder
+    viele Schülerinnen und Schüler der 12.
+    Jahrgänge. Eine Kombination aus beidem
+    ist das duale Studium.
+  datum: 2020-03-09
+  zeitung: rastederrundschau
