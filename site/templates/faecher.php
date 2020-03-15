@@ -46,10 +46,11 @@
     </div>
 <!--SPORT-->
   <div class="card">
-    <div class="card-header card-header-info"><h4 class="card-title">Sport</h4></div>
+    <div class="card-header card-header-info"><h4 class="card-title">Weitere</h4></div>
     <div class="card-body">
       <div class="list-group">
         <a href="<?= page('Faecher/Sport')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">directions_run</i>Sport</a></li>
+        <a href="<?= page('allgemeines/schulstruktur/schuelerfirmen')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">gavel</i>Schülerfirmen</a></li>
         </div>
       </div>
     </div>
