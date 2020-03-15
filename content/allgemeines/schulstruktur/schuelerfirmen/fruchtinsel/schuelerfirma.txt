@@ -1,8 +1,8 @@
-Title: Die kleinen Imker
+Title: Die Fruchtinsel
 
 ----
 
-Heading: wir lieben Honig
+Heading: Obst ist lecker
 
 ----
 
@@ -18,10 +18,5 @@ Unsere Aufgabenbereiche:
 
 ----
 
-Mailadresse: ree@kgs-rastede.de
+Mailadresse: akb@kgs-rastede.de
 
-----
-
-Downloads:
-
-- sfbild.jpg
