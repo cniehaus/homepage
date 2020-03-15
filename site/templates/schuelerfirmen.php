@@ -48,7 +48,7 @@
   'blogs' => page('blogs')
     ->children()
     ->listed()
-    ->filterBy('tags', 'Biologie', ',')
+    ->filterBy('tags', 'Schülerfirmen', ',')
 ]) ?>
 
 <?php snippet('footer') ?>
