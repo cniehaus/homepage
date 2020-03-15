@@ -1,6 +1,4 @@
 title: Informationen zur Schülerfirma
-num: '{{ page.date.toDate("Ymd") }}'
-icon: 📖
 
 columns:
   main:
@@ -25,8 +23,6 @@ columns:
         type: fields
         fields:
           mailadresse:
-            label: Tag für Blogeintrag
-            help: Dieser Begriff (i.d.R. der Name des Fachs) muss als 'Tag' verwendet werden, damit ein Blogeintrag auch gefunden wird
             type: email
           downloads:
             label: Hintergrundbild
