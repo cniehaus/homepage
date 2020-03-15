@@ -6,7 +6,46 @@ Heading: wir schwitzen für die Schule
 
 ----
 
-Text: Hoch mit dem Puls bei uns in Sport
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Die KGS Rastede ist die einzige Schule im Ammerland, die zur Zeit das Sportprofil in der gymnasialen Oberstufe anbietet. In den beiden Jahren der Qualifikationsphase werden sieben sogenannte Rahmenthemen behandelt: Bewegungsanalyse, Grundlagen sportlichen Trainings, Bewegungslernen, Planung und Steuerung sportlichen Trainings, Sportsoziologie, Sportpsychologie und Ausgew\u00e4hlte Ph\u00e4nomene des Sports. Daneben m\u00fcssen f\u00fcnf bis sieben praktische Themen absolviert werden, das k\u00f6nnen u.a. Volleyball, Badminton, Triathlon, Leichtathletik, Fu\u00dfball, Basketball, Turnen etc. sein.",
+        "id": "_KWuRCFDZv",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das Abitur selbst besteht aus der schriftlichen Abiturklausur und den drei sportpraktischen Pr\u00fcfungen jeweils zu 50 Prozent. Teilpr\u00fcfung eins muss eine Individualsportart (z. B. Triathlon) sein, Teilpr\u00fcfung zwei eine Sportart aus dem Bereich Spiele. Die dritte Teilpr\u00fcfung ist eine Theorie-Praxis-Pr\u00fcfung, dabei d\u00fcrfen Sportarten aus der ersten und zweiten Teilpr\u00fcfung nicht noch einmal gew\u00e4hlt werden.",
+        "id": "_g4Twp3cWz",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Alle in den drei Teilpr\u00fcfungen gew\u00e4hlten Sportarten m\u00fcssen im Unterricht behandelt worden sein. Wird eine gew\u00fcnschte Sportart im \u201eSport-LK\u201c nicht unterrichtet, besteht die M\u00f6glichkeit, an einem Grundkurs mit dem entsprechenden Thema teilzunehmen. Dann kann die Pr\u00fcfung auch in dieser Sportart im Abitur abgelegt werden.",
+        "id": "_6HuOZkQd7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Null Punkte einem der beiden Pr\u00fcfungsteile (schriftlich bzw. praktisch) schlie\u00dft in der Regel eine ausreichende Note oder besser aus. Eine mangelhafte Leistung in einem der beiden Pr\u00fcfungsteile schlie\u00dft in der Regel eine Note \u201ebefriedigend\u201c oder besser aus.",
+        "id": "_V77DNadDt",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wer in der Qualifikationsphase den \u201eSport-LK\u201c belegen will, muss in Klasse 10 an einem halbj\u00e4hrigen Vorbereitungskurs teilgenommen haben.",
+        "id": "_HBGF67tJ1",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Der \u201eSport-LK\u201c basiert auf dem breiten AG-Angebot der KGS im Bereich Sport, der Kooperation mit den \u00f6rtlichen Sportvereinen und den sehr guten Sportanlagen im Gemeindebereich.",
+        "id": "_zNKalAPD1",
+        "type": "paragraph"
+    }
+]
 
 ----
 
@@ -15,6 +54,10 @@ Gallery:
 ----
 
 Haupttag: Sport
+
+----
+
+Hintergrundbild: 
 
 ----
 
