@@ -3,16 +3,13 @@
 <?php snippet('page-header') ?>
 
 
-<h1>Unsere Schülerfirmen</h1>
-
-
 <div class="card card-background" style="background-image: url('https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2038&q=80')">
   <div class="card-body">
     <h6 class="card-category text-info">Productivy Apps</h6>
     <a href="#pablo">
       <h3 class="card-title">Colorful Office</h3>
     </a>
-    <p class="card-description">
+    <p class="font-weight-bold card-description">
       Zu den hergestellten Produkten zählen: Blöcke, Stifte, Handyhüllen, Buttons, Grußkarten und andere Aufträge, die von den Kunden gewünscht werden. Zum Materialeinsatz zählen daher vor allem Strasssteine und Bastelpapier. Das Produktionsprogramm wird nach und nach verändert und den Wünschen der Kunden angepasst.
     </p>
     <a href="mailto:eik@kgs-rastede.de" class="btn btn-white btn-link">
@@ -30,7 +27,7 @@
     <a href="#pablo">
       <h3 class="card-title">Fruchtinsel</h3>
     </a>
-    <p class="card-description">
+    <p class="font-weight-bold card-description">
       Das Fruchtinsel-Team versorgt die Schülerinnen und Schüler der KGS Rastede dienstags in der zweiten großen Pause mit allerlei Köstlichkeiten und kümmert sich somit um das leibliche Wohl. Zudem übernimmt diese Firma auch Cateringaufträge für Schulveranstaltungen.
     </p>
     <a href="mailto:lm@kgs-rastede.de" class="btn btn-white btn-link">
@@ -48,7 +45,7 @@
     <a href="#pablo">
       <h3 class="card-title">Das Sofa-Team</h3>
     </a>
-    <p class="card-description">
+    <p class="font-weight-bold card-description">
       Für Schüler, die sich gerne sozial engagieren und Interesse an sozialen Berufen haben, bietet diese Schülerfirma die Möglichkeit, Sozialkompetenz zu gewinnen.
 
       Wir wollen alte Menschen in der Gemeinde unterstützen, ihnen helfen und sie im Alltag begleiten, indem wir mit ihnen Spiele spielen, spazieren gehen, basteln, klönen, ihnen vorlesen oder Botengänge für sie erledigen. Das geschieht entweder in den Altenheimen oder im Rahmen von Hausbesuchen.
@@ -73,7 +70,7 @@
     <a href="#pablo">
       <h3 class="card-title">Die kleinen Imker</h3>
     </a>
-    <p class="card-description">
+    <p class="font-weight-bold card-description">
       Unsere Aufgabenbereiche:
 
       Führungen für Schulklassen und Kindergärten am Bienenvolk,
@@ -94,7 +91,7 @@
     <a href="#pablo">
       <h3 class="card-title">Holz und Mehr</h3>
     </a>
-    <p class="card-description">
+    <p class="font-weight-bold card-description">
       Verkauf von selbst hergestelltem Spielzeug oder Ähnlichem aus Holz; Holzsitzbänke für Grundschulen; weitere Produkte auf Anfrage (Vogelhäuser für den Schlosspark)
     </p>
     <a href="mailto:lm@kgs-rastede.de" class="btn btn-white btn-link">
