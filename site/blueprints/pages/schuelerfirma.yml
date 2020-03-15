@@ -24,7 +24,7 @@ columns:
         fields:
           mailadresse:
             type: email
-          downloads:
+          bild:
             label: Hintergrundbild
             type: files
             layout: cards

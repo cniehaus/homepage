@@ -22,6 +22,6 @@ Mailadresse: ree@kgs-rastede.de
 
 ----
 
-Downloads:
+bild:
 
 - imker.jpg
