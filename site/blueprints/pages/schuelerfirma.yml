@@ -1,0 +1,38 @@
+title: Informationen zur Schülerfirma
+num: '{{ page.date.toDate("Ymd") }}'
+icon: 📖
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          heading:
+            type: text
+            label: Untertitel
+          beschreibung:
+            label: Inhalt
+            type: textarea
+
+  sidebar:
+    width: 1/3
+    sticky: true
+    sections:
+      meta:
+        meta:
+        type: fields
+        fields:
+          mailadresse:
+            label: Tag für Blogeintrag
+            help: Dieser Begriff (i.d.R. der Name des Fachs) muss als 'Tag' verwendet werden, damit ein Blogeintrag auch gefunden wird
+            type: email
+          downloads:
+            label: Hintergrundbild
+            type: files
+            layout: cards
+            max: 1
+
+        
+      

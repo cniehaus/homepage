@@ -3,6 +3,30 @@
 <?php snippet('page-header') ?>
 
 
+<h1>start</h1>
+<?php foreach ($page->children() as $sf) : ?>
+
+  <div class="card card-background" style="background-image: url('https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2038&q=80')">
+    <div class="card-body">
+      <h6 class="card-category text-info"><?= $sf->Heading() ?></h6>
+      <a href="#pablo">
+        <h3 class="card-title"><?= $sf->Title() ?></h3>
+      </a>
+      <p class="font-weight-bold card-description">
+        <?= $sf->Beschreibung() ?>
+      </p>
+      <a href="mailto:eik@kgs-rastede.de" class="btn btn-white btn-link">
+        <i class="material-icons">email</i><?= $sf->mail() ?>
+      </a>
+    </div>
+  </div>
+
+<?php endforeach ?>
+
+<h1>stop</h1>
+
+
+  
 <div class="card card-background" style="background-image: url('https://images.unsplash.com/photo-1471666875520-c75081f42081?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2038&q=80')">
   <div class="card-body">
     <h6 class="card-category text-info">Productivy Apps</h6>
@@ -30,7 +54,7 @@
     <p class="font-weight-bold card-description">
       Das Fruchtinsel-Team versorgt die Schülerinnen und Schüler der KGS Rastede dienstags in der zweiten großen Pause mit allerlei Köstlichkeiten und kümmert sich somit um das leibliche Wohl. Zudem übernimmt diese Firma auch Cateringaufträge für Schulveranstaltungen.
     </p>
-    <a href="mailto:lm@kgs-rastede.de" class="btn btn-white btn-link">
+    <a href="mailto:akb@kgs-rastede.de" class="btn btn-white btn-link">
       <i class="material-icons">email</i> Kontakt
     </a>
   </div>
@@ -99,6 +123,8 @@
     </a>
   </div>
 </div>
+
+
 
 
 
