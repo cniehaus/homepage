@@ -3,12 +3,12 @@ title: Default Page
 options:
   update:
     *: false
-    
+    admin: true
 preset: page
 fields:
   text:
     label: Text
-    type: textarea
+    type: editor
     size: large
 
 columns:
