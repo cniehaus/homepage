@@ -76,6 +76,15 @@ Fotoansicht: carousel
 
 ----
 
+Sidebar:
+
+- 
+  link: >
+    https://www.nibis.de/uploads/1gohrgs/operatoren_2021/BI-CH-PH_2021Abi_Operatoren.pdf
+  name: Operatorenliste Oberstufe
+
+----
+
 Toggle: true
 
 ----
@@ -84,8 +93,4 @@ Sidetitel: Links zum Schulbusnetz
 
 ----
 
-Sidebar:
-
-- 
-  link: https://www.nibis.de/uploads/1gohrgs/operatoren_2021/BI-CH-PH_2021Abi_Operatoren.pdf
-  name: Operatorenliste
+Label: 1
