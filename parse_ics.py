@@ -55,6 +55,12 @@ def debug_event(class_name):
     print(class_name.start)
     print(class_name.end)
 
+def create_json(class_name):
+    print("{", sep="")
+    print("title: '", class_name.summary, "',", sep="")
+    print("start: '", class_name.start, "',", sep="")
+    print("end: '", class_name.end, "',", sep="")
+    print("},\n")
 
 print("moin")
 open_cal()
@@ -62,7 +68,8 @@ open_cal()
 
 
 for event in events:
-    debug_event(event)
+    #debug_event(event)
+    create_json(event)
 
 
 #csv_write(filename)
