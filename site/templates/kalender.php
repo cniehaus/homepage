@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
+    locale: 'de'
     plugins: [ 'dayGrid', 'list','googleCalendar' ],
     header: {
       left: 'prev,next today',
@@ -33,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
       list:     'Woche',
     },
 
+    weekNumbers: true, // Kalenderwoche anzeigen
+    weekLabel: "Kalenderwoche", // Beschriftung der Kalenderwoche
     displayEventTime: true, // don't show the time column in list view
 
     googleCalendarApiKey: 'AIzaSyCYHdh89aVp9EA9nh4e_kMDy6ugfVuRHoE',
