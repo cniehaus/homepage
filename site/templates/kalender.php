@@ -67,37 +67,70 @@
 
 
       events: [{
-          title: 'All Day Event',
-          start: '2020-02-01'
-        },
-        {
-          title: 'Büro einräumen',
-          start: '2019-02-01 15: 00: 00+01: 00',
-          end: '2019-02-01 17: 00: 00+01: 00'
-        },
-        {
-          title: '2 Tag, 12 und 13. März ',
-          start: '2020-03-12',
-          end: '2020-03-14'
+          title: '11. März, 10 bis 12 Uhr',
+          start: '2020-03-11 10:00:00+01:00',
+          end: '2020-03-11 12:00:00+01:00'
         },
 
         {
-        title: '2 Tag, 12 und 13. März',
-        start: '2020-03-12',
-        end: '2020-03-14'
+          title: 'Frau Root einweisen',
+          start: '2019-02-06 14:30:00+01:00',
+          end: '2019-02-06 14:45:00+01:00'
         },
-      
+
+        {
+          title: 'Besprechung Sommerfest',
+          start: '2019-02-27 14:00:00+01:00',
+          end: '2019-02-27 14:30:00+01:00'
+        },
+
+        {
+          title: 'Treffen mit Eltern',
+          start: '2019-02-02 10:00:00+01:00',
+          end: '2019-02-02 12:00:00+01:00'
+        },
+
+        {
+          title: 'Personalversammlung',
+          start: '2019-02-04 14:00:00+01:00',
+          end: '2019-02-04 15:00:00+01:00'
+        },
+
+        {
+          title: 'Büro einräumen',
+          start: '2019-02-01 15:00:00+01:00',
+          end: '2019-02-01 17:00:00+01:00'
+        },
+
+        {
+          title: '2 Tag, 12 und 13. März',
+          start: '2020-03-12',
+          end: '2020-03-14'
+        },
 
         {
           title: 'Testevent 1 ganztägig 10. März',
           start: '2020-03-10',
           end: '2020-03-11'
         },
+
         {
-          groupId: 999,
-          title: 'Repeating Event',
-          start: '2020-02-16T16:00:00'
+          title: 'Maker Faire Hannover',
+          start: '2019-08-17 10:00:00+02:00',
+          end: '2019-08-18 11:00:00+02:00'
         },
+
+        {
+          title: 'Aimo Kohltour',
+          start: '2019-02-22 15:00:00+01:00',
+          end: '2019-02-22 22:00:00+01:00'
+        },
+
+        {
+          title: 'Begehung Räume',
+          start: '2019-04-30',
+          end: '2019-05-01'
+        }
       ]
     });
 
