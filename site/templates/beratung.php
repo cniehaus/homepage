@@ -2,54 +2,72 @@
 <?php snippet('page-header') ?>
 
 
-<div class="card-columns">
-  <div class="card p-3 text-center text-white bg-primary">
-    <div class="card-body">
-      <h5 class="card-title">Beratungsteam</h5>
+<div class="row row-cols-2">
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Beratungsteam</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Beratungsteam</p>
+      </div>
     </div>
   </div>
 
-  <div class="card mb-3 text-center text-white bg-primary">
-    <div class="card-body">
-      <h5 class="card-title">Coaching 9+10</h5>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Mediation</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Mediation</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-2 text-center text-white bg-primary">
-    <div class="card-body">
-      <h5 class="card-title">Mediation</h5>
+
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Berufsberatung</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Berufsberatung</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-3 text-center text-white bg-primary">
-    <div class="card-body">
-      <h5 class="card-title">Schülervertretung</h5>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Laufbahnberatung</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Laufbahnberatung</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-3 text-center text-white bg-primary">
-    <div class="card-body">
-      <h5 class="card-title">Laufbahnberatung</h5>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Coaching 9+10</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Coaching 9-10</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-3 text-center text-white bg-danger">
-    <div class="card-body">
-      <h5 class="card-title">Berufsberatung</h5>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Schülervertretung</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Schülervertretung</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-3 text-center text-white bg-success">
-    <div class="card-body">
-      <h5 class="card-title">Externe Unterstützung</h5>
+  <div class="col mb-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Externe Unterstützung</h5>
+        <p class="card-text">Hier ein kurzer Anreißer zum Externe Unterstützung</p>
+      </div>
     </div>
   </div>
 
-  <div class="card p-3 text-center text-white bg-secondary">
-    <div class="card-body">
-      <h5 class="card-title">Schülervertretung</h5>
-    </div>
-  </div>
+
 
 </div>
 
