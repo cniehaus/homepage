@@ -8,9 +8,6 @@
     margin: 0 auto;
   }
 </style>
-<script src='https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js'></script>
-
-<script src='https://unpkg.com/@fullcalendar/list@4.4.0/main.min.js'></script>
 
 <script src='https://unpkg.com/@fullcalendar/google-calendar@4.4.0/main.min.js'></script>
 
@@ -22,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var calendarEl = document.getElementById('calendar');
 
   var calendar = new FullCalendar.Calendar(calendarEl, {
-    plugins: [ 'dayGrid', 'list', 'googleCalendar' ],
+    plugins: [ 'dayGrid', 'list','googleCalendar' ],
     header: {
       left: 'prev,next today',
       center: 'title',
