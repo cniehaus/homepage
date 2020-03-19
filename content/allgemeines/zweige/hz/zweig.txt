@@ -2,6 +2,10 @@ Title: Hauptschulzweig
 
 ----
 
+Leitung: Marieke Pannenborg
+
+----
+
 Text:
 
 [
@@ -108,3 +112,32 @@ Text:
         "type": "paragraph"
     }
 ]
+
+----
+
+Gallery: 
+
+----
+
+Sidebar:
+
+- 
+  link: >
+    https://www.mk.niedersachsen.de/download/28616/Erlass_Die_Arbeit_in_der_Hauptschule_.pdf
+  name: Die Arbeit in der Hauptschule
+
+----
+
+Heading: Marieke Pannenborg
+
+----
+
+Haupttag: 
+
+----
+
+Hintergrundbild: 
+
+----
+
+Fotoansicht: 

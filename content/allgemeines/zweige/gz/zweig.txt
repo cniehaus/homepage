@@ -1,4 +1,8 @@
-Title: Gymnasialweig
+Title: Gymnasialzweig
+
+----
+
+Leitung: Malte Bormann
 
 ----
 
@@ -108,3 +112,11 @@ Text:
         "type": "paragraph"
     }
 ]
+
+----
+
+Gallery: 
+
+----
+
+Sidebar: 

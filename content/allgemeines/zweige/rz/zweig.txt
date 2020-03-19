@@ -1,4 +1,8 @@
-Title: Realschuzweig
+Title: Realschulzweig
+
+----
+
+Leitung: Andreas Kleeberg
 
 ----
 
@@ -108,3 +112,11 @@ Text:
         "type": "paragraph"
     }
 ]
+
+----
+
+Gallery: 
+
+----
+
+Sidebar: 
