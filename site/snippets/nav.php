@@ -54,6 +54,13 @@
 
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?= page('allgemeines/beratung')->url() ?>"><i class="material-icons">people_outline</i>Beratung</a>
+            
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="<?= page('allgemeines/zweige')->url() ?>"><i class="material-icons">people_outline</i>Die drei Schulzweige</a>
+            
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="<?= page('allgemeines/konzepte')->url() ?>"><i class="material-icons">people_outline</i>Pädagogische Konzepte</a>
+            
             </div>
           </li>
           <li class="dropdown nav-item">
