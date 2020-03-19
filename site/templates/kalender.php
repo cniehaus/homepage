@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', function() {
     header: {
       left: 'prev,next today',
       center: 'title',
-      right: 'dayGridMonth,listYear'
+      right: 'dayGridMonth,listWeek'
     },
     buttonText: {
       today:    'Heute',
       month:    'Monat',
       week:     'Woche',
       day:      'Tag',
-      list:     'Liste'
+      list:     'Woche',
     },
 
     displayEventTime: true, // don't show the time column in list view
