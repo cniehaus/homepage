@@ -11,6 +11,9 @@
 
   <h2>Lehrpläne</h2>
 
+  <?= $page->Lehrplantext()->kirbytext() ?>
+
+
   <div class="col-lg-8 col-md-10 ml-auto mr-auto">
     <div class="table-responsive">
       <table class="table">
