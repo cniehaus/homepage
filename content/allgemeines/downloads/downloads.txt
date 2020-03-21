@@ -2,10 +2,6 @@ Title: Wichtige Downloads
 
 ----
 
-Subtitle: Wichtige Downloads, wie z.B. die Schulbuchlisten.
-
-----
-
 cardtextHZ: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
 ----
 cardtextRZ: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
