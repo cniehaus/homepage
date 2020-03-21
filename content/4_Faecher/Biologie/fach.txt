@@ -90,11 +90,3 @@ Sidebar:
 ----
 
 Toggle: true
-
-----
-
-Label: 1
-
-----
-
-Sidetitel: Links zum Schulbusnetz
