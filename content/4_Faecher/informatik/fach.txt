@@ -2,7 +2,7 @@ Title: Informatik
 
 ----
 
-Heading: die Lehre der Bits und Bytes
+Heading: „In der Informatik geht es genauso wenig um Computer wie in der Astronomie um Teleskope.“ E. W. Dijkstra
 
 ----
 
