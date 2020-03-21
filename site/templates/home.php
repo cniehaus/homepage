@@ -113,6 +113,9 @@
               </div>
             </div>
           </div>
+          <a href="<?= page("blogs") ?>">
+            <button class="btn btn-primary">Weitere Nachrichten aus der Schule</button>
+          </a>
         </div>
 
 
