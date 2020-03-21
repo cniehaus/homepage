@@ -56,6 +56,16 @@ columns:
               manuel: Manuell einbinden
                 toggle:
           sidebar: fields/seitenleiste
+          lehrplaene:
+            label: Lehrpläne
+            type: structure
+            fields:
+              link:
+                label: Link (URL)
+                type: files
+              name:
+                label: Bezeichnung des Links
+                type: text
 
         
       
