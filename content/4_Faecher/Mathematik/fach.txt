@@ -8,14 +8,44 @@ Heading: "Mathematik ist das Alphabet, mit dessen Hilfe Gott das Universum besch
 
 Text:
 
-Die Mathematik ist eine Wissenschaft, die vielen anderen Wissenschaften als Werkzeug dient. War sie bereits in China und im Orient schon vor tausenden von Jahren weit entwickelt, fand sie durch die griechischen Philosophen und Mathematiker auch ihren Weg nach Europa. Bis heute spielt sie nicht nur in den Naturwissenschaften, sondern auch in den Sozial- und Geisteswissenschaften eine wichtige Rolle. So sind z.B. statistische Untersuchungen (nicht zuletzt auch wegen der seit einigen Jahren gut zu nutzenden elektronischen Hilfsmittel) wichtige Bereiche in Soziologie, Psychologie, Pädagogik etc. 
-**Die Schule hat heute die Aufgaben** 
-- die rechnerischen bzw. algebraischen Fähigkeiten der Schülerinnen und Schüler zu fördern.
-- die Problemlösungskompetenzen und Argumentationsstrukturen am Beispiel mathematischer Aufgabenstellungen zu entwickeln.
-- das logische Denken als Notwendigkeit zur Lösung auch komplexer Sachverhalte zu verdeutlichen.
-- den Umgang mit elektronischen Hilfsmitteln zu vermitteln.
-
-Dabei ist wichtig, dies auf verschiedenen, den Schülerinnen und Schülern angemessenen Wegen zu tun. Dies ist das Ziel unserer didaktischen und methodischen Bemühungen.
+[
+    {
+        "attrs": [],
+        "content": "Die Mathematik ist eine Wissenschaft, die vielen anderen Wissenschaften als Werkzeug dient. War sie bereits in China und im Orient schon vor tausenden von Jahren weit entwickelt, fand sie durch die griechischen Philosophen und Mathematiker auch ihren Weg nach Europa. Bis heute spielt sie nicht nur in den Naturwissenschaften, sondern auch in den Sozial- und Geisteswissenschaften eine wichtige Rolle. So sind z.B. statistische Untersuchungen (nicht zuletzt auch wegen der seit einigen Jahren gut zu nutzenden elektronischen Hilfsmittel) wichtige Bereiche in Soziologie, Psychologie, P\u00e4dagogik etc.<br><strong>Die Schule hat heute die Aufgaben</strong>",
+        "id": "_sD2QUTv56",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "die rechnerischen bzw. algebraischen F\u00e4higkeiten der Sch\u00fclerinnen und Sch\u00fcler zu f\u00f6rdern.",
+        "id": "_QaPofOpIC",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "die Probleml\u00f6sungskompetenzen und Argumentationsstrukturen am Beispiel mathematischer Aufgabenstellungen zu entwickeln.",
+        "id": "_27W4d5DsT",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "das logische Denken als Notwendigkeit zur L\u00f6sung auch komplexer Sachverhalte zu verdeutlichen.",
+        "id": "_8PTde5ah0",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "den Umgang mit elektronischen Hilfsmitteln zu vermitteln.",
+        "id": "_gw1kq4Jtm",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "Dabei ist wichtig, dies auf verschiedenen, den Sch\u00fclerinnen und Sch\u00fclern angemessenen Wegen zu tun. Dies ist das Ziel unserer didaktischen und methodischen Bem\u00fchungen.",
+        "id": "_lKeRiRB9c",
+        "type": "paragraph"
+    }
+]
 
 ----
 
@@ -27,4 +57,33 @@ Haupttag: Mathematik
 
 ----
 
+Hintergrundbild: 
+
+----
+
 Fotoansicht: carousel
+
+----
+
+Sidebar: 
+
+----
+
+Lehrplaene:
+
+- 
+  link:
+    - netzplan_ma_rz.pdf
+  name: Realschule
+- 
+  link:
+    - netzplan_ma_hz.pdf
+  name: Hauptschule
+- 
+  link:
+    - netzplan_ma_gz.pdf
+  name: Gymnasium
+- 
+  link:
+    - mathe_jg11.pdf
+  name: Jahrgang 11
