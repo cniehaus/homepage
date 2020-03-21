@@ -7,37 +7,40 @@
 
 <?php snippet('sidebar') ?>
 
+<?php if ($page->lehrplaene()->isNotEmpty()) : ?>
 
-<h1>Lehrpläne</h1>
+  <h1>Lehrpläne</h1>
 
-<div class="col-lg-8 col-md-10 ml-auto mr-auto">
-  <div class="table-responsive">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Lehrplanname</th>
-        </tr>
-      </thead>
-      <tbody>
-
-        <?php foreach ($page->lehrplaene()->toStructure() as $lehrplan) : ?>
+  <div class="col-lg-8 col-md-10 ml-auto mr-auto">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
           <tr>
-            <td><?= $lehrplan->name() ?></td>
-            <td class="td-actions text-right">
-              <a href="<?= $lehrplan->link()->toFile()->url() ?>">
-                Download
-                <button type="button" rel="tooltip" class="btn btn-info btn-just-icon btn-sm">
-                  <i class="material-icons">cloud_download</i>
-                </button>
-              </a>
-            </td>
+            <th>Lehrplanname</th>
           </tr>
-        <?php endforeach ?>
-        
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+
+          <?php foreach ($page->lehrplaene()->toStructure() as $lehrplan) : ?>
+            <tr>
+              <td><?= $lehrplan->name() ?></td>
+              <td class="td-actions text-right">
+                <a href="<?= $lehrplan->link()->toFile()->url() ?>">
+                  Download
+                  <button type="button" rel="tooltip" class="btn btn-info btn-just-icon btn-sm">
+                    <i class="material-icons">cloud_download</i>
+                  </button>
+                </a>
+              </td>
+            </tr>
+          <?php endforeach ?>
+
+        </tbody>
+      </table>
+    </div>
   </div>
-</div>
+
+<?php endif ?>
 
 
 <div class="row">
