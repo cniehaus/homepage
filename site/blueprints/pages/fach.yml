@@ -55,16 +55,7 @@ columns:
               gallery: Gallerie
               manuel: Manuell einbinden
                 toggle:
-          sidebar:
-            label: Weiterführende Links
-            type: structure
-            fields:
-              link:
-                label: Link (URL)
-                type: url
-              name:
-                label: Bezeichnung des Links
-                type: text
+          sidebar: fields/seitenleiste
 
         
       
