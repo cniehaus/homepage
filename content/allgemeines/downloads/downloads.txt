@@ -2,9 +2,45 @@ Title: Wichtige Downloads
 
 ----
 
+Subtitle1: Schulbuchlisten und Leihgebühren
+
+----
+
 cardtextHZ: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
 ----
 cardtextRZ: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
 ----
 cardtextGZ: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
 ----
+
+Schulbuchlisten:
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 5. Klasse
+  preis: 30€
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 6. Klasse
+  preis: 300€
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 7. Klasse
+  preis: 35€
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 8. Klasse
+  preis: 90€
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 9. Klasse
+  preis: 330€
+- 
+  link:
+    - Schulbuchlisten\schulbuchliste05GZ.pdf
+  name: 10. Klasse
+  preis: 32230€
