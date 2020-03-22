@@ -20,7 +20,7 @@
     <li class="nav-item">
         <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">
             <i class="material-icons">list</i>
-            Tasks
+            Busfahrpläne
         </a>
     </li>
 </ul>
@@ -40,10 +40,10 @@
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
-                        <tr><th>Schulbuchlisten</th></tr>
+                        <tr><th>Aktuelle Listen</th></tr>
                         </thead>
                         <tbody>
-                            <?php foreach ($page->Schulbuchlisten()->toStructure() as $liste) : ?>
+                            <?php foreach ($page->SchulbuchlistenHZ()->toStructure() as $liste) : ?>
                                 <tr>
                                 <td><?= $liste->name() ?><br>Leihgebühren: <?= $liste->preis() ?>
                                 </td>
@@ -70,21 +70,33 @@
                 <h4 class="card-title">Realschule</h4>
             </div>
             <div class="card-body">
-                <h6 class="card-subtitle mb-2 mt-1 text-muted">Card subtitle</h6>
+                <h6 class="card-subtitle mt-1 mb-2 text-muted">Braucht man den hier?</h6>
                 <p class="card-text"><?= $page->cardtextRZ() ?></p>
                 <div class="card card-nav-tabs" style="width: 100%;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="#" class="card-link">5. Klasse</a></li>
-                    <button class="btn btn-success btn-round">
-                        <i class="material-icons">cloud_download</i>  Download</button>
-                        <li class="list-group-item"><a href="#" class="card-link">6. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">7. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">8. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">9. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">10. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">11. Klasse</a></li>
-                        <li class="list-group-item"><a href="#" class="card-link">12. Klasse</a></li>
-                    </ul>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr><th>Aktuelle Listen</th></tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($page->SchulbuchlistenRZ()->toStructure() as $liste) : ?>
+                                <tr>
+                                <td><?= $liste->name() ?><br>Leihgebühren: <?= $liste->preis() ?>
+                                </td>
+                                <td class="td-actions text-right">
+                                    <a href="<?= $liste->link()->toFile()->url() ?>">
+                                    <button type="button" rel="tooltip" class="btn btn-primary btn-just-icon">
+                                        <i class="material-icons">cloud_download</i>
+                                    </button>
+                                    </a>
+                                <div class="text-left">
+                                </div>
+                                </td>
+                                </tr>
+                            <?php endforeach ?>
+                        </tbody>
+                    </table>
+                    </div>
                 </div>
             </div>
         </div>
