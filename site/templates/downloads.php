@@ -2,11 +2,8 @@
 <?php snippet('page-header') ?>
 
 <ul class="nav nav-pills nav-pills-icons" role="tablist">
-    <!--
-        color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
-    -->
     <li class="nav-item">
-        <a class="nav-link active" href="#Schulbuchlisten-1" role="tab" data-toggle="tab">
+        <a class="nav-link active" href="#schulbuchlisten-1" role="tab" data-toggle="tab">
             <i class="material-icons">dashboard</i>
             <?= $page->subtitle1() ?>
         </a>
@@ -18,7 +15,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#tasks-1" role="tab" data-toggle="tab">
+        <a class="nav-link" href="#schulbusverkehr" role="tab" data-toggle="tab">
             <i class="material-icons">list</i>
             Busfahrpläne
         </a>
@@ -180,11 +177,11 @@
       Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
       <br><br>Dramatically maintain clicks-and-mortar solutions without functional solutions.
     </div>
-    <div class="tab-pane" id="tasks-1">
+    <div class="tab-pane" id="schulbusverkehr">
         <h2><?= $page->subtitle3() ?></h2>
-       sdfsdfsdfs 
+       sdfsdfsdfs <br>
        Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-        <br><br>Dynamically innovate resource-leveling customer service for state of the art customer service.
+        <br>Dynamically innovate resource-leveling customer service for state of the art customer service.
     </div>
 </div>
 
