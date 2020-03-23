@@ -22,7 +22,7 @@
     </li>
 </ul>
 <div class="tab-content tab-space">
-    <div class="tab-pane active" id="Schulbuchlisten-1">
+    <div class="tab-pane active" id="schulbuchlisten-1">
         <h2><?= $page->subtitle1() ?></h2>
         <h4><?= $page->Subtitletext1() ?></h4>
         <div class="d-flex justify-content-around mt-2">
