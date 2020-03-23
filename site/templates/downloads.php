@@ -98,74 +98,37 @@
             </div>
         </div>
 
-            <div class="card" style="width: 24rem;">
+        <div class="card" style="width: 24rem;">
             <div class="card-header card-header-danger">
                 <h4 class="card-title">Gymnasium</h4>
             </div>
             <div class="card-body">
                 <h6 class="card-subtitle mb-2 mt-1 text-muted">Card subtitle</h6>
                 <p class="card-text"><?= $page->cardtextGZ() ?></p>
-                <a href="javascript:;" class="card-link">Card link</a>
-                <a href="javascript:;" class="card-link">Another link</a>
-                <div class="card card-nav-tabs card-plain mt-5">
-                    <div class="card-header card-header-warning">
-                        <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-                        <div class="nav-tabs-navigation">
-                            <div class="nav-tabs-wrapper">
-                                <ul class="nav nav-tabs" data-tabs="tabs">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="#5" data-toggle="tab">5. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#6" data-toggle="tab">6. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#7" data-toggle="tab">7. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#8" data-toggle="tab">8. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#9" data-toggle="tab">9. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#10" data-toggle="tab">10. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#11" data-toggle="tab">11. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#12" data-toggle="tab">12. Klasse</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#13" data-toggle="tab">13. Klasse</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><div class="card-body ">
-                        <div class="tab-content text-center">
-                            <div class="tab-pane active" id="5">
-                                Hier die Schulbuch Pläne für die 5. Klasse. Die kosten 30€                    
-                                <button class="btn btn-success">
-                                        <i class="material-icons">cloud_download</i>  Download</button>
-                            </div>
-                            <div class="tab-pane" id="6">
-                                <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                            </div>
-                            <div class="tab-pane" id="7">
-                                asdasd
-                            </div>
-                            <div class="tab-pane" id="8">
-                                asdaasdassd
-                            </div>
-                            <div class="tab-pane" id="9">
-                                assdsdfdasd
-                            </div>
-                            <div class="tab-pane" id="10">
-                                asdasdfscxvxsd
-                            </div>
-                        </div>
+                <div class="card card-nav-tabs" style="width: 100%;">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr><th>Aktuelle Listen</th></tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($page->SchulbuchlistenHZ()->toStructure() as $liste) : ?>
+                                    <tr>
+                                    <td><?= $liste->name() ?><br>Leihgebühren: <?= $liste->preis() ?>
+                                    </td>
+                                    <td class="td-actions text-right">
+                                        <a href="<?= $liste->link()->toFile()->url() ?>">
+                                        <button type="button" rel="tooltip" class="btn btn-warning btn-just-icon">
+                                            <i class="material-icons">cloud_download</i>
+                                        </button>
+                                        </a>
+                                    <div class="text-left">
+                                    </div>
+                                    </td>
+                                    </tr>
+                                <?php endforeach ?>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
