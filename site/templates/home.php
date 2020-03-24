@@ -126,7 +126,7 @@
         <?php snippet('box-presse') ?>
         <?php snippet('box-foerderverein') ?>
         <?php snippet('box-links') ?>
-
+        <?php snippet('box-wetter') ?>
       </div>
 
 
