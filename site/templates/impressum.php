@@ -98,8 +98,3 @@
 </div>
 
 <?php snippet('footer') ?>
-
-
-</div>
-
-<?php snippet('footer') ?>
