@@ -2,11 +2,92 @@ Title: Erdkunde
 
 ----
 
-Heading: Die Erde ist eine Kugel
+Heading: Erdkunde ist viel mehr als „Stadt-Land-Fluss“
 
 ----
 
-Text: 
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Einige Zitate m\u00f6gen dies verdeutlichen:",
+        "id": "_KcR1MfxPS",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_n7ELBMqb7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<table class=\"MsoTableGrid\" border=\"1\" cellspacing=\"0\" cellpadding=\"0&#10;\">\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\" align=\"center\">Zitat<o:p></o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\" align=\"center\">Unterrichtsinhalte<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eMailand oder Madrid, Hauptsache Italien.\u201c* (Andreas\n M\u00f6ller, Fu\u00dfballer)<o:p></o:p></p>\n <p class=\"MsoNormal\"><o:p>&nbsp;</o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\"><o:p>&nbsp;</o:p></p>\n <p class=\"MsoNormal\">F\u00e4higkeiten zur r\u00e4umlichen Orientierung<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eWohlt\u00e4tig ist des Feuers Macht, wenn sie der Mensch\n bez\u00e4hmt, bewacht [\u2026] Doch furchtbar wird die Himmelskraft, wenn sie der\n Fessel sich entrafft.\u201c (Friedrich Schiller: Das Lied von der Glocke)<o:p></o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\"><o:p>&nbsp;</o:p></p>\n <p class=\"MsoNormal\">Naturrisiken, Klimawandel, Energienutzung, Umweltschutz<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eNach Golde dr\u00e4ngt, am Golde h\u00e4ngt doch alles.\u201c <span&#10; lang=\"EN-GB\">(W. v. Goethe: Faust I)<o:p></o:p></span&#10;></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">Rohstoffe und Ressourcennutzung, globalisierte und\n arbeitsteilige Wirtschaft, Verkehr, Vernetzung, Verteilungsk\u00e4mpfe<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eHart im Raume sto\u00dfen sich die Sachen.\u201c (Fr. Schiller:\n Wallensteins Tod)<o:p></o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">R\u00e4umliche Planung im Konflikt zwischen unterschiedlichen\n Nutzungsanspr\u00fcchen und im Spannungsfeld zwischen \u00d6konomie und \u00d6kologie, der\n Mensch als Gestalter des Raumes<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eWer z\u00e4hlt die V\u00f6lker, nennt die Namen?\u201c (Fr. Schiller:\n Die Kraniche des Ibykus)<o:p></o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">Verteilung und Entwicklung der Weltbev\u00f6lkerung,\n Verst\u00e4dterung und Migration<o:p></o:p></p>\n </td>\n </tr>\n <tr>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">\u201eDer kluge Mann baut vor.\u201c [Anmerk.: Und die kluge Frau\n nat\u00fcrlich auch!] (Fr. Schiller: Wilhelm Tell)<o:p></o:p></p>\n </td>\n <td width=\"307\" valign=\"top\">\n <p class=\"MsoNormal\">Verantwortungsbewusste Bewahrung der gegenw\u00e4rtigen und\n zuk\u00fcnftigen Welt, Vorsorge, Erde als komplexes System, Nachhaltigkeits- und\n Umweltbildung<o:p></o:p></p>\n </td>\n </tr>\n</table>",
+        "id": "_xLwTWVx3I",
+        "type": "kirbytext"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_q7amlLd7v",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Um es auf eine kurze Formel zu bringen befasst sich die Erdkunde mit <strong>Mensch-Umweltbeziehungen</strong> in unterschiedlichen <strong>Raumkontexten</strong> (lokal, regional, global).",
+        "id": "_PjYWD7Ndk",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "W\u00e4hrend es im Klassenraum um das Benennen von Dingen, das \u00c4u\u00dfern von Vermutungen, das Erkl\u00e4ren von Zusammenh\u00e4ngen und das Bewerten von Sachverhalten geht, verbunden mit fachspezifischen Methoden, machen <strong>Exkursionen </strong>eine Hinwendung zur \u201eWelt da drau\u00dfen\u201c <strong>erfahrbar und begreifbar</strong>. Auch bietet das Fach Erdkunde Potenzial zum Aufbau einer umfassenden Medienkompetenz. Digitale Geoinformationen geh\u00f6ren zu unserer Lebenswirklichkeit, doch der Umgang mit ihnen und die kritische Reflexion muss erst erlernt werden. Somit ist das Fach Erdkunde auch zentral f\u00fcr die Bew\u00e4ltigung der Digitalisierung.",
+        "id": "_DeXTdzTWG",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Dar\u00fcber hinaus bietet unser Fach zahlreiche M\u00f6glichkeiten hochaktuelle Themen, die die \u00d6ffentlichkeit bewegen zu vertiefen, damit z.B. Klimawandel, Plastikverm\u00fcllung des \u00d6kosystems Ozean, Migration keine abstrakten Schlagworte bleiben. Wie kaum ein anderes Schulfach sind Nachhaltigkeitsgedanken in allen Jahrgangsstufen verankert. Auch legen wir gro\u00dfen Wert auf F\u00e4cher verkn\u00fcpfenden Unterricht, was in der Sekundarstufe I im gesellschaftswissenschaftlichen F\u00e4cherkanon gew\u00e4hrleistet wird und in Jahrgang 11 im Wahlpflichtbereich nutzen wir Synergien mit dem Fach Chemie, was aktuell unter dem Thema:",
+        "id": "_ii3VPwvDx",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Mobilit\u00e4t der Zukunft",
+        "id": "_5W8vThS7x",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "- smart cities geschieht. In der Qualifikationsstufe wird von zahlreichen Sch\u00fcler*innen die M\u00f6glichkeit genutzt das Fach Erdkunde als f\u00fcnfst\u00fcndigen Schwerpunktkurs (Kurs auf erh\u00f6htem Anforderungsniveau) zu belegen. Auch Seminarf\u00e4cher bedienen sich immer wieder bei der Themenwahl an erdkundlichen Inhalten, woraus sich geographisch gepr\u00e4gte Facharbeitsthemen mit Aktualit\u00e4tsbezug und Zukunftsrelevanz ergeben, was oftmals auch den Reiz ausmacht.",
+        "id": "_09ZfkBMEN",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<strong>Fazit:</strong>",
+        "id": "_C3zp0kG1v",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die Erdkunde begreift unseren Planeten als System und <strong>Lebenswelt</strong>, die es als lebenswert zu erhalten gilt. Somit ist <strong>Erdkunde </strong>ein zeitgem\u00e4\u00dfes und notwendiges <strong>Fach des 21. Jahrhunderts</strong>.",
+        "id": "_4aHkNWnEq",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Diesem Anspruch stellen wir uns als Erdkunde-Fachschaft sehr gerne:",
+        "id": "_B43OO6ub2",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Frau Altmann, Frau Apel, Frau Hallemeier, Frau Kehrberg, Frau Krolik, Herr Lehners, Herr Niebur, Herr Phillips, Herr Ubben-Rademacher, Frau Westerholt, Frau Wolber und weitere erdkundlich begeisterte Kollginnen und Kollegen",
+        "id": "_j95cnmKmr",
+        "type": "paragraph"
+    }
+]
 
 ----
 
@@ -14,8 +95,24 @@ Gallery:
 
 ----
 
+Lehrplantext: 
+
+----
+
+Lehrplaene: 
+
+----
+
 Haupttag: Erdkunde
 
 ----
 
+Hintergrundbild: 
+
+----
+
 Fotoansicht: gallery
+
+----
+
+Sidebar: 
