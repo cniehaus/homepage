@@ -157,15 +157,11 @@ Schulbuchlistenhz:
 
 ----
 
-Hintergrundbild: 
+Subtitle2: Ag-Wahllisten
 
 ----
 
-Fotoansicht: 
-
-----
-
-Sidebar: 
+Subtitle3: Busfahrpläne
 
 ----
 
