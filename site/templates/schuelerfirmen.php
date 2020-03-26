@@ -8,9 +8,11 @@
 
 <?php foreach ($page->children() as $sf) : ?>
 
-  <div class="card card-background" style="background-image: url(<?= $sf->bild()->url() ?>)">
+  <div class="card card-background" style="background-image: url('http://kirby/media/pages/allgemeines/schulstruktur/schuelerfirmen/imker/4143560852-1584350122/imker.jpg');">
+
+<!-- warum auch immer geht das hier nicht... daher erstmal hardcoden -->
+<!-- $sf->bild()->toFile() -->
     <div class="card-body">
-      <p><?= $sf->bild()->toFile() ?></p>
       <h6 class="card-category text-info"><?= $sf->Heading() ?></h6>
       <a href="#pablo">
         <h3 class="card-title"><?= $sf->Title() ?></h3>
