@@ -61,6 +61,7 @@
       <div class="list-group">
         <a href="<?= page('Faecher/geschichte')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">today</i>Geschichte</a></li>
         <a href="<?= page('Faecher/politik-wirtschaft')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">show_chart</i>Politik-Wirtschaft</a></li>
+        <a href="<?= page('Faecher/wirtschaft')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">show_chart</i>Wirtschaft</a></li>
         <a href="<?= page('Faecher/erdkunde')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">public</i>Erdkunde</a></li>
         <a href="<?= page('Faecher/religion')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">menu_book</i>Religion</a></li>
         <a href="<?= page('Faecher/WuN')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">book</i>Werte und Normen</a></li>

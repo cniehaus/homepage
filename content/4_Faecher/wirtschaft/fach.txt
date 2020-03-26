@@ -1,0 +1,76 @@
+Title: Wirtschaft
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Das Fach Wirtschaft wird im Haupt- und Realschulzweig von Klasse 8 bis 10 unterrichtet. Der <br>Lehrplan enth\u00e4lt Themenbereiche wie die Grundlagen des Wirtschaftens, Wirtschaftskreislauf, <br>Rolle der privaten Haushalte, Unternehmen und des Staates, Globalisierung, rechtliche Fragen <br>uvm. Im 10. Jahrgang bieten wir im Rahmen der Pro\ufb01lbildung an der KGS das Pro\ufb01l Wirtschaft an, in dem verschiedene Wirtschaftsthemen intensiver bearbeitet werden k\u00f6nnen. (s. auch Pro\ufb01le an der KGS)",
+        "id": "_t03eiqHzT",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Im Gymnasialzweig kann man das Fach Wirtschaft im Rahmen eines Wahlp\ufb02ichtkurses in <br>Kombination mit Informatik ebenfalls ab Klasse 8 f\u00fcr drei Jahrg\u00e4nge w\u00e4hlen. Teilnahme an <br>Planspielen, Betriebserkundungen und Recherche zu regionalen Unternehmen geh\u00f6ren ebenso <br>dazu wie die Vermittlung von Basiswissen und Wissenswertem aus allen Bereiche der Wirtschaft <br>wie der Entwicklung von M\u00e4rkten, der Geschichte des Geldes, der Rolle von Jugendlichen als <br>Konsumenten und Arbeitskr\u00e4ften, rechtlicher Regelungen. Erste Einblicke k\u00f6nnen auch in die <br>Themen Aktien und B\u00f6rsen sowie Steuern gegeben werden.",
+        "id": "_b9JiiWz3l",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "In der Oberstufe bieten wir im 11. Jahrgang einen halbj\u00e4hrigen Projektkurs Wirtschaft an. Wer <br>Interesse an Wirtschaft hat, kann hier frei von Klausurendruck Antworten auf seine Fragen zum <br>Thema Wirtschaft \ufb01nden. Vorkenntnisse sind nicht n\u00f6tig.",
+        "id": "_UphKVEAIk",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "In Klasse 12 und 13 gibt es einen Grundkurs Wirtschaft. Den kann man besuchen auch ohne <br>vorher andere Wirtschaftskurse belegt zu haben. Alles, was Sch\u00fclerinnen und Sch\u00fcler an <br>Wirtschaft interessiert, kann hier thematisiert werden: Wirtschaftssysteme, B\u00f6rse, <br>Selbstst\u00e4ndigkeit, die eigenen Finanzen k\u00f6nnen genau so Bestandteil des Unterrichts sein wie die <br>Vertiefung und Erweiterung von wirtschaftlichem Grundwissen.",
+        "id": "_q2hiliKAT",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Ein gemeinsames Schwerpunktthema des Wirtschaftsunterrichts in allen Schulzweigen und <br>Jahrg\u00e4ngen ist die beru\ufb02iche Orientierung.",
+        "id": "_kCeRLSLXF",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<br>Am Herbartgymnasium kann man das Fach Wirtschaftslehre in Jahrgang 11 als Wahlfach f\u00fcr ein Halbjahr belegen. Diese Belegung ist <br>eine Voraussetzung, um das Fach in der Quali\ufb01kationsphase anzuw\u00e4hlen. Dabei setzen wir uns in Jahrgang 11 vertiefend mit u.a. <br>folgenden Fragestellungen auseinander:<br>\u2022 Was sind die Grundlagen des Wirtschaftens?<br>\u2022 Wie funktioniert ein Wirtschaftskreislauf?<br>\u2022 Welche Rolle spielen die privaten Haushalte in diesem Gebilde?<br>\u2022 Woher beziehen die privaten Haushalte ihre Einkommen?<br>\u2022 Wie ist dieses in Deutschland verteilt und ist diese Verteilung gerecht?<br>\u2022 Wie funktionieren M\u00e4rkte und wie entstehen Preise?<br>Parallel zu diesen Inhalten nehmen wir jedes Jahr am Planspiel B\u00f6rse teil, das von der LzO organisiert und durchgef\u00fchrt wird. \u00dcber elf <br>Wochen gibt es die M\u00f6glichkeit, im Team mit cleveren Anlagestrategien das virtuelle Startkapital von 50.000 Euro an der B\u00f6rse zu <br>vermehren. Den besten Teams winken verschiedene Preise.<br>Wer am HGO das Wahlfach Wirtschaftslehre belegt, der ben\u00f6tigt keine Vorkenntnisse, sollte aber Interesse haben, sich mit <br>wirtschaftlichen Zusammenh\u00e4ngen auseinanderzusetzen.",
+        "id": "_zKrHYtoQA",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery: 
+
+----
+
+Lehrplantext: 
+
+----
+
+Lehrplaene: 
+
+----
+
+Haupttag: Wirtschaft
+
+----
+
+Hintergrundbild: 
+
+----
+
+Fotoansicht: gallery
+
+----
+
+Sidebar: 
