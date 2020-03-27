@@ -11,7 +11,6 @@
     </div>
     <div class="card-body">
       <div class="list-group">
-        <a href="<?= page('Faecher/deutsch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
         <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Englisch</a></li>
         <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Französisch</a></li>
         <a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Spanisch</a></li>
@@ -30,6 +29,8 @@
         <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">music_note</i>Musik</a></li>
         <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">color_lens</i>Kunst</a></li>
         <a href="<?= page('Faecher/ds')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">theaters</i>Darstellendes Spiel</a></li>
+        <a href="<?= page('Faecher/tg')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">domain</i>Textiles Gestalten</a></li>
+        <a href="<?= page('Faecher/werken')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">gavel</i>Gestaltendes Werken</a></li>
       </div>
     </div>
   </div>
@@ -42,7 +43,7 @@
     </div>
     <div class="card-body">
       <div class="list-group">
-        <a href="<?= page('Faecher/Mathematik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">exposure</i>Mathe</a>
+        <a href="<?= page('Faecher/Mathematik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">exposure</i>Mathematik</a>
       </div>
     </div>
   </div>
@@ -69,7 +70,7 @@
     </div>
     <div class="card-body">
       <div class="list-group">
-      <a href="<?= page('Faecher/Sport')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">directions_run</i>Sport</a></li>
+      <a href="<?= page('Faecher/deutsch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
       </div>
     </div>
   </div>
