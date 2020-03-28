@@ -1,6 +1,7 @@
 <div class="card card-pricing">
     <div class="card-body ">
-        <h4 class="card-category text-primary">Wetterstation der Schule</h4>
+        <h4 class="card-category text-primary" style="line-height:0.1em">Wetterstation der Schule</h4>
+        <h7>... unterstützt vom Förderverein</h7>
         <div class="text-left">
             <?php
             global $arr;
@@ -39,12 +40,12 @@
                 $wochentag = array("So", "Mo", "Di", "Mi", "Do", "Fr", "Sa");
                 return $wochentag[$tag] . ' ';
             }
-            $content  =  "<table cellSpacing=\"1\" cellPadding=\"1\" width=\"100%\" border=\"0\">";
-            $content  .= "  <tr>";
-            $content  .= "    <left>" . "... unterstützt vom Förderverein.</left>";
-            $content  .= "  </tr>";
+
             $windchill = komma($arr["actual_wind0_chill_c"]) . "°C";
             $temp = komma($arr["actual_th0_temp_c"]) . "°C";
+            if ($temp == "---°C") {
+                $temp = "<span style=\"font-weight: bold; color: red;\">Leider gibt es eine Störung bei der Messwerterfassung.<br>Der Temperatursensor ist ausgefallen. Wir arbeiten dran ...</span><br>";
+            }
             $regen = komma($arr["actual_rain0_rate_mm"]) . "mm";
             $regen_tag = komma($arr["day1_rain0_total_mm"]) . "mm";
             $feucht = leer($arr["actual_th0_hum_rel"]) . "%";
@@ -61,57 +62,85 @@
             $abenddaemmerung = leer($arr["actual_sunset_civiltwilight_local"]);
             $mondaufgang = leer($arr["actual_moonset_standard_local"]);
             $monduntergang = leer($arr["actual_moonrise_standard_local"]);
-            $mondprozent = komma($arr["actual_lunar_phase_percentage"]);
+            $mondprozent = komma($arr["actual_lunar_phase_percentage"]) . "%";
             $messzeitpunkt_tag = leer($arr["actual_date0_puredate_local"]);
             $messzeitpunkt_zeit = leer(substr($arr["actual_date0_time_local"], 0, 5)) . ' Uhr';
             $messzeitpunkt = wotag($arr["actual_date0_dayofweek_local"]) . $messzeitpunkt_tag . ' ' . $messzeitpunkt_zeit;
             $vorhersage = leer(str_replace('_', ' ', $arr["actual_thb0_fc_textde"]));
-            $content  .= "  <tr>";
-            $content  .= "    <td style=\"font-family: Verdana,Helvetica; font-size: 11px\">";
-            $content  .= "    <b>Messzeitpunkt</b>: <br>" . $messzeitpunkt . "<br><br>";
-            if ($temp == "---°C") {
-                $content  .= "    <span style=\"font-weight: bold; color: red;\">Leider gibt es eine Störung bei der Messwerterfassung.<br>Der Temperatursensor ist ausgefallen. Wir arbeiten dran ...</span><br>";
-            }
-            $content  .= "    <b>Temperatur</b>: " . $temp . "<br>";
-            $content  .= "    <b>Gef&uuml;hlte Temp.</b>: " . $windchill . "<br>";
-            $content  .= "    <b>Feuchtigkeit</b>: " . $feucht . "<br>";
-            $content  .= "    <b>Luftdruck</b>: " . $press . "<br>";
-            $content  .= "    <b>Regen aktuell</b>: " . $regen . "<br>";
-            $content  .= "    <b>Regen am Tag</b>: " . $regen_tag . "<br>";
-            $content  .= "    <hr>";
-            //Wind
-            $content  .= "    <b>Windrichtung</b>: " . $winddir . "<br>";
-            $content  .= "    <b>Windstärke</b>: " . $wind . "<br><hr>";
-
-            $content  .= "    <b>Sonnenaufgang</b>: " . $sonnenaufgang . "<br>";
-            $content  .= "    <b>Sonnenuntergang</b>: " . $sonnenuntergang . "<br>";
-
-            $content  .= "    <b>UV-Index</b>: " . $uv_index . "<br>";
-            $content  .= "    <b>Intensität</b>: " . $sonne_watt . "<br>";
-            $content  .= "    <hr>";
-            $content  .= "</td>";
-            $content  .= "</tr>";
-            $content  .= "    <tr><td><b>Mondaufgang</b>: " . $mondaufgang . "<br></td></tr>";
-            $content  .= "    <tr><td><b>Monduntergang</b>: " . $monduntergang . "<br></td></tr>";
-            $content  .= "    <tr><td><b>Mondphase</b>: " . $mondprozent . " %<br></td></tr>";
-
-            $content  .= "  <tr>";
-            $content  .= "    <td vAlign=\"top\" style=\"font-family: Verdana,Helvetica; font-size: 11px\">";
-            $content  .= "    <center><img src=$pfad.\'moonphase.png></center></td></tr>";
-            $content  .= "<tr><td>";
-            $content  .= "<hr>";
-            $content  .= "</td>";
-
-            $content  .= "    <tr><td><center><b>Vorhersage</b><br></center></td></tr>";
-
-            $content  .= "  <tr>";
-            $content  .= "    <td vAlign=\"top\" style=\"font-family: Verdana,Helvetica; font-size: 11px\">";
-            $content  .= "    <center><img width=\"40%\" height=\"40%\" src=$pfad.\'forecast0.png></center></td></tr>";
-            $content  .= "   <tr><td style=\"font-family: Verdana,Helvetica; font-size: 8px; line-height: 8px\">" . $vorhersage . "<br></td></tr>";
-            $content  .= "</table>";
-            echo $content;
             ?>
-        </div>
+            <!--neuer Versuch -->
 
+            <table style="line-height: 1.2em;">
+                <tr>
+                    <th>Messzeitpunkt</th>
+                </tr>
+                <tr>
+                    <td><?= $messzeitpunkt ?></td>
+                </tr>
+                <tr>
+                    <td><b>Temperatur: </b><?= $temp ?></td>
+                </tr>
+                <tr>
+                    <td><b>Gefühlte Temp.: </b><?= $windchill ?></td>
+                </tr>
+                <tr>
+                    <td><b>Feuchtigkeit: </b><?= $feucht ?></td>
+                </tr>
+                <tr>
+                    <td><b>Luftdruck: </b><?= $press ?></td>
+                </tr>
+                <tr>
+                    <td><b>Regen aktuell: </b><?= $regen ?></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc"><b>Regen am Tag: </b><?= $regen_tag ?></td>
+                </tr>
+                <tr>
+                    <td><b>Windrichtung: </b><?= $winddir ?></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc"><b>Windstärke: </b><?= $wind ?></td>
+                </tr>
+                <tr>
+                    <td><b>Sonnenaufgang: </b><?= $sonnenaufgang ?></td>
+                </tr>
+                <tr>
+                    <td><b>Sonnenuntergang: </b><?= $sonnenuntergang ?></td>
+                </tr>
+                <tr>
+                    <td><b>UV-Index: </b><?= $uv_index ?></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc"><b>Intensität: </b><?= $sonne_watt ?></td>
+                </tr>
+                <tr>
+                    <td><b>Mondaufgang: </b><?= $mondaufgang ?></td>
+                </tr>
+                <tr>
+                    <td><b>Monduntergang: </b><?= $monduntergang ?></td>
+                </tr>
+                <tr>
+                    <td><b>Mondphase: </b><?= $mondprozent ?></td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid #ccc">
+                        <center><img src=<?= $pfad ?>.\'moonphase.png></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>
+                            <center>Vorhersage</center>
+                        </b></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><img width="40%" height="40%" src=<?= $pfad ?>.\'forecast0.png></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size: 8px; line-height: 1em"><?= $vorhersage ?></td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
