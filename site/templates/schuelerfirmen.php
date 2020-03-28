@@ -2,13 +2,13 @@
 
 <?php snippet('page-header') ?>
 
+<?php snippet('sidebar') ?>
+
 
 
 <?php foreach ($page->children() as $sf) : ?>
-
-  <div class="card card-background" style="background-image: url(<?= $sf->bild()->url() ?>)">
+  <div class="card card-background" style="background-image: url( <?= $sf->bild()->url() ?> );">
     <div class="card-body">
-      <p><?= $sf->bild()->toFile() ?></p>
       <h6 class="card-category text-info"><?= $sf->Heading() ?></h6>
       <a href="#pablo">
         <h3 class="card-title"><?= $sf->Title() ?></h3>

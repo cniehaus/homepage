@@ -2,17 +2,76 @@ Title: Physik
 
 ----
 
-Heading: ...die Lehre von Spannenden Dingen
+Heading: unendliche Welten zwischen Elektronen und Galaxien
 
 ----
 
-Text: Die Physik ist eine Naturwissenschaft, die grundlegende Phänomene der Natur untersucht. Um deren Eigenschaften und Verhalten anhand von quantitativen Modellen und Gesetzmäßigkeiten zu erklären, befasst sie sich insbesondere mit Materie und Energie und deren Wechselwirkungen in Raum und Zeit.
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_5krd210Jm",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die Physik untersucht Erscheinungen der unbelebten Natur, zum Beispiel: <br>Wie wirken Magnete? Was ist Licht? Was ist kleiner als ein Atom? <br>Wie bringt elektrischer Strom den K\u00fcchenmixer zum Drehen? <br>Wie kommt es zum Treibhauseffekt?<br>Und was kann ich tun, um ihn zu bremsen?<br>",
+        "id": "_r2x8wkq0d",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Zwei gro\u00dfe Pers\u00f6nlichkeiten der Physik sagten zu ihrem eigenen Fach folgendes:",
+        "id": "_eb4ZKRx0B",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "\u201eSchau tief in die Natur, und dann wirst du alles besser verstehen.\" <br>Albert Einstein",
+        "id": "_5p4v607e3",
+        "type": "blockquote"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_dmfzm5obb",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "\u201eEin Gelehrter in seinem Laboratorium ist nicht nur ein Techniker; <br>er steht auch vor den Naturgesetzen wie einKind vor der M\u00e4rchenwelt.\u201c<br>Marie Curie",
+        "id": "_pznwg6bhp",
+        "type": "blockquote"
+    },
+    {
+        "attrs": [],
+        "content": "\u201eIch habe keine besondere Begabung, sondern bin nur leidenschaftlich neugierig.\u201c <br>Albert Einstein<br><br>",
+        "id": "_ns3rzawks",
+        "type": "blockquote"
+    },
+    {
+        "attrs": [],
+        "content": "Der Physikunterricht an der KGS Rastede hat das Ziel, den Sch\u00fclerinnen und Sch\u00fclern Naturph\u00e4nomene nahezubringen und diese experimentell und theoretisch zu untersuchen. Im Wahlpflichtbereich bietet sich zudem die M\u00f6glichkeit, physikalische und technische Fragestellungen miteinander zu verkn\u00fcpfen und z.B. projektartig solarbetriebene Fahrzeuge zu bauen. Hier ein paar Eindr\u00fccke:",
+        "id": "_UxxzTog1V",
+        "type": "paragraph"
+    }
+]
 
 ----
 
 Gallery:
 
-- physik.jpg
+- 01.jpg
+
+----
+
+Lehrplantext: 
+
+----
+
+Lehrplaene: 
 
 ----
 
@@ -20,4 +79,21 @@ Haupttag: Physik
 
 ----
 
-Fotoansicht: gallery
+Hintergrundbild: 
+
+----
+
+Fotoansicht: carousel
+
+----
+
+Sidebar:
+
+- 
+  link: >
+    http://db2.nibis.de/1db/cuvo/datei/kc_naturwissenschaften_hs.pdf
+  name: KC Hauptschule
+- 
+  link: >
+    http://db2.nibis.de/1db/cuvo/datei/kc_naturwissenschaften_rs.pdf
+  name: KC Realschule
