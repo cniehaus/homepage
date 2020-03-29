@@ -154,23 +154,3 @@ Schulbuchlistenhz:
       allgemeines/downloads/Schulbuchlisten/schulbuchliste10GZ.pdf
   name: 10. Klasse
   preis: 322.30€
-
-----
-
-Subtitle2: Ag-Wahllisten
-
-----
-
-Subtitle3: Busfahrpläne
-
-----
-
-Cardtexthz: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
-
-----
-
-Cardtextrz: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
-
-----
-
-Cardtextgz: In den Leihgebühren sind die obligatorischen Buchumschläge enthalten, d.h. die Bücher werden mit Buchumschlag entliehen.
