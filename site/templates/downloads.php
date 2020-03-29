@@ -2,8 +2,7 @@
 <?php snippet('page-header') ?>
 
 
-<h2><?= $page->subtitle1() ?></h2>
-<h4><?= $page->Subtitletext1() ?></h4>
+<p><?= $page->Subtitletext1() ?></p>
 <div class="row row-cols-3">
     <div class="col-lg-4 ml-auto mr-auto">
         <div class="card">
