@@ -2,7 +2,7 @@ Title: Chemie
 
 ----
 
-Heading: Chemie ist der Knaller
+Heading: „Chemie ist, wenn es knallt und stinkt!“ – Aber wir können auch faszinierende Farben und schöne Lichter!
 
 ----
 
@@ -11,32 +11,62 @@ Text:
 [
     {
         "attrs": [],
-        "content": "\u201eChemie ist, wenn es knallt und stinkt!\u201c \u2013 Aber wir k\u00f6nnen auch faszinierende Farben und sch\u00f6ne Lichter!",
-        "id": "_dma7ganxb",
-        "type": "blockquote"
-    },
-    {
-        "attrs": [],
         "content": "Doch die Chemie steht nicht nur f\u00fcr knallige Effekte, die einem aus Schulversuchen in Erinnerung bleiben. Der Begriff \u201eChemie\u201c wird h\u00e4ufig auch im Gegensatz zu \u201enat\u00fcrlich\u201c oder \u201ebiologisch\u201c gebraucht: Wenn man \u201eChemie verwendet\u201c, benutzt man aggressive, gef\u00e4hrliche Mittel, die mithilfe von ein bisschen Zauberei z.B. einen Fleck entfernen!",
         "id": "_06VsMAWqv",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Ziel des Chemieunterrichts ist es daher unter anderem, diese allt\u00e4gliche \u2013 meist negative \u2013 Behaftung des Begriffs zu hinterfragen und zu reflektieren. Chemische Prozesse sind im Alltag omnipr\u00e4sent: Neben den grundlegenden biochemischen Ph\u00e4nomenen, auf denen das Leben an sich beruht, macht sich der Mensch st\u00e4ndig chemische Vorg\u00e4nge zunutze, z.B. bei der Zubereitung von Nahrung (Angrillen im Sommer, dem Fondue im Winter), der Hygiene (Fleckentfernung, allt\u00e4gliches H\u00e4ndewaschen), bei der Fortbewegung (Treibstoffe und Antriebsarten) oder in der Freizeit (Akkutechnik in elektronischen Ger\u00e4ten, Funktionsmaterialien im Sport). Die Kenntnis dieser Prozesse \u2013 so wie es auch hei\u00dft: der stofflichen Ver\u00e4nderungsprozesse \u2013 bietet die Chance, nachhaltige Alternativen f\u00fcr bisher verwendete Mittel zu finden. Diese orientieren sich oft sogar an der Natur selber. So arbeitet die Chemie nicht nur auf der Stoff- und Strukturebene mit der Natur zusammen, sondern hilft auch, diese zu bewahren.",
-        "id": "_NBXQrZfLz",
+        "content": "Ziel des Chemieunterrichts ist es daher unter anderem, dieses allt\u00e4gliche \u2013 meist negative \u2013 Verst\u00e4ndnis zu hinterfragen und zu reflektieren. Chemische Prozesse sind im Alltag \u00fcberall zu finden:",
+        "id": "_qs6at9lcy",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Die Chemie besch\u00e4ftigt sich folglich mit stofflichen Ver\u00e4nderungsprozessen. Hinter diesem sperrigen Begriff verbergen sich Ph\u00e4nomene rund um chemische Reaktionen. Die Entstehung eines neuen Stoffes mit neuen Eigenschaften stellt hierbei den Schl\u00fcsselaspekt von chemischen Prozessen dar. Im Fach Chemie sollen diese Ph\u00e4nomene experimentell und theoretisch durchdrungen werden, wobei meist ein probleml\u00f6sender Kontext im Zentrum der Stunde/der Unterrichtseinheit steht.",
-        "id": "_Km1ZwQART",
+        "content": "das Leben an sich beruht auf (bio)chemischen Vorg\u00e4ngen,",
+        "id": "_msdf26sc9",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "bei der Zubereitung von Nahrung (Angrillen im Sommer, dem Fondue im Winter),",
+        "id": "_6fzin0mq9",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "bei der Hygiene (Fleckentfernung, allt\u00e4gliches H\u00e4ndewaschen),",
+        "id": "_zx3fdscfm",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "bei der Fortbewegung (Treibstoffe und Antriebsarten)",
+        "id": "_75i8jnn55",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "in der Freizeit (Akkutechnik in elektronischen Ger\u00e4ten, Funktionsmaterialien im Sport).",
+        "id": "_rhko714q7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die Chemie erkl\u00e4rt diese Ver\u00e4nderungsprozesse und bietet die Chance, nachhaltige Alternativen f\u00fcr bisher verwendete Mittel zu finden. Diese orientieren sich oft sogar an der Natur selber. So arbeitet die Chemie nicht nur auf der Stoff- und Strukturebene mit der Natur zusammen, sondern hilft auch, diese zu bewahren.",
+        "id": "_e6eugme7y",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<strong>Chemieunterricht</strong>",
+        "id": "_7b3vll1fi",
         "type": "paragraph"
     },
     {
         "attrs": [],
         "content": "Das Fach Chemie wird von Jahrgang 6 an in allen Schulzweigen durchgehend unterrichtet, in der Mittelstufe h\u00e4ufig nur epochal. In den Abschlussklassen kann es als m\u00fcndliches Pr\u00fcfungsfach belegt werden. Seit vielen Jahren werden in der gymnasialen Oberstufe Kurse auf erh\u00f6htem Anforderungsniveau (\u201eLeistungskurse\u201c, P1 \u2013 P3) angeboten, nach der Umstellung auf G9 gibt es auch wieder Kurse auf grundlegendem Anforderungsniveau mit der M\u00f6glichkeit zur schriftlichen oder m\u00fcndlichen Pr\u00fcfung (P4/P5-Grundkurse).",
-        "id": "_aOjnLuK4Y",
+        "id": "_hl9rawdsq",
         "type": "paragraph"
     },
     {
@@ -47,7 +77,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Auch im AG-Bereich gibt es Angebote, z.B. die Experimentier-AG f\u00fcr die Jahrg\u00e4nge 5/6 bei Frau K\u00fchn und die Umwelt-AG bei Herrn Kayser und Herrn Dr. Fach. Im Rahmen der Umweltwoche in Jg. 7 werden in vielen Projekten chemische Fragestellungen angesprochen.",
+        "content": "Auch im AG-Bereich gibt es Angebote, z.B. die Experimentier-AG f\u00fcr die Jahrg\u00e4nge 5/6 und die Umwelt-AG. Im Rahmen der Umweltwoche in Jg. 7 werden in vielen Projekten chemische Fragestellungen angesprochen.",
         "id": "_bVlH1D7rG",
         "type": "paragraph"
     },
@@ -65,6 +95,7 @@ Gallery:
 
 - image0.jpeg
 - img_9226.jpg
+- grundschulprojektwpk9.jpg
 
 ----
 
