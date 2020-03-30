@@ -2,7 +2,7 @@ Title: Kunst
 
 ----
 
-Heading: Das Fach Kunst & sein Kollegium an der KGS Rastede stellen sich vor
+Heading: 
 
 ----
 
@@ -11,21 +11,68 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Bedeutung des Faches Kunst",
-        "id": "_qaqxkw517",
+        "content": "",
+        "id": "_x0nlpg14v",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_blf1369ss",
+        "type": "hr"
+    },
+    {
+        "attrs": [],
+        "content": "\u201eKunst ist das schwierigste Fach!\u201c",
+        "id": "_jk3wwl1z4",
         "type": "h3"
     },
     {
         "attrs": [],
-        "content": "\u201eKunst ist das schwierigste Fach!\u201c (Clemens H\u00f6xter, ehem. Fachleiter Kunst, Studienseminar Oldenburg)",
-        "id": "_1shifizgb",
-        "type": "blockquote"
+        "content": "(Clemens H\u00f6xter, ehem. Fachleiter Kunst, Studienseminar Oldenburg)",
+        "id": "_csguccya5",
+        "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "\u201eUnd das Sch\u00f6nste!\u201c (Anmerkung der Redaktion \ud83d\ude0a)",
-        "id": "_sdactd8pv",
-        "type": "blockquote"
+        "content": "\u201e\u2026und das sch\u00f6nste!\u201c",
+        "id": "_i9tkj3fic",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "(Anmerkung der Redaktion \ud83d\ude0a)",
+        "id": "_4rc35zs7w",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_2tbu78ziz",
+        "type": "hr"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_6vlfyacmz",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "id": "Faecher/kunst/img_1088_edited_hp.jpg",
+            "ratio": 1.5,
+            "caption": "\"Meer\" von Aaliyah Ulivi (5A3), 2020, Tempera auf Papier",
+            "guid": "/pages/Faecher+kunst/files/img_1088_edited_hp.jpg"
+        },
+        "content": "",
+        "id": "_tefq6ed4p",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Bedeutung des Faches Kunst",
+        "id": "_qaqxkw517",
+        "type": "h3"
     },
     {
         "attrs": [],
@@ -93,7 +140,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Wenn man sich die F\u00fclle der drei oben aufgef\u00fchrten Sachbereiche nun f\u00fcr die unterrichtliche Praxis vorstellt, sind die Grenzen des M\u00f6glichen schnell \u00fcberschritten. Dennoch werden auf Grund von bildungspolitischen Beschl\u00fcssen diese Grenzen immer enger, da dem Fachunterricht Kunst wertvolles Stundenkontingent gestrichen wurde. So muss leider auch an unserer Schule der Kunstunterricht, dessen Inhalte von der Landesschulbeh\u00f6rde im Kerncurriculum vorgegeben werden (<em>siehe Link unter weitere Informationen oben rechts</em>), in mehreren Jahrg\u00e4ngen (5,8,9,10) epochal anstatt ganzj\u00e4hrig durchgef\u00fchrt werden. Allen Unm\u00f6glichkeiten zum Trotz.",
+        "content": "Wenn man sich die F\u00fclle der drei oben aufgef\u00fchrten Sachbereiche nun f\u00fcr die unterrichtliche Praxis vorstellt, sind die Grenzen des M\u00f6glichen schnell \u00fcberschritten. Dennoch werden auf Grund von bildungspolitischen Beschl\u00fcssen diese Grenzen immer enger, da dem Fachunterricht Kunst wertvolles Stundenkontingent gestrichen wurde. So muss leider auch an unserer Schule der Kunstunterricht, dessen Inhalte von der Landesschulbeh\u00f6rde im Kerncurriculum vorgegeben werden (<em>siehe Link unter weitere Informationen oben rechts</em>), in mehreren Jahrg\u00e4ngen (5, 8 ,9 ,10) epochal anstatt ganzj\u00e4hrig durchgef\u00fchrt werden. Allen Unm\u00f6glichkeiten zum Trotz.",
         "id": "_01yyldyyj",
         "type": "paragraph"
     },
@@ -105,7 +152,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "\u00c4hnlich ergeht es dem Fach Musik. Aus diesem Grund beteiligt sich die KGS an der landesweiten Aktionsreihe <strong>\u201eKuMu20- auf die Augen, auf die Ohren!\u201c </strong>(<em>siehe Link unter weitere Informationen oben rechts</em><strong>)</strong>, die in diesem Jahr als Pilotprojekt startet, um die<strong> </strong>musikalisch- ku\u0308nstlerisch- a\u0308sthetische Arbeit der Gesamtschulen in Niedersachsen zu zeigen und in besonderer Weise wertzusch\u00e4tzen. In diesem Rahmen veranstaltet der Fachbereich Musik mehrere Konzerte und der Fachbereich Kunst eine <strong>Ausstellung zum Thema \u201eMeer\u201c ab dem 10.Juli 2020 im Palais Rastede</strong>.",
+        "content": "\u00c4hnlich ergeht es dem Fach Musik. Aus diesem Grund beteiligt sich die KGS an der landesweiten Aktionsreihe <strong>\u201eKuMu20- auf die Augen, auf die Ohren!\u201c </strong>(<em>siehe Link unter weitere Informationen oben rechts</em><strong>)</strong>, die im Fr\u00fchjahr 2020 als Pilotprojekt startet, um die<strong> </strong>musikalisch- ku\u0308nstlerisch- a\u0308sthetische Arbeit der Gesamtschulen in Niedersachsen zu zeigen und in besonderer Weise wertzusch\u00e4tzen. In diesem Rahmen veranstaltet der Fachbereich Musik mehrere Konzerte und der Fachbereich Kunst mal wieder eine <strong>Ausstellung im Palais Rastede </strong><em>(siehe Link unter weitere Informationen oben rechts), </em>wo neben vielen anderen Sch\u00fclerarbeiten auch die obige expressive Malerei der Sch\u00fclerin Aaliyah Ulivi zum Thema \"Meer\" pr\u00e4sentiert wird.",
         "id": "_a6fwyl9t9",
         "type": "paragraph"
     },
@@ -186,54 +233,6 @@ Text:
         "content": "Im Fach Kunst sollen alle Sch\u00fclerinnen und Sch\u00fcler ein <strong>Skizzenbuch</strong> f\u00fchren, das sie \u00fcber ihre gesamte schulische Laufbahn begleitet und ihnen als selbst erstelltes Nachschlagewerk dient.",
         "id": "_QkqGRVW8w",
         "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_09g0x5ida",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Kollegium",
-        "id": "_hlpuvn4is",
-        "type": "h3"
-    },
-    {
-        "attrs": [],
-        "content": "F\u00fcr den Kunstunterricht sowie die Ausbildung von Referendarinnen und Referendaren des Faches Kunst an unserer Schule engagieren sich folgende Lehrkr\u00e4fte (in alphabetischer Reihenfolge):",
-        "id": "_JTPejpdgp",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Sarah Berres (BRS), Stefanie Christiansen (CHR), Jana Dietl (DTL), Alina Edelmann (ED; Fachkonferenzleitung), Andrea Ende (EN), Valerie Gerlach (GER; Referendarin), Julija Gr\u00fcssing (GRS), Hauke Huntemann (HU), Rita Krassuski (KR), Sabine Oberkampf (OBK), Seema Schneemann (SCH), Mareike Sieling (SIE), Hildegard Varelmann (VM; Didaktische Leitung).",
-        "id": "_HJ8xcoN8t",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_DU7JnEAiq",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_eEvjgwAxC",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_DNXqvM0vP",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_iXB6iC0Wi",
-        "type": "paragraph"
     }
 ]
 
@@ -297,3 +296,6 @@ Sidebar:
 - 
   link: https://kumu20.de/
   name: Kumu20
+- 
+  link: https://www.kkr-rastede.de/
+  name: 'Kunst- und Kulturkreis Rastede E.V.'
