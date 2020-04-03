@@ -1,0 +1,34 @@
+Title: Unser Inklusionskonzept
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Inklusiver Unterricht zeichnet sich durch das Selbstverst\u00e4ndnis aus, dass den Lernenden aufgrund ihrer Heterogenit\u00e4t ein barrierefreier und gleichberechtigter Zugang zum Schulleben und zu den Lerninhalten erm\u00f6glicht wird.",
+        "id": "_y3axG1Dp5",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: Links zur Inklusion
+
+----
+
+Sidebar:
+
+- 
+  link: https://nibis.de/inklusive-schule_10225
+  name: Übersicht vom Ministerium

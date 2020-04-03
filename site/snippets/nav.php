@@ -52,6 +52,8 @@
             <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><i class="material-icons">timer</i>Zeitraster</a>
             <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/presse')->url() ?>"><i class="material-icons">pages</i>...aus der Presse</a>
             <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>"><i class="material-icons">school</i>Ausbildungsschule</a>
+            <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>"><i class="material-icons">accessible_forward</i>Inklusion</a>
+
 
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?= page('allgemeines/beratung')->url() ?>"><i class="material-icons">people_outline</i>Beratung</a>
@@ -72,9 +74,7 @@
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               <i class="material-icons">school</i> Unterricht &amp; Schulleben
             </a>
-            <div class="dropdown-menu dropdown-with-icons">
-            <a class="dropdown-item" href="https://thalia.webuntis.com/WebUntis/?school=kgs-rastede#/basic/main"><i class="material-icons">event_note</i>Vertretungsplan</a>
-            <div class="dropdown-divider"></div>    
+            <div class="dropdown-menu dropdown-with-icons">    
             <a class="dropdown-item" href="<?= page('allgemeines/ssd')->url() ?>"><i class="material-icons">local_hospital</i>Schulsanitätsdienst</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?= page('Faecher')->url() ?>"><i class="material-icons">library_books</i>Fächer</a>
