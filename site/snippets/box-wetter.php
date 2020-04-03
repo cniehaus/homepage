@@ -6,8 +6,8 @@
             <?php
             global $arr;
 
-            $pfad = $kirby->url('assets'); //absoluter Pfad zu den Messdaten
-            $file = fopen($pfad . "/wetter/all-sensors.txt", "r");
+            $pfad = "https://www.kgs-rastede.de/_wetter/"; //absoluter Pfad zu den Messdaten
+            $file = fopen($pfad . "all-sensors.txt", "r");
             if ($file) {
                 $count = 0;
                 while (!feof($file)) {
