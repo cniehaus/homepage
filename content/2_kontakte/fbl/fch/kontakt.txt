@@ -1,12 +1,8 @@
-Title: N N
+Title: Dr. Martin Fach
 
 ----
 
-Heading: nn
-
-----
-
-Email: NN@kgs-rastede.de
+Email: fch@kgs-rastede.de
 
 ----
 
