@@ -65,12 +65,13 @@
   <div class="card">
     <div class="card-header card-header-success">
       <h4 class="card-title">Deutsch</h4>
-      <p class="category">Fachbereichsleiter: Herr Schumacher (<a href="mailto:sm@kgs-rastede.de">MP</a>)</p>
+      <p class="category">Fachbereichsleiter: Herr Schumacher (<a href="mailto:sm@kgs-rastede.de">SM</a>)</p>
 
     </div>
     <div class="card-body">
       <div class="list-group">
       <a href="<?= page('Faecher/deutsch')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch</a></li>
+      <a href="<?= page('Faecher/deutsch-als-zweitsprache-daz')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">chat_bubble_outline</i>Deutsch als Zweitsprache</a></li>
       </div>
     </div>
   </div>
