@@ -2,12 +2,106 @@ Title: Technik
 
 ----
 
-Text: 
+Heading: "Gebt mir einen Hebel, der lang genug, und einen Angelpunkt, der stark genug ist, dann kann ich die Welt mit einer Hand bewegen."  Archimedes
 
 ----
 
-Gallery: 
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Ganz so weit wie einst Archimedes gehen die Curricularen Vorgaben f\u00fcr das Fach Technik nicht. \"Das Fach Technik vermittelt den Sch\u00fclerinnen und Sch\u00fclern Erkenntnisse \u00fcber Hilfsmittel zur Gestaltung und Umgestaltung der gegebenen Lebenswelt und bietet Raum zur \u00dcbung und Anwendung der entsprechenden Mittel.\" Diese Gestaltung und Umgestaltung der Lebenswelt ist aktueller denn je, der technologische Wandel betrifft uns alle und wirkt in fast alle Lebensbereiche hinein.",
+        "id": "_ylgsl825s",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "An der KGS Rastede werden in der Haupt- und Realschule die vier Handlungsbereiche",
+        "id": "_k3xrshsve",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Arbeiten und Produzieren",
+        "id": "_3cfdmv2iu",
+        "type": "ul"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "Energie und Technik",
+        "id": "_8vgifnl9u",
+        "type": "ul"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "Information und Kommunikation",
+        "id": "_4zhi5b388",
+        "type": "ul"
+    },
+    {
+        "attrs": {
+            "indent": 0
+        },
+        "content": "Natur und Technik",
+        "id": "_9853lvxlv",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "abgedeckt. Eine Besonderheit ist die Sch\u00fclerfirma \"Holz und Mehr\" im neunten Jahrgang. Hieran schlie\u00dft sich in Klasse 10 der Profilkurs Technik an.",
+        "id": "_yeph77hm7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_rjwooqct0",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery:
+
+- dsc_0148.jpg
+
+----
+
+Lehrplantext:
+
+# Jahrgang 6
+Themen: Technikraumordnung und Sicherheit, Einführung Ständerbohrmaschine, Werkstoffe Holz und Kunststoff, einfacher Stromkreis
+# Jahrgang 7
+Themen: Elektrische Stromkreise mit einfachen Bauteilen, Technisches Zeichnen, CNC-Fräse
+#  Jahrgang 8
+Themen: Elektrische Stromkreise mit aktiven Bauteilen, Antriebssysteme, Getriebe
+#  Jahrgang 9 Schülerfirma "Holz und Mehr"
+Themen: Arbeiten und Produzieren, Technisches Zeichnen
+# Jahrgang 10 Profilkurs Technik
+Themen: Bauen und Wohnen, Regenerative Energien, Energiewandlungssysteme, Steuern und Regeln, Bionik
+
+----
+
+Lehrplaene: 
+
+----
+
+Haupttag: Technik
+
+----
+
+Hintergrundbild: 
 
 ----
 
 Fotoansicht: gallery
+
+----
+
+Sidebar: 
