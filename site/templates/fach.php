@@ -70,18 +70,25 @@
   <?php endforeach ?>
 </div>
 
-<h2>Aktuelles aus dem Fach</h2>
+<?php if ( page('blogs')->children()->listed()->filterBy('tags', $page->haupttag(), ',')->isNotEmpty() ): ?>
 
-<div class="container my-3 border">
+  <h2>Aktuelles aus dem Fach</h2>
 
-  <?php snippet('blogs', [
-    'blogs' => page('blogs')
-      ->children()
-      ->listed()
-      ->filterBy('tags', $page->haupttag(), ',')
-  ]) ?>
+  <div class="container my-3 border">
 
-</div>
+    <?php snippet('blogs', [
+      'blogs' => page('blogs')
+        ->children()
+        ->listed()
+        ->filterBy('tags', $page->haupttag(), ',')
+    ]) ?>
+
+  </div>
+
+<?php endif ?>
+
+
+
 
 <div class="container my-3 border">
 
