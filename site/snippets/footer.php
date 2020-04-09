@@ -107,7 +107,7 @@
           <ul class="links-vertical">
             <li><a class="text-muted" href="<?= page('kontakte/schulleitung')->url() ?>">Schulleitung</a></li>
             <li><a class="text-muted" href="<?= page('kontakte/fbl')->url() ?>">Fachbereichsleiter</a></li>
-            <li><a class="text-muted" href="<?= page('kontakte/sekretariate')->url() ?>">Sekretariat Hauptgebäude</a></li>
+            <li><a class="text-muted" href="<?= page('kontakte/sekretariate')->url() ?>">Sekretariate</a></li>
             <li><a class="text-muted" href="<?= page('allgemeines/krankmeldung')->url() ?>">Krankmeldung</a></li>
           </ul>
         </div>
