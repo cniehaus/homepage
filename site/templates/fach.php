@@ -89,6 +89,7 @@
 
 
 
+<?php if ( $page->hasImages() ) :?>
 
 <div class="container my-3 border">
 
@@ -100,5 +101,8 @@
     <!-- Bilder werden vom Autor manuel gesetzt -->
   <?php endif ?>
 </div>
+
+<?php endif ?>
+
 
 <?php snippet('footer') ?>
