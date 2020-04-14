@@ -49,7 +49,33 @@ Text:
 
 ----
 
-Gallery: 
+Gallery:
+
+- sportfest-kl-5-8_1.jpg
+- sportfest-kl-5-8_3.jpg
+- sportfest-kl-5-8_10.jpg
+- sportfest-kl-5-8_5.jpg
+- sportfest-kl-5-8_4.jpg
+- sportfest-kl-5-8_2.jpg
+- sportfest-kl-5-8_17.jpg
+- sportfest-kl-5-8_13.jpg
+- sportfest-kl-5-8_8.jpg
+- sportfest-kl-5-8_7.jpg
+- sportfest-kl-5-8_15.jpg
+- sportfest-kl-5-8_6.jpg
+- sportfest-kl-5-8_9.jpg
+- sportfest-kl-5-8_14.jpg
+- sportfest-kl-5-8_11.jpg
+- sportfest-kl-5-8_16.jpg
+- sportfest-kl-5-8_12.jpg
+
+----
+
+Lehrplantext: 
+
+----
+
+Lehrplaene: 
 
 ----
 
@@ -62,3 +88,7 @@ Hintergrundbild:
 ----
 
 Fotoansicht: carousel
+
+----
+
+Sidebar: 
