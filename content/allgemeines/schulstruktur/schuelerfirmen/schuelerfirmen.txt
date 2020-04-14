@@ -113,67 +113,67 @@ Text:
     {
         "attrs": [],
         "content": "Betriebliche und gesamtwirtschaftliche Kenntnisse",
-        "id": "_PeC24R7iD",
-        "type": "paragraph"
+        "id": "_m35be0rh8",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Existenzgr\u00fcndung als didaktisches Konzept",
-        "id": "_8Jz6kVEbG",
-        "type": "paragraph"
+        "id": "_udr0zfsyp",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Berufsorientierung",
-        "id": "_ZgHb3A9D2",
-        "type": "paragraph"
+        "id": "_qbtdgkyi6",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Kenntnisse \u00fcber Beruf und Arbeit",
-        "id": "_nI1qeUbWd",
-        "type": "paragraph"
+        "id": "_8a6tthem8",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Pers\u00f6nlichkeitsentwicklung",
-        "id": "_SE7Ndv7HC",
-        "type": "paragraph"
+        "id": "_syez6o7f5",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Arbeiten,",
-        "id": "_0ndR0cHQC",
-        "type": "paragraph"
+        "id": "_cfljxb3aw",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "kommunizieren,",
-        "id": "_wxMRU13S5",
-        "type": "paragraph"
+        "id": "_t2fquhsi5",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Probleme l\u00f6sen,",
-        "id": "_l1jkx56Kg",
-        "type": "paragraph"
+        "id": "_ntw8grgdo",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Verantwortung,",
-        "id": "_9To0BbH2d",
-        "type": "paragraph"
+        "id": "_1yv1m97tr",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Zuverl\u00e4ssigkeit,",
-        "id": "_e97XM5sZb",
-        "type": "paragraph"
+        "id": "_8ffbhaxxs",
+        "type": "ul"
     },
     {
         "attrs": [],
         "content": "Au\u00dfenkontakte",
-        "id": "_3TpJn3hu8",
-        "type": "paragraph"
+        "id": "_v9exykd2d",
+        "type": "ul"
     }
 ]
