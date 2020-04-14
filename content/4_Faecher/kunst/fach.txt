@@ -238,7 +238,10 @@ Text:
 
 ----
 
-Gallery: 
+Gallery:
+
+- >
+  schulerarbeit-jahrgang-7-kr_hp_crppd.jpeg
 
 ----
 
@@ -275,7 +278,7 @@ Haupttag: Kunst
 
 ----
 
-Hintergrundbild: 
+Hintergrundbild: Faecher/kunst/schulerarbeit-jahrgang-7-kr_hp_crppd.jpeg
 
 ----
 
