@@ -4,6 +4,7 @@ icon: 📖
 options:
   update:
     *: false
+    admin: true
 
 columns:
   left:
