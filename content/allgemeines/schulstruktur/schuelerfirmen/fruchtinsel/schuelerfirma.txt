@@ -2,7 +2,7 @@ Title: Die Fruchtinsel
 
 ----
 
-Heading: Obst ist lecker
+Heading: Bei uns schmeckt es!
 
 ----
 
@@ -11,6 +11,12 @@ Beschreibung: Das Fruchtinsel-Team versorgt die Schülerinnen und Schüler der K
 ----
 
 Mailadresse: akb@kgs-rastede.de
+
+----
+
+Bild:
+
+- img_3416.jpg
 
 ----
 
