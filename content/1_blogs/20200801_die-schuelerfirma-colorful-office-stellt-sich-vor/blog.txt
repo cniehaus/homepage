@@ -1,4 +1,4 @@
-Title: Die Schülerfirma "Colorful Office" stellt sich vor
+Title: Mit dem Glücksrad ein KGS-Shirt gewinnen
 
 ----
 
@@ -11,15 +11,29 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Hier steht der Inhalt",
-        "id": "_wbtp7ls2h",
+        "content": "<strong>In der Feldbreite k\u00f6nnen Sch\u00fcler dienstags in der zweiten gro\u00dfen Pause an unserem neuen Gl\u00fccksrad drehen (vielen Dank an <em>Holz und Mehr</em> f\u00fcr die Produktion!). Zu gewinnen gibt es unter anderem coole KGS-T-Shirts, Stofftiere und andere Dinge!</strong>",
+        "id": "_r2cveaKDA",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Viele Gr\u00fc\u00dfe vom Colorful Office-Team",
+        "id": "_xqrher8g1",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<br>",
+        "id": "_rY1rIylBv",
         "type": "paragraph"
     }
 ]
 
 ----
 
-Gallery: 
+Gallery:
+
+- colorful-logo.png
 
 ----
 
