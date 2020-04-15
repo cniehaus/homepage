@@ -32,7 +32,7 @@
             <a class="dropdown-item" href="<?= page('allgemeines/anfahrt')->url() ?>"><i class="material-icons">directions_car</i>Anfahrt</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="<?= page('kontakte/hausmeister')->url() ?>"><i class="material-icons">build</i>Hausmeister</a>
-            <a class="dropdown-item" href="<?= page('kontakte/schulleitung')->url() ?>"><i class="material-icons">school</i>Schuleitung</a>
+            <a class="dropdown-item" href="<?= page('kontakte/schulleitung')->url() ?>"><i class="material-icons">school</i>Schulleitung</a>
             <a class="dropdown-item" href="<?= page('kontakte/fbl')->url() ?>"><i class="material-icons">face</i>Fachbereichsleiter</a>
             <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>"><i class="material-icons">people</i>Sekretariate</a>
             <a class="dropdown-item" href="<?= page('lehrer')->url() ?>"><i class="material-icons">people</i>das Kollegium</a>
