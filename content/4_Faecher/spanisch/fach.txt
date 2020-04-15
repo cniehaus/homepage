@@ -167,15 +167,29 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Die Kolleginnen des Fachs Spanisch<br>",
-        "id": "_ixE7QOI2t",
+        "content": "Die Kolleginnen des Fachs Spanisch",
+        "id": "_wxvfvru2c",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_9tazo3ax3",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Hintergrundbild: http://www.mipetitmadrid.com/mipetitmadrid/web/seccion-es/34/skyline-madrileno/articulo/skyline-madrileno-n11-byjavier-joaquin<br>",
+        "id": "_ajay2q7kk",
         "type": "paragraph"
     }
 ]
 
 ----
 
-Gallery: 
+Gallery:
+
+- spanisch3.jpg
 
 ----
 
@@ -191,7 +205,7 @@ Haupttag: Spanisch
 
 ----
 
-Hintergrundbild: 
+Hintergrundbild: Faecher/spanisch/spanisch3.jpg
 
 ----
 
