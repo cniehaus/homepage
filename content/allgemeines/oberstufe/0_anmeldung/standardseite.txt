@@ -7,15 +7,50 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Hier steht Text",
-        "id": "_1k9m5gnoj",
+        "content": "Jede Sch\u00fclerin und jeder Sch\u00fcler muss sich f\u00fcr die Oberstufe anmelden. Anmeldeschluss ist dabei landesweit in jedem Jahr der 20. Februar. Die Anmeldung mit den nebenstehenden Unterlagen muss vormittags pers\u00f6nlich im Sekretariat der KGS Rastede abgegeben werden.",
+        "id": "_nkg7lmk7v",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_mf3av9dvv",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Bereits in der Einf\u00fchrungsphase kann man sich in einigen Fachbereichen zwischen verschiedenen F\u00e4chern entscheiden. Dabei sollte man ber\u00fccksichtigen, dass ein einmal abgew\u00e4hltes Fach in der Qualifikationsphase nicht mehr als Pr\u00fcfungsfach gew\u00e4hlt werden kann und bestimmte F\u00e4cher Voraussetzung zur Wahl bestimmter Schwerpunkte sind. Beispielsweise muss, wer den sportlichen Schwerpunkt anstrebt, in der Einf\u00fchrungsphase Sporttheorie belegen.",
+        "id": "_0thki0bfl",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_ELWUwrpEq",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Sch\u00fclerinnen und Sch\u00fcler, die bereits seit der sechsten Klasse durchg\u00e4ngig eine zweite Fremdsprache belegt haben, k\u00f6nnen anstelle dieser in der Einf\u00fchrungsphase den Wahlpflichtbereich belegen, der unter bestimmten inhaltlichen Oberthemen steht. Die aktuellen Angebote findet man unter dem Link. Eine Wahl des sprachlichen Schwerpunktes ist dann jedoch nicht mehr m\u00f6glich.",
+        "id": "_XQ85xJ1Vn",
         "type": "paragraph"
     }
 ]
 
 ----
 
-Downloads: 
+Related: 
+
+----
+
+Downloads:
+
+- anmeldeformular-sek-ii-2020.pdf
+- anmeldeformular-sek-ii-hinweise.pdf
+- kurswahl-e-phase-auswaertige.pdf
+- wahlpflichtbereich-module-2020-2021.pdf
+- infoveranstaltung-sek-ii-teil-1.pdf
+- infoveranstaltung-sek-ii-teil-2.pdf
 
 ----
 

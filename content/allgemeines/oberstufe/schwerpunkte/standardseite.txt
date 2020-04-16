@@ -2,6 +2,47 @@ Title: Schwerpunkte
 
 ----
 
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Die KGS Rastede bietet als allein stehende Schule in der Qualifikationsphase alle f\u00fcnf in Niedersachsen existierenden Schwerpunkte an: den sprachlichen, den naturwissenschaftlichen, den musisch-k\u00fcnstlerischen, den gesellschaftswissenschaftlichen und den sportlichen Schwerpunkt. Innerhalb der einzelnen Schwerpunkte gibt es dar\u00fcber hinaus vielf\u00e4ltige Kombinationsm\u00f6glichkeiten der Pr\u00fcfungsf\u00e4cher.",
+        "id": "_kpwvipddd",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_EZ1ty7IrC",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wir haben als Entscheidungshilfe eine \u00dcbersicht zusammengestellt, welcher Schwerpunkt f\u00fcr welchen Sch\u00fclertyp geeignet sein k\u00f6nnte. Dar\u00fcber hinaus solltest du vor deiner Wahl aber noch zahlreiche Gespr\u00e4che mit Freunden, Eltern, Lehrkr\u00e4ften oder auch der Oberstufenkoordination f\u00fchren. Au\u00dferdem findest du hier eine \u00dcbersicht aller zur Zeit an unserer Schule angebotenen Schwerpunkte mit den jeweiligen Pr\u00fcfungsfachkombinationen.",
+        "id": "_RxXuTswpj",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Related: 
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: 
+
+----
+
 Sidebar:
 
 - 
@@ -12,8 +53,3 @@ Sidebar:
   link: >
     https://db2.nibis.de/1db/cuvo/datei/bi_go_kc_druck_2017.pdf
   name: Biologie Oberstufe
-
-----
-
-Toggle: true
-

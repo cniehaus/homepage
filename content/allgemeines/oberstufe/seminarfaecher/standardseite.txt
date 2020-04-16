@@ -2,6 +2,35 @@ Title: Seminarfächer
 
 ----
 
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Das Seminarfach ist deine Familie in der Qualifikationsphase. Die Seminarfachlehrkraft ist gleichzeitig deine Tutorin bzw. dein Tutor und erster Ansprechpartner in allen schulischen Fragen. Das Seminarfach dient der Vorbereitung wissenschaftsprop\u00e4deutischen Arbeitens, hier geht es um Methodenlernen, Pr\u00e4sentieren und das Erstellen einer Facharbeit. Au\u00dferdem findet die Studienfahrt innerhalb der Seminarfachgemeinschaft statt. Jedes Seminarfach steht unter einem bestimmten Thema. Die aktuellen und auch fr\u00fchere Seminarfachthemen findest du hier.",
+        "id": "_cwy1it879",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Related: 
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: 
+
+----
+
 Sidebar:
 
 - 
@@ -12,8 +41,3 @@ Sidebar:
   link: >
     https://db2.nibis.de/1db/cuvo/datei/bi_go_kc_druck_2017.pdf
   name: Biologie Oberstufe
-
-----
-
-Toggle: true
-

@@ -2,6 +2,35 @@ Title: Auslandsjahr
 
 ----
 
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Der \u00dcbergang von der Sekundarstufe I zur Oberstufe ist ein guter Zeitpunkt, ein ganzes Schuljahr oder ein halbes im Ausland zu verbringen. Das Auslandsjahr kann unter bestimmten Voraussetzungen die Einf\u00fchrungsphase ersetzen, so dass man kein Schuljahr verliert und anschlie\u00dfend wieder in seinen alten Jahrgang zur\u00fcckkehren kann. Hinweise dazu findet man in den Links. Die Freistellung f\u00fcr das Auslandsjahr muss in jedem Fall schriftlich aber formlos rechtzeitig vorher bei der Schulleitung beantragt werden und es sollte immer eine R\u00fccksprache mit der Oberstufenkoordination erfolgen.",
+        "id": "_7krh9h7sc",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Related: 
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: 
+
+----
+
 Sidebar:
 
 - 
@@ -12,8 +41,3 @@ Sidebar:
   link: >
     https://db2.nibis.de/1db/cuvo/datei/bi_go_kc_druck_2017.pdf
   name: Biologie Oberstufe
-
-----
-
-Toggle: true
-
