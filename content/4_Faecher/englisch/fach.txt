@@ -93,6 +93,12 @@ Text:
     {
         "attrs": [],
         "content": "",
+        "id": "_gsza2zepj",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
         "id": "_48ijcc7us",
         "type": "paragraph"
     }
@@ -123,8 +129,7 @@ Gallery:
 Lehrplantext:
 
 Hier finden Sie die Netzlehrpläne für das Fach Englisch an der KGS Rastede für die 3 Schulzweige 
-(Gymnasium, Realschule, Hauptschule) 
-und Informationen zum Fach
+(Gymnasium, Realschule, Hauptschule) und weitere Informationen und Neuigkeiten zum Fach Englisch.
 
 ----
 

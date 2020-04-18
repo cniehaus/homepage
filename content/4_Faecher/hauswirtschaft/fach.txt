@@ -2,10 +2,6 @@ Title: Hauswirtschaft
 
 ----
 
-Heading: 
-
-----
-
 Text: 
 
 ----
@@ -14,24 +10,4 @@ Gallery:
 
 ----
 
-Lehrplantext: 
-
-----
-
-Lehrplaene: 
-
-----
-
-Haupttag: Hauswirtschaft
-
-----
-
-Hintergrundbild: 
-
-----
-
 Fotoansicht: gallery
-
-----
-
-Sidebar: 

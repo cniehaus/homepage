@@ -71,20 +71,25 @@ Gallery:
 
 - dsc_0148.jpg
 - dsc_0161.jpg
+- dsc_0149.jpg
+- dsc_0162.jpg
+- dsc_0170.jpg
+- dsc_0172.jpg
+- dsc_0176.jpg
 
 ----
 
 Lehrplantext:
 
-# Jahrgang 6
+# **Jahrgang 6**
 Themen: Technikraumordnung und Sicherheit, Einführung Ständerbohrmaschine, Werkstoffe Holz und Kunststoff, einfacher Stromkreis
-# Jahrgang 7
+#** Jahrgang 7**
 Themen: Elektrische Stromkreise mit einfachen Bauteilen, Technisches Zeichnen, CNC-Fräse
-#  Jahrgang 8
+# ** Jahrgang 8**
 Themen: Elektrische Stromkreise mit aktiven Bauteilen, Antriebssysteme, Getriebe
-#  Jahrgang 9 Schülerfirma "Holz und Mehr"
+#  **Jahrgang 9 Schülerfirma "Holz und Mehr"**
 Themen: Arbeiten und Produzieren, Technisches Zeichnen
-# Jahrgang 10 Profilkurs Technik
+# **Jahrgang 10 Profilkurs Technik**
 Themen: Bauen und Wohnen, Regenerative Energien, Energiewandlungssysteme, Steuern und Regeln, Bionik
 
 ----
@@ -97,7 +102,7 @@ Haupttag: Technik
 
 ----
 
-Hintergrundbild: 
+Hintergrundbild: Faecher/technik/dsc_0148.jpg
 
 ----
 
