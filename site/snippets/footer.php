@@ -115,8 +115,6 @@
           <h5>Wichtige Downloads</h5>
           <ul class="links-vertical">
             <li><a class="text-muted" href="<?= page('allgemeines/downloads')->url() ?>#schulbuchlisten-1">Schulbuchlisten</a></li>
-            <li><a class="text-muted" href="#">AG-Listen</a></li>
-            <li><a class="text-muted" href="#">Tadel</a></li>
             <li><a class="text-muted" href="#">Schulordnung</a></li>
           </ul>
         </div>
