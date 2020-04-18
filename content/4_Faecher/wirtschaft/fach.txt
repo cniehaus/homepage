@@ -38,12 +38,6 @@ Text:
         "content": "Ein gemeinsames Schwerpunktthema des Wirtschaftsunterrichts in allen Schulzweigen und <br>Jahrg\u00e4ngen ist die beru\ufb02iche Orientierung.",
         "id": "_kCeRLSLXF",
         "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "<br>Am Herbartgymnasium kann man das Fach Wirtschaftslehre in Jahrgang 11 als Wahlfach f\u00fcr ein Halbjahr belegen. Diese Belegung ist <br>eine Voraussetzung, um das Fach in der Quali\ufb01kationsphase anzuw\u00e4hlen. Dabei setzen wir uns in Jahrgang 11 vertiefend mit u.a. <br>folgenden Fragestellungen auseinander:<br>\u2022 Was sind die Grundlagen des Wirtschaftens?<br>\u2022 Wie funktioniert ein Wirtschaftskreislauf?<br>\u2022 Welche Rolle spielen die privaten Haushalte in diesem Gebilde?<br>\u2022 Woher beziehen die privaten Haushalte ihre Einkommen?<br>\u2022 Wie ist dieses in Deutschland verteilt und ist diese Verteilung gerecht?<br>\u2022 Wie funktionieren M\u00e4rkte und wie entstehen Preise?<br>Parallel zu diesen Inhalten nehmen wir jedes Jahr am Planspiel B\u00f6rse teil, das von der LzO organisiert und durchgef\u00fchrt wird. \u00dcber elf <br>Wochen gibt es die M\u00f6glichkeit, im Team mit cleveren Anlagestrategien das virtuelle Startkapital von 50.000 Euro an der B\u00f6rse zu <br>vermehren. Den besten Teams winken verschiedene Preise.<br>Wer am HGO das Wahlfach Wirtschaftslehre belegt, der ben\u00f6tigt keine Vorkenntnisse, sollte aber Interesse haben, sich mit <br>wirtschaftlichen Zusammenh\u00e4ngen auseinanderzusetzen.",
-        "id": "_zKrHYtoQA",
-        "type": "paragraph"
     }
 ]
 
