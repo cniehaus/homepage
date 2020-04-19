@@ -55,7 +55,10 @@ Text:
 
 ----
 
-Gallery: 
+Gallery:
+
+- >
+  benjamin-lizardo-izsbwbz08cs-unsplash.jpg
 
 ----
 
@@ -88,7 +91,7 @@ Haupttag: Mathematik
 
 ----
 
-Hintergrundbild: 
+Hintergrundbild: Faecher/Mathematik/benjamin-lizardo-izsbwbz08cs-unsplash.jpg
 
 ----
 
@@ -98,6 +101,25 @@ Fotoansicht: carousel
 
 Sidebar:
 
+- 
+  link: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=2ahUKEwjIlpH5lvLoAhXFC-wKHb2iB6AQFjADegQIFxAB&url=http%3A%2F%2Fdb2.nibis.de%2F1db%2Fcuvo%2Fdatei%2Fkc_hs_mathe_nib.pdf&usg=AOvVaw3NlSXZusSUmpqgx-13WqJF'
+  name: >
+    Kerncurriculum Hauptschule 5-10
+    (Download)
+- 
+  link: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=2ahUKEwjIlpH5lvLoAhXFC-wKHb2iB6AQFjACegQIDhAB&url=https%3A%2F%2Fdb2.nibis.de%2F1db%2Fcuvo%2Fdatei%2Fkcmathematikrs.pdf&usg=AOvVaw2UWKSRgumD2pLtSWDsGmri'
+  name: >
+    Kerncurriculum Realschule 5-10
+    (Download)
+- 
+  link: 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwjIlpH5lvLoAhXFC-wKHb2iB6AQFjABegQIDBAB&url=https%3A%2F%2Fdb2.nibis.de%2F1db%2Fcuvo%2Fdatei%2Fma_gym_si_kc_druck.pdf&usg=AOvVaw10pZkG3RiapZaPXATeQsbB'
+  name: Kerncurriculum Gymnasium 5-10 (Download)
+- 
+  link: >
+    http://db2.nibis.de/1db/cuvo/datei/ma_go_kc_druck_2019.pdf
+  name: >
+    Kerncurriculum gymnasiale Oberstufe
+    (Download)
 - 
   link: >
     https://www.nibis.de/nli1/gohrgs/operatoren/operatoren_ab_2012/op12_mathe.pdf
