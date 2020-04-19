@@ -74,10 +74,10 @@
       <h4 class="card-title">Fachbereichsleiter: Herr Dr. Fach</h4>
 
       <div class="list-group">
-        <a href="<?= page('Faecher/Physik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Physik</a>
+        <a href="<?= page('Faecher/Physik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/plug.svg">Physik</a>
         <a href="<?= page('Faecher/Biologie')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Biologie</a>
         <a href="<?= page('Faecher/Chemie')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Chemie</a>
-        <a href="<?= page('Faecher/informatik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Informatik</a>
+        <a href="<?= page('Faecher/informatik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/laptop.svg">Informatik</a>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@
       <div class="list-group">
         <a href="<?= page('allgemeines/schulstruktur/schuelerfirmen')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Schülerfirmen</a></li>
         <a href="<?= page('Faecher/wirtschaft')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Wirtschaft</a></li>
-        <a href="<?= page('Faecher/technik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Technik</a>
+        <a href="<?= page('Faecher/technik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/hammer.svg">Technik</a>
         <a href="<?= page('Faecher/hauswirtschaft')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Hauswirtschaft</a>
 
       </div>
