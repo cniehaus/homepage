@@ -10,18 +10,13 @@ Category: eigenerTitel
 
 ----
 
-Texttitel: Schulausfall wegen Krankheit
+Texttitel: Unfertige Version der neuen Homepage.
 
 ----
 
 Text:
 
-Heute fällt die Schule aus. Das ist schön.
-Leider wird die Schule bis zum 1. Mai 2019 ausfallen, Rettungsboote stehen zur Verfügung.
-
-----
-
-Titeltext: Schulausfall wegen Starkregen
+Dies ist die noch nicht fertige Version der neuen Homepage. Viele Inhalte fehlen noch, zum Teil funktionieren Dinge noch nicht. Konstruktive Kritik gerne an Herrn Niehaus schicken.
 
 ----
 
