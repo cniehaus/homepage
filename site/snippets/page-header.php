@@ -9,9 +9,9 @@
   </div>
 <?php else : ?>
 
-  <div class="jumbotron" style="background-image: url('<?= $kirby->url('assets') ?>/img/acker2.jpg'); background-size: cover;">
+  <div class="jumbotron" style="background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg'); background-size: cover;">
     <div class="container">
-      <h1 class="title" style="font-size: 3vw"><?= $page->title() ?>
+      <h1 class="title text-white" style="font-size: 3vw"><?= $page->title() ?>
         <small class="text-muted"><?= $page->subtitle() ?></small>
       </h1>
     </div>
