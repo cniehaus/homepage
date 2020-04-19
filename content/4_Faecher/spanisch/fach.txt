@@ -179,7 +179,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Hintergrundbild: http://www.mipetitmadrid.com/mipetitmadrid/web/seccion-es/34/skyline-madrileno/articulo/skyline-madrileno-n11-byjavier-joaquin<br>",
+        "content": "<br>",
         "id": "_ajay2q7kk",
         "type": "paragraph"
     }
@@ -189,7 +189,7 @@ Text:
 
 Gallery:
 
-- spanischbuntneu5.png
+- spanischflagge3.png
 
 ----
 
@@ -205,7 +205,7 @@ Haupttag: Spanisch
 
 ----
 
-Hintergrundbild: Faecher/spanisch/spanischbuntneu5.png
+Hintergrundbild: Faecher/spanisch/spanischflagge3.png
 
 ----
 
