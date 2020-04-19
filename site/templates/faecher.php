@@ -22,11 +22,11 @@
       <h3 class="card-category card-title text-warning">Musisch-Kultureller Bereich</h3>
       <h4 class="card-title">Fachbereichsleiter: Herr Schneemann</h4>
       <div class="list-group">
-        <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">music_note</i>Musik</a></li>
-        <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">color_lens</i>Kunst</a></li>
-        <a href="<?= page('Faecher/ds')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">theaters</i>Darstellendes Spiel</a></li>
-        <a href="<?= page('Faecher/tg')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">domain</i>Textiles Gestalten</a></li>
-        <a href="<?= page('Faecher/werken')->url() ?>" class="list-group-item list-group-item-action"><i class="material-icons">gavel</i>Gestaltendes Werken</a></li>
+        <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Musik</a></li>
+        <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Kunst</a></li>
+        <a href="<?= page('Faecher/ds')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Darstellendes Spiel</a></li>
+        <a href="<?= page('Faecher/tg')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Textiles Gestalten</a></li>
+        <a href="<?= page('Faecher/werken')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Gestaltendes Werken</a></li>
       </div>
     </div>
   </div>
