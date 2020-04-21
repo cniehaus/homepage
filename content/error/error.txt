@@ -1,1 +1,19 @@
-Title: Error
+Title: 404 Alarm - Ungültige Seite
+
+----
+
+Text:
+
+[
+    {
+        "attrs": {
+            "guid": "/pages/error/files/404alarm.png",
+            "id": "error/404alarm.png",
+            "ratio": 2.839622641509434,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_q9ojv70xy",
+        "type": "image"
+    }
+]
