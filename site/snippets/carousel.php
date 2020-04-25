@@ -17,8 +17,8 @@
         <?php else : ?>
             <div class="carousel-item">
         <?php endif ?>
-            <img src=<?= $image->url() ?> class="d-block w-100" alt="<?= $image->bildunterschrift() ?>" />
-            <div class="carousel-caption d-none d-md-block">
+            <img src=<?= $image->url() ?> alt="<?= $image->bildunterschrift() ?>" />
+            <div class="carousel-caption">
               <h3><?= $image->bildunterschrift() ?></h3>
             </div>
             </div>
