@@ -39,8 +39,8 @@ Text:
 
 Gallery:
 
+- das-power-team-kl.jpg
 - schilli-die-schilkrote.jpg
-- das-power-team.jpg
 
 ----
 
@@ -48,7 +48,7 @@ Date: 2020-04-02 10:50
 
 ----
 
-Author: 
+Author: WEU
 
 ----
 
@@ -61,10 +61,6 @@ Featured: false
 ----
 
 Immer-sichtbar: true
-
-----
-
-Downloads: 
 
 ----
 
