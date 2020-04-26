@@ -68,14 +68,7 @@ Immer-sichtbar: true
 
 ----
 
-Downloads:
-
-- di-de-2020-600x383.png
-- diplome_2020.png
-- download.jpg
-- home-lots2020-600x371.jpg
-- >
-  images_publisher_fachschaften_bilder_wettbewerbe-big-challenge-logo.png
+Downloads: 
 
 ----
 
