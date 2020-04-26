@@ -74,7 +74,7 @@
 
   <h2>Aktuelles aus dem Fach</h2>
 
-  <div class="container col-lg-9 col-md-9 ml-auto mr-auto">
+  <div class="container ml-auto mr-auto">
 
     <?php snippet('blogs', [
       'blogs' => page('blogs')
@@ -92,7 +92,7 @@
 
 <?php if ( $page->hasImages() ) :?>
 
-<div class="container col-lg-9 col-md-6 ml-auto mr-auto">
+<div class="container ml-auto mr-auto">
 
   <?php if ($page->fotoansicht() == 'carousel') : ?>
     <?php snippet('carousel') ?>
