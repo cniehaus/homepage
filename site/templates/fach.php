@@ -46,29 +46,17 @@
 <?php endif ?>
 
 <!-- Die Inhalte, die immer sichtbar sein sollen, sollen über den Blogs stehen  -->
-<div class="container">
-
-  <?php $index = 0;
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('immer_sichtbar', true)
-    ->filterBy('tags', $page->haupttag(), ',') as $subpage) : $index++ ?>
-
-    <?php if ($index  != 0) : ?>
-
-      <?php snippet('teaser-bild', [
-        'subpage' => $subpage
-      ]) ?>
-
-      <?php snippet('teaser-bild-text', [
-        'subpage' => $subpage
-      ]) ?>
-
-    <?php else : ?>
-    <?php endif ?>
-  <?php endforeach ?>
+<div class="container ml-auto mr-auto">
+    <?php snippet('blogs', [
+      'blogs' => page('blogs')
+        ->children()
+        ->listed()
+        ->filterBy('immer_sichtbar', true)
+        ->filterBy('tags', $page->haupttag(), ',')
+        ->flip()
+    ]) ?>
 </div>
+
 
 <?php if ( page('blogs')->children()->listed()->filterBy('tags', $page->haupttag(), ',')->isNotEmpty() ): ?>
 
