@@ -14,7 +14,7 @@
   <?= $page->Lehrplantext()->kirbytext() ?>
 
 
-  <div class="col-lg-9 col-md-9 ml-auto mr-auto">
+  <div class="col-md-9 ml-auto mr-auto">
     <div class="table-responsive">
       <table class="table">
         <thead>
