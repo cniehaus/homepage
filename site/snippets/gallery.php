@@ -3,7 +3,7 @@
 
       <div class="col-9 col-md-6 col-sm-3">
         <figure class="figure">
-            <img class="d-block w-100" alt="<?= $image->alt() ?>" src="<?= $image->url() ?>">
+            <img class="d-block w-100 img img-raised rounded" alt="<?= $image->alt() ?>" src="<?= $image->url() ?>">
             <figcaption class="figure-caption"><?= $image->bildunterschrift() ?></figcaption>
         </figure>
       </div>
