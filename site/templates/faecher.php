@@ -7,7 +7,7 @@
   <div class="card text-white bg-info mb-3">
     <div class="card-body">
       <h3 class="card-category card-title text-warning">Fremdsprachen</h3>
-      <h4 class="card-title">Fachbereichsleiter: Frau Backhaus</h4>
+      <h4 class="card-title">Fachbereichsleiterin: Frau Backhaus</h4>
       <div class="list-group text-white">
         <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Englisch</a></li>
         <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Französisch</a></li>
@@ -45,7 +45,7 @@
   <div class="card text-white bg-info mb-3">
     <div class="card-body">
       <h3 class="card-category card-title text-warning">Sport</h3>
-      <h4 class="card-title">Fachbereichsleiter: Frau Müller-Pulsfort</h4>
+      <h4 class="card-title">Fachbereichsleiterin: Frau Müller-Pulsfort</h4>
 
       <div class="list-group">
         <a href="<?= page('Faecher/Sport')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Sport</a></li>
