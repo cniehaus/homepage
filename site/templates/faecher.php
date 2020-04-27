@@ -37,7 +37,7 @@
       <h4 class="card-title">Fachbereichsleiter: Herr Mönnich</h4>
 
       <div class="list-group">
-        <a href="<?= page('Faecher/Mathematik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Mathematik</a>
+        <a href="<?= page('Faecher/Mathematik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/table.svg">Mathematik</a>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@
 
       <div class="list-group">
         <a href="<?= page('Faecher/Physik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/plug.svg">Physik</a>
-        <a href="<?= page('Faecher/Biologie')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Biologie</a>
+        <a href="<?= page('Faecher/Biologie')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/droplet.svg">Biologie</a>
         <a href="<?= page('Faecher/Chemie')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Chemie</a>
         <a href="<?= page('Faecher/informatik')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/laptop.svg">Informatik</a>
       </div>
@@ -105,7 +105,7 @@
         <a href="<?= page('Faecher/geschichte')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Geschichte</a></li>
         <a href="<?= page('Faecher/politik-wirtschaft')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Politik / Politik-Wirtschaft</a></li>
         <a href="<?= page('Faecher/erdkunde')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Erdkunde</a></li>
-        <a href="<?= page('Faecher/religion')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Religion</a></li>
+        <a href="<?= page('Faecher/religion')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/gem.svg">Religion</a></li>
         <a href="<?= page('Faecher/WuN')->url() ?>" class="list-group-item list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Werte und Normen</a></li>
       </div>
     </div>
