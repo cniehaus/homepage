@@ -99,13 +99,6 @@ Text:
 Gallery:
 
 - 4-bilder.jpg
-- 01.jpg
-- 3-bilder.jpg
-- 02.jpg
-- 03b.jpg
-- 04.jpg
-- 05.jpg
-- 06.jpg
 
 ----
 
@@ -126,11 +119,11 @@ Lehrplaene:
 - 
   link:
     - netzplan-gymnasialzweig-5-10.pdf
-  name: Gymnasialzweig (5-10)
+  name: Gymnasialzweig 5-10
 - 
   link:
     - netzplan-gymnasialzweig-11-13.pdf
-  name: Gymnasialzweig (11-13)
+  name: Gymnasialzweig 11-13
 
 ----
 
@@ -144,32 +137,12 @@ Hintergrundbild:
 
 ----
 
-Fotoansicht: carousel
+Fotoansicht: 
 
 ----
 
 Sidebar:
 
-- 
-  link: >
-    http://db2.nibis.de/1db/cuvo/datei/kc_naturwissenschaften_hs.pdf
-  name: KC Hauptschule
-- 
-  link: >
-    http://db2.nibis.de/1db/cuvo/datei/kc_naturwissenschaften_rs.pdf
-  name: KC Realschule
-- 
-  link: >
-    http://db2.nibis.de/1db/cuvo/datei/nw_gym_si_kc_druck.pdf
-  name: KC Gymnasium 5-10
-- 
-  link: >
-    http://db2.nibis.de/1db/cuvo/datei/ph_go_kc_druck_2017.pdf
-  name: KC Gymnasium 11-13
-- 
-  link: >
-    https://www.nibis.de/nli1/gohrgs/operatoren/operatoren_ab_2012/op09_10NW.pdf
-  name: Operatorenliste
 - 
   link: https://www.leifiphysik.de/
   name: Online Physik lernen
