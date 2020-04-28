@@ -17,7 +17,7 @@ $such_zeilenumbruch_outlook = 'TRANSP';
 ///////////////////////////////////////////////
 // Kalender einlesen
 $file = fopen ('https://kalender.kgs-rastede.de/schuljahresplanerPaos8UojIsZJF0KZz.ics', "r");
-$exportjson = fopen ("schuljahresplanerPaos8UojIsZJF0KZz.json", w);
+$exportjson = fopen ("schuljahresplanerPaos8UojIsZJF0KZz.json", "w");
 $datensatz_nr = 0;
 $datensatz = false;
 echo2 ('['.'<br>'); //Zeile 1 der json-Datei für den fullcalendar
