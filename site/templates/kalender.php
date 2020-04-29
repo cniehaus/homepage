@@ -2,9 +2,16 @@
 
 <?php snippet('page-header') ?>
 
-<script src='../../assets/js/packages/core/main.js'></script>
-<script src='../../assets/js/packages/daygrid/main.js'></script>
-<script src='../../assets/js/list/main.js'></script>
+
+<link href='<?= $kirby->url('assets') ?>/js/packages/core/main.css' rel='stylesheet' />
+<link href='<?= $kirby->url('assets') ?>/js/packages/daygrid/main.css' rel='stylesheet' />
+<link href='<?= $kirby->url('assets') ?>/js/packages/timegrid/main.css' rel='stylesheet' />
+<link href='<?= $kirby->url('assets') ?>/js/packages/list/main.css' rel='stylesheet' />
+<script src='<?= $kirby->url('assets') ?>/js/packages/core/main.js'></script>
+<script src='<?= $kirby->url('assets') ?>/js/packages/interaction/main.js'></script>
+<script src='<?= $kirby->url('assets') ?>/js/packages/daygrid/main.js'></script>
+<script src='<?= $kirby->url('assets') ?>/js/packages/timegrid/main.js'></script>
+<script src='<?= $kirby->url('assets') ?>/js/packages/list/main.js'></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
