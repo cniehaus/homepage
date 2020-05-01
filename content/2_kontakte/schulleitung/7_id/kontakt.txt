@@ -6,7 +6,7 @@ Heading: id
 
 ----
 
-Email: id@kgs-rastede.de
+Email: id
 
 ----
 

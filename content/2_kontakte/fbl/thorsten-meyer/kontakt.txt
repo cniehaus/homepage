@@ -6,7 +6,7 @@ Heading: my
 
 ----
 
-Email: my@kgs-rastede.de
+Email: my
 
 ----
 

@@ -6,7 +6,7 @@ Heading: sm
 
 ----
 
-Email: sm@kgs-rastede.de
+Email: sm
 
 ----
 

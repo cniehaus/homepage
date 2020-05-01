@@ -6,7 +6,7 @@ Heading: scm
 
 ----
 
-Email: scm@kgs-rastede.de
+Email: scm
 
 ----
 

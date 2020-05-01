@@ -6,7 +6,7 @@ Heading: vm
 
 ----
 
-Email: vm@kgs-rastede.de
+Email: vm
 
 ----
 
