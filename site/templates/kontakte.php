@@ -19,10 +19,8 @@
 
 
                 <div class="col-md-3">
-                    <div class="card card-profile card-plain">
-                        <div class="card-header card-avatar">
-                            <img class="img" src="<?= $kontakt->images()->first()->url() ?>" />                        
-                        </div>
+                    <div class="card">
+                        <img class="card-img-top" src="<?= $kontakt->images()->first()->url() ?>" />                        
                         <div class="card-body ">
                             <h4 class="card-title"><?= $kontakt->title() ?></h4>
                             <h6 class="card-category text-muted"><?= $kontakt->position() ?></h6>
