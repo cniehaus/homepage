@@ -2,10 +2,6 @@ Title: Gymnasialzweig
 
 ----
 
-Leitung: Malte Bormann
-
-----
-
 Text:
 
 [
@@ -115,8 +111,32 @@ Text:
 
 ----
 
-Gallery: 
+Related: 
 
 ----
 
-Sidebar: 
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: 
+
+----
+
+Sidebar:
+
+- 
+  link: http://www.kgs-rastede.de
+  name: Die Schulhomepage
+
+----
+
+Leitung: Malte Bormann
+
+----
+
+Gallery: 
