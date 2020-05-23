@@ -18,26 +18,13 @@ body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+/* die Schriftgröße war zu klein */
+p {
+    font-size: 1.2em;
+}
+
 .dropdown-item {
     font-size: x-large;
-}
-
-footer ul {
-    margin-top: 8px;
-    padding-left: 0;
-}
-
-footer li {
-    list-style-type: none;
-}
-
-textarea {
-    background: #111;
-    color: #111;
-}
-html {
-    position: relative;
-    min-height: 100%;
 }
 
 html.home {
