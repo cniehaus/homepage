@@ -60,14 +60,6 @@
                 <!--  
                     Jetzt werden die Elemente angefügt. 
                     -->
-
-                <div class="card card-plain card-blog">
-                  <div class="row">
-
-                    <!-- der ersten beiden Zeilen sind immer gleich -->
-
-
-
                     <?php $index = 0;
                     foreach (page('blogs')
                       ->children()
@@ -81,7 +73,13 @@
                       Ich möchte effektiv bei jedem zweiten Artikel das Bild links und 
                       den Text rechts haben, um das Design etwas aufzulockern
                     -->
-                      <?php if ($index % 2 == 0) : ?>
+                    <div class="card">
+                  <div class="row">
+
+                    <!-- der ersten beiden Zeilen sind immer gleich -->
+
+
+                    <?php if ($index % 2 == 0) : ?>
 
                         <?php snippet('teaser-bild', [
                           'subpage' => $subpage
@@ -103,13 +101,13 @@
 
                       <?php endif ?>
 
+                      </div>
+                </div>
 
 
                     <?php endforeach ?>
 
                     <!-- der letzten beiden Zeilen sind immer gleich -->
-                  </div>
-                </div>
 
                 <!--  -->
 
