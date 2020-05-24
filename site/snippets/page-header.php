@@ -21,6 +21,4 @@
 
 <!-- Ab hier der richtige Inhalt, der auf jeder Seite individuell sein kann -->
 
-<div class="main main-raised">
-  <div class="container">
-    <div class="section text-left">
+<div class="container">
