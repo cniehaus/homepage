@@ -1,18 +1,22 @@
 <?php if ($image = $page->hintergrundbild()->toFile()) : ?>
-  <div class="jumbotron" style="background-image: url('<?= $image->url() ?>'); background-size: cover;">
-    <div class="container">
-      <h1 class="title text-white" style="font-size: 3vw"><?= $page->title() ?>
-        <small class="text-muted"><?= $page->subtitle() ?></small>
-      </h1>
+  <div class="jumbotron jumbotron-fluid" style="background-image: url('<?= $image->url() ?>'); background-size: cover;">
+    <div class="titelfeld">
+      <div class="container">
+        <h1><?= $page->title() ?>
+          <small class="text-muted"><?= $page->subtitle() ?></small>
+        </h1>
+      </div>
     </div>
   </div>
 <?php else : ?>
 
-  <div class="jumbotron" style="background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg'); background-size: cover;">
-    <div class="container">
-      <h1 class="title text-white" style="font-size: 3vw"><?= $page->title() ?>
-        <small class="text-muted"><?= $page->subtitle() ?></small>
-      </h1>
+  <div class="jumbotron jumbotron-fluid" style="background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg'); background-size: cover;">
+    <div class="titelfeld">
+      <div class="container">
+        <h1><?= $page->title() ?>
+          <small class="text-muted"><?= $page->subtitle() ?></small>
+        </h1>
+      </div>
     </div>
   </div>
 
