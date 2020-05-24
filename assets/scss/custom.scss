@@ -1,0 +1,36 @@
+/* import only the necessary Bootstrap files */
+@import "../bootstrap/scss/functions"; 
+@import "../bootstrap/scss/variables";
+
+/* -------begin customization-------- */
+
+/* die Standardfarben festlegen */
+$theme-colors: (
+  primary: rgba(158, 219, 44, 0.616),
+  danger: rgb(238, 255, 0),
+  secondary: rgb(32, 64, 153),
+);
+
+$spacer: 1rem;
+$spacers:
+(
+1: ($spacer * .5),
+2: $spacer,
+3: ($spacer * 1.5),
+4: ($spacer * 2),
+5: ($spacer * 3),
+6: ($spacer * 5)
+);
+
+$enable-caret: true !default;
+$enable-rounded: true !default;
+$enable-shadows: false !default;
+$enable-gradients: false !default;
+$enable-transitions: true !default;
+$enable-prefers-reduced-motion-media-query: true !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+$enable-validation-icons: true !default;
+
+/* -------end customization-------- *//* finally, import Bootstrap to set the changes! */
+@import "../bootstrap/scss/bootstrap";
