@@ -2,35 +2,137 @@
 @import "../bootstrap/scss/functions"; 
 @import "../bootstrap/scss/variables";
 
+
+@import "./functions";
+
 /* -------begin customization-------- */
 
-/* die Standardfarben festlegen */
+// /* die Standardfarben festlegen */
+// $theme-colors: (
+// );
+
+
+
+
+
+// Custom
+$main-color: #1a8c97;
+$icon-size: 60px;
+$navbar-light-active-color: #1a8c97;
+
+
 $theme-colors: (
   primary: rgba(158, 219, 44, 0.616),
   danger: rgb(238, 255, 0),
   secondary: rgb(32, 64, 153),
 );
 
-$spacer: 1rem;
-$spacers:
-(
-1: ($spacer * .5),
-2: $spacer,
-3: ($spacer * 1.5),
-4: ($spacer * 2),
-5: ($spacer * 3),
-6: ($spacer * 5)
-);
+.showcase{
+  background: url(../img/stifte.jpg) no-repeat 0 -100px;
+  height:600px;
+  padding:30px 0;
 
-$enable-caret: true !default;
-$enable-rounded: true !default;
-$enable-shadows: false !default;
-$enable-gradients: false !default;
-$enable-transitions: true !default;
-$enable-prefers-reduced-motion-media-query: true !default;
-$enable-grid-classes: true !default;
-$enable-print-styles: true !default;
-$enable-validation-icons: true !default;
+  h1{
+    font-size:60px;
+  }
+
+  .container{
+    background: #fff;
+    opacity: 0.8;
+    padding: 20px 30px 30px 30px;
+  }
+}
+
+.section-a{
+  padding: 30px 0;
+  text-align: center;
+  background: $main-color;
+  color: set-text-color($main-color);
+}
+
+.section-b{
+  background:#e6ebf1;
+  padding: 30px 0;
+
+  img{
+    width:100%;
+  }
+}
+
+.panel-heading h4{
+  color: set-text-color($main-color);
+}
+
+.section-c{
+  padding: 60px 0;
+  text-align: center;
+  background: $main-color;
+  color: set-text-color($main-color);
+
+  .btn-primary{
+    background: darken($main-color, 10%);
+  }
+}
+
+.title-bar{
+  background: url(../img/showcase.jpg) no-repeat 0 -300px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $main-color;
+}
+
+.main{
+  margin-top:30px;
+}
+
+
+// footer{
+//   padding:30px 0;
+//   background: darken($main-color, 10%);
+//   color: set-text-color($main-color);
+// }
+
+
+
+
+
+
+// == Typography
+
+// ## Font, line-height, and color for body text, headings, and more.
+
+// $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+// //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+// $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+// $font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+
+
+
+
+
 
 /* -------end customization-------- */
 
