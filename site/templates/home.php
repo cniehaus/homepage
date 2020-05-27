@@ -27,11 +27,9 @@
       endif ?>
 
       <?php if (page('allgemeines/notfall')->toggle()->bool() === true) : ?>
-        <div class="showcase">
-          <div class="container">
-            <h1><?php echo $titel ?></h1>
-            <p class="lead"><?= page('allgemeines/notfall')->text() ?></p>
-          </div>
+        <div class="card my-4">
+              <h1><?php echo $titel ?></h1>
+              <p class="lead"><?= page('allgemeines/notfall')->text() ?></p>
         </div>
       <?php endif ?>
 
@@ -40,17 +38,16 @@
 
       <!-- Rotierknopf bspw für Elternsprechtag -->
 
-      <div class="row">
         <?php foreach (page('allgemeines/aktuelles')->banner()->toStructure() as $subpage) :  ?>
           <?php if ($subpage->dateBis()->toDate('Y-m-d') >= date('Y-m-d')) :
             snippet('rotier-knopf', ['subpage' => $subpage]);
           endif ?>
         <?php endforeach ?>
-      </div>
+      
 
       <div class="card py-4">
 
-        <h1>Zum Testen der Farben hier die Farben des Schemas</h1>  
+        <h1>Zum Testen der Farben hier die Farben des Schemas</h1>
 
         <hr>
 
