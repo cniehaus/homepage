@@ -6,10 +6,6 @@ Heading: amm
 
 ----
 
-Email: amm
-
-----
-
 Position: Hausmeister Hauptgebäude
 
 ----
@@ -18,7 +14,11 @@ Phone: 04402-9264-28
 
 ----
 
-Fotoansicht: schulleiter
+Fotoansicht: hausmeister
+
+----
+
+Email: amm@
 
 ----
 
