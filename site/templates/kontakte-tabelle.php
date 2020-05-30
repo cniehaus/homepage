@@ -37,7 +37,7 @@
                 <td><?= $kontakt->phone() ?></td>
                 <td>
                     <script type="text/javascript">
-                        var mail = "<?= $kontakt->email() ?>";
+                        var mail = "<?= $kontakt->Heading() ?>";
                         var en = "de";
                         var dom = "kgs-rastede";
                         var at = "@";
@@ -78,7 +78,7 @@
                 <td><?= $kontakt->phone() ?></td>
                 <td>
                     <script type="text/javascript">
-                        var mail = "<?= $kontakt->email() ?>";
+                        var mail = "<?= $kontakt->heading() ?>";
                         var en = "de";
                         var dom = "kgs-rastede";
                         var at = "@";
