@@ -10,26 +10,26 @@
         ein Banner angezeigt werden, damit die Eltern schnell informiert werden können
         -->
 
-      <?php if (page('allgemeines/notfall')->category() == "sturm") :
+      <?php if (page('wichtige_informationen/notfall')->category() == "sturm") :
         $titel = "Schulausfall wegen Sturm";
       endif ?>
-      <?php if (page('allgemeines/notfall')->category() == "eis") :
+      <?php if (page('wichtige_informationen/notfall')->category() == "eis") :
         $titel = "Schulausfall wegen Glatteis";
       endif ?>
-      <?php if (page('allgemeines/notfall')->category() == "regen") :
+      <?php if (page('wichtige_informationen/notfall')->category() == "regen") :
         $titel = "Schulausfall wegen Starkregen";
       endif ?>
-      <?php if (page('allgemeines/notfall')->category() == "heizung") :
+      <?php if (page('wichtige_informationen/notfall')->category() == "heizung") :
         $titel = "Schulausfall wegen Heizungsausfall";
       endif ?>
-      <?php if (page('allgemeines/notfall')->category() == "eigenerTitel") :
-        $titel = page('allgemeines/notfall')->textTitel();
+      <?php if (page('wichtige_informationen/notfall')->category() == "eigenerTitel") :
+        $titel = page('wichtige_informationen/notfall')->textTitel();
       endif ?>
 
-      <?php if (page('allgemeines/notfall')->toggle()->bool() === true) : ?>
-        <div class="card my-4">
+      <?php if (page('wichtige_informationen/notfall')->toggle()->bool() === true) : ?>
+        <div class="card bg-primary my-4">
               <h1><?php echo $titel ?></h1>
-              <p class="lead"><?= page('allgemeines/notfall')->text() ?></p>
+              <p class="lead"><?= page('wichtige_informationen/notfall')->text() ?></p>
         </div>
       <?php endif ?>
 
@@ -38,8 +38,20 @@
 
       <!-- Rotierknopf bspw für Elternsprechtag -->
 
-        <?php foreach (page('allgemeines/aktuelles')->banner()->toStructure() as $subpage) :  ?>
-          <?php if ($subpage->dateBis()->toDate('Y-m-d') >= date('Y-m-d')) :
+        <?php foreach (page('wichtige_informationen/aktuelles')->banner()->toStructure() as $subpage) :  ?>
+          
+          Date:
+          <?= date('Y-m-d') ?>
+
+          Date von:
+          <?= $subpage->dateVon()->toDate('Y-m-d') ?>
+
+
+          Date bis:
+          <?= $subpage->dateBis()->toDate('Y-m-d') ?>
+
+          <?php 
+            if ($subpage->dateBis()->toDate('Y-m-d') >= date('Y-m-d') and ($subpage->dateVon()->toDate('Y-m-d') < date('Y-m-d') ) ):
             snippet('rotier-knopf', ['subpage' => $subpage]);
           endif ?>
         <?php endforeach ?>
