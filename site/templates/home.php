@@ -157,6 +157,7 @@
 
     </div>
     <div class="col-md-4">
+      <?php snippet('box-kalender') ?>
       <?php snippet('box-presse') ?>
       <?php snippet('box-foerderverein') ?>
       <?php snippet('box-links') ?>
