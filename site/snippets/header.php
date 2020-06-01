@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="sections-page sidebar-collapse">
+<body>
   
     <header>
         <?php snippet('nav') ?>
