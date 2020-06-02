@@ -19,11 +19,9 @@
   <?php endif ?>
 
       <div class="card-body">
-        <h6 class="card-category text-info"><?= $sf->Heading() ?></h6>
-        <a href="#pablo">
+        <h6 class="card-category"><?= $sf->Heading() ?></h6>
           <h3 class="card-title"><?= $sf->Title() ?></h3>
-        </a>
-        <p class="font-weight-bold card-description">
+        <p class="card-description">
           <?= $sf->Beschreibung() ?>
         </p>
       </div>
