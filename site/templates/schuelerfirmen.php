@@ -6,37 +6,41 @@
 
 
 
-<?php foreach ($page->children() as $sf) : ?>
 
-  <?php if ($image = $sf->bild()->toFile()) : ?>
 
-    <div class="card card-background" style="background-image: url( <?= $image->url() ?> );">
-
-  <?php else : ?>
-
-    <div class="card bg-secondary">
-
-  <?php endif ?>
-
-      <div class="card-body">
-        <h6 class="card-category"><?= $sf->Heading() ?></h6>
+<div class="row row-cols-1 row-cols-md-2">
+  <?php foreach ($page->children() as $sf) : ?>
+    <div class="col mb-4">
+      <div class="card">">
+        <?php if ($image = $sf->bild()->toFile()) : ?>
+            <img src="<?= $image->url() ?>" class="card-img-top" alt="...">
+        <?php endif ?>
+        
+          
+        <div class="card-body">
           <h3 class="card-title"><?= $sf->Title() ?></h3>
-        <p class="card-description">
-          <?= $sf->Beschreibung() ?>
-        </p>
+          <p class="card-text"><?= $sf->Heading() ?></p>
+          <p class="card-text">
+              <?= $sf->Beschreibung() ?>
+          </p>
+        </div>      
       </div>
     </div>
+  
+  <?php endforeach ?>
+</div>
 
-<?php endforeach ?>
+<div class="container ml-auto mr-auto">
 
+  <h2>Aktuelles aus den Schülerfirmen</h2>
 
+  <?php snippet('blogs', [
+    'blogs' => page('blogs')
+      ->children()
+      ->listed()
+      ->filterBy('tags', 'Schülerfirmen', ',')
+  ]) ?>
 
+</div>
 
-<?php snippet('blogs', [
-  'blogs' => page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'Schülerfirmen', ',')
-]) ?>
-
-    <?php snippet('footer') ?>
+<?php snippet('footer') ?>
