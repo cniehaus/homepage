@@ -5,6 +5,7 @@
         </h4>
         <p>
             von <b><?= $subpage->author() ?></b>
+            <br>
             Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
         </p>
         <p class="card-text">
