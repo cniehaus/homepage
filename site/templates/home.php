@@ -45,17 +45,17 @@
         <?php foreach (page('wichtige_informationen/aktuelles')->banner()->toStructure() as $subpage) :  ?>
 
           Date:
-          <?= date('Y-m-d') ?>
+          <?= date('Y-m-d-H-i-s') ?>
 
           Date von:
-          <?= $subpage->dateVon()->toDate('Y-m-d') ?>
+          <?= $subpage->dateVon()->toDate('Y-m-d-H-i-s') ?>
 
 
           Date bis:
-          <?= $subpage->dateBis()->toDate('Y-m-d') ?>
+          <?= $subpage->dateBis()->toDate('Y-m-d-H-i-s') ?>
 
           <?php
-          if ($subpage->dateBis()->toDate('Y-m-d') >= date('Y-m-d') and ($subpage->dateVon()->toDate('Y-m-d') < date('Y-m-d'))) :
+          if ($subpage->dateBis()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s') and ($subpage->dateVon()->toDate('Y-m-d-H-i-s') < date('Y-m-d-H-i-s'))) :
             snippet('rotier-knopf', ['subpage' => $subpage]);
           endif ?>
         <?php endforeach ?>

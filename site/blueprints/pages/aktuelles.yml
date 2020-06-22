@@ -22,10 +22,10 @@ fields:
       dateVon:
         label: Veröffentlicht von...
         type: date
-        time: false
+        time: true
         default: now
       dateBis:
         label: Veröffentlicht bis...
         type: date
-        time: false
+        time: true
         default: now

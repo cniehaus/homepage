@@ -9,6 +9,7 @@
   
   <link rel="stylesheet" href="<?= $kirby->url('assets') ?>/css/kgs.css" >
 
+  <?= date_default_timezone_set("Europe/Amsterdam");?>
 </head>
 
 <body>
