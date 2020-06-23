@@ -6,6 +6,7 @@ fields:
   banner:
     label: Banner
     type: structure
+    sortBy: datebis desc
     fields:
       titel:
         label: Titel

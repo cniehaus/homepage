@@ -1,5 +1,5 @@
 title: Blogs aus allen Fächern
-num: '{{ page.date.toDate("Ymd") }}'
+num: '{{ page.date.toDate("YmdHi") }}'
 icon: 📖
 
 options:
@@ -17,6 +17,7 @@ sections:
     type: pages
     status: draft
     templates: blog
+    sortBy: date desc
     info: "Autor: {{page.author}}, Datum: {{page.date.toDate('d.m.Y') }}, Tag: {{page.tags}}"
 
   published:
@@ -24,4 +25,5 @@ sections:
     type: pages
     status: listed
     templates: blog
+    sortBy: date desc
     info: "Autor: {{page.author}}, Datum: {{page.date.toDate('d.m.Y') }}, Tag: {{page.tags}}"
