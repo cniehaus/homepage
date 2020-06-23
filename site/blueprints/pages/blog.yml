@@ -83,6 +83,7 @@ columns:
               - AGs
               - SSD
               - Austausch
+              - Wettbewerb
 
           line1:
             type: line
