@@ -12,6 +12,9 @@ return [
     // automatische URLs folgen der deuschen Sprache
     'slugs' => 'de',
 
+    // Automatically resize images on upload 2000px width
+    'medienbaecker.autoresize.maxWidth' => 1000,
+
     'email' => [
         'presets' => [
             'contact' => [
