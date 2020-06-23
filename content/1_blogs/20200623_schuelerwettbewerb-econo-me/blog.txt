@@ -1,0 +1,53 @@
+Title: Schülerwettbewerb „econo=me“
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Am 18. Juni 2020 war es so weit: Eine Sch\u00fclergruppe aus dem WPK Wirtschaft, 9. Jahrgang, wurde zur digitalen Preisverleihung des bundesweiten <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://award.handelsblatt.com/econo-me/ \">Sch\u00fclerwettbewerbs \u201eecono=me\u201c</a> eingeladen. Das Oberthema, das die Sch\u00fclergruppen in diesem Schuljahr bearbeiten sollten, lautet \u201eWarum brauchen wir Unternehmen?\u201c. Hierzu hatten die Sch\u00fcler des Wahlpflichtkurses einen eigenen Kurzfilm erstellt und erreichten damit den zweiten Platz im Wettbewerb. Die gl\u00fccklichen Gewinner (Mike, Leon, Lorenz, Marek, Erik, S\u00f6ren und Lukas \u2013 alle 9B3) freuten sich \u00fcber Sachpreise und einen Gutschein f\u00fcr einen gemeinsamen Ausflug mit dem ganzen WPK von Frau Eickelkamp.",
+        "id": "_YKWWuRzqI",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery:
+
+- >
+  econo_me_sek_i_2020_2platz_kgs_rastede.jpg
+
+----
+
+Date: 2020-06-23 07:00
+
+----
+
+Author: EIK
+
+----
+
+Tags: PoWi, Wettbewerb
+
+----
+
+Featured: true
+
+----
+
+Immer-sichtbar: false
+
+----
+
+Downloads: 
+
+----
+
+Fotoansicht: gallery
