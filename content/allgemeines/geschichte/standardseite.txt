@@ -1,0 +1,38 @@
+Title: Die Geschichte der KGS
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Uns gibt es schon lange.",
+        "id": "_y3axG1Dp5",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Related: 
+
+----
+
+Downloads: 
+
+----
+
+Toggle: true
+
+----
+
+Sidetitel: Links zur Geschichte
+
+----
+
+Sidebar:
+
+- 
+  link: https://nibis.de/inklusive-schule_10225
+  name: Übersicht vom Ministerium
