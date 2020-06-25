@@ -1,5 +1,10 @@
 title: Default File
 
+# hier gehts heißt nur das aufrufen geht irgendwie nicht
+# 
+# accept:
+#   mime: image/jpeg, image/png
+
 fields:
   bildunterschrift:
     label: Bildunterschrift

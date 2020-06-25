@@ -1,6 +1,7 @@
 title: Images1312
 
-accept: image/*
+accept:
+  mime: image/jpeg, image/png
 
 # https://getkirby.com/docs/reference/panel/blueprints/file#accept
 # https://forum.getkirby.com/t/files-field-only-images/12468/15
