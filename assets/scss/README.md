@@ -21,12 +21,13 @@ sass .\kgs.scss ..\css\kgs.css
 
 Dieser Befehl erzeugt die .css-Datei. Man öffnet diese Datei und startet mit `F1` dann den Minifier. 
 
-# Alternative zum Kompilieren
-Man kann auch mit Prepos (https://prepros.io/) oder Koala arbeiten. 
+# Alternative zum Kompilieren (die bevorzugte Variante)
+Man kann auch mit Prepos (https://prepros.io/) arbeiten. 
 
 
 # Update von Bootstrap
-Sollte mal Bootstrap 4.5.1 rauskommen, so muss man nur den Bootstrap-Ordner 1:1 austauschen und dann `sass` nau laufen lassen.
+Sollte mal Bootstrap 5.0.1 rauskommen, so muss man nur den Bootstrap-Ordner 1:1 austauschen und dann `sass` nau laufen lassen.
+Oder mit der Alternative einfach in Prepos kompilieren. Dann ist das "Output File" der Pfad '/css/kgs.css'. 
 
 # TODO
 Grundsätzlich kann man durch angepasste `@include`-Befehle erreichen, dass nur das CSS kompiliert wird, das auch benutzt wird. 
