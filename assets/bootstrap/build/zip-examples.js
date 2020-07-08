@@ -4,7 +4,7 @@
  * Script to create the built examples zip archive;
  * requires the `zip` command to be present!
  * Copyright 2020 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
 'use strict'
@@ -12,9 +12,7 @@
 const path = require('path')
 const sh = require('shelljs')
 
-const {
-  version, version_short: versionShort
-} = require('../package.json')
+const { version, version_short: versionShort } = require('../package.json')
 
 const folderName = `bootstrap-${version}-examples`
 
@@ -43,7 +41,7 @@ sh.cp('-f', [
 sh.rm(`${folderName}/index.html`)
 
 // get all examples' HTML files
-sh.find(`${folderName}/**/*.html`).forEach((file) => {
+sh.find(`${folderName}/**/*.html`).forEach(file => {
   const fileContents = sh.cat(file)
     .toString()
     .replace(new RegExp(`"/docs/${versionShort}/`, 'g'), '"../')
@@ -55,9 +53,7 @@ sh.find(`${folderName}/**/*.html`).forEach((file) => {
 })
 
 // create the zip file
-sh.exec(`zip -r9 "${folderName}.zip" "${folderName}"`, {
-  fatal: true
-})
+sh.exec(`zip -r9 "${folderName}.zip" "${folderName}"`, { fatal: true })
 
 // remove the folder we created
 sh.rm('-rf', folderName)
