@@ -18,13 +18,13 @@ fields:
       link: 
         width: 1/10      
       name: 
-        width: 3/10
+        width: 4/10
       anfang: 
         width: 3/10
       datum: 
         width: 1/10
       zeitung: 
-        width: 2/10
+        width: 1/10
     fields:
       link:
         label: Link (URL)
