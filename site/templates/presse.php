@@ -7,26 +7,44 @@
 
 <!--  -->
 
-<?php 
+<?php
 // `toStructure()` erzeugt einen Iterator fuer die URLs
 $items = $page->pressenachrichten()->toStructure()->sortBy("datum")->flip();
 
 $list = $items->paginate(5);
 
+$quelle = "";
+
 // Nun kann man jede URL durchgehen und jeweils einen Links erzeugen
-foreach ($list as $item): ?>
- 
+foreach ($list as $item) : ?>
+
+  <?php
+  if ($item->zeitung() == "nwz") {
+    $quelle = "Nordwest Zeitung";
+  } elseif ($item->zeitung() == "youtube") {
+    $quelle = "YouTube";
+  }
+  else {
+    $quelle = "Rasteder Rundschau";
+  }
+  ?>
+
   <h2 class="title">
     <a href="<?= $item->link() ?>">
       <?= $item->name()->html() ?>
-      
     </a>
+
+
+      <div class="text-right">
+        <span class="badge badge-pill bg-secondary"><?= $quelle ?></span>
+        Datum: <?= $item->datum()->html() ?>
+      </div>
   </h2>
-  <div class="text-right">
-  Datum: <?= $item->datum()->html() ?> <span class="badge badge-pill alert-dark"><?= $item->zeitung()->html() ?></span>
-  </div>
 
   <p><?= $item->anfang() ?></p>
+
+  <hr>
+
 <?php endforeach ?>
 
 
@@ -38,41 +56,41 @@ foreach ($list as $item): ?>
 <nav>
   <ul class="pagination">
 
-    <?php if ($pagination->hasPrevPage()): ?>
-    <li class="page-item">
-      <a class="page-link" href="<?= $pagination->prevPageURL() ?>">‹</a>
-    </li>
-    <?php else: ?>
-    <li>
-      <span>‹</span>
-    </li>
+    <?php if ($pagination->hasPrevPage()) : ?>
+      <li class="page-item">
+        <a class="page-link" href="<?= $pagination->prevPageURL() ?>">‹</a>
+      </li>
+    <?php else : ?>
+      <li>
+        <span>‹</span>
+      </li>
     <?php endif ?>
 
     <!-- Hier nun die mittleren Elemente -->
 
-    <?php foreach ($pagination->range(10) as $r): ?>
-    <li class="page-item <?= $pagination->page() === $r ? 'active' : '' ?>">
-      <!-- Hier steckt hinter:
+    <?php foreach ($pagination->range(10) as $r) : ?>
+      <li class="page-item <?= $pagination->page() === $r ? 'active' : '' ?>">
+        <!-- Hier steckt hinter:
         Wenn page() identisch ist mit $r schreibe aria-current (also aktuelle Seite),
         ansonsten mache '', also füge nichts ein. Das ist eine extreme Abkürzung.
 
         Damit wird im Endeffekt erreicht, dass mit nur einer Zeile die aktuelle Seite
         markiert
       -->
-      <a class="page-link" <?= $pagination->page() === $r ? 'aria-current="page"' : '' ?> href="<?= $pagination->pageURL($r) ?>">
-        <?= $r ?>
-      </a>
-    </li>
+        <a class="page-link" <?= $pagination->page() === $r ? 'aria-current="page"' : '' ?> href="<?= $pagination->pageURL($r) ?>">
+          <?= $r ?>
+        </a>
+      </li>
     <?php endforeach ?>
 
-    <?php if ($pagination->hasNextPage()): ?>
-    <li class="page-item">
-      <a class="page-link" href="<?= $pagination->nextPageURL() ?>">›</a>
-    </li>
-    <?php else: ?>
-    <li class="page-item">
-      <span>›</span>
-    </li>
+    <?php if ($pagination->hasNextPage()) : ?>
+      <li class="page-item">
+        <a class="page-link" href="<?= $pagination->nextPageURL() ?>">›</a>
+      </li>
+    <?php else : ?>
+      <li class="page-item">
+        <span>›</span>
+      </li>
     <?php endif ?>
 
   </ul>
