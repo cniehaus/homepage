@@ -6,7 +6,22 @@ Heading: wir lieben Holz
 
 ----
 
-Beschreibung: Verkauf von selbst hergestelltem Spielzeug oder Ähnlichem aus Holz; Holzsitzbänke für Grundschulen; weitere Produkte auf Anfrage (Vogelhäuser für den Schlosspark)
+Beschreibung:
+
+[
+    {
+        "attrs": [],
+        "content": "Verkauf von selbst hergestelltem Spielzeug oder Ähnlichem aus Holz; Holzsitzbänke für Grundschulen;",
+        "id": "_e2pk2wlaa",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "weitere Produkte auf Anfrage (Vogelhäuser für den Schlosspark)",
+        "id": "_g22ar2ki6",
+        "type": "paragraph"
+    }
+]
 
 ----
 

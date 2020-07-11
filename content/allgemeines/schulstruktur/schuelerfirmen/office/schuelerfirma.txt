@@ -6,7 +6,22 @@ Heading: Geschenke, Karten und mehr
 
 ----
 
-Beschreibung: In der Schülerfirma Colorful Office werden Geschenke und Präsente verpackt, Grußkarten gestaltet, Deko-Artikel hergestellt und die KGS-Schulkleidung verkauft. In regelmäßigen Abständen verlost die Firma die Produkte mit Hilfe eines Glücksrads.
+Beschreibung:
+
+[
+    {
+        "attrs": [],
+        "content": "In der Schülerfirma Colorful Office werden Geschenke und Präsente verpackt, Grußkarten gestaltet, Deko-Artikel hergestellt und die KGS-Schulkleidung verkauft.",
+        "id": "_fpx2m3k83",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "In regelmäßigen Abständen verlost die Firma die Produkte mit Hilfe eines Glücksrads.",
+        "id": "_lqgiv2f0d",
+        "type": "paragraph"
+    }
+]
 
 ----
 
