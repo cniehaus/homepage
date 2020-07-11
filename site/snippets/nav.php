@@ -46,7 +46,7 @@
         <div class="dropdown-menu dropdown-with-icons">
           <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> Schulbusverkehr</a>
           <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> Zeitraster</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/presse')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> ...aus der Presse</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/presse')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> ...aus der Presse</a>
           <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> Ausbildungsschule</a>
           <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/people-fill.svg"> Inklusion</a>
 
