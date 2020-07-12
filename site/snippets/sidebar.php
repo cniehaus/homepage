@@ -1,11 +1,11 @@
-<div class="container-fluid">
+<div class="container">
     <?php if ($page->sidebar()->isNotEmpty() or $page->related()->isNotEmpty()) : ?>
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-9">
                 <div class="container"><?= $page->text()->blocks() ?></div>
             </div>
 
-            <div class="col-mb-3">
+            <div class="col">
                 <?php if ($page->sidebar()->isNotEmpty()) : ?>
 
                     <div class="card mb-3">
