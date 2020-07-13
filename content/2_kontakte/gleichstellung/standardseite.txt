@@ -7,8 +7,140 @@ Text:
 [
     {
         "attrs": [],
-        "content": "HIER FEHLT TEXT",
-        "id": "_v90kVus4b",
+        "content": "Wir, das sind Angela KB (Eckhardt-Klebert) und Manu BG (Berg), vertreten die Interessen bezüglich der Gleichstellung an der KGS Rastede.",
+        "id": "_HRSDRd1Up",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das grundsätzliche Ziel der Gleichstellung ist es, die Vereinbarkeit von Familien- und Erwerbsarbeit für Frauen <em>und</em> Männer zu fördern und zu erleichtern, sowie die Gleichstellung von Frau und Mann in der öffentlichen Verwaltung zu unterstützen. Die Grundlage unserer Arbeit bilden das AGG (Allgemeines Gleichbehandlungsgesetz), NGG (Niedersächsisches Gleichberechtigungsgesetz) und NBGG (Niedersächsisches Behindertengleichstellungs­gesetz).",
+        "id": "_2Ka4jrEVK",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wir Gleichstellungsbeauftragten werden von der Schulleitung für jeweils 4 Jahre bestellt.",
+        "id": "_iZx6Aqef4",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Unsere Arbeitsschwerpunkte in den letzten Jahren waren",
+        "id": "_JSAAi9niI",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Entlastung und mehr Ausgleich für Klassenlehrerinnen und Klassenlehrer in Teilzeit",
+        "id": "_gjg9648j5",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "Beratung und Unterstützung von Kolleginnen und Kollegen",
+        "id": "_hi3j6s77p",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "Beschaffung eines Ruheplatzes für Schwangere und Stillende im Standort Wilhelmstraße",
+        "id": "_iqmd0j0wf",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "Unterstützung von Frauen, die sich für Beförderungsämter interessieren (da Frauen in diesen Positionen unterbesetzt sind)",
+        "id": "_8y7zedo8q",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "(Halb-)jährliche schulinterne Informationsveranstaltungen (s.u.)",
+        "id": "_pm7syz1bw",
+        "type": "ul"
+    },
+    {
+        "attrs": [],
+        "content": "Außerdem sind wir im regelmäßigen Austausch mit der Schulleitung und pflegen den Kontakt zum Schulpersonalrat sowie zu einigen Ausschüssen und Arbeitsgruppen der KGS, um die Mitglieder bei wichtigen Entscheidungen für die Belange der Gleichstellung zu sensibilisieren. Wir begleiten zudem alle Auswahlverfahren bei neuen Stellen.",
+        "id": "_HW9HpgUiD",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wir Gleichstellungsbeauftragte haben immer ein offenes Ohr für die Anliegen und Fragen unserer Kolleginnen und Kollegen – egal ob Eltern von kleinen Kindern oder KollegInnen, die zu Hause pflegebedürftige Angehörige betreuen: Wenn ihr euch überlastet fühlt und unsicher seid, ob eure Situation verändert werden kann, sprecht uns an! Wir suchen gemeinsam mit euch nach Lösungsmöglichkeiten und setzen uns bei der Schulleitung für Verbesserung ein!",
+        "id": "_zzgGg7kLi",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": null,
+            "alt": null,
+            "link": null
+        },
+        "content": "",
+        "id": "_c3pngiRLs",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Schwangere und junge Mütter werden vom Gesetz besonders geschützt. Uns ist es auch ein Anliegen, die gesetzlich zugesicherten Rechte zu erhalten und auf besondere persönliche Bedürfnisse einzugehen: In Raum 152.1 befindet sich ein Sofa, so dass Schwangere oder Stillende sich eine Pause gönnen können. 😊",
+        "id": "_CfhGtFdKe",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": null,
+            "alt": null,
+            "link": null
+        },
+        "content": "",
+        "id": "_w51kWlc47",
+        "type": "image"
+    },
+    {
+        "attrs": {
+            "src": null,
+            "alt": null,
+            "link": null
+        },
+        "content": "",
+        "id": "_Vj24Gg9D0",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_389zwIoVT",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Aktuelles:",
+        "id": "_gq1MV46Et",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Unsere für April 2020 geplante Info-Veranstaltung zum Thema Schwangerschaft, Mutterschutz und Elternzeit musste leider wegen der Pandemie auf das Frühjahr 2021 verschoben werden. Wir hoffen, Anfang des Schuljahres 2021/22 außerdem wieder unsere Info-Veranstaltung für neue Kolleginnen und Kollegen anbieten zu können.",
+        "id": "_egwX57nxf",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Alle wichtigen Informationen, Gesetze, Broschüren (u.a. zu Mutterschutz und Elternzeit) und schulinterne Vereinbarungen sind in der KGS-Nextcloud zu finden. (https://ssl.kgs-rastede.de/owncloud/index.php/apps/files/?dir=/Gleichstellungsbeauftragte&amp;fileid=16401)",
+        "id": "_w2eZDCKuR",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wir sind persönlich ansprechbar oder erreichbar unter der E-Mail <a href=\"mailto:gleichstellung@kgs-rastede.de\">gleichstellung@kgs-rastede.de</a> !",
+        "id": "_Ri67VZqVI",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_c5F9SDrRY",
         "type": "paragraph"
     }
 ]
