@@ -4,17 +4,6 @@
     <p><strong>Die Historie der KGS Rastede in ihren groben Zügen</strong></p>
     <p><em>Die Historie der KGS Rastede wird stichpunktartig skizziert und fokussiert in chronologischer Reihenfolge einzelne ausgewählte Aspekte (die Entstehung der KGS, die schulischen Veränderungen, die baulichen Maßnahmen an der Schule sowie Personalveränderungen in der Schulleitung und ausgewählte Ereignisse). Letztlich bildet diese Chronologie einen Spiegel der Presse.</em></p>
 
-
-
-    <script src="https://use.typekit.net/bkt6ydm.js"></script>
-    <script>
-        try {
-            Typekit.load({
-                async: true
-            });
-        } catch (e) {}
-    </script>
-
     <div class="container-fluid">
         <div class="row example-centered">
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
