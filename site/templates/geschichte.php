@@ -5,6 +5,198 @@
 <p><em>Die Historie der KGS Rastede wird stichpunktartig skizziert und fokussiert in chronologischer Reihenfolge einzelne ausgewählte Aspekte (die Entstehung der KGS, die schulischen Veränderungen, die baulichen Maßnahmen an der Schule sowie Personalveränderungen in der Schulleitung und ausgewählte Ereignisse). Letztlich bildet diese Chronologie einen Spiegel der Presse.</em></p>
 
 
+
+<script src="https://use.typekit.net/bkt6ydm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<div class="container-fluid">
+    <div class="row example-basic">
+        <div class="col-md-12 example-title">
+            <h2>Basic Timeline</h2>
+            <p>Extra small devices (phones, less than 768px)</p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 12, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 23, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">April 2016</h2>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 02, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 28, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row example-split">
+        <div class="col-md-12 example-title">
+            <h2>Split Timeline</h2>
+            <p>Small devices (tablets, 768px and up)</p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul class="timeline timeline-split">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 12, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 23, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">April 2016</h2>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 02, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 28, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row example-centered">
+        <div class="col-md-12 example-title">
+            <h2>Centered Timeline</h2>
+            <p>Medium devices (desktops, 992px and up).</p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul class="timeline timeline-centered">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 12, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 23, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">April 2016</h2>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 02, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 28, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
 <section class="timeline">
     <div class="container">
         <div class="timeline-item">
