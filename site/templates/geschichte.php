@@ -122,11 +122,10 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
 
-                            <ul>
-                                <li>Beginn der Arbeit der gymnasialen Oberstufe</li>
-                                <li>erster Schuljahrgang der 10. Klassen verlässt die Schule</li>
-                            </ul>
-
+                            
+                                <p>Beginn der Arbeit der gymnasialen Oberstufe</p>
+                                <p>erster Schuljahrgang der 10. Klassen verlässt die Schule</p>
+                            
 
                         </div>
                     </li>
@@ -511,7 +510,7 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
 
-                            p><em>zwei Mio. Euro für Schulsanierung (Umbau Ganztagsschule) und Ausstattung – Blitzschutz, fünf Klassenräume, Dächer, Toiletten im EG und Laborbezüge sowie Sicherheitsschränke und Erneuerung der Deckenbeleuchtung; naturwissenschaftliche Räume werden verbessert (FB) und mit Unterrichtsmaterialien ausgestattet und Verbesserung zweier Lehrerküchen (Februar 2006)</em></p>
+                            <em>zwei Mio. Euro für Schulsanierung (Umbau Ganztagsschule) und Ausstattung – Blitzschutz, fünf Klassenräume, Dächer, Toiletten im EG und Laborbezüge sowie Sicherheitsschränke und Erneuerung der Deckenbeleuchtung; naturwissenschaftliche Räume werden verbessert (FB) und mit Unterrichtsmaterialien ausgestattet und Verbesserung zweier Lehrerküchen (Februar 2006)</em></p>
                             <p><em>Sanierung der Heizzentrale und Lüftungsanlage für die Sporthallen – als Vorschlag diskutiert worden – mit Zustimmung</em></p>
                             <p><em>Horst Kowalski, Vertreter der Lehrerschaft: Wunsch nach mehr Parkplätzen – roter Parkplatz zwischen Thoradestraße und Bahnhofsstraße am Vormittag, bei der Sitzung des Schulausschusses im Rathaus – Bürgermeister Dieter Decker wies Vorschlag zurück</em></p>
                             <p>Urkunde für die Teilnahme der KGS am Bildungsprogramm des Landes</p>
@@ -731,7 +730,7 @@
                             <p>erneute Demo für ein besseres Klima</p>
                             <p><em>Sanierung der Toilettenanlagen (12 000 Euro) sowie Modernisierung der Veranstaltungstechnik in der Aula (103 600 Euro)</em></p>
                             <p>dritte Fridays for future - Demo</p>
-                            <p>Entlassung des Schulleiters Gerd Kip (17 Jahre als Schulleiter</p>
+                            <p>Entlassung des Schulleiters Gerd Kip (17 Jahre als Schulleiter)</p>
                             <p>kommissarische Leitung: Oberstufenkoordinatorin Claudia Berger sowie stellvertretender Schulleiter Carsten Niehaus</p>
                             <p><em>erneut mehr Platz benötigt – Gebäude links neben dem Eingang der KGS WI – stark sanierungsbedürftig, benötigt werden außerdem zusätzliche Informatikräume (ab 2023 soll Informatik als Pflichtfach eingeführt werden, so Niedersachsens Kultusminister Tonne)</em></p>
                             <p>vierte Fridays for future - Demo mit 800 Menschen</p>
