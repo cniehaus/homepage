@@ -75,63 +75,11 @@ footer {
   color: #000000;
 }
 
-body {
-  color: #768390;
-  background: #FFF;
-  font-family: "Effra", Helvetica, sans-serif;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #3D4351;
-  margin-top: 0;
-}
-
-a {
-  color: #FF6B6B;
-}
-a:hover {
-  color: #ff9a9a;
-  text-decoration: none;
-}
-
-.example-header {
-  background: #3D4351;
-  color: #FFF;
-  font-weight: 300;
-  padding: 3em 1em;
-  text-align: center;
-}
-.example-header h1, .example-header .h1 {
-  color: #FFF;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
-.example-header p {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 700;
-}
-
 .container-fluid .row, .container-xxl .row, .container-xl .row, .container-lg .row, .container-md .row, .container-sm .row {
   padding: 0 0 4em 0;
 }
 .container-fluid .row:nth-child(even), .container-xxl .row:nth-child(even), .container-xl .row:nth-child(even), .container-lg .row:nth-child(even), .container-md .row:nth-child(even), .container-sm .row:nth-child(even) {
   background: #F1F4F5;
-}
-
-.example-title {
-  text-align: center;
-  margin-bottom: 60px;
-  padding: 3em 0;
-  border-bottom: 1px solid #E4EAEC;
-}
-.example-title p {
-  margin: 0 auto;
-  font-size: 16px;
-  max-width: 400px;
 }
 
 /*==================================
