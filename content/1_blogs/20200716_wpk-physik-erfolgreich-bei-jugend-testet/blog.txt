@@ -1,0 +1,96 @@
+Title: WPK-Physik erfolgreich bei Jugend testet
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Der WPK-Physik des Jahrgangs 10 nahm am bundesweiten Wettbewerb „Jugend testet“ teil. Die Gruppen wählten ein Produkte und entwickelten ein Testverfahren, mit dem die Qualität im Vergleich zu ähnlichen Produkten bewertet werden konnte. Der Test wurde mit seinen Kriterien als Bericht dokumentiert und dann beim Wettbewerb eingereicht. Die Konkurrenz war groß, es nahmen über 600 Gruppen an dem Wettbewerb teil. Talea, Sophie, Isabel und Carolin schafften es unter die ersten 60 Plätze. Herzlichen Glückwunsch zu diesem Erfolg!<br>Hier ist die Zusammenfassung ihrer Testergebnisse:",
+        "id": "_q0J3bQyvh",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Handykabel im Test",
+        "id": "_v582ef19i",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Im Januar 2020 nahmen wir als Vierergruppe an dem Wettbewerb „Jugend Testet“ der Stiftung Warentest mit dem Thema Handyladekabel teil. Wir haben dies als Thema gewählt, da es sehr aktuell ist und wir uns persönlich fragten, ob es Unterschiede bei den Kabeln selbst gibt. Wir testeten 7 Kabel von verschiedenen Marken, Anbietern und auch in verschieden Preiskategorien. Die Marken waren UGreen, Huhu833, CSL-Computer, Samsung, m2, Hama und ok.. Von diesen Kabeln kostete das günstigste 1,59 Euro und das teuerste 16,99 Euro mit einem Durchschnittspreis von 6,20 Euro. Das Handy, welches wir für unsere Tests benutzten, war ein Samsung S6.",
+        "id": "_UO9LQgFUW",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_3jc5zpqj8",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/blogs+wpk-physik-erfolgreich-bei-jugend-testet/files/wpk3.jpg",
+            "id": "blogs/wpk-physik-erfolgreich-bei-jugend-testet/wpk3.jpg",
+            "filename": "wpk3.jpg",
+            "ratio": 0.7661431064572426,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_n6g2wk5r4",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Wir haben uns für Tests entschieden, die unterschiedliche Aspekte der Ladekabel untersuchen. Zuerst testeten wir die Aufladegeschwindigkeit mit einer Android-App namens „Akku Battery – Akku &amp; Batterie“. Hierbei waren die Resultate bei den meisten Kabeln ähnlich und zwar bei einer knappen Stunde Ladezeit, während zwei der Kabel 3 beziehungsweise 13 Stunden brauchten. Als nächstes haben wir die Stabilität der Verbindung zwischen dem Kabel und dem USB-Anschluss getestet indem wir das Handy mit dem Kabel aus bestimmten Höhen fallen ließen. Das Ergebnis war, dass ungefähr die Hälfte bestand und die anderen nicht. Daraufhin prüften wir die Qualität der Handyladekabel auf die Elastizität, die Isolierung, die USB-Anschlüsse und ob Beschädigungen vorhanden waren. Bei diesem Test schnitten alle Kabel relativ gut ab mit wenigen Ausnahmen. Beim nächsten Test prüften wir die Stromstärke, die die Kabel übermittelten während des Aufladens. Fast alle Kabel wiesen hier eine Stromstärke von 1000 Milliampere auf bis auf zwei Ausnahmen. Danach haben wir geprüft, ob die Angaben der Hersteller der Kabel im Bezug auf die Kabellänge der Wirklichkeit entsprechen. Hier gab es bei fast allen Kabeln Abweichungen von im Durchschnitt 6 Zentimeter zu wenig mit einem Höchstwert von 25 Zentimeter zu wenig. Unser letzter Test bezog sich auf die Schnelligkeit der Übertragung von Dateien auf einen Computer. Allerdings gab es hierbei kaum Unterschiede zwischen den verschieden Kabeln mit einer Durchschnittsdauer von 40,8 Sekunden.",
+        "id": "_cC4WQQpEo",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Nachdem wir alle unsere Tests abgeschlossen hatten, benoteten wir die unterschiedlichen Kabel in den diversen Tests nach dem System der Stiftung Warentest mit Noten von 1 (sehr gut) bis 6 (ungenügend). Der Verlierer unseres Test war das günstigste Kabel von der Marke Huhu833 mit einer Note von 3,92 (ausreichend) und das beste Kabel kostete 7,99 Euro und war von der Marke UGreen und hat die Note 1,67 (gut). Unser Fazit war, dass es schon Unterschiede zwischen den Kabeln gibt und dass der Preis dabei auch eine gewisse Rolle spielt. Denn die günstigen Kabel schnitten bei uns im Test durchschnittlich schlechter ab als die Kabel, welche ein paar Euro mehr kosteten. Doch auch das teuerste Kabel schnitt nur durchschnittlich ab und besaß nur eine bessere Qualität des Materials. Abschließend würden wir also sagen, dass sowohl sehr günstige Kabel und sehr teure Kabel es nicht wert sind sie zu kaufen.",
+        "id": "_hEKvgyprd",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery:
+
+- wpk2.jpg
+- wpk3.jpg
+- wpk1.jpg
+
+----
+
+Date: 2020-07-16 07:25
+
+----
+
+Author: NWR
+
+----
+
+Tags: Physik, WPK, Wettbewerb
+
+----
+
+Featured: true
+
+----
+
+Immer-sichtbar: false
+
+----
+
+Downloads: 
+
+----
+
+Fotoansicht: carousel
