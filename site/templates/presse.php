@@ -35,7 +35,7 @@ foreach ($list as $item) : ?>
         <?= $item->name()->html() ?>
       </a>
   </dt>
-  <dd class="list-inline-item ml-5">
+  <dd class="list-inline-item">
         <div class="h5 ">
           <span class="badge badge-pill bg-secondary"><?= $quelle ?></span>
           Datum: <?= $item->datum()->html() ?>
