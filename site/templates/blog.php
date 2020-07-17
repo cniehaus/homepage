@@ -3,14 +3,17 @@
 <?php snippet('page-header') ?>
 
 
+<div class="blockqoute">
+  <div class="mb-0">
+    <h3><?= $page->heading()->text() ?></h3>
+  </div>
 
-<h1><?= $page->title()->text() ?></h1>
-<h3><?= $page->heading()->text() ?></h3>
+  <div class="mt-3 blockquote-footer h5">
+    Datum: <?= $page->date()->toDate("d.m.Y") ?>
+    Autor: <?= $page->author() ?>
 
-Datum: <?= $page->date()->toDate("d.m.Y") ?>
-
-Autor: <?= $page->author() ?>
-
+  </div>
+</div>
 
 <?= $page->text()->blocks() ?>
 
