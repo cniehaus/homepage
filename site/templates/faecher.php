@@ -9,10 +9,10 @@
       <h3 class="card-category card-title text-warning">Fremdsprachen</h3>
       <h4 class="card-title">Fachbereichsleiterin: Frau Backhaus</h4>
       <div class="list-group text-white">
-        <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Englisch</a></li>
-        <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Französisch</a></li>
-        <a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Spanisch</a></li>
-        <a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Latein</a></li>
+        <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/chat-left-dots.svg">Englisch</a></li>
+        <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/chat-quote.svg">Französisch</a></li>
+        <a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/chat-left.svg">Spanisch</a></li>
+        <a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/chat-square.svg">Latein</a></li>
       </div>
     </div>
   </div>
