@@ -5,12 +5,17 @@ icon: 📖
 options:
   update:
     *: false
-  pages:
-    *: false
-  files:
-    *: false
+    fachleiter: true
+    admin: true
+
 
 sections:
+  content:
+    type: fields
+    fields:
+      heading:
+        type: text
+        label: Untertitel
 
   drafts:
     headline: noch nicht öffentlich
