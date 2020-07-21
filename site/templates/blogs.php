@@ -18,18 +18,16 @@ foreach ($list as $item) : ?>
         <a href="<?= $item->url() ?>"><?= $item->title() ?></a>
       </h4>
       <p class="card-category">
-        <div class="author">
+        <div class="author text-right">
           von
-          <a href="#">
             <b><?= $item->author() ?></b>
-          </a> Datum: <?= $item->date()->toDate("d.m.Y") ?>
+          Datum: <?= $item->date()->toDate("d.m.Y") ?>
         </div>
       </p>
       <p class="card-text">
         <?= $item->Text()->blocks()->excerpt(250) ?>
-       
       </p>
-      <a href="<?= $item->url() ?>" class="btn btn-primary">weiterlesen</a>
+      <a href="<?= $item->url() ?>" class="btn btn-secondary">weiterlesen</a>          
     </div>
   </div>
   
