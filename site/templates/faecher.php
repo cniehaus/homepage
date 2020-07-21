@@ -104,7 +104,7 @@
       <div class="list-group">
         <a href="<?= page('Faecher/geschichte')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Geschichte</a></li>
         <a href="<?= page('Faecher/politik-wirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Politik / Politik-Wirtschaft</a></li>
-        <a href="<?= page('Faecher/erdkunde')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Erdkunde</a></li>
+        <a href="<?= page('Faecher/erdkunde')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/globe2.svg">Erdkunde</a></li>
         <a href="<?= page('Faecher/religion')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/gem.svg">Religion</a></li>
         <a href="<?= page('Faecher/WuN')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action"><img src="<?= $kirby->url('assets') ?>/icons/music-note-beamed.svg">Werte und Normen</a></li>
       </div>
