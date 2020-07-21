@@ -25,10 +25,11 @@ foreach ($list as $item) : ?>
           </a> Datum: <?= $item->date()->toDate("d.m.Y") ?>
         </div>
       </p>
-      <div class="card-description">
+      <p class="card-text">
         <?= $item->Text()->blocks()->excerpt(250) ?>
-        <a href="<?= $item->url() ?>">...weiterlesen</a>
-      </div>
+       
+      </p>
+      <a href="<?= $item->url() ?>" class="btn btn-primary">weiterlesen</a>
     </div>
   </div>
   
