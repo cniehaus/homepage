@@ -1,1 +1,3 @@
 Title: Nachrichten aus der Schule
+----
+Subtitle: Hier stellen sich die Fächer und Fachbereiche vor, aber auch andere Bereiche der Schule berichten.
