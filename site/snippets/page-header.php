@@ -32,11 +32,14 @@
 <!-- Titelfeld -->
   <div class="titelfeld">
     <div class="container">
-      <h1><?= $page->title() ?>
-        <small class="text-muted"><?= $page->subtitle() ?></small>
+      <h1>
+        <?= $page->title() ?>
       </h1>
+
+      <p class="lead">
+        <?= $page->subtitle() ?>
+      </p>
     </div>
-  </div>
   </div>
 
 
