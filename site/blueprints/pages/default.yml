@@ -4,17 +4,14 @@ options:
   update:
     *: false
     admin: true
-preset: page
-fields:
-  text:
-    label: Text
-    type: editor
-    size: large
 
 columns:
   main:
     width: 2/3
     fields:
+      heading: 
+        type: text
+        label: Untertitel
       text:
         label: Text
         type: editor
