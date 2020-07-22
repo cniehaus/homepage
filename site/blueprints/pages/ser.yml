@@ -4,6 +4,7 @@ options:
   update:
     *: false
     ser: true
+    admin: true
 
 columns:
   main:
