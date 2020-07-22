@@ -2,29 +2,30 @@
 
 <?php snippet('page-header') ?>
 
-<h2><?= $page->heading() ?></h2>
-
-<p>
-  <?= $page->text()->blocks() ?>
-</p>
-
-<div class="row">
-
-  <h2>Aktuelles aus dem Schulelternrat</h2>
-
-  <div class="container">
-    <div class="row">
+<?php snippet('sidebar') ?>
 
 
 
-      <?php snippet('blogs', [
-        'blogs' => page('ser/nachrichten')
-          ->children()
-          ->listed()
-      ]) ?>
 
-    </div>
-  </div>
-</div>
+<?php
+  $items = page('ser/nachrichten')->children()->listed();
+
+  $list = $items->paginate(3);
+
+  snippet('blog-schlicht', [
+    'items' => $list
+  ])
+
+?>
+
+
+<?php
+  $pagination = $list->pagination();
+
+  snippet('pagination', [
+    'pagination' => $pagination
+  ])
+
+?>
 
 <?php snippet('footer') ?>

@@ -4,17 +4,17 @@ options:
   update:
     *: false
     ser: true
+    admin: true
 
 columns:
   main:
     width: 2/3
     fields:
-      pageSettings1:
-        label: Texteintrag
-        type: headline
-        numbered: false
+      heading:
+        type: text
+        label: Untertitel
       text:
-        label: Text
+        label: Beschreibung des Schulelternrats
         type: editor
   rechts:
     width: 1/3

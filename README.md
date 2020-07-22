@@ -27,6 +27,9 @@ composer install
 
 eingeben. Dieser Befehl läd fehlende Abhängkeiten nach. Das dauert ein paar Minuten. Wenn das abgeschlossen ist sollte man im 'localhost' die neue Seite sehen.
 
+# Hier die Zusammenfassung als Bildschirmfoto (Windows 10, Powershell)
+![Zusammenfassung der Schritte als Bildschirmfoto](anleitung.png)
+
 
 # Probleme bei diesen Sachen?
 Kein Problem! Wir können uns entweder mal (z.B. in einer Mittagspause) treffen oder ich logge mich per TeamViewer aus der Ferne ein und helfe bei der Installation. Da finden wir Wege.
