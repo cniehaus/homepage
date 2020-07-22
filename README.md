@@ -47,15 +47,25 @@ Wir müssen natürlich CSS verwenden. [Bootstrap](https://getbootstrap.com/) ist
 # Wie UNSERE Homepage runterladen
 Ich habe Kirby soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Dann könnt ihr den Code mit folgenden Befehlen runterladen:
 
+## Vorher ist folgende Software zu installieren
+
++ composer (https://getcomposer.org/download/)
++ WebServer (WAMP, LAMP, ...)
++ PHP 7 (empfohlen ist PHP 7.3 oder neuer)
++ git
++ ein guter Editor
+
+
 ```console
 git clone https://git.kgsrastede.de/KGS-Rastede/homepage
+cd homepage
 git config --global user.name "Max Mustermann"
 git config --global user.email "max@mustermann.de"
 ```
 
 Aber Achtung, ihr müsst natürlich *eure Zugangsdaten* eingeben, nicht die oben genannten.
 
-In Git fehlt ein Unterordner namens 'vendor'. Man mussn noch den Befehl 
+In Git fehlt ein Unterordner namens 'vendor'. Man muss noch den Befehl 
 
 ```console
 composer install
