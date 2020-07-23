@@ -25,7 +25,7 @@
                 var dom = "kgs-rastede";
                 var at = "@";
                 document.open();
-                document.write(unescape("%3Ca class='GrosserLink' href='mailto:" + mail + at + dom + "." + en + "'%3E" + mail + "%3C/a%3E"));
+                document.write(unescape("%3Ca href='mailto:" + mail + at + dom + "." + en + "'%3E" + mail + "%3C/a%3E"));
                 document.close();
               </script>
             </td>
