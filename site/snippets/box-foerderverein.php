@@ -2,7 +2,7 @@
     <div class="card-body">
         <h4 class="card-category">Der Förderverein</h4>
         <ul>
-        <a href="http://foerderverein.kgsraste.de/">
+        <a href="<?= page('foerderverein/vorstand')->url() ?>">
                 <img src="<?= $kirby->url('assets') ?>/bilder/foerderverein.png" class="img-fluid">
             </a>
            
