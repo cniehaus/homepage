@@ -52,6 +52,12 @@ columns:
             type: date
             time: true
             default: now
+          datumStartseite:
+            label: Aus Startseite bis zum...
+            type: date
+            time: true
+            default: now
+            help: Wenn hier kein Datum steht wird dieser Artikel nicht auf der Startseite angezeigt.
           author:
             type: text
             label: Name des Autors
