@@ -22,9 +22,24 @@ $theme-colors: (
   info: #0099cc,
   warning: #a34c40,
   danger: #8c271e,
-  light: #dadada,
+  light: #0E5499,
   dark: #c0c0c0,
 );
+
+.navbar-light .navbar-nav a.nav-link{
+    color: #FFFFFF;
+}
+
+
+
+.dropdown-menu a{
+    color: #FFFFFF; 
+}
+
+.dropdown-menu {
+    background-color: #0E5499 !important;
+}
+
 
 p {
   font-size: 1.2rem;
@@ -57,41 +72,8 @@ p {
   }
 }
 
-.section-a {
-  padding: 30px 0;
-  text-align: center;
-  background: $primary;
-  color: set-text-color($primary);
-}
-
-.section-b {
-  background: #e6ebf1;
-  padding: 30px 0;
-
-  img {
-    width: 100%;
-  }
-}
-
 .panel-heading h4 {
   color: set-text-color($primary);
-}
-
-.section-c {
-  padding: 60px 0;
-  text-align: center;
-  background: $primary;
-  color: set-text-color($primary);
-
-  .btn-primary {
-    background: darken($primary, 10%);
-  }
-}
-
-.title-bar {
-  background: url(../img/showcase.jpg) no-repeat 0 -300px;
-  padding-bottom: 10px;
-  border-bottom: 4px solid $primary;
 }
 
 .main {
@@ -101,7 +83,7 @@ p {
 footer {
   width: 100%;
   padding: 30px 0;
-  background: darken(#f9f8f8, 10%);
+  background: darken(#ffffff, 10%);
   color: set-text-color(#f9f8f8);
 }
 
@@ -110,62 +92,16 @@ footer {
 $primary-color: #FF6B6B;
 $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 
-// body {
-//     color: #768390;
-//     background: #FFF;
-//     font-family: "Effra", Helvetica, sans-serif;
-//     padding: 0;
-//     -webkit-font-smoothing: antialiased;
-// }
-// h1,h2,h3,h4,h5,h6 {
-//     color: #3D4351;
-//     margin-top: 0;
-// }
-// a {
-//     color: $primary-color;
-//     &:hover {
-//         color: $primary-color-hover;
-//         text-decoration: none;
-//     }
-// }
-// .example-header {
-//     background: #3D4351;
-//     color: #FFF;
-//     font-weight: 300;
-//     padding: 3em 1em;
-//     text-align: center;
-//     h1 {
-//         color: #FFF;
-//         font-weight: 300;
-//         margin-bottom: 20px
-//     }
-//     p {
-//         font-size: 12px;
-//         text-transform: uppercase;
-//         letter-spacing: 3px;
-//         font-weight: 700;
-//     }
-// }
+
 .container-fluid {
     .row {
         padding: 0 0 4em 0;
         &:nth-child(even) {
-            background: #F1F4F5;
+            background: #ffffff;
         }
     }
 }
 
-// .example-title {
-//     text-align: center;
-//     margin-bottom: 60px;
-//     padding: 3em 0;
-//     border-bottom: 1px solid #E4EAEC;
-//     p {
-//         margin: 0 auto;
-//         font-size: 16px;
-//         max-width: 400px;
-//     }
-// }
 
 /*==================================
     TIMELINE
