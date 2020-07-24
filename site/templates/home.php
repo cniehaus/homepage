@@ -139,7 +139,7 @@
 
       </div>
       <a href="<?= page("blogs") ?>">
-        <button class="btn btn-primary">Weitere Nachrichten aus der Schule</button>
+        <button class="btn btn-secondary">Weitere Nachrichten aus der Schule &#8594;</button>
       </a>
 
     </div>
