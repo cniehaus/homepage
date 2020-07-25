@@ -22,10 +22,14 @@
     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
       <li class="dropdown nav-item">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <img src="<?= $kirby->url('assets') ?>/icons/people.svg"> Kontakt
+          <svg class="bi" width="32" height="32">
+            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people" />
+          </svg> Kontakt
         </a>
         <div class="dropdown-menu dropdown-with-icons">
-          <a class="dropdown-item" href="<?= page('allgemeines/anfahrt')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/geo-alt.svg"> Anfahrt</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/anfahrt')->url() ?>"><svg class="bi" width="32" height="32">
+            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#geo-alt" />
+          </svg> Anfahrt</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#haus"><img src="<?= $kirby->url('assets') ?>/icons/tools.svg"> Hausmeister</a>
           <a class="dropdown-item" href="<?= page('kontakte/schulleitung')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/person-circle.svg"> Schulleitung</a>
@@ -43,7 +47,9 @@
 
       <li class="dropdown nav-item">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <img src="<?= $kirby->url('assets') ?>/icons/building.svg"> &Uuml;ber die Schule
+        <svg class="bi" width="32" height="32">
+            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#building" />
+          </svg> &Uuml;ber die Schule
         </a>
         <div class="dropdown-menu dropdown-with-icons">
           <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/truck.svg"> Schulbusverkehr</a>
@@ -74,7 +80,9 @@
 
       <li class="dropdown nav-item">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <img src="<?= $kirby->url('assets') ?>/icons/easel.svg"> Unterricht &amp; Schulleben
+        <svg class="bi" width="32" height="32">
+            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#easel" />
+          </svg> Unterricht &amp; Schulleben
         </a>
         <div class="dropdown-menu dropdown-with-icons">
           <a class="dropdown-item" href="<?= page('allgemeines/ssd')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/plus-square.svg"> Schulsanitätsdienst</a>
