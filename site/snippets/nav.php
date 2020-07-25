@@ -72,8 +72,12 @@
           </svg> &Uuml;ber die Schule
         </a>
         <div class="dropdown-menu dropdown-with-icons">
-          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/truck.svg"> Schulbusverkehr</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/clock.svg"> Zeitraster</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#truck" />
+            </svg> Schulbusverkehr</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#clock" />
+            </svg> Zeitraster</a>
           <a class="dropdown-item" href="<?= page('allgemeines/presse')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/newspaper.svg"> ...aus der Presse</a>
           <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/award.svg"> Ausbildungsschule</a>
           <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/door-open.svg"> Inklusion</a>
