@@ -78,23 +78,39 @@
           <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>"><svg class="bi" width="32" height="32">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#clock" />
             </svg> Zeitraster</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/presse')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/newspaper.svg"> ...aus der Presse</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/award.svg"> Ausbildungsschule</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/door-open.svg"> Inklusion</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/presse')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#newspaper" />
+            </svg> ...aus der Presse</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#award" />
+            </svg> Ausbildungsschule</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#door-open" />
+            </svg> Inklusion</a>
 
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= page('allgemeines/grundschule')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/box-arrow-right.svg"> Übergang Grundschule/KGS</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/grundschule')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#box-arrow-right" />
+            </svg> Übergang Grundschule/KGS</a>
 
 
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= page('allgemeines/beratung')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/chat-dots.svg"> Beratung</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/beratung')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#chat-dots" />
+            </svg> Beratung</a>
 
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= page('allgemeines/zweige')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/list-ol.svg"> Die drei Schulzweige</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/zweige')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#list-ol" />
+            </svg> Die drei Schulzweige</a>
 
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= page('allgemeines/konzepte')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/layout-wtf.svg"> Pädagogische Konzepte</a>
-          <a class="dropdown-item" href="<?= page('allgemeines/geschichte')->url() ?>"><img src="<?= $kirby->url('assets') ?>/icons/book.svg"> Unsere Geschichte</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/konzepte')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#layout-wtf" />
+            </svg> Pädagogische Konzepte</a>
+          <a class="dropdown-item" href="<?= page('allgemeines/geschichte')->url() ?>"><a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>"><svg class="bi" width="32" height="32">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#book" />
+            </svg> Unsere Geschichte</a>
 
         </div>
       </li>
