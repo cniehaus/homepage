@@ -56,7 +56,7 @@ columns:
             label: Aus Startseite bis zum...
             type: date
             time: true
-            default: now
+            default: now + 4 month
             help: Wenn hier kein Datum steht wird dieser Artikel nicht auf der Startseite angezeigt.
           author:
             type: text
