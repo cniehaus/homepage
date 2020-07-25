@@ -16,6 +16,23 @@ columns:
       text:
         label: Beschreibung des Schulelternrats
         type: editor
+      Mitglieder:
+        label: Mitglieder 
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+          Position:
+            label: Position
+            type: text
+          phone:
+            label: Telefonnummer
+            type: text
+          email:
+            label: Emailadresse
+            type: text 
+
   rechts:
     width: 1/3
     fields:
