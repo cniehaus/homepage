@@ -2,6 +2,18 @@
 /* import only the necessary Bootstrap files */
 /* -------begin customization-------- */
 /* simply assign the value */
+.navbar-light .navbar-nav a.nav-link {
+  color: #FFFFFF;
+}
+
+.dropdown-menu a {
+  color: #FFFFFF;
+}
+
+.dropdown-menu {
+  background-color: #0E5499 !important;
+}
+
 p {
   font-size: 1.2rem;
 }
@@ -29,39 +41,8 @@ p {
   margin-top: 40px;
 }
 
-.section-a {
-  padding: 30px 0;
-  text-align: center;
-  background: #0d6efd;
-  color: #000000;
-}
-
-.section-b {
-  background: #e6ebf1;
-  padding: 30px 0;
-}
-.section-b img {
-  width: 100%;
-}
-
 .panel-heading h4, .panel-heading .h4 {
   color: #000000;
-}
-
-.section-c {
-  padding: 60px 0;
-  text-align: center;
-  background: #0d6efd;
-  color: #000000;
-}
-.section-c .btn-primary {
-  background: #0257d5;
-}
-
-.title-bar {
-  background: url(../img/showcase.jpg) no-repeat 0 -300px;
-  padding-bottom: 10px;
-  border-bottom: 4px solid #0d6efd;
 }
 
 .main {
@@ -71,7 +52,7 @@ p {
 footer {
   width: 100%;
   padding: 30px 0;
-  background: #e1dddd;
+  background: #e6e6e6;
   color: #000000;
 }
 
@@ -79,7 +60,7 @@ footer {
   padding: 0 0 4em 0;
 }
 .container-fluid .row:nth-child(even), .container-xxl .row:nth-child(even), .container-xl .row:nth-child(even), .container-lg .row:nth-child(even), .container-md .row:nth-child(even), .container-sm .row:nth-child(even) {
-  background: #F1F4F5;
+  background: #ffffff;
 }
 
 /*==================================
@@ -336,7 +317,7 @@ footer {
   --bs-info: #0099cc;
   --bs-warning: #a34c40;
   --bs-danger: #8c271e;
-  --bs-light: #dadada;
+  --bs-light: #0E5499;
   --bs-dark: #c0c0c0;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -3397,33 +3378,33 @@ progress {
 }
 
 .btn-light {
-  color: #212529;
-  background-color: #dadada;
-  border-color: #dadada;
+  color: #fff;
+  background-color: #0E5499;
+  border-color: #0E5499;
 }
 .btn-light:hover {
-  color: #212529;
-  background-color: #c7c7c7;
-  border-color: #c1c1c1;
+  color: #fff;
+  background-color: #0b4176;
+  border-color: #0a3a6a;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
-  color: #212529;
-  background-color: #c7c7c7;
-  border-color: #c1c1c1;
-  box-shadow: 0 0 0 0.2rem rgba(190, 191, 191, 0.5);
+  color: #fff;
+  background-color: #0b4176;
+  border-color: #0a3a6a;
+  box-shadow: 0 0 0 0.2rem rgba(50, 110, 168, 0.5);
 }
 .btn-check:checked + .btn-light, .btn-check:active + .btn-light, .btn-light:active, .btn-light.active, .show > .btn-light.dropdown-toggle {
-  color: #212529;
-  background-color: #c1c1c1;
-  border-color: #bababa;
+  color: #fff;
+  background-color: #0a3a6a;
+  border-color: #09345f;
 }
 .btn-check:checked + .btn-light:focus, .btn-check:active + .btn-light:focus, .btn-light:active:focus, .btn-light.active:focus, .show > .btn-light.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(190, 191, 191, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(50, 110, 168, 0.5);
 }
 .btn-light:disabled, .btn-light.disabled {
-  color: #212529;
-  background-color: #dadada;
-  border-color: #dadada;
+  color: #fff;
+  background-color: #0E5499;
+  border-color: #0E5499;
 }
 
 .btn-dark {
@@ -3607,27 +3588,27 @@ progress {
 }
 
 .btn-outline-light {
-  color: #dadada;
-  border-color: #dadada;
+  color: #0E5499;
+  border-color: #0E5499;
 }
 .btn-outline-light:hover {
-  color: #212529;
-  background-color: #dadada;
-  border-color: #dadada;
+  color: #fff;
+  background-color: #0E5499;
+  border-color: #0E5499;
 }
 .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
-  box-shadow: 0 0 0 0.2rem rgba(218, 218, 218, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(14, 84, 153, 0.5);
 }
 .btn-check:checked + .btn-outline-light, .btn-check:active + .btn-outline-light, .btn-outline-light:active, .btn-outline-light.active, .btn-outline-light.dropdown-toggle.show {
-  color: #212529;
-  background-color: #dadada;
-  border-color: #dadada;
+  color: #fff;
+  background-color: #0E5499;
+  border-color: #0E5499;
 }
 .btn-check:checked + .btn-outline-light:focus, .btn-check:active + .btn-outline-light:focus, .btn-outline-light:active:focus, .btn-outline-light.active:focus, .btn-outline-light.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.2rem rgba(218, 218, 218, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(14, 84, 153, 0.5);
 }
 .btn-outline-light:disabled, .btn-outline-light.disabled {
-  color: #dadada;
+  color: #0E5499;
   background-color: transparent;
 }
 
@@ -4812,12 +4793,12 @@ progress {
 }
 
 .alert-light {
-  color: #717171;
-  background-color: #f8f8f8;
-  border-color: whitesmoke;
+  color: #072c50;
+  background-color: #cfddeb;
+  border-color: #bccfe2;
 }
 .alert-light .alert-link {
-  color: #585858;
+  color: #031221;
 }
 
 .alert-dark {
@@ -5171,17 +5152,17 @@ progress {
 }
 
 .list-group-item-light {
-  color: #717171;
-  background-color: whitesmoke;
+  color: #072c50;
+  background-color: #bccfe2;
 }
 .list-group-item-light.list-group-item-action:hover, .list-group-item-light.list-group-item-action:focus {
-  color: #717171;
-  background-color: #e8e8e8;
+  color: #072c50;
+  background-color: #aac2da;
 }
 .list-group-item-light.list-group-item-action.active {
   color: #fff;
-  background-color: #717171;
-  border-color: #717171;
+  background-color: #072c50;
+  border-color: #072c50;
 }
 
 .list-group-item-dark {
@@ -6086,10 +6067,10 @@ button.close {
 }
 
 .link-light {
-  color: #dadada;
+  color: #0E5499;
 }
 .link-light:hover, .link-light:focus {
-  color: #b4b4b4;
+  color: #082e53;
 }
 
 .link-dark {
@@ -6402,7 +6383,7 @@ button.close {
 }
 
 .border-light {
-  border-color: #dadada !important;
+  border-color: #0E5499 !important;
 }
 
 .border-dark {
@@ -7108,7 +7089,7 @@ button.close {
 }
 
 .text-light {
-  color: #dadada !important;
+  color: #0E5499 !important;
 }
 
 .text-dark {
@@ -7180,7 +7161,7 @@ button.close {
 }
 
 .bg-light {
-  background-color: #dadada !important;
+  background-color: #0E5499 !important;
 }
 
 .bg-dark {
