@@ -1,11 +1,18 @@
-<?php if ($image = $page->hintergrundbild()->toFile()) : ?>
-  <div class="jumbotron" style="background-image: url('<?= $image->url() ?>'); background-size: cover;">
-    <div class="container">
-      <h1 class="title text-white mt-5"><?= $page->title() ?>
-        <small class="text-muted"><?= $page->subtitle() ?></small>
-      </h1>
-    </div>
-  </div>
+
+<main role="main">
+  <?php
+    if ($image = $page->hintergrundbild()->toFile()) : ?>
+
+      <div class="p-5 text-center bg-image" style="
+            background-image: url('<?= $image->url() ?>');
+            height: 400px;">
+
+  <?php else : ?>
+    <div class="p-5 mt-5 text-center bg-image" style="
+    background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg');
+    ">
+  <?php endif ?>
+</div>
 
 
 
@@ -13,9 +20,10 @@
 <!-- Titelfeld -->
   <div class="titelfeld">
     <div class="container">
-      <h1 class="title text-white mt-5"><?= $page->title() ?>
-        <small class="text-muted"><?= $page->subtitle() ?></small>
+      <h1>
+        <?= $page->title() ?>
       </h1>
+        <small class="text-muted"><?= $page->subtitle() ?></small>
 
       <p class="lead">
         <?= $page->heading() ?>
