@@ -35,7 +35,7 @@
                 firstDay: 1,
                 weekLabel: "KW", // Beschriftung der Kalenderwoche
                 allDayText: "ganztägig",
-                noEventsMessage: "Keine Ereignisse anzuzeigen",
+                noEventsContent: "Keine Ereignisse anzuzeigen",
                 displayEventTime: true, // don't show the time column in list view
                 events: '<?= $kirby->url('assets') ?>/kalender/schulkalender.json'
             });

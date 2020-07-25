@@ -1,30 +1,18 @@
+
 <main role="main">
-
-
-
-
-
-
-
-    <?php
+  <?php
     if ($image = $page->hintergrundbild()->toFile()) : ?>
-
 
       <div class="p-5 text-center bg-image" style="
             background-image: url('<?= $image->url() ?>');
             height: 400px;">
 
-      
-    <?php else : ?>
-      
-      <div class="p-5 mt-5 text-center bg-image" style="
-      background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg');
-      ">
-      
-    <?php endif ?>
-
-
-  </div>
+  <?php else : ?>
+    <div class="p-5 mt-5 text-center bg-image" style="
+    background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg');
+    ">
+  <?php endif ?>
+</div>
 
 
 
@@ -35,6 +23,7 @@
       <h1>
         <?= $page->title() ?>
       </h1>
+        <small class="text-muted"><?= $page->subtitle() ?></small>
 
       <p class="lead">
         <?= $page->heading() ?>

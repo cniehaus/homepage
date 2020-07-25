@@ -39,7 +39,7 @@
       weekNumbers: true, // Kalenderwoche anzeigen
       weekLabel: "KW", // Beschriftung der Kalenderwoche
       allDayText: "ganztägig",
-      noEventsMessage: "Keine Ereignisse anzuzeigen",
+      noEventsContent: 'Keine Ereignisse anzuzeigen',
       displayEventTime: false, // don't show the time column in list view
       events: '<?= $kirby->url('assets') ?>/kalender/schulkalender.json'
     });
