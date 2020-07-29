@@ -57,7 +57,7 @@
           <a class="dropdown-item" href="<?= page('lehrer')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#person-lines-fill" />
-            </svg> das Kollegium
+            </svg> Kollegium
           </a>
 
           <div class="dropdown-divider"></div>
