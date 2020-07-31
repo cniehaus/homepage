@@ -16,42 +16,46 @@ Schulbuchlistengz:
   link:
     - schulbuchliste-05gz.pdf
   name: 5. Klasse
-  preis: 30€
+   
 - 
   link:
     - schulbuchliste-06gz.pdf
   name: 6. Klasse
-  preis: 300€
+   
 - 
   link:
     - schulbuchliste-07gz.pdf
   name: 7. Klasse
-  preis: 35€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-08gz.pdf
   name: 8. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 90€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-09gz.pdf
   name: 9. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 330€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-10gz.pdf
   name: 10. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 32230€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-11.pdf
   name: 11. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 330€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-12.pdf
   name: 12. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 30€
 
 ----
 
@@ -62,72 +66,78 @@ Schulbuchlistenrz:
     - schulbuchliste-05rz.pdf
   name: 5. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 3€
+   
 - 
   link:
     - schulbuchliste-06rz.pdf
   name: 6. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 400€
+   
 - 
   link:
     - schulbuchliste-07rz.pdf
   name: 7. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 323€
+   
 - 
   link:
     - schulbuchliste-08rz.pdf
   name: 8. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 69€
+   
 - 
   link:
     - schulbuchliste-09rz.pdf
   name: 9. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 330€
+   
 - 
   link:
     - schulbuchliste-10hz.pdf
   name: 10. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 420€
+   
 
 ----
 
 Schulbuchlistenhz:
 
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-05hz.pdf
   name: 5. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 3€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-06hz.pdf
   name: 6. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 30€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-07hz.pdf
   name: 7. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 3.50€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-08hz.pdf
   name: 8. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 950€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-09hz.pdf
   name: 9. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 3.30€
+   
 - 
-  link: [ ]
+  link:
+    - schulbuchliste-10hz.pdf
   name: 10. Klasse
   0: schulbuchliste-07gz.pdf
-  preis: 322.30€
+   
 
 ----
 
