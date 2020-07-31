@@ -4,25 +4,26 @@
 
 
 <div class="blockqoute">
-  <div class="mb-0">
-    <!-- ... -->
-  </div>
 
   <div class="mt-3 blockquote-footer h5">
     Datum: <?= $page->date()->toDate("d.m.Y") ?>
     Autor: <?= $page->author() ?>
 
   </div>
+
+  <?php snippet('tagliste', [
+    'item' => $page
+  ]) ?>
 </div>
 
 <?= $page->text()->blocks() ?>
 
 <?php if ($page->fotoansicht() == 'carousel') : ?>
   <?php snippet('carousel') ?>
-<?php elseif($page->fotoansicht() == 'gallery') : ?> 
+<?php elseif ($page->fotoansicht() == 'gallery') : ?>
   <?php snippet('gallery') ?>
-<?php else: ?> 
-<!-- Bilder werden vom Autor manuel gesetzt -->
+<?php else : ?>
+  <!-- Bilder werden vom Autor manuel gesetzt -->
 <?php endif ?>
 
 

@@ -13,12 +13,18 @@
               <b><?= $item->author() ?></b>
               Datum: <?= $item->date()->toDate("d.m.Y") ?>
             </div>
+
+            <?php snippet('tagliste', [
+              'item' => $item
+            ]) ?>
           </p>
           <p class="card-text">
             <?= $item->Text()->blocks()->excerpt(250) ?>
           </p>
           <a href="<?= $item->url() ?>" class="btn btn-secondary">weiterlesen &#8594;
           </a>
+
+
         </div>
       </div>
 
