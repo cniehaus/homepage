@@ -91,24 +91,18 @@
         </div>
         <div class="col-md-4">
             <h1>Tagcloud</h1>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
-            <button type="button" class="btn btn-primary">
-                Notifications <span class="badge bg-secondary">4</span>
-            </button>
+
+            <?php foreach ($articles as $a) : ?>
+                <?php foreach ($a->tags()->split() as $tag) : ?>
+                    <button type="button" class="btn btn-primary m-2">
+                        <?= $tag ?> <span class="badge bg-secondary">4</span>
+                    </button>
+                <?php endforeach ?>
+
+            <?php endforeach ?>
+
+
+
         </div>
     </div>
 
