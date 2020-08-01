@@ -1,4 +1,4 @@
-Title: Die neue Homepage
+Title: Die neue Homepage23
 
 ----
 
@@ -29,11 +29,7 @@ Author: Carsten Niehaus (NI)
 
 ----
 
-Tags: Webseite
-
-----
-
-Featured: true
+Tags: Webseite, Blogtest
 
 ----
 

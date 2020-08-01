@@ -1,33 +1,62 @@
 <?php snippet('header') ?>
 
-<?php snippet('page-header') ?>
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+        <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+    </div>
+</div>
 
-<?php foreach ($articles as $a) : ?>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">
-                Titel
-            </h4>
-            <p class="card-category">
-                <div class="author text-right">
-                    von
-                    <b><?= $a->author() ?></b>
-                    Datum: <?= $a->date()->toDate("d.m.Y") ?>
+<div class="row mb-2">
+
+    <?php foreach ($articles as $a) : ?>
+
+
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">World</strong>
+                    <h3 class="mb-0"><?= $a->title() ?></h3>
+                    <h4 class="mb-0"><?= $a->heading() ?></h4>
+
+                    <div class="mb-1 text-muted"><?= $a->date() ?></div>
+
+                    <div class="mb-1"> <svg class="bi" width="24" height="24">
+                            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
+                        </svg> Tags:
+                        <?php foreach ($a->tags()->split() as $tag) : ?>
+                            <a href="<?= url('blogs', ['params' => ['tag' => $tag]]) ?>">
+                                <span class="badge rounded-pill bg-info"><?= $tag ?></span>
+                            </a>
+                        <?php endforeach ?>
+                    </div>
+
+                    <p class="card-text mb-auto">
+                        <?= $a->Text()->blocks()->excerpt(250) ?>
+                    </p>
+                    <a href="<?= $a->url() ?>" class="stretched-link">Continue reading &#8594;</a>
+
+
                 </div>
+                <div class="col-auto d-none d-lg-block">
+                    <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                    </svg>
 
-
-            </p>
-            <p class="card-text">
-                moin
-            </p>
-            <a href="<?= $a->url() ?>" class="btn btn-secondary">weiterlesen &#8594;
-            </a>
-
-
+                </div>
+            </div>
         </div>
 
+    <?php endforeach ?>
 
-    </div>
-<?php endforeach ?>
+
+</div>
+</div>
+
+
+
+
 
 <?php snippet('footer') ?>
