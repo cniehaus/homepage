@@ -109,7 +109,7 @@
                     ?>
 
                     <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
-                        <a href="<?= url('devblog', ['params' => ['tag' => $tagvalue]]) ?>">
+                        <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
                             <button type="button" class="btn btn-primary m-2">
                                 <?= $tagkey ?> <span class="badge bg-secondary"><?= $tagvalue ?></span>
