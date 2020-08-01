@@ -51,7 +51,7 @@
                                     <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
                                 </svg> Tags:
                                 <?php foreach ($a->tags()->split() as $tag) : ?>
-                                    <a href="<?= url('blogs', ['params' => ['tag' => $tag]]) ?>">
+                                    <a href="<?= url('devblog', ['params' => ['tag' => $tag]]) ?>">
                                         <span class="badge rounded-pill bg-info"><?= $tag ?></span>
                                     </a>
                                 <?php endforeach ?>
