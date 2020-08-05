@@ -24,7 +24,7 @@
             </a>
         </ul>
         <ul>
-            <a href="">Mensa</a>
+        <li><a class="text-muted" href="<?= page('allgemeines/mensa')->url() ?>">Mensa</a></li>
         </ul>
     </div>
 </div>
