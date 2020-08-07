@@ -63,15 +63,15 @@ Date: 2020-07-16 07:20
 
 ----
 
+Datumstartseite: 2020-09-30 08:00
+
+----
+
 Author: BE
 
 ----
 
 Tags: Abschluss, Schulleitung
-
-----
-
-Featured: true
 
 ----
 
@@ -84,3 +84,7 @@ Downloads:
 ----
 
 Fotoansicht: carousel
+
+----
+
+Featured: true
