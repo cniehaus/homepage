@@ -100,8 +100,9 @@
                     <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
 
-                        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow">
-                            <?= $tagkey ?> MOIN <?= $tagvalue ?>
+
+                        <button class='relative bg-blue-500 text-white p-6 rounded font-bold overflow-visible mt-6 mr-6'><?= $tagkey ?>
+                            <div class="absolute top-0 right-0 -mt-2 -mr-2 px-4 py-1 bg-red-500 rounded-full"><?= $tagvalue ?></div>
                         </button>
 
                     </a>
