@@ -94,15 +94,19 @@
 
             ?>
 
-            <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
-                <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
+            <div class="px-6 py-4">
 
-                    <button type="button" class="btn btn-primary m-2">
-                        <?= $tagkey ?> <span class="badge bg-secondary"><?= $tagvalue ?></span>
-                    </button>
-                </a>
-            <?php endforeach ?>
+                <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
+                    <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
+
+                        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow">
+                            <?= $tagkey ?> MOIN <?= $tagvalue ?>
+                        </button>
+
+                    </a>
+                <?php endforeach ?>
+            </div>
         </div>
     </div>
 
