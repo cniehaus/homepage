@@ -39,18 +39,27 @@
                                     <?= $a->heading() ?>
                                 </h3>
 
-                                <div class="mb-1"><?= $a->date() ?> <svg class="bi" width="24" height="24">
+
+
+
+                                <?= $a->date() ?>
+                                <div class="px-6 py-4">
+                                    <svg class="bi" width="24" height="24">
                                         <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
-                                    </svg> Tags:
+                                    </svg>
+
                                     <?php foreach ($a->tags()->split() as $tag) : ?>
-                                        <div class="px-6 py-4">
-                                            <a href="<?= url('devblog', ['params' => ['tag' => $tag]]) ?>">
-                                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><?= $tag ?></span>
-                                            </a>
-                                        </div>
+                                        <a href="<?= url('devblog', ['params' => ['tag' => $tag]]) ?>">
+                                            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded-lg shadow">
+                                                <?= $tag ?>
+                                            </button>
+
+
+                                        </a>
 
                                     <?php endforeach ?>
                                 </div>
+
 
                                 <p class="card-text mb-auto">
                                     <?= $a->Text()->blocks()->excerpt(250) ?>
