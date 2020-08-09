@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
   <?= css('assets/css/kgs.css') ?>
-
-  <?= date_default_timezone_set("Europe/Amsterdam");?>
 </head>
 
 <body>
