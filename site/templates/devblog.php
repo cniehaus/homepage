@@ -1,73 +1,103 @@
 <?php snippet('header-devblog') ?>
 
+
+
+
 <main role="main">
 
     <div class="flex mb-4">
         <div class="w-3/4 bg-gray-300">
-            <?php foreach ($articles->filterBy('featured', true) as $a) : ?>
 
-                <div class="px-8 py-12">
-                    <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
-                        <?= $a->title() ?>
-                    </h1>
-                    <p class="mt-2 text-gray-600">
-                        <?= $a->Text()->blocks()->excerpt(250) ?>
-                    </p>
-                    <div class="mt-4">
-                        <a href="<?= $a->url() ?>" class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 hover:bg-indigo-400 text-sm text-white uppercase tracking-wider font-semibold">Weiterlesen</a>
-                    </div>
-                </div>
+            <h1 class="mt-6 mb-6 text-4xl font-bold text-gray-900 leading-tight">
+                Der Entwicklerblog der KGS Rastede
+            </h1>
 
-            <?php endforeach ?>
+            <h3 class="mt-6 mb-6 text-2xl text-gray-600">
+                Die Technik hinter dieser Homepage
+            </h3>
+
+            <hr class="border-b-2 border-gray-400 mb-8 mx-4">
 
 
-            <?php foreach ($articles as $a) : ?>
-        
-                <div class="pt-5">
-                    <!-- TODO Hier muss ein Grid hin, so ist es zwar ok aber es ist auf großen
-                        Monitoren zu klein -->
-                    <div class="max-w-lg rounded overflow-hidden shadow-lg bg-white">
-                        <div class="col p-4 d-flex flex-column position-static">
+            <div class="grid grid-flow-row sm:grid-flow-row md:grid-flow-col">
+
+                <?php foreach ($articles->filterBy('featured', true) as $a) : ?>
+                    <div class="max-w-lg mx-2 rounded overflow-hidden shadow-lg bg-gray-500">
+
+                        <div class="px-8 py-12">
                             <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
                                 <?= $a->title() ?>
                             </h1>
-
-                            <h3 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
-                                <?= $a->heading() ?>
-                            </h3>
-
-
-                            <h4 class="mb-4"><?= $a->heading() ?></h4>
-                            <div class="mb-1"><?= $a->date() ?> <svg class="bi" width="24" height="24">
-                                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
-                                </svg> Tags:
-                                <?php foreach ($a->tags()->split() as $tag) : ?>
-                                    <div class="px-6 py-4">
-                                        <a href="<?= url('devblog', ['params' => ['tag' => $tag]]) ?>">
-                                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"><?= $tag ?></span>
-                                        </a>
-                                    </div>
-
-                                <?php endforeach ?>
-                            </div>
-
-                            <p class="card-text mb-auto">
+                            <p class="mt-2 text-gray-600">
                                 <?= $a->Text()->blocks()->excerpt(250) ?>
                             </p>
-                            <a href="<?= $a->url() ?>">Weiterlesen &#8594;</a>
-
-
+                            <div class="mt-4">
+                                <a href="<?= $a->url() ?>" class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 hover:bg-indigo-400 text-sm text-white uppercase tracking-wider font-semibold">Weiterlesen</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            <?php endforeach ?>
+                <?php endforeach ?>
+            </div>
 
+            <hr class="border-b-2 mt-6 border-gray-400 mb-8 mx-4">
+
+
+            <div class="grid grid-flow-row sm:grid-flow-row md:grid-flow-col">
+                <?php foreach ($articles as $a) : ?>
+
+                    <div class="pt-5">
+
+                        <div class="max-w-lg mx-2 rounded overflow-hidden shadow-lg bg-gray-300">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight">
+                                    <?= $a->title() ?>
+                                </h1>
+
+                                <div class="flex items-baseline justify-between">
+                                    <h3 class="mt-6 font-bold text-gray-600 leading-tight">
+                                        <?= $a->heading() ?>
+                                    </h3>
+
+                                    <?= $a->date() ?>
+
+                                </div>
+
+                                <div class="p-6">
+                                    <div class="flex items-center">
+
+                                        <svg class="bi" width="24" height="24">
+                                            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
+                                        </svg>
+                                        <?php foreach ($a->tags()->split() as $tag) : ?>
+                                            <a href="<?= url('devblog', ['params' => ['tag' => $tag]]) ?>">
+                                                <span class="inline-block bg-blue-200 text-blue-800 text-lg px-2 rounded-full uppercase font-semibold tracking-wide"><?= $tag ?></span>
+                                            </a>
+                                        <?php endforeach ?>
+                                    </div>
+                                </div>
+
+
+                                <p class="card-text mb-auto">
+                                    <?= $a->Text()->blocks()->excerpt(250) ?>
+                                </p>
+                                <a href="<?= $a->url() ?>" class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 hover:bg-indigo-400 text-sm text-white uppercase tracking-wider font-semibold">Weiterlesen</a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                <?php endforeach ?>
+
+            </div>
 
         </div>
         <div class="w-1/4 bg-gray-400">
 
-            <h1>Tagcloud</h1>
+            <h3 class="mt-6 mb-6 text-2xl text-gray-600">
+                Tagcloud
+            </h3>
 
             <?php
 
@@ -83,15 +113,20 @@
 
             ?>
 
-            <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
-                <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
+            <div class="px-6 py-4">
 
-                    <button type="button" class="btn btn-primary m-2">
-                        <?= $tagkey ?> <span class="badge bg-secondary"><?= $tagvalue ?></span>
-                    </button>
-                </a>
-            <?php endforeach ?>
+                <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
+                    <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
+                        <span class="inline-block bg-blue-200 text-blue-800 text-lg p-6 rounded-full uppercase font-semibold tracking-wide"><?= $tagkey ?>
+                            <span class="bg-red-200 text-red-800 text-lg px-2 rounded"><?= $tagvalue ?>
+                            </span>
+                        </span>
+
+
+                    </a>
+                <?php endforeach ?>
+            </div>
         </div>
     </div>
 
@@ -103,9 +138,4 @@
 
 </main>
 
-<footer class='w-full text-center border-t border-grey p-4'>
-    Der Entwicklerblog dieser Homepage
-</footer>
-</body>
-
-</html>
+<?php snippet('footer-tailwind') ?>
