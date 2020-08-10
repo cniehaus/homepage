@@ -118,11 +118,11 @@
                 <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
                     <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
+                        <span class="inline-block bg-blue-200 text-blue-800 text-lg p-6 rounded-full uppercase font-semibold tracking-wide"><?= $tagkey ?>
+                            <span class="bg-red-200 text-red-800 text-lg px-2 rounded"><?= $tagvalue ?>
+                            </span>
+                        </span>
 
-
-                        <button class='relative bg-blue-500 text-white p-6 rounded font-bold overflow-visible mt-6 mr-6'><?= $tagkey ?>
-                            <div class="absolute top-0 right-0 -mt-2 -mr-2 px-4 py-1 bg-red-500 rounded-full"><?= $tagvalue ?></div>
-                        </button>
 
                     </a>
                 <?php endforeach ?>
