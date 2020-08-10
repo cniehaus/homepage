@@ -1,4 +1,4 @@
-<footer class='w-full text-center border-t border-grey p-4'>
+<footer class='w-full text-left border-t border-grey p-4'>
   <div class="flex">
     <div class="w-2/5">
       <a href="<?= $site->url() ?>">
