@@ -8,11 +8,11 @@
     <div class="flex mb-4">
         <div class="w-3/4 bg-gray-300">
 
-            <h1 class="mt-6 mb-6 text-4xl font-bold text-gray-900 leading-tight">
+            <h1 class="mt-6 ml-8 mb-6 text-4xl font-bold text-gray-900 leading-tight">
                 Der Entwicklerblog der KGS Rastede
             </h1>
 
-            <h3 class="mt-6 mb-6 text-2xl text-gray-600">
+            <h3 class="mt-6 ml-12 mb-6 text-2xl text-gray-600">
                 Die Technik hinter dieser Homepage
             </h3>
 
@@ -64,6 +64,7 @@
                                     <?= $a->date() ?>
 
                                 </div>
+                                
 
                                 <div class="p-2">
                                     <div class="px-1 py-1">
@@ -116,7 +117,7 @@
                 <?php foreach ($tags_gezaehlt as $tagkey => $tagvalue) : ?>
                     <a href="<?= url('devblog', ['params' => ['tag' => $tagkey]]) ?>">
 
-                        <span class="inline-block bg-blue-200 text-blue-800 text-lg p-6 rounded-full uppercase font-semibold tracking-wide"><?= $tagkey ?>
+                        <span class="inline-block bg-blue-200 text-blue-800 text-lg p-2 m-2 rounded-full uppercase font-semibold tracking-wide"><?= $tagkey ?>
                             <span class="bg-red-200 text-red-800 text-lg px-2 rounded"><?= $tagvalue ?>
                             </span>
                         </span>
