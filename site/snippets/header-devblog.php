@@ -14,22 +14,19 @@
 <style>
   .topnav {
     overflow: hidden;
-    background-color: #333;
+
+    /* Hintergrundfarbe Menü */
+    background-color: #333; 
   }
 
   .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-  }
-
-  .active {
-    background-color: #4CAF50;
-    color: white;
+    /* font-size: 17px; */
   }
 
   .topnav .icon {
@@ -42,9 +39,9 @@
   }
 
   .dropdown .dropbtn {
-    font-size: 17px;
-    border: none;
-    outline: none;
+    /* font-size: 17px; */
+    /* border: none; */
+    /* outline: none; */
     color: white;
     padding: 14px 16px;
     background-color: inherit;
@@ -56,18 +53,18 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
     z-index: 1;
   }
 
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    padding: 14px 18px;
+    /* text-decoration: none; */
+    /* display: block; */
+    /* text-align: left; */
   }
 
   .topnav a:hover,
@@ -142,68 +139,66 @@
         </svg> Kontakt
       </button>
       <div class="dropdown-content">
-        <a class="dropdown-item" href="<?= page('allgemeines/anfahrt')->url() ?>">
+        <a  href="<?= page('allgemeines/anfahrt')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#geo-alt" />
           </svg> Anfahrt
         </a>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#haus">
+        <a  href="<?= page('kontakte/sekretariate')->url() ?>#haus">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tools" />
           </svg> Hausmeister
         </a>
 
-        <a class="dropdown-item" href="<?= page('kontakte/schulleitung')->url() ?>">
+        <a  href="<?= page('kontakte/schulleitung')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#person-circle" />
           </svg> Schulleitung
         </a>
-        <a class="dropdown-item" href="<?= page('kontakte/fbl')->url() ?>">
+        <a  href="<?= page('kontakte/fbl')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#person-square" />
           </svg> Fachbereichsleiter
         </a>
 
-        <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#sek">
+        <a  href="<?= page('kontakte/sekretariate')->url() ?>#sek">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#telephone-fill" />
           </svg> Sekretariate
         </a>
 
-        <a class="dropdown-item" href="<?= page('lehrer')->url() ?>">
+        <a  href="<?= page('lehrer')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#person-lines-fill" />
           </svg> Kollegium
         </a>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="<?= page('sv/die_sv')->url() ?>">
+        <a  href="<?= page('sv/die_sv')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people-fill" />
           </svg> Schülervertretung (SV)
         </a>
 
-        <a class="dropdown-item" href="<?= page('kontakte/spr')->url() ?>">
+        <a  href="<?= page('kontakte/spr')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#briefcase-fill" />
           </svg> Personalrat (SPR)
         </a>
 
-        <a class="dropdown-item" href="<?= page('kontakte/gleichstellung')->url() ?>">
+        <a  href="<?= page('kontakte/gleichstellung')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#person-fill" />
           </svg> Gleichstellungsbeauftragte
         </a>
 
-        <a class="dropdown-item" href="<?= page('ser/vorstand')->url() ?>">
+        <a  href="<?= page('ser/vorstand')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people-fill" />
           </svg> Schulelternrat (SER)
         </a>
 
-        <a class="dropdown-item" href="<?= page('foerderverein/vorstand')->url() ?>">
+        <a  href="<?= page('foerderverein/vorstand')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags-fill" />
           </svg> Förderverein
@@ -217,66 +212,61 @@
         </svg> &Uuml;ber die Schule
       </button>
       <div class="dropdown-content">
-        <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>">
+        <a  href="<?= page('allgemeines/schulstruktur/bus')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#truck" />
           </svg> Schulbusverkehr
         </a>
 
-        <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>">
+        <a  href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#clock" />
           </svg> Zeitraster
         </a>
 
-        <a class="dropdown-item" href="<?= page('allgemeines/presse')->url() ?>">
+        <a  href="<?= page('allgemeines/presse')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#newspaper" />
           </svg> ...aus der Presse
         </a>
 
-        <a class="dropdown-item" href="<?= page('allgemeines/ausbildungsschule')->url() ?>">
+        <a  href="<?= page('allgemeines/ausbildungsschule')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#award" />
           </svg> Ausbildungsschule
         </a>
 
-        <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>">
+        <a  href="<?= page('allgemeines/inklusion')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#door-open" />
           </svg> Inklusion
         </a>
 
-        <div class="dropdown-divider"></div>
-
-        <a class="dropdown-item" href="<?= page('allgemeines/grundschule')->url() ?>">
+        <a  href="<?= page('allgemeines/grundschule')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#box-arrow-right" />
           </svg> Übergang Grundschule/KGS
         </a>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="<?= page('allgemeines/beratung')->url() ?>">
+        <a  href="<?= page('allgemeines/beratung')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#chat-dots" />
           </svg> Beratung
         </a>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="<?= page('allgemeines/zweige')->url() ?>">
+        <a  href="<?= page('allgemeines/zweige')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#list-ol" />
           </svg> Die drei Schulzweige
         </a>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="<?= page('allgemeines/konzepte')->url() ?>">
+        <a  href="<?= page('allgemeines/konzepte')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#layout-wtf" />
           </svg> Pädagogische Konzepte
         </a>
 
-        <a class="dropdown-item" href="<?= page('allgemeines/geschichte')->url() ?>">
+        <a  href="<?= page('allgemeines/geschichte')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#book" />
           </svg> Unsere Geschichte
@@ -298,17 +288,17 @@
         Unterricht und Schulleben
       </button>
       <div class="dropdown-content">
-        <a class="dropdown-item" href="<?= page('allgemeines/ssd')->url() ?>">
+        <a  href="<?= page('allgemeines/ssd')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people" />
           </svg> Schulsanitätsdienst
         </a>
-        <a class="dropdown-item" href="<?= page('Faecher')->url() ?>">
+        <a  href="<?= page('Faecher')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#journals" />
           </svg> Fächer
         </a>
-        <a class="dropdown-item" href="<?= page('allgemeines/oberstufe')->url() ?>">
+        <a  href="<?= page('allgemeines/oberstufe')->url() ?>">
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#subtract" />
           </svg> Oberstufe
@@ -316,7 +306,7 @@
       </div>
     </div>
 
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 </navbar>
 
