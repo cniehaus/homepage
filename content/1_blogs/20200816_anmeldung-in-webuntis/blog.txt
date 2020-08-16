@@ -11,7 +11,7 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Seit dem Update am 30.7.2020 funktionieren die alten WebUntis Accounts nicht mehr. Die neuen Accounts haben den selben Benutzernamen wie vorher, aber ein anderes Passwort. Es ist das, was bei <a href=\"https://ssp.kgs-rastede.logoip.de/\">https://ssp.kgs-rastede.logoip.de/</a> festgelegt wurde.",
+        "content": "Seit dem Update am 30.7.2020 funktionieren die alten WebUntis-Accounts nicht mehr. Die neuen Accounts haben den selben Benutzernamen wie im Schulnetzwerk (4 Buchstaben, 4 Zahlen, z.B. <em>abcd1234</em>), aber ein anderes Passwort. Es ist das, was bei <a href=\"https://ssp.kgs-rastede.logoip.de/\">https://ssp.kgs-rastede.logoip.de/</a> festgelegt wurde.",
         "id": "_spawu9udn",
         "type": "paragraph"
     }
