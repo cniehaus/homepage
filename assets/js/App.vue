@@ -8,7 +8,7 @@
 
 
 <script>
-import Navbar from 'http://kirby/assets/js/components/Navbar.vue'
+import Navbar from './components/Navbar'
 export default {
   name: 'app',
   components: {
