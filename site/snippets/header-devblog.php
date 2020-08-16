@@ -17,7 +17,7 @@
 
 <script>
 import Vue from 'vue'
-import App from '<?= $kirby->url('assets') ?>/js/App.vue'
+import App from '../../assets/js/App.vue'
 
 Vue.config.productionTip = false
 
