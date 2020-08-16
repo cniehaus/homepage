@@ -59,7 +59,7 @@
       </div>
 
 
-      
+      <!-- '''
       <div class="card py-4">
 
         <h1>Zum Testen der Farben hier die Farben des Schemas</h1>
@@ -86,7 +86,7 @@
 
         <h1>dark</h1>
         <button class="btn btn-dark">Weitere Nachrichten aus der Schule</button>
-      </div>
+      </div> -->
 
 
 
