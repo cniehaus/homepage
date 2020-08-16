@@ -1,0 +1,76 @@
+Title: Schulstart August 2020
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Bald startet die Schule wieder.",
+        "id": "_o084zohye",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_xjiu7sr5p",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Informationen aus dem Kultusministerium sind hier zu finden:",
+        "id": "_es6w2gjqb",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<a href=\"https://www.mk.niedersachsen.de/startseite/aktuelles/schule-neues-schuljahr-190409.html\">https://www.mk.niedersachsen.de/startseite/aktuelles/schule-neues-schuljahr-190409.html</a>",
+        "id": "_82d46a1hz",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery: 
+
+----
+
+Date: 2020-08-16 12:30
+
+----
+
+Datumstartseite: 2020-12-16 12:30
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Schulleitung, Topartikel
+
+----
+
+Immer-sichtbar: false
+
+----
+
+Downloads:
+
+- handreichung_distanzlernen.pdf
+- >
+  umgang_mit_coronabedingten_lernr_ckst_nden.pdf
+- >
+  2020-08-14_brief_an_schulleitungen_und_lehrkr_fte.pdf
+- >
+  leitfaden_sj_20-21_allg.bild._schulen.pdf
+
+----
+
+Fotoansicht: gallery
