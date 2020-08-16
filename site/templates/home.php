@@ -37,18 +37,25 @@
         <?php endif ?>
 
       </div>
-      <div class="my-4">
-        <!-- Rotierknopf bspw für Elternsprechtag -->
 
-        <?php foreach (page('wichtige_informationen/aktuelles')->banner()->toStructure() as $subpage) :  ?>
-          <?php
-          if ($subpage->dateBis()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s') and ($subpage->dateVon()->toDate('Y-m-d-H-i-s') < date('Y-m-d-H-i-s'))) :
-            snippet('rotier-knopf', ['subpage' => $subpage]);
-          endif ?>
-        <?php endforeach ?>
+      <?php $index = 0;
+      foreach (page('blogs')
+        ->children()
+        ->flip() as $subpage) : $index++ ?>
+
+        <?php
+        if (in_array("Topartikel", $subpage->tags()->split())) {
+
+          if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) {
+              snippet('topartikel', ['subpage' => $subpage]);
+
+          }
+        }
+
+        ?>
 
 
-      </div>
+      <?php endforeach ?>
 
 
 
@@ -96,46 +103,46 @@
           ->flip() as $subpage) : $index++ ?>
 
 
-          <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s') ): ?>
-            
-          
-          <!--  
+          <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
+
+
+            <!--  
                       % 2 testet letztlich, ob der Wert in $index gerade ist oder nicht
                       Das heißt: "glatt durch 2 teilbar".
 
                       Ich möchte effektiv bei jedem zweiten Artikel das Bild links und 
                       den Text rechts haben, um das Design etwas aufzulockern
                     -->
-          <div class="card my-3">
-            <div class="row my-4">
+            <div class="card my-3">
+              <div class="row my-4">
 
-              <!-- der ersten beiden Zeilen sind immer gleich -->
+                <!-- der ersten beiden Zeilen sind immer gleich -->
 
 
-              <?php if ($index % 2 == 0) : ?>
+                <?php if ($index % 2 == 0) : ?>
 
-                <?php snippet('teaser-bild', [
-                  'subpage' => $subpage
-                ]) ?>
+                  <?php snippet('teaser-bild', [
+                    'subpage' => $subpage
+                  ]) ?>
 
-                <?php snippet('teaser-bild-text', [
-                  'subpage' => $subpage
-                ]) ?>
+                  <?php snippet('teaser-bild-text', [
+                    'subpage' => $subpage
+                  ]) ?>
 
-              <?php else : ?>
+                <?php else : ?>
 
-                <?php snippet('teaser-bild-text', [
-                  'subpage' => $subpage
-                ]) ?>
+                  <?php snippet('teaser-bild-text', [
+                    'subpage' => $subpage
+                  ]) ?>
 
-                <?php snippet('teaser-bild', [
-                  'subpage' => $subpage
-                ]) ?>
+                  <?php snippet('teaser-bild', [
+                    'subpage' => $subpage
+                  ]) ?>
 
-              <?php endif ?>
+                <?php endif ?>
 
+              </div>
             </div>
-          </div>
 
           <?php endif ?>
 
