@@ -6,6 +6,28 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/ammerland/bildung/rastede-it-und-technik-an-der-kgs-sitzt-ein-neuer-fachmann_a_50,9,2568179005.html
+  name: >
+    Seit Monatsbeginn ist der 32-Jährige
+    nun Administrator für die acht Schulen
+    im Gemeindegebiet. Was verschlägt den
+    Cloppenburger ins Ammerland?
+  anfang: >
+    Sowohl Schüler als auch Lehrer an der
+    Kooperative Gesamtschule (KGS) Rastede
+    werden sich spätestens nach den
+    Sommerferien an ein neues Gesicht
+    gewöhnen. Denn dort ist
+    Fachinformatiker Mike von Dreele der
+    neue IT-Administrator. Seit Anfang des
+    Monats ist der 32-Jährige nun
+    Ansprechpartner und Spezialist für alle
+    Fragen zu Technik und elektronischer
+    Datenverarbeitung.
+  datum: 2020-08-19
+  zeitung: nwz
+- 
+  link: >
     https://www.nwzonline.de/ammerland/bildung/delfshausen-naturschutz-rasteder-schueler-pflanzen-50-laubbaeume_a_50,9,874344877.html
   name: Rasteder Schüler pflanzen 50 Laubbäume
   anfang: >
