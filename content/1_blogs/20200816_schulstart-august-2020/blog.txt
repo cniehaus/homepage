@@ -1,4 +1,4 @@
-Title: Schulstart August 2020
+Title: So beginnt das neue Schuljahr…
 
 ----
 
@@ -11,26 +11,62 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Bald startet die Schule wieder.",
-        "id": "_o084zohye",
+        "content": "Liebe Schülerinnen und Schüler,",
+        "id": "_aksmlg0l5",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "mit Beginn des neuen Schuljahres kommen wieder alle Schülerinnen und Schüler gemeinsam in die Schule.",
+        "id": "_SXVeoiy6A",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "",
-        "id": "_xjiu7sr5p",
+        "content": "Hier gilt nun überall <strong>Maskenpflicht!</strong>",
+        "id": "_eM5xJDuJV",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Informationen aus dem Kultusministerium sind hier zu finden:",
-        "id": "_es6w2gjqb",
+        "content": "Erst wenn man an seinem Platz im Klassenraum sitzt, darf man die Maske abnehmen. Wo es möglich ist, ist die Abstandsregel einzuhalten.",
+        "id": "_bq5S1nC5l",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "<a href=\"https://www.mk.niedersachsen.de/startseite/aktuelles/schule-neues-schuljahr-190409.html\">https://www.mk.niedersachsen.de/startseite/aktuelles/schule-neues-schuljahr-190409.html</a>",
-        "id": "_82d46a1hz",
+        "content": "<strong>Unterricht </strong>wird in vollem Umfang stattfinden, auch in klassenübergreifenden Gruppen, z.B. in Kunst, WPK. Nur der Sportunterricht findet in der eigenen Klasse statt. Arbeitsgemeinschaften finden statt, teilweise unter besonderen Hygienebedingungen.",
+        "id": "_RLVGep3CF",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<strong>Pausen</strong> verbringen alle draußen und zwar in besonders ausgewiesenen Bereichen. In einem Bereich hält sich in der Regel ein Jahrgang oder eine Klasse auf. Dort darf für die Dauer der Pause die Maske abgenommen werden. Vor Unterrichtsbeginn warten alle Schülerinnen und Schüler in ihrem Pausenbereich und werden dort von den Lehrkräften abgeholt.",
+        "id": "_qYGKUY3wG",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Ohne Maske darf man die Schule nicht betreten – das gilt auch für Besucher, Eltern etc.",
+        "id": "_UKKnx9tbl",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Wir wünschen allen einen guten Start und sind optimistisch, dass es gut klappt,",
+        "id": "_L7s236Hd6",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "eure Lehrerinnen und Lehrer",
+        "id": "_OoCuRfsDP",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "P.S.: Ergänzungen folgen...",
+        "id": "_j2e2jvRsB",
         "type": "paragraph"
     }
 ]
