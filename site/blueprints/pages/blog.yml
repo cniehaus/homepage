@@ -92,6 +92,7 @@ columns:
               - SSD
               - Austausch
               - Wettbewerb
+              - Topartikel
 
           line1:
             type: line
