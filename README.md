@@ -78,5 +78,6 @@ Die neue Homepage wird mit Git verwaltet werden. Jeder, der mitmachen möchte, s
 
 # CSS
 Wir müssen natürlich CSS verwenden. [Bootstrap](https://getbootstrap.com/) ist ein sinnvolles, bekanntes System.
-Wir haben uns daher für Bootstrap 5 entschieden. Gute Dokumentation, Anleitungen ohne Ende... Alternativen wie tailwind kommen erstmal nicht in Betracht, vielleicht auf Dauer.
+Wir haben uns daher für Bootstrap 5 entschieden. Gute Dokumentation, Anleitungen ohne Ende... Alternativen wie TailwindCSS kommen erstmal nicht in Betracht, vielleicht auf Dauer.
+Allerdings benutzen wir TailwindCSS im Entwicklerblog um es zu testen und besser kennenzulernen. Ein Umstellung der gesamten Seite erscheint zum aktuellen Zeitpunkt als nicht denkbar.
 
