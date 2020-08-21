@@ -109,14 +109,6 @@
 
               <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
 
-
-                <!--  
-                      % 2 testet letztlich, ob der Wert in $index gerade ist oder nicht
-                      Das heißt: "glatt durch 2 teilbar".
-
-                      Ich möchte effektiv bei jedem zweiten Artikel das Bild links und 
-                      den Text rechts haben, um das Design etwas aufzulockern
-                    -->
                 <div class="card">
                   <div class="row my-4">
 
