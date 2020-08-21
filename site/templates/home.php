@@ -95,75 +95,67 @@
 
       <div class="container">
         <h2 class="title">Aktuelle Nachrichten</h2>
-        <div class="container-fluid">
-          <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-cs-1 row-cols-md-2 g-4">
 
-            <!--  
+          <!-- <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2"> -->
+
+
+
+          <!--  
                     Jetzt werden die Elemente angefügt. 
                     -->
-            <?php $index = 0;
-            foreach (page('blogs')
-              ->children()
-              ->flip() as $subpage) : $index++ ?>
+          <?php $index = 0;
+          foreach (page('blogs')
+            ->children()
+            ->flip() as $subpage) : $index++ ?>
 
 
-              <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
-
+            <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
+              <div class="col">
                 <div class="card">
-                  <div class="row my-4">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+                    </h4>
 
-                    <!-- der ersten beiden Zeilen sind immer gleich -->
-
-
-                    <?php if ($index % 2 == 0) : ?>
-
-                      <?php snippet('teaser-bild', [
-                        'subpage' => $subpage
-                      ]) ?>
-
-                      <?php snippet('teaser-bild-text', [
-                        'subpage' => $subpage
-                      ]) ?>
-
-                    <?php else : ?>
-
-                      <?php snippet('teaser-bild-text', [
-                        'subpage' => $subpage
-                      ]) ?>
-
-                      <?php snippet('teaser-bild', [
-                        'subpage' => $subpage
-                      ]) ?>
-
-                    <?php endif ?>
-
+                    <p class="card-text">
+                      <?= $subpage->Text()->blocks()->excerpt(250) ?>
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <p>
+                      Autor <b><?= $subpage->author() ?></b>, Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
+                    </p>
+                    
+                    <a href="<?= $subpage->url() ?>" class="card-link">...weiterlesen</a>
                   </div>
                 </div>
-              <?php endif ?>
+              </div>
+            <?php endif ?>
 
 
-            <?php endforeach ?>
-          </div>
+          <?php endforeach ?>
+
         </div>
-
       </div>
-      <a href="<?= page("blogs") ?>">
-        <button class="btn btn-secondary">Weitere Nachrichten aus der Schule &#8594;</button>
-      </a>
 
-    </div>
-    <div class="col-md-3">
-      <?php snippet('box-kalender') ?>
-      <?php snippet('box-presse') ?>
-      <?php snippet('box-foerderverein') ?>
-      <?php snippet('box-links') ?>
-      <?php //snippet('box-wetter') 
-      ?>
-    </div>
-
-
+    <a href="<?= page("blogs") ?>">
+      <button class="btn btn-secondary">Weitere Nachrichten aus der Schule &#8594;</button>
+    </a>
 
   </div>
+  <div class="col-md-3">
+    <?php snippet('box-kalender') ?>
+    <?php snippet('box-presse') ?>
+    <?php snippet('box-foerderverein') ?>
+    <?php snippet('box-links') ?>
+    <?php //snippet('box-wetter') 
+    ?>
+  </div>
+
+
+
+</div>
 </div>
 
 
