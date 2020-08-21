@@ -2,9 +2,9 @@
 <?php snippet('page-header') ?>
 
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-9">
 
 
       <div class="card bg-primary">
@@ -42,21 +42,24 @@
           Die tauchen hier immer auch, egal welches Datumsbereich
           jeweils eingestellt ist
          -->
-      <div class="container mt-5 mb-5">
-
-        <?php $index = 0;
-        foreach (page('blogs')
-          ->children()
-          ->flip() as $subpage) : $index++ ?>
-
-          <?php
-          if (in_array("Topartikel", $subpage->tags()->split())) {
-            snippet('topartikel', ['subpage' => $subpage]);
-          }
-          ?>
-
-        <?php endforeach ?>
+      <h1>Aktuell im Fokus</h1>
+      <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2">
+          <?php $index = 0;
+          foreach (page('blogs')
+            ->children()
+            ->flip() as $subpage) : $index++ ?>
+            <div class="col">
+              <?php
+              if (in_array("Topartikel", $subpage->tags()->split())) {
+                snippet('topartikel', ['subpage' => $subpage]);
+              }
+              ?>
+            </div>
+          <?php endforeach ?>
+        </div>
       </div>
+
 
 
       <!-- '''
@@ -153,7 +156,7 @@
       </a>
 
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <?php snippet('box-kalender') ?>
       <?php snippet('box-presse') ?>
       <?php snippet('box-foerderverein') ?>
