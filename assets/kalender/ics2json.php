@@ -17,8 +17,8 @@ $such_summary = 'SUMMARY';
 $such_zeilenumbruch_outlook = 'TRANSP';
 ///////////////////////////////////////////////
 // Kalender einlesen
-$file = fopen('https://kalender.kgs-rastede.de/schuljahresplanerPaos8UojIsZJF0KZz.ics', "r");
-$exportjson = fopen("schuljahresplanerPaos8UojIsZJF0KZz.json", "w");
+$file = fopen('schuljahresplaner.ics', "r");
+$exportjson = fopen("schuljahresplaner.json", "w");
 $datensatz_nr = 0;
 $datensatz = false;
 echo2('[' . '<br>'); //Zeile 1 der json-Datei für den fullcalendar
@@ -36,7 +36,7 @@ while (!feof($file)) {
 	if (substr($zeile, 0, strlen($such_ende_datensatz)) == $such_ende_datensatz) { //Ende des Datensatzes
 		$datensatz = false; //Termin Ende
 		$color = "white";
-		$color = $farbpalette[substr($categorie, 0, 1)];
+		// $color = $farbpalette[substr($categorie, 0, 1)];
 		if ($datensatz_nr != 1) {
 			echo2(',' . '<br>');
 		};
@@ -52,7 +52,7 @@ while (!feof($file)) {
 			echo2(substr($end, 8, 3) . ':' . substr($end, 11, 2));
 		};
 		echo2('",<br>');
-		echo2('"color": ' . '"' . $color . '",' . '<br>');
+		// echo2('"color": ' . '"' . "mediumvioletred" . '",' . '<br>');
 		echo2('"textColor": ' . '"' . '#707070' . '"<br>');
 		echo2('}');
 	}
