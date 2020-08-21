@@ -1,4 +1,43 @@
 <?php
+
+/*
+
+So soll das Ergebnis am Ende aussehen
+
+[
+{
+"title": "Reformationstag",
+"start": "2019-10-31",
+"end": "2019-11-01",
+"color": "orange",
+"textColor": "#707070"
+},
+{
+"title": "Wanderwoche (Klassenfahrten - Studienfahrten)",
+"start": "2019-09-16",
+"end": "2019-09-21",
+"color": "greenyellow",
+"textColor": "#707070"
+},
+{
+"title": "Veranstaltung 'Jugendzimmer' Jg. 8",
+"start": "2019-08-22",
+"end": "2019-08-24",
+"color": "lightblue",
+"textColor": "#707070"
+},
+{
+"title": "Schulvorstand",
+"start": "2020-04-23T17:00",
+"end": "2020-04-23T19:00",
+"color": "lightgrey",
+"textColor": "#707070"
+}
+]
+*/
+?>
+
+<?php
 function echo2($inhalt)
 {
 	global $exportjson;
