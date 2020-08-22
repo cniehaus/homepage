@@ -38,31 +38,6 @@ $theme-colors: (
     background-color: #0e5499 !important;
 }
 
-// Diese Klasse wird benutzt als Überschrift einer jeden Seite
-.titelfeld {
-    .container {
-        background: $light;
-        border-radius: 20px;
-        opacity: 0.95;
-        padding: 20px 30px 30px 30px;
-        margin-top: 40px;
-    }
-}
-
-.blogpost {
-    .container {
-        background: $blue-100;
-        border-radius: 20px;
-        opacity: 0.95;
-        padding: 20px 30px 30px 30px;
-        margin-top: 40px;
-    }
-}
-
-.panel-heading h4 {
-    color: set-text-color($primary);
-}
-
 .main {
     margin-top: 30px;
 }
