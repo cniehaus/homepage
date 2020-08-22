@@ -139,17 +139,20 @@
         </div>
       </div>
 
+
+      <hr>
+
       <div class="container-fluid">
         <div class="row example-centered">
           <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-            <ul class="timeline timeline-centered">
+            <ul class="timeline timeline-split">
 
               <li class="timeline-item period">
                 <div class="timeline-info"></div>
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
-                  <h2 class="timeline-title pb-2">Aktuelles aus der Schule</h2>
-                  <h3 class="timeline-title">[Probeversion als Zeitleiste... Was sieht besser aus? Gerne Rückmeldungen!]</h3>
+                  <h2 class="timeline-title pb-4">Aktuelles aus der Schule</h2>
+                  <h3 class="timeline-title">[Probeversion 2 als Zeitleiste... Was sieht besser aus? Gerne Rückmeldungen!]</h3>
 
                 </div>
               </li>
@@ -167,9 +170,13 @@
                       <span>
                         Autor <b><?= $subpage->author() ?></b>, Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
                       </span>
+
                     </div>
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
+                      <a href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+
+
                       <p>
                         <?= $subpage->Text()->blocks()->excerpt(250)   ?>
                       </p>
@@ -200,6 +207,156 @@
           </div>
         </div>
       </div>
+
+      <hr>
+
+
+      <div class="container-fluid">
+        <div class="row example-centered">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul class="timeline timeline-center">
+
+              <li class="timeline-item period">
+                <div class="timeline-info"></div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <h2 class="timeline-title pb-4">Aktuelles aus der Schule</h2>
+                  <h3 class="timeline-title">[Probeversion als Zeitleiste 3... Was sieht besser aus? Gerne Rückmeldungen!]</h3>
+
+                </div>
+              </li>
+
+              <?php $index = 0;
+              foreach (page('blogs')
+                ->children()
+                ->flip() as $subpage) : $index++ ?>
+
+
+                <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
+
+                  <li class="timeline-item">
+                    <div class="timeline-info">
+                      <span>
+                        Autor <b><?= $subpage->author() ?></b>, Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
+                      </span>
+
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                      <a href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+
+
+                      <p>
+                        <?= $subpage->Text()->blocks()->excerpt(250)   ?>
+                      </p>
+
+                      <a href="<?= $subpage->url() ?>" class="card-link">...weiterlesen</a>
+
+                    </div>
+                  </li>
+
+                <?php endif ?>
+              <?php endforeach ?>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- --------------------------------- -->
+
+      <h2 class="pb-4">Aktuelles aus der Schule</h2>
+      <h3>[Probeversion als Zeitleiste 4... Was sieht besser aus? Gerne Rückmeldungen!]</h3>
+
+
+      <div class="container-fluid">
+        <div class="timeline2">
+          <div class="timeline-month">
+            August 2020
+            <span>3 Entries</span>
+          </div>
+
+          <?php $index = 0;
+          foreach (page('blogs')
+            ->children()
+            ->flip() as $subpage) : $index++ ?>
+
+
+            <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
+
+
+
+              <div class="timeline-section">
+                <div class="timeline-date">
+                  Datum: <?= $subpage->date()->toDate("d.m.Y") ?>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i class="fa fa-asterisk text-success" aria-hidden="true"></i><?= $subpage->title() ?>
+                      </div>
+                      <div class="box-content">
+                        <?= $subpage->Text()->blocks()->excerpt(250)   ?>
+                      </div>
+                      <div class="box-footer">- <b><?= $subpage->author() ?></b></div>
+                    </div>
+                  </div>
+
+                  <?php if (rand(0, 1) == 1) : ?>
+
+                    <div class="col-sm-4">
+                      <div class="timeline-box">
+                        <div class="box-title">
+                          <i class="fa fa-pencil text-info" aria-hidden="true"></i> PROBETEXT
+                        </div>
+                        <div class="box-content">
+                          <a class="btn btn-xs btn-default pull-right">DEMOTEXT ZUM TESTEN VOM DESIGN</a>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae numquam, quo, nam, adipisci neque reiciendis ipsum illum deleniti perferendis tempora libero! Minima qui repellendus ipsam animi nihil, modi veritatis!
+                        </div>
+                        <div class="box-footer">- Tyler</div>
+                      </div>
+                    </div>
+
+                  <?php endif ?>
+
+                  <?php if (rand(0, 1) == 1) : ?>
+
+                    <div class="col-sm-4">
+                      <div class="timeline-box">
+                        <div class="box-title">
+                          <i class="fa fa-pencil text-info" aria-hidden="true"></i> PROBETEXT
+                        </div>
+                        <div class="box-content">
+                          <a class="btn btn-xs btn-default pull-right">DEMOTEXT ZUM TESTEN VOM DESIGN</a>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae numquam, quo, nam, adipisci neque reiciendis ipsum illum deleniti perferendis tempora libero! Minima qui repellendus ipsam animi nihil, modi veritatis!
+                        </div>
+                        <div class="box-footer">- Tyler</div>
+                      </div>
+                    </div>
+
+                  <?php endif ?>
+
+
+                </div>
+
+              </div>
+
+
+
+            <?php endif ?>
+          <?php endforeach ?>
+
+
+
+        </div>
+      </div>
+
+      <!-- --------------------------------- -->
+
+
 
       <a href="<?= page("blogs") ?>">
         <button class="btn btn-secondary">Weitere Nachrichten aus der Schule &#8594;</button>
