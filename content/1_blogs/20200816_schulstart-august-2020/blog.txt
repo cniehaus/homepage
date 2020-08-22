@@ -12,8 +12,8 @@ Text:
     {
         "attrs": [],
         "content": "Liebe Schülerinnen und Schüler,",
-        "id": "_aksmlg0l5",
-        "type": "h2"
+        "id": "_840d06rx6",
+        "type": "paragraph"
     },
     {
         "attrs": [],

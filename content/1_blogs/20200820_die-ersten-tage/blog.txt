@@ -11,14 +11,8 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Der Plan für die ersten Tage:",
-        "id": "_WhnYtdtaM",
-        "type": "h2"
-    },
-    {
-        "attrs": [],
-        "content": "Der <strong>erste Schultag</strong> nach den Sommerferien ist Donnerstag, der <strong>27. August 2020. </strong>Am ersten Schultag erhalten alle ihre Bücher.",
-        "id": "_9HTKzRgVG",
+        "content": "Der erste Schultag nach den Sommerferien ist Donnerstag, der 27. August 2020. Am ersten Schultag erhalten alle ihre Bücher.",
+        "id": "_mxxsh30gs",
         "type": "paragraph"
     },
     {
