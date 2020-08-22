@@ -38,26 +38,6 @@ $theme-colors: (
     background-color: #0e5499 !important;
 }
 
-p {
-    font-size: 1.2rem;
-}
-
-.infokasten {
-    padding: 50px 0px;
-}
-
-.showcase {
-    background: url(../img/stifte.jpg) no-repeat 0 -100px;
-    height: 600px;
-    padding: 30px 0;
-
-    .container {
-        background: #fff;
-        opacity: 0.95;
-        padding: 20px 30px 30px 30px;
-    }
-}
-
 // Diese Klasse wird benutzt als Überschrift einer jeden Seite
 .titelfeld {
     .container {
@@ -98,15 +78,6 @@ footer {
 
 $primary-color: #ff6b6b;
 $primary-color-hover: scale-color($primary-color, $lightness: 32%);
-
-.container-fluid {
-    .row {
-        padding: 0 0 4em 0;
-        &:nth-child(even) {
-            background: #ffffff;
-        }
-    }
-}
 
 /*==================================
     TIMELINE
