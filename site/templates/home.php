@@ -93,32 +93,32 @@
 
 
 
-        <h1 class="title">Aktuelle Nachrichten</h1>
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2 g-4">
+      <h1 class="title">Aktuelle Nachrichten</h1>
+      <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2 g-4">
 
-          <!-- <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2"> -->
+        <!-- <div class="row row-cols-1 row-cols-xs-1 row-cols-md-2"> -->
 
 
 
-          <!--  
+        <!--  
                     Jetzt werden die Elemente angefügt. 
                     -->
-          <?php $index = 0;
-          foreach (page('blogs')
-            ->children()
-            ->flip() as $subpage) : $index++ ?>
+        <?php $index = 0;
+        foreach (page('blogs')
+          ->children()
+          ->flip() as $subpage) : $index++ ?>
 
 
-            <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
-              <?php
-                snippet('blogkarte', ['subpage' => $subpage]);
-              ?>
-            <?php endif ?>
+          <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')) : ?>
+            <?php
+            snippet('blogkarte', ['subpage' => $subpage]);
+            ?>
+          <?php endif ?>
 
 
-          <?php endforeach ?>
+        <?php endforeach ?>
 
-        </div>
+      </div>
 
 
 
@@ -128,13 +128,16 @@
       </a>
 
     </div>
+
     <div class="col-md-3">
-      <?php snippet('box-kalender') ?>
-      <?php snippet('box-presse') ?>
-      <?php snippet('box-foerderverein') ?>
-      <?php snippet('box-links') ?>
-      <?php //snippet('box-wetter') 
-      ?>
+      <div class="container mt-5">
+        <?php snippet('box-kalender') ?>
+        <?php snippet('box-presse') ?>
+        <?php snippet('box-foerderverein') ?>
+        <?php snippet('box-links') ?>
+        <?php //snippet('box-wetter') 
+        ?>
+      </div>
     </div>
 
 
