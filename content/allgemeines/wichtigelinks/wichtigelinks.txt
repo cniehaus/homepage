@@ -7,7 +7,7 @@ Text:
 [
     {
         "attrs": [],
-        "content": "Hier finden Sie eine schnelle \u00fcbersicht \u00fcber die wichtigsten Links im Alltag",
+        "content": "Hier finden Sie eine schnelle \u00dcbersicht \u00fcber die wichtigsten Links im Alltag",
         "id": "_pleddxe3n",
         "type": "paragraph"
     }
@@ -26,6 +26,17 @@ Inhalte:
     - hallenplane.pdf
   url: ""
   name: Hallenpläne der Turnhalle
+- 
+  link:
+    - >
+      elternbrief_juli_2020_wie_geht_es_weiter.pdf
+  url: ""
+  name: Elternbrief Juli 2020
+- 
+  link:
+    - elternbrief_august_2020.pdf
+  url: ""
+  name: Elternbrief August 2020
 
 ----
 
