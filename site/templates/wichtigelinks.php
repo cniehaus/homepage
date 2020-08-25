@@ -22,7 +22,9 @@
               <a href="">
                 Download
                 <button type="button" rel="tooltip" class="btn btn-info btn-just-icon btn-sm">
-                  <img src="<?= $kirby->url('assets') ?>/icons/cloud-download.svg">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#cloud-download" />
+                  </svg>
                 </button>
               </a>
             </td>
