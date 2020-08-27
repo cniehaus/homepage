@@ -33,6 +33,7 @@
                 //     list: 'Monatsliste',
                 // },
                 firstDay: 1,
+                hiddenDays: [ 0, 6 ], // Samstag und Sonntag verstecken
                 weekLabel: "KW", // Beschriftung der Kalenderwoche
                 allDayText: "ganztägig",
                 noEventsContent: "Keine Ereignisse anzuzeigen",

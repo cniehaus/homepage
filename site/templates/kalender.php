@@ -31,6 +31,7 @@
         day: 'Tag',
         list: 'Monatsliste',
       },
+      hiddenDays: [ 0, 6 ], // Samstag und Sonntag verstecken
       firstDay: 1,
       navLinks: true, // can click day/week names to navigate views
       editable: false,
