@@ -49,13 +49,11 @@
           foreach (page('blogs')
             ->children()
             ->flip() as $subpage) : $index++ ?>
-            <div class="col">
               <?php
               if (in_array("Topartikel", $subpage->tags()->split())) {
-                snippet('topartikel', ['subpage' => $subpage]);
+                  snippet('topartikel', ['subpage' => $subpage]);
               }
               ?>
-            </div>
           <?php endforeach ?>
         </div>
       </div>
