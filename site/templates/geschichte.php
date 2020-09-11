@@ -719,7 +719,7 @@
                             <p>erneute Demo für ein besseres Klima</p>
                             <p><em>Sanierung der Toilettenanlagen (12 000 Euro) sowie Modernisierung der Veranstaltungstechnik in der Aula (103 600 Euro)</em></p>
                             <p>dritte Fridays for future - Demo</p>
-                            <p>Entlassung des Schulleiters Gerd Kip (17 Jahre als Schulleiter)</p>
+                            <p>Pensionierung des Schulleiters Gerd Kip (17 Jahre als Schulleiter)</p>
                             <p>kommissarische Leitung: Oberstufenkoordinatorin Claudia Berger sowie stellvertretender Schulleiter Carsten Niehaus</p>
                             <p><em>erneut mehr Platz benötigt – Gebäude links neben dem Eingang der KGS WI – stark sanierungsbedürftig, benötigt werden außerdem zusätzliche Informatikräume (ab 2023 soll Informatik als Pflichtfach eingeführt werden, so Niedersachsens Kultusminister Tonne)</em></p>
                             <p>vierte Fridays for future - Demo mit 800 Menschen</p>
