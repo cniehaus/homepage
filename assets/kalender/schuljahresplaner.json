@@ -42,6 +42,13 @@
 "textColor": "#707070"
 },
 {
+"title": "FK EN",
+"start": "2020-11-23T16:15",
+"end": "2020-11-23T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Einlebenstage JG 5",
 "start": "2020-08-27",
 "end": "2020-09-03",
@@ -224,6 +231,13 @@
 "textColor": "#707070"
 },
 {
+"title": "FK EK",
+"start": "2020-09-30T16:15",
+"end": "2020-09-30T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Beratungsausschuss",
 "start": "2020-09-21T16:15",
 "end": "2020-09-21T18:00",
@@ -252,7 +266,7 @@
 "textColor": "#707070"
 },
 {
-"title": "FK EN, CH, RE",
+"title": "FK CH, RE",
 "start": "2020-09-29T16:15",
 "end": "2020-09-29T18:00",
 "color": "white",
@@ -301,7 +315,7 @@
 "textColor": "#707070"
 },
 {
-"title": "FK PO, IF, EK",
+"title": "FK PO, IF",
 "start": "2020-09-28T16:15",
 "end": "2020-09-28T18:00",
 "color": "white",
@@ -458,13 +472,6 @@
 "title": "Entlassfeier Sek I",
 "start": "2021-07-01",
 "end": "2021-07-02",
-"color": "white",
-"textColor": "#707070"
-},
-{
-"title": "Matheolympiade Schulrunde",
-"start": "2020-11-09",
-"end": "2020-11-10",
 "color": "white",
 "textColor": "#707070"
 },
