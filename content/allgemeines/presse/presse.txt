@@ -6,6 +6,29 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-kgs-rastede-neue-container-klassen-im-anflug_a_50,9,2954364482.html
+  name: Neue Container-Klassen „im Anflug“
+  anfang: >
+    Der KGS-Standort bekommt weitere
+    Klassenräume. Wegen der Raumnot wird
+    die Sporthalle gesperrt.
+  datum: 2020-08-27
+  zeitung: nwz
+- 
+  link: >
+    https://www.nwzonline.de/rastede/rastede-schule-wieder-warme_a_50,9,2730738784.html
+  name: ' Wieder warme Mahlzeiten an KGS '
+  anfang: >
+    Pünktlich zum neuen Schuljahr haben der
+    Förderverein, die Schulleitung der KGS
+    Rastede und die Gemeinde einen neuen
+    Lieferanten für die Mittagsverpflegung
+    gefunden. Fortan wird das Akademiehotel
+    die Belieferung übernehmen.
+  datum: 2020-08-22
+  zeitung: nwz
+- 
+  link: >
     https://www.nwzonline.de/ammerland/bildung/rastede-it-und-technik-an-der-kgs-sitzt-ein-neuer-fachmann_a_50,9,2568179005.html
   name: >
     Seit Monatsbeginn ist der 32-Jährige
