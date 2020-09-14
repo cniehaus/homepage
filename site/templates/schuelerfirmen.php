@@ -21,7 +21,7 @@
           <h3 class="card-title"><?= $sf->Title() ?></h3>
           <p class="card-text"><?= $sf->Heading() ?></p>
           <p class="card-text">
-              <?= $sf->Beschreibung() ?>
+              <?= $sf->Beschreibung()->blocks() ?>
           </p>
         </div>      
       </div>
