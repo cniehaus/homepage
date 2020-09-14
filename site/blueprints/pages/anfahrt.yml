@@ -1,10 +1,6 @@
 title: Anfahrt
 icon: 📖
 
-options:
-  update:
-    *: false
-
 columns:
   main:
     sections:
