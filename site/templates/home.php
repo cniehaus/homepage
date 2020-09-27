@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-8 col-lg-9">
+    <div class="col-md-7 col-lg-8">
 
 
       <div class="card bg-primary">
@@ -134,7 +134,7 @@
 
     </div>
 
-    <div class="col-md-4 col-lg-3">
+    <div class="col-md-5 col-lg-2">
       <div class="container mt-5">
         <?php snippet('box-schnellzugriff') ?>
         <?php snippet('box-kalender') ?>
