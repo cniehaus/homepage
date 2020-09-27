@@ -100,13 +100,13 @@
           </svg> &Uuml;ber die Schule
         </a>
         <div class="dropdown-menu dropdown-with-icons">
-          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/bus')->url() ?>">
+          <a class="dropdown-item" href="<?= page('allgemeines/bus')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#truck" />
             </svg> Schulbusverkehr
           </a>
 
-          <a class="dropdown-item" href="<?= page('allgemeines/schulstruktur/zeitraster')->url() ?>">
+          <a class="dropdown-item" href="<?= page('allgemeines/zeitraster')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#clock" />
             </svg> Zeitraster
