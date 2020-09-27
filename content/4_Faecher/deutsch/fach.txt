@@ -11,7 +11,7 @@ Text:
 [
     {
         "attrs": [],
-        "content": "<strong><em>\u201eDie Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.\u201c</em></strong>",
+        "content": "<strong><em>„Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.“</em></strong>",
         "id": "_prisakp70",
         "type": "blockquote"
     },
@@ -23,7 +23,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "\u2026und daher ist es sinnvoll, die deutsche Sprache so gut wie m\u00f6glich zu beherrschen, ihre Ausdrucksm\u00f6glichkeiten ebenso wie die Normen der Rechtschreibung und Grammatik zu erkennen und sicher anzuwenden.",
+        "content": "…und daher ist es sinnvoll, die deutsche Sprache so gut wie möglich zu beherrschen, ihre Ausdrucksmöglichkeiten ebenso wie die Normen der Rechtschreibung und Grammatik zu erkennen und sicher anzuwenden.",
         "id": "_UerzITWuA",
         "type": "paragraph"
     },
@@ -35,32 +35,26 @@ Text:
     },
     {
         "attrs": [],
-        "content": "So leistet der Deutschunterricht \u00fcber die Auseinandersetzung mit Literatur und deren Geschichte einen wesentlichen Beitrag zur sprachlichen, literarischen und medialen Bildung der Sch\u00fclerinnen und Sch\u00fcler einerseits; zugleich hilft er den Sch\u00fclerinnen und Sch\u00fclern, die Welt zu verstehen und eigene Werthaltungen zu entwickeln. Das Fach Deutsch tr\u00e4gt damit wesentlich zur Pers\u00f6nlichkeitsbildung der Sch\u00fclerinnen und Sch\u00fcler bei.",
+        "content": "So leistet der Deutschunterricht über die Auseinandersetzung mit Literatur und deren Geschichte einen wesentlichen Beitrag zur sprachlichen, literarischen und medialen Bildung der Schülerinnen und Schüler einerseits; zugleich hilft er den Schülerinnen und Schülern, die Welt zu verstehen und eigene Werthaltungen zu entwickeln. Das Fach Deutsch trägt damit wesentlich zur Persönlichkeitsbildung der Schülerinnen und Schüler bei.",
         "id": "_XzQFh2oIV",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Aber auch damit ist es nicht getan, denn Sprache ver\u00e4ndert sich ebenso wie die Wirklichkeit bzw. unsere Wahrnehmung davon.",
+        "content": "Aber auch damit ist es nicht getan, denn Sprache verändert sich ebenso wie die Wirklichkeit bzw. unsere Wahrnehmung davon.",
         "id": "_nu2lqGozU",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Die Besch\u00e4ftigung mit \u201eder\u201c Sprache ist damit zugleich auch eine Auseinandersetzung mit einer sich ver\u00e4ndernden gesellschaftlichen Wirklichkeit und der Suche nach dem eigenen Selbstverst\u00e4ndnis innerhalb dieser Welt.",
+        "content": "Die Beschäftigung mit „der“ Sprache ist damit zugleich auch eine Auseinandersetzung mit einer sich verändernden gesellschaftlichen Wirklichkeit und der Suche nach dem eigenen Selbstverständnis innerhalb dieser Welt.",
         "id": "_kcWXTlE4N",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Das Fach Deutsch hilft damit Sch\u00fclerinnen und Sch\u00fclern, eigene Grenzen im Sinne von Wittgenstein immer wieder selbst zu bestimmen und reflektiert zu erweitern.",
+        "content": "Das Fach Deutsch hilft damit Schülerinnen und Schülern, eigene Grenzen im Sinne von Wittgenstein immer wieder selbst zu bestimmen und reflektiert zu erweitern.",
         "id": "_0pn329UYf",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Um diesen anspruchsvollen Aufgaben gerecht zu werden, gibt es regelm\u00e4\u00dfige Angebote und Wettbewerbe, die von den Deutsch-Lehrkr\u00e4ften durchgef\u00fchrt werden:",
-        "id": "_azA3PTl1N",
         "type": "paragraph"
     }
 ]
