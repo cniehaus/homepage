@@ -7,6 +7,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Abgabe der Zeugnisse 9 HZ, 10 HZ/ RZ zur Unterschrift bei der Schu",
+"start": "2021-06-25T12:00",
+"end": "2021-06-25T12:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Pfingstferien",
 "start": "2021-05-25",
 "end": "2021-05-26",
@@ -25,6 +32,13 @@
 "start": "2020-09-17T20:00",
 "end": "2020-09-17T21:30",
 "color": "skyblue",
+"textColor": "#707070"
+},
+{
+"title": "FBK AWT",
+"start": "2021-04-26T16:15",
+"end": "2021-04-26T18:00",
+"color": "white",
 "textColor": "#707070"
 },
 {
@@ -49,9 +63,51 @@
 "textColor": "#707070"
 },
 {
+"title": "Anmeldeschluss Jg. 11 (Einführungsphase)",
+"start": "2021-02-19",
+"end": "2021-02-20",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Politik",
+"start": "2021-05-03",
+"end": "2021-05-04",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Sportfest Sek.II (u. Vorbehalt)",
+"start": "2021-04-14",
+"end": "2021-04-15",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Bartholomäus-Schink Preis",
+"start": "2020-11-09T09:00",
+"end": "2020-11-09T10:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "GLL und Umweltausschuss",
+"start": "2021-05-18T16:15",
+"end": "2021-05-18T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "FK EN, WI",
 "start": "2020-11-23T16:15",
 "end": "2020-11-23T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Verkehrswoche JG 5",
+"start": "2021-06-21T16:15",
+"end": "2021-06-21T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -66,6 +122,13 @@
 "title": "Sprechprüfungen EN HZ/RZ 10",
 "start": "2021-04-14",
 "end": "2021-04-16",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Chemie",
+"start": "2021-04-21",
+"end": "2021-04-22",
 "color": "white",
 "textColor": "#707070"
 },
@@ -91,13 +154,6 @@
 "textColor": "#707070"
 },
 {
-"title": "---Entlassungsfeier Sek II",
-"start": "--",
-"end": "--",
-"color": "lightblue",
-"textColor": "#707070"
-},
-{
 "title": "Abgabe der Förderpläne beim Koordinator für Inklusion",
 "start": "2020-11-30",
 "end": "2020-12-01",
@@ -108,6 +164,20 @@
 "title": "Gesamtkonferenz",
 "start": "2020-12-01T16:15",
 "end": "2020-12-01T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Letzter Warntermin (Versetzungsgefährdung bei Leistungsabfall nach",
+"start": "2021-06-18",
+"end": "2021-06-19",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Zeugniskonferenzen (7-11 GZ)",
+"start": "2021-07-05",
+"end": "2021-07-06",
 "color": "white",
 "textColor": "#707070"
 },
@@ -133,9 +203,30 @@
 "textColor": "#707070"
 },
 {
+"title": "Abitur Spanisch",
+"start": "2021-05-07",
+"end": "2021-05-08",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Elternsprechtag",
 "start": "2020-11-25T16:00",
 "end": "2020-11-25T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Bekanntgabe Abiergebnisse (Tutoren 13)",
+"start": "2021-06-16T14:30",
+"end": "2021-06-16T17:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "GLL und Umweltausschuss",
+"start": "2021-03-16T16:15",
+"end": "2021-03-16T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -161,9 +252,37 @@
 "textColor": "#707070"
 },
 {
+"title": "Abitur Biologie",
+"start": "2021-04-26",
+"end": "2021-04-27",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FK MA (Schwerpunkt GZ)",
+"start": "2021-03-22T16:15",
+"end": "2021-03-22T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Warnung Epochalfächer",
 "start": "2020-11-23",
 "end": "2020-11-24",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FK IF",
+"start": "2021-04-27T16:15",
+"end": "2021-04-27T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "GLL und Umweltausschuss",
+"start": "2021-01-12T16:15",
+"end": "2021-01-12T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -175,9 +294,30 @@
 "textColor": "#707070"
 },
 {
+"title": "GLL und Umweltausschuss",
+"start": "2021-07-13T16:15",
+"end": "2021-07-13T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Deutsch",
+"start": "2021-04-30",
+"end": "2021-05-01",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Umweltwoche JG 7",
 "start": "2021-07-12",
 "end": "2021-07-16",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "10 HZ/ RZ BNW Bewerbertraining",
+"start": "2021-01-11",
+"end": "2021-01-16",
 "color": "white",
 "textColor": "#707070"
 },
@@ -189,9 +329,23 @@
 "textColor": "#707070"
 },
 {
-"title": "Zeugnisausgabe",
+"title": "Zeugnisausgabe - Unterrichtsende nach der 3. Std.",
 "start": "2021-07-21T10:00",
 "end": "2021-07-21T10:45",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Schulvorstand",
+"start": "2021-04-20T17:00",
+"end": "2021-04-20T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FBK SP",
+"start": "2021-05-03T16:15",
+"end": "2021-05-03T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -224,9 +378,23 @@
 "textColor": "#707070"
 },
 {
+"title": "Bin Challenge",
+"start": "2021-05-05",
+"end": "2021-05-06",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Christi Himmelfahrt",
 "start": "2021-05-13",
 "end": "2021-05-15",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Sport, Informatik",
+"start": "2021-05-06",
+"end": "2021-05-07",
 "color": "white",
 "textColor": "#707070"
 },
@@ -245,6 +413,27 @@
 "textColor": "#707070"
 },
 {
+"title": "Information der 5. Klassen RZ über Französisch und die weiteren P",
+"start": "2021-03-22T19:00",
+"end": "2021-03-22T20:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Latein",
+"start": "2021-04-27",
+"end": "2021-04-28",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Rücktritt Jg. 12",
+"start": "2021-06-15T16:15",
+"end": "2021-06-15T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Zeugniskonferenz (7/8 HZ/RZ, 6/8 GZ)",
 "start": "2021-01-20",
 "end": "2021-01-21",
@@ -259,9 +448,23 @@
 "textColor": "#707070"
 },
 {
+"title": "10 HZ/ RZ BNW Bewerbertraining",
+"start": "2020-12-14",
+"end": "2020-12-19",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "FK CH, RE, MU, SF",
 "start": "2020-11-02T16:15",
 "end": "2020-11-02T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Besichtigung des Gebäudes an der Feldbreite für die Eltern der 4.",
+"start": "2021-05-04T19:00",
+"end": "2021-05-04T20:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -273,7 +476,14 @@
 "textColor": "#707070"
 },
 {
-"title": "Mündliche Abiturprüfungen",
+"title": "FBK Fremdsprachen",
+"start": "2021-04-27T16:15",
+"end": "2021-04-27T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Mündliche Abiturprüfungen (unterrichtsfrei für HZ/RZ)",
 "start": "2021-05-26",
 "end": "2021-05-28",
 "color": "white",
@@ -287,7 +497,7 @@
 "textColor": "#707070"
 },
 {
-"title": "Robocup in Rastede",
+"title": "RoboCup Nordwest in Rastede",
 "start": "2021-02-23",
 "end": "2021-02-27",
 "color": "white",
@@ -308,6 +518,20 @@
 "textColor": "#707070"
 },
 {
+"title": "Versetzungswarnungen ('Blaue Briefe')",
+"start": "2021-04-23",
+"end": "2021-04-24",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Einlebenstag Jg. 12",
+"start": "2021-07-20",
+"end": "2021-07-21",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Zeugniskonferenz (9/10 HZ/RZ, 7/ 11 GZ)",
 "start": "2021-01-19",
 "end": "2021-01-20",
@@ -324,7 +548,21 @@
 {
 "title": "Sportfest 5/6",
 "start": "2021-07-19",
-"end": "2021-07-20",
+"end": "2021-07-21",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Abitur (Aula)",
+"start": "2020-12-10T16:15",
+"end": "2020-12-10T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FBK DE, FK MA (Schwerpunkt HZ/RZ)",
+"start": "2021-05-04T16:15",
+"end": "2021-05-04T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -350,6 +588,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Bartholomäus-Schink-Preis",
+"start": "2021-05-10T10:00",
+"end": "2021-05-10T11:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Weihnachtsforum JG 5/ 6",
 "start": "2020-12-22T08:00",
 "end": "2020-12-22T12:00",
@@ -357,7 +602,21 @@
 "textColor": "#707070"
 },
 {
-"title": "Information der 4. Klassen über die 2. Fremdsprache im Gymnasium (",
+"title": "Abgabe der Zeugnisse bei der Schulzweigleitung",
+"start": "2021-07-13T12:00",
+"end": "2021-07-13T13:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Belehrung Jg. 13 Abitur",
+"start": "2021-04-15T13:30",
+"end": "2021-04-15T15:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Information Eltern Klasse 4 über die 2. Fremdsprache im Gymnasium",
 "start": "2021-03-09T18:00",
 "end": "2021-03-09T21:00",
 "color": "white",
@@ -367,6 +626,13 @@
 "title": "Beratungsausschuss",
 "start": "2020-09-29T16:15",
 "end": "2020-09-29T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Fremdsprachenlesewettbewerb EN (3./4.), FR, SN (5./6.)",
+"start": "2021-05-12",
+"end": "2021-05-13",
 "color": "white",
 "textColor": "#707070"
 },
@@ -406,6 +672,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Zoni Weiß und AG für den Frieden",
+"start": "2021-03-24T08:00",
+"end": "2021-03-24T09:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "FK DS, HW, TG, WE, EK",
 "start": "2020-11-17T16:15",
 "end": "2020-11-17T18:00",
@@ -416,6 +689,13 @@
 "title": "Gesamtkonferenz",
 "start": "2020-10-27T16:15",
 "end": "2020-10-27T18:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "SchiLF Digitalisierung FKL (unter Vorbehalt)",
+"start": "2020-11-06",
+"end": "2020-11-07",
 "color": "white",
 "textColor": "#707070"
 },
@@ -434,7 +714,7 @@
 "textColor": "#707070"
 },
 {
-"title": "Information der 7. Klassen GZ über WPK8 Aula",
+"title": "Information Eltern Klasse 7 GZ über WPK 8 (Aula)",
 "start": "2021-03-02T18:30",
 "end": "2021-03-02T21:30",
 "color": "white",
@@ -455,7 +735,14 @@
 "textColor": "#707070"
 },
 {
-"title": "Info 05 GZ 2. Fremdsprache",
+"title": "Steuerungsausschuss",
+"start": "2021-03-01T16:15",
+"end": "2021-03-01T18:15",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Information Eltern Klasse 5 GZ über 2. Fremdsprache",
 "start": "2021-02-15T18:00",
 "end": "2021-02-15T21:00",
 "color": "white",
@@ -476,9 +763,37 @@
 "textColor": "#707070"
 },
 {
+"title": "Rosenmontagsfeier JG 5/ 6 (u. Vorbehalt)",
+"start": "2021-02-15T08:00",
+"end": "2021-02-15T12:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Entlassfeier Sek I",
 "start": "2021-07-01",
 "end": "2021-07-02",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Teilkonferenz Sek II (Aula)",
+"start": "2021-02-16T16:15",
+"end": "2021-02-16T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Reli Weno",
+"start": "2021-04-22",
+"end": "2021-04-23",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Musik",
+"start": "2021-05-05",
+"end": "2021-05-06",
 "color": "white",
 "textColor": "#707070"
 },
@@ -490,9 +805,44 @@
 "textColor": "#707070"
 },
 {
-"title": "Projekttag '10 Jahre Schule ohne Rassismus'",
+"title": "Projekttag '20 Jahre Schule ohne Rassismus'",
 "start": "2021-06-23",
 "end": "2021-06-24",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB HZ / RZ",
+"start": "2021-04-19T16:15",
+"end": "2021-04-19T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Elternsprechtag",
+"start": "2021-02-11T16:00",
+"end": "2021-02-11T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Schulelternrat - 19.00 Uhr",
+"start": "2021-03-23T19:00",
+"end": "2021-03-23T22:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Geschichte",
+"start": "2021-04-19",
+"end": "2021-04-20",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Französisch",
+"start": "2021-04-28",
+"end": "2021-04-29",
 "color": "white",
 "textColor": "#707070"
 },
@@ -500,6 +850,13 @@
 "title": "JG 10 Vortrag Bund gegen Alkohol und. Drogen",
 "start": "2021-01-25",
 "end": "2021-01-26",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Bio",
+"start": "2021-04-13T16:15",
+"end": "2021-04-13T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -521,6 +878,13 @@
 "title": "DB ILE 5-8",
 "start": "2020-10-07T16:15",
 "end": "2020-10-07T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Information Eltern Klasse 4: HZ/RZ (Forum Feldbreite)",
+"start": "2021-03-15T19:00",
+"end": "2021-03-15T20:30",
 "color": "white",
 "textColor": "#707070"
 },
@@ -567,6 +931,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Vocatium Berufsmesse",
+"start": "2021-05-18",
+"end": "2021-05-20",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Zeugniskonferenz (5/6HZ/RZ, 9/10GZ)",
 "start": "2021-01-18",
 "end": "2021-01-19",
@@ -574,9 +945,30 @@
 "textColor": "#707070"
 },
 {
+"title": "Zeugniskonferenzen (5-8 HZ, 5-6 RZ, 9-10 GZ)",
+"start": "2021-07-06",
+"end": "2021-07-07",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Zeugniskonferenzen 6GZ",
+"start": "2021-07-08",
+"end": "2021-07-09",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Jahrgangsversammlung JG 11",
 "start": "2020-09-10T11:50",
 "end": "2020-09-10T13:30",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "GLL und Umweltausschuss",
+"start": "2020-11-24T16:15",
+"end": "2020-11-24T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -609,6 +1001,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Abitur Physik",
+"start": "2021-05-11",
+"end": "2021-05-12",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Kompetenzfeststellungsverfahren 08HZ/RZ",
 "start": "2021-07-05",
 "end": "2021-07-10",
@@ -637,6 +1036,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Fototermine 7-13",
+"start": "2021-02-15T09:00",
+"end": "2021-02-19T10:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Unter Vorbehalt SchiLf Digitalisierung (ges. Kollegium)",
 "start": "2021-02-03",
 "end": "2021-02-05",
@@ -648,6 +1054,13 @@
 "start": "2020-09-16T20:00",
 "end": "2020-09-16T21:30",
 "color": "skyblue",
+"textColor": "#707070"
+},
+{
+"title": "Ausstellungseröffnung des Faches Kunst",
+"start": "2021-01-25",
+"end": "2021-01-26",
+"color": "white",
 "textColor": "#707070"
 },
 {
@@ -665,16 +1078,16 @@
 "textColor": "#707070"
 },
 {
-"title": "Sportfest 7-9",
-"start": "2021-07-20",
-"end": "2021-07-21",
+"title": "Erste Hilfe Auffrischungskurs",
+"start": "2020-08-26T09:00",
+"end": "2020-08-26T16:00",
 "color": "white",
 "textColor": "#707070"
 },
 {
-"title": "Erste Hilfe Auffrischungskurs",
-"start": "2020-08-26T09:00",
-"end": "2020-08-26T16:00",
+"title": "Treffen zum Thema Gleichstellung (BG, KB)",
+"start": "2020-10-08T14:00",
+"end": "2020-10-08T16:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -686,9 +1099,37 @@
 "textColor": "#707070"
 },
 {
+"title": "Abitur Erdkunde",
+"start": "2021-04-29",
+"end": "2021-04-30",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Zeugniskonferenzen (7-8 RZ,5+8GZ)",
+"start": "2021-07-07",
+"end": "2021-07-08",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Zeugniskonferenz (9 HZ, 10 HZ/ RZ)",
+"start": "2021-06-22T16:15",
+"end": "2021-06-22T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FBK NTW",
+"start": "2021-03-23T16:15",
+"end": "2021-03-23T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Elterninformationsabend (RZ/ GZ) Grundschule Kl. 4",
-"start": "2020-11-23T19:00",
-"end": "2020-11-23T21:00",
+"start": "2020-11-26T19:00",
+"end": "2020-11-26T21:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -707,9 +1148,23 @@
 "textColor": "#707070"
 },
 {
+"title": "FBK MuKuBi",
+"start": "2021-04-12T16:15",
+"end": "2021-04-12T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "FK DE, SP",
 "start": "2020-12-07T16:15",
 "end": "2020-12-07T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Abitur Englisch",
+"start": "2021-04-23",
+"end": "2021-04-24",
 "color": "white",
 "textColor": "#707070"
 },
@@ -721,6 +1176,27 @@
 "textColor": "#707070"
 },
 {
+"title": "Abitur Mathe",
+"start": "2021-05-04",
+"end": "2021-05-05",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "FBK SoWi",
+"start": "2021-03-08T16:15",
+"end": "2021-03-08T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Jg. 5 (Neue KL)",
+"start": "2021-07-15T16:15",
+"end": "2021-07-15T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Sommerferien",
 "start": "2022-07-14",
 "end": "2022-08-25",
@@ -728,16 +1204,30 @@
 "textColor": "#707070"
 },
 {
-"title": "---Abiball",
-"start": "2021-07-31",
-"end": "2021-08-01",
-"color": "lightblue",
+"title": "Information Eltern Klasse 4: Bläser-/Atelierkurs (Forum Feldbreite",
+"start": "2021-03-15T18:00",
+"end": "2021-03-15T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "DB Kursbesetzung SII",
+"start": "2021-03-03T16:15",
+"end": "2021-03-03T18:00",
+"color": "white",
 "textColor": "#707070"
 },
 {
 "title": "DB FB Soziales Lernen",
 "start": "2020-09-14T16:15",
 "end": "2020-09-14T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Jahrbuch Release",
+"start": "2021-06-29",
+"end": "2021-06-30",
 "color": "white",
 "textColor": "#707070"
 },
@@ -749,6 +1239,13 @@
 "textColor": "#707070"
 },
 {
+"title": "Gesamtkonferenz",
+"start": "2021-03-16T16:15",
+"end": "2021-03-16T19:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Projekt Zivilcourage JG.9",
 "start": "2020-11-10",
 "end": "2020-11-14",
@@ -756,9 +1253,16 @@
 "textColor": "#707070"
 },
 {
-"title": "Lateinfahrt (2021)",
-"start": "2021-07-12",
-"end": "2021-07-17",
+"title": "GLL und Umweltausschuss",
+"start": "2021-02-09T16:15",
+"end": "2021-02-09T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Praktikum 11",
+"start": "2021-01-18",
+"end": "2021-01-30",
 "color": "white",
 "textColor": "#707070"
 },
@@ -766,6 +1270,13 @@
 "title": "Praktikum Jg. 10 HZ",
 "start": "2021-03-22T08:00",
 "end": "2021-03-26T18:00",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "Beratungsausschuss",
+"start": "2021-02-08T16:15",
+"end": "2021-02-08T18:15",
 "color": "white",
 "textColor": "#707070"
 }
