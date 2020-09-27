@@ -13,7 +13,7 @@
                             <?php if ($page->sidetitel()->isNotEmpty()) : ?>
                                 <?= $page->sidetitel()->kirbytext() ?>
                             <?php else : ?>
-                                <?= "Weitere Informationen" ?>  
+                                <?= "Weitere Informationen" ?>
                             <?php endif ?>
                         </h5>
                         <div class="card-body">
@@ -50,6 +50,27 @@
                         </div>
                     </div>
 
+                <?php endif ?>
+
+                <?php if ($page->downloads()->isNotEmpty()) : ?>
+
+                    <div class="card mb-3">
+                        <h5 class="card-title text-center">
+                            Zugehörige Downloads
+                        </h5>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <?php
+                                $dateien =  $page->downloads()->toFiles();
+                                foreach ($dateien as $datei) : ?>
+                                    <li class="list-group-item">
+                                        <a href="<?= $datei->url() ?>"><?= $datei->name() ?></a>
+                                    </li>
+                                <?php endforeach ?>
+
+                            </ul>
+                        </div>
+                    </div>
                 <?php endif ?>
 
 
