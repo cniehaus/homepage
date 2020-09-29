@@ -4,17 +4,12 @@
           Müssen wir am Ende vom Design her entscheiden.      
         -->
 
-  <div class="container">
-    <a class="navbar-brand w-1/2 h-12" href="<?= $site->url() ?>">
-      <?php snippet('logo-als-svg') ?>
-    </a>
-  </div>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand text-white" href="<?= $site->url() ?>">KGS Rastede</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarText">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
       <li class="dropdown nav-item">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -195,7 +190,7 @@
           </a>
           <a class="dropdown-item" href="<?= page('allgemeines/oberstufe')->url() ?>">
             <svg class="bi" width="24" height="24">
-            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#subtract" />
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#subtract" />
             </svg> Oberstufe
           </a>
 
