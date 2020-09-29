@@ -324,6 +324,28 @@ describe('Tooltip', () => {
       tooltip.show()
     })
 
+    it('should show a tooltip when hovering a children element', done => {
+      fixtureEl.innerHTML =
+        '<a href="#" rel="tooltip" title="Another tooltip">' +
+          '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">' +
+            '<rect width="100%" fill="#563d7c"/>' +
+            '<circle cx="50" cy="50" r="30" fill="#fff"/>' +
+          '</svg>' +
+        '</a>'
+
+      const tooltipEl = fixtureEl.querySelector('a')
+      const tooltip = new Tooltip(tooltipEl)
+
+      spyOn(tooltip, 'show')
+
+      tooltipEl.querySelector('rect').dispatchEvent(createEvent('mouseover', { bubbles: true }))
+
+      setTimeout(() => {
+        expect(tooltip.show).toHaveBeenCalled()
+        done()
+      }, 0)
+    })
+
     it('should show a tooltip on mobile', done => {
       fixtureEl.innerHTML = '<a href="#" rel="tooltip" title="Another tooltip">'
 
@@ -694,6 +716,20 @@ describe('Tooltip', () => {
       })
 
       tooltip.show()
+    })
+
+    it('should not throw error running hide if popper hasn\'t been shown', () => {
+      fixtureEl.innerHTML = '<div></div>'
+
+      const div = fixtureEl.querySelector('div')
+      const tooltip = new Tooltip(div)
+
+      try {
+        tooltip.hide()
+        expect().nothing()
+      } catch {
+        throw new Error('should not throw error')
+      }
     })
   })
 

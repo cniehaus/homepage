@@ -44,7 +44,7 @@
     - title: Overview
     - title: Form control
     - title: Select
-    - title: Checks
+    - title: Checks & radios
     - title: File
     - title: Range
     - title: Input group
@@ -79,9 +79,9 @@
   pages:
     - title: Clearfix
     - title: Colored links
-    - title: Embed
+    - title: Ratio
     - title: Position
-    - title: Screen readers
+    - title: Visually hidden
     - title: Stretched link
     - title: Text truncation
 
