@@ -17,7 +17,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Macht Euch bereit f\u00fcr die die n\u00e4chste Challenge !!",
+        "content": "Macht Euch bereit für die die nächste Challenge !!",
         "id": "_xucont4sc",
         "type": "paragraph"
     }
@@ -35,6 +35,10 @@ Date: 2020-03-22 15:15
 
 ----
 
+Datumstartseite: 
+
+----
+
 Author: PTZ
 
 ----
@@ -43,11 +47,7 @@ Tags: Englisch
 
 ----
 
-Featured: true
-
-----
-
-Immer-sichtbar: true
+Immer-sichtbar: false
 
 ----
 
@@ -59,3 +59,7 @@ Downloads:
 ----
 
 Fotoansicht: gallery
+
+----
+
+Featured: true

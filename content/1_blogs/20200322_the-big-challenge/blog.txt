@@ -29,7 +29,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Begib\u00b4Dich in die GAME ZONE <a href=\"https://gamezone.thebigchallenge.com/?lang=de\">https://gamezone.thebigchallenge.com/?lang=de</a> und lerne online f\u00fcr den Wettbewerb und f\u00fcrs Leben! Hol\u00b4Dir die App und los geht\u00b4s !!",
+        "content": "Begib´Dich in die GAME ZONE <a href=\"https://gamezone.thebigchallenge.com/?lang=de\">https://gamezone.thebigchallenge.com/?lang=de</a> und lerne online für den Wettbewerb und fürs Leben! Hol´Dir die App und los geht´s !!",
         "id": "_s3j6rj15c",
         "type": "paragraph"
     }
@@ -52,6 +52,10 @@ Date: 2020-03-22 14:50
 
 ----
 
+Datumstartseite: 
+
+----
+
 Author: PTZ
 
 ----
@@ -60,11 +64,7 @@ Tags: Englisch
 
 ----
 
-Featured: true
-
-----
-
-Immer-sichtbar: true
+Immer-sichtbar: false
 
 ----
 
@@ -73,3 +73,7 @@ Downloads:
 ----
 
 Fotoansicht: gallery
+
+----
+
+Featured: true
