@@ -2,4 +2,4 @@ Title: Sekretariate und Hausmeister
 
 ----
 
-Text: An jedem der beiden Standorte gibt es je ein Sekretariat und jeweils einen eigenen Hausmeister.
+Text: An jedem der beiden Standorte gibt es je ein Sekretariat und jeweils eigene Hausmeister.
