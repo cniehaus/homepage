@@ -6,6 +6,9 @@ title: Default File
 #   mime: image/jpeg, image/png
 
 fields:
-  bildunterschrift:
-    label: Bildunterschrift
+  anzeigename:
+    label: wird angezeigt
     type: text
+
+
+    
