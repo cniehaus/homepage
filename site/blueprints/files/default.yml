@@ -6,8 +6,8 @@ title: Default File
 #   mime: image/jpeg, image/png
 
 fields:
-  anzeigename:
-    label: wird angezeigt
+  beschreibung:
+    label: Beschreibung
     type: text
 
 
