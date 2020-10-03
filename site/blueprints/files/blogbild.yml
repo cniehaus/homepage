@@ -5,18 +5,14 @@ accept:
 
 fields:
   alt:
-    label: Alt Text
+    label: Kurzbeschreibung
     type: text
     width: 1/2
     required: true
-  align:
-    label: Align
-    type: select
-    options:
-      - left
-      - center
-      - right
+  fotograf:
+    label: Fotograf des Fotos
+    type: text
     width: 1/2
   caption:
-    label: Caption
+    label: Beschreibung
     type: textarea
