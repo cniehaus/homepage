@@ -25,7 +25,7 @@
         </ul>
         <hr>
         <ul>
-            <a href="<?= page('allgemeines/mensa')->url() ?>" class="btn btn-warning btn-lg btn-block" role="button" aria-pressed="true">Mensa</a>
+            <a href="https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP" target="_blank" class="btn btn-warning btn-lg btn-block" role="button" aria-pressed="true">Mensa</a>
         </ul>
         <hr>
 
