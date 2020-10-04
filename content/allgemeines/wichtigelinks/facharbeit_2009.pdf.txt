@@ -2,4 +2,8 @@ Anzeigename: Informationen zur Facharbeit
 
 ----
 
+Startseite: true
+
+----
+
 Template: pdfs

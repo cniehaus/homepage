@@ -2,4 +2,8 @@ Anzeigename: Gebäudeplan
 
 ----
 
+Startseite: true
+
+----
+
 Template: pdfs
