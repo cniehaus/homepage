@@ -32,7 +32,7 @@
                             Schulleiter
                         <?php endif ?>
                     </td>
-                    <td class="td-actions text-right">
+                    <td>
                         <a href="mailto:<?= $page->schulleitermail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <svg class="bi" width="24" height="24">
                                 <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
@@ -49,7 +49,7 @@
                             Stellv. Schulleiter
                         <?php endif ?>
                     </td>
-                    <td class="td-actions text-right">
+                    <td>
                         <a href="mailto:<?= $page->stellvemail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <svg class="bi" width="24" height="24">
                                 <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
@@ -66,7 +66,7 @@
                             Didaktischer Leiter
                         <?php endif ?>
                     </td>
-                    <td class="td-actions text-right">
+                    <td>
                         <a href="mailto:<?= $page->didaktischeLeitungMail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <svg class="bi" width="24" height="24">
                                 <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
@@ -78,7 +78,7 @@
         </table>
         </br>
         <h3><b>Schulträger</b></h3>
-        <p style="letter-spacing:0.01em; word-spacing:0.3em; line-height:1.3em;">
+        <p>
             <h5><?= $page->schultrager()->text()->kirbytext() ?></h5>
         </p>
     </div>
