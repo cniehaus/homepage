@@ -10,24 +10,57 @@
     <table class="table">
       <thead>
         <tr>
-          <th>Verknüpfung</th>
+          <th>Unterricht</th>
         </tr>
       </thead>
       <tbody>
 
-        <?php foreach ($page->inhalte()->toStructure() as $lehrplan) : ?>
+        <?php foreach ($page->Unterricht()->toFiles() as $datei) : ?>
           <tr>
-            <td><?= $lehrplan->name() ?></td>
-            <td class="td-actions text-right">
-              <a href="<?= $lehrplan->link()->toFile()->url() ?>">
-                <button type="button" rel="tooltip" class="btn btn-info btn-just-icon btn-sm">
-                  Download
-                  <svg class="bi" width="24" height="24">
-                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#cloud-download" />
-                  </svg>
-                </button>
-              </a>
-            </td>
+            <?php if ($datei->Anzeigename() == "") : ?>
+              <td>
+                <a href="<?= $datei->url() ?>" class="text-decoration-none">
+                  <?= $datei->name() ?>
+                </a>
+              </td>
+            <?php else : ?>
+              <td>
+                <a href="<?= $datei->url() ?>" class="text-decoration-none">
+                  <?= $datei->Anzeigename() ?>
+                </a>
+              </td>
+            <?php endif ?>
+          </tr>
+        <?php endforeach ?>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Schule</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <?php foreach ($page->Schule()->toFiles() as $datei) : ?>
+          <tr>
+            <?php if ($datei->Anzeigename() == "") : ?>
+              <td>
+                <a href="<?= $datei->url() ?>" class="text-decoration-none">
+                  <?= $datei->name() ?>
+                </a>
+              </td>
+            <?php else : ?>
+              <td>
+                <a href="<?= $datei->url() ?>" class="text-decoration-none">
+                  <?= $datei->Anzeigename() ?>
+                </a>
+              </td>
+            <?php endif ?>
           </tr>
         <?php endforeach ?>
 

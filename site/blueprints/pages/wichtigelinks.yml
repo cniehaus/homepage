@@ -11,26 +11,14 @@ sections:
   content:
     type: fields
     fields:
-      inhalte:
-        label: Links
-        type: structure
-        fields:
-          link:
-            label: Link (URL)
-            type: files
-          url:
-            label: url
-            type: url
-          name:
-            label: Bezeichnung des Links
-            type: text
-          beschreibung:
-            label: kurze Beschreibung
-            type: text
-          startseite:
-            label: Startseite? 
-            type: toggle
-
+      Unterricht:
+        label: Unterricht
+        type: files
+        uploads: pdfs
+      schule:
+        label: Schule
+        type: files
+        uploads: pdfs
 
         
       
