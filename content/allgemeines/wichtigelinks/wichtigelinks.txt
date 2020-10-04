@@ -2,47 +2,19 @@ Title: Wichtige Links
 
 ----
 
-Inhalte:
+Schule:
 
-- 
-  link:
-    - hallenplane.pdf
-  url: ""
-  name: Hallenpläne der Turnhalle
-  beschreibung: ""
-  startseite: 'false'
-- 
-  link:
-    - >
-      elternbrief_juli_2020_wie_geht_es_weiter.pdf
-  url: ""
-  name: Elternbrief Juli 2020
-  beschreibung: 'Wie geht es nach den Sommerferien weiter? Was gibt es Neues? Hier im Elternbrief:'
-  startseite: 'true'
-- 
-  link:
-    - elternbrief_august_2020.pdf
-  url: ""
-  name: Elternbrief August 2020
-  beschreibung: >
-    Informationen für Eltern zum Beginn des
-    Schuljahrs 2020/21
-  startseite: 'true'
+- waffenerlass-erlasstext.pdf
+- schulordnung2020kgs-rastede.pdf
+- >
+  gebaeudeplan_aufenthaltsbereiche_endfassung2017.pdf
+- gebaeudeplan.pdf
+- >
+  rhythmisierung_von_unterricht-doppelstundenmodell.pdf
 
 ----
 
-Text:
+Unterricht:
 
-[
-    {
-        "attrs": [],
-        "content": "Hier finden Sie eine schnelle Übersicht über die wichtigsten Links im Alltag",
-        "id": "_pleddxe3n",
-        "type": "paragraph"
-    }
-]
-
-----
-
-Lehrplantext: 
-Hier finden Sie eine schnelle Übersicht über die wichtigsten Links im Alltag
+- facharbeit_2009.pdf
+- 2016_wpk-info-homepage.pdf
