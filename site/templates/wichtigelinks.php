@@ -22,12 +22,24 @@
                 <a href="<?= $datei->url() ?>" class="text-decoration-none">
                   <?= $datei->name() ?>
                 </a>
+
+                <?php if ($datei->Startseite() == 'true') : ?>
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#lightning-fill" />
+                  </svg>
+                <?php endif ?>
+
               </td>
             <?php else : ?>
               <td>
                 <a href="<?= $datei->url() ?>" class="text-decoration-none">
                   <?= $datei->Anzeigename() ?>
                 </a>
+                <?php if ($datei->Startseite() == 'true') : ?>
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#lightning-fill" />
+                  </svg>
+                <?php endif ?>
               </td>
             <?php endif ?>
           </tr>
@@ -53,12 +65,24 @@
                 <a href="<?= $datei->url() ?>" class="text-decoration-none">
                   <?= $datei->name() ?>
                 </a>
+
+                <?php if ($datei->Startseite() == 'true') : ?>
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#lightning-fill" />
+                  </svg>
+                <?php endif ?>
               </td>
             <?php else : ?>
               <td>
                 <a href="<?= $datei->url() ?>" class="text-decoration-none">
                   <?= $datei->Anzeigename() ?>
                 </a>
+
+                <?php if ($datei->Startseite() == 'true') : ?>
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#lightning-fill" />
+                  </svg>
+                <?php endif ?>
               </td>
             <?php endif ?>
           </tr>
