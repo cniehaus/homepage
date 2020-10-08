@@ -1,4 +1,4 @@
-title: Informationen zum Fach
+title: Fachseite / Informationen zum Fach 
 num: '{{ page.date.toDate("Ymd") }}'
 icon: 📖
 
