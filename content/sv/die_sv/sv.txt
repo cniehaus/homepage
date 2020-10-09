@@ -2,24 +2,110 @@ Title: Schülervertretung
 
 ----
 
+Heading: 
+
+----
+
 Text:
 
-Lernangebote am Schüler*innenprojekttag
-
-Viele engagierte Schüler*innen und Schüler haben Lernangebote für den Schüler*innenprojekttag eingereicht.
-Hier könnt ihr euch schon einmal einen Überblick verschaffen. Neben der Beschreibung werden auch die Dauer und die Lage im Stundenplan angegeben. Bei einigen Lernangeboten finden sogar mehrere Durchgänge statt, damit möglichst viele Schüler*innen dabei sein können.
-
-Die Anmeldung für die Angebote wird Mitte März online erfolgen. Eure Klassenlehrer*innen informieren euch rechtzeitig.
-
-Die Schule der Zukunft
-
-Schüler*innen des WPK Werte & Normen aus Jahrgang 9 präsentieren ihre Modelle von der Schule der Zukunft aus Karton. Dann werdet ihr selbst kreativ und überlegt, wie für euch die Schule der Zukunft aussieht. Ihr könnt eure Ideen zeichnen, malen, aufkleben, beschreiben…
-
-> Dauer: 90 Minuten
-> Zeit: 1. Durchgang in der 2. und 3. Stunde; 2. Durchgang in der 4. und 5. Stunde
-> maximale Teilnehmer*innenzahl: 30 Schülerinnen und Schüler
-> für alle Jahrgänge
-> Ort: Wilhelmstraße
+[
+    {
+        "attrs": {
+            "id": null
+        },
+        "content": "Wer sind wir?",
+        "id": "_oe8k88uoo",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Wir, Erik Buss , Maite Heinen, Antonia Kickler, Lasse Littwin, Leon Lehmhus und Finn-Aaron Podehl&nbsp; sind die gewählten Schülersprecher der KGS Rastede und vertreten damit eure Anliegen gegenüber der Schulleitung",
+        "id": "_EPCJ9B8n8",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Gerne nehmen wir Anregungen und Ideen auf!",
+        "id": "_ea58slNsn",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "id": null
+        },
+        "content": "Ziele",
+        "id": "_09nmm1q46",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Der Grundsatz ist die Vertretung&nbsp; eurer Interessen!",
+        "id": "_gZxDq8TRC",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die Kommunikation verbessern",
+        "id": "_x3cwbdb0y",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Wir arbeiten an einer Verbesserung des Informationsflusses zwischen Schülern, Schulleitung, Lehrern und Eltern, <em>weil wir überzeugt sind, dass jeder Schüler die Möglichkeit bekommen muss, sich über das Geschehen an der Schule zu informieren.</em>",
+        "id": "_fDPMvSATh",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "An Entscheidungen mitwirken",
+        "id": "_YFSIg3B0u",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Der Kernpunkt unserer Arbeit ist es, unser zugesprochenes Recht des Mitwirkens zu nutzen. Das heisst., dass wir an den Gremien und an der Gesamtkonferenz, am besten mit der höchstmöglichsten Zahl von Schülern, teilnehmen. Dazu zählt auch die Vor- und Nachbereitungen, was bedeutet, dass wir im Schülerrat kommende Konferenzen und Beschlussvorlagen diskutieren und zu einem Votum kommen, oder eigene Vorschläge ausarbeiten.",
+        "id": "_BO91q6RsW",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die Schule in Projekten etablieren",
+        "id": "_jtIkXyOzJ",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Die KGS Rastede ist als Umweltschule anerkannt worden und trägt weiterhin den Titel \"Schule ohne Rassismus - Schule mit Courage\". Wir versuchen, diese aktiv in Schule mit einzubringen. <em>So wollen wir Projekte wie z. B. die Einführung von umweltschützenden Maßnahmen in unsere Schule etablieren.</em>",
+        "id": "_shs08oHLU",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "id": null
+        },
+        "content": "Wie erreicht ihr uns?",
+        "id": "_eic2r0var",
+        "type": "h2"
+    },
+    {
+        "attrs": [],
+        "content": "Per Mail: <a href=\"mailto:sv@kgs-rastede.de\">sv@kgs-rastede.de</a>",
+        "id": "_aV5D2tw28",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Persönlich: Mittwochs um 13:30 in Raum 240.1",
+        "id": "_3Zy1MOk8g",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "&nbsp;",
+        "id": "_RJX12Cifa",
+        "type": "paragraph"
+    }
+]
 
 ----
 

@@ -5,8 +5,7 @@
 <?php snippet('sidebar') ?>
 
 
-
-
+<div class="container-fluid">
 <?php
   $items = page('sv/blogs')->children()->listed();
 
@@ -17,7 +16,7 @@
   ])
 
 ?>
-
+</div>
 
 
 <?php snippet('footer') ?>
