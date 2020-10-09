@@ -1,4 +1,4 @@
-title: Blogs aus allen Fächern
+title: Blogs aus allen Fächern (Übersicht)
 num: '{{ page.date.toDate("YmdHi") }}'
 icon: 📖
 
