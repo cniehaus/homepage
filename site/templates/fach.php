@@ -26,7 +26,7 @@
               <?php foreach ($page->lehrplaene()->toFiles() as $lehrplan) : ?>
                 <tr>
                   <td>
-                    <a href="<?= $lehrplan->kurzbeschreibung() ?>" class="text-decoration-none">
+                    <a href="<?= $lehrplan->url() ?>" class="text-decoration-none">
                       <?= $lehrplan->kurzbeschreibung()->or( $lehrplan->name() ) ?>
                     </a>
                   </td>
