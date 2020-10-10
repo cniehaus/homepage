@@ -4,7 +4,7 @@ accept: image/*
 
 
 fields:
-  kurzbeschreibung:
+  alt_info:
     label: Kurzbeschreibung (info)
     type: info
     theme: 
@@ -18,11 +18,11 @@ fields:
     label: Fotograf des Fotos
     type: text
     width: 1/2
-  beschreibung:
+  beschreibung_info:
     label: Beschreibung (info)
     type: info
     theme: 
     text: Die Beschreibung wird auf der Seite unter dem Bild angezeigt
-  caption:
+  beschreibung:
     label: Beschreibung
     type: textarea
