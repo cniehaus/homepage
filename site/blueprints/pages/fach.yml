@@ -29,7 +29,7 @@ columns:
           gallery:
             type: files
             uploads: blogbild
-            query: page.image
+            query: page.images
             label: Bilder zum Fach
             layout: cards
             image:
