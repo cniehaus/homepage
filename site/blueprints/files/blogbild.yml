@@ -25,4 +25,4 @@ fields:
     text: Die Beschreibung wird auf der Seite unter dem Bild angezeigt
   beschreibung:
     label: Beschreibung
-    type: textarea
+    type: text
