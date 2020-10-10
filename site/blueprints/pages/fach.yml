@@ -46,6 +46,7 @@ columns:
               link:
                 label: Link (URL)
                 type: files
+                uploads: lehrplandatei
               name:
                 label: Bezeichnung des Links
                 type: text
