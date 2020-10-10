@@ -3,7 +3,7 @@
     <ol class="carousel-indicators">
 
       <?php $count = -1;
-      foreach ($page->images() as $image) : $count++ ?>
+      foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
         <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
       <?php endforeach ?>
 
@@ -12,7 +12,7 @@
 
 
       <?php $count = -1;
-      foreach ($page->images() as $image) : $count++ ?>
+      foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
         <?php if ($count == 0) : ?>
           <div class="carousel-item active">
           <?php else : ?>
