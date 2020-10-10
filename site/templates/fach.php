@@ -44,6 +44,8 @@
 <?php endif ?>
 
 <!-- Die Inhalte, die immer sichtbar sein sollen, sollen über den Blogs stehen  -->
+<h2>Aktuell im Fokus</h2>
+
 <div class="container ml-auto mr-auto">
   <?php snippet('blogs', [
     'blogs' => page('blogs')
