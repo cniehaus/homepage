@@ -4,7 +4,7 @@ accept: image/*
 
 
 fields:
-  Kurzbeschreibung:
+  kurzbeschreibung:
     type: info
     theme: 
     text: Die Kurzbeschreibung wird für Screenreader benötigt und wird nicht auf der Seite angezeigt
@@ -17,7 +17,7 @@ fields:
     label: Fotograf des Fotos
     type: text
     width: 1/2
-  Beschreibung:
+  beschreibung:
     type: info
     theme: 
     text: Die Beschreibung wird auf der Seite unter dem Bild angezeigt
