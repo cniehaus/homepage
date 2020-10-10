@@ -1,15 +1,6 @@
 <div class="container carousel-dark">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-
-      <?php $count = -1;
-      foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
-        <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
-      <?php endforeach ?>
-
-    </ol>
     <div class="carousel-inner text-center">
-
 
       <?php $count = -1;
       foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
@@ -38,6 +29,16 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
     </div>
+
+    <ol class="carousel-indicators">
+
+      <?php $count = -1;
+      foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
+        <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
+      <?php endforeach ?>
+
+    </ol>
+    
   </div>
 </div>
 
