@@ -18,27 +18,25 @@
               <h3><?= $image->beschreibung() ?></h3>
             </div>
             </div>
-          <?php endforeach ?>
+            <?php endforeach ?>
           </div>
-          <a class="d-none d-sm-flex carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only text-dark">Zurück</span>
-          </a>
-          <a class="d-none d-sm-flex carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="sr-only text-dark">Weiter</span>
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </a>
+      <a class="d-none d-sm-flex carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only text-dark">Zurück</span>
+      </a>
+      <a class="d-none d-sm-flex carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="sr-only text-dark">Weiter</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators">
+          <?php $count = -1;
+        foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
+          <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
+        <?php endforeach ?>
+      </ol>
+
     </div>
-
-    <ol class="carousel-indicators">
-
-      <?php $count = -1;
-      foreach ($page->gallery()->toFiles() as $image) : $count++ ?>
-        <li data-target="#carouselExampleIndicators" <?php if ($count == 0) : ?> class="active" <?php endif ?> data-slide-to="<?= $count ?>"></li>
-      <?php endforeach ?>
-
-    </ol>
-    
   </div>
 </div>
 
