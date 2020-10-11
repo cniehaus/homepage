@@ -20,7 +20,7 @@
           </div>
           <?php endforeach ?>
           </div>
-      <?php if ($page->gallery()->toFiles()->count >= 1) : ?>
+      <?php if ($page->gallery()->toFiles()->count() >= 2) : ?>
         <a class="d-none d-sm-flex carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only text-dark">Zurück</span>
