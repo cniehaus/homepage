@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-xl-8 col-xxl-10">
+    <div class="col-xl-8">
 
 
       <div class="card bg-primary">
@@ -38,34 +38,7 @@
 
       </div>
 
-      <!-- Jetzt folgen die als 'Topartikel' getaggte Blogs
-          Die tauchen hier immer auch, egal welches Datumsbereich
-          jeweils eingestellt ist
-         -->
-      <h1>Aktuell im Fokus</h1>
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-xs-1 row-cols-lg-2">
-          <?php $index = 0;
-          foreach (page('blogs')
-            ->children()
-            ->flip() as $subpage) : $index++ ?>
-              <?php
-
-              // Ist es ein Topartikel?
-              if (in_array("Topartikel", $subpage->tags()->split())
-              
-              // ist der Artikel noch aktuell?
-              AND ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s'))
-
-              ) {
-                  snippet('topartikel', ['subpage' => $subpage]);
-              }
-              ?>
-          <?php endforeach ?>
-        </div>
-      </div>
-
-
+      
 
       <!-- '''
       <div class="card py-4">
@@ -125,11 +98,12 @@
 
     </div>
 
-    <div class="col-xl-4 col-xxl-2">
+    <div class="col-xl-4">
       <div class="container mt-5">
         <?php snippet('box-schnellzugriff') ?>
         <?php // snippet('box-kalender') 
         ?>
+        <?php snippet('box-fokus') ?>
         <?php snippet('box-presse') ?>
         <?php snippet('box-foerderverein') ?>
         <?php snippet('box-links') ?>

@@ -27,13 +27,13 @@
       <ul class="list-unstyled">
         <li><a class="text-muted" href="<?= page('allgemeines/schulbuchlisten')->url() ?>">Schulbuchlisten</a></li>
         <li><a class="text-muted" href="<?= page('allgemeines/schulordnung')->url() ?>">Schulordnung</a></li>
-        <li><a class="text-muted" href="<?= page('allgemeines/wichtigelinks')->url() ?>">Wichtige Links</a></li>
+        <li><a class="text-muted" href="<?= page('allgemeines/wichtigelinks')->url() ?>">Informationen und Formulare</a></li>
       </ul>
     </div>
     <div class="col-md-3">
       <h5>Über die KGS</h5>
       <ul class="list-unstyled">
-        <li><a class="text-muted" href="<?= page('allgemeines/geschichte')->url() ?>">Unsere Geschichte</a></li>
+        <li><a class="text-muted" href="<?= page('schule/geschichte')->url() ?>">Unsere Geschichte</a></li>
         <li><a class="text-muted" href="<?= page('allgemeines/anfahrt')->url() ?>">Anfahrt</a></li>
         <li><a class="text-muted" href="<?= page('allgemeines/impressum')->url() ?>">Impressum</a></li>
         <li><a class="text-muted" href="https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP" target="_blank">Mensa</a></li>
