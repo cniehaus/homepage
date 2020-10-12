@@ -1,21 +1,14 @@
 <main role="main">
-  <?php
-  if ($image = $page->hintergrundbild()->toFile()) : ?>
-
-    <div class="p-5 text-center bg-image" style="
-            background-image: url('<?= $image->url() ?>');
-            height: 400px;">
-
-    <?php else : ?>
-      <div class="p-5 mt-5 text-center bg-image" style="
-    background-image: url('<?= $kirby->url('assets') ?>/img/banner_eng.jpg');
-    ">
-      <?php endif ?>
 
 
-asdasd
-
-      </div>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>KGS Rastede</h1>
+      <p>Kooperative Gesamtschule Rastede</p>
+      <button>Neues</button>
+    </div>
+  </div>
+      
 
 
 
