@@ -205,7 +205,7 @@
           </a>
 
 
-          <a class="dropdown-item" href="<?= page('Faecher')->url() ?>">
+          <a class="dropdown-item" href="<?= page('allgemeines/schuelerfirmen')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#journals" />
             </svg> Schülerfirmen
