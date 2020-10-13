@@ -1,4 +1,4 @@
-asdasd
+.
 <?php snippet('header') ?>
 <?php snippet('home-page-header') ?>
 

@@ -2,10 +2,20 @@
 
 
   <div class="hero-image">
-    <div class="hero-text">
-      <h1>KGS Rastede</h1>
+
+    <div class="hero-text display-1">
+      <h1>Herzlich Willkommen an der</h1>
       <p>Kooperative Gesamtschule Rastede</p>
-      <button>Neues</button>
+    </div>
+
+    <div class="hero-subtext row">
+      <a href="#" class="card col">
+        <img class="d-block w-100 img img-raised rounded" alt="Aktuelles" src="<?= $page->files()->find('acker.jpg')->url() ?>">
+      </a>
+      <a href="#" class="col">  
+        <button>Termine</button>
+      </a>
+    
     </div>
   </div>
       
