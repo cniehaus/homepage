@@ -352,12 +352,12 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     width: 20%;
     top: 75%;
     left: 79%;
-    // transform: translate(50%, 50%);
     background: rgb(192, 0, 0);
     transition: all 0.3s ease-out;
+    justify-content: center;
+    // transform: translate(50%, 50%);
 
     // border-top-right-radius: 10px;
-    justify-content: center;
     // box-shadow: 0 14px 26px rgba(0,0,0,0.04);
     // overflow: hidden;
     // display: flex;
@@ -367,7 +367,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 }
 .imagez {
     opacity: 1;
-    display: block;
+    // display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -387,7 +387,9 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     transform: translate(-50%, -50%);
     text-align: center;
     color: #ffffff;
-  }
+    max-width: 100%;
+    height: auto;
+}
 
 /* -------end customization-------- */
 
