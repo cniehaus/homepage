@@ -272,6 +272,10 @@ footer {
 /*==================================
     Hompage-Startseite
 ==================================*/
+.svginvert {
+  filter: invert(100%);
+}
+
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kgs-bg.jpg");

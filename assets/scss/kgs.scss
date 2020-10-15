@@ -314,6 +314,13 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     Hompage-Startseite
 ==================================*/
 
+.svginvert {
+    -webkit-filter: invert(100%); 
+            filter: invert(100%);
+}
+
+
+
 .hero-image {
     //source: https://www.w3schools.com/howto/howto_css_hero_image.asp
     /* Use "linear-gradient" to add a darken background effect to the image */
