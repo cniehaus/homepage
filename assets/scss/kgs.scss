@@ -334,6 +334,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     height: 90%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
