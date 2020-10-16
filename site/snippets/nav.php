@@ -221,7 +221,7 @@
             </svg> Beratung
           </a>
 
-          <a class="dropdown-item" href="<?= page('allgemeines/inklusion')->url() ?>">
+          <a class="dropdown-item" href="<?= page('unterricht/inklusion')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#door-open" />
             </svg> Inklusion
@@ -248,7 +248,7 @@
           </a>
 
           
-          <a class="dropdown-item" href="<?= page('allgemeines/schule-ohne-rassismus-schule-mit-courage')->url() ?>">
+          <a class="dropdown-item" href="<?= page('unterricht/schule-ohne-rassismus-schule-mit-courage')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#door-open" />
             </svg> Schule ohne Rassismus - Schule mit Courage
