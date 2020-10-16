@@ -3,95 +3,51 @@
 <?php snippet('page-header') ?>
 
 
-<div class="row">
-    <div class="col-md-5">
-        <h3><b>Anschrift</b></h3>
-        <h5>
+<!-- 
+Homepages von Schulen sind impressumpflichtig 
+i.S.d. § 55 Abs. 1 Rundfunkstaatsvertrag (RStV) 
+oder sogar des § 5 Telemediengesetz (TMG).
+
+Als Diensteanbieter i.S.d. § 55 Abs. 1 RStV 
+bzw. § 2 Nr. 1 TMG ist der Schulleiter als Vertreter 
+des Landes Niedersachsen mit der Adressangabe der Schule zu benennen. 
+-->
+
+<!-- Es wird aus Sicherheitsgründen empfohlen, die in § 5 TMG 
+vorgeschriebenen Inhalte mit aufzuführen, denn dann muss nicht 
+bei jeder Änderung der Inhalte bedacht werden, ob das Impressum 
+zu erweitern ist. Zu diesen erweiterten Informationen zählt, 
+dass das Land Niedersachsen eine juristische Person des 
+öffentlichen Rechts ist und dass die – ohnehin üblichen – Angaben 
+für eine schnelle elektronische Kontaktaufnahme (Telefon, Fax, 
+Mailadresse) enthalten sind. -->
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-5">
+            <h3>Anschrift</h3>
             <?= $page->anschrift() ?>
             Tel.: <?= $page->telefon()->tel() ?> </br>
             Fax: <?= $page->fax()->tel() ?> </br>
             E-Mail: <span style="text-decoration:underline;"><a href="mailto:<?= $page->email() ?>"><?= $page->email()->email() ?></a></span></br>
-        </h5>
-        <h6>(gem. §5 Telemediengesetz)</h6>
-        <h3><b>Inhaltlich Verantwortlich</b></h3>
-        <h5>
-            <?= $page->inhaltlichVerantwortlich()->text() ?>
-        </h5>
-    </div>
+            Schulische Datenschutzbeauftragte: <a href="mailto:datenschutz@kgs-rastede.de">datenschutz@kgs-rastede.de</a>
+            
+            <h3>Inhaltlich Verantwortlich</h3>
+            <p>
+                <?= $page->rechtlichertext()->text()->kirbytext() ?>
+            </p>
+            
+        </div>
 
-    <div class="col-md-5">
-        <h3><b>Schulleitung</b></h3>
-        <table class="table">
-            <tbody>
-                <tr>
-                    <td class="text-left"><?= $page->schulleiter()->text() ?></td>
-                    <td>
-                        <?php if ($page->schulleiterGeschlecht() == "frau") : ?>
-                            Schulleiterin
-                        <?php else : ?>
-                            Schulleiter
-                        <?php endif ?>
-                    </td>
-                    <td>
-                        <a href="mailto:<?= $page->schulleitermail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                            <svg class="bi" width="24" height="24">
-                                <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
-                            </svg> Kontakt
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-left"><?= $page->stellver()->text() ?></td>
-                    <td>
-                        <?php if ($page->stellverGeschlecht() == "frau") : ?>
-                            Stellv. Schulleiterin
-                        <?php else : ?>
-                            Stellv. Schulleiter
-                        <?php endif ?>
-                    </td>
-                    <td>
-                        <a href="mailto:<?= $page->stellvemail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                            <svg class="bi" width="24" height="24">
-                                <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
-                            </svg> Kontakt
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-left"><?= $page->didaktischeLeitung()->text() ?></td>
-                    <td>
-                        <?php if ($page->didaktischeLeitungGeschlecht() == "frau") : ?>
-                            Didaktische Leiterin
-                        <?php else : ?>
-                            Didaktischer Leiter
-                        <?php endif ?>
-                    </td>
-                    <td>
-                        <a href="mailto:<?= $page->didaktischeLeitungMail() ?>" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                            <svg class="bi" width="24" height="24">
-                                <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#envelope" />
-                            </svg> Kontakt
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        </br>
-        <h3><b>Schulträger</b></h3>
-        <p>
-            <h5><?= $page->schultrager()->text()->kirbytext() ?></h5>
-        </p>
+        <div class="col-md-5">
+            <h3>    Schulträger</h3>
+            <p>
+                <?= $page->schultrager()->text()->kirbytext() ?>
+            </p>
+        </div>
     </div>
 </div>
-<!-- # Texte unter den Infos -->
-<div class="col-md-10">
-    <?php $items = $page->texte()->toStructure();
-    foreach ($items as $item) : ?>
-        <h3><b><?= $item->ueberschrift()->text() ?></b></h3>
-        <?= $item->text()->text() ?></br>
-    <?php endforeach ?>
-</div>
-
 
 
 <?php snippet('footer') ?>
