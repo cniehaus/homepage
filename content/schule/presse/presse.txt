@@ -6,6 +6,17 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-rasteder-projektgruppe-feiert-erfolg-laufend-frisches-trinkwasser-an-der-kgs_a_50,10,1492316253.html
+  name: Laufend frisches Trinkwasser an der KGS
+  anfang: >
+    Die Schüler der KGS Rastede haben jetzt
+    einen Trinkwasserspender. Die
+    Projektgruppe „Es geht um Meer“
+    setzte sich für den Aufbau vom OOWV ein
+  datum: 2020-10-12
+  zeitung: nwz
+- 
+  link: >
     https://www.rasteder-rundschau.de/2020/09/25/fridays-for-future-ist-zurueck/
   name: „Fridays for Future“ ist zurück
   anfang: >
