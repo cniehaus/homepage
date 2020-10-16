@@ -152,6 +152,15 @@ Pressenachrichten:
   zeitung: nwz
 - 
   link: >
+    https://www.rasteder-rundschau.de/2020/04/27/wieder-leben-in-der-schule/
+  name: ' Wieder Leben in der Schule '
+  anfang: >
+    Neunte und zehnte Klassen bereiten sich
+    auf die Abschlussprüfungen vor
+  datum: 2020-04-27
+  zeitung: rastederrundschau
+- 
+  link: >
     https://www.youtube.com/watch?v=TL2Xm5Tgd78
   name: OLFKl Sicherheitsbelehrung KGS Rastede
   anfang: OLFKl Sicherheitsbelehrung KGS Rastede
