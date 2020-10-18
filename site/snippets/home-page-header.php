@@ -8,20 +8,45 @@
       <p>Kooperative Gesamtschule Rastede</p>
     </div>
 
-  <div class="d-none d-md-block">
-    <div class="ConBoxR">
-      <a href="#r">
-        <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Termine">
-        <div class="middle h6">Termine
-          <svg class="bi" width="24" height="24">
-            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
+    <div class="d-none d-md-block">
+      <div class="ConBoxR hovereffekt">
+        <a href="<?= page('allgemeines/kalender')->url() ?>">
+          <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Termine">
+          <div class="middle h6 d-flex">Termine 
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
+            </div>
+        </a>
+      </div>
+      <div class="ConBoxL hovereffekt">
+        <a href="<?= page('blogs')->url() ?>">
+          <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Ereignisse">
+          <div class="middle h6 d-flex">Ereignisse          
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+      
+  
+
+
+  <div class="bg-dark d-flex justify-content-center d-block d-md-none">
+    <div class="hovereffekt" style="width: 50%;">
+      <a href="<?= page('allgemeines/kalender')->url() ?>" class="">
+      <img style="height: 10rem;" class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Termine">
+      <div class="h6" style="text-align: center; transform: translate(0, -200%); color: #ffffff;">Termine          
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
           </div>
       </a>
     </div>
-    <div class="ConBoxL">
-      <a href="#l">
-        <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Termine">
-        <div class="middle h6">Ereignisse          
+    <div class="hovereffekt" style="width: 50%">
+      <a href="<?= page('blogs')->url() ?>">
+        <img style="height: 10rem" class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Ereignisse">
+        <div class="h6" style="text-align: center; transform: translate(0, -200%); color: #ffffff;">Ereignisse          
           <svg class="bi" width="24" height="24">
             <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
         </div>
@@ -29,14 +54,8 @@
     </div>
   </div>
 
-    
-  </div>
-      
-  
-
 
       <!-- Titelfeld -->
-
       <div class="p-3 mb-2 bg-light text-primary">
         <h1>
           <?= $page->title() ?>
