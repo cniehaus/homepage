@@ -328,6 +328,13 @@ footer {
           backface-visibility: hidden;
 }
 
+.setText {
+  text-align: center;
+  transform: translate(0, -200%);
+  color: #ffffff;
+  overflow-y: hidden;
+}
+
 .hovereffekt:hover .imagez {
   opacity: 0.3;
 }

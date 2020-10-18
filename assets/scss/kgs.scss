@@ -378,6 +378,11 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     transition: .5s ease;
     backface-visibility: hidden;
 }
+.setText{
+    text-align: center; 
+    transform: translate(0, -200%); 
+    color: #ffffff;
+}
 .hovereffekt:hover .imagez{
     opacity: 0.3;
 }
