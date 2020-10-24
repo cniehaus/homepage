@@ -108,23 +108,27 @@
           <div class="col-lg-4">
             <?php snippet('box-foerderverein') ?>
           </div>
-
-          <div class="col-lg-4">
-            <?php snippet('box-presse') ?>
-          </div>
         </div>
       </div>
 
+      <div class="container-fluid mt-5">
+        <div class="row">
 
+          <div class="col-lg-6">
+            <?php snippet('box-presse') ?>
+          </div>
 
+          <div class="col-lg-6">
+            <?php snippet('box-kalender') ?>
+          </div>
 
+        </div>
+      </div>
     </div>
 
     <div class="col-xl-4">
       <div class="container mt-5">
         <?php snippet('box-schnellzugriff') ?>
-        <?php // snippet('box-kalender') 
-        ?>
         <?php snippet('box-fokus') ?>
         <?php //snippet('box-wetter') 
         ?>
