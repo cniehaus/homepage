@@ -22,8 +22,9 @@
                         -->
 
                         <?= $subpage->Text()->blocks()->excerpt(250) ?>
-                        (<?= $subpage->author() ?>)
-
+                        <?php if ($subpage->author()->isNotEmpty()) : ?>
+                            (<?= $subpage->author() ?>)
+                        <?php endif ?>
                     </p>
                     <p class="text-right">
                         <a href="<?= $subpage->url() ?>">weiterlesen...</a>

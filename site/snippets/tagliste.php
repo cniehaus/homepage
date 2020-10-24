@@ -1,5 +1,5 @@
 <?php if ($item->tags()->isNotEmpty()) : ?>
-    <div class="text-right">
+    <span>
 
         <svg class="bi" width="24" height="24">
                     <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
@@ -12,5 +12,5 @@
             </a>
         <?php endforeach ?>
 
-    </div>
+    </span>
 <?php endif ?>
