@@ -5,18 +5,31 @@
 
 <div class="container">
   <div class="blockqoute">
+    <div class="d-flex justify-content-between">
 
-    <div class="mt-3 blockquote-footer h5">
-      Datum: <?= $page->date()->toDate("d.m.Y") ?>
-      Autor: <?= $page->author() ?>
+      <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()) : ?>
+        <div class="mt-0 mb-0 blockquote-footer h5">
 
+          <?php if ($page->date()->isNotEmpty()) : ?>
+            Datum: <?= $page->date()->toDate("d.m.Y") ?>
+          <?php endif ?>          
+          <?php if ($page->author()->isNotEmpty()) : ?>
+            Autor: <?= $page->author() ?>
+          <?php endif ?>
+
+        </div> 
+        
+      <?php else : ?>
+        <div></div>
+      <?php endif ?>
+
+
+      <?php snippet('tagliste', [
+        'item' => $page
+      ]) ?>
     </div>
-
-    <?php snippet('tagliste', [
-      'item' => $page
-    ]) ?>
   </div>
-
+  
   <?= $page->text()->blocks() ?>
 
   <?php if ($page->fotoansicht() == 'carousel') : ?>
