@@ -1,4 +1,4 @@
-<div class="card mb-1">
+<div class="card">
     <div class="card-body">
         <h4 class="card-category"></h4>
         <a href="<?= page('foerderverein/ueber_uns')->url() ?>">

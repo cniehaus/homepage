@@ -1,4 +1,4 @@
-<div class="card mb-3 mt-3">
+<div class="card">
     <div class="card-body ">
         <ul>
             <a href="https://thalia.webuntis.com/WebUntis/?school=kgs-rastede">

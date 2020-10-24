@@ -39,7 +39,7 @@
 
       </div>
 
-      
+
 
       <!-- '''
       <div class="card py-4">
@@ -72,11 +72,11 @@
 
 
 
-      <h1 class="title">Aktuelle Nachrichten</h1>
+      <h1 class="title mt-5">Aktuelle Nachrichten</h1>
 
       <div class="row row-cols-1 row-cols-xs-1 row-cols-lg-2 g-4">
 
-  
+
         <?php foreach (page('blogs')
           ->children()
           ->flip() as $subpage) : ?>
@@ -94,20 +94,40 @@
 
 
       <a href="<?= page("blogs") ?>">
-        <button class="btn btn-secondary">Weitere Nachrichten aus der Schule &#8594;</button>
+        <button class="btn btn-secondary mb-5">Weitere Nachrichten aus der Schule &#8594;</button>
       </a>
+
+      <div class="container-fluid">
+
+        <hr class="mt-5">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <?php snippet('box-links') ?>
+          </div>
+          <div class="col-lg-4">
+            <?php snippet('box-foerderverein') ?>
+          </div>
+
+          <div class="col-lg-4">
+            <?php snippet('box-presse') ?>
+          </div>
+        </div>
+      </div>
+
+
+
 
     </div>
 
     <div class="col-xl-4">
       <div class="container mt-5">
         <?php snippet('box-schnellzugriff') ?>
-        <?php // snippet('box-kalender') ?>
+        <?php // snippet('box-kalender') 
+        ?>
         <?php snippet('box-fokus') ?>
-        <?php snippet('box-presse') ?>
-        <?php snippet('box-foerderverein') ?>
-        <?php snippet('box-links') ?>
-        <?php //snippet('box-wetter') ?>
+        <?php //snippet('box-wetter') 
+        ?>
       </div>
     </div>
 
