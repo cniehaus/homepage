@@ -38,6 +38,7 @@ fields:
       datum:
         label: Datum
         type: date
+        required: true
       medium:
         label: Medium
         type: select
