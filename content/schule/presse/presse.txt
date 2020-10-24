@@ -90,6 +90,19 @@ Pressenachrichten:
   medium: nwz
 - 
   link: >
+    https://www.rastede.de/2020/08/sporthalle-wilhelmstrasse-wird-fuer-unterrichtszwecke-benoetigt/
+  name: >
+    Sporthalle Wilhelmstraße wird für
+    Unterrichtszwecke benötigt
+  anfang: >
+    Bei der Umsetzung der Mobilbauklassen
+    vom Schulstandort Feldbreite zur KGS
+    Wilhelmstraße kommt es
+    bedauerlicherweise zu Verzögerungen.
+  datum: 2020-08-01
+  medium: gemeinde
+- 
+  link: >
     https://www.nwzonline.de/ammerland/bildung/delfshausen-naturschutz-rasteder-schueler-pflanzen-50-laubbaeume_a_50,9,874344877.html
   name: Rasteder Schüler pflanzen 50 Laubbäume
   anfang: >
@@ -163,6 +176,23 @@ Pressenachrichten:
     der Schule.
   datum: 2020-06-20
   medium: nwz
+- 
+  link: >
+    https://www.rastede.de/2020/05/corona-pandemie-infektionsschutz-fordert-zusaetzliche-raumkapazitaeten-an-den-schulen/
+  name: 'Corona-Pandemie: Infektionsschutz fordert zusätzliche Raumkapazitäten an den Schulen'
+  anfang: >
+    So langsam kehren bis zum 15. Juni auch
+    in der Gemeinde Rastede die letzten
+    Klassen nach der langen Corona-Pause
+    wieder in den Schulalltag zurück.
+    Gleichwohl sind noch eine Vielzahl an
+    Auflagen in Zusammenhang mit dem
+    Infektionsschutz einzuhalten, die nicht
+    nur die Lehrer, sondern auch den
+    Schulträger vor stets neue
+    Herausforderungen stellen.
+  datum: 2020-05-01
+  medium: gemeinde
 - 
   link: >
     https://www.rasteder-rundschau.de/2020/04/27/wieder-leben-in-der-schule/
@@ -731,6 +761,20 @@ Pressenachrichten:
   medium: rastederrundschau
 - 
   link: >
+    https://www.rastede.de/2019/08/gemeinde-investiert-ueber-500-000-euro-in-die-kgs/
+  name: >
+    Gemeinde investiert über 500.000 Euro
+    in die KGS
+  anfang: >
+    Während die Schülerinnen und Schüler
+    die letzten Tage der Sommerferien
+    genießen, herrscht an der Kooperativen
+    Gesamtschule (KGS) Rastede am Standort
+    Wilhelmstraße emsiges Treiben.
+  datum: 2019-08-01
+  medium: gemeinde
+- 
+  link: >
     https://rasteder-rundschau.de/2019/07/10/grundsanierung-an-der-kgs/
   name: ' Grundsanierung an der KGS '
   anfang: >
@@ -822,6 +866,20 @@ Pressenachrichten:
   medium: rastederrundschau
 - 
   link: >
+    https://www.rastede.de/2019/06/aula-und-toiletten-der-kgs-werden-zur-baustelle/
+  name: >
+    Aula und Toiletten der KGS werden zur
+    Baustelle
+  anfang: >
+    Wenn die Schüler der Kooperativen
+    Gesamtschule (KGS) Rastede ihre
+    Sommerferien genießen, wird die
+    Einrichtung weiter auf Vordermann
+    gebracht.
+  datum: 2019-06-01
+  medium: gemeinde
+- 
+  link: >
     https://rasteder-rundschau.de/2019/05/21/intuitiv-richtig-geholfen/
   name: ' Intuitiv richtig geholfen '
   anfang: >
@@ -903,6 +961,13 @@ Pressenachrichten:
   medium: rastederrundschau
 - 
   link: >
+    https://www.rastede.de/2019/04/im-rathaus-gehts-um-meer/
+  name: Im Rathaus geht’s um Meer
+  anfang: 'Eine Ausstellung geht auf Wanderschaft: Nachdem die anschaulich aufbereiteten Informationen zur Situation der Weltmeere bereits an der Kooperativen Gesamtschule (KGS) zu sehen waren, dient nun das Rathaus in Rastede als Präsentationsfläche. Noch bis kurz vor Ostern ist die Ausstellung mit dem Titel „Es geht um Meer!“ im Eingangsbereich der Behörde aufgebaut. Weitere Stationen sollen folgen.'
+  datum: 2019-04-01
+  medium: gemeinde
+- 
+  link: >
     https://rasteder-rundschau.de/2019/04/01/windenergieplanung-auf-der-zielgeraden/
   name: ' Windenergieplanung auf der Zielgeraden '
   anfang: >
@@ -969,6 +1034,13 @@ Pressenachrichten:
   anfang: 'Emmi & Willnowsky sind im Rahmen ihrer Tour 2019 am 16. März in der Neuen Aula in Rastede zu Gast'
   datum: 2019-03-13
   medium: rastederrundschau
+- 
+  link: >
+    https://www.rastede.de/2019/03/modern-und-inklusionsgerecht-erweiterung-der-kgs-rastede-eingeweiht/
+  name: 'Modern und inklusionsgerecht: Erweiterung der KGS Rastede eingeweiht'
+  anfang: 'Knapp anderthalb Jahre nach der Grundsteinlegung ist am Donnerstagnachmittag der Erweiterungsbau der Kooperativen Gesamtschule (KGS) Rastede offiziell eingeweiht worden. Am Standort Wilhelmstraße entstanden fünf neue inklusionsgerechte Klassen- sowie ein Besprechungszimmer, Sanitäranlagen, ein Gruppen- und ein Technikraum.'
+  datum: 2019-03-01
+  medium: gemeinde
 - 
   link: >
     https://rasteder-rundschau.de/2019/02/27/rueckmeldungen-zur-nachverdichtung-insgesamt-positiv/
@@ -1052,6 +1124,20 @@ Pressenachrichten:
     Thema „Gewalt“
   datum: 2019-02-04
   medium: rastederrundschau
+- 
+  link: >
+    https://www.rastede.de/2019/02/zwischenstand-zur-inklusion-an-den-rasteder-schulen/
+  name: >
+    Zwischenstand zur Inklusion an den
+    Rasteder Schulen
+  anfang: >
+    Auf dem Weg zur Barrierefreiheit ihrer
+    Schulen hat die Gemeinde Rastede in der
+    jüngsten Sitzung des
+    Verwaltungsausschusses eine
+    Zwischenbilanz gezogen.
+  datum: 2019-02-01
+  medium: gemeinde
 - 
   link: >
     https://rasteder-rundschau.de/2019/01/30/praevention-bei-kindern-und-jugendlichen-verbessern/
