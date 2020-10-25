@@ -75,16 +75,14 @@
 
 <?php $pagination = $list->pagination() ?>
 <nav>
-  <ul class="pagination">
+  <ul class="pagination ml-5">
 
     <?php if ($pagination->hasPrevPage()) : ?>
       <li class="page-item">
         <a class="page-link" href="<?= $pagination->prevPageURL() ?>">‹</a>
       </li>
     <?php else : ?>
-      <li>
-        <span>‹</span>
-      </li>
+      
     <?php endif ?>
 
     <!-- Hier nun die mittleren Elemente -->
