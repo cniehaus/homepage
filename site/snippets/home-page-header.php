@@ -5,7 +5,7 @@
 
     <div class="hero-text display-1">
       <h1>Herzlich Willkommen an der</h1>
-      <p>Kooperative Gesamtschule Rastede</p>
+      <p>Kooperativen Gesamtschule Rastede</p>
     </div>
 
     <div class="d-none d-md-block">
