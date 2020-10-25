@@ -107,9 +107,7 @@
         <a class="page-link" href="<?= $pagination->nextPageURL() ?>">›</a>
       </li>
     <?php else : ?>
-      <li class="page-item">
-        <span>›</span>
-      </li>
+      
     <?php endif ?>
 
   </ul>
