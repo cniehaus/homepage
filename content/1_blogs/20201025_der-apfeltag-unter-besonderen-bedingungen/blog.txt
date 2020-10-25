@@ -1,0 +1,80 @@
+Title: Der Apfeltag unter besonderen Bedingungen
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Können wir den Apfeltag unter Coronabedingungen überhaupt stattfinden lassen oder sollte er wie so vieles andere besser ausfallen? Denn- die Schüler*innen probieren Äpfel und sie stellen Saft her. Ist das mit unserem Hygienekonzept eigentlich vereinbar? Wir haben uns dann dafür entschieden und einiges verändert. Und der Apfeltag war wieder ein voller Erfolg. Die meisten Schüler*innen waren sehr zufrieden, das Wetter super und es gab viele Apfelspenden von Eltern, Großeltern, Nachbarn und Lehrkräften.",
+        "id": "_FHDgXoIAF",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Zwar musste der Apfeltest in der Klasse dieses Jahr ausfallen und der frische Saft durfte nicht getrunken werden, aber dafür hat jede*r den Test zuhause durchgeführt und der Saft wurde dieses Mal komplett pasteurisiert. 17 Dreiliter Bags sind dabei herausgekommen! Die werden jetzt an die beteiligten Klassen verteilt und können dann im Laufe des Schuljahres genossen werden.",
+        "id": "_e6217bs3x",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die anderen Stationen, allen voran die Apfelpresse, konnten wie immer stattfinden. In den Klassen wurden fleißig Äpfel kleingeschnitten, die dann unter Anleitung von Herrn Breuker von der Schüler*innen mit einer Raspel zerkleinert wurden und mit einer hydraulischen Presse zu Apfelsaft gepresst.",
+        "id": "_808o1w23n",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Frau Bürig erklärte das Leben eines Apfelbaumes im Jahreslauf und stellte verwandte Obstsorten vor.",
+        "id": "_f6K0ojgtz",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Herr Arzenscheg und Herr Frankenberg führten mit den Klassen Experimente rund um den Apfel durch und Frau Kühn demonstrierte das Haltbarmachen des Saftes und erklärte die Gründe dafür.",
+        "id": "_it1wyghLD",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Im Klassenraum beschäftigten sich die Schüler*innen mit den Inhaltsstoffen und dem Aufbau eines Apfels und ansonsten hatten sie viel Spaß und die Möglichkeit viele der gespendeten Äpfel zu probieren.",
+        "id": "_RE8DPXYll",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery: 
+
+----
+
+Date: 2020-10-25 08:00
+
+----
+
+Datumstartseite: 2021-02-25 08:00
+
+----
+
+Author: Sonja Eitel-Harms (EH)
+
+----
+
+Tags: Chemie, Biologie, Physik, NTW, Projekt
+
+----
+
+Immer-sichtbar: false
+
+----
+
+Downloads: 
+
+----
+
+Fotoansicht: gallery
