@@ -39,5 +39,5 @@ Sidebar:
 
 - 
   link: >
-    https://www.kgs-rastede.de/index.php/informationen/downloads/informationen-1/41-schulordnung/file
+    https://neu.kgs-rastede.de/media/pages/allgemeines/wichtigelinks/e659a71a80-1603614276/schulordnung2020kgs-rastede.pdf
   name: Schulordnung
