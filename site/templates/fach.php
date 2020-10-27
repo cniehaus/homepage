@@ -54,7 +54,6 @@
     foreach (page('blogs')
       ->children()
       ->listed()
-      ->filterBy('immer_sichtbar', false)
       ->filterBy('tags', $page->haupttag(), ',')
       ->flip() as $subpage) :
 
