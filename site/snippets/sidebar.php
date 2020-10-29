@@ -28,7 +28,7 @@ if ($sideE or $relaE or $downE) : ?>
                                 <ul class="list-group list-group-flush">
                                     <?php foreach ($page->sidebar()->toStructure() as $sidebar) : ?>
                                         <li class="list-group-item">
-                                            <a href="<?= $sidebar->link() ?>"><?= $sidebar->name() ?></a>
+                                            <a href="<?= $sidebar->link() ?>"><?= $sidebar->name()->or($sidebar->link()) ?></a>
                                         </li>
                                     <?php endforeach ?>
                                 </ul>
