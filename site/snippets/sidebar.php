@@ -11,10 +11,10 @@ if ($sideE or $relaE or $downE) : ?>
         <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center text-center">
             
             <?php if ($sideE) : 
-                if ($relaE or $downE) : ?>
-                    <div class="col-12 col-lg-4 flex-fill">
-                <?php else : ?>
-                    <div class="col-12 col-lg-4">
+                if ($relaE or $downE) : //wenn in einem von beidem etwas drin ist ?>
+                    <div class="col-12 flex-fill">
+                <?php else : //wenn beide leer sind ?>
+                    <div class="col-12 col-lg-5">
                 <?php endif ?>
                         <div class="card mb-3">
                             <h5 class="card-title">
@@ -39,10 +39,12 @@ if ($sideE or $relaE or $downE) : ?>
 
 
             <?php if ($relaE) :
-                if ($sideE or $downE) : ?>
-                    <div class="col-12 col-lg-4 ml-lg-3 flex-fill">
-                <?php else : ?>
-                    <div class="col-12 col-lg-4 ml-lg-3">
+                if ($sideE) : //wenn nicht erstes Objekt ?>
+                    <div class="col-12 ml-lg-3 flex-fill">
+                <?php elseif ($downE) : //wenn trotzdem nicht alleine ?>
+                    <div class="col-12 flex-fill">
+                <?php else : //wenn beide leer sinds ?>
+                    <div class="col-12 col-lg-5">
                 <?php endif ?>
                         <div class="card mb-3">
                             <h5 class="card-title">
@@ -64,10 +66,10 @@ if ($sideE or $relaE or $downE) : ?>
             <?php endif ?>
 
             <?php if ($downE) :
-                if ($sideE or $relaE) : ?>
-                    <div class="col-12 col-lg-4 ml-lg-3 flex-fill">
-                <?php else : ?>
-                    <div class="col-12 col-lg-4 ml-lg-3">
+                if ($sideE or $relaE) : //wenn in einem von beidem etwas drin ist ?>
+                    <div class="col-12 ml-lg-3 flex-fill">
+                <?php else : //wenn beide leer sind ?>
+                    <div class="col-12 col-lg-5">
                 <?php endif ?>
                         <div class="card mb-3">
                             <h5 class="card-title">
