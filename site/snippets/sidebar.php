@@ -1,15 +1,18 @@
-<div class="container-fluid">
-    <?php if ($page->sidebar()->isNotEmpty() or $page->related()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="container"><?= $page->text()->blocks() ?></div>
-            </div>
+<?php if ($page->sidebar()->isNotEmpty() or $page->related()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
+    <div class="container"><?= $page->text()->blocks() ?></div>
 
-            <div class="col">
-                <?php if ($page->sidebar()->isNotEmpty()) : ?>
+    <div class="container">
+        <hr class="mt-4 mb-4">
 
+        <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center text-center">
+            
+            <?php if ($page->sidebar()->isNotEmpty()) : ?>
+                <div class="col-12 col-lg-4">
+                <?php if ($page->related()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
+                    <div class="flex-fill">
+                <?php endif ?>
                     <div class="card mb-3">
-                        <h5 class="card-title text-center">
+                        <h5 class="card-title">
                             <?php if ($page->sidetitel()->isNotEmpty()) : ?>
                                 <?= $page->sidetitel() ?>
                             <?php else : ?>
@@ -26,15 +29,21 @@
                             </ul>
                         </div>
                     </div>
-
+                <?php if ($page->related()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
+                    </div>
                 <?php endif ?>
+                </div>
+
+            <?php endif ?>
 
 
-                <?php if ($page->related()->isNotEmpty()) : ?>
-
-
+            <?php if ($page->related()->isNotEmpty()) : ?>
+                <div class="col-12 col-lg-4 ml-lg-3">
+                <?php if ($page->sidebar()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
+                    <div class="flex-fill">
+                <?php endif ?>
                     <div class="card mb-3">
-                        <h5 class="card-title text-center">
+                        <h5 class="card-title">
                             Weitere Informationen
                         </h5>
                         <div class="card-body">
@@ -49,13 +58,19 @@
                             </ul>
                         </div>
                     </div>
-
+                <?php if ($page->sidebar()->isNotEmpty() or $page->downloads()->isNotEmpty()) : ?>
+                    </div>
                 <?php endif ?>
+                </div>
+            <?php endif ?>
 
-                <?php if ($page->downloads()->isNotEmpty()) : ?>
-
+            <?php if ($page->downloads()->isNotEmpty()) : ?>
+                <div class="col-12 col-lg-4 ml-lg-3">
+                <?php if ($page->sidebar()->isNotEmpty() or $page->related()->isNotEmpty()) : ?>
+                    <div class="flex-fill">
+                <?php endif ?>
                     <div class="card mb-3">
-                        <h5 class="card-title text-center">
+                        <h5 class="card-title">
                             Zugehörige Downloads
                         </h5>
                         <div class="card-body">
@@ -71,12 +86,16 @@
                             </ul>
                         </div>
                     </div>
+                <?php if ($page->sidebar()->isNotEmpty() or $page->related()->isNotEmpty()) : ?>
+                    </div>
                 <?php endif ?>
+                </div>
+            <?php endif ?>
 
-
-            </div>
         </div>
-    <?php else : ?>
-        <div class="container"><?= $page->text()->blocks() ?></div>
-    <?php endif ?>
-</div>
+
+    </div>
+
+<?php else : ?>
+    <div class="container"><?= $page->text()->blocks() ?></div>
+<?php endif ?>
