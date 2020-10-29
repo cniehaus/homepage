@@ -13,7 +13,7 @@
                             <?php if ($page->sidetitel()->isNotEmpty()) : ?>
                                 <?= $page->sidetitel()->kirbytext() ?>
                             <?php else : ?>
-                                <?= "Weitere Informationen" ?>
+                                Weitere Informationen
                             <?php endif ?>
                         </h5>
                         <div class="card-body">
