@@ -37,12 +37,6 @@ columns:
         label: Sidebar
         type: headline
         numbered: false
-      toggle:
-        label: Sidebar
-        type: toggle
-        text:
-          Deaktiviert
-          Aktiviert
       sidetitel:
         label: Titel der Sidebar
         type: text
