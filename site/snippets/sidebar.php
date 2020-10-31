@@ -8,7 +8,7 @@ if ($sideE or $relaE or $downE) : //wenn es in einer der Teile Inhalt gibt ?>
     <div class="container">
         <hr class="mt-4 mb-4">
 
-        <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center text-center">
+        <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center text-center mb-3">
             
             <?php if ($sideE) : 
                 if ($relaE or $downE) : //wenn in einem von beidem etwas drin ist ?>
