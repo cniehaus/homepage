@@ -31,16 +31,11 @@
       ]) ?>
     </div>
   </div>
+</div>
 
-  <?= $page->text()->blocks() ?>
+<?php snippet('sidebar') ?>
 
-  <?php foreach ($page->downloads()->toFiles() as $datei) : ?>
-    <li class="list-group-item">
-
-      <a href="<?= $datei->url() ?>"><?= $datei->anzeigename()->or($datei->name()) ?></a>
-    </li>
-  <?php endforeach ?>
-
+<div class="container">
 
   <?php if ($page->fotoansicht() == 'carousel') : ?>
     <?php snippet('carousel') ?>
@@ -49,6 +44,7 @@
   <?php else : ?>
     <!-- Bilder werden vom Autor manuel gesetzt -->
   <?php endif ?>
+  
 </div>
 
 <?php snippet('footer') ?>
