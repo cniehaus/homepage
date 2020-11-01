@@ -12,16 +12,18 @@
 
           <?php if ($page->date()->isNotEmpty()) : ?>
             Datum: <?= $page->date()->toDate("d.m.Y") ?>
-          <?php endif ?>          
+          <?php endif ?>
           <?php if ($page->author()->isNotEmpty()) : ?>
             Autor: <?= $page->author() ?>
           <?php endif ?>
 
-        </div> 
-        
+        </div>
+
       <?php else : ?>
         <div></div>
       <?php endif ?>
+
+
 
 
       <?php snippet('tagliste', [
@@ -29,8 +31,16 @@
       ]) ?>
     </div>
   </div>
-  
+
   <?= $page->text()->blocks() ?>
+
+  <?php foreach ($page->downloads()->toFiles() as $datei) : ?>
+    <li class="list-group-item">
+
+      <a href="<?= $datei->url() ?>"><?= $datei->anzeigename()->or($datei->name()) ?></a>
+    </li>
+  <?php endforeach ?>
+
 
   <?php if ($page->fotoansicht() == 'carousel') : ?>
     <?php snippet('carousel') ?>
