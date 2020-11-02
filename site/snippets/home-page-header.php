@@ -5,22 +5,20 @@
 
     <div class="hero-text display-1">
       <h1>Herzlich Willkommen an der</h1>
-      <p>Kooperativen Gesamtschule Rastede</p>
+      <p>Kooperative Gesamtschule Rastede</p>
     </div>
 
     <div class="d-none d-md-block">
       <div class="ConBoxR hovereffekt">
-        <a href="<?= page('allgemeines/kalender')->url() ?>">
-          <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Termine">
+      <a class="btn btn-danger btn-lg btn-block" style="height: 8rem;" href="<?= page('allgemeines/kalender')->url() ?>" role="button">
           <div class="middle h6 d-flex">Termine 
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>
-            </div>
+          </div>
         </a>
       </div>
       <div class="ConBoxL hovereffekt">
-        <a href="<?= page('blogs')->url() ?>">
-          <img class="imagez" src="<?= $page->files()->find('acker.jpg')->url() ?>" alt="Ereignisse">
+        <a class="btn btn-danger btn-lg btn-block" style="height: 8rem;" href="<?= page('blogs')->url() ?>" role="button">
           <div class="middle h6 d-flex">Ereignisse          
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#arrow-right-circle" /></svg>

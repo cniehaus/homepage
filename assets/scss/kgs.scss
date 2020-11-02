@@ -57,16 +57,6 @@ footer {
     color: set-text-color(#f9f8f8);
 }
 
-.blog-ueberschrift {
-    font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 39px;
-    letter-spacing: 0.005em;
-}
-
-
-
-
 // Ab hier für die Geschichtsunterseite
 
 $primary-color: #ff6b6b;
@@ -362,9 +352,6 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 }
 .ConBoxR {
     position: absolute;
-    width: 20%;
-    top: 75%;
-    left: 79%;
     justify-content: center;
     // transform: translate(50%, 50%);
 
@@ -388,6 +375,10 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     transition: .5s ease;
     backface-visibility: hidden;
 }
+.navbutton{
+    width: 300px;
+    height: 50%;
+}
 .setText{
     text-align: center; 
     transform: translate(0, -200%); 
@@ -401,7 +392,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 }
 .middle {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
