@@ -17,12 +17,12 @@ $alt =
         'Mensa'
     );
 
-$count = -1 ?>
+?>
 
 
 <div class="container">
     <div class="row equal">
-        <?php foreach ($links_bilder as $link => $bild) : $count++ ?>
+        <?php foreach ($links_bilder as $link => $bild) : ?>
             <div class="col-sm-4 d-flex pb-3">
                 <div class="card">
                     <a href="<?= $link ?>"target="_blank">
