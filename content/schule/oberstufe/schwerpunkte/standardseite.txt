@@ -35,11 +35,14 @@ Related:
 
 ----
 
-Downloads: 
+Downloads:
+
+- schwerpunkte_ab-abi-2022.pdf
+- schwerpunkte_ab-abi-2023.pdf
 
 ----
 
-Toggle: false
+Toggle: true
 
 ----
 
@@ -47,13 +50,4 @@ Sidetitel:
 
 ----
 
-Sidebar:
-
-- 
-  link: >
-    https://www.nibis.de/uploads/1gohrgs/operatoren_2021/BI-CH-PH_2021Abi_Operatoren.pdf
-  name: Operatorenliste Oberstufe
-- 
-  link: >
-    https://db2.nibis.de/1db/cuvo/datei/bi_go_kc_druck_2017.pdf
-  name: Biologie Oberstufe
+Sidebar: 

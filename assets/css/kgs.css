@@ -34,7 +34,7 @@ footer {
 }
 
 .blog-ueberschrift {
-  font-weight: 600;
+  font-weight: 100;
   font-size: 1.6rem;
   line-height: 39px;
   letter-spacing: 0.005em;
@@ -10972,4 +10972,3 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*# sourceMappingURL=kgs.css.map */

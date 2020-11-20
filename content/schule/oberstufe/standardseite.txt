@@ -29,7 +29,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Die Einführungsphase dient zur Vorbereitung der Qualifikationsphase. An unserer Schule werden in der Einführungsphase alle Klassen neu zusammengestellt, so dass auswärtige Schülerinnen und Schüler ebenso gut in den Jahrgang integriert werden wie unsere Schülerinnen und Schüler aus dem Haupt- und Realschulzweig, die nach Erreichen des Erweiterten Sek. I-Abschlusses in die Oberstufe eintreten.",
+        "content": "Die Einführungsphase (Jahrgang 11) dient zur Vorbereitung der Qualifikationsphase. An unserer Schule werden in der Einführungsphase alle Klassen neu zusammengestellt, sodass auswärtige Schülerinnen und Schüler ebenso gut in den Jahrgang integriert werden wie unsere Schülerinnen und Schüler aus dem Haupt- und Realschulzweig, die nach Erreichen des Erweiterten Sek. I-Abschlusses in die Oberstufe eintreten.",
         "id": "_MqX3NUIOv",
         "type": "paragraph"
     },
@@ -59,14 +59,26 @@ Text:
     },
     {
         "attrs": [],
-        "content": "In der Qualifikationsphase gibt es keinen Klassenverband mehr. Stattdessen wählt man Schwerpunkte und individuelle Prüfungsfächer, so dass sich in jedem Kurs eine neue Schülergemeinschaft bildet. Die Rolle des Klassenlehrers übernimmt dabei die Seminarfachlehrkraft.",
+        "content": "In der Qualifikationsphase (Jahrgang 12 und 13) gibt es keinen Klassenverband mehr. Stattdessen wählt man Schwerpunkte und individuelle Prüfungsfächer, so dass sich in jedem Kurs eine neue Schülergemeinschaft bildet. Die Rolle der Klassenlehrkraft übernimmt dabei die <a title=\"Seminarfächer\" href=\"oberstufe/seminarfaecher\">Seminarfachlehrkraft</a>.",
         "id": "_ljxgit9gk",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "Die KGS Rastede bietet in der Qualifikationsphase alle fünf in Niedersachsen existierenden Schwerpunkte an: den sprachlichen, den naturwissenschaftlichen, den musisch-künstlerischen, den gesellschaftswissenschaftlichen und den sportlichen Schwerpunkt. Innerhalb der einzelnen Schwerpunkte gibt es darüber hinaus vielfältige Kombinationsmöglichkeiten der Prüfungsfächer, so dass jeder seine individuellen Interessen und Stärken optimal entfalten kann. Die Entscheidung über den eigenen Schwerpunkt und die fünf Abiturprüfungsfächer trifft man zu Beginn des zweiten Halbjahrs der Einführungsphase.",
+        "content": "Die KGS Rastede bietet in der Qualifikationsphase alle fünf in Niedersachsen existierenden <a title=\"Schwerpunkte\" href=\"oberstufe/schwerpunkte\">Schwerpunkte </a>an: den sprachlichen, den naturwissenschaftlichen, den musisch-künstlerischen, den gesellschaftswissenschaftlichen und den sportlichen Schwerpunkt. Innerhalb der einzelnen Schwerpunkte gibt es darüber hinaus vielfältige Kombinationsmöglichkeiten der Prüfungsfächer, sodass jeder seine individuellen Interessen und Stärken optimal entfalten kann. Die Entscheidung über den eigenen Schwerpunkt und die fünf Abiturprüfungsfächer trifft man zu Beginn des zweiten Halbjahrs der Einführungsphase.",
         "id": "_7yb45bpnz",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_0qnwdq1rf",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Auf der Seite des <a href=\"https://www.mk.niedersachsen.de/startseite/schule/unsere_schulen/allgemein_bildende_schulen/gymnasium/gymnasium-6319.html\">Kultusministeriums </a>finden Sie weitere Informationen zum Gymnasium und der gymnasialen Oberstufe.",
+        "id": "_f7icnuvpd",
         "type": "paragraph"
     },
     {
@@ -83,9 +95,9 @@ Related:
 
 - schule/oberstufe/anmeldung
 - schule/oberstufe/auslandsjahr
-- schule/oberstufe/fachhochschulreife
 - schule/oberstufe/schwerpunkte
 - schule/oberstufe/seminarfaecher
+- schule/oberstufe/fachhochschulreife
 
 ----
 
@@ -101,4 +113,9 @@ Sidetitel: Wichtige Themen
 
 ----
 
-Sidebar: 
+Sidebar:
+
+- 
+  link: >
+    https://www.mk.niedersachsen.de/startseite/schule/unsere_schulen/allgemein_bildende_schulen/gymnasium/gymnasium-6319.html
+  name: 'Kultusministerium: Informationen zum Gymnasium'
