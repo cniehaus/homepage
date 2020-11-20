@@ -1,0 +1,9 @@
+Anzeigename: Sschwerpunkte ab Abitur 2023
+
+----
+
+Startseite: false
+
+----
+
+Template: pdfs
