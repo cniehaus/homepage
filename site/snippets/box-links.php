@@ -2,48 +2,34 @@
 !!Beide arrays müssen gleich lang sein!! */
 $links_bilder =
     array(
-        'https://thalia.webuntis.com/WebUntis/?school=kgs-rastede' => 'webuntis.svg',
+        'https://thalia.webuntis.com/WebUntis/?school=kgs-rastede' => 'webuntis.png',
         'https://www.schuelerzeitung.kgs-rastede.de/' => 'irregulaer.png',
         'https://kgs-rastede.schulserver.de/iserv' => 'IServ_Logo_klein_RGB_clean.svg',
-        'foerderverein/ueber_uns' => 'foerderverein.png'
+        'foerderverein/ueber_uns' => 'foerderverein.png',
+        'https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP' => 'mensa.png'
     );
 $alt =
     array(
         'Webuntis',
         'Schülerzeitung',
         'IServ',
-        'Förderverein'
+        'Förderverein',
+        'Mensa'
     );
 
 $count = -1 ?>
 
-<div class="d-flex flex-wrap align-items-center justify-content-center">
-    <div class="card-group">
+
+<div class="container">
+    <div class="row equal">
         <?php foreach ($links_bilder as $link => $bild) : $count++ ?>
-            <div class="col-12 col-md-2 mr-md-2">
+            <div class="col-sm-4 d-flex pb-3">
                 <div class="card">
-                    <div class="card-body text-center">
-                        <a href="<?= $link ?>">
-                            <img src="<?= $kirby->url('assets') ?>/bilder/<?= $bild ?>" alt="<?= $alt[$count] ?>" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
+                    <a href="<?= $link ?>"target="_blank">
+                        <img src="<?= $kirby->url('assets') ?>/bilder/<?= $bild ?>" class="img-fluid">
+                    </a>
                 </div>
             </div>
         <?php endforeach ?>
-
-        <div class="col-12 col-md-2 mr-md-2">
-            <div class="card">
-                <div class="card-body">
-                    <a href="https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP" target="_blank" class="btn btn-warning btn-lg btn-block" role="button" aria-pressed="true">Mensa</a>
-                </div>
-                <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
     </div>
-            </div>
-        </div>
-    </div>
-
 </div>
