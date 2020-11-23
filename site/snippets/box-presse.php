@@ -6,7 +6,7 @@
 
         foreach ($items as $item) : ?>
             <p>
-                <a class="card-link" href="<?= $item->link() ?>"><?= $item->name() ?></a>
+                <a class="text-decoration-none" href="<?= $item->link() ?>"><?= $item->name() ?></a>
                 (<?= $item->datum()->toDate('d.m.y') ?>)
             </p>
 
