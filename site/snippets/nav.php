@@ -16,7 +16,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mb-2 mr-3 mb-lg-0 ">
       <li class="dropdown nav-item">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <a href="#" class="dropdown-toggle nav-link fs-4" data-toggle="dropdown">
           Kontakt
         </a>
 
@@ -91,7 +91,7 @@
       </li>
 
       <li class="dropdown nav-item">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <a href="#" class="dropdown-toggle nav-link fs-4" data-toggle="dropdown">
           &Uuml;ber die Schule
         </a>
         <div class="dropdown-menu dropdown-with-icons">
@@ -189,7 +189,7 @@
       </li>
 
       <li class="dropdown nav-item">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <a href="#" class="dropdown-toggle nav-link fs-4" data-toggle="dropdown">
           Unterricht &amp; Schulleben
         </a>
         <div class="dropdown-menu dropdown-with-icons">
@@ -288,7 +288,7 @@
       </li>
 
       <li class="dropdown nav-item">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+        <a href="#" class="dropdown-toggle nav-link fs-4" data-toggle="dropdown">
           Service &amp; Downloads
         </a>
         <div class="dropdown-menu dropdown-with-icons">
@@ -311,7 +311,7 @@
           </a>
 
       <li class="dropdown nav-item">
-        <a class="nav-link" href="<?= page('allgemeines/kalender')->url() ?>">
+        <a class="nav-link fs-4" href="<?= page('allgemeines/kalender')->url() ?>">
           Kalender
         </a>
       </li>
