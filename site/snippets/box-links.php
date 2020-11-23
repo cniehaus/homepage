@@ -6,6 +6,7 @@ $links_bilder =
         'https://www.schuelerzeitung.kgs-rastede.de/' => 'irregulaer.png',
         'https://kgs-rastede.schulserver.de/iserv' => 'IServ_Logo_klein_RGB_clean.svg',
         'foerderverein/ueber_uns' => 'foerderverein.png',
+        'https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP' => 'mensa.png',
     );
 $alt =
     array(
@@ -30,13 +31,5 @@ $count = -1;
                 </div>
             </div>
         <?php endforeach ?>
-
-        <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <a href="https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP" target="_blank" class="btn btn-warning btn-lg h-100 w-100 text-nowrap d-flex justify-content-center align-items-center" role="button" aria-pressed="true"><h3>Mensa</h3></a>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
