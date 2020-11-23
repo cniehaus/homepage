@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-xl-8 mt-4">
 
-        
+
         <div class="card bg-primary">
           <!-- 
           An besonderen Tagen (Schneefrei, Heizungsburch, ...) soll ganz schnell
@@ -31,7 +31,7 @@
           <?php if (page('wichtige_informationen/notfall')->category() == "eigenerTitel") :
             $titel = page('wichtige_informationen/notfall')->textTitel();
           endif ?>
-          
+
           <div class="card bg-info text-white">
             <h1><?php echo $titel ?></h1>
             <p class="lead"><?= page('wichtige_informationen/notfall')->text() ?></p>
@@ -75,9 +75,10 @@
 
   <div class="row">
     <div class="col-xl-8">
+      <?php snippet('box-fokus') ?>
 
 
-      <h2 class="mt-5 mb-3">Aktuelle Nachrichten</h2>
+      <h2 class="mt-5 mb-3">Aus dem Schulleben</h2>
 
       <div class="row row-cols-1 row-cols-xs-1 row-cols-lg-2 g-4">
 
@@ -85,8 +86,11 @@
         <?php foreach (collection('blogs')->flip() as $subpage) : ?>
 
 
-          <?php if ($subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s')//noch aktuell? 
-            && in_array("Topartikel", $subpage->tags()->split()) == false) : //kein Topartikel?>
+          <?php if (
+            $subpage->datumStartseite()->toDate('Y-m-d-H-i-s') >= date('Y-m-d-H-i-s') //noch aktuell? 
+            && in_array("Topartikel", $subpage->tags()->split()) == false
+          ) : //kein Topartikel
+          ?>
 
             <?php
             snippet('blogkarte', ['subpage' => $subpage]);
@@ -106,30 +110,17 @@
 
 
     <div class="col-xl-4 mt-3 mt-xl-5">
-    <div class="d-none d-xl-flex" style="height: 38.4"></div><!-- leere Box ab xl und aufwärts -->
-        <?php snippet('box-schnellzugriff') ?>
-        <?php snippet('box-fokus') ?>
-        <?php //snippet('box-wetter') ?>
-    </div>
-
-  </div>
-
-  <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center mt-4">
-    <div class="col-lg-4 mr-lg-4">
-      <?php snippet('box-presse') ?>
-    </div>
-
-    <div class="col col-lg-4 mt-5 mt-lg-0">
+      <div class="d-none d-xl-flex" style="height: 38.4"></div><!-- leere Box ab xl und aufwärts -->
+      <?php snippet('box-schnellzugriff') ?>
       <?php snippet('box-kalender') ?>
+      <?php snippet('box-presse') ?>
+      <?php //snippet('box-wetter') 
+      ?>
     </div>
 
   </div>
- 
-  <div class="container-lg">
-    <hr class="mt-2 mt-lg-5 mb-4 mb-lg-3">
-  </div>
-      
-  <?php snippet('box-links') ?> 
+
+  <?php snippet('box-links') ?>
 
 </div>
 

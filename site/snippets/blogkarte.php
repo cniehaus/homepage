@@ -1,7 +1,7 @@
 <div class="col">
     <div class="card mb-3">
         <div class="row g-0">
-            <div class="col-md-4 p-2 bg-danger text-white">
+            <div class="col-md-4 p-2 text-danger">
                 <div class="blog-ueberschrift">
                     <?= $subpage->title() ?>
                 </div>
