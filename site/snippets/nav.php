@@ -163,23 +163,6 @@
 
           <div class="dropdown-divider"></div>
 
-
-          <a class="dropdown-item" href="<?= page('ser/vorstand')->url() ?>">
-            <svg class="bi" width="24" height="24">
-              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people-fill" />
-            </svg> Schulelternrat (SER)
-          </a>
-
-          <a class="dropdown-item" href="<?= page('foerderverein/ueber_uns')->url() ?>">
-            <svg class="bi" width="24" height="24">
-              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags-fill" />
-            </svg> Förderverein
-          </a>
-
-          <div class="dropdown-divider"></div>
-
-
-
           <a class="dropdown-item" href="<?= page('schule/presse')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#newspaper" />
