@@ -10,20 +10,6 @@
             <div class="col-md-8">
                 <div class="card-body">
                     <p class="card-text">
-                        <!-- 
-                            <p>
-                            <svg class="bi" width="24" height="24">
-                                <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags" />
-                            </svg>
-                            <?php foreach ($subpage->tags()->split() as $tag) : ?>
-                                <a class="badge rounded-pill bg-info" href="<?= url('blogs', ['params' => ['tag' => $tag]]) ?>">
-                                    <?= $tag ?>
-                                </a>
-                            <?php endforeach ?>
-
-                        </p> 
-                        -->
-
                         <?= $subpage->Text()->blocks()->excerpt(250) ?>
                         <?php if ($subpage->author()->isNotEmpty()) : ?>
                             (<?= $subpage->author() ?>)
