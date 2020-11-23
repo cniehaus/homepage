@@ -45,7 +45,7 @@
             </svg> Kollegium
           </a>
 
-          <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#sek">
+          <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#sekr">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#telephone-fill" />
             </svg> Sekretariate
