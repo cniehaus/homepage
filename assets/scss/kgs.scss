@@ -4,12 +4,10 @@
 
 @import "./functions";
 
-
 /* -------begin customization-------- */
 
-$font-family-sans-serif: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
-
-
+$font-family-sans-serif: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+$font-size-base: 1.4rem;
 /* simply assign the value */
 $body-bg: #fafdf6;
 
@@ -57,7 +55,6 @@ footer {
     background: darken(#ffffff, 10%);
     color: set-text-color(#f9f8f8);
 }
-
 
 // Ab hier für die Geschichtsunterseite
 
@@ -311,10 +308,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     }
 }
 
-
-
 // Heroimage
-
 
 .top-banner-section {
     display: grid;
@@ -324,68 +318,68 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
-  }
-  .top-banner-section .banner-image-div {
+}
+.top-banner-section .banner-image-div {
     grid-area: 1 / 1 / 2 / 2;
-  }
-  .top-banner-section .banner-overlay-div {
+}
+.top-banner-section .banner-overlay-div {
     grid-area: 1 / 1 / 2 / 2;
-  }
-  .top-banner-section .banner-text-div {
+}
+.top-banner-section .banner-text-div {
     grid-area: 1 / 1 / 2 / 2;
-  }
-  
-  .banner-image {
+}
+
+.banner-image {
     display: grid;
     min-width: 350px;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .banner-overlay-div {
+}
+
+.banner-overlay-div {
     display: grid;
     max-width: 100%;
     background: black;
     background: linear-gradient(60deg, rgba(0, 0, 0, 0.7777485994) 30%, rgba(255, 255, 255, 0) 100%);
-  }
-  
-  .banner-text-div {
+}
+
+.banner-text-div {
     display: grid;
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-  }
-  
-  .banner-h1-text {
+}
+
+.banner-h1-text {
     font-size: calc(26pt + 0.15vw);
     letter-spacing: 0.05em;
     font-weight: bolder;
     text-transform: uppercase;
     color: white;
-  }
-  
-  .banner-body-text {
+}
+
+.banner-body-text {
     font-size: calc(20pt + 0.15vw);
     margin-top: 1.5em;
     color: white;
     text-decoration: none;
-  }
-  .banner-body-text:hover {
+}
+.banner-body-text:hover {
     color: white;
-  }
-  .banner-body-text:visited {
+}
+.banner-body-text:visited {
     color: white;
-  }
-  .banner-body-text:active {
+}
+.banner-body-text:active {
     color: white;
-  }
-  
-  .banner-btn {
+}
+
+.banner-btn {
     margin-top: 1em;
-  }
-  
-  .banner-btn-item {
+}
+
+.banner-btn-item {
     font-size: calc(8pt + 0.15vw);
     padding-top: calc(0.5em + 0.08vw);
     padding-bottom: calc(0.5em + 0.08vw);
@@ -397,15 +391,13 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     text-transform: uppercase;
     font-weight: bold;
     border: 1px solid white;
-  }
-  .banner-btn-item:link {
+}
+.banner-btn-item:link {
     text-decoration: none;
-  }
-  .banner-btn-item:visited {
+}
+.banner-btn-item:visited {
     text-decoration: none;
-  }
-
-
+}
 
 /* -------end customization-------- */
 
