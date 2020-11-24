@@ -25,8 +25,8 @@
         "build": "postcss assets/css/tailwind.css -o assets/css/tailwind-build.css"
     },
     "require": {
-        "php": ">=7.2.0",
-        "getkirby/cms": "^3.0",
+        "php": ">=7.3.0",
+        "getkirby/cms": "^3.4",
         "getkirby/editor": "^1.0",
         "pju/kirby-webhook-field": "^1.1"
     },
