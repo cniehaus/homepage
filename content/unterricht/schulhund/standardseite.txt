@@ -95,7 +95,7 @@ Text:
             "id": "unterricht/schulhund/hund.jpg",
             "filename": "hund.jpg",
             "ratio": 1.2375366568914956,
-            "caption": ""
+            "caption": "Unser Schulhund Ghost"
         },
         "content": "",
         "id": "_rbza3vjic",
