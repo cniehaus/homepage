@@ -43,4 +43,4 @@
   <h1 class="display-6 mb-3">
     <?= $page->heading() ?>
   </h1>
-  </div>
+  </div>         <!--  dieser DIV ist falsch, oder? --> 
