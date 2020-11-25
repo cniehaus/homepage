@@ -1,3 +1,34 @@
+<?php 
+/* 
+--Navbar--
+Doc zur class navbar: https://v5.getbootstrap.com/docs/5.0/components/navbar/
+Verfügbare icons: https://icons.getbootstrap.com/
+
+--Erklärung der Arrays--
+$titel = name
+  name -> Name der Kategorie die Angezeigt werden soll
+
+$items = name => link
+  name -> Name der Links die in den Kategorien angezeigt werden / spezial Wörter
+    Möglchkeiten für name: 
+      String = Ein Item mit diesem Displaynamen und link wird eingefügt
+      "trenn" = Ein Trennstrich wird eingeüfgt
+      "spalte" = Es wird ein neuer Menüpunkt (Splate) eingefügt
+  link -> der zugehörige Link
+
+$items = name => icon_name  
+  name -> ist nicht unbedingt nötig und dient nur zur Übersicht
+  icon_name -> der name des icons z.B. "alarm-fill"
+*/
+$titel = array(
+  'Kontakt', 'Über die Schule', 'Unterricht & Schulleben', 'Service & Downloads'
+);
+$items = array(
+
+);
+?>
+
+
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
   <!--
           Hier kann das Logo stehen oder der Name der Schule.
