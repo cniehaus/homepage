@@ -2,6 +2,13 @@
 /* import only the necessary Bootstrap files */
 /* -------begin customization-------- */
 /* simply assign the value */
+@font-face {
+  font-family: "PangeaTrial-Regular";
+  src: url("./PangeaTrial-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  src: local("PangeaTrial-Regular"), local("PangeaTrial-Regular"), url("./PangeaTrial-Regular.woff2") format("woff2");
+}
 .navbar-light .navbar-nav a.nav-link {
   color: #dfe6f7;
   font-size: 22px;
@@ -397,7 +404,7 @@ footer {
   --bs-danger: #8c271e;
   --bs-light: #0e5499;
   --bs-dark: #c0c0c0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: PangeaTrial-Regular, Segoe UI, Optima, Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
