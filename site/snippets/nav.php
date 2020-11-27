@@ -9,16 +9,16 @@ $titel = name
   name -> Name der Kategorie die Angezeigt werden soll
 
 $items = name => link
-  name -> Name der Links die in den Kategorien angezeigt werden / spezial Wörter
+  name -> Name der Links die in den Kategorien angezeigt werden / speziale Zahlen
     Möglchkeiten für name: 
       String = Ein Item mit diesem Displaynamen und link wird eingefügt
-      "trenn" = Ein Trennstrich wird eingeüfgt
-      "spalte_anfang" = Es wird ein neuer Menüpunkt (Spalte) eingefügt
-      "spalte_ende" = Makiert das Ende eines Menüpunktes (Spalte)
+      negative Zahl = Ein Trennstrich wird eingeüfgt
+      positive, gerade Zahl = Es wird ein neuer Menüpunkt (Spalte) eingefügt
+      positive, ungerade Zahl = Makiert das Ende eines Menüpunktes (Spalte)
   link -> der zugehörige Link
 
 $icons = name => icon_name  
-  name -> ist nicht unbedingt nötig und dient nur zur Übersicht
+  name -> ist nicht unbedingt nötig und dient nur zur Übersicht | zur Zeit wird er benötigt soll aber in Zukunft nicht nötig sein
   icon_name -> der name des icons z.B. "alarm-fill"
 */
 
@@ -169,7 +169,9 @@ $icons_count = 0;
 
               <div class="dropdown-menu dropdown-with-icons">
 
-          <?php elseif ($name > 0 && $name%2 == 0) : //Gerade Zahl also -> Ende einer Spalte ?>
+            <?php $titel_count++;
+
+          elseif ($name > 0 && $name%2 == 0) : //Gerade Zahl also -> Ende einer Spalte ?>
               </div>
             </li>    
 
@@ -177,14 +179,14 @@ $icons_count = 0;
                 <div class="dropdown-divider"></div>
           <?php endif ?>
 
-        <?php else : //Keine Zahl -> Elemente bzw. Links ?>
+        <?php else : $icons_count++; //Keine Zahl -> Elemente bzw. Links ?>
                 <a class="dropdown-item" href="<?= page($link)->url() ?>">
                   <svg class="bi" width="24" height="24">
                     <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" />
                   </svg> <?= $name ?>
                 </a>
 
-        <?php endif;
+        <?php endif;        
       endforeach ?>
 
       <li class="dropdown nav-item">
