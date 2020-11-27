@@ -5,21 +5,28 @@ Doc zur class navbar: https://v5.getbootstrap.com/docs/5.0/components/navbar/
 Verfügbare icons: https://icons.getbootstrap.com/
 
 --Erklärung der Arrays--
-$titel = name
-  name -> Name der Kategorie die Angezeigt werden soll
+$titel = NAME
+  -> speichert Kategorien/Spalten
+  NAME -> Name der Kategorie/Spalte, die angezeigt werden soll
 
-$items = name => link
-  name -> Name der Links die in den Kategorien angezeigt werden / speziale Zahlen
-    Möglchkeiten für name: 
+
+$items = NAME => LINK
+  -> speichert die Elemente
+  NAME -> Name der Links die in den Kategorien angezeigt werden / speziale Zahlen
+    Möglchkeiten für NAME: 
       String = Ein Item mit diesem Displaynamen und link wird eingefügt
       negative Zahl = Ein Trennstrich wird eingeüfgt
       positive, gerade Zahl = Es wird ein neuer Menüpunkt (Spalte) eingefügt
       positive, ungerade Zahl = Makiert das Ende eines Menüpunktes (Spalte)
-  link -> der zugehörige Link
+      ->> Die Texte nach den Zahlen dienen nur zum Verständnis und könne auch leer sein, z.B.: 1 => "",
 
-$icons = name => icon_name  
-  name -> ist nicht unbedingt nötig und dient nur zur Übersicht | zur Zeit wird er benötigt soll aber in Zukunft nicht nötig sein
-  icon_name -> der name des icons z.B. "alarm-fill"
+  LINK -> der zugehörige Link
+
+
+$icons = NAME => ICON_NAME
+  -> speichert die Icons
+  NAME -> ist nicht unbedingt nötig und dient nur zur Übersicht | --->>>> zur Zeit wird er benötigt soll aber in Zukunft nicht nötig sein <<---
+  ICON_NAME -> der name des icons z.B. "alarm-fill"
 */
 
 $titel = array(
@@ -131,8 +138,8 @@ $icons = array(
   "Schulbusverkehr" => "truck",
   "Zeitraster" => "clock"
 );
-$titel_count = 0;
-$icons_count = 0;
+$titel_count = -1;
+$icons_count = -1;
 
 //Nachfolgend wird die Grundstruktur für die Navbar erstellt
 ?>
@@ -161,7 +168,7 @@ $icons_count = 0;
       <?php  foreach($items as $name => $link) :  //Ab hier werden die Arrays durchlaufen und alle Elemente werden in die navbar eingefügt
       
         if (is_int($name)): //ist das aktuelle Element ein spezieller Wert?
-          if ($name > 0 && $name%2 !== 0) : //Ungerade Zahl also -> Anfang einer Spalte ?>
+          if ($name > 0 && $name%2 !== 0) : $titel_count++; //Positive ungerade Zahl also -> Anfang einer Spalte ?>
             <li class="dropdown nav-item">
               <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                 <?= $titel[$titel_count] ?>
@@ -169,20 +176,21 @@ $icons_count = 0;
 
               <div class="dropdown-menu dropdown-with-icons">
 
-            <?php $titel_count++;
 
-          elseif ($name > 0 && $name%2 == 0) : //Gerade Zahl also -> Ende einer Spalte ?>
+          <?php elseif ($name > 0 && $name%2 == 0) : //Positive gerade Zahl also -> Ende einer Spalte ?>
               </div>
             </li>    
 
-          <?php elseif ($name < 0) : //Negative Zhal -> Ein Trennstrich ?>
+
+          <?php elseif ($name < 0) : //Negative Zahl -> Ein Trennstrich ?>
                 <div class="dropdown-divider"></div>
           <?php endif ?>
+
 
         <?php else : $icons_count++; //Keine Zahl -> Elemente bzw. Links ?>
                 <a class="dropdown-item" href="<?= page($link)->url() ?>">
                   <svg class="bi" width="24" height="24">
-                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" />
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" >
                   </svg> <?= $name ?>
                 </a>
 
@@ -199,8 +207,6 @@ $icons_count = 0;
   </div>
 </nav> 
 
-
-<?php unset($items) ?>
 
 <?php  /*Ab hier kommt der alte code für die navbar  ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
