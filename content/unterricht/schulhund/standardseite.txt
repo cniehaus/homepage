@@ -2,7 +2,146 @@ Title: Schulhund
 
 ----
 
-Text: 
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Ein Hund in der Schule? In der pädagogischen Literatur wird von Untersuchungen berichtet, die zeigen, dass ein Hund im Klassenzimmer dazu beiträgt, die Konzentrationsfähigkeit von SuS zu erhöhen und zu stabilisieren. Das kann nur gelingen, wenn genügend Rücksicht auf den Hund genommen wird: es darf nicht laut sein, niemand darf herumrennen usw. Beobachtet man solche Klassen, so sind sie deutlich ruhiger, Lärmpegel und Stressniveau sind deutlich gesenkt.",
+        "id": "_jwo1c90ip",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Zum 01.02.2020 wurde Jan Roland, Lehrer für Biologie und Sport, an die KGS Rastede versetzt. Und mit ihm sein Schulhund, der ihn an seiner vorigen Schule schon treu begleitet hat und dort zum sozialen Lernen in den Klassen beigetragen hat.",
+        "id": "_ZzOp1PXgR",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das Konzept von Jan Roland enthält folgende Aspekte: In vielen Bereichen und Aufgaben kann das Schulhundteam eingesetzt werden: Zum Beispiel zu Versorgungsaufgaben, Lernen, Spielen, Beschäftigung etc. Die Voraussetzungen für den Einsatz sind an das Fünf-Phasen-Modell zur Strukturierung des Schulhundeinsatzes angelehnt (vgl. Heyer und Kloke 2010, S.37).",
+        "id": "_LApEFwnh2",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "alt": null,
+            "link": null,
+            "guid": "/pages/unterricht+schulhund/files/schulhund.png",
+            "id": "unterricht/schulhund/schulhund.png",
+            "filename": "schulhund.png",
+            "ratio": 8.727272727272727,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_KFNfqfo2E",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Die Vorbereitung ist in diesem Fall den zu berücksichtigenden Gremien (Schule) geschuldet. Ferner werden die Hunde an den Schulalltag gewöhnt.",
+        "id": "_1ssYIjO6C",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "In der <strong>Einführungsphase</strong> erarbeiten die SuS den richtigen Zugang zum Hund, Regeln im Umgang mit dem Hund werden erlernt. Zum Beispiel: Wie bzw. wann gehe ich auf den Hund richtig zu? Wie soll der Hund gestreichelt werden? Welche Voraussetzungen braucht der Hund in unserer Klasse? usw. In der <strong>Kennenlernphase</strong> können die SuS ggf. ihre Ängste abbauen und erstmals Kontakt zum Hund aufnehmen. Die SuS machen sich mit den ersten Grundkommandos vertraut.",
+        "id": "_vigI8WYo2",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Zusätzlich erlernen sie Basiswissen über das Verhalten von Hunden, deren Ausstattung, Hunderassen, Hundeberufe u.v.m. (vgl. ebd.).",
+        "id": "_cJ6ggCV2i",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die <strong>Arbeitsphase</strong> dient dem aktiven Einsatz des Hundes durch Rituale am Stundenanfang, gezielte Einbindung des Hundes, Tricks, Demonstrationen usw.",
+        "id": "_Vggm8GXWv",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Die <strong>Abschlussphase </strong>stellt das Ende der Arbeitsphase dar. Auch hier werden Rituale zum „sanftem Ausstieg“ der aktiven Hundephase gewählt. Der Hund ist jetzt „nur“ noch anwesend und kann an seinem Platz ruhig verweilen, ohne gestört zu werden.",
+        "id": "_gn8h3rexy",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Manchmal ist er einfach nur da und sorgt für gute Stimmung; in der Regel wird der Hund aber aktiv im Unterricht eingesetzt (z.B. zum Apportieren von Socken mit Aufgabenkarten, zum Öffnen von Dosen mit Aufgabenkarten, English-Vor-Lesen usw.).",
+        "id": "_GoQVrBSCX",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Bei der Intensität des Einsatzes ist die Tagesform vom Schulhund zu berücksichtigen. Selbstverständlich ist der Hund geimpft und Hygienemaßnahmen werden entsprechend eingehalten. Sollte es zum Auftreten von Allergien kommen muss der Einsatz von Schulhunden in der jeweiligen Lerngruppe überdacht und ggfs. eingestellt werden.",
+        "id": "_591iest1i",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_o074gbuxb",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/unterricht+schulhund/files/hund.jpg",
+            "id": "unterricht/schulhund/hund.jpg",
+            "filename": "hund.jpg",
+            "ratio": 1.2375366568914956,
+            "caption": "Unser Schulhund Ghost"
+        },
+        "content": "",
+        "id": "_rbza3vjic",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Das Schulhundekonzept wird von der Gesamtkonferenz genehmigt, es wird regelmäßig evaluiert. Die HundeführerInnen an der KGS Rastede absolvieren unter anderem eine 12-tägige Ausbildung mit dem Hundetrainer Frank Rosenbaum und Jan Roland absolviert. Der Schulhund der KGS Rastede selbst wird einmal jährlich getestet. Hierbei werden grundsätzliche Wesenszüge des Hundes überprüft. Der Test besteht aus einem Teil außerhalb der Schule, wobei der Grundgehorsam des Hundes und sein Umgang mit Stress getestet werden. Zusätzlich wird der Hund in typischen Unterrichts- und Pausensituationen geprüft. Hier muss das Tier eine hohe Gelassenheit und Arbeitsfreude im Umgang mit SchülerInnen zeigen.",
+        "id": "_NFp6TIahy",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "An der KGS Rastede geben Eltern künftig bei der Schulanmeldung ihr Einverständnis, dass ihr Kind im Laufe seiner Schullaufbahn an unserer Schule mit dem Schulhund in Kontakt kommen darf.",
+        "id": "_DhzIlHbPf",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Weitergehende Fragen beantwortet Herr Roland gern unter <a href=\"mailto:rl@kgs-rastede.de\">rl@kgs-rastede.de</a>.",
+        "id": "_cvly0b8y2",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Claudia Berger/ Jan Roland",
+        "id": "_9kDTa1L0D",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "&nbsp;",
+        "id": "_h2bvcFDxS",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "&nbsp;",
+        "id": "_5WDZyCOuY",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Relatedtitel: 
 
 ----
 
@@ -10,12 +149,20 @@ Related:
 
 ----
 
+Downloadtitel: 
+
+----
+
 Downloads: 
 
 ----
 
-Toggle: false
+Sidetitel: 
 
 ----
 
 Sidebar: 
+
+----
+
+Toggle: false

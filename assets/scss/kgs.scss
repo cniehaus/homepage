@@ -6,12 +6,27 @@
 
 /* -------begin customization-------- */
 
-// /* die Standardfarben festlegen */
-// $theme-colors: (
-// );
-
+// $font-size-base: 1.4rem;
 /* simply assign the value */
-$body-bg: #fafdf6;
+
+
+
+
+// @font-face{
+//     font-family: 'vielkalahizo';
+//     src: url('./vielkalahizo.ttf');
+//     font-style: normal;
+//     font-weight: 400;
+
+//     src: local('vielkalahizo'), local('vielkalahizo'),
+//     url('./vielkalahizo.ttf') format('truetype');
+// }
+
+// $font-family-sans-serif: vielkalahizo, Candara, Segoe UI, Optima, Arial, sans-serif;
+
+
+$body-bg: #f4f4f4;
+
 
 // Custom
 
@@ -27,15 +42,16 @@ $theme-colors: (
 );
 
 .navbar-light .navbar-nav a.nav-link {
-    color: #ffffff;
+    color: #dfe6f7;
+    font-size: 22px;
 }
 
 .dropdown-menu a {
-    color: #ffffff;
+    color: #586994;
 }
 
 .dropdown-menu {
-    background-color: #0e5499 !important;
+    background-color: white !important;
 }
 
 .main {
@@ -56,16 +72,6 @@ footer {
     background: darken(#ffffff, 10%);
     color: set-text-color(#f9f8f8);
 }
-
-.blog-ueberschrift {
-    font-weight: 100;
-    font-size: 1.6rem;
-    line-height: 39px;
-    letter-spacing: 0.005em;
-}
-
-
-
 
 // Ab hier für die Geschichtsunterseite
 
@@ -319,93 +325,95 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     }
 }
 
+// Heroimage
 
-/*==================================
-    Hompage-Startseite
-==================================*/
-
-.svginvert {
-    -webkit-filter: invert(100%); 
-            filter: invert(100%);
-}
-
-
-.hero-image {
-    //source: https://www.w3schools.com/howto/howto_css_hero_image.asp
-    /* Use "linear-gradient" to add a darken background effect to the image */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("kgs-bg.jpg");
-    /* Set a specific height */
-    height: 75%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  /* Place text in the middle of the image */
-.hero-text {
-//    font-family: "Lucida Console";
-    text-align: justify;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-.ConBoxL {
-    position: absolute;
-    width: 20%;
-    top: 75%;
-    left: 55%;
-}
-.ConBoxR {
-    position: absolute;
-    width: 20%;
-    top: 75%;
-    left: 79%;
+.top-banner-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
     justify-content: center;
-    // transform: translate(50%, 50%);
+}
+.top-banner-section .banner-image-div {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.top-banner-section .banner-overlay-div {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.top-banner-section .banner-text-div {
+    grid-area: 1 / 1 / 2 / 2;
+}
 
-    // border-top-right-radius: 10px;
-    // box-shadow: 0 14px 26px rgba(0,0,0,0.04);
-    // overflow: hidden;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // text-decoration: none;
-}
-.hovereffekt {
-    background: #0e5499;
-    transition: all 0.3s ease-out;
-}
-.imagez {
-    opacity: 1;
-    // display: block;
+.banner-image {
+    display: grid;
+    min-width: 350px;
     width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    height: 100%;
+    object-fit: cover;
 }
-.setText{
-    text-align: center; 
-    transform: translate(0, -200%); 
-    color: #ffffff;
+
+.banner-overlay-div {
+    display: grid;
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.7777485994) 30%, rgba(255, 255, 255, 0) 100%);
 }
-.hovereffekt:hover .imagez{
-    opacity: 0.3;
+
+.banner-text-div {
+    display: grid;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
 }
-.hovereffekt:hover .imagez{
-    opacity: 0.3;
+
+.banner-h1-text {
+    font-size: calc(26pt + 0.15vw);
+    letter-spacing: 0.05em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
 }
-.middle {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.banner-body-text {
+    font-size: calc(20pt + 0.15vw);
+    margin-top: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+.banner-body-text:hover {
+    color: white;
+}
+.banner-body-text:visited {
+    color: white;
+}
+.banner-body-text:active {
+    color: white;
+}
+
+.banner-btn {
+    margin-top: 1em;
+}
+
+.banner-btn-item {
+    font-size: calc(8pt + 0.15vw);
+    padding-top: calc(0.5em + 0.08vw);
+    padding-bottom: calc(0.5em + 0.08vw);
+    padding-left: calc(0.5em + 0.08vw);
+    padding-right: calc(0.5em + 0.08vw);
+    color: blue;
+    background-color: white;
     text-align: center;
-    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.banner-btn-item:link {
+    text-decoration: none;
+}
+.banner-btn-item:visited {
+    text-decoration: none;
 }
 
 /* -------end customization-------- */

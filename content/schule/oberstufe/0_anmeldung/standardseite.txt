@@ -12,65 +12,35 @@ Text:
     {
         "attrs": [],
         "content": "Jede Schülerin und jeder Schüler muss sich für die Oberstufe anmelden. Anmeldeschluss ist dabei landesweit in jedem Jahr der 20. Februar. Die Anmeldung mit den nebenstehenden Unterlagen muss vormittags persönlich im Sekretariat der KGS Rastede abgegeben werden.",
-        "id": "_nkg7lmk7v",
+        "id": "_Ecf2VPT2c",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "",
-        "id": "_mf3av9dvv",
+        "content": "&nbsp;",
+        "id": "_YyR11AjVh",
         "type": "paragraph"
     },
     {
         "attrs": [],
         "content": "Bereits in der Einführungsphase kann in einigen Fachbereichen eine Entscheidung zwischen verschiedenen Fächern getroffen werden. Dabei sollte berücksichtigt werden, dass ein einmal abgewähltes Fach in der Qualifikationsphase nicht mehr als Prüfungsfach gewählt werden kann und bestimmte Fächer Voraussetzung zur Wahl bestimmter Schwerpunkte sind. Beispielsweise muss, wer den sportlichen Schwerpunkt anstrebt, in der Einführungsphase Sporttheorie belegen.",
-        "id": "_0thki0bfl",
+        "id": "_yrrYIXbrr",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "",
-        "id": "_ELWUwrpEq",
+        "content": "&nbsp;",
+        "id": "_gR2caDaAE",
         "type": "paragraph"
     },
     {
         "attrs": [],
         "content": "Schülerinnen und Schüler, die bereits seit der sechsten Klasse durchgängig eine zweite Fremdsprache belegt haben, können anstelle dieser in der Einführungsphase den Wahlpflichtbereich belegen, der unter bestimmten inhaltlichen Oberthemen steht. Die aktuellen Angebote finden Sie unter dem Link. Eine Wahl des sprachlichen Schwerpunktes ist dann jedoch nicht mehr möglich.",
-        "id": "_XQ85xJ1Vn",
+        "id": "_qLl25MhKM",
         "type": "paragraph"
     }
 ]
 
 ----
 
-Relatedtitel: 
-
-----
-
-Related: 
-
-----
-
-Downloadtitel: 
-
-----
-
-Downloads:
-
-- anmeldeformular-sek-ii-hinweise.pdf
-- anmeldeformular-sek-ii_2021.pdf
-- kurswahl-e-phase-auswaertige.pdf
-- 2020-01-21_info_jg_10_homepage.pdf
-- wahlpflichtbereich-module-2020-2021.pdf
-
-----
-
-Sidetitel: 
-
-----
-
-Sidebar: 
-
-----
-
-Toggle: true
+Downloads: 

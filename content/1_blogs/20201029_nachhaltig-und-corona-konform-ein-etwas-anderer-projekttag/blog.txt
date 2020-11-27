@@ -1,0 +1,136 @@
+Title: Nachhaltig und Corona-konform – ein etwas anderer Projekttag
+
+----
+
+Heading: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Dass ein Projekttag auch unter Corona-Bedingungen möglich ist, haben viele engagierte Schüler*innen und Lehrkräfte der KGS am 29.10.2020 bewiesen. Eigentlich sollte schon im April ein „Schüler*innen-Projekttag“ zum Thema Nachhaltigkeit stattfinden, ein bunter Tag mit jahrgangsübergreifenden Lernangeboten von Schüler*innen für Mitschüler*innen war geplant. Dann kam Corona und die Schule wurde geschlossen, an einen Projekttag war nicht mehr zu denken. Auf Wunsch vieler Schüler*innen haben wir uns nach den Sommerferien der Herausforderung gestellt, einen Projekttag zu organisieren, der dem Gesundheitsschutz gerecht wird. Die Beteiligung war freiwillig, bis Mitte September konnten sich Klassen und Schüler*innengruppen anmelden. Viele haben sich gemeinsam mit den Klassenlehrkräften für Aktivitäten im Klassenverband entschieden. Auch Lernangebote von Schüler*innen für Mitschüler*innen waren möglich – im eigenen Jahrgang und natürlich mit Maske. Nicht nur in Sachen Nachhaltigkeit, sondern auch beim Gesundheitsschutz war der Projekttag schließlich ein voller Erfolg. Alle beteiligten Schüler*innen verdienen großes Lob, denn sie haben sich sehr verantwortungsbewusst an den organisatorischen Rahmenplan und die Hygieneregeln gehalten.",
+        "id": "_LcdzRxQMC",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": "https://www.kgs-rastede.de/images/stories/Kompostierung-klein.jpg",
+            "alt": "Kompostierung klein",
+            "link": "https://www.kgs-rastede.de/images/stories/Kompostierung-klein.jpg",
+            "caption": "",
+            "ratio": 0.7433628318584071
+        },
+        "content": "",
+        "id": "_njHnxyeyz",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Besonders beliebt war das Thema „Nachhaltigkeit im Alltag“. Die 6C3 veranstaltete einen Workshop „Umweltmanager*innen zu Hause“. Julia und Jana aus der 10E3 schlüpften in die Rolle der Lehrenden und gestalteten ein informatives Lernangebot rund um Plastikvermeidung und „no waste“ für Mitschüler*innen aus ihrem Jahrgang. Mehrere Klassen betrieben Mülltrennung und Kompostierung in Theorie und Praxis.",
+        "id": "_2U8SDKjpX",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": "https://www.kgs-rastede.de/images/stories/FFF-Beutel-klein.jpg",
+            "alt": "FFF Beutel klein",
+            "link": "https://www.kgs-rastede.de/images/stories/FFF-Beutel-klein.jpg",
+            "caption": "",
+            "ratio": 1.5377574370709381
+        },
+        "content": "",
+        "id": "_QA0YYHoQV",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Die Projektgruppe „Es geht um Meer“ führte durch ihre Ausstellung zur Verschmutzung der Weltmeere.",
+        "id": "_VUpFMGVdS",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": "https://www.kgs-rastede.de/images/stories/Es-geht-um-Meer-klein.jpg",
+            "alt": "Es geht um Meer klein",
+            "link": "https://www.kgs-rastede.de/images/stories/Es-geht-um-Meer-klein.jpg",
+            "caption": "",
+            "ratio": 1.3770491803278688
+        },
+        "content": "",
+        "id": "_MYosVpC07",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Und im Schlosspark waren Schüler*innen unterwegs, um den Müll einzusammeln, den andere nicht vermieden, sondern in der Natur entsorgt hatten. In der Feldbreite entstanden beim Upcycling kreative Kunstwerke aus Verpackungsmüll. Natürlich gab es auch Quizfragen und sogar einen ganzen Escape Room zum Thema Nachhaltigkeit. Ein weiteres wichtiges Thema war die klimafreundliche Mobilität. So begab sich die 9D3 mit dem Rad auf die Suche nach den Geocaches „Klimaschätze in Oldenburg“. Schüler*innen aus Jahrgang 13 boten inhaltlich anspruchsvolle Workshops zu den Themen „alternative Autos“ und „nachhaltig Reisen“.",
+        "id": "_oOfey4dWb",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "src": "https://www.kgs-rastede.de/images/stories/alternative-Autos-klein.jpg",
+            "alt": "alternative Autos klein",
+            "link": "https://www.kgs-rastede.de/images/stories/alternative-Autos-klein.jpg",
+            "caption": "",
+            "ratio": 1.8162162162162163
+        },
+        "content": "",
+        "id": "_yc3rSyF0F",
+        "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "Im Klassenraum-Kino wurden Dokumentarfilme zum Klimawandel angeschaut und analysiert. Sogar eine Corona-konforme Tauschbörse gab es für angemeldete Schüler*innen aus Jahrgang 8.",
+        "id": "_7fm5JiQ4g",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Natürlich war auch der Vergleich zum ursprünglich geplanten „Schüler*innen-Projekttag“ mit jahrgangsübergreifenden Aktivitäten immer wieder Thema. Entsprechend war die Stimmung geprägt von Freude über einen bunten Tag im grauen Corona-Schulalltag, aber auch von ein bisschen Wehmut und dem Bewusstsein, was ohne Corona alles möglich wäre.",
+        "id": "_Da9ozxeMN",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_bvcjbtyk7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Verfasst und fotografiert von Didem Oba, Ece Yildiz, Mielena Karoyan, Özlem Yeliz Yildiz und Frau Szyltowski",
+        "id": "_ybfayi5qn",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Gallery: 
+
+----
+
+Date: 2020-10-29 16:10
+
+----
+
+Datumstartseite: 2021-03-20 17:10
+
+----
+
+Author: Frau Szyltowski (SZY)
+
+----
+
+Tags: Projekt
+
+----
+
+Downloads: 
+
+----
+
+Fotoansicht: gallery

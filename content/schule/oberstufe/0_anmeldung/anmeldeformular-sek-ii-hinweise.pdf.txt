@@ -1,9 +1,0 @@
-Anzeigename: Hinweise zum Anmeldeformular
-
-----
-
-Startseite: false
-
-----
-
-Template: pdfs

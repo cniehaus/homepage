@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
   <!--
           Hier kann das Logo stehen oder der Name der Schule.
           Müssen wir am Ende vom Design her entscheiden.
@@ -8,7 +8,7 @@
       <?= asset('assets/bilder/logo.svg')->read() ?>
     </a>
   </div>
-  <a class="navbar-brand text-white d-block d-sm-block d-lg-none" href="<?= $site->url() ?>">KGS Rastede</a>
+  <a class="navbar-brand d-block d-sm-block d-lg-none" href="<?= $site->url() ?>">KGS Rastede</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -45,7 +45,7 @@
             </svg> Kollegium
           </a>
 
-          <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#sek">
+          <a class="dropdown-item" href="<?= page('kontakte/sekretariate')->url() ?>#sekr">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#telephone-fill" />
             </svg> Sekretariate
@@ -95,7 +95,7 @@
           &Uuml;ber die Schule
         </a>
         <div class="dropdown-menu dropdown-with-icons">
-        <a class="dropdown-item" href="<?= page('schule/leitbild')->url() ?>">
+          <a class="dropdown-item" href="<?= page('schule/leitbild')->url() ?>">
             <svg class="bi" width="24" height="24">
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#layout-wtf" />
             </svg> Leitbild
@@ -162,23 +162,6 @@
           </a>
 
           <div class="dropdown-divider"></div>
-
-
-          <a class="dropdown-item" href="<?= page('ser/vorstand')->url() ?>">
-            <svg class="bi" width="24" height="24">
-              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#people-fill" />
-            </svg> Schulelternrat (SER)
-          </a>
-
-          <a class="dropdown-item" href="<?= page('foerderverein/ueber_uns')->url() ?>">
-            <svg class="bi" width="24" height="24">
-              <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#tags-fill" />
-            </svg> Förderverein
-          </a>
-
-          <div class="dropdown-divider"></div>
-
-
 
           <a class="dropdown-item" href="<?= page('schule/presse')->url() ?>">
             <svg class="bi" width="24" height="24">
@@ -309,6 +292,7 @@
               <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#clock" />
             </svg> Zeitraster
           </a>
+      </li>
 
       <li class="dropdown nav-item">
         <a class="nav-link" href="<?= page('allgemeines/kalender')->url() ?>">
@@ -316,8 +300,6 @@
         </a>
       </li>
 
-
+    </ul>
   </div>
-
-
 </nav>

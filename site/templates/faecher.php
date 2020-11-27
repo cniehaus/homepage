@@ -111,7 +111,7 @@
       <div class="list-group">
         <a href="<?= page('Faecher/deutsch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <svg class="bi" width="24" height="24">
-            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#chat-dots" /></svg>Deutsch
+            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#chat-dots" /></svg> Deutsch
         </a>
         <a href="<?= page('Faecher/deutsch-als-zweitsprache-daz')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <svg class="bi" width="24" height="24">
