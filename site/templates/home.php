@@ -9,6 +9,7 @@
       <div class="col-xl-8 mt-4">
 
 
+
         <div class="card bg-primary">
           <!-- 
           An besonderen Tagen (Schneefrei, Heizungsburch, ...) soll ganz schnell
@@ -74,9 +75,27 @@
 
   <div class="row">
     <div class="col-xl-8">
+
+      <!-- 
+        
+      <h1>
+        ein Schriftentest
+      </h1>
+
+      <div style="font-weight:200">200 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:300">300 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:400">400 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:500">500 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:600">600 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:700">700 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:800">800 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div>
+      <div style="font-weight:900">900 KGS Rastede The quick brown fox jumps over the lazy dog €öäüÖÄÜß</div> 
+      -->
+
+
       <?php snippet('box-fokus') ?>
       <?php snippet('box-blogs') ?>
-      
+
     </div>
 
 
