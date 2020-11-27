@@ -26,7 +26,7 @@ $titel = array(
   "Kontakt", "Über die Schule", "Unterricht & Schulleben", "Service & Downloads"
 );
 $items = array(
-  "spalte_anfang" => "",
+  1 => "spalte_anfang",
   "Anfahrt" => "allgemeines/anfahrt",
   "Schulleitung" => "kontakte/schulleitung",
   "Fachbereichsleiter" => "kontakte/fbl",
@@ -38,9 +38,9 @@ $items = array(
   "Gleichstellungsbeauftragte" => "kontakte/gleichstellung",
   "Schulelternrat (SER)" => "ser/vorstand",
   "Förderverein" => "foerderverein/ueber_uns",
-  "spalte_ende" => "",
+  2 => "spalte_ende",
 
-  "spalte_anfang" => "",
+  3 => "spalte_anfang",
   "Leitbild" => "schule/leitbild",
   "Schulprogramm" => "schule/schulprogramm",
   "Unsere Geschichte" => "schule/geschichte",
@@ -51,9 +51,9 @@ $items = array(
   "Zuständigkeiten / Organigramm" => "schule/organigramm",
   "Ausbildungsschule" => "schule/ausbildungsschule",
   "Unsere Schule in der Presse" => "schule/presse",
-  "spalte_ende" => "",
+  4 => "spalte_ende",
 
-  "spalte_anfang" => "",
+  5 => "spalte_anfang",
   "Fächer" => "Faecher",
   "Berufsorientierung" => "unterricht/berufsorientierung",
   "Schülerfirmen" => "unterricht/schuelerfirmen",
@@ -67,13 +67,13 @@ $items = array(
   "BO-Coaches" => "unterricht/bo-coaches",
   "Schulhund" => "unterricht/schulhund",
   "Streitschlichter" => "unterricht/streitschlichter",
-  "spalte_ende" => "",
+  6 => "spalte_ende",
 
-  "spalte_anfang" => "",
+  7 => "spalte_anfang",
   "Informationen und Formulare" => "allgemeines/wichtigelinks",
   "Schulbusverkehr" => "allgemeines/bus",
   "Zeitraster" => "allgemeines/zeitraster",
-  "spalte_ende" => ""
+  8 => "spalte_ende"
 
 );
 $icons = array(
@@ -127,7 +127,7 @@ $icons = array(
   "Zeitraster" => "clock",
   "spalte_ende"
 );
-$titel_count = -1;
+$titel_count = 0;
 $icons_count = 0;
 
 //Nachfolgend wird die Grundstruktur für die Navbar erstellt
@@ -153,29 +153,31 @@ $icons_count = 0;
     <ul class="navbar-nav ml-auto mb-2 mr-3 mb-lg-0 ">
 
 
-      <?php  foreach($items as $name => $link) : $titel_count++; //Ab hier werden die Arrays durchlaufen und alle Elemente werden in die navbar eingefügt
+      <?php  foreach($items as $name => $link) :  //Ab hier werden die Arrays durchlaufen und alle Elemente werden in die navbar eingefügt
       
-        if (strcmp ($name, "spalte_anfang") == 0) : echo strcmp ($name, "spalte_anfang");//Anfang einer Spalte ?>
-          <li class="dropdown nav-item">
-            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <?= $titel[$titel_count] ?>
-            </a>
-
-            <div class="dropdown-menu dropdown-with-icons">
-
-        <?php elseif (strcmp ($name, "spalte_ende") == 0) : //Ende einer Spalte ?>
-            </div>
-          </li>    
-
-        <?php elseif (strcmp ($name, "trenn") == 0) : //Ein Trennstrich zwischen zwei Elementen ?>
-              <div class="dropdown-divider"></div>
-
-        <?php else : //Die Elemente bzw. links ?>
-              <a class="dropdown-item" href="<?= page($link)->url() ?>">
-                <svg class="bi" width="24" height="24">
-                  <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" />
-                </svg> <?= $name ?>
+        if (is_int($name)): //ist das aktuelle Element ein spezieller Wert?
+          if ($name > 0 && $name%2 !== 0) : //Ungerade Zahl also -> Anfang einer Spalte ?>
+            <li class="dropdown nav-item">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                <?= $titel[$titel_count] ?>
               </a>
+
+              <div class="dropdown-menu dropdown-with-icons">
+
+          <?php elseif ($name%2 == 0) : //Gerade Zahl also -> Ende einer Spalte ?>
+              </div>
+            </li>    
+
+          <?php elseif ($name < 0) : //Negative Zhal -> Ein Trennstrich ?>
+                <div class="dropdown-divider"></div>
+          <?php endif ?>
+
+        <?php else : //Keine Zahl -> Elemente bzw. Links ?>
+                <a class="dropdown-item" href="<?= page($link)->url() ?>">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" />
+                  </svg> <?= $name ?>
+                </a>
 
         <?php endif;
       endforeach ?>
@@ -185,7 +187,7 @@ $icons_count = 0;
 </nav> 
 
 
-
+<?php unset($items) ?>
 
 <?php  /*Ab hier kommt der alte code für die navbar  ?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
