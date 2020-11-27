@@ -21,11 +21,12 @@ $icons = name => icon_name
   name -> ist nicht unbedingt nötig und dient nur zur Übersicht
   icon_name -> der name des icons z.B. "alarm-fill"
 */
+
 $titel = array(
   "Kontakt", "Über die Schule", "Unterricht & Schulleben", "Service & Downloads"
 );
 $items = array(
-  "spalte_anfang",
+  "spalte_anfang" => "",
   "Anfahrt" => "allgemeines/anfahrt",
   "Schulleitung" => "kontakte/schulleitung",
   "Fachbereichsleiter" => "kontakte/fbl",
@@ -37,9 +38,9 @@ $items = array(
   "Gleichstellungsbeauftragte" => "kontakte/gleichstellung",
   "Schulelternrat (SER)" => "ser/vorstand",
   "Förderverein" => "foerderverein/ueber_uns",
-  "spalte_ende",
+  "spalte_ende" => "",
 
-  "spalte_anfang",
+  "spalte_anfang" => "",
   "Leitbild" => "schule/leitbild",
   "Schulprogramm" => "schule/schulprogramm",
   "Unsere Geschichte" => "schule/geschichte",
@@ -50,9 +51,9 @@ $items = array(
   "Zuständigkeiten / Organigramm" => "schule/organigramm",
   "Ausbildungsschule" => "schule/ausbildungsschule",
   "Unsere Schule in der Presse" => "schule/presse",
-  "spalte_ende",
+  "spalte_ende" => "",
 
-  "spalte_anfang",
+  "spalte_anfang" => "",
   "Fächer" => "Faecher",
   "Berufsorientierung" => "unterricht/berufsorientierung",
   "Schülerfirmen" => "unterricht/schuelerfirmen",
@@ -66,17 +67,18 @@ $items = array(
   "BO-Coaches" => "unterricht/bo-coaches",
   "Schulhund" => "unterricht/schulhund",
   "Streitschlichter" => "unterricht/streitschlichter",
-  "spalte_ende",
+  "spalte_ende" => "",
 
-  "spalte_anfang",
+  "spalte_anfang" => "",
   "Informationen und Formulare" => "allgemeines/wichtigelinks",
   "Schulbusverkehr" => "allgemeines/bus",
   "Zeitraster" => "allgemeines/zeitraster",
-  "spalte_ende"
+  "spalte_ende" => ""
 
 );
 $icons = array(
 
+  "spalte_anfang",
   "Anfahrt" => "geo-alt",
   "Schulleitung" => "person-circle",
   "Fachbereichsleiter" => "person-square",
@@ -88,8 +90,9 @@ $icons = array(
   "Gleichstellungsbeauftragte" => "person-fill",
   "Schulelternrat (SER)" => "people-fill",
   "Förderverein" => "tags-fill",
+  "spalte_ende",
 
-  
+  "spalte_anfang",
   "Leitbild" => "layout-wtf",
   "Schulprogramm" => "layout-wtf",
   "Unsere Geschichte" => "book",
@@ -100,8 +103,9 @@ $icons = array(
   "Zuständigkeiten / Organigramm" => "list-ol",
   "Ausbildungsschule" => "award",
   "Unsere Schule in der Presse" => "newspaper",
+  "spalte_ende",
 
-  
+  "spalte_anfang",
   "Fächer" => "journals",
   "Berufsorientierung" => "door-open",
   "Schülerfirmen" => "journals",
@@ -115,38 +119,78 @@ $icons = array(
   "BO-Coaches" => "door-open",
   "Schulhund" => "door-open",
   "Streitschlichter" => "door-open",
-  
+  "spalte_ende",
+
+  "spalte_anfang",
   "Informationen und Formulare" => "journals",
   "Schulbusverkehr" => "truck",
   "Zeitraster" => "clock",
+  "spalte_ende"
 );
 $titel_count = 0;
 $icons_count = 0;
-/*
-foreach($items as $name => $link) :
-  if($item == "spalte") : ?>
-      </div>
-    </li>
+$spalte_anfang = "spalte_anfang";
+$spalte_ende = "spalte_ende";
+$trenn = "trenn";
 
-      <li class="dropdown nav-item">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <?= $titel[$titel_count] ?>
-        </a>
+//Nachfolgend wird die Grundstruktur für die Navbar erstellt
+?>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
+  <!--
+          Hier kann das Logo stehen oder der Name der Schule.
+          Müssen wir am Ende vom Design her entscheiden.
+        -->
+  <div class="d-none d-sm-none d-lg-block d-xl-block">
+    <a class="logo" href="<?= $site->url() ?>">
+      <?= asset('assets/bilder/logo.svg')->read() ?>
+    </a>
+  </div>
 
-      <div class="dropdown-menu dropdown-with-icons">
+  <a class="navbar-brand text-white d-block d-sm-block d-lg-none" href="<?= $site->url() ?>">KGS Rastede</a>
 
-  <?php elseif ($item == "trenn") : ?>
-        <div class="dropdown-divider"></div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <?php else : ?>
-        <a class="dropdown-item" href="<?= page($link)->url() ?>">
-          <svg class="bi" width="24" height="24">
-            <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$icons_count] ?>" />
-          </svg> <?= $name ?>
-        </a>
-  <?php endif;
-endforeach*/ ?>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mb-2 mr-3 mb-lg-0 ">
 
+
+      <?php  foreach($items as $name => $link) : //Ab hier werden die Arrays durchlaufen und alle Elemente werden in die navbar eingefügt
+      
+        if (strcmp ($name, $spalte_anfang) == 0) : echo strcmp ($name, $spalte_anfang);//Anfang einer Spalte ?>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <?= $titel[$titel_count] ?>
+            </a>
+
+            <div class="dropdown-menu dropdown-with-icons">
+
+        <?php elseif (strcmp ($name, $spalte_ende) == 0) : //Ende einer Spalte ?>
+            </div>
+          </li>    
+
+        <?php elseif (strcmp ($name, $trenn) == 0) : //Ein Trennstrich zwischen zwei Elementen ?>
+              <div class="dropdown-divider"></div>
+
+        <?php else : //Die Elemente bzw. links ?>
+              <a class="dropdown-item" href="<?= page($link)->url() ?>">
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="<?= $kirby->url('assets') ?>/icons/bootstrap-icons.svg#<?= $icons[$name] ?>" />
+                </svg> <?= $name ?>
+              </a>
+
+        <?php endif;
+      endforeach ?>
+
+    </ul>
+  </div>
+</nav> 
+
+
+
+
+<?php  /*Ab hier kommt der alte code für die navbar  ?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
   <!--
           Hier kann das Logo stehen oder der Name der Schule.
@@ -453,4 +497,5 @@ endforeach*/ ?>
   </div>
 
 
-</nav>
+</nav> 
+*/ ?>
