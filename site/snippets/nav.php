@@ -78,7 +78,6 @@ $items = array(
 );
 $icons = array(
 
-  "spalte_anfang",
   "Anfahrt" => "geo-alt",
   "Schulleitung" => "person-circle",
   "Fachbereichsleiter" => "person-square",
@@ -90,9 +89,7 @@ $icons = array(
   "Gleichstellungsbeauftragte" => "person-fill",
   "Schulelternrat (SER)" => "people-fill",
   "Förderverein" => "tags-fill",
-  "spalte_ende",
 
-  "spalte_anfang",
   "Leitbild" => "layout-wtf",
   "Schulprogramm" => "layout-wtf",
   "Unsere Geschichte" => "book",
@@ -103,9 +100,7 @@ $icons = array(
   "Zuständigkeiten / Organigramm" => "list-ol",
   "Ausbildungsschule" => "award",
   "Unsere Schule in der Presse" => "newspaper",
-  "spalte_ende",
 
-  "spalte_anfang",
   "Fächer" => "journals",
   "Berufsorientierung" => "door-open",
   "Schülerfirmen" => "journals",
@@ -119,13 +114,10 @@ $icons = array(
   "BO-Coaches" => "door-open",
   "Schulhund" => "door-open",
   "Streitschlichter" => "door-open",
-  "spalte_ende",
 
-  "spalte_anfang",
   "Informationen und Formulare" => "journals",
   "Schulbusverkehr" => "truck",
-  "Zeitraster" => "clock",
-  "spalte_ende"
+  "Zeitraster" => "clock"
 );
 $titel_count = 0;
 $icons_count = 0;
