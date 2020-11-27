@@ -1,1 +1,9 @@
-Beschreibung: Kurswahl für auswärtige Sschülerinnen und Schüler
+Anzeigename: Kurswahl für auswärtige Schülerinnen und Schüler
+
+----
+
+Startseite: false
+
+----
+
+Template: pdfs

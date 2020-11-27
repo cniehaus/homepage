@@ -31,18 +31,23 @@ Text:
 
 ----
 
+Relatedtitel: 
+
+----
+
 Related: 
+
+----
+
+Downloadtitel: 
 
 ----
 
 Downloads:
 
+- info-oberstufe-kgs-rastede2020.pdf
 - schwerpunkte_ab-abi-2022.pdf
 - schwerpunkte_ab-abi-2023.pdf
-
-----
-
-Toggle: true
 
 ----
 
@@ -51,3 +56,7 @@ Sidetitel:
 ----
 
 Sidebar: 
+
+----
+
+Toggle: true

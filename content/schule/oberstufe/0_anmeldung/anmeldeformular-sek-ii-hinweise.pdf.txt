@@ -1,1 +1,9 @@
-Beschreibung: Hinweise zum Anmeldeformular
+Anzeigename: Hinweise zum Anmeldeformular
+
+----
+
+Startseite: false
+
+----
+
+Template: pdfs

@@ -1,0 +1,9 @@
+Anzeigename: Folien zur Informationsveranstaltung
+
+----
+
+Startseite: false
+
+----
+
+Template: pdfs
