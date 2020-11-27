@@ -47,11 +47,12 @@ Tags: Schulleitung, Topartikel
 
 Downloads:
 
-- 2020-11-17_brief_an_sus_sek_i.pdf
-- 2020-11-17_brief_an_eltern_2.pdf
+- 2020-11-26_brief_an_eltern_kurz.pdf
 - >
-  2020-11-17_leitfaden-schule-in-corona-zeiten_update.pdf
-- 2020-11-17_brief_an_sus_sek_ii.pdf
+  2020-11-26_brief_an_eltern_und_erziehungsberechtigt.pdf
+- 2020-11-26_brief_an_sus_sek_ii.pdf
+- 2020-11-26_brief_an_sus_sek_i.pdf
+- 2020-11-26_rahmenhygieneplan-4.1.pdf
 
 ----
 
