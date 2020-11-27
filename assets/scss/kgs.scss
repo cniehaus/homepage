@@ -14,8 +14,20 @@
 
 
 
+
+
 @font-face{
-    font-family: 'PangeaTrial-Regular';
+    font-family: 'PangeaTrial';
+    src: url('PangeaTrial-Light.woff2');
+    font-style: normal;
+    font-weight: 300;
+
+    src: local('PangeaTrial-Light'), local('PangeaTrial-Light'),
+    url('./PangeaTrial-Light.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Pangea';
     src: url('./PangeaTrial-Regular.woff2');
     font-style: normal;
     font-weight: 400;
@@ -24,7 +36,40 @@
     url('./PangeaTrial-Regular.woff2') format('woff2');
 }
 
-$font-family-sans-serif: PangeaTrial-Regular, Segoe UI, Optima, Arial, sans-serif;
+@font-face{
+    font-family: 'PangeaTrial';
+    src: url('PangeaTrial-Medium.woff2');
+    font-style: normal;
+    font-weight: 500;
+
+    src: local('PangeaTrial-Medium'), local('PangeaTrial-Medium'),
+    url('./PangeaTrial-Medium.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'PangeaTrial';
+    src: url('PangeaTrial-SemiBold.woff2');
+    font-style: normal;
+    font-weight: 600;
+
+    src: local('PangeaTrial-SemiBold'), local('PangeaTrial-SemiBold'),
+    url('./PangeaTrial-SemiBold.woff2') format('woff2');
+}
+
+
+@font-face{
+    font-family: 'PangeaTrial';
+    src: url('./PangeaTrial-Bold.woff2');
+    font-style: normal;
+    font-weight: 700;
+
+    src: local('PangeaTrial-Bold'), local('PangeaTrial-Bold'),
+    url('./PangeaTrial-Bold.woff2') format('woff2');
+}
+
+
+
+$font-family-sans-serif: PangeaTrial, Segoe UI, Optima, Arial, sans-serif;
 
 $body-bg: #f4f4f4;
 
