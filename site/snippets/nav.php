@@ -202,7 +202,7 @@ $icons_count = 0;
 
 <?php unset($items) ?>
 
-<?php  /*Ab hier kommt der alte code für die navbar  ?>
+<?php  //Ab hier kommt der alte code für die navbar  ?>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
   <!--
           Hier kann das Logo stehen oder der Name der Schule.
