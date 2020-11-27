@@ -13,7 +13,8 @@ $items = name => link
     Möglchkeiten für name: 
       String = Ein Item mit diesem Displaynamen und link wird eingefügt
       "trenn" = Ein Trennstrich wird eingeüfgt
-      "spalte" = Es wird ein neuer Menüpunkt (Splate) eingefügt
+      "spalte_anfang" = Es wird ein neuer Menüpunkt (Spalte) eingefügt
+      "spalte_ende" = Makiert das Ende eines Menüpunktes (Spalte)
   link -> der zugehörige Link
 
 $icons = name => icon_name  
@@ -24,6 +25,7 @@ $titel = array(
   "Kontakt", "Über die Schule", "Unterricht & Schulleben", "Service & Downloads"
 );
 $items = array(
+  "spalte_anfang",
   "Anfahrt" => "allgemeines/anfahrt",
   "Schulleitung" => "kontakte/schulleitung",
   "Fachbereichsleiter" => "kontakte/fbl",
@@ -35,8 +37,9 @@ $items = array(
   "Gleichstellungsbeauftragte" => "kontakte/gleichstellung",
   "Schulelternrat (SER)" => "ser/vorstand",
   "Förderverein" => "foerderverein/ueber_uns",
+  "spalte_ende",
 
-  "spalte",
+  "spalte_anfang",
   "Leitbild" => "schule/leitbild",
   "Schulprogramm" => "schule/schulprogramm",
   "Unsere Geschichte" => "schule/geschichte",
@@ -47,8 +50,9 @@ $items = array(
   "Zuständigkeiten / Organigramm" => "schule/organigramm",
   "Ausbildungsschule" => "schule/ausbildungsschule",
   "Unsere Schule in der Presse" => "schule/presse",
+  "spalte_ende",
 
-  "spalte",
+  "spalte_anfang",
   "Fächer" => "Faecher",
   "Berufsorientierung" => "unterricht/berufsorientierung",
   "Schülerfirmen" => "unterricht/schuelerfirmen",
@@ -62,62 +66,63 @@ $items = array(
   "BO-Coaches" => "unterricht/bo-coaches",
   "Schulhund" => "unterricht/schulhund",
   "Streitschlichter" => "unterricht/streitschlichter",
-  
-  "spalte",
+  "spalte_ende",
+
+  "spalte_anfang",
   "Informationen und Formulare" => "allgemeines/wichtigelinks",
   "Schulbusverkehr" => "allgemeines/bus",
-  "Zeitraster" => "allgemeines/zeitraster"
-
+  "Zeitraster" => "allgemeines/zeitraster",
+  "spalte_ende"
 
 );
 $icons = array(
 
-  "Anfahrt" => "",
-  "Schulleitung" => "",
-  "Fachbereichsleiter" => "",
-  "Kollegium" => "lehrer",
-  "Sekretariate" => "",
-  "Hausmeister" => "",
-  "Schülervertretung (SV)"  => "",
-  "Personalrat (SPR)" => "",
-  "Gleichstellungsbeauftragte" => "",
-  "Schulelternrat (SER)" => "",
-  "Förderverein" => "",
+  "Anfahrt" => "geo-alt",
+  "Schulleitung" => "person-circle",
+  "Fachbereichsleiter" => "person-square",
+  "Kollegium" => "person-lines-fill",
+  "Sekretariate" => "telephone-fill",
+  "Hausmeister" => "tools",
+  "Schülervertretung (SV)"  => "people-fill",
+  "Personalrat (SPR)" => "briefcase-fill",
+  "Gleichstellungsbeauftragte" => "person-fill",
+  "Schulelternrat (SER)" => "people-fill",
+  "Förderverein" => "tags-fill",
 
   
-  "Leitbild" => "",
-  "Schulprogramm" => "",
-  "Unsere Geschichte" => "",
-  "Übergang Grundschule/KGS" => "",
-  "Die drei Schulzweige" => "",
-  "Oberstufe" => "",
-  "Abschlüsse an der KGS" => "",
-  "Zuständigkeiten / Organigramm" => "",
-  "Ausbildungsschule" => "",
-  "Unsere Schule in der Presse" => "",
+  "Leitbild" => "layout-wtf",
+  "Schulprogramm" => "layout-wtf",
+  "Unsere Geschichte" => "book",
+  "Übergang Grundschule/KGS" => "box-arrow-right",
+  "Die drei Schulzweige" => "list-ol",
+  "Oberstufe" => "subtract",
+  "Abschlüsse an der KGS" => "subtract",
+  "Zuständigkeiten / Organigramm" => "list-ol",
+  "Ausbildungsschule" => "award",
+  "Unsere Schule in der Presse" => "newspaper",
 
   
-  "Fächer" => "",
-  "Berufsorientierung" => "",
-  "Schülerfirmen" => "",
-  "Beratung" => "",
-  "Inklusion" => "",
-  "Kulturelles" => "",
-  "Wettbewerbe" => "",
-  "Das AG-Angebot" => "",
-  "Schule ohne Rassismus - Schule mit Courage" => "",
-  "Schulsanitätsdienst" => "",
-  "BO-Coaches" => "",
-  "Schulhund" => "",
-  "Streitschlichter" => "",
+  "Fächer" => "journals",
+  "Berufsorientierung" => "door-open",
+  "Schülerfirmen" => "journals",
+  "Beratung" => "chat-dots",
+  "Inklusion" => "door-open",
+  "Kulturelles" => "door-open",
+  "Wettbewerbe" => "door-open",
+  "Das AG-Angebot" => "door-open",
+  "Schule ohne Rassismus - Schule mit Courage" => "door-open",
+  "Schulsanitätsdienst" => "people",
+  "BO-Coaches" => "door-open",
+  "Schulhund" => "door-open",
+  "Streitschlichter" => "door-open",
   
-  "Informationen und Formulare" => "",
-  "Schulbusverkehr" => "",
-  "Zeitraster" => "",
+  "Informationen und Formulare" => "journals",
+  "Schulbusverkehr" => "truck",
+  "Zeitraster" => "clock",
 );
 $titel_count = 0;
 $icons_count = 0;
-
+/*
 foreach($items as $name => $link) :
   if($item == "spalte") : ?>
       </div>
@@ -140,7 +145,7 @@ foreach($items as $name => $link) :
           </svg> <?= $name ?>
         </a>
   <?php endif;
-endforeach ?>
+endforeach*/ ?>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
   <!--
