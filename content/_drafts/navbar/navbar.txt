@@ -2,4 +2,211 @@ Title: navbar
 
 ----
 
-Navbar: 
+Navbar:
+
+- 
+  dropdowntoggle: 'true'
+  kategorietitel: Kontakte
+  kategorieseite: [ ]
+  unterpunkte:
+    - 
+      isexternal: 'false'
+      linktitle: Anfahrt
+      pagelink:
+        - allgemeines/anfahrt
+      externallink: ""
+      trennstrich: 'true'
+      icon: geo-alt
+    - 
+      isexternal: 'false'
+      linktitle: Schulleitung
+      pagelink:
+        - kontakte/schulleitung
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Fachbereichsleiter
+      pagelink:
+        - kontakte/fbl
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Kollegium
+      pagelink:
+        - lehrer
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Sekreteriate
+      pagelink:
+        - kontakte/sekretariate
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Hausmeister
+      pagelink:
+        - kontakte/sekretariate
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Schülervertretung (SV)
+      pagelink:
+        - sv/die_sv
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Personalrat (SPR)
+      pagelink:
+        - kontakte/spr
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Gleichstellungsbeauftragte
+      pagelink: [ ]
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Schulelternrat (SER)
+      pagelink:
+        - ser/vorstand
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Förderverein
+      pagelink:
+        - foerderverein/ueber_uns
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+- 
+  dropdowntoggle: 'true'
+  kategorietitel: Über die Schule
+  kategorieseite: [ ]
+  unterpunkte:
+    - 
+      isexternal: 'false'
+      linktitle: Leitbild
+      pagelink:
+        - schule/leitbild
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Schulprogramm
+      pagelink:
+        - schule/schulprogramm
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Unsere Geschichte
+      pagelink:
+        - schule/geschichte
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Übergang Grundschule / KGS
+      pagelink:
+        - schule/grundschule
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Die drei Schulzweige
+      pagelink:
+        - schule/zweige
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Oberstufe
+      pagelink:
+        - schule/oberstufe
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Abschlüsse
+      pagelink:
+        - schule/abschluesse
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Zuständigkeiten / Organigramm
+      pagelink:
+        - schule/organigramm
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Ausbildungsschule
+      pagelink:
+        - schule/ausbildungsschule
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+    - 
+      isexternal: 'false'
+      linktitle: Unsere Schule in der Presse
+      pagelink:
+        - schule/presse
+      externallink: ""
+      trennstrich: 'true'
+      icon: ""
+- 
+  dropdowntoggle: 'true'
+  kategorietitel: 'Unterricht & Schulleben'
+  kategorieseite: [ ]
+  unterpunkte:
+    - 
+      isexternal: 'false'
+      linktitle: ""
+      pagelink: [ ]
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+- 
+  dropdowntoggle: 'true'
+  kategorietitel: 'Servcie & Downloads'
+  kategorieseite: [ ]
+  unterpunkte:
+    - 
+      isexternal: 'false'
+      linktitle: ""
+      pagelink: [ ]
+      externallink: ""
+      trennstrich: 'false'
+      icon: ""
+- 
+  dropdowntoggle: 'false'
+  kategorietitel: Kalender
+  kategorieseite: [ ]
+  unterpunkte: [ ]

@@ -4,9 +4,9 @@ title: Navbar
 fields:
   navbar:
     type: structure
-    label: Navbar
+    label: Kategorien
     fields:       
-      dropdown:
+      dropdownToggle:
         type: toggle
         label: Dropdown oder Link?
         text:          
@@ -14,15 +14,17 @@ fields:
           - "Dropdown" #true
       kategorieTitel:
         type: text
-        label: Titel der Kategorie          
+        label: Titel der Kategorie
       kategorieSeite:
         type: pages
         label: Seite der Kategorie
         max: 1
         when: 
-          dropdown: false
-      navItem:
-        type: pages
-        label: Dropdown Elemente
+          dropdownToggle: false
+      unterpunkte:
+        type: structure
+        label: Unterpunkte
         when:
-          dropdown: true
+          dropdownToggle: true
+        fields:
+          navitemfields: fields/navitemfields
