@@ -24,7 +24,7 @@ Navbar:
         - kontakte/schulleitung
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: person-circle
     - 
       isexternal: 'false'
       linktitle: Fachbereichsleiter
@@ -32,7 +32,7 @@ Navbar:
         - kontakte/fbl
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: person-square
     - 
       isexternal: 'false'
       linktitle: Kollegium
@@ -40,7 +40,7 @@ Navbar:
         - lehrer
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: person-lines-fill
     - 
       isexternal: 'false'
       linktitle: Sekreteriate
@@ -48,7 +48,7 @@ Navbar:
         - kontakte/sekretariate
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: telephone-fill
     - 
       isexternal: 'false'
       linktitle: Hausmeister
@@ -56,7 +56,7 @@ Navbar:
         - kontakte/sekretariate
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: tools
     - 
       isexternal: 'false'
       linktitle: Schülervertretung (SV)
@@ -64,7 +64,7 @@ Navbar:
         - sv/die_sv
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: people-fill
     - 
       isexternal: 'false'
       linktitle: Personalrat (SPR)
@@ -72,7 +72,7 @@ Navbar:
         - kontakte/spr
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: briefcase-fill
     - 
       isexternal: 'false'
       linktitle: Gleichstellungsbeauftragte
@@ -80,7 +80,7 @@ Navbar:
         - kontakte/gleichstellung
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: person-fill
     - 
       isexternal: 'false'
       linktitle: Schulelternrat (SER)
@@ -88,7 +88,7 @@ Navbar:
         - ser/vorstand
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: people-fill
     - 
       isexternal: 'false'
       linktitle: Förderverein
@@ -96,7 +96,7 @@ Navbar:
         - foerderverein/ueber_uns
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: tags-fill
 - 
   dropdowntoggle: 'true'
   kategorietitel: Über die Schule
@@ -109,7 +109,7 @@ Navbar:
         - schule/leitbild
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: bar-chart
     - 
       isexternal: 'false'
       linktitle: Schulprogramm
@@ -117,7 +117,7 @@ Navbar:
         - schule/schulprogramm
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: layout-wtf
     - 
       isexternal: 'false'
       linktitle: Unsere Geschichte
@@ -125,7 +125,7 @@ Navbar:
         - schule/geschichte
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: book
     - 
       isexternal: 'false'
       linktitle: Übergang Grundschule / KGS
@@ -133,7 +133,7 @@ Navbar:
         - schule/grundschule
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: box-arrow-right
     - 
       isexternal: 'false'
       linktitle: Die drei Schulzweige
@@ -141,7 +141,7 @@ Navbar:
         - schule/zweige
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: list-ol
     - 
       isexternal: 'false'
       linktitle: Oberstufe
@@ -149,15 +149,15 @@ Navbar:
         - schule/oberstufe
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: star
     - 
       isexternal: 'false'
-      linktitle: Abschlüsse
+      linktitle: Abschlüsse an der KGS Rastede
       pagelink:
         - schule/abschluesse
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: journal-text
     - 
       isexternal: 'false'
       linktitle: Zuständigkeiten / Organigramm
@@ -165,7 +165,7 @@ Navbar:
         - schule/organigramm
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: diagram-3
     - 
       isexternal: 'false'
       linktitle: Ausbildungsschule
@@ -173,7 +173,7 @@ Navbar:
         - schule/ausbildungsschule
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: award
     - 
       isexternal: 'false'
       linktitle: Unsere Schule in der Presse
@@ -181,7 +181,7 @@ Navbar:
         - schule/presse
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: newspaper
 - 
   dropdowntoggle: 'true'
   kategorietitel: 'Unterricht & Schulleben'
@@ -194,7 +194,7 @@ Navbar:
         - Faecher
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: easel
     - 
       isexternal: 'false'
       linktitle: Berufsorientierung
@@ -202,7 +202,7 @@ Navbar:
         - unterricht/berufsorientierung
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: signpost-split
     - 
       isexternal: 'false'
       linktitle: Schülerfirmen
@@ -210,7 +210,7 @@ Navbar:
         - unterricht/schuelerfirmen
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: shop
     - 
       isexternal: 'false'
       linktitle: Beratung
@@ -218,7 +218,7 @@ Navbar:
         - unterricht/beratung
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: chat-dots
     - 
       isexternal: 'false'
       linktitle: Inkulsion
@@ -226,7 +226,7 @@ Navbar:
         - unterricht/inklusion
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: door-open
     - 
       isexternal: 'false'
       linktitle: Kulturelles
@@ -234,7 +234,7 @@ Navbar:
         - unterricht/kulturelles
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: globe
     - 
       isexternal: 'false'
       linktitle: Wettbewerbe
@@ -242,7 +242,7 @@ Navbar:
         - unterricht/wettbewerbe
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: trophy
     - 
       isexternal: 'false'
       linktitle: Das Ag-Angebot
@@ -250,7 +250,7 @@ Navbar:
         - unterricht/ag-angebot
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: collection
     - 
       isexternal: 'false'
       linktitle: 'Schule ohne Rassismus - Schule mit Courage'
@@ -259,7 +259,7 @@ Navbar:
           unterricht/schule-ohne-rassismus-schule-mit-courage
       externallink: ""
       trennstrich: 'true'
-      icon: ""
+      icon: peace
     - 
       isexternal: 'false'
       linktitle: Schulsanitätsdienst
@@ -267,7 +267,7 @@ Navbar:
         - unterricht/ssd
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: people
     - 
       isexternal: 'false'
       linktitle: BO-Coaches
@@ -275,7 +275,7 @@ Navbar:
         - unterricht/bo-coaches
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: signpost
     - 
       isexternal: 'false'
       linktitle: Schulhund
@@ -283,7 +283,7 @@ Navbar:
         - unterricht/schulhund
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: suit-heart
     - 
       isexternal: 'false'
       linktitle: Streitschlichter
@@ -291,7 +291,7 @@ Navbar:
         - unterricht/streitschlichter
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: chat-left-text
 - 
   dropdowntoggle: 'true'
   kategorietitel: 'Servcie & Downloads'
@@ -304,7 +304,7 @@ Navbar:
         - allgemeines/wichtigelinks
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: paperclip
     - 
       isexternal: 'false'
       linktitle: Schulbusverkehr
@@ -312,7 +312,7 @@ Navbar:
         - allgemeines/bus
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: truck
     - 
       isexternal: 'false'
       linktitle: Zeitraster
@@ -320,7 +320,7 @@ Navbar:
         - allgemeines/zeitraster
       externallink: ""
       trennstrich: 'false'
-      icon: ""
+      icon: clock
 - 
   dropdowntoggle: 'false'
   kategorietitel: Kalender
