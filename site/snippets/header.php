@@ -22,5 +22,5 @@
 <body>
   
     <header>
-        <?php snippet('nav') ?>
+        <?php snippet('nav2') ?>
     </header>
