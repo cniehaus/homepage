@@ -26,7 +26,11 @@
     },
     "require": {
         "php": ">=7.3.0",
+<<<<<<< HEAD
         "getkirby/cms": "^3.5.0-rc2",
+=======
+        "getkirby/cms": "^3.4",
+>>>>>>> master
         "getkirby/editor": "^1.0",
         "pju/kirby-webhook-field": "^1.1"
     },
