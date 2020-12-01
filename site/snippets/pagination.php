@@ -1,6 +1,6 @@
 <?php if ($pagination->pages() > 1) : ?>
     <nav>
-        <ul class="pagination">
+        <ul class="pagination flex-wrap justify-content-center">
 
             <?php if ($pagination->hasPrevPage()) : ?>
              <li class="page-item">
