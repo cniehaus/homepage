@@ -14,7 +14,7 @@
         <?php foreach ($page->children() as $kontakt) : ?>
             <div class="col mb-4">
 
-                <div class="card">
+                <div class="card h-100">
                     <img class="card-img-top" src="<?= $kontakt->images()->first()->url() ?>" />
                     <div class="card-body">
                         <h5 class="card-title"><?= $kontakt->title() ?></h4>
