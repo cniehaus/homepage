@@ -17,7 +17,7 @@
     </div>
 
 
-    <div class="col-xl-4 mt-3 mt-xl-5">
+    <div class="col-xl-4">
       <?php snippet('box-schnellzugriff') ?>
       <?php snippet('box-kalender') ?>
       <?php snippet('box-presse') ?>

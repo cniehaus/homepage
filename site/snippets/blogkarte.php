@@ -1,8 +1,8 @@
 <div class="col">
     <div class="card mb-3">
         <div class="row g-0">
-            <div class="col-md-4 p-2 text-danger">
-                <div class="fs-4 fw-light">
+            <div class="col-md-4 p-1 text-danger">
+                <div class="fs-4 fw-light pl-3">
                     <?= $subpage->title() ?>
                 </div>
             </div>
