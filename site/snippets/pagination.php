@@ -27,9 +27,11 @@ $aktuelleSeite = $pagination->page() ?>
             <?php endfor ?>
 
             <?php if ($extraSeiten + 1 < $aktuelleSeite - ($range/2) +0.5 ) : 
-                //Es gibt Elemente zwischen der letzten ExtraSeite und den Seiten, die normal angzeigt werden. +0.5 siehe oben
+                //Es gibt Elemente zwischen der letzten ExtraSeite und den Seiten, 
+                //die normal angzeigt werden. +0.5 siehe oben
                 
-                    //d-none d-sm-blok => auf dem Handy nicht anzeigen?>
+                //d-none d-sm-block => auf dem Handy nicht anzeigen
+            ?>
                 <li class="page-item d-none d-sm-block">
                     <a class="page-link">
                         ...
