@@ -307,6 +307,14 @@ Navbar:
       icon: paperclip
     - 
       isexternal: 'false'
+      linktitle: Schulbuchlisten
+      pagelink:
+        - allgemeines/schulbuchlisten
+      externallink: ""
+      trennstrich: 'false'
+      icon: filter
+    - 
+      isexternal: 'false'
       linktitle: Schulbusverkehr
       pagelink:
         - allgemeines/bus
