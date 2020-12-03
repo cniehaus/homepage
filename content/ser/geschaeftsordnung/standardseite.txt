@@ -185,14 +185,8 @@ Text:
     },
     {
         "attrs": [],
-        "content": "(2) Die Mitglieder des SER berichten den Klassenelternschaften regelmäßig über ihre Tätigkeiten unter Wahrnehmung etwa gebotener",
-        "id": "_80pzAz2hs",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Vertraulichkeit.",
-        "id": "_UVSzh28Hx",
+        "content": "(2) Die Mitglieder des SER berichten den Klassenelternschaften regelmäßig über ihre Tätigkeiten unter Wahrnehmung etwa gebotener Vertraulichkeit.",
+        "id": "_g5xivyg8e",
         "type": "paragraph"
     },
     {
@@ -209,26 +203,14 @@ Text:
     },
     {
         "attrs": [],
-        "content": "(5) Vom SER können alle schulischen Fragen erörtert werden, private Angelegenheiten von Eltern, Schülern und Lehrern dürfen nicht",
-        "id": "_93TZ5qReo",
+        "content": "(5) Vom SER können alle schulischen Fragen erörtert werden, private Angelegenheiten von Eltern, Schülern und Lehrern dürfen nicht behandelt werden.",
+        "id": "_5omgnswwk",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "behandelt werden.",
-        "id": "_2AI42pma2",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "(6) Der SER ist von der Schulleitung oder der zuständigen Konferenz vor grundsätzlichen Entscheidungen, vor allem über die Organisation der",
-        "id": "_2VVWkghyQ",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Schule und die Leistungsbewertung zu hören.",
-        "id": "_TCv80H73V",
+        "content": "(6) Der SER ist von der Schulleitung oder der zuständigen Konferenz vor grundsätzlichen Entscheidungen, vor allem über die Organisation derSchule und die Leistungsbewertung zu hören.",
+        "id": "_w94u059qz",
         "type": "paragraph"
     },
     {
@@ -323,14 +305,8 @@ Text:
     },
     {
         "attrs": [],
-        "content": "(4) Der Vorstand muss den Schulelternrat gemäß § 90 Absatz 4 Satz 2 NSchG einberufen, wenn ein Fünftel der Mitglieder dies unter Angabe",
-        "id": "_Cl6HMwuHK",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "der Besprechungspunkte verlangt.",
-        "id": "_WAtb5KDkT",
+        "content": "(4) Der Vorstand muss den Schulelternrat gemäß § 90 Absatz 4 Satz 2 NSchG einberufen, wenn ein Fünftel der Mitglieder dies unter Angabeder Besprechungspunkte verlangt.",
+        "id": "_0nk6b6vob",
         "type": "paragraph"
     },
     {
@@ -407,7 +383,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "g) Die Redezeit kann begrenzt werden. Der Sitzungsvorstand kann hiervon Gebrauch machen. Das Plenum kann Abweichungen <br>beschließen.",
+        "content": "g) Die Redezeit kann begrenzt werden. Der Sitzungsvorstand kann hiervon Gebrauch machen. Das Plenum kann Abweichungen beschließen.",
         "id": "_0HJZtUo0H",
         "type": "paragraph"
     },
@@ -437,44 +413,20 @@ Text:
     },
     {
         "attrs": [],
-        "content": "(1) Der Schulelternrat ist beschlussfähig, wenn mindestens ein Viertel der Mitglieder anwesend ist. Die Beschlussfähigkeit stellt der Sprecher <br>des Vorstandes vor Eintritt in die Tagesordnung fest.<br><br>",
+        "content": "(1) Der Schulelternrat ist beschlussfähig, wenn mindestens ein Viertel der Mitglieder anwesend ist. Die Beschlussfähigkeit stellt der Sprecher des Vorstandes vor Eintritt in die Tagesordnung fest.<br><br>",
         "id": "_UcR6UUD2K",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "(2) Ist der SER beschlussunfähig und muss eine Abstimmung vertagt werden, kann in der nächsten Sitzung über den Gegenstand auch dann",
-        "id": "_IXliHFLwJ",
+        "content": "(2) Ist der SER beschlussunfähig und muss eine Abstimmung vertagt werden, kann in der nächsten Sitzung über den Gegenstand auch dann beschlossen werden, wenn das erforderliche Viertel der Mitglieder nicht anwesend ist. Hierauf muss in der Einladung zur nächsten Sitzung besonders hingewiesen werden.",
+        "id": "_t2b2oabia",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "beschlossen werden, wenn das erforderliche Viertel der Mitglieder nicht anwesend ist. Hierauf muss in der Einladung zur nächsten Sitzung",
-        "id": "_xHE5CHSc7",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "besonders hingewiesen werden.",
-        "id": "_Xj5RZHOZh",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "(3) Über Anträge wird grundsätzlich durch Handzeichen abgestimmt. Auf Verlangen eines Fünftels der anwesenden Mitglieder wird geheim",
-        "id": "_SjqOoEN3S",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "abgestimmt. Ein Antrag ist angenommen, wenn bei vorhandener Beschlussfähigkeit die Mehrheit der anwesenden Mitglieder zustimmt.",
-        "id": "_aFHOWcgI7",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Bei Stimmengleichheit gilt der Antrag als abgelehnt.",
-        "id": "_bnN3EESRN",
+        "content": "(3) Über Anträge wird grundsätzlich durch Handzeichen abgestimmt. Auf Verlangen eines Fünftels der anwesenden Mitglieder wird geheim abgestimmt. Ein Antrag ist angenommen, wenn bei vorhandener Beschlussfähigkeit die Mehrheit der anwesenden Mitglieder zustimmt. Bei Stimmengleichheit gilt der Antrag als abgelehnt.",
+        "id": "_2k8tn4pi2",
         "type": "paragraph"
     },
     {
@@ -503,14 +455,8 @@ Text:
     },
     {
         "attrs": [],
-        "content": "(8) Bei Wahlen hat jedes SER-Mitglied nur eine Stimme, bei Abstimmungen und Beschlüssen richtet sich die Stimmenanzahl des",
-        "id": "_Gx3MEy7jt",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "SER-Mitglieds nach der Anzahl der vertretenen Klassen.",
-        "id": "_aj5dF9VAi",
+        "content": "(8) Bei Wahlen hat jedes SER-Mitglied nur eine Stimme, bei Abstimmungen und Beschlüssen richtet sich die Stimmenanzahl SER-Mitglieds nach der Anzahl der vertretenen Klassen.",
+        "id": "_d72dqec2s",
         "type": "paragraph"
     },
     {
@@ -569,14 +515,14 @@ Text:
     },
     {
         "attrs": [],
-        "content": "<strong>§ 8 Protokoll</strong>",
-        "id": "_DT5hi2LS1",
+        "content": "",
+        "id": "_lsl1zxjb1",
         "type": "paragraph"
     },
     {
         "attrs": [],
-        "content": "",
-        "id": "_QryUPppaM",
+        "content": "<strong>§ 8 Protokoll</strong>",
+        "id": "_igo7biix8",
         "type": "paragraph"
     },
     {
@@ -647,14 +593,8 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Diese Geschäftsordnung wird auf der Homepage der KGS Rastede eingestellt und wird auf Wunsch jedem Mitglied des Schulelternrates und der Schulleitung",
-        "id": "_LjqNaM9ul",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "ausgehändigt.",
-        "id": "_WoZXE8r5A",
+        "content": "Diese Geschäftsordnung wird auf der Homepage der KGS Rastede eingestellt und wird auf Wunsch jedem Mitglied des Schulelternrates und der Schulleitung ausgehändigt.",
+        "id": "_bxmdwoa0e",
         "type": "paragraph"
     },
     {
