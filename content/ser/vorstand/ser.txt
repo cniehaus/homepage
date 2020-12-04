@@ -56,9 +56,9 @@ Mitglieder:
   phone: 04402-597766
   email: valkb@ewetel.net
 - 
-  name: Renè Ulfers
+  name: René Ulfers
   position: Bereichselternrat Realschule
-  phone: ----
+  phone: 0174-2069558
   email: Ulfers-rene@gmx.de
 - 
   name: Maren Hauken
@@ -73,7 +73,7 @@ Mitglieder:
 - 
   name: Sandra Cordes
   position: Bereichselternrat Gymnasium
-  phone: ----
+  phone: 04402-972994
   email: san.c@t-online.de
 - 
   name: Kim Anne Pöhlker
