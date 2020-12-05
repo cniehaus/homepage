@@ -17,13 +17,13 @@ Text:
     },
     {
         "attrs": [],
-        "content": "<a title=\"Wahlen Einführungsphase\" href=\"http://wahlen11.kgs-rastede.de/\">Wahlen für die Einführungsphase</a>",
+        "content": "<a title=\"Wahlen Einführungsphase\" href=\"https6://wahlen11.kgs-rastede.de/\">Wahlen für die Einführungsphase</a>",
         "id": "_rs07ht3r3",
         "type": "ul"
     },
     {
         "attrs": [],
-        "content": "<a href=\"http://wahlenquali.kgs-rastede.de/\">Wahlen für die Qualifikationsphase</a>",
+        "content": "<a href=\"https://wahlenquali.kgs-rastede.de/\">Wahlen für die Qualifikationsphase</a>",
         "id": "_v5c3rqy28",
         "type": "ul"
     },

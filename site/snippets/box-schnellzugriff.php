@@ -1,7 +1,7 @@
 <?php if ( collection('sDownloads')->isNotEmpty() or collection('uDownloads')->isNotEmpty() ) : ?>
 
+    <h2 class="mt-5 mb-3">Zur Zeit aktuelle Downloads</h2>
     <div class="card mb-3">
-        <h2 class="ml-3 mt-2">Zur Zeit aktuelle Downloads</h2>
         <div class="card-body">
             
             <?php foreach (collection('sDownloads') as $schnellverweis) : ?>

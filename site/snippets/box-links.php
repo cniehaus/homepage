@@ -4,7 +4,7 @@ $links_bilder =
     array(
         'https://thalia.webuntis.com/WebUntis/?school=kgs-rastede' => 'webuntis.png',
         'https://www.schuelerzeitung.kgs-rastede.de/' => 'irregulaer.png',
-        'https://kgs-rastede.schulserver.de/iserv' => 'IServ_Logo_klein_RGB_clean.svg',
+        'https://kgs-rastede.eu' => 'IServ_Logo_klein_RGB_clean.svg',
         'foerderverein/ueber_uns' => 'foerderverein.png',
         'https://www.opc-asp.de/kgs-rastede/menuplan.php?VMP' => 'mensa.png',
     );
