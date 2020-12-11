@@ -23,7 +23,7 @@ Text:
     },
     {
         "attrs": [],
-        "content": "Wie dem Brief des Kultusministeriums zu entnehmen ist, besteht weiterhin vom 14.12. – 18.12.20 Schulpflicht. D.h., der Unterricht in der Schule geht weiter und für die Schülerinnen und Schüler, die zu Hause lernen, wird es Aufgaben geben oder sie nehmen via IServ am Unterricht teil. Das entscheidet die jeweilige Lehrkraft. Die Ankündigungen im WebUntis-Messenger bzw. IServ-Messenger sind zu beachten.",
+        "content": "Wie den Briefen des Kultusministeriums zu entnehmen ist, besteht weiterhin vom 14.12. – 18.12.20 Schulpflicht. D.h., der Unterricht in der Schule geht weiter und für die Schülerinnen und Schüler, die zu Hause lernen, wird es Aufgaben geben oder sie nehmen via IServ am Unterricht teil. Das entscheidet die jeweilige Lehrkraft. Die Ankündigungen im WebUntis-Messenger bzw. IServ-Messenger sind zu beachten.",
         "id": "_JlKXn6pOI",
         "type": "paragraph"
     },
@@ -107,6 +107,7 @@ Downloads:
 - 2020-12-10_brief_an_sus_sek_ii.pdf
 - >
   beratungsangebote_f_r_sch_lerinnen_und_sch_ler.pdf
+- 2020-11-26_rhp_schulen_final.pdf
 
 ----
 
