@@ -84,8 +84,8 @@
                     </div>
                 </div>
             </div>
+            <button type="submit" name="submit" value="Submit" class="ms-3 mt-3 btn btn-secondary">neues Passwort anfordern...</button>
         </div>
-        <button type="submit" name="submit" value="Submit" class="ms-3 btn btn-secondary">neues Passwort anfordern...</button>
 
         <!--  -->
     </form>
