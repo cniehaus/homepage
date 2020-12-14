@@ -71,7 +71,7 @@ Gegebenfalls muss man aber noch den Pfad ("PATH") unter Windows einrichten. Das 
 C:\wamp64\bin\php\php7.4.0
 ```
 
-https://youtu.be/83SccoBYSfA?t=80
+Über den folgenden Link kann das Video aufgerufen werden: https://youtu.be/83SccoBYSfA?t=80
 
 
 
