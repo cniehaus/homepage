@@ -41,8 +41,8 @@ return function($kirby, $pages, $page) {
             try {
                 $kirby->email([
                     'template' => 'iserv',
-                    'from'     => esc($data['email'],
-                    'replyTo'  => esc($data['email'],
+                    'from'     => esc($data['email']),
+                    'replyTo'  => esc($data['email']),
                     'to'       => 'netzwerk@kgs-rastede.eu',
                     'subject'  => esc($data['name']) . ' fordert ein neues Passwort an',
                     'data'     => [
