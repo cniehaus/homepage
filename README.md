@@ -12,7 +12,7 @@ Ich habe Kirby soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Da
 *Weitere Details sind unten zu finden.*
 
 
-In der Konsole muss nun folgendes eingegeben werden:
+In der Konsole muss zum herunterladen der Homepage nun folgendes eingegeben werden:
 
 ```console
 git clone https://gitlab.com/cniehaus/homepage
