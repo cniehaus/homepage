@@ -9,7 +9,7 @@ Ich habe Kirby soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Da
 + git
 + ein guter Editor  (Visual Studio Code, Atom, ...)
 
-*Weitere Details sind unten zu finden*
+*Weitere Details sind unten zu finden.*
 
 
 In der Konsole muss nun folgendes eingegeben werden:
