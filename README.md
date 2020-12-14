@@ -4,7 +4,7 @@ Ich habe Kirby soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Da
 ## Vorher ist folgende Software zu installieren
 
 + composer (https://getcomposer.org/download/)
-+ WebServer (WAMP https://www.wampserver.com/, LAMP, ...)
++ WebServer (WAMP, LAMP, ...)
 + PHP 7 (empfohlen ist PHP 7.4 oder neuer)
 + git
 + ein guter Editor  (Visual Studio Code, Atom, ...)
