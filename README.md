@@ -45,8 +45,8 @@ Kein Problem! Wir können uns entweder mal (z.B. in einer Mittagspause) treffen 
 * Als Editor eignet sich [VS Code](https://code.visualstudio.com/).
 * Unter Linux verwende ich schon immer [Vim](https://www.vim.org/), ein besserer Editor kann kaum existieren :-)
 * Atom (https://atom.io/) ist auch super, technisch VS Code sehr ähnlich
-* Zurecht schwören viele auf Sublime (https://www.sublimetext.com/
-* Notepad++ ist ein einfacher zu beherschender Editor, der auf jeden Fall auch ok ist. https://notepad-plus-plus.org/ 
+* Zurecht schwören viele auf Sublime (https://www.sublimetext.com/)
+* Notepad++ ist ein einfacher zu beherschender Editor, der auf jeden Fall auch ok ist. https://notepad-plus-plus.org/)
 
 ### Quellcode verwalten
 Um den Quellcode zu verwalten braucht man [Git](https://git-scm.com/). Das kann man einfach installieren, Visual Code kann das dann direkt benutzen. Man (jedenfalls ich) benutzt Git direkt aus VS Code heraus. Auch andere sehr gute Editoren (Vim, Sublime, Atom, ...) unterstüzten Git direkt, denn Git ist ein Standard geworden. Jeder benutzt es.
