@@ -6,34 +6,7 @@ Heading:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Diese Seite ist noch nicht fertig",
-        "id": "_63ivkgsop",
-        "type": "h1"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_26vithkw9",
-        "type": "paragraph"
-    },
-    {
-        "attrs": {
-            "guid": "/pages/unterricht+schule-ohne-rassismus-schule-mit-courage/files/baustelle.jpg",
-            "id": "unterricht/schule-ohne-rassismus-schule-mit-courage/baustelle.jpg",
-            "filename": "baustelle.jpg",
-            "ratio": 1.335113484646195,
-            "caption": ""
-        },
-        "content": "",
-        "id": "_ce00lltax",
-        "type": "image"
-    }
-]
+Text: [{"content":{"level":"h1","text":"Diese Seite ist noch nicht fertig"},"id":"64e41501-fc4a-4b88-81bf-c36220ea7b06","isHidden":false,"type":"heading"},{"content":{"text":"<p><\/p>"},"id":"baf1106d-3b6e-4770-b1a7-ba4bad571adc","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["baustelle.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"6b6f7da8-4f9f-4b0a-83db-c81cdb84d947","isHidden":false,"type":"image"}]
 
 ----
 
