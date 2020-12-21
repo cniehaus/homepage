@@ -1,4 +1,5 @@
 <?php $kategorien = page('navbar')->navbar()->toStructure() ?>
+<?php $count = 1 //Wird für die id der Kategorien verwendet, damit diese einmalig bleiben ?> 
 
 <?php if ($kategorien->isNotEmpty()) : //Erst die Grundstruktur für die nav ?>
 
@@ -24,7 +25,7 @@
         <ul class="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
 
           <?php //Jetzt kommen alle Kategorien
-            snippet('navkategorien', ['items' => $kategorien]) ?>
+            snippet('navkategorien', ['items' => $kategorien, 'count' => $count ]) ?>
 
         </ul>
       </div>

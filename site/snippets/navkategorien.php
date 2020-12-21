@@ -7,13 +7,14 @@
         </a>
 
     <?php else : //Wenn die Kategorie eine mit Unterpunkten sein soll ?>        
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown<?= $count ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <?php if ($item->kategorieTitel()->isNotEmpty()) : //Wenn ein Titel für die Kategorie vorhanden ist ?>
                 <?= $item->kategorieTitel() ?>
             <?php else : //Wenn kein Titel angegeben wurde ?>
                 Ersatztitel
             <?php endif ?>
         </a>
+        <?php $count++ //Die Varibale ein weiter Zählen, damit die id einmalig ist ?>
     <?php endif ?>
         
 
