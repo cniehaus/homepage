@@ -1,4 +1,14 @@
-module.exports = {
-  content: ['index.html', '**/*.js', '**/*.html', '**/*.php'],
-  css: ['css/app.css']
-}
+const purgecss = await new PurgeCSS().purge()
+
+await new PurgeCSS().purge({
+  content: [
+    '**/*.js',
+    '**/*.html', 
+    '**/*.php'
+  ],
+
+  css: [
+    'app.css'
+  ]
+
+})
