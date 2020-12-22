@@ -221,7 +221,7 @@ Navbar:
       icon: chat-dots
     - 
       isexternal: 'false'
-      linktitle: Inkulsion
+      linktitle: Inklusion
       pagelink:
         - unterricht/inklusion
       externallink: ""
