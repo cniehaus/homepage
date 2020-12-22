@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
 
 
-<script src='<?= $kirby->url('assets') ?>/js/plugins/main.js'></script>
+<script src='<?= $kirby->url('assets') ?>/js/plugins/main.min.js'></script>
 
 
 <script>
