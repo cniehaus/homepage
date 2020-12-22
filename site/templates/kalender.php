@@ -61,12 +61,12 @@
       // Der Schulkalender liegt bei https://kgs-rastede.eu/iserv/public/calendar?key=1bad7fec91a3d07904543f4476774fd1
       // Lokal hier:       //   url: '<?= $kirby->url('assets') ?>/kalender/public.ics',
 
-      events: {
-        url: '<?= $kirby->url('assets') ?>/kalender/public.ics',
-        format: 'ics'
-      }
+      // events: {
+      //   url: '<?= $kirby->url('assets') ?>/kalender/public.ics',
+      //   format: 'ics'
+      // }
 
-      // events: '<?= $kirby->url('assets') ?>/kalender/schuljahresplaner.json'
+      events: '<?= $kirby->url('assets') ?>/kalender/schuljahresplaner.json'
     });
 
     calendar.render();
