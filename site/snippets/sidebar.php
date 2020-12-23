@@ -23,7 +23,7 @@ if ($sideE or $relaE or $downE) : //wenn es in einer der Teile Inhalt gibt ?>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
                                     <?php foreach ($page->sidebar()->toStructure() as $sidebar) : ?>
-                                        <li class="list-group-item">
+                                        <li class="list-group-item  list-group-item-action">
                                             <a href="<?= $sidebar->link() ?>" class="text-decoration-none"><?= $sidebar->name()->or($sidebar->link()) ?></a>
                                         </li>
                                     <?php endforeach ?>
@@ -50,7 +50,7 @@ if ($sideE or $relaE or $downE) : //wenn es in einer der Teile Inhalt gibt ?>
                                 <ul class="list-group list-group-flush">
                                     <?php $relatedPages =  $page->related()->toPages();
                                     foreach ($relatedPages as $relatedPage) : ?>
-                                        <li class="list-group-item">
+                                        <li class="list-group-item list-group-item-action">
                                             <a href="<?= $relatedPage->url() ?>" target="_blank" class="text-decoration-none"><?= $relatedPage->title() ?></a>
                                         </li>
                                     <?php endforeach ?>
