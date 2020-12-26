@@ -17,15 +17,15 @@ return function ($kirby, $pages, $page) {
         $admin_email = 'netzwerk@kgs-rastede.de';
 
         $data = [
-            'lehrkraft'  => get('lehrkraft'),
+            'mail'  => get('emailadresse'),
         ];
 
         $rules = [
-            'lehrkraft'  => ['required', 'minLength' => 3, 'maxLength' => 30],
+            'mail'  => ['required', 'minLength' => 3, 'maxLength' => 30],
         ];
 
         $messages = [
-            'lehrkraft'  => 'Bitte einen gültigen Vor- und Nachnamen eingeben',
+            'mail'  => 'Die Mailadresse ist nicht gültig',
         ];
 
         // some of the data is invalid
@@ -46,13 +46,13 @@ return function ($kirby, $pages, $page) {
             try {
                 $kirby->email([
                     'template' => 'wlanticket',
-                    'from'     => esc($data['lehrkraft']),
-                    'replyTo'  => esc($data['lehrkraft']),
-                    'to'       => esc($data['lehrkraft']),
+                    'from'     => esc($data['mail']),
+                    'replyTo'  => esc($data['mail']),
+                    'to'       => esc($data['mail']),
                     'subject'  => 'Anfrage eines Tickets für das WLAN der KGS Rastede',
                     'data'     => [
                         'ticket'   => esc($data['ticket']),
-                        'sender' => esc($data['lehrkraft'])
+                        'sender' => esc($data['mail'])
                     ]
                 ]);
             } catch (Exception $error) {
@@ -65,7 +65,7 @@ return function ($kirby, $pages, $page) {
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Das WLAN-Ticket wurde an \'' . esc($data['lehrkraft']) . '\' geschickt.';
+                $success = 'Das WLAN-Ticket wurde an \'' . esc($data['mail']) . '\' geschickt.';
                 $data = [];
             }
 
