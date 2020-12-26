@@ -4,11 +4,11 @@ return function ($kirby, $pages, $page) {
     $alert = null;
 
     if ($kirby->request()->is('POST') && get('submit')) {
-        if ($page->tickets()->isEmpty()){ //Sind überhaupt Tickets vorhanden?
+        if ($page->tickets()->isEmpty()) { //Sind überhaupt Tickets vorhanden?
             go($page->url());
             exit;
         }
-        
+
         if (empty(get('website')) === false) { // check the honeypot
             go($page->url());
             exit;
@@ -35,14 +35,21 @@ return function ($kirby, $pages, $page) {
 
             // Daten sind korrekt -> Ticket bestimmen und E-Mail senden
         } else {
-            
+
             $arr_tickets = $page->tickets()->nl2br()->split('<br>'); //Alle Tickets im Array speichern
             $data['ticket'] = $arr_tickets[0]; //Erstes Ticket speichern für E-Mail
             unset($arr_tickets[0]); //Erstes Ticket aus dem Array löschen
             $ubrige_tickets = implode("\n", $arr_tickets); //Das Array zu einem String umformen
-            // $page->update([ 'tickets' => $ubrige_tickets ]); //Übrige Tickets wieder speichern
+
+            $kirby = kirby();
+            $kirby->impersonate('kirby');
+
+            $page->update(['tickets' => $ubrige_tickets]); //Übrige Tickets wieder speichern
+
+            $kirby->impersonate('nobody'); #Alle Rechte wieder wegnehmen
+
             $anzahl_ubrige_tickets = count($arr_tickets); //Anzahl der übrigen Tickets bestimmen
-            
+
 
             try {
                 $kirby->email([
@@ -83,7 +90,7 @@ return function ($kirby, $pages, $page) {
                         'subject'  => $subject,
                         'data'     => [
                             'text'   => '[Dies ist eine automatsiche E-Mail der Homepage] <br><br>
-                                Die Anzahl der WLAN-Tickets beträgt nur noch: <strong>' . $anzahl_ubrige_tickets . '</strong><br>Bitte neue Tickets für das WLAN erzeugen und im Panel einfügen.',                            
+                                Die Anzahl der WLAN-Tickets beträgt nur noch: <strong>' . $anzahl_ubrige_tickets . '</strong><br>Bitte neue Tickets für das WLAN erzeugen und im Panel einfügen.',
                         ]
                     ]);
                 } catch (Exception $error) {
@@ -91,13 +98,11 @@ return function ($kirby, $pages, $page) {
                         $alert['error'] = $alert['error'] . 'Die Admins konnten nicht benachrichtigt werden: <strong>' . $error->getMessage() . '</strong>';
                     else :
                         $alert['error'] = $alert['error'] . 'Die Anzahl der verfügbaren WLAN-Tickets beträgt weniger als ' . $minimum_tickets .
-                         '. Es konnte jedoch keine automatische E-Mail an die Admins geschickt werden. Bitte informieren Sie die Admins über: ' . $admin_email . 
-                         ', damit neue Tickets angelegt werden können';
+                            '. Es konnte jedoch keine automatische E-Mail an die Admins geschickt werden. Bitte informieren Sie die Admins über: ' . $admin_email .
+                            ', damit neue Tickets angelegt werden können';
                     endif;
                 }
             }
-                    
-            
         }
     }
 
