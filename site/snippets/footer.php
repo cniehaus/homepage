@@ -2,7 +2,7 @@
 
 </main>
 
-<footer class="container-fluid">
+<footer class="container-fluid bg-primary pt-5">
   <div class="row">
 
     <div class="col-md-2">
