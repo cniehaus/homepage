@@ -7,6 +7,7 @@
   font-style: normal;
   font-weight: 300;
   src: local("Pangea-LightWeb"), local("Pangea-LightWeb"), url("./Pangea-LightWeb.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Pangea";
@@ -14,6 +15,7 @@
   font-style: normal;
   font-weight: 400;
   src: local("Pangea-Regular"), local("Pangea-RegularWeb"), url("./Pangea-RegularWeb.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Pangea";
@@ -21,6 +23,7 @@
   font-style: normal;
   font-weight: 500;
   src: local("Pangea-MediumWeb"), local("Pangea-MediumWeb"), url("./Pangea-MediumWeb.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Pangea";
@@ -28,6 +31,7 @@
   font-style: normal;
   font-weight: 600;
   src: local("Pangea-SemiBold"), local("Pangea-SemiBoldWeb"), url("./Pangea-SemiBoldWeb.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Pangea";
@@ -35,6 +39,7 @@
   font-style: normal;
   font-weight: 700;
   src: local("Pangea-BoldWeb"), local("Pangea-BoldWeb"), url("./Pangea-BoldWeb.woff2") format("woff2");
+  font-display: swap;
 }
 .main {
   margin-top: 30px;
