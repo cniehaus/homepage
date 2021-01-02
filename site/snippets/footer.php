@@ -42,7 +42,7 @@
   </div>
   <hr>
   <div class="row">
-    <div class="col-6">
+    <div class="col">
       Copyright &#xA9; <script>
         document.write(new Date().getFullYear())
       </script> KGS Rastede ; All Rights Reserved.
