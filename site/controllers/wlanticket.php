@@ -54,6 +54,17 @@ return function ($kirby, $pages, $page) {
 
             $anzahl_ubrige_tickets = count($arr_tickets); //Anzahl der übrigen Tickets bestimmen
 
+            //Namen der Lehrkraft bestimmen
+            $kuerzel = substr_replace($data['mail'], '', -15); // '@kgs-rastede.de' ist 15 Zeichen lang, übrig bleibt also das Kürzel
+            $name = "";
+            foreach (page('lehrer')->children() as $lehrer) {
+                if ($kuerzel == $lehrer->kuerzel()) {
+                    $name = $lehrer->name();
+                }
+            }
+
+            if (empty($name)) //Falls die E-Mail eine extra E-Mail ist und nicht in der Lehrer csv steht
+                $name = esc($data['mail']);
 
             try {
                 $kirby->email([
@@ -64,7 +75,7 @@ return function ($kirby, $pages, $page) {
                     'subject'  => 'Anfrage eines Tickets für das WLAN der KGS Rastede',
                     'data'     => [
                         'ticket'   => esc($data['ticket']),
-                        'sender' => esc($data['mail'])
+                        'sender' => $name
                     ]
                 ]);
             } catch (Exception $error) {
