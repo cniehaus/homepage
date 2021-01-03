@@ -57,7 +57,7 @@
                 <option disabled>---Lehrer---</option>
 
                 <?php foreach (page('lehrer')->children() as $l) : //Die Lehrer Liste durchlaufen (csv Datei) ?>
-                  <option value="<?= $l->kuerzel() ?>@kgs-rastede.de"><?= $l->kuerzel()->upper() ?></option>
+                  <option value="<?= $l->kuerzel() ?>@kgs-rastede.eu"><?= $l->kuerzel()->upper() ?></option>
                 <?php endforeach ?>
                 
 
@@ -72,7 +72,7 @@
                 <?php endforeach ?>
 
               </select>
-              <?= isset($alert['emailadresse']) ? '<span class="alert error text-danger">' . html($alert['emailadresse']) . '</span>' : '' ?>
+              <?= isset($alert['mail']) ? '<span class="alert error text-danger">' . html($alert['mail']) . '</span>' : '' ?>
 
               <div id="emailadresseHelp" class="form-text"><?= $page->info() ?></div>
 
