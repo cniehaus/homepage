@@ -1,14 +1,15 @@
 <?php if ($block->url()->isNotEmpty()): ?>
 
 <div class="col col-md-6">    
-    <div class="ratio ratio-16x9">
+    <!-- <div class="ratio ratio-16x9"> -->
 
         <?= video($block->url()) ?>
         <?php if ($block->caption()->isNotEmpty()): ?>
-            <div class="ratio ratio-16x9"><?= $block->caption() ?></div>
+            <div><?= $block->caption() ?></div>
+            <!-- <div class="ratio ratio-16x9"><?= $block->caption() ?></div> -->
         <?php endif ?>
 
-    </div>
+    <!-- </div> -->
 </div>
 
 <?php endif ?>
