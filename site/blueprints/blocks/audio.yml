@@ -1,0 +1,8 @@
+# /site/blueprints/blocks/button.yml
+name: Audio-Datei
+icon: file-audio
+fields:
+  soundfile:
+    type: files
+  name:
+    type: text
