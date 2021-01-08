@@ -1,0 +1,50 @@
+Title: Corona: Sammelartikel mit allen aktuellen Informationen
+
+----
+
+Heading: 
+
+----
+
+Text: [{"content":{"text":"<p>Wie geht es nach den Weihnachtsferien weiter?<\/p><p>Am gestrigen Abend wurden neue Beschl\u00fcsse gefasst. Nach den Ferien starten nur die Abschlussklassen (9HZ und 10 HZ und 10 RZ) und der 13. Jahrgang im Pr\u00e4senzunterricht. In welcher Form genau, das werden wir im Laufe des Tages entscheiden und hier bekanntgeben.<\/p><p>Alle anderen Klassen befinden sich ab Montag, 11.01., im Distanzlernen, d.h. Lernen von zu Hause aus.<\/p><p>Weitere Informationen, auch zur Notbetreuung, folgen.<\/p><p><\/p>"},"id":"3f889f3b-ddd5-4bde-bc4a-ac33db163122","isHidden":false,"type":"text"}]
+
+----
+
+Gallery: 
+
+----
+
+Date: 2021-01-06 09:15:00
+
+----
+
+Datumstartseite: 2021-03-31 08:15:00
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Schulleitung, Topartikel, Corona
+
+----
+
+Downloads:
+
+- >
+  beratungsangebote_f_r_sch_lerinnen_und_sch_ler.pdf
+- 2020-11-26_rhp_schulen_final.pdf
+- >
+  155-umsetzung-bund-lander-beschlusse-mk.pdf
+- 2021-01-05_brief_an_eltern.pdf
+- 2021-01-05_brief_an_eltern_kurz.pdf
+- >
+  2021-01-05_brief_an_schulleitungen_und_lehrkr_fte.pdf
+- 2021-01-05_brief_an_sus_seki.pdf
+- >
+  2021-01-05_brief_an_sus_sekii_und_bbs.pdf
+
+----
+
+Fotoansicht: gallery
