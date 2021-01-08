@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <title><?= $page->title() ?> | <?= $site->title() ?></title>
 
@@ -9,8 +10,17 @@
   <meta name="description" content="Die Homepage der Kooperativen Gesamtschule Rastede (KGS Rastede)" />
 
   <?= css('assets/css/kgs_shrinked.min.css') ?>
-  <?= css('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css') ?>
-  
+
+  <!-- 
+    Diese Konstruktion dient der Performance. 
+    So werden die Icons zuletzt geladen und der Inhalt zuerst
+    https://web.dev/defer-non-critical-css/ 
+  -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </noscript>
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -22,7 +32,7 @@
 </head>
 
 <body>
-  
-    <header>
-        <?php snippet('nav2') ?>
-    </header>
+
+  <header>
+    <?php snippet('nav2') ?>
+  </header>
