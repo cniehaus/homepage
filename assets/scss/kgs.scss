@@ -4,6 +4,11 @@
 
 @import "./functions";
 
+/* -------begin customization-------- */
+
+// Basisschriftgröße etwas erhöhen
+$font-size-base: 1.2rem;
+
 $font-family-sans-serif: Pangea, Segoe UI, Optima, Arial, sans-serif;
 
 $body-bg: #f4f4f4;
