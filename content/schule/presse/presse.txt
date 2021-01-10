@@ -6,6 +6,17 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-bildungsreform-vor-50-jahren-als-rastede-eine-eigene-realschule-bekam_a_50,11,2881458553.html
+  name: Als Rastede eine eigene Realschule bekam
+  anfang: >
+    Vor 50 Jahren gab es noch fünf
+    Volksschulen in und um den Residenzort.
+    Tatsächlich hat Rastede eine der
+    ältesten Schulen des Landes.
+  datum: 2021-01-10
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-mittagessen-in-rastede-akademiehotel-tischt-in-vier-schulen-auf_a_50,10,3493567282.html
   name: Akademiehotel tischt in vier Schulen auf
   anfang: >
