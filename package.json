@@ -24,9 +24,11 @@
   "scripts": {
     "build": "npm run sass && npm run prefix && npm run purge && npm run mini",
     "dev": "npm run purge && npm run mini",
+    "sassfonts": "sass ./assets/scss/kgsfonts.scss ./assets/css/kgsfonts.css",
     "sass": "sass ./assets/scss/kgs.scss ./assets/css/kgs.css",
     "prefix": "postcss --no-map --use autoprefixer -b 'last 2 versions' ./assets/css/kgs.css --replace",
     "purge": "purgecss --config ./assets/css/purgecss.config.js --output ./assets/css/kgs_shrinked.css",
+    "minifonts": "cssmin ./assets/css/kgs_shrinked.css > ./assets/css/kgs_shrinked.min.css",
     "mini": "cssmin ./assets/css/kgs_shrinked.css > ./assets/css/kgs_shrinked.min.css"
   }
 }
