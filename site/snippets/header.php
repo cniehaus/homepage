@@ -11,8 +11,6 @@
 
   <?= css('assets/css/kgs_shrinked.min.css') ?>
 
-  <link href="<?= $kirby->url('assets') ?>/css/kgsfonts.css" rel="preload" as="style">
-
   <!-- 
     Diese Konstruktion dient der Performance. 
     So werden die Icons zuletzt geladen und der Inhalt zuerst
