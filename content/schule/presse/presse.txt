@@ -6,6 +6,32 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-oldenburg-stadt/oldenburg-rastede-gemeinsam-in-die-selbststaendigkeit-oldenburger-schueler-schlagen-corona-ein-schnippchen_a_50,11,3271727525.html
+  name: >
+    Oldenburger Schüler schlagen Corona ein
+    Schnippchen
+  anfang: >
+    Was macht man bei zu viel Langeweile?
+    Man gründet ein Unternehmen. Das haben
+    jedenfalls drei Schüler aus Oldenburg
+    und umzu getan.
+  datum: 2021-01-16
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/wiefelstede-bildung-in-wiefelstede-so-viele-schueler-erwartet-die-gemeinde_a_50,11,3267306908.html
+  name: So viele Schüler erwartet die Gemeinde
+  anfang: >
+    Aktuell sind 558 Schülerinnen und
+    Schüler an der Oberschule Wiefelstede
+    – in ein paar Jahren vielleicht nur
+    noch 518. Bei den Grundschulen in der
+    Gemeinde sollen die Zahlen konstant
+    bleiben.
+  datum: 2021-01-16
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-bildungsreform-vor-50-jahren-als-rastede-eine-eigene-realschule-bekam_a_50,11,2881458553.html
   name: Als Rastede eine eigene Realschule bekam
   anfang: >
