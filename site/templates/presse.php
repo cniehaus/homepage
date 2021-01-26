@@ -35,7 +35,7 @@
       }
       ?>
 
-      <div class="col-md-6">
+      <div class="col-md-6 col-lg-4">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
           <div class="col p-4 d-flex flex-column position-static">
             <div class="d-flex justify-content-between">

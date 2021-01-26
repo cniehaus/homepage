@@ -43,7 +43,7 @@ Navbar:
       icon: person-lines-fill
     - 
       isexternal: 'false'
-      linktitle: Sekreteriate
+      linktitle: Sekretariate
       pagelink:
         - kontakte/sekretariate
       externallink: ""
