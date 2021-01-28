@@ -29,7 +29,8 @@
     </div>
   </section>
 
-  <?php if (!page('wichtige_informationen/notfall')->toggle()->bool() === true) : 
+  <?php if (!page('wichtige_informationen/')->toggle()->bool() === true) : 
+
     //Ein blauer Balken wird gezeigt wenn es keine Banner gibt. Siehe snippets/box-notfall.php ?>
     <div class="p-4 mb-0 bg-light text-primary"></div>
   <?php endif ?>
