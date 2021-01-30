@@ -93,7 +93,7 @@ Navbar:
       isexternal: 'false'
       linktitle: Förderverein
       pagelink:
-        - foerderverein/ueber_uns
+        - foerderverein/
       externallink: ""
       trennstrich: 'false'
       icon: tags-fill
