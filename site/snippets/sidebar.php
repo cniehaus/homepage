@@ -24,7 +24,7 @@ if ($sideE or $relaE or $downE) : //wenn es in einer der Teile Inhalt gibt ?>
                                 <ul class="list-group list-group-flush">
                                     <?php foreach ($page->sidebar()->toStructure() as $sidebar) : ?>
                                         <li class="list-group-item  list-group-item-action">
-                                            <a href="<?= $sidebar->link() ?>" class="text-decoration-none"><?= $sidebar->name()->or($sidebar->link()) ?></a>
+                                            <a href="<?= $sidebar->link() ?>" class="text-decoration-none" target="_blank" rel="noopener"><?= $sidebar->name()->or($sidebar->link()) ?></a>
                                         </li>
                                     <?php endforeach ?>
                                 </ul>
@@ -51,7 +51,7 @@ if ($sideE or $relaE or $downE) : //wenn es in einer der Teile Inhalt gibt ?>
                                     <?php $relatedPages =  $page->related()->toPages();
                                     foreach ($relatedPages as $relatedPage) : ?>
                                         <li class="list-group-item list-group-item-action">
-                                            <a href="<?= $relatedPage->url() ?>" target="_blank" class="text-decoration-none"><?= $relatedPage->title() ?></a>
+                                            <a href="<?= $relatedPage->url() ?>" class="text-decoration-none"><?= $relatedPage->title() ?></a>
                                         </li>
                                     <?php endforeach ?>
 
