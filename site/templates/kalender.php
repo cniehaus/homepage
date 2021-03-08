@@ -32,6 +32,7 @@
       firstDay: 1,
       navLinks: true, // can click day/week names to navigate views
       editable: false,
+      nowIndicator: true,
       weekNumbers: true, // Kalenderwoche anzeigen
       allDayText: "ganztägig",
       noEventsContent: 'Keine Ereignisse anzuzeigen',
@@ -68,7 +69,7 @@
   });
 </script>
 
-<div class="container mb-5">
+<div class="container-fluid">
   <div id='calendar'></div>
 </div>
 <?php snippet('footer') ?>
