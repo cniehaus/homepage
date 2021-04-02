@@ -1,12 +1,8 @@
-Title: Schulausfall: Banner für die Startseite
+Title: Banner für die Startseite
 
 ----
 
 Toggle: true
-
-----
-
-Texttitel: 
 
 ----
 
@@ -18,6 +14,10 @@ voraussichtlich geht es nach den Osterferien so weiter: Details dazu finden Sie 
  
 # Zu den Corona-Selbsttests
 Am letzen Tag vor den Osterferien sind die (link: https://kgs-rastede.de/blogs/corona-selbsttests-wurden-geliefert text: Tests geliefert worden). Ausführliche Informationen zu den Testungen (link: https://kgs-rastede.de/blogs/informationen-zu-den-selbsttests-in-der-schule text: finden Sie hier). Dieser Artikel wird ständig aktualisiert.
+
+----
+
+Texttitel: 
 
 ----
 
