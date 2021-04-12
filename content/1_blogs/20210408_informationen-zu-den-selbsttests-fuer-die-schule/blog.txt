@@ -44,6 +44,11 @@ Downloads:
 - >
   anleitung-fur-schulerinnen-und-schuler.pdf
 - testpflicht_elterninfo_kgs.pdf
+- >
+  testpflicht_elterninfo_einfach-arabisch.pdf
+- testpflicht_elterninfo_einfach-farsi.pdf
+- >
+  testpflicht_elterninfo_einfach-trkisch.pdf
 
 ----
 
