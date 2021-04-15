@@ -4,41 +4,37 @@
 
 
             <div class="table-responsive">
-                Aktuelle Informationen zu Infektionsgeschehen an unserer Schule.
+                <h4 class="card-category">Aktuelle Informationen zum Infektionsgeschehen an unserer Schule.</h4>
+
 
                 Derzeit befinden sich in vom Gesundheitamt angeordneter Quarantäne:
 
                 <table class="table">
-                    <!-- <
-                        thead>
+                    <thead>
                         <tr>
-                            <th scope="col">In Quarantäne</th>
-                            <th scope="col">Schüler:innen Feldbreite</th>
-                            <th scope="col">Schüerl:innen Hauptgebäude</th>
-                            <th scope="col">Lehrkräfte</th>
+
+                            <th scope="col"></th>
+                            <th scope="col">Quarantäne</th>
+                            <th scope="col">infiziert</th>
+
                         </tr>
-                    </thead> 
-                    -->
+                    </thead>
+
                     <tbody>
                         <tr>
-                            <th scope="row">Ganze Klasse</th>
-                            <td>3</td>
-
-                        </tr>
-                        <tr>
                             <th scope="row">Schüler:innen Feldbreite</th>
-                            <td>23</td>
-
+                            <td>4</td>
+                            <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row">Schüerl:innen Hauptgebäude</th>
-                            <td>12</td>
-
+                            <th scope="row">Schüler:innen Hauptgebäude</th>
+                            <td>4</td>
+                            <td>1</td>
                         </tr>
                         <tr>
-                            <th scope="row">Lehrkräfte</th>
-                            <td>12</td>
-
+                            <th scope="row">Lehrkräfte/Beschäftigte</th>
+                            <td>1</td>
+                            <td>0</td>
                         </tr>
                     </tbody>
                 </table>
