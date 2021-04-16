@@ -651,13 +651,6 @@
 "textColor": "#707070"
 },
 {
-"title": "Sportfest Sek.II",
-"start": "2021-04-15",
-"end": "2021-04-16",
-"color": "white",
-"textColor": "#707070"
-},
-{
 "title": "Fachbereichskonferenz NTW",
 "start": "2021-03-23T16:15",
 "end": "2021-03-23T18:00",
@@ -689,13 +682,6 @@
 "title": "Steuerungsausschuss",
 "start": "2021-04-20T16:15",
 "end": "2021-04-20T18:00",
-"color": "white",
-"textColor": "#707070"
-},
-{
-"title": "DB HZ / RZ",
-"start": "2021-04-19T16:15",
-"end": "2021-04-19T18:00",
 "color": "white",
 "textColor": "#707070"
 },
@@ -1155,6 +1141,13 @@
 "textColor": "#707070"
 },
 {
+"title": "ASP Uni",
+"start": "2021-09-06",
+"end": "2021-10-16",
+"color": "white",
+"textColor": "#707070"
+},
+{
 "title": "Sprechprüfungen EN HZ/RZ 10",
 "start": "2021-05-17",
 "end": "2021-05-19",
@@ -1242,6 +1235,13 @@
 "title": "Anmeldung Jahrgang 5",
 "start": "2021-05-03",
 "end": "2021-05-12",
+"color": "white",
+"textColor": "#707070"
+},
+{
+"title": "AG Digitalisierung",
+"start": "2021-04-14T16:30",
+"end": "2021-04-14T18:00",
 "color": "white",
 "textColor": "#707070"
 },
