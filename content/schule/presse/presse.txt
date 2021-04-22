@@ -42,6 +42,17 @@ Pressenachrichten:
   medium: nwz
 - 
   link: >
+    https://www.nwzonline.de/ammerland/ausgabestellen-und-zeiten-in-rastede-kgs-verteilt-montag-corona-testkits_a_51,0,3516986589.html
+  name: KGS verteilt Montag Corona-Testkits
+  anfang: >
+    Am Dienstag geht in Rastede die Schule
+    wieder los. Darum werden am Montag
+    Corona-Schnelltests an die Schüler
+    verteilt.
+  datum: 2021-04-10
+  medium: nwz
+- 
+  link: >
     https://www.rasteder-rundschau.de/2021/03/23/vier-neue-klassenraeume-fuer-die-kgs-feldbreite/
   name: >
     Vier neue Klassenräume für die KGS
@@ -911,19 +922,19 @@ Pressenachrichten:
     geht es in dieser Woche um Prävention.
     Auch Eltern sollen geschult werden.
   datum: 2019-08-23
-  medium: nwz
+  nfang: >
+    Die Schulen im Ammerland sollen fast
+    sechs Millionen Euro Förderung vom Land
+    erhalten. Für die Schulen in Rastede
+    können je 30 000 Euro beantragt werden.
+  datum: 2019-08-19
+  medium: rastederrundschau
 - 
   link: >
-    https://rasteder-rundschau.de/2019/08/22/sommerfest-im-ateliergarten-2/
+    https://rasteder-rundschau.de/2019/08/12/sommerfest-im-ateliergarten/
   name: ' Sommerfest im Ateliergarten '
   anfang: >
     Am Wochenende, 24. und 25. August, lädt
-    die Designerin Eva Christine Cordes
-    interessierte Besucher in ihr Atelier
-    für Hüte und Kostüme, An der Bleiche
-    11, ein
-  datum: 2019-08-22
-  medium: rasteder Wochenende, 24. und 25. August, lädt
     die Designerin Eva Christine Cordes
     interessierte Besucher in ihr Atelier
     für Hüte und Kostüme, An der Bleiche
@@ -1879,18 +1890,19 @@ Pressenachrichten:
   datum: 2018-01-15
   medium: rastederrundschau
 - 
-  link: >
-    https://rasteder-rundschau.de/2018/01/04/kgs-cafeteria-braucht-unterstuetzung/
-  name: ' KGS-Cafeteria braucht Unterstützung '
-  anfang: >
-    Der Förderverein der Schule startet
-    einen dringenden Aufruf
-  datum: 2018-01-04
+  li   Höhe von 500 Euro
+  datum: 2018-01-03
   medium: rastederrundschau
 - 
   link: >
-    https://www.rasteder-rundschau.de/2018/01/04/shoppen-ein-faires-geschaeft/
-  name: ' Shoppe gestern die Verwaltung die
+    https://www.rasteder-rundschau.de/2017/11/28/picknick-im-gruenen/
+  name: ' Picknick im Grünen '
+  anfang: >
+    Lange lag der Prozess brach, jetzt kommt
+    Bewegung in das Thema „Neugestaltung
+    Mühlenstraße“. In einer
+    öffentlichen Sitzung in der KGS-Aula
+    erläuterte gestern die Verwaltung die
     Bürgervorschläge aus dem vergangenen
     Jahr und stellte einen Zeitplan vor. Dr.
     Friedrich Scheele präsentierte seine
@@ -2802,19 +2814,14 @@ Pressenachrichten:
   name: >
     65. Gemeindesängerfest in der Neuen
     Aula
-  anfang: >
-    Die Turmsänger aus Wahnbek sind in
-    diesem Jahr Ausrichter des Chorfests am
-    29. Mai in der Neuen Aula
-  datum: 2016-05-23
+  ane/2016/04/25/manhattan-brodelt-in-der-aula/
+  name: ' Manhattan brodelt in der Aula '
+  anfang: 'Frühlingskonzert mit dem „Duo Riul“: Die Künstler überzeugten Konzertgäste und KGS-Schüler'
+  datum: 2016-04-25
   medium: rastederrundschau
 - 
   link: >
-    https://www.rasteder-rundschau.de/2016/05/13/meine-heimat-deine-heimat/
-  name: ' „Meine Heimat, deine Heimat“ '
-  anfang: >
-    An der KGS wurde der
-    Bartholomäus-Schink-Preis f�ibrok/
+    https://rasteder-rundschau.de/2016/04/13/raumnot-an-der-kgs-und-der-schule-kleibrok/
   name: >
     Raumnot an der KGS und der Schule
     Kleibrok
