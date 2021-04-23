@@ -69,23 +69,6 @@ class Incidence
     private function fetchData(string $dt)
     {
         $fieldstr = implode(",", $this->fields);
-
-        /*$c = curl_init();
-        curl_setopt(
-            $c,
-            CURLOPT_URL,
-            
-            'https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=OBJECTID='
-                . $this->region_id . '&outFields=' . $fieldstr . '&returnGeometry=false&outSR=&f=json'                
-        );
-
-        curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
-
-        $result = curl_exec($c);
-        if (curl_errno($c)) {
-            throw new Exception("could not contact arcgis server");
-        }
-        curl_close($c);*/
         
         $request = Remote::get('https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=OBJECTID='
         . $this->region_id . '&outFields=' . $fieldstr . '&returnGeometry=false&outSR=&f=json');
