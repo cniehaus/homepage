@@ -47,8 +47,8 @@ $incidence_brd =  $today_brd['Inz7T'];
         </tr>
       <?php endforeach ?>
       <tr>
-        <td colspan="4">
-          <table class="table mb-0">
+        <td colspan="3">
+          <table class="table table-borderless mb-0">
             <tbody>
               <tr>
                 <th>
@@ -58,7 +58,7 @@ $incidence_brd =  $today_brd['Inz7T'];
                   <?= $name_bundesland . ": " . $incidence_bundesland ?>
                 </th>
                 <th>
-                  <?= $incidence_brd ?>
+                  <?= "Deutschland: " . $incidence_brd ?>
                 </th>
               </tr>
             </tbody>
