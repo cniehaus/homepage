@@ -80,7 +80,7 @@ class Incidence_local
             throw new Exception("could not contact arcgis server");
 */
 
-
+/*
         $c = curl_init();
         curl_setopt(
             $c,
@@ -98,8 +98,14 @@ class Incidence_local
             throw new Exception("could not contact arcgis server");
         }
         curl_close($c);
+*/
 
-        $json = json_decode($result, true);
+        
+        $remote = new Remote('https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=OBJECTID='
+        . $this->region_id . '&outFields=' . $fieldstr . '&returnGeometry=false&outSR=&f=json');
+
+        $remote->fetch();
+        $json = $remote->json();
 
         if (!isset($json['features'][0]['attributes'])) {
             return;
