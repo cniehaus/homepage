@@ -1,6 +1,6 @@
 <?php
 
-snippet('src/Incidence');
+snippet('src/incidence');
 
 # Find your region here and get the OBJECTID: 
 # https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/917fc37a709542548cc3be077a786c17_0
