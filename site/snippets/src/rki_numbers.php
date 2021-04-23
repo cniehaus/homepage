@@ -140,7 +140,7 @@ class Incidence_local
 
 /* ------===============================================------ */
 /* ------===============================================------ */
-/*
+
 class Incidence_brd
 {
 
@@ -196,22 +196,19 @@ class Incidence_brd
     {
         $fieldstr = implode(",", $this->fields);
         
-        $request = Remote::get('https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/rki_key_data_v/FeatureServer/0/query?where=BundeslandId='
+        $remote = new Remote('https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/rki_key_data_v/FeatureServer/0/query?where=BundeslandId='
         . $this->region_id . '&outFields=' . $fieldstr . '&returnGeometry=false&outSR=&f=json');
 
-        if ($request->code() === 200) {
-            $result = Xml::parse($request->content());
-        }
-
-        $json = json_decode($result, true);
+        $remote->fetch();
+        $json = $remote->json();
 
         if (!isset($json['features'][0]['attributes'])) {
             return;
         }
 
         $data = $json['features'][0]['attributes'];
-        $date = DateTime::createFromFormat("d.m.Y, H:i", str_replace(" Uhr", "", $data['last_update']));
-        $data['ts'] = $date->format("U");
+        $d = new DateTime("today -" . 0 . " day");
+        $date = $d->format('Ymd');
         $set = $this->setCache($data);
         if ($set == $dt) {
             return $data;
@@ -228,10 +225,10 @@ class Incidence_brd
         } else {
             $old = json_decode($f, true);
         }
-        $date = DateTime::createFromFormat("d.m.Y, H:i", str_replace(" Uhr", "", $data['last_update']));
+        $date = new DateTime("today -" . 0 . " day");
         $key = $date->format("Ymd");
         $old[$key] = $data;
         file_put_contents($this->cache_file, json_encode($old));
         return $key;
     }
-}*/
+}
