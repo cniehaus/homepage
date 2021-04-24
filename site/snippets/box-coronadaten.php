@@ -22,6 +22,8 @@ $incidence_landkreis = round($today_local['cases7_per_100k'], 2);
 $name_bundesland = $today_local['BL'];
 $incidence_bundesland = round($today_local['cases7_bl_per_100k'], 2);
 $incidence_brd =  round($today_brd['Inz7T'], 2);
+$datum_daten =  $today_local['last_update'];
+
 ?>
 
 <div class="table-responsive">
@@ -50,7 +52,12 @@ $incidence_brd =  round($today_brd['Inz7T'], 2);
         <td colspan="3">
           <table class="table table-borderless mb-0">
             <tbody>
+
+            <td colspan="3" class="fs-3 text-center">Inzidenzen</td>
+
+
               <tr>
+
                 <th>
                   <?= $name_landkreis . ": " . $incidence_landkreis ?>
                 </th>
@@ -61,6 +68,9 @@ $incidence_brd =  round($today_brd['Inz7T'], 2);
                   <?= "Deutschland: " . $incidence_brd ?>
                 </th>
               </tr>
+
+              <td colspan="3" class="fs-6">Inzidenzen (RKI, Stand: <?= $datum_daten ?>)</td>
+
             </tbody>
           </table>
         </td>
