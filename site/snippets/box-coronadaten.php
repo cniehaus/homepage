@@ -2,7 +2,7 @@
   <thead>
     <th>Name</th>
     <th>Quarantäne</th>
-    <th>Infiziert</th>
+    <th>davon infiziert</th>
   </thead>
   <tbody>
     <?php foreach ($coronapage->children() as $l) : ?>
