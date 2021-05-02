@@ -54,18 +54,19 @@
       noEventsContent: 'Keine Ereignisse anzuzeigen',
       
       displayEventTime: false, // don't show the time column in list view
-    // Die Datei laden. Aktuell muss diese Datei noch per Hand generiert werden
+      // Die Datei laden. Aktuell muss diese Datei noch per Hand generiert werden
       events: {
 		  /*url: 'https://kgs-rastede.eu/iserv/public/calendar/?key=1bad7fec91a3d07904543f4476774fd1',*/
 		  /*url: '<?= $kirby->url('assets') ?>/kalender/public.ics',*/
-		  url: 'https://kgs-rastede.de/assets/kalender/public.ics',
-		  format: 'ics',
+        url: 'https://kgs-rastede.de/assets/kalender/public.ics',
+        format: 'ics',
         failure: function() {
           document.getElementById('script-warning').style.display = 'block';
-		  },
-      loading: function(bool) {
-        document.getElementById('loading').style.display =
-          bool ? 'block' : 'none';
+        },
+        loading: function(bool) {
+          document.getElementById('loading').style.display =
+            bool ? 'block' : 'none';
+        }
       }
     });
 
