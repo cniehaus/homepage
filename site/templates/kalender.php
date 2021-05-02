@@ -4,9 +4,10 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css" />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar/main.min.js'></script>
 <script src='https://github.com/mozilla-comm/ical.js/releases/download/v1.4.0/ical.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@5.6.0/main.global.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar/main.min.js'></script>
+
 
 
 <script>
