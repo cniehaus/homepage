@@ -17,7 +17,7 @@
 
 <div class="container">
 
-  <h2>Aktuelles von der Schule ohne Rassismus - Schule mit Courage<h2>
+  <h2>Hier gibt es weitere Beiträge von Schülerinnen und Schülern, die sich in diesem Sinne engagieren<h2>
 
   <?php
   foreach (page('blogs')
