@@ -20,6 +20,8 @@ Icon
 
 /site/cache/*
 !/site/cache/index.html
+/assets/rki_numbers_brd.json
+/assets/rki_numbers_local.json
 
 # Accounts
 # ---------------
