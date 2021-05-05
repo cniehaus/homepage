@@ -229,7 +229,7 @@ Navbar:
       icon: door-open
     - 
       isexternal: 'false'
-      linktitle: Kulturelles
+      linktitle: Kultur
       pagelink:
         - unterricht/kulturelles
       externallink: ""
@@ -242,10 +242,18 @@ Navbar:
         - unterricht/herausforderungsprojekt
       externallink: ""
       trennstrich: 'false'
+      icon: lightbulb
+    - 
+      isexternal: 'false'
+      linktitle: Wettbewerbe
+      pagelink:
+        - unterricht/wettbewerbe
+      externallink: ""
+      trennstrich: 'false'
       icon: trophy
     - 
       isexternal: 'false'
-      linktitle: Das AG-Angebot
+      linktitle: Arbeitsgemeinschaften
       pagelink:
         - unterricht/ag-angebot
       externallink: ""
@@ -302,7 +310,7 @@ Navbar:
       icon: chat-left-text
     - 
       isexternal: 'false'
-      linktitle: Ag für den Frieden
+      linktitle: "AG 'Für den Frieden'"
       pagelink:
         - unterricht/ag-frieden
       externallink: ""
