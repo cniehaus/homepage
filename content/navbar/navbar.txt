@@ -237,9 +237,9 @@ Navbar:
       icon: globe
     - 
       isexternal: 'false'
-      linktitle: Wettbewerbe
+      linktitle: Herausforderungsprojekt
       pagelink:
-        - unterricht/wettbewerbe
+        - unterricht/herausforderungsprojekt
       externallink: ""
       trennstrich: 'false'
       icon: trophy
