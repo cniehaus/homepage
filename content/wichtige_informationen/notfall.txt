@@ -6,20 +6,22 @@ Toggle: true
 
 ----
 
-Texttitel: 
-
-----
-
 Text:
 
 Liebe Schülerinnen und Schüler, sehr geehrte Eltern,
-(Regelung ab 26.04.2021)
-Der Landkreis Ammerland ist zum Hochinzidenzgebiet erklärt worden. Das bedeutet für uns, dass ab Montag, 26.04.21, nur die Abschlussklassen wie bisher in geteilten Gruppen und die Abiturientinnen und Abiturienten zu ihren Prüfungen in die Schule kommen dürfen. Alle anderen gehen ins Szenario C; das bedeutet Distanzlernen.
-Klassenarbeiten und Klausuren können stattfinden, dazu folgen in Kürze nähere Angaben. Die Notbetreuung findet statt. Weitere Infos auf der (link: https://www.ammerland.de/Kurzmen%C3%BC/Startseite/Landkreis-Ammerland-Hochinzidenzkommune.php?object=tx,2843.5&ModID=7&FID=2843.20347.1 text: Homepage des Landkreise).
+(Regelung ab 10.05.2021)
+angesichts der Inzidenzwerte unter 100 sind wir ab Montag, 10.05., wieder im Wechselmodell, Szenario B.
+Die nächste Woche ist eine B-Woche, d. h. mo und mi kommt Gruppe B, am Dienstag kommt Gruppe A. **Und an allen Tagen in der nächsten Woche  nur mit gültigem Selbsttest!** Ohne den Test darf die Schule nicht betreten werden!
+Für die Abschlussklassen bleibt alles wie bisher, die Oberstufe kommt im wöchentlichen Wechsel.
+Ab 17. Mai gilt dann wieder für die Sek. I: mo + mi bzw. di + do sind Tests morgens vor der Schule zu Hause zu machen. Zur Schule darf man nur mit negativem Testergebnis. Eltern müssen dies schriftlich bestätigen.
 
-Außerdem sind nur noch Treffen zwischen einem Haushalt und einer weiteren Person zulässig.
+Busverkehr zur 7. Stunde: Busse, die nach der 6. Std. an der KGS abfahren, halten auf ihrem Rückweg wieder an der KGS. Man muss also an seiner eigentlichen "Aussteigehaltestelle" in den Bus nach der 6. Std. einsteigen, den Rest der Tour mitfahren und gelangt dann zur KGS. 
 
 Die **Notbetreuung** für die bereits angemeldeten Kinder wird stattfinden. Der Test dafür muss zu Hause gemacht werden.
+
+----
+
+Texttitel: 
 
 ----
 
