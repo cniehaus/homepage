@@ -211,7 +211,7 @@ code {
 /* -------------------------------- */
 /* finally, import Bootstrap to set the changes! */
 /*!
- * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
+ * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -950,7 +950,10 @@ progress {
 .form-control[type=file] {
   overflow: hidden;
 }
-.form-control[type=file]:not(:disabled):not([readonly]) {
+.form-control[type=file]:not(:disabled):not(:-moz-read-only) {
+  cursor: pointer;
+}
+.form-control[type=file]:not(:disabled):not(:read-only) {
   cursor: pointer;
 }
 .form-control:focus {
@@ -975,7 +978,11 @@ progress {
   color: #6c757d;
   opacity: 1;
 }
-.form-control:disabled {
+.form-control:-moz-read-only {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+.form-control:disabled, .form-control:read-only {
   background-color: #e9ecef;
   opacity: 1;
 }
@@ -999,7 +1006,10 @@ progress {
     transition: none;
   }
 }
-.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+.form-control:hover:not(:disabled):not(:-moz-read-only)::file-selector-button {
+  background-color: #dde0e3;
+}
+.form-control:hover:not(:disabled):not(:read-only)::file-selector-button {
   background-color: #dde0e3;
 }
 .form-control::-webkit-file-upload-button {
@@ -1024,7 +1034,7 @@ progress {
     transition: none;
   }
 }
-.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+.form-control:hover:not(:disabled):not(:read-only)::-webkit-file-upload-button {
   background-color: #dde0e3;
 }
 
@@ -1568,7 +1578,6 @@ textarea.form-control-lg {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
   z-index: 1000;
   display: none;
   min-width: 10rem;
@@ -1634,6 +1643,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: #0d6efd;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -1641,6 +1651,9 @@ textarea.form-control-lg {
   .nav-link {
     transition: none;
   }
+}
+.nav-link:hover, .nav-link:focus {
+  color: #0a58ca;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -1886,7 +1899,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
 .accordion-button::after {
   flex-shrink: 0;
@@ -1919,7 +1932,6 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -1931,8 +1943,10 @@ textarea.form-control-lg {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
+.accordion-item:not(:first-of-type) {
+  border-top: 0;
+}
 .accordion-item:last-of-type {
-  margin-bottom: 0;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
