@@ -7,10 +7,6 @@ fields:
   anzeigename:
     label: Anzeigename in PDFS
     type: text
-  startseite:
-    label: Startseite
-    type: toggle
-    text: Direkt auf der Startseite anzeigen?
 
 # Anleitung https://getkirby.com/docs/reference/panel/blueprints/file
 # https://getkirby.com/docs/reference/panel/samples/file

@@ -24,10 +24,6 @@
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
                     <?= $datei->Anzeigename()->or($datei->name()) ?>
                   </a>
-
-                  <?php if ($datei->Startseite() == 'true') : ?>
-                    <i class="bi bi-lightning-fill"></i>
-                  <?php endif ?>
                 </td>
               </tr>
             <?php endforeach ?>
@@ -57,10 +53,6 @@
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
                     <?= $datei->Anzeigename()->or($datei->name()) ?>
                   </a>
-
-                  <?php if ($datei->Startseite() == 'true') : ?>
-                    <i class="bi bi-lightning-fill"></i>
-                  <?php endif ?>
                 </td>
               </tr>
             <?php endforeach ?>
@@ -88,10 +80,6 @@
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
                     <?= $datei->Anzeigename()->or($datei->name()) ?>
                   </a>
-
-                  <?php if ($datei->Startseite() == 'true') : ?>
-                    <i class="bi bi-lightning-fill"></i>
-                  <?php endif ?>
                 </td>
               </tr>
             <?php endforeach ?>
@@ -102,12 +90,6 @@
       </div>
     </div>
   </div>
-
-  <hr>
-
-  <p>Hinweis: Artikel, die mit einem <i class="bi bi-lightning-fill"></i>
- markiert sind, sind direkt auf der Startseite unter "Zur Zeit aktuelle Downloads" verlinkt.
-  </p>
 
 </div>
 
