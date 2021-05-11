@@ -12,7 +12,7 @@
 
       foreach ($relatedPages as $relatedPage) : ?>
         <a href="<?= $relatedPage->link() ?>" class="list-group-item list-group-item-light list-group-item-action">
-          <i class="bi bi-chat-dots"></i> <?= $relatedPage->title() ?>
+          <i class="bi bi-<?= $block->icon() ?>"></i> <?= $relatedPage->title() ?>
         </a>
       <?php endforeach ?>
 

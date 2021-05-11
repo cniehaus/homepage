@@ -16,3 +16,6 @@ fields:
     type: files
     max: 1
     query: page.images
+  icon:
+    type: text
+    label: Icon aus der Auswahl von https://icons.getbootstrap.com/ ohne das "bi", nur der reine Name
