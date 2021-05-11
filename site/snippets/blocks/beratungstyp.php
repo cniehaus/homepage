@@ -11,7 +11,7 @@
       $relatedPages =  $block->unterseite()->toPages();
 
       foreach ($relatedPages as $relatedPage) : ?>
-        <a href="<?= $relatedPage->link() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= $relatedPage->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-<?= $block->icon() ?>"></i> <?= $relatedPage->title() ?>
         </a>
       <?php endforeach ?>
