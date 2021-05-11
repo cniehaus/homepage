@@ -1,6 +1,6 @@
 <div class="card bg-primary mb-3">
   <div class="card-body">
-    <img src="<?= $page->files()->find('deutsch.jpg')->url() ?>" class="card-img" alt="Fremdsprachen">
+    <img src="<?= $block->bild()->toFile()->url() ?>" class="card-img" alt="Fremdsprachen">
 
     <h3 class="card-category card-title mb-3 text-warning"><?= $block->name() ?></h3>
     <h4 class="card-title"><?= $block->kurzbeschreibung() ?></h4>
