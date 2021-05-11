@@ -10,7 +10,7 @@
     <div class="card-body">
       <img src="<?= $page->files()->find('deutsch.jpg')->url() ?>" class="card-img" alt="Fremdsprachen">
 
-      <h3 class="card-category card-title mb-3 text-warning">Konzeptkategorie 1</h3>
+      <h3 class="card-category card-title mb-3 text-warning">Sozialpädagog:innen</h3>
       <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
 
       <div class="list-group">
@@ -37,8 +37,155 @@
     <div class="card-body">
       <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
 
-      <h3 class="card-category card-title mb-3 text-warning">Konzeptkategorie 1</h3>
+      <h3 class="card-category card-title mb-3 text-warning">Schüler helfen Schülern</h3>
       <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Förderunterricht</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Deutsch als Zweitsprache (DAZ)</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Projekte</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Klassenlehrkräfte</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Inklusion</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Berufliche Orientierung</h3>
+      <h4 class="card-title">Unterschrift Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corrupti, rerum laborum labore exercitationem recusandae tempora quos reiciendis perferendis quas earum repudiandae, delectus molestias nihil rem ea hic odio.</h4>
+      <div class="list-group">
+        <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-cash-stack"></i> Externe Unterstützung
+        </a>
+        <a href="<?= page('beratungskonzept/laufbahnberatung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-screwdriver"></i> Laufbahnberatung
+        </a>
+        <a href="<?= page('beratungskonzept/tutorinnen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+          <i class="bi bi-basket"></i> Tutor:innen
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-primary mb-3">
+    <div class="card-body">
+      <img src="<?= $page->files()->find('awt.jpg')->url() ?>" class="card-img" alt="AWT">
+
+      <h3 class="card-category card-title mb-3 text-warning">Beratungslehrkräfte</h3>
+      <h4 class="card-title">XYZ</h4>
       <div class="list-group">
         <a href="<?= page('beratungskonzept/externeunterstuetzung')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-cash-stack"></i> Externe Unterstützung
