@@ -1,4 +1,4 @@
-Title: Beratung und Prävention in der Schule
+Title: Beratungslehrkräfte
 
 ----
 
@@ -6,7 +6,7 @@ Heading:
 
 ----
 
-Text: [{"content":{"text":"<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Dolore&nbsp;doloremque&nbsp;optio&nbsp;quod&nbsp;assumenda&nbsp;inventore&nbsp;velit&nbsp;dolores&nbsp;ex.&nbsp;Natus&nbsp;beatae&nbsp;harum,&nbsp;saepe&nbsp;corrupti&nbsp;cum&nbsp;deleniti&nbsp;inventore,&nbsp;maiores&nbsp;perspiciatis&nbsp;voluptatibus&nbsp;aliquid&nbsp;enim.<\/p>"},"id":"2dc6a39e-a9c5-457f-9435-5aa3925ae6fe","isHidden":false,"type":"text"}]
+Text: [{"content":{"location":"kirby","image":["beratungsl.png"],"src":"","alt":"","caption":"Frau Eitel-Harms und Herr Kayser","link":"","ratio":"","crop":"false"},"id":"ac1c866e-64c0-4d26-b508-094fbaac3aa8","isHidden":false,"type":"image"},{"content":{"text":"<p>Beratungslehrkr\u00e4fte sind vor Ort in der Schule pr\u00e4sente AnsprechpartnerInnen f\u00fcr Sch\u00fclerinnen und Sch\u00fcler, Eltern, Lehrkr\u00e4fte und Schulleitung. Sie sind erlassgem\u00e4\u00df zweij\u00e4hrig ausgebildet und eingesetzt, und werden schulintern in den Bereichen Schullaufbahnberatung, Einzelfallhilfe und Systemberatung t\u00e4tig.<\/p><p>Beratungskr\u00e4fte sind zust\u00e4ndig f\u00fcr die Vorkl\u00e4rung eines Problemfalles, ob ggf. eigene Bearbeitung oder die Vermittlung an andere interne oder externe Personen des Unterst\u00fctzersystems erfolgen soll. Beratungslehrkr\u00e4fte unterst\u00fctzen die Schule bei der Entwicklung von Diagnose-und F\u00f6rderkonzepten und f\u00fchren ggf. Konfliktmoderationen mit Lehrkr\u00e4ften, Eltern und Sch\u00fclerinnen und Sch\u00fclern durch. . Diese werden durchgef\u00fchrt und betreut von daf\u00fcr ausgebildeten Lehrkr\u00e4ften.<\/p>"},"id":"2dc6a39e-a9c5-457f-9435-5aa3925ae6fe","isHidden":false,"type":"text"},{"content":{"text":"<p>Diese Kr\u00e4fte arbeiten in der Schule in dem Beratungsausschuss und au\u00dferhalb der Schule in einem kooperativen Netzwerk mit allen intern wie extern an Beratung der Schule Beteiligten zusammen. Besonders im Team mit den Beratungslehrkr\u00e4ften der anderen Schulen im Landkreis findet Austausch statt. Die Beratungskraft pflegt intensiven Austausch mit den am Ort vorhandenen externen Beratungs- und Pr\u00e4ventionseinrichtungen und nimmt an regelm\u00e4\u00dfigen Dienstbesprechungen teil. Die Beratungskraft kann ihre Angebote schulintern \u00f6ffentlich machen. Zum Beispiel durch Vorstellung vor neuen Klassen oder auf Elternabenden, durch Info-Flyer oder auf der Schul-Homepage. J\u00e4hrlich einmal berichtet die Beratungskraft im Rahmen der Gesamtkonferenz \u00fcber die Schwerpunkte der Arbeit und Fort- und Weiterbildungen. In besonderen Konflikten (Gewalt, Drogen) arbeiten sie eng mit den Schulzweigleitern zusammen.<\/p>"},"id":"1630f0df-fade-4648-88b2-816e0542557a","isHidden":false,"type":"text"}]
 
 ----
 
