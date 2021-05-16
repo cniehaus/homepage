@@ -28,6 +28,7 @@
               </tr>
             <?php endforeach ?>
             <td>
+              <span class="badge bg-light me-1"><i class="bi bi-arrow-right"></i></span>
               <a class="text-decoration-none" href="<?= page("/allgemeines/schulbuchlisten")->url() ?>">Schulbuchlisten</a>
             </td>
             
