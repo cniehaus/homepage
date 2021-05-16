@@ -4,7 +4,7 @@
 
 <p class="m-2"><?= $page->Subtitletext1() ?></p>
 <div class="row ms-1 me-1">
-    <div class="col-lg-4 ms-auto me-auto">
+    <div class="col-lg-4 ms-auto me-auto mb-4">
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title">Hauptschule</h4>
@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="col-lg-4 ms-auto me-auto">
+    <div class="col-lg-4 ms-auto me-auto mb-4">
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title">Realschule</h4>
