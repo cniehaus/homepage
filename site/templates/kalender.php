@@ -83,13 +83,28 @@ $result = $update->checkForUpdate();
 </script>
 <div class="container-fluid">
 
-  <?php if ($result == false) : // Falls etwas schiefgelaufen ist wird diese Fehlermeldung über dem Kalender angezeigt ?>
+  <?php if ($result == false) : // Falls etwas schiefgelaufen ist wird diese Fehlermeldung über dem Kalender angezeigt 
+  ?>
     <div class="container d-flex justify-content-center">
       <p class="mt-2 text-danger">Der Kalender ist möglicherweise nicht aktuell!</p>
     </div>
   <?php endif ?>
-  
+
   <div id='calendar'></div>
+
+  <!-- 
+    Jetzt werden zwei Variablen von FullCalender.io überschrieben.
+  Durch diese kommt es bei langen Kalendereinträgen zu Zeilenumbrüchen.
+   -->
+  <style type='text/css'>
+    .fc-daygrid-dot-event .fc-event-title {
+      white-space: normal !important;
+    }
+
+    .fc-h-event .fc-event-title {
+      white-space: normal !important;
+    }
+  </style>
 </div>
 <!-- <div id='script-warning'>
   <code>public.ics</code> konnte nicht geladen werden
