@@ -9,11 +9,10 @@ Toggle: true
 Text:
 
 Liebe Schülerinnen und Schüler, sehr geehrte Eltern,
-(Regelung ab 10.05.2021)
-angesichts der Inzidenzwerte unter 100 sind wir ab Montag, 10.05., wieder im Wechselmodell, Szenario B.
-Die nächste Woche ist eine B-Woche, d. h. mo und mi kommt Gruppe B, am Dienstag kommt Gruppe A. **Und an allen Tagen in der nächsten Woche  nur mit gültigem Selbsttest!** Ohne den Test darf die Schule nicht betreten werden!
+(Regelung ab 26.05.2021)
+wegen der mündlichen Abiturprüfungen entfällt der Unterricht im Gymnasialzweig am Mittwoch und Donnerstag, 26. und 27. Mai.
+Ansonsten ist die nächste Woche eine B-Woche, d. h.  mi und fr kommt Gruppe B, am Donnerstag kommt Gruppe A. Testtage sind in dieser Woche ausnahmsweise mi + fr bzw. do, danach wieder: mo + mi bzw. di + do! Ohne Test darf die Schule nicht betreten werden! Eltern müssen dies schriftlich bestätigen.
 Für die Abschlussklassen bleibt alles wie bisher, die Oberstufe kommt im wöchentlichen Wechsel.
-Ab 17. Mai gilt dann wieder für die Sek. I: mo + mi bzw. di + do sind Tests morgens vor der Schule zu Hause zu machen. Zur Schule darf man nur mit negativem Testergebnis. Eltern müssen dies schriftlich bestätigen.
 
 Busverkehr zur 7. Stunde: Busse, die nach der 6. Std. an der KGS abfahren, halten auf ihrem Rückweg wieder an der KGS. Man muss also an seiner eigentlichen "Aussteigehaltestelle" in den Bus nach der 6. Std. einsteigen, den Rest der Tour mitfahren und gelangt dann zur KGS. 
 
