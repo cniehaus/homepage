@@ -1,0 +1,9 @@
+Anzeigename: Der Internetzugang per WLAN
+
+----
+
+Beschreibung: hier fehlt Text
+
+----
+
+Template: datei
