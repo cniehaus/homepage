@@ -1,0 +1,9 @@
+Heading: 
+
+----
+
+Text: [{"content":{"text":"<p>Es gibt sehr viele verscheidene Programmiersprachen. Ich habe kleine \"Anf\u00e4nger Snippets\" in 2 Verschiedenen Sprachen angelegt. Einmal in <a href=\"\/programmieren-lernen\/js\" rel=\"noopener noreferrer nofollow\">Javascript + HTML<\/a> und einmal in <a href=\"programmieren-lernen\/python\" rel=\"noopener noreferrer nofollow\">Python<\/a>.<\/p>"},"id":"cc875d30-4458-49d3-9586-26cbc383eda7","isHidden":false,"type":"text"}]
+
+----
+
+Downloads: 
