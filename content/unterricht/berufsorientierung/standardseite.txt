@@ -1,4 +1,4 @@
-Title: Berufsorientierung
+Title: Berufliche Orientierung
 
 ----
 
@@ -6,40 +6,7 @@ Heading:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Diese Seite ist noch nicht fertig",
-        "id": "_p0cuos2t3",
-        "type": "h1"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_5dfc64u2o",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "",
-        "id": "_gppxvsmj6",
-        "type": "paragraph"
-    },
-    {
-        "attrs": {
-            "guid": "/pages/unterricht+berufsorientierung/files/baustelle.jpg",
-            "id": "unterricht/berufsorientierung/baustelle.jpg",
-            "filename": "baustelle.jpg",
-            "ratio": 1.335113484646195,
-            "caption": ""
-        },
-        "content": "",
-        "id": "_2csp80ihp",
-        "type": "image"
-    }
-]
+Text: [{"content":{"level":"h1","text":"Diese Seite ist noch nicht fertig"},"id":"c7de3431-1b55-4545-bbfe-29460cbe47d2","isHidden":false,"type":"heading"},{"content":{"text":"<p><\/p>"},"id":"15c9d558-140c-4642-9705-6b1e95790c53","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p>"},"id":"3d2d30eb-09dd-4c5d-acfa-894decf10f76","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["arrows-5081423_1920.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f633d735-1674-41d4-8026-641cc169de31","isHidden":false,"type":"image"}]
 
 ----
 
