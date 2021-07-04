@@ -44,6 +44,9 @@ columns:
               - tabelle
               - gastautor
               - quote
+              - karousel
+              - accordion
+              - button
           gallery:
             type: files
             uploads: blogbild
@@ -111,6 +114,7 @@ columns:
               - Wettbewerb
               - Topartikel
               - Für den Frieden
+              - Courage
 
           line1:
             type: line

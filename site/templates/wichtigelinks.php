@@ -7,9 +7,7 @@
 
 <div class="container">
   <div class="row align-items-start">
-    <div class="col-xl-5">
-
-
+    <div class="col-xl-4">
       <div class="table-responsive">
         <table class="table">
           <thead>
@@ -26,14 +24,11 @@
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
                     <?= $datei->Anzeigename()->or($datei->name()) ?>
                   </a>
-
-                  <?php if ($datei->Startseite() == 'true') : ?>
-                    <i class="bi bi-lightning-fill"></i>
-                  <?php endif ?>
                 </td>
               </tr>
             <?php endforeach ?>
             <td>
+              <span class="badge bg-light me-1"><i class="bi bi-arrow-right"></i></span>
               <a class="text-decoration-none" href="<?= page("/allgemeines/schulbuchlisten")->url() ?>">Schulbuchlisten</a>
             </td>
             
@@ -42,7 +37,7 @@
       </div>
     </div>
 
-    <div class="col-xl-5">
+    <div class="col-xl-4">
       <div class="table-responsive">
         <table class="table">
           <thead>
@@ -59,10 +54,33 @@
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
                     <?= $datei->Anzeigename()->or($datei->name()) ?>
                   </a>
+                </td>
+              </tr>
+            <?php endforeach ?>
 
-                  <?php if ($datei->Startseite() == 'true') : ?>
-                    <i class="bi bi-lightning-fill"></i>
-                  <?php endif ?>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+    <div class="col-xl-4">
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Datenschutz</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <?php foreach ($page->Datenschutz()->toFiles() as $datei) : ?>
+              <tr>                
+                <td>
+                  <span class="badge bg-light me-1 text-uppercase"><?= $datei->extension() ?></span>
+                  <a href="<?= $datei->url() ?>" class="text-decoration-none">
+                    <?= $datei->Anzeigename()->or($datei->name()) ?>
+                  </a>
                 </td>
               </tr>
             <?php endforeach ?>
@@ -73,12 +91,6 @@
       </div>
     </div>
   </div>
-
-  <hr>
-
-  <p>Hinweis: Artikel, die mit einem <i class="bi bi-lightning-fill"></i>
- markiert sind, sind direkt auf der Startseite unter "Zur Zeit aktuelle Downloads" verlinkt.
-  </p>
 
 </div>
 
