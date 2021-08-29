@@ -1,0 +1,7 @@
+# /site/blueprints/blocks/highlightfeld.yml
+name: Highlightfeld
+icon: account
+label: "{{ name }}"
+fields:
+  Feldinhalt:
+    type: textarea
