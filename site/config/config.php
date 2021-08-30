@@ -5,7 +5,7 @@ return [
     // Damit bei Fehlern der Debugger angeht
     // https://getkirby.com/docs/cookbook/setup/debugging-basics
 
-    // Auf dem echten Server muss der Debug-Modus aber aus sein! Das ist 
+    // Auf dem echten Server muss der Debug-Modus aber aus sein! Das ist
     // eine potentielle Sicherheitslücke:
     // https://getkirby.com/docs/guide/configuration#multi-enviroment-setup
     'debug'  => true,
@@ -75,7 +75,7 @@ return [
                 return go('sitemap.xml', 301);
             }
         ],
-        
+
         //  Diese Route ist für den versteckten Login (aktuell nur für die WLAN-Voucher)
         // https://getkirby.com/docs/cookbook/security/access-restriction
         [
@@ -93,5 +93,15 @@ return [
 
     'markdown' => [
         'extra' => true,
+    ],
+
+    'studyGroups' => [
+        'url' => 'https://ag-wahl.kgsraste.de/api/v1/study_groups',
+        'token' => 'SECRET'
+    ],
+
+    'thumbs' => [
+        'driver'    => 'im',
+        'quality'   => 90
     ],
 ];
