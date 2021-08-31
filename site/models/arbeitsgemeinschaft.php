@@ -21,12 +21,12 @@ class StudyGroupImage
     $this->id = $id;
     $this->url = $url;
     $this->pageRoot = $pageRoot;
-    $this->localFilePath = $pageRoot . DS . $id . '.jpg';
+    $this->localFilePath = $this->findLocalFilePath();
   }
 
   public function isLocal()
   {
-    return F::exists($this->localFilePath) && (F::size($this->localFilePath) > 0);
+    return $this->localFilePath && F::exists($this->localFilePath) && (F::size($this->localFilePath) > 0);
   }
 
   public function isStale()
@@ -47,10 +47,36 @@ class StudyGroupImage
     $request = Remote::get($this->url, ['headers' => $headers]);
 
     if ($request->code() === 200) {
-      F::write($this->localFilePath, $request->content());
+      $this->writeFileAfterDownload($request);
     } else if ($request->code() === 304) {
       F::touch($this->localFilePath);
     }
+  }
+
+  private function findLocalFilePath()
+  {
+    $files = glob($this->pageRoot . DS . $this->id . '.*');
+
+    if (!$files || empty($files)) {
+      return null;
+    }
+
+    return $files[0];
+  }
+
+  private function writeFileAfterDownload($request)
+  {
+    $fileExtension = Mime::toExtension($request->info['content_type']);
+
+    $newPath = $this->pageRoot . DS . $this->id . '.' . $fileExtension;
+
+    if ($this->localFilePath && ($newPath != $this->localFilePath)) {
+      F::remove($this->localFilePath);
+
+      $this->localFilePath = $newPath;
+    }
+
+    F::write($newPath, $request->content());
   }
 }
 
