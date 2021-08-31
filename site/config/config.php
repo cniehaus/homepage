@@ -97,11 +97,6 @@ return [
 
     'studyGroups' => [
         'url' => 'https://ag-wahl.kgsraste.de/api/v1/study_groups',
-        'apiKey' => 'SECRET'
-    ],
-
-    'thumbs' => [
-        'driver'    => 'im',
-        'quality'   => 90
+        'apiKey' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUElVU0VSIiwiaWF0IjoxNTE2MjM5MDIyfQ.CYrLWRa3dIURYyXjAW0FBfyiQK2C5mYoVeMY2clN_hY'
     ],
 ];
