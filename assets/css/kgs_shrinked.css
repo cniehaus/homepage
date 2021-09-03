@@ -344,7 +344,8 @@ ul {
 }
 
 ol,
-ul {
+ul,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -358,6 +359,11 @@ ul ol {
 
 dt {
   font-weight: 700;
+}
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
 }
 
 b,
@@ -694,6 +700,11 @@ progress {
 
 @media (min-width: 576px) {
 
+  .row-cols-sm-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
   .row-cols-sm-2 > * {
     flex: 0 0 auto;
     width: 50%;
@@ -782,6 +793,11 @@ progress {
   }
 }
 @media (min-width: 992px) {
+
+  .row-cols-lg-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 
   .row-cols-lg-3 > * {
     flex: 0 0 auto;
@@ -1963,6 +1979,10 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.card-link + .card-link {
+  margin-left: 1rem;
+}
+
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
@@ -2940,14 +2960,14 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-danger {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-gradient {
