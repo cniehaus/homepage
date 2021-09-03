@@ -7,7 +7,7 @@
 <div class="container">    
 
     <table class="table table-borderless table-responsive table-striped">
-        <!-- https://getbootstrap.com/docs/5.0/content/tables/ -->
+        <!-- https://getbootstrap.com/docs/5.1/content/tables/ -->
             <tr>
                 <th class="text-center">Stunde</th>
                 <th>von</th>
