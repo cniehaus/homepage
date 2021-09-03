@@ -4,7 +4,8 @@
 
         <?php foreach ($item->tags()->split() as $tag) : ?>
             <a  class="badge rounded-pill bg-info text-decoration-none"
-                href="<?= url('blogs', ['params' => ['tag' => $tag]]) ?>">
+                href="<?= url('blogs', ['params' => ['tag' => urlencode($tag)]]) ?>">
+                
                 <?= $tag ?>
             </a>
         <?php endforeach ?>
