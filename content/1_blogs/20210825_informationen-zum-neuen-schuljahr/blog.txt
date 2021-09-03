@@ -1,0 +1,55 @@
+Title: Informationen zum neuen Schuljahr
+
+----
+
+Heading: 
+
+----
+
+Text: [{"content":{"text":"<p>An dieser Stelle f\u00fchren wir alle f\u00fcr das Schuljahr 2021\/22 g\u00fcltigen Vorgaben (bitte Downloads beachten!) auf. Diese Seite wird regelm\u00e4\u00dfig aktualisiert.<\/p><p><\/p><p>Die Informationen, auch zum Thema Impfungen, sind <a href=\"https:\/\/kgs-rastede.de\/media\/pages\/blogs\/informationen-zum-neuen-schuljahr\/e41c8063b7-1629886543\/2021-08-24_infopaket_schulstart.pdf\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">in dieser Datei<\/a> zusammengefasst.<\/p><p><\/p><p><strong>Testen:<\/strong><\/p>"},"id":"55f4c7e4-fbfa-4164-b22a-7dabd482c576","isHidden":false,"type":"text"},{"content":{"feldinhalt":"Vom 02. - 10.09: T\u00e4gliche Selbsttestungen zu Hause.\n\nAb 13.09. Testungen 3x in der Woche zu Hause, JEDEN Montag, Mittwoch und Freitag.\n\nBefreit von der Testpflicht: Vollst\u00e4ndig Geimpfte\/Genesene."},"id":"56dcb8fa-637f-4033-bcb5-031ccdb57602","isHidden":false,"type":"highlightfeld"},{"content":{"text":"<p><strong>MNB (Mund-Nasen-Bedeckung):<\/strong><\/p>"},"id":"bca27f13-7fa1-452a-a906-d4d293307b20","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Im Geb\u00e4ude und im Unterricht (Sitzplatz)<\/li><li>ab 14 Jahre MNB als medizinische Maske (wie \u00d6PNV) oder FFP2<\/li><li>au\u00dferhalb des Schulgeb\u00e4udes auf dem Schulgel\u00e4nde keine MNB<\/li><li>Beeintr\u00e4chtigte mit \u00e4rztlichem Attest oder amtlicher Bescheinigung sind vom Tragen der Maske befreit<\/li><li>Sch\u00fclerinnen und Sch\u00fclern mit Beeintr\u00e4chtigungen sowie mit Unterst\u00fctzungsbedarfen kann auch in der Zwischenzeit ein kurzzeitiges Abnehmen der Mund-Nasen-Bedeckung erm\u00f6glicht werden<\/li><li>Maskenpausen sind unbedingt zu beachten, z.B. im Rahmen der L\u00fcftungspause 20-5-20, beim Essen und Trinken<\/li><\/ul>"},"id":"c113e460-26e2-402b-8d8d-02c855fe142f","isHidden":false,"type":"list"},{"content":{"text":"<p><strong>Grunds\u00e4tzlich gilt dar\u00fcber hinaus weiterhin <\/strong>die<strong> <\/strong>Einhaltung der AHA+L Regelungen und der allgemeinen Hygieneregelungen auf der Grundlage des Rahmenhygieneplans.<\/p>"},"id":"6a928301-b82f-45e7-b374-ceb66023e7f4","isHidden":false,"type":"text"},{"content":{"name":""},"id":"a2caecc1-e56a-456c-9449-4ac311b2bf92","isHidden":false,"type":"horizontale-linie"},{"content":{"level":"h2","text":"Impfaktion in der KGS Rastede"},"id":"17aa778c-ec00-49aa-bf02-c1b6eaa54456","isHidden":false,"type":"heading"},{"content":{"text":"<p>Am Samstag, 4. September 2021, wird in der KGS eine Impfaktion durch einen Arzt stattfinden.<\/p><p><\/p><p>Die Sch\u00fcler:innen der Schuljahrg\u00e4nge<strong> 10 bis 13<\/strong> haben die Gelegenheit, sich am Samstagvormittag in der Schule impfen zu lassen. Weitere Informationen dazu gehen per EMail an die Erziehungsberechtigten und die IServ-EMailadressen der Sch\u00fcler:innen. Die Anmeldung zu der Aktion muss aus organisatorischen Gr\u00fcnden bis Freitag erfolgen.<\/p><p>Es wird voraussichtlich eine weitere Impfaktion Mitte September geben, dann f\u00fcr alle Sch\u00fcler:innen der KGS. Sobald die Details dazu feststehen werden diese \u00fcber IServ und die Schulhomepage ver\u00f6ffentlicht.<\/p>"},"id":"b1046a7f-a262-400e-bd5c-c4f1f706dc97","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"zuletzt aktualisiert am 01.09.2021"},"id":"ec299f8c-7585-40df-954c-62d85ccbbe29","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery: 
+
+----
+
+Date: 2021-08-25 00:00:00
+
+----
+
+Datumstartseite: 2021-12-25 00:00:00
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Schulleitung, Topartikel
+
+----
+
+Downloads:
+
+- 2021-08-24_infopaket_schulstart.pdf
+- >
+  2021-08-24_brief_an_eltern_und_erziehungsberechtigte.pdf
+- >
+  2021-08-24_brief_an_schulleitungen_und_lehrkr_fte.pdf
+- 2021-08-26_antrag_haertefall.pdf
+- >
+  2021-08-26_rundverf_gung_rlsb_os_22-2021.pdf
+- 2021-08-25_rhp_7.0_schule_ef.pdf
+- >
+  info_ber_quarantnebestimmungen_mit_bugeld.pdf
+- 2021-09-01_brief_an_sus_sek_i.pdf
+- 2021-09-01_brief_an_sus_sekii.pdf
+- >
+  2021-09-01_brief_an_schulleitungen_und_lehrkr_fte.pdf
+- 2021-09-01_brief_an_eltern_gek_rzt.pdf
+- 2021-09-01_brief_an_eltern.pdf
+
+----
+
+Fotoansicht: gallery
