@@ -43,6 +43,7 @@ columns:
               - horizontale-linie
               - tabelle
               - gastautor
+              - highlightfeld
               - quote
               - karousel
               - accordion
