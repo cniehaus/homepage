@@ -206,7 +206,7 @@ code {
 /* -------end customization-------- */
 /* finally, import Bootstrap to set the changes! */
 /*!
- * Bootstrap v5.1.0 (https://getbootstrap.com/)
+ * Bootstrap v5.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -252,7 +252,8 @@ code {
   --bs-dark-rgb: 37, 6, 6;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 244, 244, 244;
   --bs-font-sans-serif: Pangea, Segoe UI, Optima, Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
