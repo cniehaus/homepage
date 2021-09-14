@@ -37,7 +37,7 @@
 
                                     <script type="text/javascript">
                                         var mail = "<?= $kontakt->email() ?>";
-                                        var en = "de";
+                                        var en = "eu";
                                         var dom = "kgs-rastede";
                                         var at = "@";
                                         document.open();

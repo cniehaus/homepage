@@ -21,7 +21,7 @@
             <td>
               <script type="text/javascript">
                 var mail = "<?= $l->kuerzel()->upper() ?>";
-                var en = "de";
+                var en = "eu";
                 var dom = "kgs-rastede";
                 var at = "@";
                 document.open();

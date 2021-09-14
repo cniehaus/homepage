@@ -31,7 +31,7 @@
                         <td>
                             <script type="text/javascript">
                                 var mail = "<?= $kontakt->Heading() ?>";
-                                var en = "de";
+                                var en = "eu";
                                 var dom = "kgs-rastede";
                                 var at = "@";
                                 document.open();
@@ -73,7 +73,7 @@
                         <td>
                             <script type="text/javascript">
                                 var mail = "<?= $kontakt->heading() ?>";
-                                var en = "de";
+                                var en = "eu";
                                 var dom = "kgs-rastede";
                                 var at = "@";
                                 document.open();
