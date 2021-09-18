@@ -15,9 +15,9 @@
   
 </div>
 
-<div class="container">
+<div class="container mt-4">
 
-  <h2>Hier gibt es weitere Beiträge von Schülerinnen und Schülern, die sich in diesem Sinne engagieren<h2>
+  <h2>Hier gibt es weitere Beiträge von Schülerinnen und Schülern, die sich in diesem Sinne engagieren</h2>
 
   <?php
   foreach (page('blogs')
