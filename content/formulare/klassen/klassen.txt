@@ -5,6 +5,8 @@ Title: Klassen
 Klassen:
 
 - 
+  klasse: 05A1
+- 
   klasse: 05A2
 - 
   klasse: 05A3
@@ -13,9 +15,17 @@ Klassen:
 - 
   klasse: 05B2
 - 
+  klasse: 05B3
+- 
   klasse: 05C2
 - 
   klasse: 05C3
+- 
+  klasse: 05D3
+- 
+  klasse: 05E3
+- 
+  klasse: 05F3
 - 
   klasse: ------
 - 
