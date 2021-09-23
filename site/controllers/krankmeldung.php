@@ -5,7 +5,7 @@ return function($kirby, $pages, $page) {
 
     if($kirby->request()->is('POST') && get('submit')) {
         $emailEndung = "@kgs-rastede.eu";
-        $email;
+        $sekiEmail;
 
         // check the honeypot
         if(empty(get('website')) === false) {
@@ -13,13 +13,14 @@ return function($kirby, $pages, $page) {
             exit;
         }
 
+        // !!!!! Die esc() Methode ist SEHR wichtig, da sonst eine XSS (Cross-Site-Scripting) vulnerability / Sicherheitslücke vorliegt.
         $data = [
-            'name'  => get('name'),
-            'email' => get('email'),
-            'klasse' => get('klasse'),
-            'klassenlehrer'  => get('klassenlehrer'),
-            'tel' => get('tel'),
-            'nachricht' => get('nachricht')
+            'name'  => esc(get('name')),
+            'email' => esc(get('email')),
+            'klasse' => esc(get('klasse')),
+            'klassenlehrer'  => esc(get('klassenlehrer')),
+            'tel' => esc(get('tel')),
+            'nachricht' => esc(get('nachricht'))
         ];
 
         $rules = [
@@ -40,36 +41,43 @@ return function($kirby, $pages, $page) {
             'nachricht' => 'Bitte fassen Sie sich kürzer'
         ];
 
-        if(substr($data['klasse'], 0, 2) === "05" || substr($data['klasse'], 0, 2) === "06") { // für füfnte und sechste Klassen an die Feldbreite
-            $email = "feldbreite" . $emailEndung;
+        // für füfnte und sechste Klassen an die Feldbreite
+        if(substr($data['klasse'], 0, 2) === "05" || substr($data['klasse'], 0, 2) === "06") { 
+            $sekiEmail = "feldbreite" . $emailEndung;
+        } else { // alles andere an die Wilhelmstrasse
+            $sekiEmail = "wilhelmstrasse" . $emailEndung;
         }
-        else { // alles andere an die Wilhelmstrasse
-            $email = "wilhelmstrasse" . $emailEndung;
+
+        // Meldung falls keine Nachricht eingegeben wurde anstatt leeres Feld
+        if(empty($data['nachricht'])) {
+            $data['nachricht'] = "Es wurde keine Nachricht eingegeben.";
+        } else { // "Nachricht:" davor schreiben
+            $data['nachricht'] = "Nachricht: <br>" . $data['nachricht'];
         }
+
 
         // some of the data is invalid
         if($invalid = invalid($data, $rules, $messages)) {
             $alert = $invalid;
 
-            // the data is fine, let's send the email
+        // the data is fine, let's send the email
         } else {
             try {
                 $kirby->email([
                     'template' => 'krankmeldung',
-                    'from'     => esc($data['email']),
+                    'from'     => $data['email'],
                     'replyTo'  => $data['email'],
-                    'to'       => $email,
+                    'to'       => $sekiEmail,
                     'cc'       => $data['klassenlehrer'] . $emailEndung,
-                    'subject'  => 'Krankmeldung für: ' . esc($data['name']) . ' (' . esc($data['klasse']) . ')',
+                    'subject'  => 'Krankmeldung für: ' . $data['name'] . ' (' . $data['klasse'] . ')',
                     'data'     => [
-                        'text'   => "Name: <em>" . esc($data['name']) .
-                                "</em><br>E-Mail: <em>" . esc($data['email']) .
-                                "</em><br>Telefonnummer: <em>" . esc($data['tel']) .
-                                "</em><br>Klasse: <em>" . esc($data['klasse']) .
-                                "</em><br>Klassenlehrer: <em>" . esc($data['klassenlehrer']) .
-                                "</em><br><br>Nachricht:<br>" . esc($data['nachricht']) .
-                                "<br><br>",
-                        'sender' => esc($data['name'])
+                        'text'   => "Name: <em>" . $data['name'] .
+                                "</em><br>E-Mail: <em>" . $data['email'] .
+                                "</em><br>Telefonnummer: <em>" . $data['tel'] .
+                                "</em><br>Klasse: <em>" . $data['klasse'] .
+                                "</em><br>Klassenlehrerkürzel: <em>" . $data['klassenlehrer'] .
+                                "</em><br><br>" . $data['nachricht'] .
+                                "<br><br>"
                     ]
                 ]);
 
@@ -77,13 +85,34 @@ return function($kirby, $pages, $page) {
                 if(option('debug')):
                     $alert['error'] = 'Die Krankmeldung konnte nicht gesendet werden: <strong>' . $error->getMessage() . '</strong>';
                 else:
-                    $alert['error'] = 'Die Krankmeldung konnte <strong>nicht</strong> gesendet werden! Bitte versuchen Sie uns auf einem anderen Weg zu erreichen.';
+                    $alert['error'] = 'Die Krankmeldung konnte <strong>nicht</strong> gesendet werden! Bitte senden Sie eine Mail an das Sekreteriat um Ihr Kind krank zu melden: 
+                        <br>' . $sekiEmail;
                 endif;
+            }
+
+            if (empty($alert) === true) { // falls die E-Mail an das Sekreteriat und die Lehrkraft erfolgreich war
+                try { // versuche an die Eltern eine Mail Bestätigungsmail zu schicken
+                    $kirby->email([
+                        'template'  => 'bestaetigung',
+                        'from'      => $sekiEmail,
+                        'to'        => $data['email'],
+                        'subject'   => 'Eingangsbestätigung Krankmeldung für ' . $data['name'],
+                        'data'      => [
+                            'text'      => "vielen Dank für das Ausfüllen des Krankmeldungsformulars auf der Homepage der KGS Rastede. Hiermit bestätigen wir Ihnen den systemtechnischen Eingang der Krankmeldung für " . $data['name'] .
+                                    "aus der " . $data['klasse'] . "Entsprechend wurde eine E-Mail an das Sekreteriat und an [HIER LEHRER EINFÜGEN] geschickt." .
+
+                                    "<br><br>Falls diese Angaben nicht korrekt sind wenden Sie sich bitte an das Sekreteriat: " . $sekiEmail . "Sie brauchen sonst nichts weiter zu tun.",
+                        ] 
+                        ]);
+                } catch (Exception $error) {
+                    // do smth
+                }
+
             }
 
             // no exception occurred, let's send a success message
             if (empty($alert) === true) {
-                $success = 'Die Krankmeldung wurde gesendet';
+                $success = 'Die Krankmeldung wurde erfolgreich gesendet! Sie können dieses Fenster nun schließen.';
                 $data = [];
             }
         }
