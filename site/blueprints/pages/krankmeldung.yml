@@ -3,20 +3,20 @@ title: Krankmeldung Formular
 columns:
   spalte1:
     width: 1/2
-    fields: 
-      info: 
+    fields:
+      info:
         type: info
         label: "Information"
-        theme: 
+        theme:
         text: |
-          Hier können die Inhalte im Zussamenhang mit dem Krankmeldungsformular angepasst und formatiert werden. Es können alle Formatierungsoptionen des Textfeldes genutzt werden, wenn diese im jeweiligen Textfeld vorhanden sind.
+          Hier können die Inhalte im Zusammenhang mit dem Krankmeldungsformular angepasst und formatiert werden. Es können alle Formatierungsoptionen des Textfeldes genutzt werden, wenn diese im jeweiligen Textfeld vorhanden sind.
 
-          Darüberhinaus können bestimmte Platzhalter verwendet werden. Diese werden in der echten Mail, dann durch den entsprechenden Inhalt ersetzt, der im Formular eingegeben wurde. 
+          Darüberhinaus können bestimmte Platzhalter verwendet werden. Diese werden in der echten Mail dann durch den entsprechenden Inhalt ersetzt, der im Formular eingegeben wurde.
 
           **Wichtig:** <span style="color:#9c1616">Es können keine Platzhalter innerhalb von Link oder Mail Formatierungen (also mit den Knöpfen des Textfeldes) verwendet werden.<span>
       noMsgText:
         type: textarea
-        label: Keine Nachricht text
+        label: "Keine Nachricht"-Text
         help: Der Text der beim Platzhalter %nachricht% erscheint, wenn keine Nachricht eingegeben wurde
 
   spalte2:
@@ -99,7 +99,7 @@ columns:
                 <th colspan="2">%sekiMail%</th>
                 <th>=></th>
                 <td colspan="2">&emsp;E-Mail Adresse des Sekretariats <em>(Feldbreite o. Wilhemstr.)</em></th>
-              </tr>              
+              </tr>
             </tbody>
 
           </table>
@@ -119,7 +119,7 @@ columns:
           sekiBetreff:
             type: text
             label: Betreff für Mail an das Sekretariat und Kopie and die Lehrkraft
-            required: true 
+            required: true
           sekiText:
             type: textarea
             label: Inhalt der Mail
@@ -141,7 +141,7 @@ columns:
             label: Texte beim Formular
             numbered: false
             help: Diese Text sind an entsprechender Stelle auf der Seite des Krankmeldungsformulars zu sehen
-                  
+
           formularText:
             type: textarea
             label: Formulartext
