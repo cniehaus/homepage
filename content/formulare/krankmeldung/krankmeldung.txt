@@ -47,7 +47,7 @@ Wilhelmstr. 5
 
 ----
 
-Formulartext: Um ihr Kind krankzumelden, füllen sie bitte die unten stehenden Felder aus, die Klassenlehrkraft wird dann umgehend informiert.
+Formulartext: Um ihr Kind krankzumelden, füllen Sie bitte die unten stehenden Felder aus, die Klassenlehrkraft wird dann umgehend informiert.
 
 ----
 
