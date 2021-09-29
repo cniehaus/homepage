@@ -6,8 +6,6 @@ Klassen:
 - 
   klasse: 05A1
 - 
-  klasse: 05A1
-- 
   klasse: 05A2
 - 
   klasse: 05A3
