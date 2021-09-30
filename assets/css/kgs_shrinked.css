@@ -203,6 +203,20 @@ code {
   transform: scale(1.1);
 }
 
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #586994;
+  border-left-width: 10px;
+  border-left-color: #586994;
+}
+
+.bs-callout h4, .bs-callout .h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #8c271e;
+}
+
 /* -------end customization-------- */
 /* finally, import Bootstrap to set the changes! */
 /*!
@@ -2696,10 +2710,6 @@ textarea.form-control-lg {
   border-bottom: 1px solid #dee2e6 !important;
 }
 
-.w-50 {
-  width: 50% !important;
-}
-
 .w-75 {
   width: 75% !important;
 }
@@ -2853,10 +2863,6 @@ textarea.form-control-lg {
 
 .p-1 {
   padding: 0.25rem !important;
-}
-
-.p-2 {
-  padding: 0.5rem !important;
 }
 
 .p-3 {
@@ -3016,11 +3022,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-success {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -3039,6 +3040,11 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-gradient {

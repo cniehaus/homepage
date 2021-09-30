@@ -205,6 +205,20 @@ code {
   transform: scale(1.1);
 }
 
+.bs-callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #586994;
+  border-left-width: 10px;
+  border-left-color: #586994;
+}
+
+.bs-callout h4, .bs-callout .h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #8c271e;
+}
+
 /* -------end customization-------- */
 /* finally, import Bootstrap to set the changes! */
 /*!
