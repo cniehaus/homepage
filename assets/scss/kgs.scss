@@ -280,6 +280,23 @@ code {
     transform: scale(1.1);
 }
 
+// Hier das Design für die Highlightfelder (Callouts)
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid $primary;
+    border-left-width: 10px;
+    // border-radius: 10px;
+    border-left-color: $primary;
+
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: $danger;
+}
+
+
 /* -------end customization-------- */
 
 /* finally, import Bootstrap to set the changes! */

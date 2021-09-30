@@ -3,5 +3,8 @@ name: Highlightfeld
 icon: account
 label: "{{ Feldinhalt }}"
 fields:
+  Ueberschrift:
+    label: Überschrift des Feldes
+    type: text
   Feldinhalt:
     type: textarea

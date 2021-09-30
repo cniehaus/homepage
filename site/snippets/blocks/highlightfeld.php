@@ -1,1 +1,4 @@
- <div class="bg-secondary w-50 p-2" style="--bs-bg-opacity: .5;"><?= $block->feldinhalt()->kt() ?></div>
+ <div class="bs-callout bs-callout-default bg-white">
+  <h4><?= $block->ueberschrift() ?></h4>
+  <?= $block->feldinhalt()->kt() ?>
+</div>
