@@ -284,16 +284,21 @@ code {
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid $primary;
+    border: 1px solid;
     border-left-width: 10px;
     // border-radius: 10px;
-    border-left-color: $primary;
-
 }
 .bs-callout h4 {
     margin-top: 0;
     margin-bottom: 5px;
     color: $danger;
+}
+
+@each $state, $value in $theme-colors {
+    .bs-callout-#{$state} {
+        border-color: $value;
+        border-left-color: $value;
+    }
 }
 
 
