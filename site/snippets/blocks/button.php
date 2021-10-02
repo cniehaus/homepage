@@ -6,7 +6,7 @@ btn-outline-primary btn-outline-secondary btn-outline-info btn-outline-warning b
 */
 
 if (( !$block->isExternal()->toBool() && $block->pageLink()->isNotEmpty() ) || ( $block->isExternal()->toBool() && $block->externalLink()->isNotEmpty() )) : ?>
-  <?php // die Größe ist entweder btn-lg, btn-sm oder kann bei "normaler" größe weggelassen werden. Deshalb der leere String
+  <?php // die Größe ist entweder btn-lg, btn-sm oder kann bei "normaler" Größe weggelassen werden. Deshalb der leere String
   $size = $block->size();
   if ($size == 'normal') $size = '';
   else if($size->isNotEmpty()) $size = ' btn-' . $size;
