@@ -394,6 +394,14 @@ Navbar:
       externallink: ""
       trennstrich: 'false'
       icon: clock
+    - 
+      isexternal: 'false'
+      linktitle: Suche
+      pagelink:
+        - search
+      externallink: ""
+      trennstrich: 'false'
+      icon: search
 - 
   dropdowntoggle: 'false'
   kategorietitel: Kalender
