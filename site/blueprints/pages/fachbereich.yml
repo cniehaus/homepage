@@ -3,18 +3,49 @@ icon: 📜
 templates: fach
 
 
-sections:
+columns:
 
-  content:
-    type: fields
-    fields:
-      email:
-        label: Email
-        type: email
-      files:
-        label: Bild zu den Fachbereichen
-        multiple: false
-        layout: cards
-  pages:
-    headline: Fächer des Fachbereichs
-    info: "Tag: {{page.haupttag}}"
+  # main content
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          namefbl:
+            width: 1/2
+            label: Name der Fachbereichleiter:in
+            type: text
+          email:
+            width: 1/2
+            label: Email der Fachbereichleiter:in
+            type: email
+          trennlinie:
+            type: line
+          text:
+            label: Beschreibung des Fachbereichs
+            type: blocks
+
+
+
+  # meta information
+  sidebar:
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          pages:
+            headline: Fächer des Fachbereichs
+            info: "Tag: {{page.haupttag}}"
+          files:
+            label: Bild zu den Fachbereichen
+            multiple: false
+            layout: cards
+          author:
+            label: Author
+            type: users
+            multiple: false
+          tags:
+            label: Tags
+            type: tags
