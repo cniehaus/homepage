@@ -38,7 +38,8 @@ columns:
           pages:
             headline: Fächer des Fachbereichs
             info: "Tag: {{page.haupttag}}"
-          files:
+          symbolbild:
+            type: files
             label: Bild zu den Fachbereichen, wird in der Übersicht angezeigt
             multiple: false
             layout: cards
