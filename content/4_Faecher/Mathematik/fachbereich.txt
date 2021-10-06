@@ -1,1 +1,29 @@
 Title: Mathematik
+
+----
+
+Namefbl: Carsten Mönnich
+
+----
+
+Email: 
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/Mathematik/mathe
+
+----
+
+Symbolbild:
+
+- mathe.jpg
+
+----
+
+Tags: 

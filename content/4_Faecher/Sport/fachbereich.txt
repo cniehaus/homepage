@@ -2,7 +2,7 @@ Title: Sport
 
 ----
 
-Namefbl: 
+Namefbl: MP
 
 ----
 
@@ -14,14 +14,20 @@ Text:
 
 ----
 
-Pages: 
+Pages:
+
+- Faecher/Sport
 
 ----
 
-Files:
+Symbolbild:
 
 - sport.jpg
 
 ----
 
 Tags: Sport
+
+----
+
+Files: - sport.jpg

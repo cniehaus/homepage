@@ -1,1 +1,31 @@
 Title: AWT
+
+----
+
+Namefbl: Heiko Henken
+
+----
+
+Email: 
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/awt/hauswirtschaft
+- Faecher/awt/technik
+- Faecher/awt/wirtschaft
+
+----
+
+Symbolbild:
+
+- awt.jpg
+
+----
+
+Tags: 

@@ -1,1 +1,32 @@
 Title: Fremdsprachen
+
+----
+
+Namefbl: 
+
+----
+
+Email: 
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/sprachen/englisch
+- Faecher/sprachen/franzoesisch
+- Faecher/sprachen/latein
+- Faecher/sprachen/spanisch
+
+----
+
+Symbolbild:
+
+- fremdsprachen.jpg
+
+----
+
+Tags: 

@@ -1,1 +1,31 @@
 Title: Deutsch
+
+----
+
+Namefbl: Silke Wohltmann
+
+----
+
+Email: 
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/deutsch/deutsch
+- >
+  Faecher/deutsch/deutsch-als-zweitsprache-daz
+
+----
+
+Symbolbild:
+
+- deutsch.jpg
+
+----
+
+Tags: 
