@@ -39,7 +39,7 @@ columns:
             headline: Fächer des Fachbereichs
             info: "Tag: {{page.haupttag}}"
           files:
-            label: Bild zu den Fachbereichen
+            label: Bild zu den Fachbereichen, wird in der Übersicht angezeigt
             multiple: false
             layout: cards
           # Hier könnte man in Zukunft einen Account einbauen.
