@@ -13,16 +13,16 @@
       <h3 class="card-title mb-3 text-warning">Fremdsprachen</h3>
       <h3 class="card-title">Fachbereichsleiterin: Frau Backhaus</h3>
       <div class="list-group text-white">
-        <a href="<?= page('Faecher/englisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/sprachen/englisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-square"></i> Englisch
         </a> 
-        <a href="<?= page('Faecher/franzoesisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/sprachen/franzoesisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-left-dots"></i> Französisch
         </a> 
-        <a href="<?= page('Faecher/spanisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/sprachen/spanisch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-quote"></i> Spanisch
         </a> 
-        <a href="<?= page('Faecher/latein')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/sprachen/latein')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-left"></i> Latein
         </a> 
       </div>
@@ -37,19 +37,19 @@
       <h3 class="card-category card-title mb-3 text-warning">Musisch-Kultureller Bereich</h3>
       <h4 class="card-title">Fachbereichsleiter: Herr Schneemann</h4>
       <div class="list-group">
-        <a href="<?= page('Faecher/musik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/musisch-kulturelle-bildung/musik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-music-note-beamed"></i> Musik
         </a> 
-        <a href="<?= page('Faecher/kunst')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/musisch-kulturelle-bildung/kunst')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-brush"></i> Kunst
         </a> 
-        <a href="<?= page('Faecher/ds')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/musisch-kulturelle-bildung/ds')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-file-person"></i> Darstellendes Spiel
         </a> 
-        <a href="<?= page('Faecher/tg')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/musisch-kulturelle-bildung/tg')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-bezier"></i> Textiles Gestalten
         </a> 
-        <a href="<?= page('Faecher/werken')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/musisch-kulturelle-bildung/werken')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-hammer"></i> Gestaltendes Werken
         </a> 
       </div>
@@ -98,10 +98,10 @@
       <h4 class="card-title">Fachbereichsleiterin: Frau Wohltmann</h4>
 
       <div class="list-group">
-        <a href="<?= page('Faecher/deutsch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/deutsch/deutsch')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-dots"></i> Deutsch
         </a>
-        <a href="<?= page('Faecher/deutsch-als-zweitsprache-daz')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/deutsch/deutsch-als-zweitsprache-daz')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-chat-square-dots"></i> Deutsch als Zweitsprache
         </a>
       </div>
@@ -119,16 +119,16 @@
       <h4 class="card-title">Fachbereichsleiter: Herr Dr. Fach</h4>
 
       <div class="list-group">
-        <a href="<?= page('Faecher/Physik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/ntw/Physik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-plug"></i> Physik
         </a>
-        <a href="<?= page('Faecher/Biologie')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/ntw/Biologie')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-flower1"></i> Biologie
         </a>
-        <a href="<?= page('Faecher/Chemie')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/ntw/Chemie')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-droplet-half"></i> Chemie
         </a>
-        <a href="<?= page('Faecher/informatik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/ntw/informatik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-terminal"></i> Informatik
         </a>
       </div>
@@ -146,13 +146,13 @@
         <a href="<?= page('unterricht/schuelerfirmen')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-wallet2"></i> Schülerfirmen
         </a>
-        <a href="<?= page('Faecher/wirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/awt/wirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-cash-stack"></i> Wirtschaft
         </a>
-        <a href="<?= page('Faecher/technik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/awt/technik')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-screwdriver"></i> Technik
         </a>
-        <a href="<?= page('Faecher/hauswirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/awt/hauswirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-basket"></i> Hauswirtschaft
         </a>
 
@@ -169,19 +169,19 @@
       <h3 class="card-category card-title mb-3 text-warning">Sozialwissenschaften</h3>
       <h4 class="card-title">Fachbereichsleiter: Herr Meyer</h4>
       <div class="list-group">
-        <a href="<?= page('Faecher/geschichte')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/gesellschaftswissenschaften/geschichte')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-clock-history"></i> Geschichte
         </a>
-        <a href="<?= page('Faecher/politik-wirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
+        <a href="<?= page('Faecher/gesellschaftswissenschaften/politik-wirtschaft')->url() ?>" class="list-group-item list-group-item-light list-group-item-action">
           <i class="bi bi-graph-up"></i> Politik / Politik-Wirtschaft
         </a>
-        <a href="<?= page('Faecher/erdkunde')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
+        <a href="<?= page('Faecher/gesellschaftswissenschaften/erdkunde')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
           <i class="bi bi-geo"></i> Erdkunde
         </a>
-        <a href="<?= page('Faecher/religion')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
+        <a href="<?= page('Faecher/gesellschaftswissenschaften/religion')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
           <i class="bi bi-signpost-split"></i> Religion
         </a>
-        <a href="<?= page('Faecher/WuN')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
+        <a href="<?= page('Faecher/gesellschaftswissenschaften/WuN')->url() ?>" class="list-group-item list-group-item-light  list-group-item-action">
           <i class="bi bi-diagram-2-fill"></i> Werte und Normen
         </a>
       </div>
