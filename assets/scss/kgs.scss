@@ -322,7 +322,15 @@ code {
     overflow-y: auto;
     visibility: hidden;
     background-color: $secondary;
-    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    // 08/15 übergang
+    // transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    
+    // eher spielerische mit "über das Ziel hinaus"
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    // etwas weniger spielerisch
+    // transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
   }
   .offcanvas-collapse.open {
     visibility: visible;
