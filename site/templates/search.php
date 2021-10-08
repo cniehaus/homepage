@@ -5,14 +5,11 @@
 <span id="top"></span> <!-- Autscrolling -->
 </br>
 <form>
-  <div class="form-floating input-group-lg mx-auto d-block w-75">
-    <input type="search" class="form-control form-control-lg " id="floatingInput" placeholder="Testsuche" name="search" value="<?= html($query) ?>"> <!-- input-group-text -->
-    <label for="floatingInput">Suchbegriff eingeben:</label>
+    <input type="search" class="form-control form-control-lg m-5" id="floatingInput" placeholder="Suchbegriff eingeben" name="q" value="<?= html($query) ?>"> <!-- input-group-text -->
     <div class="d-grid gap-2 col-6 mx-auto mt-3">
-      <button class="btn btn-outline-secondary flex-nowrap fs-6" type="submit" formaction="#top">
+      <button class="btn" type="submit" formaction="#top">
       <i class="bi bi-search"></i> Suchen!
       </button>
-    </div>
   </div>
 </form>
 
