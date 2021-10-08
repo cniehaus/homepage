@@ -2,11 +2,15 @@ Title: Mathematik
 
 ----
 
+Bezeichnung: Fachbereichsleiter
+
+----
+
 Namefbl: Carsten Mönnich
 
 ----
 
-Email: 
+Email: mch@kgs-rastede.eu
 
 ----
 
@@ -26,4 +30,4 @@ Symbolbild:
 
 ----
 
-Tags: 
+Tags: Mathematik

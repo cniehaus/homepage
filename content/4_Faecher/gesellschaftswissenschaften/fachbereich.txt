@@ -2,11 +2,15 @@ Title: GSW
 
 ----
 
-Namefbl: 
+Bezeichnung: Fachbereichsleiterin
 
 ----
 
-Email: 
+Namefbl: Herr Meyer
+
+----
+
+Email: my@kgs-rastede.eu
 
 ----
 
@@ -34,4 +38,4 @@ Symbolbild:
 
 ----
 
-Tags: 
+Tags: Erdkunde, Religion, Weno, Werte und Normen, Geschichte

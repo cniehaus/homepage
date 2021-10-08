@@ -2,11 +2,15 @@ Title: Deutsch
 
 ----
 
-Namefbl: Silke Wohltmann
+Bezeichnung: Fachbereichsleiterin
 
 ----
 
-Email: 
+Namefbl: Frau Wohltmann
+
+----
+
+Email: woh@kgs-rastede.eu
 
 ----
 
@@ -28,4 +32,4 @@ Symbolbild:
 
 ----
 
-Tags: 
+Tags: Deutsch, DaZ

@@ -2,11 +2,15 @@ Title: Fremdsprachen
 
 ----
 
-Namefbl: 
+Bezeichnung: Fachbereichsleiterin
 
 ----
 
-Email: 
+Namefbl: Frau Backhaus
+
+----
+
+Email: bc@kgs-rastede.eu
 
 ----
 
@@ -29,4 +33,4 @@ Symbolbild:
 
 ----
 
-Tags: 
+Tags: Spanisch, Französisch, Latein, Englisch

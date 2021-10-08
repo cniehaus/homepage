@@ -2,7 +2,11 @@ Title: Naturwissenschaften
 
 ----
 
-Namefbl: Dr. Martin Fach
+Bezeichnung: Fachbereichsleiter
+
+----
+
+Namefbl: Herr Dr. Fach
 
 ----
 
