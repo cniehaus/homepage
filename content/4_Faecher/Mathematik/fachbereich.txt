@@ -1,0 +1,33 @@
+Title: Mathematik
+
+----
+
+Bezeichnung: Fachbereichsleiter
+
+----
+
+Namefbl: Herr Mönnich
+
+----
+
+Email: mch@kgs-rastede.eu
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/Mathematik/mathe
+
+----
+
+Symbolbild:
+
+- mathe.jpg
+
+----
+
+Tags: Mathematik

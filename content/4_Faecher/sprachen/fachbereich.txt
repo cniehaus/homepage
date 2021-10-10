@@ -1,0 +1,36 @@
+Title: Fremdsprachen
+
+----
+
+Bezeichnung: Fachbereichsleiterin
+
+----
+
+Namefbl: Frau Backhaus
+
+----
+
+Email: bc@kgs-rastede.eu
+
+----
+
+Text: 
+
+----
+
+Pages:
+
+- Faecher/sprachen/englisch
+- Faecher/sprachen/franzoesisch
+- Faecher/sprachen/latein
+- Faecher/sprachen/spanisch
+
+----
+
+Symbolbild:
+
+- fremdsprachen.jpg
+
+----
+
+Tags: Spanisch, Französisch, Latein, Englisch
