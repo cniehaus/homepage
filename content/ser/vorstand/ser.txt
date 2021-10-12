@@ -15,7 +15,7 @@ Mitglieder:
 - 
   name: Hartwig Haßmann
   position: Vorsitzender
-  phone: ""
+  phone: 04402-597359
   email: hartwig.hassmann@kgs-rastede.eu
 - 
   name: Dr. Barbara Valk
