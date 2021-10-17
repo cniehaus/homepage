@@ -1,8 +1,4 @@
-Title: Lehrerliste
-
-----
-
-Heading: Hier steht die Lehrerliste
+Title: Personal der Schule
 
 ----
 
