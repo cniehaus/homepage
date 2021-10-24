@@ -1,4 +1,4 @@
-# robots.txt zu http://kgs-raste.de/
+# robots.txt zu http://kgs-rastede.de/
 
 User-agent: *
 Disallow: /site/
