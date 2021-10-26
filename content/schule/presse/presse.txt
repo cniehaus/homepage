@@ -6,6 +6,35 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede_a_51,3,4076286831.html
+  name: >
+    Neue Geräte für Physikunterricht in
+    Rastede
+  anfang: >
+    Lehrplan-Änderungen im Fach Physik
+    machen die Anschaffung neuen Materials
+    erforderlich. Die Gemeinde investiert
+    jetzt 143.000 Euro in die Ausstattung an
+    der Kooperativen Gesamtschule.
+  datum: 2021-10-12
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-praeventionsprojekt-patenschaften-zwischen-moglis-und-balus_a_51,3,3121177016.html
+  name: >
+    Patenschaften zwischen „Moglis“ und
+    „Balus“
+  anfang: >
+    In Rastede schließen Grundschulkinder
+    und Zwölftklässler eine einjährige
+    Patenschaft und verbringen außerhalb
+    der Schule Zeit miteinander. „Balu und
+    Du“ heißt dieses Programm. Was steckt
+    dahinter?
+  datum: 2021-09-29
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-juniorwahl-urnengang-im-klassenzimmer_a_51,3,2765278360.html
   name: ' Urnengang im Klassenzimmer '
   anfang: 'Wahlbenachrichtigung, Wahlkabine, Wahlurne: So real wie möglich wird in Rastede die Bundestagswahl simuliert. Die KGS beteiligt sich an der bundesweiten Juniorwahl. Was hat es damit auf sich?'
