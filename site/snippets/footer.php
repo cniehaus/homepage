@@ -44,10 +44,10 @@
   </div>
   <hr>
   <div class="row">
-    <div class="col">
-      Copyright &#xA9; <script>
-        document.write(new Date().getFullYear())
-      </script> KGS Rastede ; All Rights Reserved.
+    <div class="col" id="copyrightText">
+      <script>
+        document.getElementById("copyrightText").innerHTML = `Copyright &#xA9; ${new Date().getFullYear()} KGS Rastede ; All Rights Reserved.`;
+      </script>
     </div>
   </div>
 </footer>
