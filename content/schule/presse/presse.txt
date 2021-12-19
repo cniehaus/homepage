@@ -6,6 +6,15 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-wildtierauffangstation-vorm-winterschlaf-gehts-auf-die-waage_a_51,4,2610967592.html
+  name: >
+    Ungewöhnliche Inventur in Rasteder
+    Wildtierstation
+  anfang: Vorm Winterschlaf geht’s auf die Waage
+  datum: 2021-11-20
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-auszeichnung-wie-die-kgs-eine-gesunde-lebenswelt-schaffen-will_a_51,4,2537385281.html
   name: >
     Rastedes größte Schule freut sich
