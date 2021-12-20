@@ -100,6 +100,7 @@ columns:
               - Erdkunde
               - Deutsch
               - Religion
+              - Musik
               - WuN
               - PoWi
               - Technik
@@ -116,6 +117,10 @@ columns:
               - Topartikel
               - Für den Frieden
               - Courage
+              - AWT
+              - SoWi
+              - NTW
+              - Fremdsprachen
 
           line1:
             type: line
