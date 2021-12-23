@@ -29,9 +29,8 @@ columns:
             type: blocks
             label: Beschreibung der Anfahrt Feldbreite
             width: 1/2
-          
           karte:
-            label: Inhalt
+            label: Karte des Geländes der Schule
             type: blocks
             fieldsets:
               - reiseroute
