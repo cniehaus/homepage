@@ -29,3 +29,10 @@ columns:
             type: blocks
             label: Beschreibung der Anfahrt Feldbreite
             width: 1/2
+          
+          karte:
+            label: Inhalt
+            type: blocks
+            fieldsets:
+              - reiseroute
+              - koordinate
