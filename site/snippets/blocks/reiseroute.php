@@ -164,4 +164,7 @@
   // Zoom-Knöpfe anzeigen
   // https://docs.mapbox.com/mapbox-gl-js/example/navigation/
   map.addControl(new mapboxgl.NavigationControl());
+
+  // Vollbild ermöglichen
+  map.addControl(new mapboxgl.FullscreenControl());
 </script>
