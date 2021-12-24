@@ -160,4 +160,8 @@
       .setLngLat(marker.geometry.coordinates)
       .addTo(map);
   }
+
+  // Zoom-Knöpfe anzeigen
+  // https://docs.mapbox.com/mapbox-gl-js/example/navigation/
+  map.addControl(new mapboxgl.NavigationControl());
 </script>
