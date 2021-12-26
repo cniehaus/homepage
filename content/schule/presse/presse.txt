@@ -6,6 +6,19 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-schulbau-kgs-waechst-um-26-meter-in-die-breite_a_51,5,1272917078.html
+  name: KGS wächst um 26 Meter in die Breite
+  anfang: >
+    Die Kooperative Gesamtschule Rastede
+    erhält einen weiteren Anbau. Die ersten
+    Arbeiten wurden jetzt vergeben. Schon
+    jetzt darf sich die Schule über neue
+    Ausstattung für den Physikunterricht
+    freuen.
+  datum: 2021-12-26
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-wildtierauffangstation-vorm-winterschlaf-gehts-auf-die-waage_a_51,4,2610967592.html
   name: >
     Ungewöhnliche Inventur in Rasteder
