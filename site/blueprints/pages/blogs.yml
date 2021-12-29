@@ -31,7 +31,9 @@ sections:
     headline: öffentlich einsehbar
     type: pages
     status: listed
-    templates: blog
+    templates: 
+      - blogartikel
+      - blog
     sortBy: date desc
     info: "Autor: {{page.author}}, Datum: {{page.date.toDate('d.m.Y') }}, Tag: {{page.tags}}"
 
@@ -39,6 +41,8 @@ sections:
     headline: NICHT öffentlich einsehbar
     type: pages
     status: unlisted
-    templates: blog
+    templates: 
+      - blogartikel
+      - blog
     sortBy: date desc
     info: "Autor: {{page.author}}, Datum: {{page.date.toDate('d.m.Y') }}, Tag: {{page.tags}}"
