@@ -1,6 +1,6 @@
 # /site/blueprints/blocks/lesensieauch.yml
 name: Lesen Sie auch (Link auf einer andere Seite)
-icon: web # TODO: Echtes Symbol raussuchen
+icon: url
 # label: "{{ lesensieauch }}"
 fields:
     lesensieauchtitel:
