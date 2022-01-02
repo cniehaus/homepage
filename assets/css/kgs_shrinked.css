@@ -1483,7 +1483,7 @@ textarea.form-control-lg {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(88, 105, 148, 0.25);
 }
- .form-select[size]:not([size="1"]) {
+.form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.75rem;
   background-image: none;
 }
@@ -2950,6 +2950,10 @@ textarea.form-control-lg {
   overflow: hidden !important;
 }
 
+.d-inline-block {
+  display: inline-block !important;
+}
+
 .d-block {
   display: block !important;
 }
@@ -3342,6 +3346,10 @@ textarea.form-control-lg {
 
 .rounded-pill {
   border-radius: 50rem !important;
+}
+
+.visible {
+  visibility: visible !important;
 }
 
 @media (min-width: 576px) {
