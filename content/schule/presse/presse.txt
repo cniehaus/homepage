@@ -6,6 +6,29 @@ Pressenachrichten:
 
 - 
   link: >
+    https://mobil.nwzonline.de/plus-ammerland/rastede-projekt-mut-zu-einer-besonderen-herausforderung_a_51,5,3423293348.html
+  name: Mut zu einer besonderen Herausforderung
+  anfang: >
+    Nach den Sommerferien wollen sich die
+    Achtklässler der KGS Rastede besonderen
+    Herausforderungen stellen. In kleinen
+    Gruppen werden sie zwei Wochen lang ohne
+    Eltern unterwegs sein.
+  datum: 2022-01-27
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/westerstede-ausstellung-plastikmuell-wird-zur-kunst_a_51,5,2789541984.html
+  name: Plastikmüll wird zum Kunstobjekt
+  anfang: >
+    Die Schüler befassten sich mit dem
+    Thema „Plastikmüll in unserem
+    Alltag“. Die Ergebnisse sind jetzt im
+    Güterschuppen zu sehen.
+  datum: 2022-01-18
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-schulbau-kgs-waechst-um-26-meter-in-die-breite_a_51,5,1272917078.html
   name: KGS wächst um 26 Meter in die Breite
   anfang: >
