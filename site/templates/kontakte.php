@@ -36,7 +36,7 @@
                                     <i class="bi bi-envelope"></i>                                 
 
                                     <script type="text/javascript">
-                                        var mail = "<?= $kontakt->email() ?>";
+                                        var mail = "<?= $kontakt->heading() ?>";
                                         var en = "eu";
                                         var dom = "kgs-rastede";
                                         var at = "@";
