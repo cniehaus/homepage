@@ -6,6 +6,74 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-bildung-schulbuecherei-bekommt-sechs-neue-ipads_a_51,6,377501108.html
+  name: Schulbücherei bekommt sechs neue iPads
+  anfang: >
+    Die kleine Bücherei der KGS Rastede
+    bekommt sechs neue iPads. Damit sollen
+    die Schülerinnen und Schüler auch
+    eigene Videos produzieren.
+  datum: 2022-02-15
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-freizeit-jugendcamp-von-youngstars-und-kgs_a_51,6,297759356.html
+  name: >
+    Erstes musikalisches Jugendcamp in
+    Rastede startet
+  anfang: >
+    Die Youngstars der Showband Rastede
+    veranstalten gemeinsam mit der KGS im
+    April ein musikalisches Jugendcamp. An
+    zwei Tagen kann in verschiedene
+    Instrumentengruppen reingeschnuppert
+    werden.
+  datum: 2022-02-14
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-finanzen-gruenes-licht-fuer-investitionen-an-schulen_a_51,6,113973515.html
+  name: >
+    Schulausschuss gibt grünes Licht für
+    Investitionen
+  anfang: >
+    Die Gemeinde Rastede will viel Geld in
+    ihre Schulen stecken. Der Schulausschuss
+    hat den Haushaltsentwurf jetzt
+    gebilligt.
+  datum: 2022-02-10
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-haushalt-2022-hohe-investitionen-fuer-schulen-geplant_a_51,5,3897203326.html
+  name: >
+    Diese Investitionen sind im Jahr 2022
+    für die Schulen in Rastede geplant
+  anfang: >
+    Im Haushaltsjahr 2022 plant die Gemeinde
+    Rastede, 1,7 Millionen Euro in die
+    Erweiterung der KGS zu investieren. Am
+    kommenden Montag ist dieses Projekt auch
+    Thema im Schulausschuss.
+  datum: 2022-02-03
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-wettbewerb-mit-redegewandtheit-und-argumenten-geglaenzt_a_51,5,3692247532.html
+  name: >
+    Mit Redegewandtheit und starken
+    Argumenten geglänzt
+  anfang: >
+    Die Schüler Paula Veltrup und Chris
+    Stelljes von der KGS Rastede haben in
+    ihren Altersklassen den
+    Regionalentscheid von „Jugend
+    debattiert“ 2022 gewonnen. Nun treten
+    sie im März beim Landesfinale an.
+  datum: 2022-01-31
+  medium: nwz
+- 
+  link: >
     https://mobil.nwzonline.de/plus-ammerland/rastede-projekt-mut-zu-einer-besonderen-herausforderung_a_51,5,3423293348.html
   name: Mut zu einer besonderen Herausforderung
   anfang: >
