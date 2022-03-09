@@ -24,7 +24,7 @@
 
 
 <div id="map"></div>
-<button class="btn btn-primary mb-5" id="fit">Auf Punkte reinzoomen</button>
+<button class="btn btn-primary mt-2 mb-5" id="fit">Auf Punkte reinzoomen</button>
 
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2dzcmFzdGVkZSIsImEiOiJja3hnZ2dnaXczb293MnBvNWxhdWxkdnYxIn0.kHEpdxzycw6ZVg719GpdLA';
