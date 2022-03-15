@@ -6,7 +6,7 @@ Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Freiheit und Aut
 
 ----
 
-Date: 
+Date: 2022-03-15 13:10:00
 
 ----
 
@@ -14,11 +14,11 @@ Datumstartseite: 2022-07-15 13:15:00
 
 ----
 
-Author: 
+Author: Michael Luttmer
 
 ----
 
-Tags: 
+Tags: AGs, Für den Frieden, Tibet
 
 ----
 
