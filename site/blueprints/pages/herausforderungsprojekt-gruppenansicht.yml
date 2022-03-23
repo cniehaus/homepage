@@ -1,0 +1,40 @@
+title: Übersicht über ein einzelnes Projekt
+
+
+fields:
+  heading:
+    type: text
+    width: 1/2
+    label: Untertitel
+  text:
+    label: Inhalt
+    type: blocks
+    fieldsets:
+      - heading
+      - text
+      - list
+      - image
+      - gallery
+      - video
+      - local-video
+      - markdown
+      - audio
+      - horizontale-linie
+      - highlightfeld
+      - quote
+      - karousel
+      - accordion
+      - koordinate
+      - reiseroute
+  gallery:
+    type: files
+    uploads: bildherausforderungsprojekt
+    query: page.images
+    label: Fotos aus dem Projekt
+    help: Hier nur Fotos, KEINE PDF-Dateien
+    layout: cardlets
+    image:
+      cover: true
+      ratio: 1/1
+
+

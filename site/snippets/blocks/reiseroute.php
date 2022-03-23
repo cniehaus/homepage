@@ -37,6 +37,8 @@
           'properties': {
             'message': '<?= $block->name() ?>',
             'iconSize': [50, 50],
+
+            //TODO wenn hier kein Bild hochgeladen wurde muss ein Default Bild genommen werden
             'iconUrl': '<?= $block->bild()->toFile()->url() ?>'
           },
           'geometry': {

@@ -3,6 +3,7 @@
 
 <?php snippet('sidebar') ?>
 
+
 <div class="container">
 
   <h2>Berichte aus dem Herausforderungsprojekt</h2>

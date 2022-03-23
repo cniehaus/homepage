@@ -1,0 +1,24 @@
+title: Fächerübersicht
+icon: 📜
+templates: fach
+
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          heading:
+            type: text
+            label: Untertitel
+          text:
+            label: Inhalt
+            type: blocks
+  sidebar:
+    width: 1/3
+    sticky: true
+    sections:
+      pages:
+        headline: Übersicht über die Jahre

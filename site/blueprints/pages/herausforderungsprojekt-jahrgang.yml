@@ -1,0 +1,9 @@
+title: Über die Projekte des Jahres
+icon: 📜
+
+
+sections:
+  pages:
+    headline: Übersicht über den Jahrgang
+    info: "Tag: {{page.haupttag}}"
+    templates: herausforderungsprojekt-gruppenansicht
