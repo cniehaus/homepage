@@ -6,6 +6,29 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/plus-ammerland/rastede-aktion-schueler-protestieren-gegen-ukraine-krieg_a_51,6,3383290050.html
+  name: >
+    Schüler demonstrieren gegen Krieg in
+    der Ukraine
+  anfang: 'Rund 1500 Schüler haben in Rastede ein Zeichen gegen den Krieg in der Ukraine gesetzt: Mit Transparenten und Plakaten marschierten sie von ihren Schulen bis zu einer Kundgebung auf dem Rennplatz.'
+  datum: 2022-04-01
+  medium: nwz
+- 
+  link: 'https://www.nwzonline.de/plus-ammerland/rastede-engagement-schulen-starten-aktionen-gegen-krieg_a_51,6,3163180109.html#'
+  name: >
+    Rasteder Schulen starten Aktionen gegen
+    Ukraine-Krieg
+  anfang: >
+    Der Ukraine-Krieg beschäftigt auch die
+    Schülerinnen und Schüler in der
+    Gemeinde Rastede. Jetzt gibt es
+    verschieden Aktionen an den Schulen, die
+    ein klares Zeichen gegen den Krieg
+    setzen sollen.
+  datum: 2022-03-29
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/rastede-bildung-schulbuecherei-bekommt-sechs-neue-ipads_a_51,6,377501108.html
   name: Schulbücherei bekommt sechs neue iPads
   anfang: >
