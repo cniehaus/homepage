@@ -1,6 +1,7 @@
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css" />
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar/main.min.js'></script>
+<link rel="stylesheet" href="../../node_modules/fullcalendar/main.min.css" />
+<script src='../../node_modules/fullcalendar/main.min.js'></script>
+
 <script src='../../node_modules/ical.js/build/ical.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar/main.global.js'></script>
 
