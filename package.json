@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fullcalendar/icalendar": "^5.10.1",
     "autoprefixer": "^10.4.4",
     "cssmin": "^0.4.3",
     "fullcalendar": "^5.10.2",

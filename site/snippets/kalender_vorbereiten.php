@@ -3,7 +3,7 @@
 <script src='../../node_modules/fullcalendar/main.min.js'></script>
 
 <script src='../../node_modules/ical.js/build/ical.min.js'></script>
-<script src='https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar/main.global.js'></script>
+<script src='../../node_modules/@fullcalendar/icalendar/main.global.min.js'></script>
 
 <?php include('./assets/kalender/kalender-update.php'); // Den Code für das automatische Update laden
 $cache_file = './assets/kalender/cache.txt';
