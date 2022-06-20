@@ -1,13 +1,13 @@
 # Wie UNSERE Homepage runterladen
 Kirby ist soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Dann könnt ihr den Code mit folgenden Befehlen runterladen:
 
-## Welche Software muss vorher instlliert werden?
+## Welche Software muss vorher installiert werden?
 
 + [composer](https://getcomposer.org/download/)
 + WebServer (WAMP, LAMP, XAMPP, etc) oder falls [VS Code](https://code.visualstudio.com/) benutzt wird, die Extension [PHP-Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
 + PHP 7 oder 8 (mindestens PHP 7.4)
 + [git](https://git-scm.com/downloads)
-+ Ein Editor wie Visual Studio Code, Atom, etc.
++ Ein Editor wie Visual Studio Code
 
 *Weitere Details sind unten zu finden.*
 
@@ -47,7 +47,6 @@ Kein Problem! Wir können uns entweder mal (z.B. in einer Mittagspause) treffen 
 ### Editor
 * Als Editor eignet sich [VS Code](https://code.visualstudio.com/).
 * Unter Linux verwende ich schon immer [Vim](https://www.vim.org/), ein besserer Editor kann kaum existieren :-)
-* [Atom](https://atom.io/) ist auch super, technisch VS Code sehr ähnlich
 * Zurecht schwören viele auf [Sublime](https://www.sublimetext.com/)
 * [Notepad++](https://notepad-plus-plus.org/) ist ein einfacher zu beherschender Editor, der auf jeden Fall auch ok ist. 
 
