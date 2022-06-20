@@ -43,6 +43,7 @@ columns:
     
     sections:
       image:
+        label: Foto
         type: files
         cover: true
         layout: cards
