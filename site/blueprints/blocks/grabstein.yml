@@ -1,0 +1,11 @@
+name: Grabstein
+icon: book
+label: "{{ text }}"
+fields:
+  karousel:
+    label: Beschriftung des Steins
+    type: files
+    min: 2
+    layout: cards
+    query: page.images
+
