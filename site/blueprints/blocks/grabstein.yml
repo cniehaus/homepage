@@ -1,11 +1,27 @@
 name: Grabstein
-icon: book
-label: "{{ text }}"
+icon: bookmark
+label: "{{ Grabsteine }}"
 fields:
-  karousel:
-    label: Beschriftung des Steins
+  grabsteinbild:
+    label: Grabsteinbild
     type: files
-    min: 2
+    max: 1
     layout: cards
     query: page.images
-
+  beschriftung:
+    label: Beschriftung des Steins;Name
+    type: text
+  gebdatum:
+    label: Geboren
+    type: date
+  todesdatum:
+    label: Gestorben
+    type: date
+  reihe:
+    type: number
+    min: 1
+    max: 20
+  position:
+   type: number
+   min: 1
+   max: 20
