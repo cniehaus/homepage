@@ -2,7 +2,7 @@ Title: Kinderfriedhof
 
 ----
 
-Text: [{"content":{"grabsteinbild":[],"beschriftung":"","gebdatum":"","todesdatum":"","reihe":null,"position":null},"id":"69d3a14c-420b-41d1-9779-fb0ef326e1c7","isHidden":false,"type":"grabstein"}]
+Text: [{"content":{"grabsteinbild":["1-1.jpeg"],"beschriftung":"Maijanka Heel","gebdatum":"1945-07-22","todesdatum":"1945-10-25","reihe":1,"position":1},"id":"c5938039-a7b3-45dd-94e6-247a26712f9b","isHidden":false,"type":"grabstein"},{"content":{"grabsteinbild":["1-2.jpeg"],"beschriftung":"Kurt De Bruins","gebdatum":"1945-03-24","todesdatum":"1945-04-16","reihe":1,"position":2},"id":"e3b6a2ed-a36d-409f-b759-6b17de8db47a","isHidden":false,"type":"grabstein"},{"content":{"grabsteinbild":["2-1.jpeg"],"beschriftung":"Maria Babiak","gebdatum":"1943-09-15","todesdatum":"1945-04-16","reihe":2,"position":1},"id":"2c926c91-683b-4dd8-9274-1956c94aa819","isHidden":false,"type":"grabstein"}]
 
 ----
 
