@@ -2,6 +2,22 @@ title: Übersicht über ein einzelnes Projekt
 
 
 fields:
+  kurzname:
+    help: Zwischen 10 und 50 Zeichen
+    type: text
+    minlength: 10
+    maxlength: 50
+    width: 1/2
+  teamlogo:
+    label: Teamlogo
+    type: files
+    min: 1
+    max: 1
+    multiple: false
+    layout: cards
+    query: page.images
+    ratio: 1/1
+    width: 1/2
   text:
     label: Inhalt
     type: blocks
