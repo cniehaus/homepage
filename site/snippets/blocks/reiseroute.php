@@ -33,6 +33,58 @@
   const geojson = {
     'type': 'FeatureCollection',
     'features': [
+
+      // php_ecode verstehen ---------------------
+
+      <?php
+
+      foreach ($block->reise()->toBlocks() as $block) {
+
+        $arr = array(
+          'type' => 'Feature',
+          'properties' => array(
+            'message' => '<?= $block->name() ?>',
+            'iconSize' => [50, 50],
+            'iconUrl' => '<?= $block->bild()->toFile()->url() ?>'
+          ),
+          'geometry' => array(
+            'type' => 'Point',
+            'coordinates' => [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
+          )
+        )
+      }
+    
+
+
+
+        ?>
+
+
+      // php_ecode verstehen   ---------------------
+
+      // {
+      //   "type": "Feature",
+      //   "properties": {
+      //     "message": "Rastede",
+      //     "iconSize": [50, 50],
+      //     "iconUrl": "foo.jpg"
+      //   },
+      //   "geometry": 3
+      // }
+
+      // {
+      //   "type": "Feature",
+      //   "properties": {
+      //     "message": "Rastede",
+      //     "iconSize": [50, 50],
+      //     "iconUrl": "http:\/\/localhost:8888\/media\/pages\/unterricht\/herausforderungsprojekt\/2021\/unsere-reise-durch-asien\/7bf4709fe3-1648027418\/imag1865.jpg"
+      //   },
+      //   "geometry": {
+      //     "type": "Point",
+      //     "coordinates": [139.79, 35.7]
+      //   }
+      // }
+
       <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
           'type': 'Feature',
           'properties': {
@@ -47,14 +99,17 @@
             'coordinates': [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
           }
         },
+
+
       <?php endforeach ?>
 
       // test     The following three lines are only executed if the code in the
       // lines 36 to 50 is NOT run. So if I delete the lines above
       // the code works
       <?php foreach ($block->reise()->toBlocks() as $block) : ?>
+        //here should be at least one coordinate!
         [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>],
-      <?php endforeach ?>
+      <?php endforeach; ?>
       // test ende xxxxxxxxx
 
     ]
@@ -222,11 +277,10 @@
           'type': 'LineString',
           'coordinates': [
 
-      
+
 
             //for loop (which is not run)
-            <?php foreach ($block->reise()->toBlocks() as $block) : ?>
-              [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>],
+            <?php foreach ($block->reise()->toBlocks() as $block) : ?>[<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>],
             <?php endforeach ?>
             //end of the for loop
 
