@@ -34,62 +34,30 @@
     'type': 'FeatureCollection',
     'features': [
 
-      // php_ecode   ---------------------
+      // // php_ecode   ---------------------
 
-      <?php
+      // <?php // der nachfolgende Code geht fast. Die array-elemente sind alle in einer []-Ebene zu viel und ich finde keinen Weg, das korrekt zu machen
+      //   foreach ($block->reise()->toBlocks() as $block) {
 
+      //     $arr = array(
+      //       'type' => 'Feature',
+      //       'properties' => array(
+      //         'message' => '$block->name()',
+      //         'iconSize' => [50, 50],
+      //         'iconUrl' => $block->bild()->toFile()->url()
+      //       ),
+      //       'geometry' => array(
+      //         'type' => 'Point',
+      //         'coordinates' => [$block->breitengrad(), $block->laengengrad()]
+      //       )
+      //     );
 
-
-        foreach ($block->reise()->toBlocks() as $block) {
-
-          $arr = array(
-            'type' => 'Feature',
-            'properties' => array(
-              'message' => '$block->name()',
-              'iconSize' => [50, 50],
-                'iconUrl' => $block->bild()->toFile()->url()
-            ),
-            'geometry' => array(
-              'type' => 'Point',
-              'coordinates' => [ $block->breitengrad() , $block->laengengrad() ]
-            )
-          );
-  
-          echo json_encode($arr);
-
-     
-      }
-    
-
-
-
-        ?>
-
-
-      // php_ecode verstehen   ---------------------
-
-      // {
-      //   "type": "Feature",
-      //   "properties": {
-      //     "message": "Rastede",
-      //     "iconSize": [50, 50],
-      //     "iconUrl": "foo.jpg"
-      //   },
-      //   "geometry": 3
-      // }
-
-      // {
-      //   "type": "Feature",
-      //   "properties": {
-      //     "message": "Rastede",
-      //     "iconSize": [50, 50],
-      //     "iconUrl": "http:\/\/localhost:8888\/media\/pages\/unterricht\/herausforderungsprojekt\/2021\/unsere-reise-durch-asien\/7bf4709fe3-1648027418\/imag1865.jpg"
-      //   },
-      //   "geometry": {
-      //     "type": "Point",
-      //     "coordinates": [139.79, 35.7]
+      //     echo json_encode($arr);
       //   }
-      // }
+      // ?>
+
+
+
 
       <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
           'type': 'Feature',
