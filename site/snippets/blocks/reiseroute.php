@@ -34,24 +34,30 @@
     'type': 'FeatureCollection',
     'features': [
 
-      // php_ecode verstehen ---------------------
+      // php_ecode   ---------------------
 
       <?php
 
-      foreach ($block->reise()->toBlocks() as $block) {
 
-        $arr = array(
-          'type' => 'Feature',
-          'properties' => array(
-            'message' => '<?= $block->name() ?>',
-            'iconSize' => [50, 50],
-            'iconUrl' => '<?= $block->bild()->toFile()->url() ?>'
-          ),
-          'geometry' => array(
-            'type' => 'Point',
-            'coordinates' => [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
-          )
-        )
+
+        foreach ($block->reise()->toBlocks() as $block) {
+
+          $arr = array(
+            'type' => 'Feature',
+            'properties' => array(
+              'message' => '$block->name()',
+              'iconSize' => [50, 50],
+                'iconUrl' => $block->bild()->toFile()->url()
+            ),
+            'geometry' => array(
+              'type' => 'Point',
+              'coordinates' => [ $block->breitengrad() , $block->laengengrad() ]
+            )
+          );
+  
+          echo json_encode($arr);
+
+     
       }
     
 
