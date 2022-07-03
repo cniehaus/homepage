@@ -22,6 +22,18 @@ fields:
     label: Teamfarbe
     type: text
     width: 1/2
+  teamfarbe:
+    label: Teamfarbe
+    type: select
+    options:
+      teamfarbe1: Farbe 1
+      bs-teamfarbe1: Farbe 2
+      bs-teamfarbe2: Farbe 2
+      bs-teamfarbe3: Farbe 3 
+      bs-teamfarbe4: Farbe 4
+      bs-teamfarbe5: Farbe 5 
+      bs-teamfarbe6: Farbe 6
+      bs-teamfarbe7: Farbe 7
   text:
     label: Inhalt
     type: blocks
