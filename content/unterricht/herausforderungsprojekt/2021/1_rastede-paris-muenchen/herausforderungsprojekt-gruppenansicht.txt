@@ -8,7 +8,7 @@ Kurzname: kurzbname paris
 
 Teamlogo:
 
-- kgsblau.jpg
+- imag1865.jpg
 
 ----
 
@@ -16,7 +16,7 @@ Teamfarbe: bs-teamfarbe4
 
 ----
 
-Text: [{"content":{"text":"<p>Wir sind nach Paris gefahren<\/p>"},"id":"edea771e-9db7-42bf-96f0-d206d28898eb","isHidden":false,"type":"text"},{"content":{"url":"https:\/\/youtu.be\/fT-CWcwDPKo","caption":"Unser Video von Paris"},"id":"89d0dcb4-2348-4428-ab19-a8ad83a7bba5","isHidden":false,"type":"video"},{"content":{"name":"Rastede nach Paris","reise":"[{\"content\":{\"name\":\"Hier ging es los\",\"kurzbeschreibung\":\"\",\"bild\":[\"kgsblau.jpg\"],\"laengengrad\":\"53.24111 \",\"breitengrad\":\"8.194932 \"},\"id\":\"2bbf2067-90a3-4c3c-a630-8c176bbc60d2\",\"isHidden\":false,\"type\":\"koordinate\"}]"},"id":"0dcb38f3-a93d-4156-b19b-eda3a36044e0","isHidden":false,"type":"reiseroute"}]
+Text: [{"content":{"text":"<p>Wir sind nach Paris gefahren<\/p>"},"id":"edea771e-9db7-42bf-96f0-d206d28898eb","isHidden":false,"type":"text"},{"content":{"url":"https:\/\/youtu.be\/fT-CWcwDPKo","caption":"Unser Video von Paris"},"id":"89d0dcb4-2348-4428-ab19-a8ad83a7bba5","isHidden":false,"type":"video"},{"content":{"name":"Rastede nach Paris","reise":"[{\"content\":{\"name\":\"Hier ging es los\",\"kurzbeschreibung\":\"\",\"bild\":[],\"laengengrad\":\"53.24111 \",\"breitengrad\":\"8.194932 \"},\"id\":\"2bbf2067-90a3-4c3c-a630-8c176bbc60d2\",\"isHidden\":false,\"type\":\"koordinate\"}]"},"id":"0dcb38f3-a93d-4156-b19b-eda3a36044e0","isHidden":false,"type":"reiseroute"}]
 
 ----
 
