@@ -1,3 +1,41 @@
+<?php
+
+// Dieser Code generiert die JSON-Elemente
+// Allerdings ist das nicht 100% korrekt, es wird "value: Tokyo" generiert und nicht "Tokyo"
+
+// {
+//   type: "Feature",
+//   properties: {
+//     message: "Tokyo",
+//     iconSize: [50, 50],
+
+//     //TODO wenn hier kein Bild hochgeladen wurde muss ein Default Bild genommen werden
+//     iconUrl:
+//       "https://kgs-rastede.de/media/pages/unterricht/herausforderungsprojekt/2021/unsere-reise-durch-asien/21a631077c-1656836473/imag1865.jpg",
+//   },
+//   geometry: {
+//     type: "Point",
+//     coordinates: [139.79, 35.7],
+//   },
+// },
+
+// $features = [];
+// foreach ($block->reise()->toBlocks() as $block) {
+//   $features[] = [
+//     'type'       => 'Feature',
+//     'properties' => [
+//       'message'  => [$block->name()],
+//       'iconSize' => [50, 50],
+//       'iconUrl'  => ($image = $block->bild()->toFile()) ? $image->url() : '',
+//       'geometry' => [
+//         'type'        => 'Point',
+//         'coordinates' => [$block->breitengrad(), $block->laengengrad()],
+//       ],
+//     ],
+//   ];
+// }
+?>
+
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
 
@@ -30,34 +68,20 @@
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2dzcmFzdGVkZSIsImEiOiJja3hnZ2dnaXczb293MnBvNWxhdWxkdnYxIn0.kHEpdxzycw6ZVg719GpdLA';
 
+  // TODO
+  // An dieser Stelle reichen eigentlich die folgenden vier Zeilen, die rufen dann den Code ganz oben auf:
+  // const geojson = {
+  //   'type': 'FeatureCollection',
+  //   'features': < ?= json_encode($features, JSON_PRETTY_PRINT) ?>
+  // };
+  // ACHTUNG ICH HABE EIN LEERZEICHEN EINGEFÜGT HINTER features
+
+
+
+
   const geojson = {
     'type': 'FeatureCollection',
     'features': [
-
-      // // php_ecode   ---------------------
-
-      // <?php // der nachfolgende Code geht fast. Die array-elemente sind alle in einer []-Ebene zu viel und ich finde keinen Weg, das korrekt zu machen
-      //   foreach ($block->reise()->toBlocks() as $block) {
-
-      //     $arr = array(
-      //       'type' => 'Feature',
-      //       'properties' => array(
-      //         'message' => '$block->name()',
-      //         'iconSize' => [50, 50],
-      //         'iconUrl' => $block->bild()->toFile()->url()
-      //       ),
-      //       'geometry' => array(
-      //         'type' => 'Point',
-      //         'coordinates' => [$block->breitengrad(), $block->laengengrad()]
-      //       )
-      //     );
-
-      //     echo json_encode($arr);
-      //   }
-      // ?>
-
-
-
 
       <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
           'type': 'Feature',
@@ -73,7 +97,6 @@
             'coordinates': [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
           }
         },
-
 
       <?php endforeach ?>
 
