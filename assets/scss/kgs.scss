@@ -82,6 +82,17 @@ $danger: #8c271e;
 $light: #0e5499;
 $dark: #250606dc;
 
+
+$teamfarbe1: #a2c334;
+$teamfarbe2: #346434;
+$teamfarbe3: #97675b;
+$teamfarbe4: #d22334;
+$teamfarbe5: #e27ff4;
+$teamfarbe6: #fbb334;
+$teamfarbe7: #ada18c;
+
+
+
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
@@ -91,6 +102,13 @@ $theme-colors: (
     "danger": $danger,
     "light": $light,
     "dark": $dark,
+    "teamfarbe1": $teamfarbe1,
+    "teamfarbe2": $teamfarbe2,
+    "teamfarbe3": $teamfarbe3,
+    "teamfarbe4": $teamfarbe4,
+    "teamfarbe5": $teamfarbe5,
+    "teamfarbe6": $teamfarbe6,
+    "teamfarbe7": $teamfarbe7,
 );
 
 $table-border-width: 3px; //Tabellen Trennlinien dickers
