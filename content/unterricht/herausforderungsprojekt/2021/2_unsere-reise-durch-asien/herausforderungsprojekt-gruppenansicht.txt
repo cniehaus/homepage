@@ -2,7 +2,17 @@ Title: Unsere Reise durch Asien
 
 ----
 
-Heading: 
+Kurzname: kurzname asien
+
+----
+
+Teamlogo:
+
+- cover_hell.jpg
+
+----
+
+Teamfarbe: teamfarbe1
 
 ----
 
@@ -11,3 +21,7 @@ Text: [{"content":{"text":"<p>Mit dem Fahrrad durch Asien<\/p>"},"id":"f2b3f2d0-
 ----
 
 Gallery: 
+
+----
+
+Heading: 

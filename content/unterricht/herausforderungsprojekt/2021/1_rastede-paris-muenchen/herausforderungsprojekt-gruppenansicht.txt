@@ -2,7 +2,17 @@ Title: Rastede, Paris, München
 
 ----
 
-Heading: 
+Kurzname: kurzbname paris
+
+----
+
+Teamlogo:
+
+- kgsblau.jpg
+
+----
+
+Teamfarbe: bs-teamfarbe4
 
 ----
 
@@ -11,3 +21,7 @@ Text: [{"content":{"text":"<p>Wir sind nach Paris gefahren<\/p>"},"id":"edea771e
 ----
 
 Gallery: 
+
+----
+
+Heading: 

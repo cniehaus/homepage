@@ -1,1 +1,23 @@
-Title: Test Gruppe A
+Title: Gruppe 3
+
+----
+
+Kurzname: kurzname gruppe 3
+
+----
+
+Teamlogo:
+
+- kgsblau.jpg
+
+----
+
+Teamfarbe: bs-teamfarbe2
+
+----
+
+Text: 
+
+----
+
+Gallery: 
