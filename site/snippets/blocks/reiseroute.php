@@ -21,9 +21,9 @@ foreach ($block->reise()->toBlocks() as $block) {
   $aktuelle_koordinate[0] = $block->breitengrad()->value();
   $aktuelle_koordinate[1] = $block->laengengrad()->value();
 
-  echo "aktuelle Korrdinaten:\n";
+  echo "aktuelle Koordinaten:\n";
   print_r($aktuelle_koordinate);
-  echo "Korrdinaten:\n";
+  echo "Koordinaten:\n";
   print_r($koordinaten);
 
 }
