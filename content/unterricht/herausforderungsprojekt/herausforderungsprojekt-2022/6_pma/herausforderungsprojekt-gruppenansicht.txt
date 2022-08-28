@@ -1,0 +1,24 @@
+Title: PMA
+
+----
+
+Kurzname: PMA - Wir fahren nach Groningen
+
+----
+
+Teamlogo: - bild-27.08.22-um-12.39.png
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"level":"h2","text":"<p>Wir fahren nach Groningen und tauschen dabei Sachen.<\/p>"},"id":"10fe1f88-3891-4137-a430-e9e033cbff97","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["bild-27.08.22-um-12.39.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"35f9964b-c8ca-4a78-a979-ed2bb615107e","isHidden":false,"type":"image"}]
+
+----
+
+Gallery:
+
+- pma.jpg
+- img_f1fa77007fbc-1.jpeg

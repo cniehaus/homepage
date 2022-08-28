@@ -1,0 +1,27 @@
+Title: Die Camper
+
+----
+
+Kurzname: Wir fahren mit dem Rad 480km durch Niedersachsen
+
+----
+
+Teamlogo:
+
+- >
+  54fa6473-7d7e-4d17-9b06-34f1c4023120.jpeg
+
+----
+
+Teamfarbe: bs-teamfarbe4
+
+----
+
+Text: [{"content":{"location":"kirby","image":["die-camper.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0ba8a6ae-d62b-4237-834e-e0163624b9e2","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"<p>Wir wollen mit dem Fahrrad eine Rundreise durch Niedersachsen machen.<\/p>"},"id":"4bd6bae9-ce60-4aef-a690-6034c54ff53b","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- camper.jpg
+- img_18c4df87db63-1.jpeg

@@ -1,0 +1,27 @@
+Title: Supercalifragilisticexpialidocious
+
+----
+
+Kurzname: Supercalifragilisticexpialidocious
+
+----
+
+Teamlogo:
+
+- >
+  004f095a-01fa-4c78-9938-efb01cf8e965.jpeg
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"location":"kirby","image":["004f095a-01fa-4c78-9938-efb01cf8e965.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f90a0499-3b38-4690-a9cf-cc7c863e13f9","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Wir (Elisa, Tom, Emil, Nevio, Mika, Clara) fahren mit dem Fahrrad und der Bahn nach Norden und unterst\u00fctzen Schulen\/Vereine."},"id":"00662f5e-e492-47a1-9daa-c04b42b95801","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- supercali.jpg
+- tag2.jpg

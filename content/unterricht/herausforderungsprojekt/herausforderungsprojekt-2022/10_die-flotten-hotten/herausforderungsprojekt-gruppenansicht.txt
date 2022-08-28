@@ -1,0 +1,27 @@
+Title: Die flotten Hotten
+
+----
+
+Kurzname: Die flotten Hotten
+
+----
+
+Teamlogo:
+
+- >
+  64604422-125d-4521-ac57-b3174eec9c58.jpeg
+
+----
+
+Teamfarbe: bs-teamfarbe7
+
+----
+
+Text: [{"content":{"location":"kirby","image":["64604422-125d-4521-ac57-b3174eec9c58.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f97f0b5e-ae1b-48af-b244-40cd8a90373d","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Wir (Carolina, Theda, Lina, Jule und Leni) fahren mit dem Fahrrad nach Norderney, arbeiten auf einem Ponyhof und fahren dann \u00fcber Ocholt wieder zur\u00fcck nach Rastede."},"id":"07723c09-0edd-4c15-80b0-e5860028f35d","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- photo-2022-08-26-23-05-02.jpg
+- tag-2.jpg

@@ -1,0 +1,24 @@
+Title: The Mall
+
+----
+
+Kurzname: Wir fahren mit dem Rad nach Groningen.
+
+----
+
+Teamlogo: - picsart_22-08-21_12-16-27-069.png
+
+----
+
+Teamfarbe: bs-teamfarbe2
+
+----
+
+Text: [{"content":{"location":"kirby","image":["picsart_22-08-21_12-16-27-069.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"8c15505b-b3ea-4281-80d0-c0df06196b8f","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"<p>Wir (Mette, Adriana und Lilli) fahren mit dem Fahrrad nach Groningen.<\/p>"},"id":"c592d1ed-5c77-4fb3-a02e-47d55944e25e","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- the-mall.jpg
+- photo-2022-08-27-11-51-11-2.jpg

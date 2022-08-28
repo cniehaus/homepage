@@ -1,0 +1,24 @@
+Title: NLRT
+
+----
+
+Kurzname: Reise durch Groningen
+
+----
+
+Teamlogo: - logo.jpeg
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"location":"kirby","image":["logo.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"82b34b7e-7fc5-4e96-8312-badd2cc6b6f8","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Wir ( Maro, Jonah, Thies, Franka, Greta, Maximiliam und Sepp) machen eine Rundfahrt \u00fcber Groningen."},"id":"5ea37834-96a5-485f-85cf-528e31424ea6","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- nlrt-2.jpg
+- img_33ca1fb1f3aa-1.jpeg

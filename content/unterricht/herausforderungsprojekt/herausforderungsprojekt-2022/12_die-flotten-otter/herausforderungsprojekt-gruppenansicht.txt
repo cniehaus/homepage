@@ -1,0 +1,27 @@
+Title: Die flotten Otter
+
+----
+
+Kurzname: Die flotten Otter
+
+----
+
+Teamlogo:
+
+- >
+  2393b1e5-4e0b-4f1e-9839-ac686f87225c.jpeg
+
+----
+
+Teamfarbe: bs-teamfarbe2
+
+----
+
+Text: [{"content":{"location":"kirby","image":["2393b1e5-4e0b-4f1e-9839-ac686f87225c.jpeg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"83b163c9-bd16-4bd2-b73d-449bdd99465b","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Wir ( Jale, Kai, Joris, Jannes und Lea) machen eine Fahrradtour nach Otterndorf und helfen dort beim NABU."},"id":"3fffc3fd-e187-4578-8559-00b94ebb6d16","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- die-flotten-otter.jpg
+- photo-2022-08-27-11-55-20.jpg

@@ -1,0 +1,27 @@
+Title: The walking Unicorns
+
+----
+
+Kurzname: Wanderung nach Harlesiel mit Zelten.
+
+----
+
+Teamlogo:
+
+- >
+  bildschirmfoto-2022-06-19-um-13.00.55.png
+
+----
+
+Teamfarbe: bs-teamfarbe3
+
+----
+
+Text: [{"content":{"location":"kirby","image":["bildschirmfoto-2022-06-19-um-13.00.55.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"748a8b5c-d10a-4527-97f1-5f94ff7cb9ee","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"<p>Wir wandern von Rastede nach Harlesiel und zelten dort!<\/p>"},"id":"3534c83f-e64a-47cd-a9a9-c60414804c9f","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- walking-unicorn.jpg
+- tag-2.jpg

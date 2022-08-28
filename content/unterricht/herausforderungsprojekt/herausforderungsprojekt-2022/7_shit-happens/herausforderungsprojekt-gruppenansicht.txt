@@ -1,0 +1,24 @@
+Title: Shit happens
+
+----
+
+Kurzname: Mit dem Rad und Zelt nach Dänemark
+
+----
+
+Teamlogo: - 20220724_120324.jpg
+
+----
+
+Teamfarbe: bs-teamfarbe4
+
+----
+
+Text: [{"content":{"location":"kirby","image":["20220724_120324.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"86614647-2585-4b3a-9b4c-438d7b4fb043","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"<p>Wir (Jantje, Hannah, Mieke und Liv) machen eine Fahrradtour bis nach D\u00e4nemark und zelten dort. <\/p>"},"id":"36783389-fcba-463d-bc65-e31729cb91c5","isHidden":false,"type":"heading"}]
+
+----
+
+Gallery:
+
+- danmark.jpg
+- photo-2022-08-27-11-49-06.jpg
