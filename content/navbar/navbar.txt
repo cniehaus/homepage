@@ -247,7 +247,8 @@ Navbar:
       isexternal: 'false'
       linktitle: Herausforderungsprojekt
       pagelink:
-        - unterricht/herausforderungsprojekt
+        - >
+          unterricht/herausforderungsprojekt/herausforderungsprojekt-2022
       externallink: ""
       trennstrich: 'true'
       icon: lightbulb
