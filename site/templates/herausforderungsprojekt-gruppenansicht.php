@@ -8,7 +8,8 @@
   <?php
   $images =  $page->gallery()->toFiles();
   foreach($images as $image): ?>
-    <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+    <img class="w-100 img img-raised rounded" alt="<?= $image->alt() ?>" src="<?= $image->url() ?>">
+
 
     <h1><?= $image->ort() ?></h1>
     <h2><?= $image->beschreibung() ?></h2>
