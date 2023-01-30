@@ -70,7 +70,7 @@ Man muss PHP aber nicht direkt installieren, denn PHP kommt als Teil vom Wamp64 
 Gegebenfalls muss man aber noch den Pfad ("PATH") unter Windows einrichten. Das folgende Video zeigt, wie das geht. Der korrekte Pfad ist bei meiner Installation:
 
 ```
-C:\wamp64\bin\php\php7.8.1
+C:\wamp64\bin\php\php8.1.1
 ```
 
 Über den folgenden Link kann das Video aufgerufen werden: https://youtu.be/83SccoBYSfA?t=80
