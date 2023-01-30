@@ -15,9 +15,6 @@
     </div>
 
     <div class="col-xl-4">
-      <?php 
-      //snippet('box-corona') 
-      ?>
       <?php snippet('box-kalender') ?>
       <?php snippet('box-presse') ?>
     </div>
