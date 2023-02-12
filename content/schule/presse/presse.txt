@@ -6,6 +6,78 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/ammerland/kgs-rastede-handballerinnen-im-landesfinale-von-jugend-trainiert-fuer-olympia_a_3,2,3527149612.html
+  name: Rasteder Handballerinnen im Landesfinale
+  anfang: >
+    Die Rasteder Handballerinnen sind beim
+    Schulwettbewerb „Jugend trainiert für
+    Olympia“ nicht zu bremsen. Jetzt hat
+    das Team der KGS das Landesfinale
+    erreicht.
+  datum: 2023-02-06
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/schule-am-vossbarg-und-kgs-rastede-demokratieplanspiel-pimp-your-town_a_3,2,3449381747.html
+  name: Schüler fordern Sanierung
+  anfang: >
+    Zwei Tage lang haben sich Rasteder
+    Schüler politische Anträge erarbeitet,
+    viel diskutiert und abgestimmt. Bei dem
+    Planspiel „Pimp your town!“ zeigte
+    sich, welche Probleme sie in der
+    Gemeinde sehen.
+  datum: 2023-02-02
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/rastede-laufend-frisches-trinkwasser-an-der-kgs_a_51,12,550923588.html
+  name: Laufend frisches Trinkwasser an der KGS
+  anfang: >
+    Die Schüler der KGS Rastede haben jetzt
+    einen Trinkwasserspender.
+  datum: 2023-01-20
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/klimaschutz-in-rastede-workshop-fuer-jugendliche-und-online-ideenkarte_a_51,11,760777953.html
+  name: >
+    Jetzt sind Ideen der Jugendlichen
+    gefragt
+  anfang: >
+    Welche Ideen haben Jugendliche für den
+    Klimaschutz in Rastede? Das soll bei
+    einem Workshop erarbeitet werden.
+    Außerdem können alle Bürger jetzt
+    Ideen in eine Online-Karte eintragen.
+  datum: 2022-11-28
+  medium: nwz
+- 
+  link: >
+    https://mobil.nwzonline.de/plus-ammerland/rastede-virtueller-rundgang-das-palais-ueber-das-internet-erkunden_a_51,10,3675971124.html
+  name: >
+    Das Rasteder Palais über das Internet
+    erkunden
+  anfang: >
+    Über das Internet kann man nun einen
+    Rundgang durchs Palais in Rastede
+    unternehmen. Wer kommt mit?
+  datum: 2022-11-14
+  medium: nwz
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2022/11/13/virtuell-eine-koenigin-einkleiden/
+  name: ' Virtuell eine Königin einkleiden'
+  anfang: >
+    Seit heute ist das Palais Rastede online
+    begehbar. Zur Eröffnung des
+    vielseitigen Formats wurden auch die
+    Arbeiten von KGS-Schülern gezeigt. Ihre
+    Ideen sind Teil des Projekts.
+  datum: 2022-11-13
+  medium: rastederrundschau
+- 
+  link: >
     https://www.nwzonline.de/plus-ammerland/ammerland-rastede-bildung_a_51,10,1437025771.html
   name: >
     Was Eltern aus Rastede zur
