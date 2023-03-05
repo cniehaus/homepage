@@ -1,12 +1,8 @@
-Title: Jesco Schneemann
+Title: Stefan Körner
 
 ----
 
-Heading: scm
-
-----
-
-Email: scm
+Heading: knr
 
 ----
 
@@ -14,7 +10,15 @@ Position: Fachbereich Musisch kulturelle Bildung
 
 ----
 
+Phone: 
+
+----
+
 Fotoansicht: fbl
+
+----
+
+Email: scm
 
 ----
 
@@ -23,3 +27,7 @@ Gallery: - ni.jpg
 ----
 
 Text: Inhalt, ganz wichtig
+
+----
+
+Uuid: LsFLv2ZROp7xF3Cj
