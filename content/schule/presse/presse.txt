@@ -6,6 +6,21 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/ammerland/robocup-junior-in-rastede-mit-robotern-aus-lego-fuer-deutsche-meisterschaft-qualifizieren_a_3,2,3771536813.html
+  name: >
+    Roboter simulieren Rettung von
+    Erdbebenopfern
+  anfang: >
+    Beim Robocup Junior Nordwest geht es um
+    die Qualifikation der Deutschen
+    Meisterschaften in Kassel. 255
+    Teilnehmerinnen und Teilnehmer aus der
+    Region nehmen in Rastede an dem
+    Wettbewerb teil.
+  datum: 2023-02-23
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/ammerland/kgs-rastede-handballerinnen-im-landesfinale-von-jugend-trainiert-fuer-olympia_a_3,2,3527149612.html
   name: Rasteder Handballerinnen im Landesfinale
   anfang: >
