@@ -507,7 +507,7 @@ code {
     ----------------------------------------------*/
 
 /*----------------------------------------------
-        Zoom-In-Effekt für die Gallerie
+        Zoom-In-Effekt für die Galerie
     ----------------------------------------------*/
 .ohnezoom {
   margin-top: 30px;
@@ -3273,10 +3273,6 @@ textarea.form-control-lg {
 
 .fs-4 {
   font-size: calc(1.305rem + 0.66vw) !important;
-}
-
-.fs-6 {
-  font-size: 1.2rem !important;
 }
 
 .fst-italic {
