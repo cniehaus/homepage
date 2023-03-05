@@ -30,9 +30,7 @@ Downloadtitel:
 
 ----
 
-Downloads:
-
-- 2021-zweite-fs-in-der-oberstufe.pdf
+Downloads: - 2021-zweite-fs-in-der-oberstufe.pdf
 
 ----
 
@@ -59,3 +57,7 @@ Text: [{"content":{"text":"<p>Das Abitur ist der h\u00f6chste Bildungsabschluss,
 ----
 
 Toggle: true
+
+----
+
+Uuid: Surdto5GGPSksT6U
