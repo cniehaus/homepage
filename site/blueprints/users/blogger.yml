@@ -11,10 +11,12 @@ permissions:
     system: false
   files:
     *: false
+    create: true
   site:
     *: false
   pages:
     *: false
+    create: true
     preview: true
     read: true
     sort: true
