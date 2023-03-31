@@ -13,7 +13,6 @@ return function ($site) {
     "Faecher",
     "allgemeines",
     "foerderverein",
-    "formulare",
     "schule",
     "ser",
     "sv",
