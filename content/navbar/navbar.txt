@@ -254,14 +254,6 @@ Navbar:
       icon: lightbulb
     -
       isexternal: 'false'
-      linktitle: Kultur
-      pagelink:
-        - unterricht/kulturelles
-      externallink: ""
-      trennstrich: 'false'
-      icon: globe
-    -
-      isexternal: 'false'
       linktitle: 'Online-Schüler*innenzeitung IRREGULäR'
       pagelink:
         - unterricht/online-schueler-innenzeitung
