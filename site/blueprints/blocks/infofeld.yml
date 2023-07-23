@@ -10,3 +10,7 @@ fields:
   link:
     label: Verweis
     type: link
+    options:
+      - file
+      - url
+      - page
