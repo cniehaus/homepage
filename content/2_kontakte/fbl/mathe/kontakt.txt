@@ -1,16 +1,12 @@
-Title: Carsten Mönnich
+Title: Dr.  Dennis Nawrath
 
 ----
 
-Heading: mch
+Heading: nwr
 
 ----
 
-Email: mch
-
-----
-
-Position: Fachbereich Mathematik
+Position: Fachbereich Mathematik (komm.)
 
 ----
 
@@ -19,6 +15,10 @@ Phone:
 ----
 
 Fotoansicht: fbl
+
+----
+
+Email: mch
 
 ----
 
