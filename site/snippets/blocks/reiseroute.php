@@ -107,6 +107,8 @@ echo ($features);
     <button id="floor_0" class="circle">0</button>
     <button id="floor_-1" class="circle">-1</button>
   </div>
+<input type="text" id="search-input" placeholder="Raum suchen">
+<button id="search-button">Suchen</button>
 </div>
 
 <!-- ========================================================= -->
@@ -346,7 +348,6 @@ echo ($features);
 
             map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-height', ['get', 'height']);
             map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-base', ['get', 'base_height']);
-
         });
     });
 
@@ -376,6 +377,40 @@ echo ($features);
             map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', floor === level ? 'visible' : 'none');
         });
     }
+
+    //Suchfunktion
+    function forwardGeocoder(query) {
+        const matchingFeatures = [];
+        for (const feature of customData.features) {
+            // Handle queries with different capitalization
+            // than the source data by calling toLowerCase().
+            if (
+            feature.properties.title
+            .toLowerCase()
+            .includes(query.toLowerCase())
+            ) {
+                // Add a tree emoji as a prefix for custom
+                // data results using carmen geojson format:
+                // https://github.com/mapbox/carmen/blob/master/carmen-geojson.md
+                feature['place_name'] = `🌲 ${feature.properties.title}`;
+                feature['center'] = feature.geometry.coordinates;
+                feature['place_type'] = ['park'];
+                matchingFeatures.push(feature);
+            }
+        }
+        return matchingFeatures;
+    }
+
+    // Suche nach Raum beim Klicken auf die Schaltfläche
+    document.getElementById('search-button').addEventListener('click', function () {
+        const searchTerm = document.getElementById('search-input').value;
+
+        levels.forEach((level) => {
+        map.setFilter(`room_extrusion_${level}`, ['==', ['get', 'name'], 'B023']);
+        map.setPaintProperty(`room_extrusion_${level}`, 'fill-extrusion-color', 'red');
+        });
+        
+    });
 
 
 </script>
