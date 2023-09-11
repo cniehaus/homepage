@@ -398,16 +398,30 @@
         return matchingFeatures;
     }
 
-    // Suche nach Raum beim Klicken auf die Schaltfläche
-    document.getElementById('search-button').addEventListener('click', function () {
-        const searchTerm = document.getElementById('search-input').value;
+// Suche nach Raum beim Klicken auf die Schaltfläche
+document.getElementById('search-button').addEventListener('click', function () {
+    const searchTerm = document.getElementById('search-input').value;
 
-        levels.forEach((level) => {
-        map.setFilter(`room_extrusion_${level}`, ['==', ['get', 'name'], 'B023']);
-        map.setPaintProperty(`room_extrusion_${level}`, 'fill-extrusion-color', 'red');
-        });
+    // Iteriere durch die Ebenen (levels)
+    levels.forEach((level) => {
+        const roomLayerId = `room_extrusion_${level}`;
         
+        // Überprüfe, ob die Ebene (roomLayerId) existiert
+        if (map.getLayer(roomLayerId)) {
+            // Aktualisiere die Farbe der Raumebene basierend auf dem gesuchten Raum (searchTerm)
+            map.setPaintProperty(roomLayerId, 'fill-extrusion-color', ['case',
+                ['==', ['get', 'name'], searchTerm], 'red', // Raum gefunden, rot
+                'gray' // Alle anderen Räume, 50% Transparenz in Grau
+            ]);
+            
+            // Setze die Transparenz der Raumebene basierend auf dem gesuchten Raum (searchTerm)
+            map.setPaintProperty(roomLayerId, 'fill-extrusion-opacity', ['case',
+                ['==', ['get', 'name'], searchTerm], 1, // Raum gefunden, volle Transparenz
+                0.2 // Alle anderen Räume, 20% Transparenz
+            ]);
+        }
     });
+});
 
 
 </script>
