@@ -399,6 +399,9 @@
         // Raumnummern für die ausgewählte Etage anzeigen
         if(twoD){
             map.setLayoutProperty(`room_labels_floor_${etage}`, 'visibility', 'visible');
+            levels.forEach((level) => {
+                map.setLayoutProperty(`room_walls_${level}`, 'visibility', etage === level ? 'visible' : 'none');
+            });
         }
 
         // Filter setzen
@@ -407,7 +410,6 @@
             map.setLayoutProperty(`hall_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`room_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
-            map.setLayoutProperty(`room_walls_${level}`, 'visibility', etage === level ? 'visible' : 'none');
         });
     }
 
