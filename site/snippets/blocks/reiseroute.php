@@ -140,7 +140,7 @@ echo ($features);
     });
     const levels = ['-1','0', '1', '2'];
     let twoD = false;
-    let etage = 0;
+    let etage = '0';
 
     map.setStyle('mapbox://styles/mapbox/outdoors-v12');
 
@@ -324,6 +324,9 @@ echo ($features);
                 map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-height', 0.01);
                 map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-base', 0.01);
         });
+        
+        toggleFloor(); 
+
     });
 
     // 3D button
@@ -356,14 +359,14 @@ echo ($features);
     //Knopfdruck erkennen
     levels.forEach((level) => {
         document.getElementById(`floor_${level}`).addEventListener('click', () => {
-            toggleFloor(level); 
+            etage = level;
+            toggleFloor(); 
         });
     });
 
     //Richtige Etage anzeigen
-    function toggleFloor(floor) {
+    function toggleFloor() {
         raumnummernVerstecken();
-        etage = floor;
         // Raumnummern für die ausgewählte Etage anzeigen
         if(twoD){
             map.setLayoutProperty(`room_labels_floor_${etage}`, 'visibility', 'visible');
@@ -371,10 +374,10 @@ echo ($features);
 
         // Filter setzen
         levels.forEach((level) => {
-            map.setLayoutProperty(`floor_extrusion_${level}`, 'visibility', floor === level ? 'visible' : 'none');
-            map.setLayoutProperty(`hall_extrusion_${level}`, 'visibility', floor === level ? 'visible' : 'none');
-            map.setLayoutProperty(`room_extrusion_${level}`, 'visibility', floor === level ? 'visible' : 'none');
-            map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', floor === level ? 'visible' : 'none');
+            map.setLayoutProperty(`floor_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
+            map.setLayoutProperty(`hall_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
+            map.setLayoutProperty(`room_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
+            map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
         });
     }
 
