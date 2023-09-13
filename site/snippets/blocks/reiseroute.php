@@ -349,6 +349,9 @@ echo ($features);
 
                 map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-height', 0.01);
                 map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-base', 0.01);
+
+                map.setPaintProperty(`room_extrusion_${level}_searched`, 'fill-extrusion-height', 0.01);
+                map.setPaintProperty(`room_extrusion_${level}_searched`, 'fill-extrusion-base', 0.01);
         });
 
         toggleFloor(); 
@@ -377,6 +380,9 @@ echo ($features);
 
             map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-height', ['get', 'height']);
             map.setPaintProperty(`stair_extrusion_${level}`, 'fill-extrusion-base', ['get', 'base_height']);
+
+            map.setPaintProperty(`room_extrusion_${level}_searched`, 'fill-extrusion-height', ['get', 'height']);
+            map.setPaintProperty(`room_extrusion_${level}_searched`, 'fill-extrusion-base', ['get', 'base_height']);
         });
     });
 
@@ -408,8 +414,9 @@ echo ($features);
         });
     }
 
-    // Suche nach Raum beim Klicken auf die Schaltfläche
-    document.getElementById('search-button').addEventListener('click', function () {
+    // Raumsuche Knopf
+    document.getElementById('search-button').addEventListener('click', function () {   
+        
         const searchTerm = document.getElementById('search-input').value;
 
         // Iteriere durch die Ebenen (levels)
@@ -445,6 +452,14 @@ echo ($features);
         });
     });
 
+
+function rotateCamera(timestamp) {
+    // clamp the rotation between 0 -360 degrees
+    // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
+    map.rotateTo((timestamp / 100) % 360, { duration: 0 });
+    // Request the next frame of the animation.
+    requestAnimationFrame(rotateCamera);
+}
 
 </script>
 
