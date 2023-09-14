@@ -278,7 +278,7 @@ echo ($features);
                 'text-anchor': 'center',
             },
             'paint': {
-                'text-color': 'white' // Farbe des Textlabels
+                'text-color': '#FFF' // Farbe des Textlabels
             }
             });
         }
@@ -302,7 +302,7 @@ echo ($features);
                 'line-cap': 'round'
                 },
                 'paint': {
-                'line-color': '#888',
+                'line-color': '#777',
                 'line-width': 3
                 }
             });
