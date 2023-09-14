@@ -387,11 +387,22 @@
     // Etage-Knöpfe
     //Knopfdruck erkennen
     levels.forEach((level) => {
-        document.getElementById(`floor_${level}`).addEventListener('click', () => {
+        var floor_button = document.getElementById(`floor_${level}`);
+        
+        floor_button.addEventListener('click', () => {
+            // Alle Knöpfe auf die ursprüngliche Farbe zurücksetzen
+            levels.forEach((otherLevel) => {
+                var other_button = document.getElementById(`floor_${otherLevel}`);
+                other_button.style.backgroundColor = "#0078FF"; // Ihre ursprüngliche Farbe hier
+            });
+            
+            // Die Farbe des angeklickten Knopfes ändern
             etage = level;
+            floor_button.style.backgroundColor = "#0011DC";
             toggleFloor(); 
         });
     });
+
 
     //Richtige Etage anzeigen
     function toggleFloor() {
