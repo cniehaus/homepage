@@ -175,7 +175,7 @@ echo ($features);
                     ['==', 'level', level], 
                 ],
                 'paint': {
-                    'fill-extrusion-color': ['get', 'color'],
+                    'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 0.5
@@ -204,7 +204,7 @@ echo ($features);
                     ]
                 ],
                 'paint': {
-                    'fill-extrusion-color': ['get', 'color'],
+                    'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'base_height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 1
@@ -227,7 +227,7 @@ echo ($features);
                     ['==', 'room', 'stairs'],
                 ],
                 'paint': {
-                    'fill-extrusion-color': ['get', 'color'],
+                    'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 0.2
@@ -253,7 +253,7 @@ echo ($features);
                     ['!=', 'name', 'B020']
                 ],
                 'paint': {
-                    'fill-extrusion-color': ['get', 'color'],
+                    'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
 
