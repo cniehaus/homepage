@@ -147,7 +147,7 @@
     map.on('load', () => {
         map.addSource('floorplan', {
             'type': 'geojson',
-            'data': 'http://homepage/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson'
+            'data': '/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson'
         });
 
         twoD = false;
