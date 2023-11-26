@@ -26,7 +26,29 @@ return [
 
         'language' => 'de',
 
-        'css' => 'assets/css/custom-panel.css'
+        'css' => 'assets/css/custom-panel.css',
+
+        'menu' => [
+            'site',
+            'system',
+            'users',
+            'languages',
+            'settings',
+            '-',
+            '-',
+            'newblog' => [
+                'label' => 'Neuer Blog',
+                'link' => 'pages/blogs/',
+                'icon' => 'add',
+            ],
+            '-',
+            'newpress' => [
+                'label' => 'Presseartikel',
+                'link' => '/pages/schule+presse',
+                'icon' => 'book',
+            ]
+        ]
+
     ],
 
     'email' => [
