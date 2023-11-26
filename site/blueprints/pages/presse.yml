@@ -12,7 +12,6 @@ fields:
   info:
     label: Info
     type: info
-    text: Für die NWZ muss jedes Mal Herr Thomas Haselier extra benachrichtigt werden... thomas _punkt_ haselier _at_ nwzmedien.de
   pressenachrichten:
     type: structure
     sortBy: datum desc
