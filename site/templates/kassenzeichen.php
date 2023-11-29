@@ -1,5 +1,5 @@
-<?php snippet("header");?>
-<?php snippet("page-header");?>
+<?php snippet("header"); ?>
+<?php snippet("page-header"); ?>
 
 <section class="content">
   <div class="container">
@@ -30,32 +30,24 @@
 </style>
 
     <?php
-if (
-    kirby()
-    ->request()
-    ->is("POST") &&
-    get("submit")
-) {
-    $data = [
-        "kassenzeichen" => esc(get("kassenzeichen")),
-        "betrag" => esc(get("betrag")),
-    ];
+if (kirby()->request()
+    ->is("POST") && get("submit"))
+{
+    $data = ["kassenzeichen" => esc(get("kassenzeichen")) , "betrag" => esc(get("betrag")) , ];
     $qrCode = generateQRCode($data);
     $qrCodeDataUri = $qrCode->toDataUri();
-    
-    // Annahme: Du hast eine Variable $kassenzeichen, die den Namen des Kassenzeichens enthält.
-    
+
     $filename = $data["kassenzeichen"] . ".png";
-    
+
     $qrCodeImageTag = "<img src='$qrCodeDataUri' style='max-width: 100%; height: auto;' />";
     echo $qrCodeImageTag;
     echo "<br><br>";
     echo "<a href='" . $qrCodeDataUri . "' download='$filename'>QR-Code herunterladen</a>";
-    
 
-  
-} else {
-    ?>
+}
+else
+{
+?>
           <form method="post">
       <div>
         <label for="kassenzeichen">Kassenzeichen:</label>
@@ -77,22 +69,25 @@ if (
   </div>
 </section>
 
-<?php snippet("footer");?>
+<?php snippet("footer"); ?>
 
 
 <?php
-
 function generateQRCode($data)
 {
     $parentPage = page("kassenzeichen");
-    if ($parentPage) {
-        $beguenstigter = $parentPage->beguenstigter()->toText();
-        $iban = $parentPage->iban()->toText();
-        $verwendungszweck = $parentPage->verwendungszweck()->toText();
+    if ($parentPage)
+    {
+        $beguenstigter = $parentPage->beguenstigter()
+            ->toText();
+        $iban = $parentPage->iban()
+            ->toText();
+        $verwendungszweck = $parentPage->verwendungszweck()
+            ->toText();
         $kassenzeichen = $data["kassenzeichen"];
         $betrag = $data["betrag"];
 
-          $values = array(
+        $values = array(
             /* Service tag */
             "BCD" . "\r\n" .
             /* Version */
@@ -120,15 +115,12 @@ function generateQRCode($data)
             "QRCode",
         );
 
-          $qr = new Kirby\Image\QrCode(implode("\r\n", $values));
-          $qr->toImage();
-          # show file and give posibility to download
-    } else {
-        echo "Parent page not found.";
+        $qr = new Kirby\Image\QrCode(implode("\r\n", $values));
+        $qr->toImage();
+    }
+    else
+    {
         throw new Exception("Parent page not found.");
     }
     return $qr;
-}?>
-
-
-<?php
+} ?>
