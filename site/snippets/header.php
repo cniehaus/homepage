@@ -10,6 +10,8 @@
   <meta name="description" content="Die Homepage der Kooperativen Gesamtschule Rastede (KGS Rastede)" />
 
   <?= css('assets/css/kgs_shrinked.min.css') ?>
+  <?= css('assets/css/twkgs_shrinked.min.css') ?>
+  <script defer src="node_modules/alpinejs/dist/cdn.min.js"></script>
 
   <link rel="preload" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   

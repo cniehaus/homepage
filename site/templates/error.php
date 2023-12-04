@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<?php snippet('headertw') ?>
 
 <!-- Pages: Errors: 404 -->
 <!-- Page Container -->
