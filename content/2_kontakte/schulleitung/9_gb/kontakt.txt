@@ -1,16 +1,16 @@
-Title: Naile Ildiz
+Title: Hilke Garbe
 
 ----
 
-Heading: id
+Heading: gb
 
 ----
 
-Position: Leiterin Jahrgang 5/6
+Position: Oberstufenkoordinatorin
 
 ----
 
-Phone: 04402-9265-21
+Phone: 04402-9264-69
 
 ----
 
@@ -18,7 +18,7 @@ Fotoansicht: schulleiter
 
 ----
 
-Email: id
+Email: dk
 
 ----
 
@@ -30,4 +30,4 @@ Text: Inhalt, ganz wichtig
 
 ----
 
-Uuid: zFfPbAetpoV28SWT
+Uuid: dnkMeBx7zYFPdZAa
