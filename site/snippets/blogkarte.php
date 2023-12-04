@@ -1,24 +1,25 @@
-<div class="col">
-    <div class="card mb-3">
-        <div class="row g-0">
-            <div class="col-md-4 p-1 text-danger">
-                <div class="fs-4 fw-light ps-3">
-                    <?= $subpage->title() ?>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <p class="card-text">
-                        <?= $subpage->Text()->toBlocks()->excerpt(250) ?>
-                        <?php if ($subpage->author()->isNotEmpty()) : ?>
-                            (<?= $subpage->author() ?>)
-                        <?php endif ?>
-                    </p>
-                    <p class="text-end">
-                        <?php snippet('knopf-klein', ['subpage' => $subpage, 'knopftext' => "weiterlesen"]); ?>
-                    </p>
-                </div>
-            </div>
+<div class="flex flex-col my-4 bg-slate-50 rounded-lg overflow-hidden shadow-sm">
+    <div class="p-2 lg:p-4 hover:bg-slate-100">
+        <div class="mb-3">
+            <?php snippet('tagliste', [
+                'item' => $subpage
+            ]) ?>
+        </div>
+        <h4 class="font-bold text-lg sm:text-xl mb-2">
+            <a href="javascript:void(0)" class="leading-7 text-slate-800 hover:text-slate-600">
+                <?= $subpage->title() ?>
+            </a>
+        </h4>
+        <p class="text-slate-600 text-sm font-medium mb-3">
+            <?php if ($subpage->author()->isNotEmpty()) : ?>
+                (<?= $subpage->author() ?>)
+            <?php endif ?>
+        </p>
+        <p class="prose prose-indigo prose-sm">
+            <?= $subpage->Text()->toBlocks()->excerpt(250) ?>
+        </p>
+        <div class="text-right">
+            <?php snippet('knopf-klein', ['subpage' => $subpage, 'knopftext' => "weiterlesen"]); ?>
         </div>
     </div>
 </div>
