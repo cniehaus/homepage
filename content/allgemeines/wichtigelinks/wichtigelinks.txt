@@ -2,28 +2,27 @@ Title: Informationen und Formulare
 
 ----
 
-Unterricht:
-
-- facharbeit-2020.pdf
+Unterricht: - file://dxFEPnRSoij8Ho4t
 
 ----
 
 Schule:
 
-- waffenerlass-erlasstext.pdf
-- schulordnung2020kgs-rastede.pdf
-- >
-  gebaeudeplan_aufenthaltsbereiche_endfassung2017.pdf
-- gebaeudeplan.pdf
+- file://7s8sVhUMaIq81ZOW
+- file://rpnI7Hj8yeN0AIhc
+- file://jPqz11PEtgSDm8xL
+- file://9z3VntLj02y5xit5
+- file://WjnnopypplWrHim5
 
 ----
 
 Datenschutz:
 
-- >
-  2021-04-uebersicht-verarbeitung-personenbezogener-daten-schule.pdf
-- >
-  2021-04-27-datenschutzerklaerung-schulhomepage.pdf
-- >
-  2021-04-datenschutzerklaerung-fuer-eltern_sus.pdf
-- 2020-12-datenuebermittlung-31-rlsb.pdf
+- file://XzyJoSA1qm5wpDYl
+- file://lyV9y7qrrrKL2tor
+- file://BbPx87rm1ZlNYIh1
+- file://qNntJ1Wwo1kV9bVo
+
+----
+
+Uuid: 21HnypzmhaCIrStR
