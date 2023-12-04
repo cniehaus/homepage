@@ -29,7 +29,7 @@ Author: MCH
 
 ----
 
-Tags: Mathematik, Wettbewerb
+Tags: Mathematik
 
 ----
 
@@ -38,3 +38,7 @@ Downloads:
 ----
 
 Fotoansicht: gallery
+
+----
+
+Uuid: zguNbjSPsPPWLhyH
