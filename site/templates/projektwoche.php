@@ -12,7 +12,7 @@
   <?php
   foreach (page('blogs')
     ->children()
-        ->listed()
+    ->listed()
     ->filterBy('tags', 'Projektwoche', ',')
     ->flip() as $subpage) :
 
@@ -23,4 +23,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

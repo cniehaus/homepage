@@ -45,7 +45,7 @@
                 </h3>
               </div>
               <div>
-                <span class="badge badge-pill bg-primary"><?= $quelle ?></span>  
+                <span class="badge badge-pill bg-primary"><?= $quelle ?></span>
               </div>
             </div>
 
@@ -73,4 +73,4 @@
 <?php $pagination = $list->pagination() ?>
 <?php snippet('pagination', ['pagination' => $pagination]) ?>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

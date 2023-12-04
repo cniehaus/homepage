@@ -7,7 +7,7 @@
 
   <?php
   $images =  $page->gallery()->toFiles();
-  foreach($images as $image): ?>
+  foreach ($images as $image) : ?>
     <img class="w-100 img img-raised rounded" alt="<?= $image->alt() ?>" src="<?= $image->url() ?>">
 
 
@@ -17,4 +17,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

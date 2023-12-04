@@ -5,7 +5,7 @@
 
 
 <div class="container">
-<?php
+  <?php
   foreach (page('blogs')
     ->children()
     ->listed()
@@ -19,4 +19,4 @@
 </div>
 
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

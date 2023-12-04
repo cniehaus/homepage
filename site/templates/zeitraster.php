@@ -4,15 +4,15 @@
 
 <?php snippet('sidebar') ?>
 
-<div class="container">    
+<div class="container">
 
     <table class="table table-borderless table-responsive table-striped">
         <!-- https://getbootstrap.com/docs/5.1/content/tables/ -->
-            <tr>
-                <th class="text-center">Stunde</th>
-                <th>von</th>
-                <th>bis</th>
-            </tr>
+        <tr>
+            <th class="text-center">Stunde</th>
+            <th>von</th>
+            <th>bis</th>
+        </tr>
         </thead>
         <tbody>
             <tr>
@@ -54,4 +54,4 @@
     </table>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

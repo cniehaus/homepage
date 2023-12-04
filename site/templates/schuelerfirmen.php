@@ -53,4 +53,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

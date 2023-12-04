@@ -20,4 +20,4 @@
     </div>
 </form>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

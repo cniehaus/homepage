@@ -4,62 +4,62 @@
 <?php snippet('sidebar') ?>
 
 <div class="container">
-<?php if ($page->lehrplaene()->isNotEmpty()) : ?>
+  <?php if ($page->lehrplaene()->isNotEmpty()) : ?>
 
-  <h2>Lehrpläne</h2>
+    <h2>Lehrpläne</h2>
 
-  <?= $page->Lehrplantext()->kirbytext() ?>
+    <?= $page->Lehrplantext()->kirbytext() ?>
 
 
-  <div class="row align-items-start">
-    <div class="col-xl-10">
-      <div class="table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Lehrplan</th>
-            </tr>
-          </thead>
-          <tbody>
-
-            <?php foreach ($page->lehrplaene()->toFiles() as $lehrplan) : ?>
+    <div class="row align-items-start">
+      <div class="col-xl-10">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
               <tr>
-                <td>
-                  <a href="<?= $lehrplan->url() ?>" class="text-decoration-none">
-                    <?= $lehrplan->kurzbeschreibung()->or($lehrplan->name()) ?>
-                  </a>
-                </td>
+                <th>Lehrplan</th>
               </tr>
-            <?php endforeach ?>
+            </thead>
+            <tbody>
 
-          </tbody>
-        </table>
+              <?php foreach ($page->lehrplaene()->toFiles() as $lehrplan) : ?>
+                <tr>
+                  <td>
+                    <a href="<?= $lehrplan->url() ?>" class="text-decoration-none">
+                      <?= $lehrplan->kurzbeschreibung()->or($lehrplan->name()) ?>
+                    </a>
+                  </td>
+                </tr>
+              <?php endforeach ?>
+
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-  </div>
 
 
-<?php endif ?>
+  <?php endif ?>
 
 
-<?php if (collection('blogs-haupttag')->isNotEmpty()) : ?>
+  <?php if (collection('blogs-haupttag')->isNotEmpty()) : ?>
 
-  <h2>Aktuelles aus dem Fach</h2>
+    <h2>Aktuelles aus dem Fach</h2>
 
-  <?php
-  foreach (collection('blogs-haupttag')
-    ->flip() as $subpage) :
+    <?php
+    foreach (collection('blogs-haupttag')
+      ->flip() as $subpage) :
 
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
+      snippet('blogkarte', ['subpage' => $subpage]);
+    ?>
 
-  <?php endforeach ?>
+    <?php endforeach ?>
 
-<?php endif ?>
+  <?php endif ?>
 
 
 
-<?php if ($page->hasImages()) : ?>
+  <?php if ($page->hasImages()) : ?>
 
     <?php if ($page->fotoansicht() == 'carousel') : ?>
       <?php snippet('carousel') ?>
@@ -69,7 +69,7 @@
       <!-- Bilder werden vom Autor manuel gesetzt -->
     <?php endif ?>
 
-<?php endif ?>
+  <?php endif ?>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

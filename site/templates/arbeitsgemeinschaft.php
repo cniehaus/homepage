@@ -7,10 +7,10 @@
       <div class="col">
         <?= markdown($page->content->description()) ?>
       </div>
-      <?php if($image = $page->image()): ?>
-      <div class="col">
-        <?= $image->thumb(['width' => 600])->html(['class' => 'img-fluid']) ?>
-      </div>
+      <?php if ($image = $page->image()) : ?>
+        <div class="col">
+          <?= $image->thumb(['width' => 600])->html(['class' => 'img-fluid']) ?>
+        </div>
       <?php endif; ?>
     </div>
     <div class="row">
@@ -35,4 +35,4 @@
   </div>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

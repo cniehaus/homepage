@@ -33,7 +33,7 @@
 
                             <?php if ($kontakt->email()->isNotEmpty()) : ?>
                                 <p>
-                                    <i class="bi bi-envelope"></i>                                 
+                                    <i class="bi bi-envelope"></i>
 
                                     <script type="text/javascript">
                                         var mail = "<?= $kontakt->heading() ?>";
@@ -60,4 +60,4 @@
 
 
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

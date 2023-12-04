@@ -5,10 +5,10 @@
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gx-4">
 
 
-<?= $page->beratungstyp()->toBlocks() ?>
+    <?= $page->beratungstyp()->toBlocks() ?>
 
 </div>
 
 <?php snippet('sidebar') ?>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

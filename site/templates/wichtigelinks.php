@@ -31,7 +31,7 @@
               <span class="badge bg-light me-1"><i class="bi bi-arrow-right"></i></span>
               <a class="text-decoration-none" href="<?= page("/allgemeines/schulbuchlisten")->url() ?>">Schulbuchlisten</a>
             </td>
-            
+
           </tbody>
         </table>
       </div>
@@ -48,7 +48,7 @@
           <tbody>
 
             <?php foreach ($page->Schule()->toFiles() as $datei) : ?>
-              <tr>                
+              <tr>
                 <td>
                   <span class="badge bg-light me-1 text-uppercase"><?= $datei->extension() ?></span>
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
@@ -75,7 +75,7 @@
           <tbody>
 
             <?php foreach ($page->Datenschutz()->toFiles() as $datei) : ?>
-              <tr>                
+              <tr>
                 <td>
                   <span class="badge bg-light me-1 text-uppercase"><?= $datei->extension() ?></span>
                   <a href="<?= $datei->url() ?>" class="text-decoration-none">
@@ -98,4 +98,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

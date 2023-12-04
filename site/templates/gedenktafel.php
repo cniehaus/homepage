@@ -20,15 +20,15 @@
     <?php foreach ($page->text()->toBlocks() as $block) : ?>
 
       <div class="carousel-item ">
-      <?php echo $block->grabsteinbild()->toFile() ?>
+        <?php echo $block->grabsteinbild()->toFile() ?>
         <div class="carousel-caption d-none d-md-block">
           <h5> <?php echo $block->beschriftung() ?>
           </h5>
           <p>
 
-          <?php echo $block->grabsteinbild()->toFile() ?>
+            <?php echo $block->grabsteinbild()->toFile() ?>
 
-            GebDatum <?php echo $block->gebdatum() ?> TodesDatum  <?php echo $block->todesdatum() ?>
+            GebDatum <?php echo $block->gebdatum() ?> TodesDatum <?php echo $block->todesdatum() ?>
 
           </p>
         </div>
@@ -46,4 +46,4 @@
   </button>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

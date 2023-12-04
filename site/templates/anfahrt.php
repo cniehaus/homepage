@@ -33,4 +33,4 @@
     <?= $page->karte()->toBlocks(); ?>
 
 </div>
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

@@ -7,19 +7,19 @@
   <h3 class="mb-3">Arbeitsgemeinschaften im Schuljahr <?= Escape::html($page->termYear()) ?></h3>
 
   <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-    <?php foreach ($page->children() as $arbeitsgemeinschaft): ?>
-    <div class="col">
-      <div class="card">
-        <div class="card-header">
-          <h4 class="card-title"><?= Escape::html($arbeitsgemeinschaft->title()) ?></h4>
+    <?php foreach ($page->children() as $arbeitsgemeinschaft) : ?>
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title"><?= Escape::html($arbeitsgemeinschaft->title()) ?></h4>
+          </div>
+          <?php if ($image = $arbeitsgemeinschaft->image()) : ?>
+            <a href="<?= $arbeitsgemeinschaft->url() ?>" class="stretched-link"><?= $image->crop(650, 488, 'center')->html(['class' => 'card-img-top']) ?></a>
+          <?php else : ?>
+            <div class="card-body"><a href="<?= $arbeitsgemeinschaft->url() ?>" class="card-link stretched-link">mehr…</a></div>
+          <?php endif; ?>
         </div>
-        <?php if ($image = $arbeitsgemeinschaft->image()): ?>
-        <a href="<?= $arbeitsgemeinschaft->url() ?>" class="stretched-link"><?= $image->crop(650, 488, 'center')->html(['class' => 'card-img-top']) ?></a>
-        <?php else: ?>
-        <div class="card-body"><a href="<?= $arbeitsgemeinschaft->url() ?>" class="card-link stretched-link">mehr…</a></div>
-        <?php endif; ?>
       </div>
-    </div>
     <?php endforeach; ?>
   </div>
 </div>
@@ -44,4 +44,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

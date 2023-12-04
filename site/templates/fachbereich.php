@@ -5,11 +5,11 @@
 
 <div class="container">
 
-  <?php foreach (collection('blogs')->filterBy('tags', 'in', $page->tags()->split(','), ',' )->flip() as $subpage) :
+  <?php foreach (collection('blogs')->filterBy('tags', 'in', $page->tags()->split(','), ',')->flip() as $subpage) :
     snippet('blogkarte', ['subpage' => $subpage]); ?>
   <?php endforeach ?>
 
-    <h2>Der Fachbereich besteht aus folgenden Fächern</h2>
+  <h2>Der Fachbereich besteht aus folgenden Fächern</h2>
   <?php
   $relatedPages =  $page->pages()->toPages();
   foreach ($relatedPages as $relatedPage) : ?>
@@ -17,4 +17,4 @@
   <?php endforeach ?>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

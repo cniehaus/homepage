@@ -2,11 +2,11 @@
 <?php snippet('page-header') ?>
 
 <div class="container">
-    <?php if ($page->heading()->isNotEmpty()): ?>
+    <?php if ($page->heading()->isNotEmpty()) : ?>
         <h2><?= $page->heading() ?></h2>
     <?php endif; ?>
 
-    <?php if ($page->textBefore()->isNotEmpty()): ?>
+    <?php if ($page->textBefore()->isNotEmpty()) : ?>
         <div class="container">
             <?= $page->textBefore()->toBlocks() ?>
         </div>
@@ -37,7 +37,7 @@
         </table>
     </div>
 
-    <?php if ($page->textAfter()->isNotEmpty()): ?>
+    <?php if ($page->textAfter()->isNotEmpty()) : ?>
         <div class="container">
             <?= $page->textAfter()->toBlocks() ?>
         </div>
@@ -46,4 +46,4 @@
 
 <?php snippet('sidebar') ?>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

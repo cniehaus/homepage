@@ -30,4 +30,4 @@
 
 <?php snippet('sidebar') ?>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>

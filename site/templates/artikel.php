@@ -38,7 +38,7 @@
   <?php else : ?>
     <!-- Bilder werden vom Autor manuel gesetzt -->
   <?php endif ?>
-  
+
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('footertw') ?>
