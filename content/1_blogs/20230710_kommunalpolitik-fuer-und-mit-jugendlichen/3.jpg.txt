@@ -1,5 +1,0 @@
-Uuid: SIMFU6KTD0xaDhYE
-
-----
-
-Template: blocks/image

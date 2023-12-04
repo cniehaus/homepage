@@ -1,9 +1,0 @@
-Anzeigename: Fremdsprachenwahl ab Jahrgang 11
-
-----
-
-Template: datei
-
-----
-
-Uuid: QCVSOZHm5DwYYHSI

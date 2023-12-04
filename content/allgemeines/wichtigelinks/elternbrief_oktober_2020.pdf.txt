@@ -1,9 +1,0 @@
-Anzeigename: Elternbrief der Schulleitung - Oktober 2020
-
-----
-
-Startseite: true
-
-----
-
-Template: pdfs
