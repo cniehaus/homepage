@@ -18,7 +18,7 @@ Date: 2021-09-17 00:00:00
 
 ----
 
-Datumstartseite: 2022-01-17 00:00:00
+Datumstartseite: 2021-10-26 00:00:00
 
 ----
 
@@ -26,7 +26,7 @@ Author:
 
 ----
 
-Tags: Topartikel
+Tags: Praktikum, AWT, Berufliche Orientierung
 
 ----
 
@@ -35,3 +35,7 @@ Downloads:
 ----
 
 Fotoansicht: gallery
+
+----
+
+Uuid: 23TP9c08t8bId28F

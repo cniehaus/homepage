@@ -8,9 +8,12 @@ Beschreibung: Auf dieser Seite befinden sich die wesentlichen Dokumente für den
 
 Dateien:
 
-- nutzungsordnung-02.06.21.pdf
-- nutzungsvertrag-03.06.21.pdf
-- >
-  der-wlan-zugang-fuer-sus-in-der-kgs-rastede.pdf
-- >
-  freischalten-des-wlans-fuer-sus-durch-kuk.pdf
+- file://68SZ8G6P3FDBKYlW
+- file://IAS8PAYaFgaQVLwS
+- file://j2gxp0SBBk4dinpQ
+- file://rmxT5aIAhfLzonYD
+- file://u2x4ecv4wRnrkHDR
+
+----
+
+Uuid: zCAgAOG7ElH7unKH

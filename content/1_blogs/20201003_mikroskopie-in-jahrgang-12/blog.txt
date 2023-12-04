@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Auch in Jahrgang 12 wird mikroskopiert, hier haben
 
 ----
 
-Gallery:
-
-- sonnenblatt_buche.jpg
+Gallery: - sonnenblatt_buche.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Immer-sichtbar: false
+
+----
+
+Uuid: i0GtdK8naviUwRmd

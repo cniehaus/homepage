@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Es kommen wieder alle Sch\u00fclerinnen und Sch\u0
 
 ----
 
-Gallery:
-
-- wir_halten_zusammen.jpg
+Gallery: - wir_halten_zusammen.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: manuel
 ----
 
 Immer-sichtbar: false
+
+----
+
+Uuid: x8qA2eoxYiuFNfaI

@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Die AG 'F\u00fcr den Frieden' erinnert im April an
 
 ----
 
-Gallery:
-
-- ruanda-april21.png
+Gallery: - ruanda-april21.png
 
 ----
 
@@ -32,10 +30,12 @@ Tags: Für den Frieden, AGs, Courage
 
 ----
 
-Downloads:
-
-- krieg-und-frieden-ruanda-april-2021.pdf
+Downloads: - krieg-und-frieden-ruanda-april-2021.pdf
 
 ----
 
 Fotoansicht: manuel
+
+----
+
+Uuid: LEUa9fR9mnSU8qBW

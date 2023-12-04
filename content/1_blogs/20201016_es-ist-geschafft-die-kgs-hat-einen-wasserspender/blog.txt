@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Dank der Projektgruppe \u201eEs geht um Meer\u201c
 
 ----
 
-Gallery:
-
-- wasserspender.jpeg
+Gallery: - wasserspender.jpeg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Immer-sichtbar: false
+
+----
+
+Uuid: 7kAHdHvFulvKT097

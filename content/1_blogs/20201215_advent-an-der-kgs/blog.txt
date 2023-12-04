@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Advent im Schulgarten Feldbreite!<\/p><p><\/p><p>H
 
 ----
 
-Gallery:
-
-- advent.jpeg
+Gallery: - advent.jpeg
 
 ----
 
@@ -37,3 +35,7 @@ Downloads:
 ----
 
 Fotoansicht: gallery
+
+----
+
+Uuid: AIz7aKRT5p6zLyvQ

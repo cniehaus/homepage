@@ -43,3 +43,7 @@ Fax: 0049-4402-9264-64
 ----
 
 Email: schule@kgs-rastede.de
+
+----
+
+Uuid: LDC60AFCfoeyY2Xg
