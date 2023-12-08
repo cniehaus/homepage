@@ -1,24 +1,17 @@
-<div class="col-sm-6 col-lg-4 mb-4">
+<div class="flex flex-col shadow-xl ring-1 ring-gray-900/5 rounded-lg sm:max-w-lg sm:px-10 h-full bg-slate-50 hover:bg-slate-100">
 
-    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-danger fs-4">
-                <?= $subpage->title() ?>
-            </strong>
+    <p class="text-lg font-bold mt-auto text-red-700">
 
-            <div class="mb-1 text-muted">
-                <?php if ($subpage->author()->isNotEmpty()) : ?>
-                    <?= $subpage->author() ?>
-                <?php endif ?>
-            </div>
+        <?= $subpage->title() ?>
+    </p>
 
-            <p class="card-text mb-auto">
-                <?= $subpage->Text()->toBlocks()->excerpt(250) ?>
-            </p>
+    <?= $subpage->Text()->toBlocks()->excerpt(250) ?>
+    <?php if ($subpage->author()->isNotEmpty()) : ?>
+        (<?= $subpage->author() ?>)
+    <?php endif ?>
+    </p>
 
-            <?php snippet('knopf-klein', ['subpage' => $subpage, 'knopftext' => "weiterlesen"]); ?>
-        </div>
+    <div class="text-right mt-auto mb-auto">
+        <?php snippet('knopf-klein', ['subpage' => $subpage, 'knopftext' => "weiterlesen"]); ?>
     </div>
-
-
 </div>

@@ -2,26 +2,28 @@
 
 <?php snippet('page-header') ?>
 
-<div class="container-fluid">
-  <div class="row" id="masonry-element">
+
+
+<div class="bg-slate-50 dark:bg-gray-900 dark:text-gray-100 px-4">
+  <!-- Latest Posts -->
+  <div class="grid gap-4 grid-cols-1 md:grid-cols-4 lg:grid-cols-6">
     <?php foreach ($articles as $article)
       snippet('blogkartemasonry-noimage', [
         'subpage' => $article
       ])
     ?>
   </div>
-
-  <div class="d-flex justify-content-center">
-    <?php
-    $pagination = $articles->pagination();
-
-    snippet('pagination', [
-      'pagination' => $pagination
-    ])
-    ?>
-  </div>
 </div>
 
-<?= js('assets/js/load_masonry.js') ?>
+
+<div class="d-flex justify-content-center">
+  <?php
+  $pagination = $articles->pagination();
+
+  snippet('pagination', [
+    'pagination' => $pagination
+  ])
+  ?>
+</div>
 
 <?php snippet('footertw') ?>
