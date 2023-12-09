@@ -1,10 +1,6 @@
 <!-- 
   site/blueprints/blocks/gastautor.php
  -->
-<div class="container">
-  <figure class="text-end">
-    <p class="text-end">
-      <?= $block->name() ?>
-    </p>
-  </figure>
-</div>
+<p class="text-right italic text-2xl leading-5">
+  <?= $block->name() ?>
+</p>
