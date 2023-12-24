@@ -2,11 +2,11 @@
 
 <?php snippet('page-header') ?>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gx-4">
+<div class="container mx-auto">
+  <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
 
-  <?php foreach ($page->children() as $fb): ?>
+    <?php foreach ($page->children() as $fb): ?>
 
-    <div class="lg:col-start-3 lg:row-end-1 px-2 pb-4">
       <div class="rounded-lg bg-gray-50 shadow-sm ring-1 ring-gray-900/5 mt-2">
         <dl class="flex flex-wrap">
           <div class="flex-auto pl-6 pt-6">
@@ -36,10 +36,11 @@
           <?php endforeach ?>
         </div>
       </div>
-    </div>
 
-  <?php endforeach; ?>
+    <?php endforeach; ?>
+  </div>
 </div>
+
 
 
 <?php snippet('footertw') ?>
