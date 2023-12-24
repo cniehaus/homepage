@@ -6,11 +6,12 @@
 
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       locale: 'de', //Darstellung auf Deutsch
+      themeSystem: "standard",
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
@@ -51,10 +52,10 @@
       events: {
         url: '<?= $kirby->url('assets') ?>/kalender/public.ics',
         format: 'ics',
-        failure: function() {
+        failure: function () {
           document.getElementById('script-warning').style.display = 'block';
         },
-        loading: function(bool) {
+        loading: function (bool) {
           document.getElementById('loading').style.display =
             bool ? 'block' : 'none';
         }
