@@ -1010,17 +1010,9 @@ iframe {
     flex: 0 0 auto;
     width: 25%;
   }
-  .col-md-auto {
-    flex: 0 0 auto;
-    width: auto;
-  }
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-  }
-  .col-md-5 {
-    flex: 0 0 auto;
-    width: 41.66666667%;
   }
   .col-md-6 {
     flex: 0 0 auto;
