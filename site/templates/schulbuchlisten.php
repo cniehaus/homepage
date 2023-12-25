@@ -12,22 +12,23 @@
     </div>
 
 
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl mb-2 p-2 lg:px-8">
 
         <div
-            class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            class="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <div class="flex max-w-xl flex-col items-start justify-between">
                 <div class="group relative">
                     <?php foreach ($page->SchulbuchlistenHZ()->toStructure() as $liste): ?>
                         <dl class="space-y-6 border-t border-gray-200 pt-6 text-sm font-medium text-gray-500">
-                            <div class="flex justify-between">
+
+                            <div class="flex justify-between p-2">
                                 <dt>
                                     <?= $liste->name() ?>
                                 </dt>
                                 <dd class="text-gray-900">
                                     <a href="<?= $liste->link()->toFile()->url() ?>">
                                         <button type="button"
-                                            class="rounded-full bg-white-600 p-1.5 text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                            class="ml-5 rounded-full bg-slate-100 p-1.5 text-black shadow-sm hover:bg-slate-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-file-earmark-arrow-down"
                                                 viewBox="0 0 16 16">
@@ -56,7 +57,7 @@
                                 <dd class="text-gray-900">
                                     <a href="<?= $liste->link()->toFile()->url() ?>">
                                         <button type="button"
-                                            class="rounded-full bg-indigo-600 p-1.5 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                            class="ml-5 rounded-full bg-slate-100 p-1.5 text-black shadow-sm hover:bg-slate-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-file-earmark-arrow-down"
                                                 viewBox="0 0 16 16">
@@ -82,10 +83,10 @@
                                 <dt>
                                     <?= $liste->name() ?>
                                 </dt>
-                                <dd class="text-gray-900">
+                                <dd class="text-slate-900">
                                     <a href="<?= $liste->link()->toFile()->url() ?>">
                                         <button type="button"
-                                            class="rounded-full bg-indigo-600 p-1.5 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                                            class="ml-5 rounded-full bg-slate-100 p-1.5 text-black shadow-sm hover:bg-slate-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 fill="currentColor" class="bi bi-file-earmark-arrow-down"
                                                 viewBox="0 0 16 16">
