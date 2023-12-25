@@ -3,41 +3,44 @@
 <?php snippet('page-header') ?>
 
 
-<div class="container">
-  <div class="blockqoute">
-    <div class="d-flex justify-content-between mb-3">
+<div class="container mx-auto">
 
-      <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()) : ?>
-        <div class="mt-0 mb-0 h5">
+  <div mb-4>
 
-          <?php if ($page->date()->isNotEmpty()) : ?>
-            <?= $page->date()->toDate("d.m.Y") ?>,
-          <?php endif ?>
-          <?php if ($page->author()->isNotEmpty()) : ?>
-            geschrieben von: <?= $page->author() ?>
-          <?php endif ?>
+    <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()): ?>
 
-        </div>
-
-      <?php else : ?>
-        <div></div>
+      <?php if ($page->date()->isNotEmpty()): ?>
+        <time datetime="<?= $page->date()->toDate("d.m.Y") ?>" class="text-gray-500">
+          <?= $page->date()->toDate("d.m.Y") ?>
+        </time>
       <?php endif ?>
+      <div class="ml-4">
 
+        <?php snippet('tagliste', [
+          'item' => $page
+        ]) ?>
+      </div>
+      <div class="mb-2">
 
+        <?php if ($page->author()->isNotEmpty()): ?>
+          geschrieben von:
+          <?= $page->author() ?>
+        <?php endif ?>
+      </div>
 
+    <?php else: ?>
+      <div></div>
+    <?php endif ?>
 
-      <?php snippet('tagliste', [
-        'item' => $page
-      ]) ?>
-    </div>
   </div>
 
 
 
-  <?php foreach ($page->text()->toLayouts() as $layout) : ?>
+
+  <?php foreach ($page->text()->toLayouts() as $layout): ?>
     <section class="grid" id="<?= $layout->id() ?>">
       <div class="row align-items-start">
-        <?php foreach ($layout->columns() as $column) : ?>
+        <?php foreach ($layout->columns() as $column): ?>
           <div class="col">
             <div class="blocks">
               <?= $column->blocks() ?>
@@ -48,18 +51,18 @@
     </section>
   <?php endforeach ?>
 
-</div>
 
-<div class="container">
 
-  <?php if ($page->fotoansicht() == 'carousel') : ?>
+  <?php if ($page->fotoansicht() == 'carousel'): ?>
     <?php snippet('carousel') ?>
-  <?php elseif ($page->fotoansicht() == 'gallery') : ?>
+  <?php elseif ($page->fotoansicht() == 'gallery'): ?>
     <?php snippet('gallery') ?>
-  <?php else : ?>
+  <?php else: ?>
     <!-- Bilder werden vom Autor manuel gesetzt -->
   <?php endif ?>
 
+
 </div>
+
 
 <?php snippet('footertw') ?>
