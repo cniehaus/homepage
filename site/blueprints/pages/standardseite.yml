@@ -13,6 +13,9 @@ columns:
       heading: 
           type: text
           label: Untertitel
+      blogtag: 
+          type: text
+          label: Tag für die Liste der Blogeinträge auf dieser Seite. Wenn dieses Feld leer ist, werden keine Blogs eingezeigt
       pageSettings1:
         label: Texteintrag
         type: headline
