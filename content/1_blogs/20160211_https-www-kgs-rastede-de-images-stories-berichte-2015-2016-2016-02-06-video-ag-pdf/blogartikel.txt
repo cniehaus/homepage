@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Schule, Gemeinde, F\u00f6rderverein und Sponsoren 
 
 ----
 
-Gallery:
-
-- 2016-02-06_video-ag-1.jpg
+Gallery: - 2016-02-06_video-ag-1.jpg
 
 ----
 
@@ -45,3 +43,7 @@ Featured: false
 ----
 
 Immer-sichtbar: false
+
+----
+
+Uuid: aP12EE8AgtkCMll5

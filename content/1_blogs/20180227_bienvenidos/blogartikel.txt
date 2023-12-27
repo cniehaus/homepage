@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Vom 20.2.18 bis zum 27.2.18 fand der Spanienaustau
 
 ----
 
-Gallery:
-
-- 2018-03-14_spanienaustausch_07.jpg
+Gallery: - 2018-03-14_spanienaustausch_07.jpg
 
 ----
 
@@ -45,3 +43,7 @@ Featured: false
 ----
 
 Immer-sichtbar: true
+
+----
+
+Uuid: XjRRUM5FoFmKDpmc

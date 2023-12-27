@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Am 04.12.19 war es wieder soweit. Der Vorlesewettb
 
 ----
 
-Gallery:
-
-- vorlesewettbewerb.jpg
+Gallery: - vorlesewettbewerb.jpg
 
 ----
 
@@ -45,3 +43,7 @@ Featured: false
 ----
 
 Immer-sichtbar: false
+
+----
+
+Uuid: EIqe6NWcxrEtc9gX

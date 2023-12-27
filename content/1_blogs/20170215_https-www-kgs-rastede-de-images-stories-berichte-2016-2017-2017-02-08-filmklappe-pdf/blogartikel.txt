@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Die Jugendlichen greifen die Themen Ausl\u00e4nder
 
 ----
 
-Gallery:
-
-- 2017-02-08-filmklappe-1.jpg
+Gallery: - 2017-02-08-filmklappe-1.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Featured: false
+
+----
+
+Uuid: pgcyTRYeDx7PqXkH

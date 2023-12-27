@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Von Kathrin Janout | Vor lau\u00adfenden Kameras w
 
 ----
 
-Gallery:
-
-- 2017-02-16-kika_rr-1.jpg
+Gallery: - 2017-02-16-kika_rr-1.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Featured: false
+
+----
+
+Uuid: baUYepSp4tuQ5SlQ

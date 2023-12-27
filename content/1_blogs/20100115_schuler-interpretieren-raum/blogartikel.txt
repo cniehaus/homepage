@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Sch\u00fcler er\u00f6ffnen die Ausstellungsreihe i
 
 ----
 
-Gallery:
-
-- 2010-01-15kunst_palais-1.jpg
+Gallery: - 2010-01-15kunst_palais-1.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Featured: false
+
+----
+
+Uuid: nqish29GcjNb762Y

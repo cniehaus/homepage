@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Zwei neue Spiegelreflexkameras und vier Wechselobj
 
 ----
 
-Gallery:
-
-- 2014-01-17_spende-fotoag-1.jpg
+Gallery: - 2014-01-17_spende-fotoag-1.jpg
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Featured: true
+
+----
+
+Uuid: EDZTszjMylEGuDTG

@@ -10,9 +10,7 @@ Text: [{"content":{"text":"<p>Die \u00dcberraschung f\u00fcr die 24 Sch\u00fcler
 
 ----
 
-Gallery:
-
-- 2020-01-27_10h13_02.png
+Gallery: - 2020-01-27_10h13_02.png
 
 ----
 
@@ -41,3 +39,7 @@ Fotoansicht: gallery
 ----
 
 Featured: true
+
+----
+
+Uuid: GpmGk1bzajQXHdk7
