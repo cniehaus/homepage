@@ -2,8 +2,7 @@
 
 <?php snippet('page-header') ?>
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gx-4">
-
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
 
     <?= $page->beratungstyp()->toBlocks() ?>
 
