@@ -3,76 +3,7 @@
 
 /* -------begin customization-------- */
 
-// Basisschriftgröße etwas erhöhen
-$font-size-base: 1.2rem;
-
-// Das Swap ist für die Performance, sagen die Analysetools...
-// https://web.dev/font-display/?utm_source=lighthouse&utm_medium=lr#how-to-avoid-showing-invisible-text
-@font-face {
-    font-family: "Pangea";
-    src: url("Pangea-LightWeb.woff2");
-    font-style: normal;
-    font-weight: 300;
-
-    src: local("Pangea-LightWeb"), local("Pangea-LightWeb"), url("./Pangea-LightWeb.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Pangea";
-    src: url("./Pangea-RegularWeb.woff2");
-    font-style: normal;
-    font-weight: 400;
-
-    src: local("Pangea-Regular"), local("Pangea-RegularWeb"), url("./Pangea-RegularWeb.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Pangea";
-    src: url("Pangea-MediumWeb.woff2");
-    font-style: normal;
-    font-weight: 500;
-
-    src: local("Pangea-MediumWeb"), local("Pangea-MediumWeb"), url("./Pangea-MediumWeb.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Pangea";
-    src: url("Pangea-SemiBoldWeb.woff2");
-    font-style: normal;
-    font-weight: 600;
-
-    src: local("Pangea-SemiBold"), local("Pangea-SemiBoldWeb"), url("./Pangea-SemiBoldWeb.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Pangea";
-    src: url("./Pangea-BoldWeb.woff2");
-    font-style: normal;
-    font-weight: 700;
-
-    src: local("Pangea-BoldWeb"), local("Pangea-BoldWeb"), url("./Pangea-BoldWeb.woff2") format("woff2");
-    font-display: swap;
-}
-
-$font-family-sans-serif: Pangea, Segoe UI, Optima, Arial, sans-serif;
-
-$body-bg: #f4f4f4;
-
-html,
-body {
-    overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-
-body {
-    padding-top: 56px;
-}
-
 // Custom
-
 $primary: #586994;
 $secondary: #f9f8f8;
 $success: #bdc8d4;
@@ -111,44 +42,6 @@ $theme-colors: (
     "teamfarbe7": $teamfarbe7,
 );
 
-$table-border-width: 3px; //Tabellen Trennlinien dickers
-$table-border-color: #c6cace; //Tabellen Trennlinien Farbe dunkler
-
-$code-color: #000000; //Schriftfarbe für Code auf schwarz, da default pink
-
-// .navbar-light .navbar-nav a.nav-link {
-//     color: #f4f4f4 !important;
-//     // font-size: 22px;
-// }
-
-// .dropdown-menu a {
-//     color: #58945d;
-// }
-
-// .dropdown-menu {
-//     // Das ist die Farbe des Hintergrundes
-//     // vom Dropdownmenu
-//     background-color: #f4f4f4 !important;
-// }
-
-.main {
-    margin-top: 30px;
-}
-
-code {
-    //Hintergrund für Code-Elemente und monospace
-    background-color: #e7e7e7;
-    padding: 0.1rem;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-    font-family: monospace !important;
-}
-
-.code-wrapper {
-    //für mehrzeilige Code-Elemente
-    background-color: #e7e7e7;
-}
-
 .carousel-indicators {
     position: static !important;
 }
@@ -165,15 +58,7 @@ code {
     max-width: 100%;
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 .honeypot {
     //Für Formulare (sehr primitives antispam)
@@ -193,138 +78,6 @@ code {
     }
 }
 
-// footer {
-//     width: 100%;
-//     padding: 30px 0;
-//     background: darken(#ffffff, 10%);
-//     color: set-text-color(#f9f8f8);
-// }
-
-/*==================================
-    Heroimage (Startseite)
-==================================*/
-
-.top-banner-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 350px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    align-content: center;
-    justify-content: center;
-}
-.top-banner-section .banner-image-div {
-    grid-area: 1 / 1 / 2 / 2;
-}
-.top-banner-section .banner-overlay-div {
-    grid-area: 1 / 1 / 2 / 2;
-}
-.top-banner-section .banner-text-div {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.banner-image {
-    display: grid;
-    min-width: 350px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.banner-overlay-div {
-    display: grid;
-    max-width: 100%;
-    // background: black;
-    // background: linear-gradient(60deg, rgba(0, 0, 0, 0.7777485994) 30%, rgba(255, 255, 255, 0) 100%);
-}
-
-.banner-text-div {
-    display: grid;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.banner-h1-text {
-    font-size: calc(26pt + 0.15vw);
-    letter-spacing: 0.05em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: white;
-}
-
-.banner-body-text {
-    font-size: calc(20pt + 0.15vw);
-    margin-top: 1.5em;
-    color: white;
-    text-decoration: none;
-}
-.banner-body-text:hover {
-    color: white;
-}
-.banner-body-text:visited {
-    color: white;
-}
-.banner-body-text:active {
-    color: white;
-}
-
-.banner-btn {
-    margin-top: 1em;
-}
-
-.banner-btn-item {
-    font-size: calc(8pt + 0.15vw);
-    padding-top: calc(0.5em + 0.08vw);
-    padding-bottom: calc(0.5em + 0.08vw);
-    padding-left: calc(0.5em + 0.08vw);
-    padding-right: calc(0.5em + 0.08vw);
-    color: blue;
-    background-color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 1px solid white;
-}
-.banner-btn-item:link {
-    text-decoration: none;
-}
-.banner-btn-item:visited {
-    text-decoration: none;
-}
-
-// Hier kommen Anpassungen wegen Effekten (übernommen von .smol-transitions)
-
-.kgs-transitions > * {
-    --transition-property: transform;
-    --transition-duration: 180ms;
-    transition: var(--transition-property) var(--transition-duration) ease-in-out;
-}
-
-.zoom:hover > * {
-    transform: scale(1.1);
-}
-
-// Hier das Design für die Highlightfelder (Callouts)
-.bs-callout {
-    padding: 20px;
-    margin: 20px 0;
-    border: 1px solid;
-    border-left-width: 10px;
-    // border-radius: 10px;
-}
-.bs-callout h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: $danger;
-}
-
-@each $state, $value in $theme-colors {
-    .bs-callout-#{$state} {
-        border-color: $value;
-        border-left-color: $value;
-    }
-}
 
 /* das Menu */
 @media (max-width: 991.98px) {
@@ -676,10 +429,6 @@ $primary-color-hover: scale-color($primary, $lightness: 32%);
         overflow-y: auto;
         max-height: calc(100vh - (2 * var(--bs-navbar-padding-y)) - (2 * var(--bs-navbar-brand-padding-y)) - var(--bs-navbar-brand-font-size))
     }
-}
-
-.accordion-item .show {
-    visibility: visible !important;
 }
 
 /* -------end customization-------- */
