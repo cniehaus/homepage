@@ -48,9 +48,4 @@
 
 </div>
 
-
-
-
-
-</div>
 <?php snippet('footertw') ?>
