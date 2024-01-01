@@ -694,17 +694,6 @@ iframe {
   display: none !important;
 }
 
-.display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.5rem;
-  }
-}
-
 .blockquote {
   margin-bottom: 1rem;
   font-size: 1.25rem;
@@ -2193,11 +2182,6 @@ iframe {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-warning {
