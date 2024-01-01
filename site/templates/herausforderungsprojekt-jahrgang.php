@@ -39,7 +39,9 @@
 
 
   <div id="map"></div>
-  <button class="btn btn-primary mt-2 mb-5" id="fit">Auf Punkte reinzoomen</button>
+  <button class="px-4 py-1 text-gray-800 font-semibold rounded-full border border-purple-200 hover:text-white
+    hover:bg-slate-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2
+    text-center" id=" fit">Auf Punkte reinzoomen</button>
 
   <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2dzcmFzdGVkZSIsImEiOiJja3hnZ2dnaXczb293MnBvNWxhdWxkdnYxIn0.kHEpdxzycw6ZVg719GpdLA';
@@ -49,11 +51,11 @@
       'features': [
 
 
-        <?php foreach ($page->children() as $unterprojekt) : ?>
-          <?php foreach ($unterprojekt->text()->toBlocks() as $projektblock) : ?>
-            <?php if ($projektblock->type() === "reiseroute") : ?>
-              <?php foreach ($projektblock->reise()->toBlocks() as $reise) : ?>
-                <?php if ($reise->type() === "koordinate") : ?> {
+        <?php foreach ($page->children() as $unterprojekt): ?>
+              <?php foreach ($unterprojekt->text()->toBlocks() as $projektblock): ?>
+                    <?php if ($projektblock->type() === "reiseroute"): ?>
+                          <?php foreach ($projektblock->reise()->toBlocks() as $reise): ?>
+                                <?php if ($reise->type() === "koordinate"): ?> {
                     'type': 'Feature',
                     'properties': {
                       'message': 'TODO',
@@ -68,9 +70,9 @@
                     }
                   },
                 <?php endif ?>
+                          <?php endforeach ?>
+                    <?php endif ?>
               <?php endforeach ?>
-            <?php endif ?>
-          <?php endforeach ?>
         <?php endforeach ?>
 
 
@@ -238,14 +240,18 @@
 
 
 
-    <?php foreach ($page->children() as $unterprojekt) : ?>
+    <?php foreach ($page->children() as $unterprojekt): ?>
       <a href="<?= $unterprojekt->url() ?>">
         <div class="card <?= $unterprojekt->teamfarbe() ?>  bs-teamfarbe1 mb-3" style="max-width: 18rem;">
 
           <img src="<?= $unterprojekt->teamlogo()->toFile()->url() ?>" class="card-img-top" alt="Teamlogo">
           <div class="card-body">
-            <h3 class="card-title mb-3"><?= $unterprojekt->title() ?></h3>
-            <h3 class="card-title"><?= $unterprojekt->heading() ?></h3>
+            <h3 class="card-title mb-3">
+              <?= $unterprojekt->title() ?>
+            </h3>
+            <h3 class="card-title">
+              <?= $unterprojekt->heading() ?>
+            </h3>
           </div>
         </div>
 

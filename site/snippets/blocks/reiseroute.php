@@ -1,17 +1,20 @@
-<?php 
-  $features = [];
-  $koordinaten = [];
+<?php
+$features = [];
+$koordinaten = [];
 
-  $features = snippet('koordinaten-extrahieren', [
-    'koordinaten' => $koordinaten, 
-    'features' => $features, 
-    'block' => $block ]
-  ); 
-  
-  print_r($features);
-  gettype($features);
+$features = snippet(
+  'koordinaten-extrahieren',
+  [
+    'koordinaten' => $koordinaten,
+    'features' => $features,
+    'block' => $block
+  ]
+);
 
-  echo ($features);
+print_r($features);
+gettype($features);
+
+echo ($features);
 ?>
 
 
@@ -43,7 +46,9 @@
 
 
 <div id="map"></div>
-<button class="btn btn-primary mt-2 mb-5" id="fit">Auf Punkte reinzoomen</button>
+<button class="px-4 py-1 text-gray-800 font-semibold rounded-full border border-purple-200 hover:text-white
+    hover:bg-slate-400 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-slate-200 focus:ring-offset-2
+    text-center" id="fit">Auf Punkte reinzoomen</button>
 
 <script>
   mapboxgl.accessToken = 'pk.eyJ1Ijoia2dzcmFzdGVkZSIsImEiOiJja3hnZ2dnaXczb293MnBvNWxhdWxkdnYxIn0.kHEpdxzycw6ZVg719GpdLA';
@@ -228,10 +233,13 @@
 
 
             <?php
-              foreach($koordinaten as $value) {
-                echo "["; echo $value[0]; 
-                echo ","; echo $value[1]; echo "],";
-              }
+            foreach ($koordinaten as $value) {
+              echo "[";
+              echo $value[0];
+              echo ",";
+              echo $value[1];
+              echo "],";
+            }
             ?>
 
 
