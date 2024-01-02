@@ -1,9 +1,0 @@
-Anzeigename: Informationen zur Erstellung einer Facharbeit
-
-----
-
-Template: datei
-
-----
-
-Uuid: 1PDfo0bYBroLgMD6

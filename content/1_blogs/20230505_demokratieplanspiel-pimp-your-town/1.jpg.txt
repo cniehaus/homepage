@@ -1,5 +1,0 @@
-Uuid: RMPkmU18N2Zlffqn
-
-----
-
-Template: blocks/image

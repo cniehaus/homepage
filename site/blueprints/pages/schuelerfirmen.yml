@@ -1,8 +1,0 @@
-title: Übersicht der Schülerfirmen
-preset: pages
-icon: 🖼
-
-listed:
-  extends: sections/projects
-  label: Published Projects
-  layout: cards

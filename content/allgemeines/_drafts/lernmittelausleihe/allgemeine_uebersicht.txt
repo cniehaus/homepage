@@ -1,9 +1,0 @@
-Title: Lernmittelausleihe
-
-----
-
-Uuid: N3VE86cLAxU6fOBO
-
-----
-
-Sidebar: 

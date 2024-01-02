@@ -1,5 +1,0 @@
-Template: lehrplandatei
-
-----
-
-Uuid: Hqi9RjR2Z4vW3ucS

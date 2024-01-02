@@ -1,5 +1,0 @@
-Uuid: NbnSu1LInaehgvjZ
-
-----
-
-Template: blocks/image

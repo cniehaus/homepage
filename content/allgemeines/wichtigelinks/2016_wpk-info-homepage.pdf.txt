@@ -1,5 +1,0 @@
-Anzeigename: Informationen zum WPK-System
-
-----
-
-Template: pdfs

@@ -1,5 +1,0 @@
-Uuid: TWSd20rA6uAdQoZf
-
-----
-
-Template: blocks/image

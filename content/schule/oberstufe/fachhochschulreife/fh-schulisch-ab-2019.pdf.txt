@@ -1,9 +1,0 @@
-Anzeigename: Voraussetzungen für den schulischer Teil der Fachhochschulreife
-
-----
-
-Startseite: false
-
-----
-
-Template: pdfs

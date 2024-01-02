@@ -1,9 +1,0 @@
-titel: Kontakte mit Bild
-preset: pages
-icon: user
-templates: kontakt
-
-
-unlisted:
-  headline: Kontaktdaten
-  info: "Postion: {{page.position}} Kürzel: {{page.heading}}"

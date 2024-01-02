@@ -1,5 +1,0 @@
-Uuid: pKyGTFE4s03SWGUY
-
-----
-
-Template: blocks/image

@@ -1,5 +1,0 @@
-Uuid: GyRAwcSkP3hGYdWb
-
-----
-
-Template: blocks/image

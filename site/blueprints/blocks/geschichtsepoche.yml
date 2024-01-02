@@ -1,7 +1,0 @@
-# /site/blueprints/blocks/geschichtsepoche.yml
-name: Epoche
-icon: calendar
-label: "{{ epochenname }}"
-fields:
-  epochenname:
-    type: text

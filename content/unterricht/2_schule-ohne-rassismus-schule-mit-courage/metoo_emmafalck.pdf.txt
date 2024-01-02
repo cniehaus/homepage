@@ -1,5 +1,0 @@
-Anzeigename: #meToo
-
-----
-
-Template: datei

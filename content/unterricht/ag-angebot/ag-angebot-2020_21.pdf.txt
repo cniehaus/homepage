@@ -1,5 +1,0 @@
-Anzeigename: Ag-Angebot 2020/21
-
-----
-
-Template: datei

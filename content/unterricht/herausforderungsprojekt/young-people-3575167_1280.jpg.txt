@@ -1,5 +1,0 @@
-Uuid: LlylYaCefrF0d5E9
-
-----
-
-Template: blocks/image

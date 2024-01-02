@@ -1,5 +1,0 @@
-Uuid: iP38xNyl8MVLI4DQ
-
-----
-
-Template: blocks/image

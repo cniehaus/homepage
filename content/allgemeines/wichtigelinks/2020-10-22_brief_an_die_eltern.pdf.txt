@@ -1,9 +1,0 @@
-Anzeigename: Brief des Ministers an die Elternschaft
-
-----
-
-Startseite: true
-
-----
-
-Template: pdfs

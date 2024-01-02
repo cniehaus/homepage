@@ -1,5 +1,0 @@
-Uuid: Fl53RisMHplBe34N
-
-----
-
-Template: blocks/image
