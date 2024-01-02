@@ -24,9 +24,9 @@
     <p>Das Suchfeld darf nicht leer sein.</p>
   <?php else: ?>
     <?php if ($results->isNotEmpty()): ?>
-      <div class="row row-cols-1 row-cols-xl-2 row-cols-xxl-3">
+      <div class="grid grid-cols-1 xl:grid-cols-2 xxl:grid-cols-3">
         <?php foreach ($results as $result): ?>
-          <div class="col">
+          <div class="col-span-1 px-4">
             <?php snippet('blogkarte', ['subpage' => $result]); ?>
           </div>
         <?php endforeach ?>
