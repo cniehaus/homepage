@@ -15,7 +15,7 @@
         <div class="group bg-slate-100 p-4">
           <div>
             <?php if ($image = $sf->bild()->toFile()): ?>
-              <img src="<?= $image->url() ?>" class="card-img-top" alt="...">
+              <img src="<?= $image->url() ?>" class="aspect-[3/2] w-full rounded-2xl object-cover">
             <?php endif ?>
 
             <div>

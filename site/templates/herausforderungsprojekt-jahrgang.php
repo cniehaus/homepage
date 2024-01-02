@@ -52,10 +52,10 @@
 
 
         <?php foreach ($page->children() as $unterprojekt): ?>
-              <?php foreach ($unterprojekt->text()->toBlocks() as $projektblock): ?>
-                    <?php if ($projektblock->type() === "reiseroute"): ?>
-                          <?php foreach ($projektblock->reise()->toBlocks() as $reise): ?>
-                                <?php if ($reise->type() === "koordinate"): ?> {
+                        <?php foreach ($unterprojekt->text()->toBlocks() as $projektblock): ?>
+                                        <?php if ($projektblock->type() === "reiseroute"): ?>
+                                                        <?php foreach ($projektblock->reise()->toBlocks() as $reise): ?>
+                                                                        <?php if ($reise->type() === "koordinate"): ?> {
                     'type': 'Feature',
                     'properties': {
                       'message': 'TODO',
@@ -70,9 +70,9 @@
                     }
                   },
                 <?php endif ?>
-                          <?php endforeach ?>
-                    <?php endif ?>
-              <?php endforeach ?>
+                                                        <?php endforeach ?>
+                                        <?php endif ?>
+                        <?php endforeach ?>
         <?php endforeach ?>
 
 
@@ -234,33 +234,33 @@
 
 
 
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gx-4">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
+      <?php foreach ($page->children() as $unterprojekt): ?>
+        <a href="<?= $unterprojekt->url() ?>">
+          <div class="group aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg xl:aspect-h-8 xl:aspect-w-7">
 
-
-
-
-    <?php foreach ($page->children() as $unterprojekt): ?>
-      <a href="<?= $unterprojekt->url() ?>">
-        <div class="card <?= $unterprojekt->teamfarbe() ?>  bs-teamfarbe1 mb-3" style="max-width: 18rem;">
-
-          <img src="<?= $unterprojekt->teamlogo()->toFile()->url() ?>" class="card-img-top" alt="Teamlogo">
-          <div class="card-body">
-            <h3 class="card-title mb-3">
-              <?= $unterprojekt->title() ?>
-            </h3>
-            <h3 class="card-title">
-              <?= $unterprojekt->heading() ?>
-            </h3>
+            <img src="<?= $unterprojekt->teamlogo()->toFile()->url() ?>"
+              class="aspect-[3/2] w-full rounded-2xl object-cover" alt="Teamlogo">
+            <div class="mt-1">
+              <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <?= $unterprojekt->title() ?>
+              </h3>
+              <p class="mt-5 leading-2 text-gray-600">
+                <?= $unterprojekt->heading() ?>
+              </p>
+            </div>
           </div>
-        </div>
 
-      </a>
+        </a>
 
-    <?php endforeach; ?>
+      <?php endforeach; ?>
 
 
+    </div>
   </div>
 </div>
+
 
 <?php snippet('footertw') ?>

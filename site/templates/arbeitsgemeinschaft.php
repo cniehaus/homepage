@@ -8,7 +8,7 @@
     </div>
     <?php if ($image = $page->image()): ?>
       <div>
-        <?= $image->thumb(['width' => 600])->html(['class' => 'img-fluid']) ?>
+        <?= $image->thumb(['width' => 600])->html(['class' => '"aspect-[3/2] w-full rounded-2xl object-cover"']) ?>
       </div>
     <?php endif; ?>
   </div>
