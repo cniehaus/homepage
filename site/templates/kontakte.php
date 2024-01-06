@@ -6,9 +6,9 @@
 <div class="container">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="grid grid-cols-1 p-4 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <div class="grid grid-cols-1 p-2 gap-x-8 gap-y-16 text-center lg:p-4 lg:grid-cols-3">
             <?php foreach ($page->children() as $kontakt): ?>
-                <div class="group bg-slate-100 p-4">
+                <div class="group bg-slate-100 p-2 lg:p-4">
                     <div class="mb-4">
                         <img class="aspect-[2/3] w-full rounded-2xl object-cover"
                             src="<?= $kontakt->images()->first()->url() ?>" />

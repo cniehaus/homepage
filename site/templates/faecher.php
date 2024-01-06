@@ -24,11 +24,11 @@
             </dd>
           </div>
         </dl>
-        <div class="mt-6 border-t border-gray-900/5 px-6 py-6">
+        <div class="mt-2 border-gray-900/5 px-6 py-2">
           <?php
           $relatedPages = $fb->pages()->toPages();
           foreach ($relatedPages as $relatedPage): ?>
-            <div class="mt-6 flex w-full flex-none gap-x-4 border-t border-gray-900/5 px-6 pt-6 hover:bg-slate-100">
+            <div class="mt-2 flex w-full flex-none gap-x-4 border-t border-gray-900/5 px-6 pt-6 hover:bg-slate-100">
               <a href="<?= $relatedPage->url() ?>">
                 <?= $relatedPage->title() ?>
               </a>
