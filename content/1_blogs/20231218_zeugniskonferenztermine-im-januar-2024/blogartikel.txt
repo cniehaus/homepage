@@ -1,0 +1,33 @@
+Title: Zeugniskonferenztermine im Januar 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Eine Übersicht über die Termine der Zeugniskonferenzen finden Sie <a href=\"https://kgs-rastede.de/media/pages/blogs/zeugniskonferenztermine-im-januar-2024/c311e0c82f-1702915815/2023_24-1-zeugniskonferenz.pdf\">hier</a>.</p>"},"id":"c0e35640-cc3c-48dd-b9ef-0345a8b3b782","isHidden":false,"type":"text"}],"id":"33ca5434-5e9b-45e6-924e-1af814842eb0","width":"1/1"}],"id":"00beb183-eba4-4d10-8da6-a14236e5a264"}]
+
+----
+
+Date: 2023-12-18 17:10:00
+
+----
+
+Datumstartseite: 2024-01-26 17:10:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Schulleitung, Topartikel
+
+----
+
+Downloads: - file://bek2fAOHjpSVMAAp
+
+----
+
+Uuid: XvjdBs8tmJlcb1pI

@@ -1,0 +1,33 @@
+Title: Vorlesewettbewerb 2023
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://lsCLVOsEEQ8IkIvy"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"de5011ad-6ed9-488c-a934-1cec59bbc009","isHidden":false,"type":"image"}],"id":"dda3f0e9-fe44-4b1f-9530-a2d56fbd45b5","width":"1/1"}],"id":"347f03a3-6eab-488c-b122-fc4ae88610a6"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Der diesjährige Vorlesewettbewerb für die 6. Klassen fand am 08.12.2023 statt. An der Feldbreite der KGS-Rastede konnten sich acht Teilnehmer*Innen unter Beweis stellen. Beim Vorlesen wurden sie von einer Jury, bestehend aus den Lehrkräften Herrn Stockmann und Frau Schneemann sowie den Schülerinnen Pia Beeken, der Gewinnerin des letztes Jahres, und Pia Hülsmann und Elisa Nacke aus dem Deutsch-LK, bewertet.</p><p>Der Vorlesewettbewerb bestand aus zwei Teilen. In der ersten Runde durften die Schüler*Innen aus einem selbst ausgewähltem Buch, nach einer kurzen Buchvorstellung, für drei Minuten eine vorbereitete Textstelle vorlesen. Hierbei wurde das Augenmerk auf die Lesetechnik, die Interpretation und die ausgewählte Textstelle gelegt. In der zweiten Runde haben die Teilnehmenden in gleicher Reihenfolge einen Fremdtext („Krabat“ von Otfried Preußler) erhalten, den sie zwei Minuten lang gelesen und anschließend weitergegeben haben. Bei dem Fremdtext wurde ebenfalls auf die Lesetechnik und die Interpretation geachtet. Zwischen beiden Runden gab es eine Pause, in der die Teilnehmenden natürlich auch mit ein paar Süßigkeiten und Trinkpäckchen versorgt wurden.</p><p>Nach einer Besprechung der JurorInnen wurde der/die GewinnerIn verkündet. Auf den ersten Platz schaffte es Alexa Stein mit dem Buch „Die Schule der magischen Tiere“ von Margit Auer. Auf dem zweiten Platz landete Fridolin Wollenteit, welcher mit dem Buch „Woodwalker“ von Katja Brandes antrat. </p><p>Herzlichen Glückwunsch und vielen Dank an die Rasteder Buchhandlung „Seite 1“ für den zur Verfügung gestellten Buchpreis! Der Vorlesewettbewerb 2023 an der KGS war ein voller Erfolg und sowohl die TeilnehmerInnen, als auch die JurorInnen hatten jede Menge Spaß.</p>"},"id":"7efc3b51-1cb2-46c3-9730-6ed6b6533222","isHidden":false,"type":"text"}],"id":"a88b3137-e643-4dcc-8a60-c05242aa883c","width":"1/1"}],"id":"cb5ca79a-98cf-49c6-94b9-8e0a1e35eef8"}]
+
+----
+
+Date: 2023-12-18 07:50:00
+
+----
+
+Datumstartseite: 2024-04-18 07:50:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Pia Hülsmann und Elisa Nacke
+
+----
+
+Tags: Deutsch, Wettbewerb, AGs
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 3ftbogl85HvCE7aB

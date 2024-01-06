@@ -1,0 +1,33 @@
+Title: Lange Nacht der Mathematik
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Gut 50 Schüler:innen aus der 7A3 und der 7B3 nahmen vom 24.11. auf den 25.11.23 an der Langen Nacht der Mathematik teil. In der Zeit von 18 Uhr bis 6 Uhr am nächsten Morgen wollten die Mathe-Fans Rätsel- und Knobelaufgaben lösen. Direkt vom Weihnachtsmarkt ging es zum Treffpunkt in der Ruhezone der 130er-Räume. Ab 18 Uhr sollten die Aufgaben online zur Verfügung gestellt werden. Aufgrund des großen Interesses von bundesweit insgesamt ca. 20.000 Teilnehmer:innen waren die Server des Veranstalters aus Kiel zunächst überfordert. So konnte die Zeit aber zunächst genutzt werden, um die Luftmatratzen aufzupusten, die Schlafsäcke auszurollen und Pizza zu bestellen. Und ab ca. 20 Uhr war es dann soweit. Die 10 Aufgaben der ersten Runde standen bereit. Eine Aufgabe lautete z.B.: Die Buchstaben A, E, G und M stehen jeweils für eine Ziffer. Wenn ME + GA = 159 ist, was ist dann MEGA + GAME?</p><p>Um 1:59 Uhr war der Jubel groß! Gemeinsam hatten wir es geschafft, alle Aufgaben richtig zu lösen und uns für die zweite Runde zu qualifizieren. Das schafften bundesweit nur ca. die Hälfte aller angemeldeten Gruppen. Nach und nach verabschiedeten sich einige Schüler:innen ins Bett, während andere die ganze Nacht durchknobelten. Die betreuenden Lehrkräfte Frau Bruns, Herr Riedel, Frau Kühn und Herr Nawrath wechselten sich mit dem Schlafen ab. Dass wir uns schließlich knapp nicht mehr für die dritte und finale Runde qualifizieren konnten, war zwar schade, aber nur ein kleiner Wermutstropfen mit Blick auf eine tolle gemeinsame Pizza-Knobel-Übernachtungsaktion. Und vielleicht schaffen wir es ja im nächsten Jahr in die dritte Runde und somit zu den besten 20% der teilnehmenden Gruppen zu gehören.</p>"},"id":"85cbd485-f159-4b14-bfe7-b4c5d625c1a3","isHidden":false,"type":"text"}],"id":"6319f59e-0fdd-4486-8cb1-2d36fcdc0ba4","width":"1/1"}],"id":"546b802d-6a0b-4a14-b450-1980b701f42c"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://hLXCu0yScwoRipqs"],"caption":"","ratio":"","crop":"false"},"id":"4ef41742-3dcb-4f84-9c23-792fac278f4b","isHidden":false,"type":"gallery"}],"id":"ea677328-dffe-4f2c-8697-074490c217d3","width":"1/2"},{"blocks":[{"content":{"images":["file://IcSG6pAOb0fMu8oH"],"caption":"","ratio":"","crop":"false"},"id":"8aa62bd1-1a8b-42ef-9cc6-d8690d9341b8","isHidden":false,"type":"gallery"}],"id":"ac795a8f-82fa-4b35-a82f-340b5df0d6db","width":"1/2"}],"id":"4fc85e5e-4528-4d2a-8710-dba1d20629bb"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://oIJhGqDjHoeWsM1l"],"caption":"","ratio":"","crop":"false"},"id":"f5e96db8-696a-4a79-b915-2c501a9d221e","isHidden":false,"type":"gallery"}],"id":"07c89df5-0315-408e-a7ac-021c3e2e4a4b","width":"1/1"}],"id":"d98fd28e-b981-49e2-8d57-048713785b2c"}]
+
+----
+
+Date: 2023-12-04 13:30:00
+
+----
+
+Datumstartseite: 2024-04-04 13:30:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Dennis Nawrath
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: RpDne5IUea49ZEvL
