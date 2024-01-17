@@ -1,0 +1,13 @@
+Anzeigename: Plakat
+
+----
+
+Beschreibung: 
+
+----
+
+Uuid: xIWZ3fWn4Gbniuoq
+
+----
+
+Template: datei

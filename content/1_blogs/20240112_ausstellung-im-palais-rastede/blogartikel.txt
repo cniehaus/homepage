@@ -1,0 +1,33 @@
+Title: Vernissage im Palais Rastede
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://jnHRaO21jPJhvyCb"],"src":"","alt":"","caption":"","link":"https://kgs-rastede.de/media/pages/blogs/ausstellung-im-palais-rastede/b0d6c4ef2b-1705057552/bilder-zu-texten-plakat-klein-webansicht.pdf","ratio":"","crop":"false","orientation":""},"id":"d1e39733-e3b7-4441-ac65-1c9f866da7fb","isHidden":false,"type":"image"}],"id":"a3fc0081-15a2-4eda-b342-e8bbab92cd38","width":"1/1"}],"id":"21697c5b-83e9-4b52-a09b-7a58232fad96"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Wir laden herzlich ein zur feierlichen Eröffnung der Ausstellung \"Bilder zu Texten\" der Kunst-Leistungskurse der KGS Rastede und des Alten Gymnasiums Oldenburg (AGO) </strong></p><p><strong>am Sonntag, den 11.02.24 um 11:30 Uhr</strong>.</p><p>Darüber hinaus machen wir aufmerksam auf weitere Angebote:</p>"},"id":"5c904163-6625-4864-a8a1-8ba0494f17c1","isHidden":false,"type":"text"}],"id":"cbf4ee0f-912e-4e6d-b0ec-82afe3d3b6c2","width":"1/1"}],"id":"a207f89a-d1de-45f1-ad1e-c5e8f806648d"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<ul><li>17.02.24 14:00-17:00 Uhr&nbsp;Malkurs 1 Verwandlungsbilder (für 6-10jährige) mit Meike Becker-Khalfaoui, Anmeldung über&nbsp;rastede-touristik.de&nbsp;(04402-8638550)</li><li>18.02.24 15:00 Uhr&nbsp;Führung durch die Ausstellung von Schüler:innen der&nbsp;<strong>Kunst-AG</strong></li><li>22.02.24 19:00 Uhr&nbsp;Dirk Meyer: Vortrag Geschichte des Comics \"Von Yello Kid bis Pokeman\"</li><li>24.02.24 14:00-17:00 Uhr&nbsp;Malkurs 2 Verwandlungsbilder (für 6-10jährige) mit Meike Becker-Khalfaoui, Anmeldung über&nbsp;rastede-touristik.de&nbsp;(04402-8638550)</li><li>25.02.24 15:00 Uhr&nbsp;Führung durch die Ausstellung von Schüler:innen der&nbsp;<strong>Kunst-AG</strong></li><li>03.03.24 15:00 Uhr&nbsp;Führung durch die Ausstellung</li><li>09.03.24 14:00-17:00&nbsp;MANGA Zeichenkurs mit Yingshu Shi, Anmeldung über&nbsp;rastede-touristik.de&nbsp;(04402-8638550)</li></ul>"},"id":"5e31fce1-cd8d-441c-949a-57742e495126","isHidden":false,"type":"list"}],"id":"cc43da5c-0f4a-46ff-9ac7-97126e4e1388","width":"1/1"}],"id":"7e144a39-98ba-4ca7-862b-0d6004b92e82"},{"attrs":[],"columns":[{"blocks":[{"content":{"lesensieauchtitel":"https://www.rasteder-rundschau.de/2023/12/01/grimm-goethe-moritz-und-mehr/","lesensieauch":[]},"id":"00cd5f55-5d6c-4059-9ab1-f42dbde7327a","isHidden":false,"type":"lesensieauch"}],"id":"8988ee6e-addd-491c-b6de-7b4462d50178","width":"1/1"}],"id":"49d07dec-cdf0-45a6-8a59-76b8adf38b99"}]
+
+----
+
+Date: 2024-01-12 11:55:00
+
+----
+
+Datumstartseite: 2024-05-12 11:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Jelena Duwe
+
+----
+
+Tags: Kunst, AGs
+
+----
+
+Downloads: - file://xIWZ3fWn4Gbniuoq
+
+----
+
+Uuid: RF3tNuFiCAKHnj7l
