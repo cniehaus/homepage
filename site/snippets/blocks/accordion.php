@@ -1,6 +1,7 @@
 <?php if ($block->accordion()->isNotEmpty()):
-  $acc = $block->accordion()->toStructure()
-    ?>
+  $acc = $block->accordion()->toStructure();
+  $count = 1;
+  ?>
 
   <!-- dieser Code basiert auf 
 https://onclick.blog/blog/accordion-menu-with-tailwind-css-and-alpine-js
@@ -41,9 +42,10 @@ Set [x-cloak] as display: none !important;
 
       <?php $acc = $acc->slice(1) // das erste Item aus der Struktur entfernen, diese wurde bereits bearbeitet ?>
 
-      <?php foreach ($acc as $accordion): ?>
+      <?php foreach ($acc as $accordion):
+        $count++ // Alle übrigen Items ?>
         <div>
-          <button @click="selected !== 2 ? selected = 2 : selected = null"
+          <button @click="selected !== <?= $count ?> ? selected = <?= $count ?> : selected = null"
             class="w-full flex justify-between items-center p-3 ">
             <h3 class="font-semibold">
 
@@ -51,10 +53,10 @@ Set [x-cloak] as display: none !important;
 
             </h3>
             <div>
-              <span class="text-lg transition-all block" :class="selected === 2 ? 'rotate-45' : ''">+</span>
+              <span class="text-lg transition-all block" :class="selected === <?= $count ?> ? 'rotate-45' : ''">+</span>
             </div>
           </button>
-          <div x-cloak x-show="selected === 2" class="text-sm text-black/50 p-3"
+          <div x-cloak x-show="selected === <?= $count ?>" class="text-sm text-black/50 p-3"
             x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95">
             <?= $accordion->accordionbody()->kt()->or("Hier fehlt noch Inhalt") ?>
           </div>
