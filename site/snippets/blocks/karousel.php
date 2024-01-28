@@ -1,59 +1,63 @@
 <?php if ($block->karousel()->isNotEmpty()): ?>
-  <div class="col col-md-6">
-    <div class="container carousel-dark">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
-        <div class="carousel-inner text-center">
-
-          <?php $count = -1;
-          foreach ($block->karousel()->toFiles() as $image):
-            $count++ ?>
-            <?php if ($count == 0): ?>
-              <div class="carousel-item active">
-              <?php else: ?>
-                <div class="carousel-item">
-                <?php endif ?>
-
-                <a class="d-flex justify-content-center" href="<?= $image->url() ?>">
-                  <img class="aspect-[3/2] w-full rounded-2xl object-cover" alt="<?= $image->alt() ?>"
-                    src="<?= $image->resize(null, 600)->url() ?>">
-                </a>
-
-                <div class="d-flex justify-content-center">
-                  <div class="carousel-caption col-sm-8">
-                    <?= $image->beschreibung() ?>
-                  </div>
-                </div>
-
-              </div>
-            <?php endforeach ?>
-
-          </div>
-
-          <?php if ($block->karousel()->toFiles()->count() >= 2): ?>
-            <a class="d-none d-sm-flex carousel-control-prev" href="#carouselExampleIndicators" role="button"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only text-dark">Zurück</span>
-            </a>
-            <a class="d-none d-sm-flex carousel-control-next" href="#carouselExampleIndicators" role="button"
-              data-bs-slide="next">
-              <span class="sr-only text-dark">Weiter</span>
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-
-            <ol class="carousel-indicators">
-              <?php $count = -1;
-              foreach ($block->karousel()->toFiles() as $image):
-                $count++ ?>
-                <li data-bs-target="#carouselExampleIndicators" <?php if ($count == 0): ?> class="active" <?php endif ?>
-                  data-bs-slide-to="<?= $count ?>"></li>
-              <?php endforeach ?>
-            </ol>
-          <?php endif ?>
-
-
-        </div>
-      </div>
+  <article x-data="slider" class="relative w-full flex flex-shrink-0 overflow-hidden shadow-2xl">
+    <div class="rounded-full bg-gray-600 text-white absolute top-5 right-5 text-sm px-2 text-center z-10">
+      <span x-text="currentIndex"></span>/
+      <span x-text="images.length"></span>
     </div>
-  <?php endif ?>
+
+    <template x-for="(image, index) in images">
+      <figure class="h-96" x-show="currentIndex == index + 1" x-transition:enter="transition transform duration-300"
+        x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+        x-transition:leave="transition transform duration-300" x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0">
+        <img :src="image" alt="Image" class="absolute inset-0 z-10 h-full w-full object-cover opacity-70" />
+      </figure>
+    </template>
+
+    <button @click="back()"
+      class="absolute left-14 top-1/2 -translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200">
+      <svg
+        class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:-translate-x-0.5"
+        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7">
+        </path>
+      </svg>
+    </button>
+
+    <button @click="next()"
+      class="absolute right-14 top-1/2 translate-y-1/2 w-11 h-11 flex justify-center items-center rounded-full shadow-md z-10 bg-gray-100 hover:bg-gray-200">
+      <svg
+        class=" w-8 h-8 font-bold transition duration-500 ease-in-out transform motion-reduce:transform-none text-gray-500 hover:text-gray-600 hover:translate-x-0.5"
+        fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </article>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('slider', () => ({
+        currentIndex: 1,
+        images: [
+          <?php foreach ($block->karousel()->toFiles() as $image): ?>
+                                  '<?= $image->url() ?>',
+          <?php endforeach; ?>
+        ],
+        back() {
+          if (this.currentIndex > 1) {
+            this.currentIndex = this.currentIndex - 1;
+          }
+        },
+        next() {
+          if (this.currentIndex < this.images.length) {
+            this.currentIndex = this.currentIndex + 1;
+          } else if (this.currentIndex <= this.images.length) {
+            this.currentIndex = this.images.length - this.currentIndex + 1
+          }
+        },
+      }))
+    })
+  </script>
+
+<?php endif ?>
