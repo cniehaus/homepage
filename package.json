@@ -13,17 +13,9 @@
   "dependencies": {
     "@fullcalendar/icalendar": "^5.10.1",
     "alpinejs": "^3.12.0",
-    "autoprefixer": "^10.4.4",
     "bootstrap-icons": "^1.8.1",
-    "cssmin": "^0.4.3",
-    "dependency-graph": "^1.0.0",
     "fullcalendar": "^5.10.2",
-    "ical.js": "^1.5.0",
-    "postcss": "^8.4.32",
-    "postcss-cli": "^8.3.1",
-    "postcss-use": "^3.0.0",
-    "purgecss": "^3.1.3",
-    "sass": "^1.49.9"
+    "ical.js": "^1.5.0"
   },
   "scripts": {
     "watch": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/twkgs_shrinked.min.css --content './site/**/*.php' -w",
