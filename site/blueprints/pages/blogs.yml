@@ -32,6 +32,8 @@ sections:
     template:
       - blogartikel
     sortBy: date desc
+    search: true
+
 
   published:
     headline: öffentlich einsehbar
@@ -40,6 +42,7 @@ sections:
     templates:
       - blogartikel
     sortBy: date desc
+    search: true
     info: "Autor: {{page.author}}, Datum: {{page.date.toDate('d.m.Y') }}, Tag: {{page.tags}}"
 
   unpublished:
@@ -60,4 +63,6 @@ sections:
     templates:
       - blogartikel
     sortBy: date desc
+    search: true
+
 
