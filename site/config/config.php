@@ -8,7 +8,11 @@ return [
     // Auf dem echten Server muss der Debug-Modus aber aus sein! Das ist
     // eine potentielle Sicherheitslücke:
     // https://getkirby.com/docs/guide/configuration#multi-enviroment-setup
-    'debug'  => true,
+    'debug' => true,
+
+    // mach mit VS Code des Debuggen einfacher
+    'editor' => 'vscode',
+
 
 
     // automatische URLs folgen der deuschen Sprache
@@ -54,10 +58,10 @@ return [
     'email' => [
         'presets' => [
             'contact' => [
-                'from'    => 'schulleitung@kgs-rastede.de',
+                'from' => 'schulleitung@kgs-rastede.de',
                 'subject' => 'Testemail von der neuen Homepage',
-                'cc'      => 'ni@kgs-rastede.de',
-                'body'    => 'Testinhalt der Mail'
+                'cc' => 'ni@kgs-rastede.de',
+                'body' => 'Testinhalt der Mail'
             ],
             'transport' => [
                 'type' => 'smtp',
@@ -78,7 +82,7 @@ return [
         // https://getkirby.com/docs/cookbook/content/sitemap
         [
             'pattern' => 'sitemap.xml',
-            'action'  => function () {
+            'action' => function () {
                 $pages = site()->pages()->index();
 
                 // fetch the pages to ignore from the config settings,
@@ -93,7 +97,7 @@ return [
         ],
         [
             'pattern' => 'sitemap',
-            'action'  => function () {
+            'action' => function () {
                 return go('sitemap.xml', 301);
             }
         ],
@@ -102,7 +106,7 @@ return [
         // https://getkirby.com/docs/cookbook/security/access-restriction
         [
             'pattern' => 'logout',
-            'action'  => function () {
+            'action' => function () {
 
                 if ($user = kirby()->user()) {
                     $user->logout();
