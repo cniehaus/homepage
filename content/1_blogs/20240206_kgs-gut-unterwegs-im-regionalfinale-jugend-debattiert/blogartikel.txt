@@ -1,0 +1,33 @@
+Title: KGS gut unterwegs im Regionalfinale "Jugend debattiert"
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Sturm und Lokführerstreik trotzend reiste am Mittwoch, den 25.1. eine achtköpfige Delegation der KGS zum Regionalfinale des Wettbewerbs „Jugend debattiert“ zur IGS nach Delmenhorst. Henri Veltrup (11F) und Hannah Haßmann (Jg. 12) traten als Schulsieger:innen für die Sek. II an. Phelan Jech (9C3) und Paulina Klatt (9D3) waren für die Sek. I dabei und Lisa Meyding (9A3) als Vertreterin. Emma Oldewurtel (Jg. 12) komplettierte als Jurorin die Gruppe, die von Herrn Stockmann und Herrn große Osterhues begleitet wurde. <br>In jeder Altersgruppe mussten zunächst zwei Qualifikationsdebatten in einem Feld mit insgesamt je 16 Teilnehmenden aus sieben Schulen bestritten werden. Dabei schlugen sich unsere KGS-Schüler:innen sehr ordentlich und erzielten gute Punktzahlen. Henri und Paulina belegten nach den beiden Runden jeweils den 6. Platz ihrer Altersgruppe und scheiterten recht knapp am Finaleinzug. Auch Phelan und Hannah wussten zu überzeugen. Letztlich reichte es in einem sehr starken Teilnehmerfeld in diesem Jahr aber nicht für die Finalrunde. <br>Trotzdem wurde sowohl im Schul- wie auch im Regionalfinale eine starke Qualität unserer Teilnehmenden deutlich, die für das nächste Jahr einige Hoffnungen weckt. Zumal 2025 das Regionalfinale voraussichtlich an der KGS stattfinden wird.</p>"},"id":"c325253e-ad6d-40ea-ab6e-4e0ed8a8f26a","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://J7t07YVdy0Xr1FfB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"8b5ec012-ea7e-4dcd-87d0-56274f1dee68","isHidden":false,"type":"image"}],"id":"20ff9fde-8375-4a69-98e0-d4d76c7ff1d7","width":"1/1"}],"id":"1c9cffbd-dea9-4f3f-9f08-c1f252bd6a1e"}]
+
+----
+
+Date: 2024-02-06 19:40:00
+
+----
+
+Datumstartseite: 2024-06-06 19:40:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: OS
+
+----
+
+Tags: Aktuell im Fokus
+
+----
+
+Downloads: 
+
+----
+
+Uuid: fsFBjYSp4u9v8YRG

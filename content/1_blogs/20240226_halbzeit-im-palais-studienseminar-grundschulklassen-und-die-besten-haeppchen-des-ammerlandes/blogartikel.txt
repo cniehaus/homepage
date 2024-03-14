@@ -1,0 +1,33 @@
+Title: Halbzeit im Palais: Studienseminar, Grundschulklassen und die besten Häppchen des Ammerlandes
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://2I1luh6PqAgvWw8m"],"caption":"","ratio":"","crop":"false"},"id":"3f15af79-28cc-4838-8b00-2b8620272613","isHidden":false,"type":"gallery"}],"id":"349c11f1-a92e-4287-8cdb-b5bb840ac347","width":"1/1"}],"id":"1e20ffa8-5ac0-4d29-949e-30154a97ffe5"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am Sonntag, den 11.02.24 um 11:30 Uhr war es endlich so weit: Die große Ausstellung der Leistungskurse des Alten Gymnasium Oldenburg und der KGS Rastede sowie unserer Kunst AG wurde im Rasteder Palais feierlich eröffnet. Selbst eingefleischte Fans der Rasteder Kulturszene waren sich einig: So voll war das geschichtsträchtige Haus noch nie zu einer Ausstellungseröffnung! Für das Gelingen dieses außergewöhnlichen Vormittags war neben den über 60 Künstler:innen der Jahrgänge 7-13 auch unsere Schülerfirma „Foodfactory“ verantwortlich. Ab morgens um 8:00 Uhr arbeiteten Angelika Akbaşak und Elvira Fuchs mit ihren fast 30 Mitarbeiter:innen unter Hochdruck an der Zubereitung von vielfältigen veganen und vegetarischen Häppchen, die sie später den weit über 250 Gästen auf äußerst freundliche und professionelle Weise servierten und dazu noch für Getränke sorgten. Sollte gastronomische Betriebe der Region Nachwuchssorgen haben, wir hätten da einen heißen Tipp. Aktive und ehemalige Schülerinnen des Musik-Leistungskurses begeisterten das Publikum mit vielfältigen Gesangseinlagen. Dabei wurden sie von ihrem stets konzentrierten und professionellen Pianisten Timo begleitet. Nach meist kurzweiligen Reden vom Vorsitzenden des KKR Siegfried Chmielewski, dem Schulleiter des AGO Herrn Marschhausen, unserer Schulleiterin Claudia Berger, Angelika Feldhege und ihres AGO-Leistungskurses sowie Charlie Harms konnten die Besucher:innen dann durch die Ausstellungsräume gehen (oder sich sanft drängeln) und die vielfältigen Illustrationen und Plakate bewundern. Es wird nicht zu viel verraten, schließlich können Interessierte die Ausstellung noch bis zum 10.03.24 besuchen. <strong>Wochentags ist von Dienstag bis Donnerstag von 10-14 Uhr geöffnet, Schulklassen und Kurse können spontan, kostenlos und ohne Anmeldung kommen.</strong> Aufgrund der vielfältigen Themen ist ein Besuch nicht nur für Kunstkurse und Deutschklassen interessant, auch Lateinkurse dürften im Mythenteil auf ihre Kosten kommen. Am Wochenende ist die Ausstellung von 14-17 Uhr geöffnet. Sonntags führen Schülerinnen der Kunst-AG von Valerie Kirchmann jeweils um 15 Uhr durch die Ausstellung. Drei besondere Führungen erlebten die Klassen der Grundschule Feldbreite schon in den letzten zwei Wochen: Schüler:innen des Kunst-Leistungskurses 12 stellten ihr pädagogisches Talent mit vielfältigen Märchenlesungen und interaktiven, kindgerechten Ausstellungsbegehungen unter Beweis. Da wurde gebastelt, gerätselt und Stroh zu Gold gesponnen. Selten war so viel Leben in der „Bude“. Besonderer Besuch war dann am 21.02. im Haus: Sämtliche Kunst-Referendar:innen des Studienseminars Oldenburg waren zusammen mit Seminarleiterin Bettina Krause und Fachleiterin Angelika Feldhege zu Gast in der Ausstellung. Pia Hülsmann, Renske Meyer und Charlie Harms (Kunst-LK 12) führten die angehenden Lehrer:innen mit ihren Ausbilderinnen auf mitreißende Weise durchs Haus und öffneten die Augen für die besondere Situation und Perspektive von Jugendlichen, die sich mit Kunst auf erhöhtem Anforderungsniveau zum Abitur bewegen. Zur Halbzeit kann eine eindeutig positive Zwischenbilanz gezogen werden: Das Projekt verbindet -Schulzweige, Schulen, Lehrkräfte und Schüler:innen. Es ermöglicht alternative Unterrichtsformate, eröffnet Jugendlichen den Nahraum unserer Schule, öffnet die Schule für die Rasteder:innen und hat inzwischen weit über die regionalen Grenzen hinaus das Interesse nicht nur von Kunstpädagog:innen geweckt. Wir freuen uns auf die zweite Halbzeit!</p>"},"id":"0b3f38a0-f5fc-4bf9-9283-47c22ecfe301","isHidden":false,"type":"text"}],"id":"779e4f5f-fc2a-441b-8a7f-a6b5c90649ca","width":"1/1"}],"id":"4984b030-236d-43d3-987d-ba17484e9994"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://wzvQ3GjZwEtSrUp7"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"deb706bc-6dea-4ce9-8955-1be490e22d80","isHidden":false,"type":"image"}],"id":"9153e2cd-617c-428c-b544-ffc1436ddfbf","width":"1/2"},{"blocks":[{"content":{"images":["file://sgvAajcBxN4p3us2"],"caption":"","ratio":"","crop":"false"},"id":"d7a6b885-04a8-44f2-a71c-8ed797d955ef","isHidden":false,"type":"gallery"}],"id":"267df905-4cc0-4a7d-bfb8-7f5c39400edf","width":"1/2"}],"id":"2c137aec-ea05-4ef4-804c-dcadf7182bfb"}]
+
+----
+
+Date: 2024-02-26 12:55:00
+
+----
+
+Datumstartseite: 2024-06-26 12:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Jelena Duwe
+
+----
+
+Tags: Kunst, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 8hTfIugBdvvuKYMZ

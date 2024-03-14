@@ -1,0 +1,33 @@
+Title: Smartphones in Kinderhand
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://7ITo08UTTSOT0DJx"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"00c9a4c4-4614-4733-a55e-2018abc03707","isHidden":false,"type":"image"}],"id":"a34f37b8-4257-442e-b9f0-04bc34f97445","width":"1/1"}],"id":"3aff0935-0f8e-4530-9dbc-28d86cdd291c"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><a href=\"http://www.praeventionsrat-oldenburg.de/\">http://www.praeventionsrat-oldenburg.de/</a></p>"},"id":"e25e7c2a-b3f5-46f5-bf1e-2e4634701c74","isHidden":false,"type":"text"}],"id":"c970acbb-be1f-4927-b2b9-e4e571891e02","width":"1/1"}],"id":"1947ac25-7843-44cc-88ff-5c971812392e"}]
+
+----
+
+Date: 2024-02-21 16:15:00
+
+----
+
+Datumstartseite: 2024-06-21 16:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Veranstaltungshinweis
+
+----
+
+Downloads: 
+
+----
+
+Uuid: wC2J0hln9de3xQFU

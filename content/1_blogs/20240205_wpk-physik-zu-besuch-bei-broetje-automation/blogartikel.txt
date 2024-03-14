@@ -1,0 +1,33 @@
+Title: WPK-Physik zu Besuch bei Broetje-Automation
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://KUozAObZ0yQsTqVd"],"caption":"","ratio":"","crop":"false"},"id":"fb83f926-12c5-4527-afbd-a1f6c646967b","isHidden":false,"type":"gallery"}],"id":"95592da7-2c70-44da-a481-31168c0e8c65","width":"1/1"}],"id":"b3b7c7b9-35b5-4074-b5fa-dfc3c25969e1"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Der WPK-Physik aus dem 10. Jahrgang war eingeladen, die Firma Broetje-Automation zu besichtigen. Der Kurs konnte einen Blick in die Fertigungshalle der Firma werfen und staunen, wie Teams aus Technikern hochkomplexe Maschinen und Roboter für die industrielle Fertigung bauen. Die meisten Automationen werden in der Flugzeugindustrie eingesetzt, aber auch ganz andere Fertigungslinien werden durch die Firma realisiert.</p><p>Die Ausbildungsleiterin, Lilli Beußel, erklärte uns, wie jede Maschine speziell für die jeweiligen Anforderungen des Kunden entworfen und montiert wird. Wenn das Einzelstück fertig ist und tadellos arbeitet, reisen die Techniker mit der Maschine zum Einsatzort, um sie dort mit dem Kunden in Betrieb zu nehmen. So ist der Arbeitsplatz für die Techniker nicht immer nur in Loy, sondern auch mal für mehrere Wochen ein Ort in Frankreich, USA oder Asien. Uns wurde schnell deutlich, dass es bei Broetje-Automation nicht um eintönige Fließbandarbeit geht, hier sind Kreativität und Teamarbeit gefragt. Zudem war die abwechslungsreiche und familiäre Arbeitsatmosphäre deutlich zu spüren.</p><p>Die Betriebsbesichtigung ist Teil einer Kooperation zwischen der KGS-Rastede und Broetje-Automation. Der WPK-Physik entwirft und baut selbst auch - und zwar Solarmobile. Mit den Solarmobilen nehmen wir am Wettbewerb „Solarcup“ teil und treten gegen die Teams von anderen Schulen an. Wir freuen uns, dass Broetje-Automation den größten Teil der Materialkosten für die Solarmobile übernimmt.</p>"},"id":"c38c293c-19e4-4f78-afca-917fbd193c1a","isHidden":false,"type":"text"}],"id":"31b4289b-26f8-427f-a0c6-758c6f196e08","width":"1/1"}],"id":"2726bbea-9751-4401-bab8-a9f43b925e89"}]
+
+----
+
+Date: 2024-02-05 08:40:00
+
+----
+
+Datumstartseite: 2024-06-05 08:40:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: tbFCH6T1VnORhXzl

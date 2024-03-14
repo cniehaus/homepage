@@ -1,0 +1,33 @@
+Title: IRREGULäR
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Eine neue Ausgabe der Online-Schüler_innenzeitung IRREGULäR ist online!"},"id":"a73d233f-1c2b-47b7-a458-f22bbd62886d","isHidden":false,"type":"heading"}],"id":"8611a792-4d21-4f87-bbb9-54c924dd8d31","width":"1/1"}],"id":"10143aac-c8b4-4e36-9636-89d02d6a0b4a"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Fünf spannende Beiträge erwarten euch:<br><br>Klimastreik in Rastede<br>Für unsere Fotoreportage haben wir Bele von Fridays for Future bei den Vorbereitungen und während der Demo im September 2023 begleitet.<br><br>Fakt oder Fake<br>In diesem Artikel erfahrt ihr alles, was ihr über Fake News wissen müsst. Dazu gibt es eine Anleitung, wie man Fake News erkennt, und ein Quiz.<br><br>Erster Platz beim Schulradeln<br>Neben einem Bericht über die Siegerehrung in Hannover, gibt es die Ergebnisse der besten Schüler*innen und Klassen der KGS im Überblick und ein Interview mit drei Schulradeln-Stars unserer Schule.<br><br>Das große Suchen<br>In diesem Satirevideo machen wir uns über den ganz normalen Wahnsinn bei der Suche nach dem richtigen Raum lustig. Dazu wurde die KGS in Minecraft nachgebaut.<br><br>Es geht um Meer<br>In unserem Interview erfahrt ihr alles über diese Arbeitsgemeinschaft, die unsere Schule klimaneutral machen will.<br><br><br>IRREGULäR gibt es nur online auf <a href=\"http://schuelerzeitung.kgs-rastede.de/\">schuelerzeitung.kgs-rastede.de</a>.<br>Ihr findet die Online-Schüler_innenzeitung auch bei den IServ-Modulen unter \"Schüler_innenzeitung\". Am besten gleich im Schnellzugriff speichern!<br><br>Viel Spaß mit der neuen Ausgabe wünscht euch die IRREGULäR-Redaktion.</p>"},"id":"60c18cbe-ad72-463e-9397-c150095a9080","isHidden":false,"type":"text"}],"id":"dc8c58c8-a7f4-494b-80fd-2667279099e6","width":"1/1"}],"id":"d3b315f7-fd5b-44d4-afde-bd8247144459"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://7d51YIe08lRPruwP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a35eab3f-e2d8-4bc4-890b-833766f04bb4","isHidden":false,"type":"image"}],"id":"f2141c43-d09d-4768-8741-752c25c13b3d","width":"1/1"}],"id":"3f2de9a5-c753-4c60-9fea-643bbbfd741d"}]
+
+----
+
+Date: 2024-02-23 11:05:00
+
+----
+
+Datumstartseite: 2024-06-23 11:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Redaktion IRREGULäR
+
+----
+
+Tags: AGs
+
+----
+
+Downloads: 
+
+----
+
+Uuid: mlc9sQ9FIKW55OHB

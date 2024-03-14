@@ -1,0 +1,33 @@
+Title: Besuch im Universum Bremen - Spannender Abschluss zum Thema Herz
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://20sER4gaVBiwjh7e"],"caption":"","ratio":"","crop":"false"},"id":"72a8891c-595b-4985-9093-239b45ed1d98","isHidden":false,"type":"gallery"}],"id":"7fc65832-1bd9-497b-bad1-31be69e4495b","width":"1/1"}],"id":"bd1b8a4f-0fe3-4b0f-840a-bd1eeb78f9b1"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Spannender Abschluss zum Thema Herz</strong></p><p>Am 12.1. unternahm die Klasse 8B3, dem Bahnstreik zum Trotze, eine Exkursion ins Universum in Bremen. Dort wurde die Gruppe geteilt. Ein Teil durfte zunächst in die interaktive Ausstellung mit vielen verschiedenen Möglichkeiten den Aufbau und die Funktionsweise des Herzens zu erforschen. Die andere Gruppe startete direkt mit der Sektion eines Schweineherzens. Nach anfänglicher Skepsis einiger Schüler und Schülerinnen griffen doch fast alle beherzt zum Skalpell und waren fasziniert von dem Einblick in das komplizierte Konstrukt des Herzens. Die Schüler und Schülerinnen konnten von außen die Hohlvene und Körperarterie erkennen. Außerdem sahen sie nach drei gezielten Schnitten die Vorhöfe und Herzkammern und konnten sogar die Funktionsweise der Segelklappen betrachten. Das Fazit der SchülerInnen zu dieser Exkursion war durchweg positiv und die Erfahrungen am realen Objekt bleiben immer länger in Erinnerung. Schade war bloß, dass wir aufgrund von Zeitmangel die übrigen Ausstellungen nicht mehr besuchen konnten und auch generell würden wir beim nächsten Mal mehr Zeit auf der Fläche einplanen. Insgesamt war die Exkursion ein sehr gelungener Abschluss der Unterrichtseinheit zum Thema Herz.</p>"},"id":"391ce5d3-01d5-43d9-9555-3df01032a623","isHidden":false,"type":"text"}],"id":"8a7a85ac-7674-4103-95d1-a8d71cd699c7","width":"1/1"}],"id":"5fdf214d-ae18-4130-afb7-3db7e1302d01"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://HlwZjfJlN3GdvwjD"],"caption":"","ratio":"","crop":"false"},"id":"6c37c444-829a-4bca-be58-2eb82611c6ea","isHidden":false,"type":"gallery"}],"id":"c7ff7539-96d0-46b3-9f3d-0b1f4aeb72b8","width":"1/2"},{"blocks":[{"content":{"images":["file://1F0GjtSYgJYAeioq"],"caption":"","ratio":"","crop":"false"},"id":"388ad784-54ce-454d-b0f1-a6469600f347","isHidden":false,"type":"gallery"}],"id":"5e134c42-9989-4f0f-8697-4ef9782b38c1","width":"1/2"}],"id":"59aee999-08b0-4722-8883-6c95d28f2f21"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://0OkWCEkKMyFKfnH4"],"caption":"","ratio":"","crop":"false"},"id":"44bcafc8-d60e-4605-ab95-4c32c4fd4f9c","isHidden":false,"type":"gallery"}],"id":"4383f8bd-27dd-4061-9d3e-42f9779dd569","width":"1/1"}],"id":"a236cd9b-1af7-4d76-b671-a2267299587a"}]
+
+----
+
+Date: 2024-02-26 13:10:00
+
+----
+
+Datumstartseite: 2024-06-26 13:10:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Julia Wirth
+
+----
+
+Tags: Projekt, Ausflug, Biologie
+
+----
+
+Downloads: 
+
+----
+
+Uuid: UtIAFBU2fn55GANo

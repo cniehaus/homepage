@@ -1,0 +1,33 @@
+Title: 6A3 und 6B3 nehmen am HEUREKA!-Wettbewerb „ Natur und Mensch“ teil
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://FbDtHdI1iQVaTU5e"],"caption":"","ratio":"","crop":"false"},"id":"539b961a-5244-4da1-81c5-ffc7287864e0","isHidden":false,"type":"gallery"}],"id":"91202197-3c2c-4203-a73c-8226a53ed0ac","width":"1/1"}],"id":"47616b5d-9ee0-496f-b4b6-2dc81da2ec24"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>6A3 und 6B3 nehmen am HEUREKA!-Wettbewerb „ Natur und Mensch“ teil – Merle Karth wird Schulsiegerin</p><p>Jedes Jahr im November findet bundesweit der Heureka!-Wettbewerb „Natur und Mensch“ statt, so auch in 2023. An diesem Online-Wettbewerb mit naturwissenschaftlichen Fragestellungen können Schülerinnen und Schüler der 3.-8. Klassen teilnehmen und nach ersten Erfahrungen in 2022 haben auch wir an der KGS Rastede wieder mit einigen Klassen mitgemacht. Wir gratulieren Merle Karth und Tim Bohmann zum ersten und zweiten Preis, zudem konnten Fritz Mai, Jemimah Prah-hawerkamp, Julian Neuhaus, Alissa Biegel, Annika Piesche, Kiana Lühring, Paul Stapper und Riaan Bauer einen dritten Platz erreichen – herzlichen Glückwunsch!</p>"},"id":"5c5981b8-2108-4b51-b9ce-cedbd43e41d4","isHidden":false,"type":"text"}],"id":"48cc2dcd-ee1c-4694-a82e-4324688193ba","width":"1/1"}],"id":"b35f7334-441a-472e-a50a-2030531148b7"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://cmsAXcskIapfjSvk"],"caption":"","ratio":"","crop":"false"},"id":"5ad472d5-8d8e-4ceb-b05f-9cce7a65dadc","isHidden":false,"type":"gallery"}],"id":"42434eb6-538f-4eb1-9f4a-64f964430f69","width":"1/1"}],"id":"722f61af-1933-4bee-a222-fe38703b4018"}]
+
+----
+
+Date: 2024-03-06 08:25:00
+
+----
+
+Datumstartseite: 2024-07-06 08:25:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Martin Fach
+
+----
+
+Tags: Wettbewerb, NTW, Biologie
+
+----
+
+Downloads: 
+
+----
+
+Uuid: av34AGbfr2fe6Ym5

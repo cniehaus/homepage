@@ -1,0 +1,33 @@
+Title: Sprechtag für Schüler:innen und Erziehungsberechtigte am 08.02.2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Nach den allgemeinen Sprechtagen im November findet am 08. Februar ein besonderer Sprechtag statt. Hier können Fragen und Sorgen, die z.B. im Zusammenhang mit dem Halbjahreszeugnis, Problemen bei der Selbstorganisation, Sorgen oder Bedenken im Zusammenhang mit der Schwerpunkt- oder Kurswahl oder mit dem Abitur stehen, geklärt werden. Sollte Gesprächsbedarf seitens der Lehrkräfte bestehen, können Sie dies der Einladung zum Sprechtag entnehmen, die mit den Zeugnissen verteilt wird.</p>"},"id":"2c4d188b-6050-427c-85b3-e365630b6b38","isHidden":false,"type":"text"}],"id":"c52f0f8f-e22a-4a6e-8f09-a6ca66845d0f","width":"1/1"}],"id":"07e66bfd-6d55-4eb4-9c88-61f11cb46a72"}]
+
+----
+
+Date: 2024-01-26 16:40:00
+
+----
+
+Datumstartseite: 2024-02-09 16:40:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: OIzcBtSCZZuBn4z3

@@ -1,0 +1,33 @@
+Title: Mediennutzung außer Kontrolle? Infoabend für Eltern am 14.03.2024, 19 Uhr
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://qv7ZGw6c9ac7akug"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"89b02300-dbc5-4d71-891d-fa09203f7311","isHidden":false,"type":"image"}],"id":"6216d8d6-2242-40a8-9cb8-12462e179383","width":"1/1"}],"id":"500ad691-e78c-43de-a0c9-0235bc80dd65"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Wie können Sie als Eltern ihre Kinder im Umgang mit den sozialen Medien begleiten und beschützen? Der Wunsch nach Information und Austausch wurde aus der Elternschaft an uns herangetragen.</p><p>Ansgar Melter, Amtsleiter der Beratungsstelle für Familien, Kinder und Jugendliche im Landkreis Ammerland, und Freya Mielke, systemische Familientherapeutin in der Beratungsstelle, geben einen Überblick über aktuelle Themen, berichten aus ihrem Beratungsalltag und beantworten Ihre Fragen zum Thema „Medienkompetenz“ und \"Medienerziehung\".  </p><p>Wir laden Sie herzlich dazu ein! Eine Anmeldung ist nicht erforderlich.</p><p><strong>Termin: 14.03.2024, 19 Uhr</strong></p><p><strong>Ort: Neue Aula der KGS Rastede</strong></p>"},"id":"8078af9b-c3b8-485a-8225-fb5359efb454","isHidden":false,"type":"text"}],"id":"0ae36c0a-243a-4bba-b4e4-ef4059ee9934","width":"1/1"}],"id":"1dbb31bf-d488-4f2e-b594-f50d473a54cd"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Bild: pexels-mizuno-k-13929221</p>"},"id":"4d9a87d6-3813-4dcf-9574-a1b19179831b","isHidden":false,"type":"text"}],"id":"81655b01-70f0-4596-a36d-eb70c3d5c26b","width":"1/1"}],"id":"22e856ee-afd2-4643-b89a-ec803e85b967"}]
+
+----
+
+Date: 2024-03-10 11:45:00
+
+----
+
+Datumstartseite: 2024-07-10 11:45:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 0FbtdU4wrBTecRkL

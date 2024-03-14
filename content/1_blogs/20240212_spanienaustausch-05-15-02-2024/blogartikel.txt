@@ -1,0 +1,33 @@
+Title: Spanienaustausch 05. – 15.02.2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://YYmqPffeKblc0bpn"],"caption":"","ratio":"","crop":"false"},"id":"4765f0d4-a2e6-43fd-a74e-aad6f1cefc30","isHidden":false,"type":"gallery"}],"id":"85192093-ccb0-40a5-bd6f-7052b692ae55","width":"1/1"}],"id":"72dbf50d-8ae3-4af6-b901-c8839623b729"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am Montag, dem 5. Februar, sind wir – zwölf Schülerinnen und ein Schüler begleitet von Frau Eisenmann und Frau Bahlmann - von Bremen via München nach Madrid geflogen. Für einige von uns war es der erste Flug und somit sehr aufregend. Aufgeregt waren wir aber alle, da wir nicht wussten, was auf uns zukommt.</p><p>Am Anfang des Austausches war alles sehr ungewohnt: Die Wohnungen sind sehr klein, man wusste nicht wie und was man sagen soll und im Allgemeinen war man sehr überfordert. Da man aber gleich schon so gut und herzlich am Flughafen empfangen wurde, gab es keine Probleme. Die Gastfamilien sind sehr nett und herzlich, sodass man sich gut aufgehoben fühlt. Am Anfang unseres Austausches hatten wir noch größere Probleme mit der Verständigung, aber mittlerweile geht das ziemlich gut. Auffällig war jedoch, dass die Spanier sich gegenseitig mehr berühren, als man es in Deutschland gewohnt ist. So küssen die Mütter einen schon von Anfang an. Nicht ohne vorher zu fragen natürlich.</p><p>Die Spanier haben meist sehr viel Energie und sind immer gut gelaunt, was teilweise ein großer Kontrast zu Deutschland ist. Außerdem muss man sich an die Esszeiten gewöhnen, da diese oft sehr anders sind als bei uns. Die Spanier essen auch sehr langsam und man merkt direkt, dass sie Jamón lieben. Was viele von uns vermissen ist das Sprudelwasser oder das gute Leitungswasser, da in Spanien kaum Sprudelwasser getrunken wird und das Leitungswasser sehr nach Chlor schmeckt. Auch fällt einem auf, dass die Spanier alles mit mehr Gelassenheit angehen als in Deutschland. So steht man auch mal ein paar Minuten rum und wartet ohne Grund. Mittlerweile hat man sich aber an alles gewöhnt und wir alle haben eine schöne Zeit. Innerhalb unserer Gruppe verstehen wir uns sehr gut und wir werden ein gutes Team.</p><p>Bis jetzt waren wir schon in Segovia, einer Stadt mit einem römischen Aquädukt. Natürlich haben wir auch Madrid erkundet und die meisten von uns sind jetzt U-Bahn-Profis. Außerdem haben wir einen Tag lang am Unterricht teilgenommen. Hier in Spanien meldet man sich nicht, sondern man wird entweder aufgerufen, oder man redet einfach so. Nächste Woche besuchen wir einen der zahlreichen Paläste, sowie das \"Museo Reina Sofia\". Am Donnerstag geht unser Madridabenteuer schon wieder zu Ende und wir freuen uns auf den Rückbesuch der Spanier nach den Osterferien.</p>"},"id":"9b765e1f-ed80-41c2-a297-fb4fad18e4d5","isHidden":false,"type":"text"}],"id":"cbbea63f-564f-4398-94f2-845bd86429d3","width":"1/1"}],"id":"c42146d9-b82c-44d3-b334-18801d667162"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://fktNbeADll6ZWoie"],"caption":"","ratio":"","crop":"false"},"id":"04b71e8c-9653-4960-a4f0-22c5e0080ad8","isHidden":false,"type":"gallery"}],"id":"20c15ede-b7cd-44e9-b4a8-97eee9379601","width":"1/1"}],"id":"334db22d-0963-4b6a-a12c-2ac365f33212"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://5fAFZwPafZMTPWUr"],"caption":"","ratio":"","crop":"false"},"id":"34b54980-e5bf-41df-b395-c0b3611bdcaf","isHidden":false,"type":"gallery"}],"id":"cd7a42bc-1d46-489e-8dba-ddb850e200b9","width":"1/2"},{"blocks":[{"content":{"images":["file://tGuR5QXNq6huRc4H"],"caption":"","ratio":"","crop":"false"},"id":"d9baf5ed-3b14-4daf-9bc8-02f2d716b803","isHidden":false,"type":"gallery"}],"id":"00e36408-c368-4a0b-85c1-3b7099d9a850","width":"1/2"}],"id":"c7a09286-efa6-44bf-a766-5efada3d7ce4"}]
+
+----
+
+Date: 2024-02-12 08:05:00
+
+----
+
+Datumstartseite: 2024-06-12 08:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schülerinnen und Schüler der KGS
+
+----
+
+Tags: Austausch, Spanisch, Fremdsprachen
+
+----
+
+Downloads: 
+
+----
+
+Uuid: YPIlR8zXdjogRo7B

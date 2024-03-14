@@ -1,0 +1,33 @@
+Title: Filmklappe: 1. Preis gewonnen
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://crlYMh7jIBnsGw7x"],"caption":"","ratio":"","crop":"false"},"id":"ad392ab9-3b90-4938-b227-e76c9d980bb6","isHidden":false,"type":"gallery"}],"id":"0f9cabeb-7912-483e-b285-3cc2a043fcdb","width":"1/1"}],"id":"b5e5e40d-733b-4651-a2d4-b6943f182beb"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Der WPK-Religion hat mit seinem Dokumentarfilm „Erzähl mir vom Krieg“ den 1. Preis der Oldenburg Filmklappe gewonnen. Der Kurs hatte im vergangenen Schuljahr unter dem Eindruck des noch jungen Ukraine-Kriegs Menschen in der eigenen Umgebung nach Kriegs- und Nachkriegserfahrungen befragt. Die Schüler:innen sind mit der Kamera zu ihren Großeltern und zu fremden Menschen in Altenheimen gegangen und haben sie gefragt, wie sie den Krieg erlebt haben. Auch eine Mitschülerin, die aus Syrien geflüchtet war, wurde interviewt.</p><p>Bei der Preisverleihung wurde herausgehoben, dass dabei eine überaus vielfältige und eindrückliche Collage aus individuellen Perspektiven auf den Krieg entstanden ist. Die Jury der Filmklappe betonte zudem, dass sich die jugendlichen Filmemacher in der Dokumentation angemessen zurückhalten und die Originaltöne der Interviewpartner nicht durch eigene Kommentare relativieren.</p><p>Mit dem ersten Preis in der Kategorie hat sich der Film auch für den Landeswettbewerb „Niedersachsen Filmklappe“ qualifiziert. Der Kurs hofft auch hier auf eine Platzierung und freut sich darauf, kurz vor den Sommerferien nach Hannover zur Preisverleihung zu fahren.</p>"},"id":"88fedc0e-a684-49d5-8505-a6a1b52c721e","isHidden":false,"type":"text"}],"id":"6b120f47-870a-48f0-8eae-1e2b6023b855","width":"1/1"}],"id":"00f8a53b-4565-4c1b-8270-99187870c580"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Den Film können Sie hier sehen:</p><p><a href=\"https://player.vimeo.com/video/841608774?badge=0&amp;amp\">https://player.vimeo.com/video/841608774?badge=0&amp;amp</a></p>"},"id":"ac01102a-4ba8-4f16-ab3f-9d703a48696c","isHidden":false,"type":"text"}],"id":"ffc17d29-d921-4ee7-ae1c-2edcf0966bdb","width":"1/1"}],"id":"76227499-e651-4e8c-81a4-37664adb8eb6"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://cdzXUoVncKK7XDtq"],"caption":"Das voll besetzte CineK in Oldenburg","ratio":"","crop":"false"},"id":"7b9709dc-65f2-42e6-a543-8b5e54fc7bf9","isHidden":false,"type":"gallery"}],"id":"4d5cca54-2cd7-4860-b8fe-f93f9678dfb3","width":"1/2"},{"blocks":[{"content":{"images":["file://uau0bWoszISGFwHK"],"caption":"Mariana, Lasse und Mette bei der Preisverleihung","ratio":"","crop":"false"},"id":"395305b4-47ae-4d2c-86df-c7914f364260","isHidden":false,"type":"gallery"}],"id":"eb47f959-e91a-437a-8192-2f2e5a1b082a","width":"1/2"}],"id":"5b8d7e40-179a-43ee-85b1-cf97091df5a1"}]
+
+----
+
+Date: 2024-03-11 08:15:00
+
+----
+
+Datumstartseite: 2024-07-11 08:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Lutz Weusmann
+
+----
+
+Tags: Religion, Wettbewerb, Aktion
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 3oqa8CmhzSx3TBrl

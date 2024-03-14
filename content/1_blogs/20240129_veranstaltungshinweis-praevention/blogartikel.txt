@@ -1,0 +1,33 @@
+Title: Veranstaltungshinweis Prävention
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":""},"id":"7f31c15a-f720-43ce-8ea9-557ab5db744b","isHidden":false,"type":"heading"}],"id":"1d2b42bf-5aea-47d6-91b2-6b8faf5724c0","width":"1/1"}],"id":"80695e76-03c8-4b8c-bf3a-1d3c9d5e1518"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://3ljsBfWZf8MXq5Gr"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"739e4bdf-9ec6-46f0-9965-2bbf57a4a88f","isHidden":false,"type":"image"}],"id":"0135365d-6cc3-4fa6-afc6-d14ee7a0fa12","width":"1/1"}],"id":"8fb6f304-51a7-4e59-af8d-dc02c5d9cf81"}]
+
+----
+
+Date: 2024-01-29 09:35:00
+
+----
+
+Datumstartseite: 2024-02-12 09:50:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 3BNa5oOeSyEH6s2R
