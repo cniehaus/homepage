@@ -1,4 +1,4 @@
-Title: Die Fruchtinsel
+Title: KGS Food Factory
 
 ----
 
@@ -10,7 +10,7 @@ Blogtag:
 
 ----
 
-Text: [{"content":{"text":"<p>Das Fruchtinsel-Team versorgt die Schülerinnen und Schüler der KGS Rastede dienstags in der zweiten großen Pause mit allerlei Köstlichkeiten und kümmert sich somit um das leibliche Wohl.</p><p>Zudem übernimmt diese Firma auch Cateringaufträge für Schulveranstaltungen.</p><p>Erreichbar unter:</p><p><a href=\"mailto:akb@kgs-rastede.de\">akb@kgs-rastede.de</a></p>"},"id":"42b577ea-d5ab-4a66-b62f-8bd7423dbb23","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>Das Food-Factory-Team versorgt die Schülerinnen und Schüler der KGS Rastede donnerstags in der zweiten großen Pause mit allerlei Köstlichkeiten und kümmert sich somit um das leibliche Wohl.</p><p>Zudem übernimmt diese Firma auch Cateringaufträge für Schulveranstaltungen.</p><p>Erreichbar unter:</p><p><a href=\"mailto:akb@kgs-rastede.eu\">akb@kgs-rastede.eu</a> und <a href=\"mailto:fcs@kgs-rastede.eu\">fcs@kgs-rastede.eu</a></p>"},"id":"42b577ea-d5ab-4a66-b62f-8bd7423dbb23","isHidden":false,"type":"text"}]
 
 ----
 

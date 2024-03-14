@@ -10,7 +10,7 @@ Blogtag:
 
 ----
 
-Text: [{"content":{"text":"<p>Das ´Sofa` ist hier nicht zum Ausruhen, es bedeutet: soziale Dienste für alte Menschen. Jeden Dienstag gehen wir in die Altenwohnanlagen der AWO und des Petershofes, um mit den Bewohnern/innen zu spielen, klönen, basteln, vorzulesen oder spazieren zu gehen.<br>Mit Botengängen, Einkäufen, Gartenarbeit oder Hilfe am Computer unterstützen wir ältere Menschen zu Hause.</p><p>Unsere Kunden freuen sich auf die regelmäßigen Besuche, denn sie erfahren eine wichtige Zuwendung und oft eine Verbesserung ihrer Lebenssituation.</p><p>Erreichbar unter:</p><p><a href=\"mailto:lue@kgs-rastede.de\">lue@kgs-rastede.de</a></p>"},"id":"fc426f5c-1109-4009-8b13-89d9c76b16dd","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>Das ´Sofa` ist hier nicht zum Ausruhen, es bedeutet: soziale Dienste für alte Menschen. Jeden Donnerstag gehen wir in die Altenwohnanlagen der AWO und des Petershofes, um mit den Bewohnern/innen zu spielen, klönen, basteln, vorzulesen oder spazieren zu gehen.<br>Mit Botengängen, Einkäufen, Gartenarbeit oder Hilfe am Computer unterstützen wir ältere Menschen zu Hause.</p><p>Unsere Kunden freuen sich auf die regelmäßigen Besuche, denn sie erfahren eine wichtige Zuwendung und oft eine Verbesserung ihrer Lebenssituation.</p><p>Erreichbar unter:</p><p><a href=\"mailto:eik@kgs-rastede.eu\">eik@kgs-rastede.eu</a></p>"},"id":"fc426f5c-1109-4009-8b13-89d9c76b16dd","isHidden":false,"type":"text"}]
 
 ----
 

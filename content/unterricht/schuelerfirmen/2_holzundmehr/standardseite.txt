@@ -10,7 +10,7 @@ Blogtag:
 
 ----
 
-Text: [{"content":{"text":"<p>Verkauf von selbst hergestelltem Spielzeug oder Ähnlichem aus Holz; Holzsitzbänke für Grundschulen;</p><p>weitere Produkte auf Anfrage (Vogelhäuser für den Schlosspark)</p><p>Erreichbar unter:</p><p><a href=\"mailto:lm@kgs-rastede.de\">lm@kgs-rastede.de</a></p>"},"id":"2fdbbf6b-ea58-40df-906b-922fed346e1f","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p>Verkauf von selbst hergestelltem Spielzeug oder Ähnlichem aus Holz; Holzsitzbänke für Grundschulen;</p><p>weitere Produkte auf Anfrage (Vogelhäuser für den Schlosspark)</p><p>Erreichbar unter:</p><p><a href=\"mailto:lm@kgs-rastede.eu\">lm@kgs-rastede.eu</a> und <a href=\"mailto:roe@kgs-rastede.eu\">roe@kgs-rastede.eu</a></p>"},"id":"2fdbbf6b-ea58-40df-906b-922fed346e1f","isHidden":false,"type":"text"}]
 
 ----
 
