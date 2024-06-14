@@ -1,0 +1,36 @@
+Title: Nh paar Leute on Tour
+
+----
+
+Kurzname: Nh paar Leute on Tour
+
+----
+
+Teamlogo: - file://749VLazzc8AWXCaI
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir fahren mit dem Fahrrad nach Leeuwarden. Auf dem Weg dahin werden wir auf Bauernhöfen arbeiten. Und wir sammeln auf Spielplätzen Müll.</p>"},"id":"b2979a6f-3242-4d9a-8399-bb6b6c26e10b","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://vOJrJNvOC7ia9jGQ
+- file://csmuSjit45T9hNDP
+- file://7mMb4Mf6PsmreEHI
+- file://Xb6H2QEmIGPWiXER
+- file://cywiy7WZxxVpQ0SN
+- file://y8S0eUERsap2kREl
+- file://7ebjkKiQh664RV0b
+- file://oq3sek6TAzYB9u98
+- file://VOjXJ1O8BOAc4Put
+- file://6MGxevOj19abH4b4
+
+----
+
+Uuid: qwXMzHH3on9P6BH0

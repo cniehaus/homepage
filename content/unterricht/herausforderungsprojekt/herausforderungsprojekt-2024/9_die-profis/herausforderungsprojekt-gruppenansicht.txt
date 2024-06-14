@@ -1,0 +1,37 @@
+Title: Die Profis
+
+----
+
+Kurzname: Die Profis
+
+----
+
+Teamlogo: - file://qyfr8wajsOhrZYSR
+
+----
+
+Teamfarbe: bs-teamfarbe7
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die \"Profis\". Wir sind 4 Mädchen, die nach Sankt Peter Ording fahren.Auf dem Weg sammeln wir Müll am Strand und besuchen Bauernhöfe.</p>"},"id":"a3a27617-5efb-49e6-8e61-73aec899dac8","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://vXRhBAG5bU0xAoLF
+- file://C14hZqdyd37zT3gs
+- file://RgWDXXz5dyfTHfby
+- file://WWs9BCvv0GyC5mcw
+- file://hwnoNMJ6LiRWHLRR
+- file://ybRSKDRQ8RGyTXdg
+- file://GfQYxrSZW8PyzKzV
+- file://FMXx39GoVdOy5Osj
+- file://a5PGMDCXrB7PMloW
+- file://zQVYdw8oukjRGT7i
+- file://m1elAleocZT1PFW0
+
+----
+
+Uuid: nBYmN0ff56DuFEkP

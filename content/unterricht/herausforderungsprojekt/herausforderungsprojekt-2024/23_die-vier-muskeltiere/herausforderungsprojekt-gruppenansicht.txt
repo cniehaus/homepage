@@ -1,0 +1,37 @@
+Title: Die vier Muskeltiere
+
+----
+
+Kurzname: Die vier Muskeltiere
+
+----
+
+Teamlogo: - file://iYmeaLVviXp8kkCj
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind Jella, Elina, Lasse, Tjark und zusammen mit unserer Betreuerin Jana die Vier Muskeltiere. Unser Herausforderung ist es mit dem Fahrrad nach Dänemark zu fahren. Dabei soll der Soziale Aspekt ja nicht zu kurz kommen und deshalb werden wir gesponsert und ebenfalls spenden wir das Geld, das am Ende der Fahrt noch übrig bleibt an das Tierheim Oldenburg.</p>"},"id":"4fd6f84a-0370-47f7-81a1-09bf1e854866","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://XVbdwo0x70OjUCAQ
+- file://bNAaBbUYv0ThlPfe
+- file://ycPsZUJAn1TG0MY5
+- file://lGJ195Cv9kL681yN
+- file://fZMgOJ6oz7Wh82sF
+- file://t1BCCMSqLRnMzG1S
+- file://jVhMH1ahIzZLCxq7
+- file://Uxh2bgmoUwmOvw3C
+- file://5P8DAsGkjwKvZSCV
+- file://UztUVn8sEdauDrKo
+- file://F6QQ1892MntElEvj
+
+----
+
+Uuid: rYvfUmXWBxnCJr1j

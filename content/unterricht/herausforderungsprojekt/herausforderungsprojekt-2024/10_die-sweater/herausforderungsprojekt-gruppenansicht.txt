@@ -1,0 +1,36 @@
+Title: Die Sweater
+
+----
+
+Kurzname: Die Sweater
+
+----
+
+Teamlogo: - file://buZDHbPE2BmxZyKS
+
+----
+
+Teamfarbe: bs-teamfarbe2
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Sweater und fahren mit dem Fahrrad nach Lübeck/ Kiel, wo wir Essen an Obdachlose verteilen und alten Menschen im Altersheim helfen wollen . Auf dem Weg dahin übernachten wir auf Bauernhöfen und hoffentlich bei netten Menschen im Garten .</p>"},"id":"2182cf78-57d0-43de-8191-d0c20c07ffab","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://N9s94q458TK7b910
+- file://UEKQddBbxf3QaF2x
+- file://d4SszzRI81eYO1IB
+- file://XeSqQCKHdZ3uijlj
+- file://Tm2BN4geqimfOAdB
+- file://ONQIxLRzC31a9IR8
+- file://IZhEvObFARn8Wgah
+- file://w2YHtNUnNFHdyT1A
+- file://gfkzi2VTGuHCDvdv
+- file://D4vfqs30Dn2v7qYy
+
+----
+
+Uuid: 63YvFnfRjB2fdrnc

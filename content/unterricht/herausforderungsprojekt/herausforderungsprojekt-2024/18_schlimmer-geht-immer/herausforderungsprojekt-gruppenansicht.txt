@@ -1,0 +1,36 @@
+Title: Schlimmer geht immer
+
+----
+
+Kurzname: Schlimmer geht immer
+
+----
+
+Teamlogo: - file://baLZOXNs2fIqsrlZ
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Hallo, wir sind die Gruppe \"Schlimmer geht immer\". Unsere Namen sind Anna, Inka, Ida und Nele. Wir fahren mit dem Fahrrad nach Preez, 18 km vom Großen Plöner See entfernt. Dort übernachten wir zwei Nächte auf einem Campingplatz. Außerdem verbringen wir dort einen ganzen freien Tag. Wir haben zudem zwei Übernachtungen in einem Altenheim organisiert, in welchem wir mit aushelfen. Wir freuen uns auf das kommende Abenteuer und das (hoffentlich) alles gut geht.</p>"},"id":"fe2919e9-68bf-4901-809b-fe8c938c9947","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://mj5fHiTgKlKLcDwb
+- file://Xkw2yuO6hBOcDBX5
+- file://FRQJ6apSWMCAfXs4
+- file://ec9zExzjmTQxOHU1
+- file://9678qjLL39KTuiiD
+- file://KSoL05OhFVikYIkh
+- file://knyorSCCTzfg2VVU
+- file://b49y3rs5ex8pa1Gw
+- file://Quo35p6kMuM4oIiI
+- file://mnvkgV92zep8DYal
+
+----
+
+Uuid: E5FCvHEJjsvJLofp

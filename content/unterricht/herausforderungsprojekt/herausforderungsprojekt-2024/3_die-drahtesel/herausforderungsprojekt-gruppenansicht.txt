@@ -1,0 +1,36 @@
+Title: Die Drahtesel
+
+----
+
+Kurzname: Die Drahtesel
+
+----
+
+Teamlogo: - file://jwXL3C1Ysn6Af91A
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Drahtesel: Ann-So, Clara, Elena, Malia, Leah und Melina. Wir fahren mit dem Fahrrad nach Holwerd und wieder zurück. Unterwegs sammeln wir Spenden für den Ammerländer Tierschutzverein.</p>"},"id":"4f64a427-54fd-4752-987c-0fc348cf4211","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://GASYBf5mtMcLSLvH
+- file://t76mdZnbKjBiZAVf
+- file://WmDyjbAwhwOiexfs
+- file://OSK2J3cVLwZTvUvH
+- file://A4M0p4oz3x4zT7OP
+- file://6RhQqdSbFPRU44hE
+- file://pRfk9WtAzOwOAmnj
+- file://Lv0bbxZxhuK2YU2Y
+- file://Q7yLl3XsUjt32Erc
+- file://2IM9qDAgqy4QkR8v
+
+----
+
+Uuid: oSZuTxEsXoiqRKPE

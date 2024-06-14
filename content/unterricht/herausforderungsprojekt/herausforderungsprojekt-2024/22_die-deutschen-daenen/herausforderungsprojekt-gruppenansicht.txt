@@ -1,0 +1,39 @@
+Title: Die Deutschen Dänen (sich aus)
+
+----
+
+Kurzname: Die Deutschen Dänen (sich aus)
+
+----
+
+Teamlogo: - file://e9TbH9SFo4amlpnw
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir, Keno, Fynn, Emil und Till, wollen mit dem Rad nach Dänemark fahren.</p>"},"id":"c175c5d3-7854-4e36-8582-238e87e2dd33","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://sQ85AfahknA6Ciyv
+- file://yyYihJvsm5H0PAkX
+- file://WuM1lLgRjQXcj9Ex
+- file://aXvqHG5cjUIjDgVG
+- file://oJfuSOkbQ17llX6H
+- file://3awxE9nOS4D4rD6p
+- file://6wYd0NEx9Ccsth6o
+- file://YMR3gb2drvxHzHf4
+- file://YmonaChgTYyeePdv
+- file://ArX903ZheTJUGWbz
+- file://OKa41YqCQueVtHKX
+- file://JzhQtNDcXlXCseTL
+- file://sFoZEyqtL0Q9ExBj
+
+----
+
+Uuid: r2KtKT200kG6sudl

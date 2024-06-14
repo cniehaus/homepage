@@ -1,0 +1,37 @@
+Title: Die wilden Bären
+
+----
+
+Kurzname: Die wilden Bären
+
+----
+
+Teamlogo: - file://uqXnzcGkG7IZTbDe
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind Niklas, Lasse, Tjade, Jesko, Anton und Kalle vom Team \"die wilden Bären\". Wir haben uns als Herausforderung vorgenommen, mit dem Fahrrad von Rastede nach Amsterdam und wieder zurück zu fahren. Wir übernachten dabei in Zelten bei Gemeinden, Campingplätzen und privaten Haushalten. Dabei wollen wir Geld für eine gemeinnützige Organisation sammeln, die sich für das Müllsammeln in unseren Meeren engagiert. Dafür konnten wir als Sponsoren Firmen und private Personen gewinnen.</p>"},"id":"f995f710-2507-4d81-938e-caed22d9e2ef","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://wNhpjFPg0cQ5qT7X
+- file://CTYPmJyvXYLHWtpi
+- file://GlIvYOeZ2ZWtqFAe
+- file://1INQ0aMxPbwUHBNq
+- file://5BQLLL6KzrmMGncl
+- file://YsdCQ0j2mdlFFjGh
+- file://y7fSizRB4b0WsBGM
+- file://pWPbWbLsT8FQpWnK
+- file://aLrcmD0wUrBd6WMF
+- file://M6LMEgqDh1JWh7Qm
+- file://GiytdgS0vrWl2nRU
+
+----
+
+Uuid: XDQll43SPab7sIua

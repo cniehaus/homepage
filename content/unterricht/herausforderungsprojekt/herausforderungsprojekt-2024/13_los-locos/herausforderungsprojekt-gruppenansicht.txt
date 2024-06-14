@@ -1,0 +1,36 @@
+Title: Los Locos
+
+----
+
+Kurzname: Los Locos nach Spiekeroog
+
+----
+
+Teamlogo: - file://17SOI5EZmwTFWa7Z
+
+----
+
+Teamfarbe: bs-teamfarbe4
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind Los Locos, 4 Jugendliche im Alter von 13 und 14 Jahren. Zusammen mit unseren Begleitern Simon und Nils fahren wir (Annick, Antonia, Jelto und Tjark) auf die Insel nach Spiekeroog, wo wir Müll sammeln wollen. Unterwegs helfen wir auch noch mal in der ersten Klasse in Blersum als \"Lehrer\" aus.</p>"},"id":"a405d437-d459-4fe3-aad1-29a02adf31e1","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://cS5jEIM08g4jWuDE
+- file://ZN6Au4eowPbNUt7q
+- file://L9aZnN66VppGn1nS
+- file://PnpKkZRfzO8HYDWo
+- file://DCYKsFI425Avnmld
+- file://W6pYkHAxocAiRk6L
+- file://63aTa1t7HwnwZckR
+- file://nqOtTEmFnbtJ81S2
+- file://EYztQNJ1QG6zOcLh
+- file://V7UDFMxegPf3ExwD
+
+----
+
+Uuid: 0oqc8qjuWssPizag

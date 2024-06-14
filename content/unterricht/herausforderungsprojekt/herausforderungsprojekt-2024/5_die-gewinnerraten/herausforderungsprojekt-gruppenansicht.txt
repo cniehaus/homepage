@@ -1,0 +1,36 @@
+Title: Die Gewinnerratten
+
+----
+
+Kurzname: Die Gewinnerratten
+
+----
+
+Teamlogo: - file://jBgm2xsevMGxQ7js
+
+----
+
+Teamfarbe: bs-teamfarbe5
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gewinnerratten. Wir heißen Moritz, Aaron, Maxim und Ben. Wir haben 2 Betreuer ( Jonte und Madiha ). Uns zeichnet aus, dass wir alle sehr sportlich sind und gut kochen können. Wir fahren nach Dortmund über Leer, Meppen, Spelle und Münster. Danach fahren wir nach Hannover und dann mit dem Zug nach Bremen. Dort übernachten wir aber nicht, sondern fahren direkt über Wardenburg nach Hause.</p>"},"id":"0715370b-ce20-4db6-8c10-9b11babeced7","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://6OSnYHFagu2iPirP
+- file://N3uzckqK570L0e4A
+- file://7CPE3tO2ExJrZ0DM
+- file://lP8NXxjsj2A6cUDU
+- file://tvcVeh0qlVrsL2Jg
+- file://l9Ms1egvlEmkqWtV
+- file://qJKeO7fnzn2V3x0e
+- file://9dI3V7SYS7tJ8GhC
+- file://ZFKn2XDEsYI6SVbF
+- file://kQ3tUEp45XUHA3jU
+
+----
+
+Uuid: KbU75cn6oAzpZi2m

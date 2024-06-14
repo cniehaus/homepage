@@ -1,0 +1,36 @@
+Title: Wer nicht fährt, tut's erschwert
+
+----
+
+Kurzname: Wurmies und andere 12er
+
+----
+
+Teamlogo: - file://3PuxamMHfZDLrvmM
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind eine gut gelaunte und motivierte Gruppe, welche das Herausforderungsprojekt mit Leidenschaft und Spaß durchführt.</p>"},"id":"969312a1-cbc5-49f6-8402-d84fe4be21ac","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://hX890UOpb97qRHKi
+- file://toL8f968fjYc2VVo
+- file://YbjYlD0c1VvvGHxz
+- file://tW4aomwkQ6rMiLdg
+- file://70rie9imRdgtA40o
+- file://6sAl0OsT5daFGCBB
+- file://yHptyx548ZfLCzQn
+- file://DMgKuZ2YrpJ8FvuN
+- file://E3arlx3QACJkM0tD
+- file://4ssTQiP4AlFvfB6E
+
+----
+
+Uuid: qnF61jQAYuhPLBMv

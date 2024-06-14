@@ -1,0 +1,37 @@
+Title: Die sozialen Seehunde
+
+----
+
+Kurzname: Die sozialen Seehunde
+
+----
+
+Teamlogo: - file://iaEWmk4FMkKYp9FW
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Moin, wir sind die \"Sozialen Seehunde\" und fahren mit dem Fahrrad an der Ostfriesischen Küste entlang. Wie unser Name schon sagt, wollen wir viel Soziales machen und so etwas weniger Strecke fahren . Wir übernachten auf Höfen, bei Kirchengemeinden und in Gärten. Wir helfen unter anderem bei diesen Stationen oder sammeln Müll an verschiedenen Orten. Außerdem bekommen wir für gefahrene Kilometer Geld von der Kleintierpraxis Rastede, welches an den Tierschutzverband Ammerland gespendet wird.</p><p>Viele Grüße Hanna, Neele, Marla, Justus, Benjamin und Julian</p>"},"id":"7ac4b36f-d65a-4298-bac6-6f690da035d7","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://t4pR8ZfMLiBKzbOJ
+- file://ZPwpzip7Hs5MS1jp
+- file://YyepPLsLWKsMMT0u
+- file://K5ck7Wc5J14jGRzy
+- file://S8xyjz9P44MLkF5M
+- file://FoAfI8tID7IMkzmo
+- file://lVqMseFz2lJgYGFx
+- file://7TRo3Obi0OT0FKeL
+- file://Puc3YXOjaqQ2u9xR
+- file://WENfHyd6VaEJkgjf
+- file://MyTZ2uNYcfimDY6u
+
+----
+
+Uuid: 0QsMO1nwn2deHnA3

@@ -1,0 +1,37 @@
+Title: Die Männer
+
+----
+
+Kurzname: die Männer
+
+----
+
+Teamlogo: - file://3tzczvewRWHWf2vD
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Hey, wir sind die Männer und fahren mit dem Fahrrad nach Winterberg. Außerdem wollen wir jeden Tag einer Person ohne Gegenleistung helfen. Unser Motto? „Disziplin über Motivation“.</p>"},"id":"a6fbbffc-8745-42fa-8232-376f183f1ac3","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://SFJbom5ytg1q4WJV
+- file://kFUr8Qoth6z9uXzo
+- file://i1g1vNiPZRjCLgRn
+- file://gPfkGWYcabSO5eJJ
+- file://SF6KV0MbEDACiVzY
+- file://QQkTZP5yZK44WX0y
+- file://RcgJ5l6lj2FnFaxn
+- file://GIUZjnMBrsdE3Cmc
+- file://j4fHu0ME3SeP3f8f
+- file://gc1u6kstuOi3D22q
+- file://v8N7Bf1f9Mo8BUWy
+
+----
+
+Uuid: SW7GtaZjvl7m3A5o

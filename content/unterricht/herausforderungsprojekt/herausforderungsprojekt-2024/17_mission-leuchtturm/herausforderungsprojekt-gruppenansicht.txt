@@ -1,0 +1,37 @@
+Title: Mission Leuchtturm
+
+----
+
+Kurzname: Mission Leuchtturm
+
+----
+
+Teamlogo: - file://8xp9RBM7th10iZXm
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Moin! Wir sind Mission Leuchtturm (Clara, Linnea, Svenja und Emily) und laufen von der KGS bis zum Pilsumer Leuchtturm. Am 13. Tag wollen wir mit dem Zug zurückkehren. Wir hoffen wir haben viel Spaß!</p>"},"id":"32e9d594-bc09-4126-9719-c0c8e676c6a2","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://xNkpfQlYCgtSqi0q
+- file://k2iGoYIEhPBZyjw8
+- file://NWLppu1ryR4joKgA
+- file://Z2dZmfmTuxGNVmv3
+- file://tq7iErJR8K2Imh8L
+- file://bSBY3F5vmVwUqzXt
+- file://iIJjw17FiWJ057SR
+- file://b7CnCTF3ZGFZlSLe
+- file://vqF2jkXh8EJzmCdH
+- file://K1dtGskAomUFk406
+- file://dhjtcoGgyRglG0Ii
+
+----
+
+Uuid: NMrlfaX0BDldtnzm

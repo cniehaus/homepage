@@ -1,0 +1,37 @@
+Title: Bekannte Girls
+
+----
+
+Kurzname: Bekannte Girls
+
+----
+
+Teamlogo: - file://LI4P32BzMdLkXpRI
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gruppe \"die bekannten Girls\".Wir wollen an der Küste entlang fahren und uns sozial engagieren, indem wir Menschen helfen. </p>"},"id":"68967856-f0f6-4d6b-aecd-81516d00ad95","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://vYxZFqU7LnEwdQzl
+- file://mHMrrQth9cgR2ZAN
+- file://jcMLahZQYuJGTGPo
+- file://WQ0PuDg68ovRL0sP
+- file://TgrhP5hgzztf9rj7
+- file://ZCz8FycXQjD4E4Um
+- file://6A9ooxdcDFMgyz3i
+- file://UYjXoqxRhaklBchR
+- file://i8PPXulOlr40VyXm
+- file://w1KKyDPiSPD5HXGm
+- file://0AC0bsbNAAPDygwG
+
+----
+
+Uuid: zFvNj5Fyql4Ube8z

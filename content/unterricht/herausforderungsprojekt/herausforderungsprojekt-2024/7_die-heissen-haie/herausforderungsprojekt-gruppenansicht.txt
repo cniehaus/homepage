@@ -1,0 +1,36 @@
+Title: Die heißen Haie
+
+----
+
+Kurzname: Die heißen Haie
+
+----
+
+Teamlogo: - file://5AwRvrdi0u15IxWH
+
+----
+
+Teamfarbe: bs-teamfarbe3
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die heißen Haie und wir wollen mit dem Fahrrad in die Niederlande fahren und dort Müll sammeln.</p>"},"id":"1e76fd6e-bf5e-4e19-8afe-d6364649b6cc","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://8Uh6nPz7xisFyWXJ
+- file://ewFCyVJ6Vp2iTjvL
+- file://1B3YCZfBqNz4RS2g
+- file://kQIKXlO6VSXa8ERC
+- file://j3hCMG2SepMN75Ow
+- file://4rLzpDMna3ccEpWQ
+- file://pGBnPpYb2K4t2m6y
+- file://5hjcgStazR5PUNdd
+- file://2PB0v12pciIoHqeT
+- file://o3yqGkSjlTfvb1ZB
+
+----
+
+Uuid: r8qxEyX0UFh02Ss5

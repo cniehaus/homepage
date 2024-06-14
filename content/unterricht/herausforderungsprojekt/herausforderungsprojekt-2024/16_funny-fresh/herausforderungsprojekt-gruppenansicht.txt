@@ -1,0 +1,36 @@
+Title: Funny-fresh
+
+----
+
+Kurzname: Funny Fresh
+
+----
+
+Teamlogo: - file://ZxQRsIuSMYWZ7THS
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind funny-fresh und unsere Fahrradtour geht nach Nordenham, Cuxhaven, Bremerhaven, Bremen und wieder nach Hause. Bei unserem Projekt wollen wir der Umwelt zuliebe Müll sammeln und etwas über Bioprodukte und Landwirtschaft lernen. </p>"},"id":"21c111ab-c494-4607-b853-48514e575357","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://hPrGaddCfbClOA5j
+- file://dNbA2TzqK0Kut1su
+- file://hGJg8rGs3Xm0rd5b
+- file://UQOKFX8S7Dvg2vkB
+- file://Bv9GMlEBQZsjaUzl
+- file://6GUrvLa7GpZjfUAC
+- file://6uxwshCElULZB1w9
+- file://jABP7yKXxsfEXgGd
+- file://8B3FFUYdqApn06iI
+- file://YPUqo7PnztjQLaGX
+
+----
+
+Uuid: jRkvg4VB3iaJ3ElO

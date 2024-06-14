@@ -1,0 +1,36 @@
+Title: die hotten Hühs
+
+----
+
+Kurzname: die hotten Hühs
+
+----
+
+Teamlogo: - file://xaJRFb9YXQfuCPV8
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die hotten Hühs und fahren bei dem Herausforderungsprojekt mit dem Fahrrad nach Norderney. Wir sind 5 Mädchen im Alter von 13 und 14. Auf dem Weg helfen wir auf Höfen oder Kirchengemeinden und auf Norderney selber werden wir Müll sammeln.</p>"},"id":"4a84deff-c0dd-4624-9b53-f6e463f6fae3","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://hzedPddxmM6oNNtf
+- file://tg5PEmx9bHrGj5wg
+- file://KDDlsEwxaARGxyIk
+- file://p7krF1wR7jZqiHFj
+- file://6lJaHjdpvStNKAsg
+- file://cDjIkI5HhPr8OddN
+- file://k8IoJP80liuY3r9F
+- file://uk6Jcrdq1ipXIHvy
+- file://2rOs3xqt8cw5bSyV
+- file://hnNSyQUKSulQSjNb
+
+----
+
+Uuid: gjkoAMiZ3eIQlLD7

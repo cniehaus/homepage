@@ -1,0 +1,39 @@
+Title: Die Brawler
+
+----
+
+Kurzname: Die Brawler
+
+----
+
+Teamlogo: - file://ZIWlIbcOXx8pYeWY
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gruppe Die Brawler bestehend aus 6 Jugendlichen im Alter 13-14.Unser Ziel ist es nach Norderney mit dem Fahrrad zu fahren wo wir in einem Altenheim mithelfen und Norderney ein bisschen besser kennenlernen.</p>"},"id":"5cd3d2ec-4931-41e2-9ef8-e14b941528c3","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://bsuq8HwvQjq0UsaR
+- file://P8TvzBdsi6704FXL
+- file://Bf96RA1yEhFDG2Hk
+- file://rk5hYiTKkLlcAOrj
+- file://qS57cgpJsItiRDrO
+- file://edIaWGGxynW2fyqc
+- file://U9p7x9WpnAlDQyIC
+- file://CEms0D6Ckd953RLc
+- file://Jo965WXM5xAEdoPV
+- file://cBDD4Z2LnZiGut0F
+- file://IGET9hwcbChT459X
+- file://gSpwAAg9Y8gqWKhr
+- file://r5eSAX0nYeSldEYN
+
+----
+
+Uuid: GtmlWMoIdOmwXtp9

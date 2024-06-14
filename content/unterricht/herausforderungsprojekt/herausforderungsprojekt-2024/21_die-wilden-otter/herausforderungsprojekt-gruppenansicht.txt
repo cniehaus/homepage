@@ -1,0 +1,36 @@
+Title: Die wilden Otter
+
+----
+
+Kurzname: Die wilden Otter
+
+----
+
+Teamlogo: - file://nDGa4PEFZSdniJKO
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir wollen eine Kulturreise durch Groningen und weitere Orte in den Niederlanden machen und über unsere Erlebnisse einen Reiseführer schreiben, welchen wir mit vielen Bildern gestalten wollen.</p>"},"id":"1c00a645-be00-40bf-8c2d-ff0c53c4ae6d","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://JhrMWDl3NGjZS9bh
+- file://GtXKPeDzkGMI8y7N
+- file://Ubcr8byOkbX4qfM6
+- file://AJnK5bh4yR67zrzE
+- file://1iitHsHjr6zPFrNA
+- file://xB3OrRIV2UVKahmG
+- file://A11l1bJ9evGBiJAb
+- file://ZeSvGSe8cGbjg0kL
+- file://TifBVA4Av2P3nstr
+- file://KGNM0G88GVnCIB6B
+
+----
+
+Uuid: MEpdsZZoigmGKgrm

@@ -1,0 +1,40 @@
+Title: Girls Trip Norderney
+
+----
+
+Kurzname: Girls Trip Norderney
+
+----
+
+Teamlogo: - file://PdenW9k1VF583EEg
+
+----
+
+Teamfarbe: bs-teamfarbe7
+
+----
+
+Text: [{"content":{"text":"<p>Unsere Gruppe heißt Girls-Trip Norderney und besteht aus Lea,Jette,Julia,Lara und Louisa. Wir fahren mit dem Fahrrad nach Norderney und sammeln für die Ammerland Klinik Spenden.</p>"},"id":"ea87533f-c128-490c-a4a1-3c6e3a8c73eb","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://HHWCmB5ATQGcVOQx
+- file://70ti7lTaxpcCovY4
+- file://wvUEcS8XYfjXvG59
+- file://0Cle2PrRxm5a0CJ7
+- file://pZ200esWD3ev5n47
+- file://wNyRkld4qycQd3nU
+- file://3d5zAakiGPL0LLX9
+- file://31CBvCqYj0H2yang
+- file://ATwrj8iZzhw3hlL5
+- file://IdBYr7puotbsIeVA
+- file://yTmDzArrcU3Qxz7Z
+- file://znnd0MCBcs5VH8xZ
+- file://W8Ygpxiv9lY6WyUU
+- file://BS6oHCg8p1dMOtS4
+
+----
+
+Uuid: zlJciIQdZTxP0Qh2

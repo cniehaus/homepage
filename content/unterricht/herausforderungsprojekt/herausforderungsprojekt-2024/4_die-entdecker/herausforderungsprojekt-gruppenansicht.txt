@@ -1,0 +1,37 @@
+Title: Die Entdecker
+
+----
+
+Kurzname: Die Entdecker
+
+----
+
+Teamlogo: - file://ihYwQfWMrAdnK8Es
+
+----
+
+Teamfarbe: bs-teamfarbe6
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind Nick,Rune,Tjark,Claas und Nuno.</p><p>Wir wollen nach Groningen mit dem Rad fahren und auf dem Weg auf Bauernhöfen helfen.</p>"},"id":"b0755e4f-6e7e-4cd9-918c-22bf4db22341","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://6l8nVkMVx98ekYAb
+- file://eeGuIY7rMa0haGvK
+- file://s0lLyPsZyikSeYcX
+- file://7ojheythfV1ceD2f
+- file://CW9ncckLD9LneUQe
+- file://vs3lDb3uibKPe9nu
+- file://GywdxotqynrEXRtj
+- file://hLaghOP0S8GYH6u2
+- file://5z6IWZTFH3RNZuix
+- file://3B59l57QOfG7WWv9
+- file://gTP099ErRjUskcja
+
+----
+
+Uuid: w3OaHN2zD0OmtPDT

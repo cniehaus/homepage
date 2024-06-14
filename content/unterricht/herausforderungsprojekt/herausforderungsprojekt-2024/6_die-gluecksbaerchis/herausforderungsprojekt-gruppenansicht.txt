@@ -1,0 +1,37 @@
+Title: Die Glücksbärchis
+
+----
+
+Kurzname: Die Glücksbärchis
+
+----
+
+Teamlogo: - file://LbpdIuuQVDMM1IIC
+
+----
+
+Teamfarbe: bs-teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Glücksbärchis! Auf der Suche nach dem Glück führt uns die Reise über den Regenbogen ca. 450 km bis nach Leeuwarden und zurück. Wir sind Leni, Ronja und Sophia mit unseren Begleiterinnen Lena und Lill. Zusammen wollen wir an Höfen unsere Arbeit anbieten und Müll sammeln.</p>"},"id":"e4120d03-9f2a-4272-a607-94cd5caed311","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://8BBv8Yr4zbeC1TWx
+- file://M47QRVKUosZ8Wfm2
+- file://jmdhAVPITkFSVHDJ
+- file://dC3F2x1yBRfFsWl4
+- file://1mnuRoAes1IuxKzn
+- file://pnL4mETOVwdrzEqL
+- file://BsnFi0ANLR7bIoS6
+- file://2Ct5nL7C6sdaaP0X
+- file://LMuffWrdUaw7oEvX
+- file://jlI07fDgBgSXio2j
+- file://d6LjnHuOWdMuoZA6
+
+----
+
+Uuid: Q4vktLj4xikbCjQO

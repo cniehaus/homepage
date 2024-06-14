@@ -1,0 +1,36 @@
+Title: Die Ulfis
+
+----
+
+Kurzname: Die Ulfis nach Berlin
+
+----
+
+Teamlogo: - file://OXFwKKvBII46RKxQ
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gruppe Ulfis und wollen nach Berlin. Wir fahren mit dem Fahrrad nach Berlin und haben Sponsoren gefunden, die uns für jeden Kilometer Geld spenden. Das Geld spenden wir dann an ein Tierheim.</p>"},"id":"09723216-143e-4483-8c24-9b6fc2e2c7af","isHidden":false,"type":"text"}]
+
+----
+
+Gallery:
+
+- file://ZBgWcpLKFkkZz0ml
+- file://k09dftLebktzUPna
+- file://iDwQw108z8yiINUM
+- file://Rr0nl08CTc3nbdp9
+- file://cIgFiP0EyL43wI49
+- file://cwvQRfUGR2wwvekM
+- file://7neI3dn9LPa8kRHE
+- file://ppW49pIcxwHKFzcA
+- file://aFlZqrzHBCew5p3s
+- file://bvqOCnBBDDbEhtdF
+
+----
+
+Uuid: uHjOWkyuDfKrbcfi
