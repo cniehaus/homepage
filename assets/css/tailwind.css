@@ -79,3 +79,7 @@ img.max-w-xl {
     line-height: 1.8;
   }
 }
+
+.collapse.show {
+  visibility: visible !important;
+}

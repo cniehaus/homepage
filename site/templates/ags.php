@@ -41,7 +41,7 @@
 
 <div class="container mt-4">
 
-  <h2 class="text-2xl border-t">
+  <h2 class="text-2xl border-t pt-4 font-bold">
     Berichte aus den Arbeitsgemeinschaften
   </h2>
 
