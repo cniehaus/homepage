@@ -48,7 +48,7 @@ echo ($features);
       overflow: scroll;
     }
     #map {
-      height: 600px;
+      height: 800px;
     }
     #perspective-buttons {
         position: absolute;
@@ -354,7 +354,7 @@ echo ($features);
         //map.touchZoomRotate.disableRotation(); //disable rotation
         twoD = true;
         map.setLayoutProperty(`room_labels_floor_${etage}`, 'visibility', 'visible');
-        map.easeTo({ pitch: 0, zoom: 17 }); // Set pitch to 0 for 2D view and zoom out
+        map.easeTo({ pitch: 0, zoom: 19 }); // Set pitch to 0 for 2D view and zoom out
 
         //Höhe auf 0 setzen
         levels.forEach((level) => {
