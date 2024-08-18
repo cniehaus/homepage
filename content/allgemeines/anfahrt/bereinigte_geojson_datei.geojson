@@ -1330,8 +1330,8 @@
         "height": 4.0,
         "indoor": "room",
         "level": "0",
-        "name": "B035",
-        "room": "lecture"
+        "name": "B034",
+        "room": "class"
       },
       "geometry": {
         "type": "Polygon",
