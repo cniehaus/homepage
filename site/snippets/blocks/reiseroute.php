@@ -298,7 +298,7 @@
             },
             'paint': {
                 'text-color': '#fff',
-                'text-halo-color': '#000',
+                'text-halo-color': '#AAA',
                 'text-halo-width': 0.7,
                 'text-translate-anchor': 'map' // Anpassung an die Kartenrotation
             }
@@ -365,7 +365,7 @@
         el.addEventListener('mouseenter', () => {
             mouseovermarker(marker)
         });
-        
+
         el.addEventListener('mouseleave', () => {
             popup.remove();
         });
@@ -558,6 +558,9 @@
                             //console.log(`Das Level des gesuchten Raums '${searchTerm}' ist ${roomSearchedLevel}.`);
 
                             roomFound = true;
+                            
+                            //=====Popup mit der raumnummer anzeigen=====
+                            showRoomNamePopup(featureTemp)
                             break; // Du kannst die Schleife beenden, da der Raum gefunden wurde
                         }
                     
@@ -630,6 +633,36 @@
             }
         }
     });
+
+    let currentPopup = null;
+
+    function showRoomNamePopup(featureTemp){
+        //=====Popup mit der raumnummer anzeigen=====
+        // Berechne die Bounding Box des Features, um den Mittelpunkt zu finden
+        const coordinates = featureTemp.geometry.type === 'Polygon'
+            ? featureTemp.geometry.coordinates[0] // Für einfache Polygone
+            : featureTemp.geometry.coordinates.flat(); // Für MultiPolygone
+
+        // Konvertiere die Koordinaten in mapboxgl.LngLat Objekte
+        const lngLats = coordinates.map(coord => new mapboxgl.LngLat(coord[0], coord[1]));
+
+        // Berechne den Mittelpunkt
+        const bounds = new mapboxgl.LngLatBounds();
+        lngLats.forEach(lngLat => bounds.extend(lngLat));
+        const center = bounds.getCenter();
+
+        if (currentPopup) {
+            currentPopup.remove();
+        }  
+        // Setze das Popup an den Mittelpunkt des Features und verschiebe es nach oben
+        currentPopup = new mapboxgl.Popup({
+            offset: [0, -30] // Verschiebt das Popup 30 Pixel nach oben
+        })
+        .setLngLat(center)
+        .setHTML(`<strong>${featureTemp.properties.name}</strong>`)
+        .addTo(map);
+        
+    }
 
 
     function rotateCamera(timestamp) {

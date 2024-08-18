@@ -1330,8 +1330,8 @@
         "height": "4",
         "indoor": "room",
         "level": "0",
-        "name": "B035",
-        "room": "lecture"
+        "name": "B034",
+        "room": "class"
       },
       "geometry": {
         "type": "Polygon",
@@ -1370,7 +1370,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/1206597581",
-        "base_height": "1.",
+        "base_height": "1",
         "colour": "blue",
         "height": "4",
         "indoor": "room",
