@@ -151,7 +151,7 @@
     var searchTerm;
 
     map.setStyle('mapbox://styles/mapbox/outdoors-v12');
-
+    
     // ---------------------------------------------------------
     //  Karte Laden
     // ---------------------------------------------------------
@@ -398,6 +398,7 @@
         //map.dragRotate.disable(); //disable rotation
         //map.touchZoomRotate.disableRotation(); //disable rotation
         twoD = true;
+        map.dragRotate.disable();
         map.setLayoutProperty(`room_labels_floor_${etage}`, 'visibility', 'visible');
         map.easeTo({ pitch: 0, zoom: 19 }); // Set pitch to 0 for 2D view and zoom out
 
