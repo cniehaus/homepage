@@ -18,11 +18,11 @@ Anfahrt-text: Beide Standorte können vom Bahnhof Rastede zu Fuß errreicht werd
 
 ----
 
-Anfahrt-text-s1: [{"content":{"text":"Der Hauptstandort kann ebenfalls mit dem Bus erreicht werden. Haltestelle: Abzw. Bahnhofstra\u00dfe.<br>Mit dem Auto k\u00f6nnen Sie von der Oldenburger Stra\u00dfe in die Bahnhofstra\u00dfe fahren und von dort aus den Parkplatz der Aula erreichen."},"id":"8503bb92-125d-4b45-9b33-42af0ee2d56f","isHidden":false,"type":"text"}]
+Anfahrt-text-s1: [{"content":{"text":"<b>Zug:</b> Bahnhof ist in unmittelbarer Nähe <br><b>Bus:</b> Haltestelle ist in der Bahnhofstraße<br> <b>Auto:</b> Parkplatz erreicht man, indem man von der Oldenburger Stra\u00dfe in die Bahnhofstra\u00dfe f\u00E4hrt und von dort aus auf den Parkplatz der Aula"},"id":"8503bb92-125d-4b45-9b33-42af0ee2d56f","isHidden":false,"type":"text"}]
 
 ----
 
-Anfahrt-text-s2: [{"content":{"text":"<p>Den Parkplatz der Feldbreite k\u00f6nnen Sie erreichen, indem Sie von der Oldenburger Stra\u00dfe auf die Schlo\u00dfstra\u00dfe fahren und von dort aus links in die Feldbreite. Der Parkplatz befindet sich dann an der rechten Seite.<\/p>"},"id":"72c88fd6-fb6f-4da9-a531-4371516f9f0d","isHidden":false,"type":"text"}]
+Anfahrt-text-s2: [{"content":{"text":"<b>Zug:</b> Bahnhof ist in unmittelbarer Nähe <br><b>Bus:</b> Haltestelle ist an der Feldbreite<br> <b>Auto:</b> Parkplatz erreicht man, indem man von der Oldenburger Stra\u00dfe auf die Schlo\u00dfstra\u00dfe f\u00E4hrt und von dort aus links in die Feldbreite mit dem Parkplatz auf der rechten Seite.<\/p>"},"id":"72c88fd6-fb6f-4da9-a531-4371516f9f0d","isHidden":false,"type":"text"}]
 
 ----
 

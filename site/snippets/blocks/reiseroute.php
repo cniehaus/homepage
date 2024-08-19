@@ -44,11 +44,11 @@ echo ($features);
     #map-container {
       position: relative;
       width: 100%;
-      height: 80vh;
+      height: 58vh;
       overflow: scroll; 
     }
     #map {
-      height: 800px;
+      height: 500px;
     }
     #perspective-buttons {
         position: absolute;
