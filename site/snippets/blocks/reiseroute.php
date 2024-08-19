@@ -41,8 +41,8 @@
     #map-container {
       position: relative;
       width: 100%;
-      height: 100vh;
-      overflow: scroll;
+      height: 80vh;
+      overflow: scroll; 
     }
     #map {
       height: 800px;
@@ -111,13 +111,10 @@
   </div>
 <input type="text" id="search-input" placeholder="Raum suchen">
 <button id="search-button">Suchen</button>
-</div>
 
 <!-- ========================================================= -->
 <!-- Skripte -->
 <!-- ========================================================= -->
-<div id="map"></div>
-<button class="btn btn-primary mt-2 mb-5" id="fit">Auf Punkte reinzoomen</button>
 
 
 <script>
