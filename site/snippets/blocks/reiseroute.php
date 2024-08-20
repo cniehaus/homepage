@@ -1149,7 +1149,11 @@ function getmarkergeojson(){
 }
 
 
-
+// Create a popup, but don't add it to the map yet. -> Für die Icons zum Anzeigen der Beschreibung
+const popup = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+});
 
 // Definiere die mouseovermarker-Funktion
 function mouseovermarker(marker) {
