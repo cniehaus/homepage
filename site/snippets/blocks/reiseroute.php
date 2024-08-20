@@ -1142,8 +1142,23 @@ function getmarkergeojson(){
             <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
                     'type': 'Feature',
                     'properties': {
-                        'message': '<?= $block->name() ?>',
+                        <?php
+                        if ($block->name()->value() == "Feldbreite") : ?> 
+                        'message': '<?= $page->adresse_s2()->toBlocks() ?>',
                         'iconSize': [50, 50],
+
+                        
+                        <?php elseif ($block->name()->value() == "Hauptgebäude") : ?> 
+                        'message': '<?= $page->adresse_s1()->toBlocks() ?>',
+                        'iconSize': [50, 50],
+
+                        <?php else : ?> 
+
+                        'message': 'Keine Adresse Vorhanden',
+                        'iconSize': [50, 50],
+
+                        <?php endif ?>
+                        
 
                         <?php
                         if ($block->bild()->isEmpty()) : ?> 
