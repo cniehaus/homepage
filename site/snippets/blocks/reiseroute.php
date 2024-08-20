@@ -162,12 +162,30 @@
     }
         
     .marker {
-      display: block;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;              /* Größe des Markers */
+        height: 60px;
+        background-color: #FFFFFF; /* Weißer Hintergrund für den Marker */
+        border: 5px solid #eee; /* Grauer Rand um den Marker */
+        border-radius: 50%;       /* Macht den Marker rund */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Schatten für Tiefe */
+        overflow: hidden;         /* Verhindert Überlauf des Bildes */
     }
+
+    .marker div {
+        width: 30px;             /* Größe des Bildes innerhalb des Markers */
+        height: 30px;
+        background-size: contain; /* Bild wird vollständig angezeigt */
+        background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */
+        background-position: center; /* Zentriert das Bild */
+    }
+
+
+
+
+
   </style>
 
 <!-- ========================================================= -->
@@ -475,18 +493,20 @@
     for (const marker of markergeojson.features) {
         // Create a DOM element for each marker.
         const el = document.createElement('div');
-        const width = marker.properties.iconSize[0];
-        const height = marker.properties.iconSize[1];
+        const width = 60;  // Größe des Markers
+        const height = 60;
         const iconUrl = marker.properties.iconUrl;
+
         el.className = 'marker';
-        el.style.backgroundImage = `url(${iconUrl})`;
         el.style.width = `${width}px`;
         el.style.height = `${height}px`;
-        el.style.backgroundSize = '100%';
 
-        //el.addEventListener('click', () => {
-        //    window.alert(marker.properties.message);
-        //});
+        // Create a child div for the image
+        const imgDiv = document.createElement('div');
+        imgDiv.style.backgroundImage = `url(${iconUrl})`;
+        imgDiv.style.width = '80%';  // Größe des Bildes im Marker
+        imgDiv.style.height = '80%';
+        el.appendChild(imgDiv);
 
         el.addEventListener('mouseenter', () => {
             mouseovermarker(marker)
