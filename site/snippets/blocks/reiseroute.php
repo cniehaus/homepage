@@ -204,7 +204,7 @@
     <button id="floor_-1" class="circle">-1</button>
   </div>
   <div class="search-container">
-        <input type="text" class="search-input" id="searchInput" placeholder="Suchbegriff eingeben...">
+        <input type="text" class="search-input" id="searchInput" placeholder="Raum suchen...">
         <button class="search-button" id="searchButton">Suchen</button>
     </div>
 
