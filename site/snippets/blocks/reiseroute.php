@@ -678,6 +678,17 @@ echo ($features);
 
      //==========Ende von Wege animieren==========
     //==========================================================
+
+    // Event Listener für den Suchknopf
+    document.getElementById('searchButton').addEventListener('click', performSearch);
+
+    // Event Listener für die Enter-Taste im Suchfeld
+    document.getElementById('searchInput').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            e.preventDefault(); // Verhindert das Standard-Enter-Verhalten
+            performSearch(); // Führt die Suche aus
+        }
+    });
     });
 
     function raumnummernVerstecken(){
@@ -870,7 +881,7 @@ echo ($features);
     }
 
     // Raumsuche Knopf
-    // Funktion zum Auslösen der Suche
+    // Funktion zum Auslösen der Suche -> Rest ist in Load drin
     function performSearch() {
         var query = document.getElementById('searchInput').value;
         console.log("Suchbegriff:", query); // Hier wird die Suche ausgeführt
@@ -878,17 +889,6 @@ echo ($features);
         gesuchterRaum = query;
         raumsuchen(gesuchterRaum)
     }
-
-    // Event Listener für den Suchknopf
-    document.getElementById('searchButton').addEventListener('click', performSearch);
-
-    // Event Listener für die Enter-Taste im Suchfeld
-    document.getElementById('searchInput').addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            e.preventDefault(); // Verhindert das Standard-Enter-Verhalten
-            performSearch(); // Führt die Suche aus
-        }
-    });
 
     function raumsuchen(searchTerm) {
         var roomFound = false;
@@ -936,6 +936,8 @@ echo ($features);
                             //console.log(`Das Level des gesuchten Raums '${searchTerm}' ist ${roomSearchedLevel}.`);
 
                             roomFound = true;
+
+                            zoomToRoom(featureTemp);
                             
                             //=====Popup mit der raumnummer anzeigen=====
                             showRoomNamePopup(featureTemp)
@@ -1012,14 +1014,22 @@ echo ($features);
         }
     });
 
+    function zoomToRoom(featureTemp){
+       // Nehme die einzelne Koordinate des Raums
+        var centerRoom = calculateMiddleofFeaure(featureTemp); ;
+        map.flyTo({
+            center: centerRoom,
+            essential: true // this animation is considered essential with respect to prefers-reduced-motion
+        });
+    }
+
     let currentPopup = null;
 
-    function showRoomNamePopup(featureTemp){
-        //=====Popup mit der raumnummer anzeigen=====
+    function calculateMiddleofFeaure(feature){
         // Berechne die Bounding Box des Features, um den Mittelpunkt zu finden
-        const coordinates = featureTemp.geometry.type === 'Polygon'
-            ? featureTemp.geometry.coordinates[0] // Für einfache Polygone
-            : featureTemp.geometry.coordinates.flat(); // Für MultiPolygone
+        const coordinates = feature.geometry.type === 'Polygon'
+            ? feature.geometry.coordinates[0] // Für einfache Polygone
+            : feature.geometry.coordinates.flat(); // Für MultiPolygone
 
         // Konvertiere die Koordinaten in mapboxgl.LngLat Objekte
         const lngLats = coordinates.map(coord => new mapboxgl.LngLat(coord[0], coord[1]));
@@ -1028,13 +1038,22 @@ echo ($features);
         const bounds = new mapboxgl.LngLatBounds();
         lngLats.forEach(lngLat => bounds.extend(lngLat));
         const center = bounds.getCenter();
+        return center;
+    }
+
+    function showRoomNamePopup(featureTemp){
+        //=====Popup mit der raumnummer anzeigen=====
+        const center = calculateMiddleofFeaure(featureTemp); 
 
         if (currentPopup) {
             currentPopup.remove();
         }  
         // Setze das Popup an den Mittelpunkt des Features und verschiebe es nach oben
         currentPopup = new mapboxgl.Popup({
+            closeOnClick: false,
+            closeButton: false, // Deaktiviert das Schließen-Symbol (Kreuz)
             offset: [0, -30] // Verschiebt das Popup 30 Pixel nach oben
+            
         })
         .setLngLat(center)
         .setHTML(`<strong>${featureTemp.properties.name}</strong>`)
