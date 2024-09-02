@@ -1,0 +1,13 @@
+Anzeigename: Termine Zeugniskonferenzen 2023/24-2
+
+----
+
+Beschreibung: 
+
+----
+
+Uuid: hge9qY94GYyKRWJu
+
+----
+
+Template: datei

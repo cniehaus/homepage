@@ -1,0 +1,33 @@
+Title: 3. Platz beim französischen Kurzfilmwettbewerb Kinema
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://cGYd0NAuAJQORchq"],"src":"","alt":"","caption":"Kea Böneker, Lisann Schröder, Dana Balta, Luise Gerken (von links)","link":"","ratio":"","crop":"false","orientation":""},"id":"3a144f4b-a27f-4e85-8d3f-ad4ab2386b79","isHidden":false,"type":"image"}],"id":"c4872eb8-5fec-4177-a6b3-187887d7c0f3","width":"1/1"}],"id":"40de280e-3005-48bc-9c6a-4698d3e9d0d4"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Wir, der Französischkurs von Frau Westerholt aus dem ehemaligen 11. Jahrgang, nahmen an dem von Kinema e.V. ausgerichteten Filmwettbewerb anlässlich der 60-jährigen deutsch-französischen Freundschaft erfolgreich teil.<br>In Kleingruppen drehten wir 3-5 minütige Kurzfilme auf Französisch zum Thema „L’amour plus fort que la haine“ („Die Liebe ist stärker als der Hass“). Hierbei wurden uns bezüglich der Kreativität keine Grenzen gesetzt und viele unterschiedliche Themen wie Toleranz, Liebe und Respekt wurden in die Filme eingebracht.<br>Nach einigen Wochen kam die erfreuliche Nachricht, dass eine Gruppe den 3. Platz belegt hat, welcher mit einem Preisgeld von 100€ ausgezeichnet wurde.<br>Wir freuen uns sehr über unseren Erfolg und bedanken uns für die Unterstützung.</p>"},"id":"e9bfbdf7-885c-4b36-b559-8f0755bceec5","isHidden":false,"type":"text"}],"id":"926ee675-97b5-4642-8c8e-4584327792bf","width":"1/1"}],"id":"d4ef34a3-8cef-4516-a48c-e292363b4f71"}]
+
+----
+
+Date: 2024-08-13 11:50:00
+
+----
+
+Datumstartseite: 2024-12-13 11:50:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Kirstin Westerholt
+
+----
+
+Tags: Französisch, Fremdsprachen, Wettbewerb
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 1gbjR4scoeeFnwN0

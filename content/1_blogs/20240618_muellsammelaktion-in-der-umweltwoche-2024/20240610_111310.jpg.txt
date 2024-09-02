@@ -1,0 +1,5 @@
+Uuid: Istpidj31BO7ENUa
+
+----
+
+Template: blocks/image

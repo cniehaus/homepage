@@ -1,0 +1,33 @@
+Title: Termine der Zeugniskonferenzen 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><a href=\"https://kgs-rastede.de/media/pages/blogs/termine-der-zeugniskonferenzen-2024/1b31c5f57c-1714730813/2023_24-2-zeugniskonferenz.pdf\">Hier</a> finden Sie eine Übersicht über die Terminabfolge der Zeugniskonferenzen im Juni.</p>"},"id":"14a5226f-9e5b-49be-bca3-35460827a142","isHidden":false,"type":"text"}],"id":"e353e78b-3013-47b4-b016-52b1c91f015f","width":"1/1"}],"id":"9cfe711c-ad5b-4f6d-a3aa-6a6cb60a09c2"}]
+
+----
+
+Date: 2024-04-19 09:15:00
+
+----
+
+Datumstartseite: 2024-08-19 09:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Downloads: - file://hge9qY94GYyKRWJu
+
+----
+
+Uuid: gxKJssOYDH1GAxXM

@@ -1,0 +1,33 @@
+Title: Die 2. Ausgabe von IRREGULäR ist online!
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://oDxybbUTl9DVWHCJ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"1beffe8f-7e14-4690-9d0e-d95a4953f8c2","isHidden":false,"type":"image"}],"id":"ce7ad9e6-750d-48d2-b904-add303b4266c","width":"1/1"}],"id":"7922801a-a8e2-4979-8650-270d2af772dd"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Euch erwarten 4 neue Beiträge und 4 \"Fake News gegen Rassismus\"</p> <p><strong>Red Hand Day an der KGS Rastede</strong> Dieser Beitrag umfasst eine Foto-Reportage über die Aktion am 13. Februar sowie einen Podcast und Informationstexte zum Thema Kindersoldat_innen.</p> <p><strong>Demokratie feiern</strong> Wir haben die Demo für Menschenwürde und gegen Rassismus am 8. März für euch dokumentiert. Neben Fotos gibt es auch alle Redebeiträge zum Nachlesen.</p> <p><strong>Bartholomäus-Schink-Preis 2024</strong> In unserem Bericht über die Preisverleihung erfahrt ihr unter anderem, welche Wettbewerbsbeiträge eingereicht wurden und wer gewonnen hat.</p> <p><strong>Die Friedenscollage</strong> Wir haben Paula und Milan von der AG \"Für den Frieden\" Fragen zur Friedenscollage gestellt, um mehr über die Hintergründe zu den Bildern zu erfahren.</p> <p><strong>Fake News gegen Rassismus</strong> Die vier News in unserem Slider sind zwar Fake, aber sie zeigen, was es an unserer Schule noch geben sollte, damit Rassismus keine Chance hat. Mit den \"Fake News gegen Rassismus\" haben wir beim Bartholomäus-Schink-Preis einen 1. Platz belegt.</p> <p>IRREGULäR gibt es nur online auf <a href=\"https://www.schuelerzeitung.kgs-rastede.de/\" rel=\"noreferrer noopener\" target=\"_blank\">schuelerzeitung.kgs-rastede.de</a>.</p> <p>Ihr findet die Online-Schüler_innenzeitung auch bei den IServ-Modulen unter \"Schüler_innenzeitung\". Am besten gleich im Schnellzugriff speichern!</p> <p><strong>Viel Spaß mit den neuen Beiträgen wünscht die IRREGULäR-Redaktion.</strong></p>"},"id":"0b135ede-7b33-4b99-9f03-727772adecf4","isHidden":false,"type":"text"}],"id":"b3a84518-d525-4f41-937e-a62095e5ccdb","width":"1/1"}],"id":"ce56a9cb-8d20-4ff3-b3f2-c4fa27beec81"}]
+
+----
+
+Date: 2024-06-14 08:15:00
+
+----
+
+Datumstartseite: 2024-10-14 08:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: IRREGULäR
+
+----
+
+Tags: Schülerzeitung, Arbeitsgemeinschaften, IRREGULäR, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: jYEuXYEw9r61Jlek

@@ -1,0 +1,33 @@
+Title: IServ Elternzugänge
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Die Schule wird  in Zukunft die Elternkommunikation auf die IServ Elternkonten umstellen.</p><p>Um einen IServ Elternzugang zu bekommen brauchen Sie einen Registrierungscode, den bekommen Sie über Ihre Kinder von der Schule.</p><p>Wenn Sie Probleme bei der Anmeldung haben, finden Sie hier eine Anleitung:</p><p><a href=\"https://wiki.kgs-rastede.de/de/eltern/iservzugang_eltern\">https://wiki.kgs-rastede.de/de/eltern/iservzugang_eltern</a></p><p>Außerdem gibt es bei YouTube eine Anleitung:</p>"},"id":"66d5e92d-4c15-46af-b163-8c5dd30b8748","isHidden":false,"type":"text"}],"id":"ee8c9648-0995-4ea5-9b19-84fb2260350f","width":"1/1"}],"id":"35e436d9-4923-48af-abab-f96441981413"},{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Kurzanleitung als Video"},"id":"1be15dae-a47e-4400-8caf-fae9e92e08c2","isHidden":false,"type":"heading"}],"id":"4c912c31-9f9c-407c-9adb-c0e32a8a6cf7","width":"1/1"}],"id":"abc3e7e9-7c02-4f4f-9bf3-896d328a2c28"},{"attrs":[],"columns":[{"blocks":[{"content":{"url":"https://www.youtube.com/watch?v=8f_Lm_xVVok&t=48s","caption":"Kurzanleitung"},"id":"c55e0097-6750-47eb-8525-e5346af3bed8","isHidden":false,"type":"video"}],"id":"3f225366-7f20-484d-b9a0-35c7800a587c","width":"1/1"}],"id":"39c6d979-716e-4dbc-bb75-f4f542cd041d"}]
+
+----
+
+Date: 2024-04-25 08:55:00
+
+----
+
+Datumstartseite: 2024-08-25 08:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Topartikel, IServ, Eltern
+
+----
+
+Downloads: 
+
+----
+
+Uuid: DR1VD8FRtD8Lvikc

@@ -1,0 +1,33 @@
+Title: Die KGS hat gewählt!
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am vergangenen Mittwoch haben die Schüler:innen ab dem 10. Jahrgang ihre Stimme im Rahmen der Juniorwahl zur Europawahl 2024 abgegeben. Organisiert und durchgeführt wurde die Juniorwahl von engagierten Schüler:innen, die das Wahlteam bildeten. Das Wahlergebnis der Juniorwahl wird am Montag veröffentlicht.</p><p><br>Der Juniorwahl vorausgegangen war die EU-Podiumsdiskussion am 29. Mai 2024, bei der Vertreter:innen der SPD, Grünen, Linken, VOLT, CDU und SPD auf kritische Fragen zu Mobilität und Agrarpolitik reagieren mussten. Organisiert und moderiert wurde auch diese Veranstaltung von Schüler:innen des 10. bis 13. Jahrgangs.</p>"},"id":"7feb0cc7-50c6-442d-bc0f-52f14ea4fd91","isHidden":false,"type":"text"}],"id":"d123828d-5fdf-472c-9f23-91b35da3a9ed","width":"1/1"}],"id":"1ff0d284-886e-4fae-9905-c0eab5d79e13"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://r5UZie28hC184kDk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"73944836-e83b-433e-b1db-2a18792255c2","isHidden":false,"type":"image"}],"id":"8cc42de5-8aa3-4abb-bb82-1aa968fcb14f","width":"1/1"}],"id":"83ddd36b-7ce5-407d-99d8-9946c290a2c0"}]
+
+----
+
+Date: 2024-06-12 19:00:00
+
+----
+
+Datumstartseite: 2024-10-12 19:00:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: SoWi
+
+----
+
+Downloads: 
+
+----
+
+Uuid: P3V9Xrj5fvulmkxR

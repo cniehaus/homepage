@@ -1,0 +1,33 @@
+Title: Müllsammelaktion in der Umweltwoche 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am Montag, dem 10.06.2024, machte die Klasse 7E3 eine Müllsammelaktion im Rahmen der Umweltwoche. Dabei fand man einige eigenartige Sachen, z.B. eine Handtasche mit Portmonee und Karten, die die Gruppe schnell zum Rathaus brachte. In der Nähe des Bahnhofs wurde eine Mehrfachsteckdose gefunden und es gab noch viele Sachen mehr. Die Bilder zeigen, wie viel Müll man in einer Zeit von nicht einmal 2 Stunden finden kann, wenn man nur darauf achtet – die Mengen sieht man normalerweise gar nicht. Die meisten Gruppen fanden auch einige Stücke, die zum Sondermüll gehören. </p><p>Am Dienstag schauten wir einen Film über Meeresmüll und dort sah man genau dasselbe wie bei der Müllsammelaktion: Auf den ersten Blick sieht man gar nicht so viel, doch wenn man genauer hinschaut, entdeckt man doch ganz schön viel Müll. </p><p>Am Freitag war die ganze Klasse in der Wildtierauffangstation. Alle haben gelacht, als ein Papagei anfing, „Moin“, „Hallo“ oder „Wow“ zu sagen. Doch alle waren entsetzt, als uns erzählt wurde, wie viele Tiere pro Jahr in der Station landen. Letztes Jahr waren es genau 2295 Tiere, die krank oder verletzt aufgegeben, ausgesetzt oder beschlagnahmt wurden. </p><p>Bei der Umweltwoche hatten alle viel Spaß und haben viel Gelerntes auch im Abschluss in Briefen an verschiedene Personen (z.B. den Bürgermeister) formuliert und konkrete Verbesserungen für den Umgang mit der Umwelt in Rastede gefordert.</p>"},"id":"5c46c0d3-d0f7-42a3-9a00-44b0d8bfdbf2","isHidden":false,"type":"text"}],"id":"4ba6703c-e42b-4d46-9539-ad5032e11943","width":"1/1"}],"id":"37b0df54-3dd0-4975-b650-f6b3c1741e4c"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://BeEaPlejRqaTzmJ2"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"82d45b3f-cf5c-4aeb-acf1-4fa18206465e","isHidden":false,"type":"image"}],"id":"24d82d8c-3612-496c-b5a2-bc1edc885cfb","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://Istpidj31BO7ENUa"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"370578b8-3bb2-4f9d-9034-f32e1182e643","isHidden":false,"type":"image"}],"id":"a36436b3-4fe2-4474-8fbf-85efc40570aa","width":"1/2"}],"id":"57e67646-dbfe-4a35-b12f-afedcfa09eb4"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://gt595aBvXZFlqDKU"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"9e6cbf26-1b45-4a99-b793-729dc8f0d003","isHidden":false,"type":"image"}],"id":"fdb70669-665c-4799-bba4-f0c441528043","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://EcjlV5i9uyILf7Cs"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"aa3f90a9-da46-4dca-ac6d-31117a7a18bb","isHidden":false,"type":"image"}],"id":"426c8c2a-b522-46e9-a2bc-ebf95c2675bc","width":"1/2"}],"id":"9bd3bd63-1fb8-480d-867d-c02d45b97644"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://Zx6QdRqrHRz73YSf"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a9efcfa0-0ade-470a-a29a-68c0ab7a05af","isHidden":false,"type":"image"}],"id":"3a777665-4824-40b0-b617-66ba259c10fd","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://Cn9b1e2zdqfJKW5N"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a7b3fece-1dc5-4570-bf50-fec6db781c0f","isHidden":false,"type":"image"}],"id":"55ad61b5-fbfa-4e42-b0cd-07146bcd801d","width":"1/2"}],"id":"72b3dc86-a25d-4d78-889c-b8fb3a2a989c"}]
+
+----
+
+Date: 2024-06-18 08:25:00
+
+----
+
+Datumstartseite: 2024-10-18 08:25:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Jenna Diekhöfer und Sophia Wendel, 7E3
+
+----
+
+Tags: Umweltwoche, Projekte
+
+----
+
+Downloads: 
+
+----
+
+Uuid: vDqubI2A6Umf9Gyr

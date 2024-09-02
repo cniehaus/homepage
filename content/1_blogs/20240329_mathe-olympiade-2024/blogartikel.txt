@@ -1,0 +1,33 @@
+Title: Mathe Olympiade 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Jale (5B3) hat die KGS bei der Landesrunde der Mathe Olympiade in Göttingen erfolgreich vertreten. Herzlichen Glückwunsch! Sie berichtet: </p><p>„Nach einer 4h Anfahrt, einer Nacht im Hotel und sehr viel Aufregung, habe ich um kurz nach Neun meine Mathe- Olympiade geschrieben. Aber auch dieses Mal war es sehr schwer. Nach dem Schreiben und dem Rahmenprogramm kam dann die Siegerehrung… Insgesamt waren 263 Schüler dabei und die meisten 5.-Klässler. Es gab 1., 2. und 3. Preise. Außerdem Anerkennungsurkunden (4. Preis) für alle, die knapp an Bronze vorbei waren. Ich war relativ erfolgreich und bekam eine Anerkennungsurkunde. Darüber habe ich mich sehr gefreut, da viele Mitstreiter dabei waren. Außerdem bekam ich eine Urkunde für die KGS.\"</p>"},"id":"d54240c2-73ad-44b3-b795-4c542d88e90e","isHidden":false,"type":"text"}],"id":"aeaeffe5-731c-4dd5-a67c-a91f25928082","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://UX2CqyMLrJVK1IsN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"4cb2c026-49fa-4e5b-be9f-832c62fde54a","isHidden":false,"type":"image"}],"id":"25423707-66aa-4e66-b747-4aec16dc22ac","width":"1/2"}],"id":"4dab742a-92f8-4266-9258-f69bed8f1d7b"}]
+
+----
+
+Date: 2024-03-29 12:50:00
+
+----
+
+Datumstartseite: 2024-07-29 12:50:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Jale, 05B3
+
+----
+
+Tags: Wettbewerb, Mathematik
+
+----
+
+Downloads: 
+
+----
+
+Uuid: WE6mlqwwZA8WHHLC

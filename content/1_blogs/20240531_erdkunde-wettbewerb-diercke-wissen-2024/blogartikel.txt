@@ -1,0 +1,33 @@
+Title: Erdkunde Wettbewerb Diercke Wissen 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://sYpvTwPgFLMVI2Cd"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"533db341-c923-4fd7-8374-b0f38cd4a4ba","isHidden":false,"type":"image"}],"id":"73e52828-8b8c-45be-a252-9a62ad4fc6f1","width":"1/1"}],"id":"8887c462-3c25-41e4-93ca-4fe06eb297fd"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":""},"id":"6b4cbb00-a386-496a-99b9-79f450288df2","isHidden":false,"type":"text"},{"content":{"text":"<p>Welche wichtigen Handelspartner hat Deutschland? Wie viele Stunden am Tag steht ein PKW ungenutzt rum? Und welcher Fluss fließt eigentlich durch Amsterdam? </p><p>Diesen und vielen weiteren Fragen haben sich am 13.Februar knapp 40 Schülerinnen und Schüler aus den Jahrgängen 7 – 10 angenommen, indem sie im Diercke-Wettbewerb ihr Erdkunde-Wissen unter Beweis stellten. Die drei erfolgreichsten Schüler haben bei der Siegerehrung in Frau Bergers Büro ein Geschenk und eine Urkunde entgegengenommen. Den ersten Platz erreichte Jona aus der 8B3. Phelan aus der 9C3 landete auf dem zweiten Platz und Aaron aus der 8C3 belegte einen super dritten Platz. Unser Schulsieger Jona hat bereits den Fragebogen auf Landesebene bearbeitet, der noch kniffligere Fragen beinhaltet - vielleicht qualifiziert er sich für das Bundesfinale in Braunschweig? </p><p>Wenn ihr jetzt denkt „Das möchte ich auch versuchen“, dann haltet im kommenden Schuljahr Augen und Ohren offen, denn auch dann wird es wieder die Möglichkeit geben am Erdkunde-Wettbewerb 2025 teilzunehmen.</p>"},"id":"858dd581-bc1f-4774-ab8d-be795ba6e0f8","isHidden":false,"type":"text"}],"id":"245a409a-7c5e-4b83-8379-5411b23405a8","width":"1/1"}],"id":"49c18ec5-effa-4a70-a488-8a480718aaec"}]
+
+----
+
+Date: 2024-05-31 11:15:00
+
+----
+
+Datumstartseite: 2024-10-01 11:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Alexandra Kehrberg-Diaconu
+
+----
+
+Tags: Erdkunde, Wettbewerb, projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: N5ACM7gWX0v8wQo9

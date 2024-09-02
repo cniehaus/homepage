@@ -1,0 +1,33 @@
+Title: Denis Brak mit Angelus-Sala-Preis für besonders gute Leistungen in Chemie geehrt
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://g9ZGzMNACN7aUmCx"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a7bf0722-4fbf-4bc2-a332-6f4fb010edeb","isHidden":false,"type":"image"}],"id":"a52ebf67-d482-4228-b3ed-e8747e7a4953","width":"1/1"}],"id":"96577274-92d8-450f-b5ad-5b1ec224c947"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Für herausragende Leistungen im Fach Chemie hat Denis Brak (10C3) den Angelus-Sala-Preis verliehen bekommen. Dieser wird jedes Jahr durch die Universität Oldenburg im Namen der Gesellschaft deutscher Chemiker (GDCh) an eine Schülerin oder einen Schüler der 10. Klassen verliehen. Benannt ist der Preis nach Angelus Sala, der im 16. und 17. Jahrhundert lebte und neben seiner Tätigkeit als Chemiker unter anderem auch Leibarzt des Grafen Anton Günther von Oldenburg war. Dieses Jahr fand die Preisverleihung im Rahmen des „Entdecker:innen-Tages“, einer Feier zum 50-jährigen Jubiläum der Universität Oldenburg, statt. So fuhr Denis mit seiner Klasse in Begleitung seiner Lehrerinnen Frau Schnell und Frau Eckhardt-Klebert am 31.05. zur Universität und konnte neben der Preisverleihung auch noch an einer Reihe weiterer spannender Veranstaltungen teilnehmen. Wir gratulieren herzlich und wünschen viel Freude mit dem Buchpreis!</p><p>P.S.: Auch im nächsten Jahr wird der Angelus-Sala-Preis verliehen – ihr müsst euch einfach nur im Chemieunterricht hervortun, schon seid ihr im Kandidat:innenkreis…</p>"},"id":"b983e1c0-af74-490e-865b-6b49e5fc9d8f","isHidden":false,"type":"text"}],"id":"287dc562-a762-4628-8fc6-2cac7efd77e0","width":"1/1"}],"id":"84b5475d-e172-45b0-9fc4-8023bae547f8"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://lxkUiCHlGGuoDVDP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"9f1083ea-f7bc-4fd7-98ee-b240c4be2968","isHidden":false,"type":"image"}],"id":"fa20ab4e-3610-4e4c-9840-5836700f7ad2","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://ckXKt6cp0rfZIdf0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"d99dd61c-336b-4f81-b22a-69490070f24b","isHidden":false,"type":"image"}],"id":"3bdfba9a-62d4-4742-9328-3a1d7ccd816f","width":"1/2"}],"id":"f80ee76f-e783-4ffa-895d-ff8c86f3fb82"}]
+
+----
+
+Date: 2024-06-13 09:05:00
+
+----
+
+Datumstartseite: 2024-10-13 09:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Martin Fach
+
+----
+
+Tags: Chemie, Wettbewerb, Angelus-Sala-Preis
+
+----
+
+Downloads: 
+
+----
+
+Uuid: PNfx6ncBaqnpwzhj

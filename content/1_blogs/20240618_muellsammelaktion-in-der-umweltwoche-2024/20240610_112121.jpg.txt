@@ -1,0 +1,5 @@
+Uuid: gt595aBvXZFlqDKU
+
+----
+
+Template: blocks/image

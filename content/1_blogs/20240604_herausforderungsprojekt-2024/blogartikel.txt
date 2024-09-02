@@ -1,0 +1,33 @@
+Title: Herausforderungsprojekt 2024
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Leinen los!"},"id":"7e9ad360-3920-4eb0-a6f0-9a570c013ce0","isHidden":false,"type":"heading"},{"content":{"text":"<p><a href=\"https://kgs-rastede.de/unterricht/herausforderungsprojekt/herausforderungsprojekt-2024\">Hier geht's zu den Projekten!</a></p>"},"id":"90f4f0d4-92be-4cc8-bb19-28dbb82b9c6b","isHidden":false,"type":"text"}],"id":"43ac1da1-205f-4125-b6bd-4104c87b73a1","width":"1/1"}],"id":"1ce4ddec-92a6-4503-9966-081239d23c6b"},{"attrs":[],"columns":[{"blocks":[],"id":"ec8ca0dd-43a9-478e-b398-09f7d1adb6dc","width":"1/1"}],"id":"c66b69eb-b3aa-4137-8518-2c08de46b0c6"}]
+
+----
+
+Date: 2024-06-04 10:00:00
+
+----
+
+Datumstartseite: 2024-06-20 10:00:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Anja Lorenz
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 401uNuILZJC0pYt6

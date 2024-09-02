@@ -1,0 +1,5 @@
+Uuid: 6A3EZwxBphAHNMla
+
+----
+
+Template: blocks/image

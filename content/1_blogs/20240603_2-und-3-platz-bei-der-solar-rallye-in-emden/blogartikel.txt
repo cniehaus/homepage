@@ -1,0 +1,33 @@
+Title: 2. und 3. Platz bei der Solar-Rallye in Emden
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://AHL6JPfFPUEF6Yme"],"src":"","alt":"","caption":"Solar-Rallye Emden","link":"","ratio":"","crop":"false","orientation":""},"id":"9fabdcb5-bc60-4ff7-a177-4d72034d3963","isHidden":false,"type":"image"}],"id":"cc570446-adc6-489d-b54b-4acfeee577d0","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://WMCopYf5EVW40Jrx"],"src":"","alt":"","caption":"Die KGS-Teams vor der Hochschule Emden","link":"","ratio":"","crop":"false","orientation":""},"id":"9e1fe9b2-2c49-4ff3-97ea-4fa894f75eaa","isHidden":false,"type":"image"}],"id":"eaf676eb-e68b-4d30-adfb-48614eadcca8","width":"1/2"}],"id":"2ec766ff-9a4c-45b5-ab31-ab8808cd8c7b"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Zwei Teams aus dem WPK-Physik des 10. Jahrgangs waren erfolgreich bei der Solar-Rallye in Emden. </p><p>Im Wahlpflichtkurs Physik gab es intensive Vorbereitungen für den Wettbewerb. Es begann mit einem theoretischen Einstieg zur Schaltung von Solarzellen und zu Getriebevarianten. Von der Hochschule Emden reiste Herr Stefan Wild zu uns und gab uns einen Workshop, in dem er viele Kniffe verriet, wie man ein schnelles und zuverlässiges Solarmobil baut. Anschließend ging es an die Planung und Materialbeschaffung. Wir freuen uns, dass die Firma Broetje Automation als Sponsor die Materialkosten für uns erheblich senkte. Jetzt wurde über Monate der Physikraum zur Werkstatt, es wurde gesägt, gebohrt, gelötet und geklebt. Aus Holz, Carbon, Silizium und Kupfer entstanden solarbetriebene Fahrzeuge, die automatisch die Fahrtrichtung umkehren und bei denen die Kurvenfahrt gelingt. In dem langen Konstruktionsprozess haben wir gelernt, dass vieles länger dauert als ursprünglich geplant und dass der Teufel im Detail steckt. Immer wieder mussten Rückschläge verkraftet und neue Anläufe genommen werden. Diese Ausdauer war selbst beim Wettbewerb auf dem Campus der Hochschule Emden noch gefragt. Vor und zwischen den Rennen wurde weiter mit Kleber und Lötkolben repariert und optimiert. Umso glücklicher waren wir, dass die Solarmobile tatsächlich mithalten konnten. In unserer Alterskategorie hat sich sogar ein Team für den Bundeswettbewerb qualifiziert. Das Mobil wird in den Sommerferien weiter verbessert und dann geht es Ende September zum großen Wettbewerb nach Dortmund.</p>"},"id":"d315165a-8f4a-4013-b65f-01b3f1afa07a","isHidden":false,"type":"text"}],"id":"115f9577-f629-4cc4-ab74-fa8368a2565e","width":"1/1"}],"id":"af91697f-f7e1-47c7-872e-4e2df1868819"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ke4r7EqaIp9Sdj7q"],"src":"","alt":"","caption":"Beratung beim Wettbewerb","link":"","ratio":"","crop":"false","orientation":""},"id":"a1685152-c123-46dd-bc00-0235e2c11b0c","isHidden":false,"type":"image"}],"id":"ca817247-8259-4f1e-83aa-07af799e04ea","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://AQWu9Mv10x1ogS11"],"src":"","alt":"","caption":"Reparatur beim Wettbewerb","link":"","ratio":"","crop":"false","orientation":""},"id":"b02c41a0-47ca-4df7-b881-27bfca9de084","isHidden":false,"type":"image"}],"id":"f2d33dbc-1659-4f18-b198-608456a35004","width":"1/2"}],"id":"4c28d7ac-582a-4c3b-b1b1-7c31bc53e655"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://cKLGKlmYe1mzH3RI"],"src":"","alt":"","caption":"Sunspeed kurz vor dem Start","link":"","ratio":"","crop":"false","orientation":""},"id":"3b014ec8-655b-4b23-8187-4308076d9c53","isHidden":false,"type":"image"}],"id":"0120a016-002a-468f-826e-8467adc1690c","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://6A3EZwxBphAHNMla"],"src":"","alt":"","caption":"Speedy Gonzales und Sunspeed","link":"","ratio":"","crop":"false","orientation":""},"id":"0dc8f4f6-aa23-4ec4-99e7-ab694104b671","isHidden":false,"type":"image"}],"id":"dd8373c4-d7cb-4025-89aa-65cc8a4bb0eb","width":"1/2"}],"id":"d00aae43-9b4b-49ad-9eaa-f861ea1076fb"}]
+
+----
+
+Date: 2024-06-03 10:25:00
+
+----
+
+Datumstartseite: 2024-10-03 10:25:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Lutz Weusmann
+
+----
+
+Tags: Wettbewerb, projekte, Physik, wpk, JG10
+
+----
+
+Downloads: 
+
+----
+
+Uuid: fMFss7MVFueVGKgX

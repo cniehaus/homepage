@@ -1,0 +1,33 @@
+Title: Verkehrswende, auch in Rastede – Schüler:innen des WPB „Mobilität von morgen“ bringen Ideen in die Gemeindepolitik ein
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Im 11. Jahrgang kann das Wahlpflichtprofil „Mobilität von morgen“ angewählt werden, eine fächerübergreifende Kooperation von Chemie und Erdkunde. Darin werden Fragen zur Verkehrswende, alternativen Antrieben und der Städteplanung der Zukunft behandelt. Das Angebot besteht nun schon seit fünf Jahren. Zu diesen Fragestellungen haben die Schülerinnen und Schüler jeweils in unterschiedlichen Gruppierungen Projekte ausgearbeitet und sich so den Thematiken angenähert, so z.B. zu den Möglichkeiten und Grenzen von Wasserstoff als Treibstoff oder von E-Fuels. </p><p>Eine Beispielarbeit von Thorge und Sönke zum Thema „Was bedeutet Verkehrswende?“ findet ihr unter <a href=\"https://www.youtube.com/watch?v=AJQj0FpTK8Q\">https://www.youtube.com/watch?v=AJQj0FpTK8Q</a>. </p><p>In diesem Jahr ergab sich zusätzlich eine Neuerung: die Schülerinnen und Schüler hatten unter der Leitung von Herrn Dr. Fach und Herrn Niebur zum ersten Mal die Gelegenheit, nicht nur für „das Klassenzimmer“ zu planen, sondern ihre Vorstellungen zur Mobilität von morgen in der Gemeinde Rastede auch der Gemeinde selber vorzustellen. Die ist nämlich im Begriff, den Mobilitätsplan zu erstellen, den jede Gemeinde zukünftig vorweisen muss, und ist durchaus interessiert an den Vorstellungen der jungen Mitbürgerinnen und Mitbürger. So ergab sich in diesem Jahr die Gelegenheit, dem ersten Gemeinderat, Herrn Günter Henkel, die Projekte vorzustellen, die im Rahmen des Unterrichts erarbeitet worden sind. Nach einem ersten Besuch von Herrn Henkel im Unterricht, bei dem er sich sehr interessiert die Skizzen zu den Projekten „Verkehrsberuhigung in Rastede“, „Car-Sharing in Rastede“, „Lastenrad-Sharing“ und „Einrichtung einer Express-Buslinie – Rolle des ÖPNV in Rastede“ angehört hat und jeweils kritisch die Überlegungen der Gemeindeverwaltung dazu darlegen konnte, kam er am 07.06. erneut in den Unterricht und hörte interessiert den nun weiter ausgearbeiteten Projektideen zu. Dabei zeigte sich, dass in der Praxis vielfältige Sichtweisen zu beachten sind und in Politik und Verwaltung zur Umsetzung einer Idee möglichst alle mitgedacht werden müssen. So konnten wir an diesem Vormittag das Problem „Wie gestalten wir die Verkehrswende?“ natürlich nicht lösen, konnten aber viele Diskussionsansätze erörtern und Sichtweisen austauschen. Herr Fach und Herr Niebur werden den Kurs auch im nächsten Jahr anbieten, wir hoffen, dass wir mit den Ideen weiter Gehör finden werden und werden dort hartnäckig bleiben. Herr Henkel hat weiterhin sein Interesse signalisiert und zeigte sich auch bereit, weitere Schritte zu gehen und den Schüler:innen auch Gelegenheit zu geben, Projekte umzusetzen. Somit können sich hier Möglichkeiten ergeben, direkt Einfluss auf die Entwicklung vor Ort zu nehmen. Wir werden versuchen, dies im nächsten Jahr weiter zu verfolgen!</p>"},"id":"2aaacbcb-feca-418c-b6df-59737c773e7e","isHidden":false,"type":"text"}],"id":"a21d3f8a-017b-4a7f-8838-cf4556468af6","width":"1/1"}],"id":"079e0ccc-a466-4029-83a9-9c5b506e353b"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://7DDDQLttZ8LictzM"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"0d9fdef7-2c18-48bf-bd9e-a50cdda55eeb","isHidden":false,"type":"image"}],"id":"32ac47d7-85c7-4e91-8df1-bcf4fdb0ee51","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://ZA4cMMVx3duCww5S"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"2893c41a-198b-4097-90b2-e26184265667","isHidden":false,"type":"image"}],"id":"d88f1e3b-0f2c-42da-9ac0-7b7bf2037ad1","width":"1/2"}],"id":"42b4d7e9-1f96-4507-972c-1a0a274f490c"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://IHxOf5iJEGllWROU"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"1e2789fe-695a-4bcd-8555-d09ef0e3c1a8","isHidden":false,"type":"image"}],"id":"da7d1440-7fd2-44f2-8d70-a7e4c103c358","width":"1/1"}],"id":"5f36400f-e96a-4eaa-b30f-49ebc648d559"}]
+
+----
+
+Date: 2024-06-13 08:55:00
+
+----
+
+Datumstartseite: 2024-10-13 08:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Martin Fach
+
+----
+
+Tags: WPK, Chemie, Erdkunde, Gemeinde Rastede
+
+----
+
+Downloads: 
+
+----
+
+Uuid: pRAIQHJFNLkY1G5G

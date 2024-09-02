@@ -1,0 +1,33 @@
+Title: Erster Schultag nach den Sommerferien
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Der erste Schultag nach den Sommerferien ist Montag, der <strong>05. August 2024</strong>.</p><p> </p><p>Dabei gelten die folgenden Regelungen:</p><p>  </p><p><strong>Jg. 5:</strong></p><p> Die 5. Klassen kommen zur 2. Stunde. Die Schülerinnen und Schüler werden auf dem Schulhof um 8.30 Uhr von ihren Klassenlehrkräften in Empfang genommen und haben dann von der 2. - 5. Stunde bei ihnen Unterricht. Von Dienstag bis einschließlich Freitag hat der gesamte 5. Jahrgang Einlebenstage bei den Klassenlehrerinnen oder Klassenlehrern. </p><p><strong>Jg. 6 - 11:</strong></p><p>Die Klassen kommen zur 1. Stunde und haben Montag und Dienstag Einlebenstage mit den Klassenlehrkräften. Der Nachmittagsunterricht findet am ersten Schultag nicht statt.</p><p><strong>Jg. 12:</strong></p><p>Der 12. Jahrgang kommt zur Bücherausgabe in der 1. Stunde (8.00 Uhr). </p><p>In der 2. Stunde findet in der Aula die Jahrgangsversammlung (Frau Garbe/Herr Diekmann) statt. Ab der 3. Stunde finden am Montag und Dienstag (1. – 6. Std.) Einlebenstage in den Seminarfächern statt. </p><p>Der Nachmittagsunterricht findet am ersten Schultag nicht statt.</p><p><strong>Jg. 13:</strong></p><p>Der 13. Jahrgang kommt zur Jahrgangsversammlung (Frau Garbe/ Herr Diekmann) in der 1. Stunde (8.00 Uhr) in die Aula. </p><p>In der 2. (und ggf 3.) Stunde findet die Bücherausgabe statt. </p><p>Ab der 3. Stunde findet am Montag (1.- 6. Std.) ein Einlebenstag in den Seminarfächern statt. </p><p>Am Dienstag ist vom Jahrgang ein Sponsorenlauf geplant.</p><p>  </p><p>Eine Jahrgangsversammlung (nur Schülerinnen und Schüler) kann ggf. intern veranstaltet werden.</p>"},"id":"c0360df7-6d34-45bb-b1ac-0480a6088229","isHidden":false,"type":"text"}],"id":"5b4434f4-36aa-4140-abac-1cba569c53a2","width":"1/1"}],"id":"d3142385-d649-4249-9adb-74d324d4de97"}]
+
+----
+
+Date: 2024-06-19 07:55:00
+
+----
+
+Datumstartseite: 2024-10-19 07:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Die Schulleitung
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: uh9MJ9xEmJI6ejUr

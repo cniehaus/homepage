@@ -1,0 +1,33 @@
+Title: Weg aus der Schule, ab ins THEATER!
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>In dem viertägigen Programm des Staatstheaters Oldenburg im Rahmen der Jugendtheatertage, besuchte die Klasse 11B mit Frau Warsany unterschiedliche Workshops. In diesen entdeckten die Schüler:innen ihre Talente im chorischen Sprechen, in der Kostümgestaltung und im Improvisationstheater. Dabei erlangten sie vielseitige Einblicke in die verschiedenen Bereiche der Theaterwelt. Zusätzlich konnte man sich, als kostenloses Abendprogramm, Theaterstücke anderer Schulen anschauen und somit weitere Eindrücke gewinnen. Um die vier Workshoptage abzuschließen, stellte die Klasse am Donnerstagabend ihr eigenes Theaterstück „Sol y Sombra“ in der Exerzierhalle vor. Das Stück wurde durch professionelle Ausstattung, Technik und  tatkräftige Unterstützung ein voller Erfolg und wurde für alle Anwesenden zum Highlight der Woche.</p>"},"id":"f8b8af17-e470-4f16-96d2-908d66eecd87","isHidden":false,"type":"text"}],"id":"7516fe6e-28c6-4f63-9f7f-69257067480b","width":"1/1"}],"id":"479ee030-b44f-4565-b15f-501badd80c5d"},{"attrs":[],"columns":[{"blocks":[],"id":"9e84fbc4-3cd8-428b-8f83-85f9ea4bb31a","width":"1/1"}],"id":"cf9ff2ff-7e1d-4323-a95c-09f845b5daf5"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://XL3ymtmbRrFRIfRm"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"f778f9a5-dd38-45a0-b79c-56d7ff8d71b9","isHidden":false,"type":"image"}],"id":"0a778c59-329d-4e32-9575-6088211df937","width":"1/1"}],"id":"88db8522-a841-4749-9d68-7ef701d8ec52"},{"attrs":[],"columns":[{"blocks":[{"content":{"karousel":["file://XL3ymtmbRrFRIfRm","file://4A4hSqbd9I0mNNSM","file://JCVErMJHiSEuJ8Mf","file://JsbKltS4uyBEPAJg","file://nFsJrOlaD9J9EXqs"]},"id":"071b93ba-2e22-4f50-8be6-8a699cbe951d","isHidden":false,"type":"karousel"}],"id":"5dd86367-15d5-494f-a6e8-c251bf2a43ef","width":"1/1"}],"id":"7e6001d7-2041-4331-bf8c-0e0a9f1b60e2"}]
+
+----
+
+Date: 2024-06-19 13:20:00
+
+----
+
+Datumstartseite: 2024-10-19 13:20:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Susann Warsany mit der 11B
+
+----
+
+Tags: Darstellendes Spiel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: OlzG9GCQae1g6q6Z

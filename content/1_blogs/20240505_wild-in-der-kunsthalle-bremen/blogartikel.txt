@@ -1,0 +1,33 @@
+Title: WILD! In der Kunsthalle Bremen
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Atelierkurs JG 6 auf Exkursion zur Kunst"},"id":"878fff92-ad07-418e-afc5-ef87b104db78","isHidden":false,"type":"heading"}],"id":"2314ec19-0605-46e7-86fd-42d9b918baa3","width":"1/1"}],"id":"54ec29b7-49e2-4c7e-a4ce-deec7b8cf037"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://3wYQo0QioxOPMWnj"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"f087b33f-a2e7-4bf0-bc58-164f014aa631","isHidden":false,"type":"image"},{"content":{"text":"<p>Am Dienstag, den 30. April war es endlich so weit: Der Atelierkurs der 6. Klassen machte einen Ausflug zur Kunsthalle Bremen, um die Ausstellung <em>„Wild! Kinder - Träume - Tiere - Kunst\" </em>zu besuchen.</p><p>Nach der ersten Stunde machten wir uns mit dem Zug auf den Weg nach Bremen. Zunächst konnten wir in der Kunsthalle auf eigene Entdeckungsreise gehen und merkten schnell, dass die vielfältige Ausstellung viel zu bieten hatte: Tastobjekte, Suchspiele, Erlebnisräume (wie z.B. Filmräume, Kritzelräume und ein Atelier) und natürlich die verschiedenen Darstellungen von Kunst. Anschließend erhielten wir eine Führung mit viel Aufklärung zu der Kunst und den Inhalten der Ausstellung, die sich mit der Wildheit beschäftigt, die in jedem Lebewesen schlummert. Zu sehen gab es verschiedene Kunstwerke (z.B. Plastiken, Grafiken, Gemälde, Video- und Fotoinstallationen). Es gab sogar den Holzschnitt <em>„Rhinozerus“</em> von Albrecht Dürer im Original. Aber auch Werke von Künstlern wie Paula Modersohn-Becker, Asta Gröting und vielen anderen konnten wir ausfindig machen. Um die Exponate besonders gut betrachten zu können, gab es für jedes einzelne Kunstwerk eine Lupe.</p><p>Nach einer „Kreativzeit“ zum Ausprobieren verschiedener Dinge im Atelier und an der Kritzelwand, konnten wir uns während eines Bummels durch Bremen bei bestem Wetter in Kleingruppen über unsere Eindrücke austauschen. Schließlich ging es mit dem Zug wieder zurück nach Rastede.</p><p>Insgesamt schienen alle TeilnehmerInnen sehr zufrieden mit dem Tag in der Kunsthalle Bremen gewesen zu sein. Persönlich haben mir zwei Exponate besonders gut gefallen:</p><p>Auf dem ersten Kunstwerk war eine Zeichnung von einem Löwen, der einen Hasen frisst, zu sehen. Diesen Anblick fanden wir alle sehr schrecklich, aber direkt daneben war eine Fotografie, auf der einfach nur Chicken Nuggets abgebildet waren. Uns wurde erklärt, dass wir es zwar schrecklich finden, wenn ein Tier ein anderes Tier frisst und würden selbst nicht einfach so in einen lebendigen Hasen beißen, essen aber ohne Bedenken Chicken Nuggets. Ich war begeistert, wie die Anordnung der beiden Kunstwerke uns zum Nachdenken gebracht hat und kann die Ausstellung nur weiter empfehlen.                                                                                                                      </p>"},"id":"3e172b78-8cc2-4467-b922-043a01aa9c11","isHidden":false,"type":"text"}],"id":"d12aff25-9005-47d1-8c07-3fb77d252962","width":"1/1"}],"id":"0c3e5541-0697-4a7f-aff1-94480058948c"},{"attrs":[],"columns":[{"blocks":[{"content":{"karousel":["file://3wYQo0QioxOPMWnj","file://rryLdFOXuvI9XZ6p","file://5XE2bSC60on6OIUL","file://C1N90leCr8z43CgR","file://pwc4aIurnz3VjR6G","file://xIoBZGM1by561d4Y","file://BTpy6siDaIR3coHV","file://2A5Jxg8vwRjo8fIj","file://hXatCCmvwcqYGprx","file://ocrP9rr5At7v98L9","file://47CkLG8dtuJRAHOq","file://3MWZUE9bO09rAD1S","file://75EbMSeRzyLkOz5t","file://WZ0IK4JVbZDfseLD","file://BrQgh7vJVSVpUVlg","file://1I7n7Vp4qzdGPKUk","file://i3ZGR5VhHJ4DSniK","file://TmCmmcZ1w4VidYGl","file://rPi1WAxHBeetX37l","file://YKcnyWJJeBDqQVMl","file://jgH67tcEYQ62aqDc","file://jrjmmdDh0lEbJi7O","file://I3khJU8gHVnJ9CIf","file://2PYcFQ1wezJjhJmW","file://98aQGtJiU6uCiFyi"]},"id":"18f5881b-8e7f-4f05-b628-17878ec372b0","isHidden":false,"type":"karousel"}],"id":"cd7409b6-012b-47e3-b4a4-df186338a788","width":"1/1"}],"id":"c4fc6754-9d97-43c2-b5eb-dbd50d982e67"},{"attrs":[],"columns":[{"blocks":[],"id":"e542c8f2-7ce5-4b54-b69f-616c69344e50","width":"1/1"}],"id":"69638b7c-b315-46cc-81ca-f3ec1f2cdf81"}]
+
+----
+
+Date: 2024-05-05 10:10:00
+
+----
+
+Datumstartseite: 2024-09-05 10:10:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Lenja Wagner, 6A3
+
+----
+
+Tags: Kunst, Atelierkurs
+
+----
+
+Downloads: 
+
+----
+
+Uuid: z9ewTHrE31lpPd8B

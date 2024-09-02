@@ -1,0 +1,33 @@
+Title: Schüler:innensprechtage am 27. und 28.08.
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am Dienstag und Mittwoch (27. und 28.08.24) finden wieder die Schüler:innensprechtage in den Jahrgängen 6-11 statt. Weitere Informationen dazu <a href=\"https://kgs-rastede.de/media/pages/blogs/schueler-innensprechtage-am-27-und-28-08/a4bb89a5e0-1724402487/elternbrief-feedbacktage-2024.pdf\">hier</a>.</p><p>Im 5. Jahrgang finden mit den Klassenleitungen Aktionen zur Stärkung der Klassengemeinschaft und der Sozialkompetenz statt.</p>"},"id":"5e19f124-83c7-48fc-878b-9fdcb6e42e06","isHidden":false,"type":"text"}],"id":"0c20e9b4-0ca3-4d5b-a038-f50a3d58ad91","width":"1/1"}],"id":"32043f65-b349-49eb-ab8b-95cb75e8a4ee"}]
+
+----
+
+Date: 2024-08-23 10:35:00
+
+----
+
+Datumstartseite: 2024-12-23 10:35:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: - file://aJ0ATGjJAhfxU0bJ
+
+----
+
+Uuid: opgLpLpmzOvBdCmD
