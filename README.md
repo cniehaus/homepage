@@ -6,7 +6,7 @@ Kirby ist soweit vorbereitet. Der aktuelle Stand ist bei Git verfügbar. Dann k�
 
 -   [composer](https://getcomposer.org/download/)
 -   WebServer (WAMP, LAMP, XAMPP, etc) oder falls [VS Code](https://code.visualstudio.com/) benutzt wird, die Extension [PHP-Server](https://marketplace.visualstudio.com/items?itemName=brapifra.phpserver)
--   PHP 8 (mindestens PHP 8.2)
+-   PHP 8 (mindestens PHP 8.3)
 -   [git](https://git-scm.com/downloads)
 -   Ein Editor wie Visual Studio Code oder ZED
 
@@ -68,7 +68,7 @@ Ich verwende [Wamp64](http://www.wampserver.com/en/download-wampserver-64bits/).
 
 ## PHP (muss eigentlich nicht direkt installiert werden, kommt mit dem Webserver)
 
-Kirby setzt technisch gesehen PHP8 voraus. Die echte Homepage läuft schon auf PHP 8.2.
+Kirby setzt technisch gesehen PHP8 voraus. Die echte Homepage läuft schon auf PHP 8.3.
 
 Man muss PHP aber nicht direkt installieren, denn PHP kommt als Teil vom Wamp64 mit.
 
@@ -89,4 +89,4 @@ Die Homepage wird mit Git verwaltet werden. Jeder, der mitmachen möchte, sollte
 Wir müssen natürlich CSS verwenden. [Bootstrap](https://getbootstrap.com/) ist ein sinnvolles, bekanntes System.
 Wir haben uns daher für Bootstrap 5 entschieden. Gute Dokumentation, Anleitungen ohne Ende...
 
-Wir testen zur Zeit, ob TailwindCSS in Betracht kommt, es existiert ein Git-branch, wo die Homepage bereits portiert wurde.
+Wir stellen aber zur Zeit auf TailwindCSS um, abgesehen vom Menü ist alles umgestellt. Das Menü folgt, wenn Tailwind 4 raus ist.
