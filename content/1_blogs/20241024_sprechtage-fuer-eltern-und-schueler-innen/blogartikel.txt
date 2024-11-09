@@ -1,0 +1,33 @@
+Title: Sprechtage für Eltern und Schüler:innen
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Wir laden herzlich zu den <strong>Sprechtagen</strong> ein. Diese finden für die Jahrgänge 5 bis 13  am</p><p><strong>Mittwoch, dem 20.11.2024, von 15 - 18 Uhr und am Donnerstag, dem 28.11.2024, von 15 - 18 Uhr statt.</strong></p><p>Gespräche können nur nach vorheriger Anmeldung stattfinden. Für die Terminabsprache erhalten die Schüler:innen von den Klassenlehrkräften einen Laufzettel. Bitte tragen Sie hier Ihre Gesprächswünsche ein.</p><p>Die Schüler:innen legen den Zettel den Lehrkräften vor und diese teilen hierüber die Uhrzeit und den Raum für das Gespräch mit. <strong>Sollte es auf Seiten von Lehrkräften Gesprächsbedarf geben, ist dieser bereits durch einen Eintrag im Laufzettel vermerkt.</strong></p><p>Es besteht außerdem die Möglichkeit, sich zu einem Gespräch bei den Beratungslehrer:innen der Schule, Frau Lisbach (li@kgs-rastede.eu) und Herrn Kayser (ky@kgs-rastede.eu) anzumelden. Ebenso sind Gespräche mit den Sozialpädagog:innen Frau Hannawald (hw@kgs-rastede.eu) oder Herrn Pernt (pt@kgs-rastede.eu) möglich.</p><p>Der Schulhof Wilhelmstraße kann als Parkplatz genutzt werden. Der Busparkstreifen an der Wilhelmstraße steht als Parkplatz erst nach 16:15 Uhr zur Verfügung. Für alle Schüler:innen endet der Unterricht aus organisatorischen Gründen an den Sprechtagen nach der 5. Stunde. Die Hausaufgabenbetreuung für die Jahrgänge 5-6 findet für alle Schüler:innen statt.</p>"},"id":"6bcf0bd7-dd48-49ed-a8ce-6abe3db99b3f","isHidden":false,"type":"text"}],"id":"a1c1018e-47b8-4bc7-a084-6dd50099e91d","width":"1/1"}],"id":"de903478-94e1-4616-9062-59fde9464db6"}]
+
+----
+
+Date: 2024-10-24 22:35:00
+
+----
+
+Datumstartseite: 2024-11-28 22:35:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Schulleitung
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: JDI6P0OmOPAe0I3e

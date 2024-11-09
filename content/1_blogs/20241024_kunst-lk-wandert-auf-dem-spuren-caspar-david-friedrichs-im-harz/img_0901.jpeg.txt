@@ -1,0 +1,5 @@
+Uuid: WDMd238U64JJPlvF
+
+----
+
+Template: blocks/image

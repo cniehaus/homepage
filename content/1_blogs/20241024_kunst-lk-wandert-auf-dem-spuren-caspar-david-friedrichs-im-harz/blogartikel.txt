@@ -1,0 +1,33 @@
+Title: Kunst-LK wandert auf dem Spuren Caspar David Friedrichs im Harz
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://S9J6CMZAMJzstnJM"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b7ba07aa-d889-4af2-9158-5d3b955c48ed","isHidden":false,"type":"image"}],"id":"01b1fa8c-a54c-4d2b-8207-b392f8ef3620","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://hJrZRdwQD9uDrrgc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"e83768af-5584-49a9-8bca-96612e84f6ff","isHidden":false,"type":"image"}],"id":"dc36c053-5f8b-4abf-92fb-d8aeff0cf6b4","width":"1/2"}],"id":"4b48190e-0732-4aff-b6e9-60d4f3d3e3e6"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Nachdem der Kunst-Leistungskurs des 13. Jahrgangs sich in diesem Halbjahr schon intensiv mit dem Thema „Tageszeiten“ in der Landschaftsmalerei und der gleichnamigen Bildreihe des deutschen Romantikers Caspar David Friedrich (kurz CDF) beschäftigt hatte, ging es für dreizehn Schüler:innen vom 30.09.-02.10.24 ins wunderschöne Bodetal, wo der Maler sich 1811 auf langen Wanderungen Inspiration für seine weltberühmten Gemälde holte.<br>Apropos lange Wanderungen: Manch ein Kursmitglied wähnte sich spätestens am zweiten Exkursionstag im Sport-LK und am Ende rauchte manch eine Smartwatch mit neuem Allzeitschrittrekord. Eine Meuterei konnte seitens der Kursleiterin Jelena Duwe nur dadurch abgewendet werden, dass es auf den Hexentanzplatz dann mit der Kabinenseilbahn ging. Von dort aus konnten die Schüler:innen den wunderschönen Ausblick über das Bodetal und auf die Rosstrappe genießen, welche der Kurs schon am Vortag zwei Stunden nach der Ankunft in der Jugendherberge Thale über den berühmt-berüchtigten alpinen Klettersteig „Schurre“ erklommen hatte.<br>Neben Unmengen von eindrucksvollen Landschaftsfotos und Porträts von sage und schreibe 19 Feuersalamandern, die teilweise nach den Ferien in der Schule ausgestellt werden, entstanden auch einige Skizzen direkt in der urigen Landschaft des Harzes. Der dritte Exkursionstag versank dann vollkommen im nassen Weiß und machte uns zu waschechten Wanderer:innen über dem Nebelmeer.</p>"},"id":"d5b8b564-7f42-4785-8ceb-efa0278a2cbf","isHidden":false,"type":"text"}],"id":"8b9c5f85-6fb9-4751-9952-4c949b2daad1","width":"1/1"}],"id":"1341d3c3-4f54-4b27-a955-bde91358e736"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ITvOfPFa1h5eSOSI"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b20c7409-0c90-4a53-baa0-776dbb087d89","isHidden":false,"type":"image"}],"id":"0ca0a84d-0f86-4318-a973-d281b5905069","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://5PdX0cY7ZcxRrtkr"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"4c12b193-f025-4ea3-9e89-aa85041182b4","isHidden":false,"type":"image"}],"id":"ec25ec01-3825-40aa-99dc-92439834d3fd","width":"1/2"}],"id":"3c1d662f-66d4-45e4-bae6-65f74a6698ae"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://OpQNcvGIi0BRV94O"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"00f217db-7450-457b-b0fd-cf8d46306349","isHidden":false,"type":"image"}],"id":"d961f255-0a94-4ef0-a7ab-46321c91767f","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://aBcXvicuQUb5QaNx"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"1560e294-0399-4108-8d48-438e53bc00f7","isHidden":false,"type":"image"}],"id":"73f74b50-42fc-4cc9-a657-cd4ad3292d9b","width":"1/2"}],"id":"72b3d84c-68ff-4608-881e-f5287c19f8a9"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://WDMd238U64JJPlvF"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"923f56e0-08c3-439c-abc4-41bc6303eb69","isHidden":false,"type":"image"}],"id":"9696a542-adda-4d9a-919f-ac4a9ccbe080","width":"1/1"}],"id":"7d154bee-e9ba-4c69-9264-bcdd076bafdc"}]
+
+----
+
+Date: 2024-10-24 11:15:00
+
+----
+
+Datumstartseite: 2025-02-24 11:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Jelena Duwe
+
+----
+
+Tags: Projekt, Ausflug, Kunst, Leistungskurs, 13. Jahrgang, Exkursion
+
+----
+
+Downloads: 
+
+----
+
+Uuid: egJZ5pCUxEMbSfrn

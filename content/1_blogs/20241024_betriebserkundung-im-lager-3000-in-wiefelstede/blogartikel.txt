@@ -1,0 +1,33 @@
+Title: Betriebserkundung im Lager 3000 in Wiefelstede
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://AAuOqnBZ5e0cjLYW"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ee5c3e0c-ebb5-4da4-8bcd-1cbe83a4efb8","isHidden":false,"type":"image"}],"id":"10f8b9bb-e33d-4c5e-9217-7e627e40137a","width":"1/1"}],"id":"34192c2d-2c6c-4395-b35c-7e1202b40ed1"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am Dienstag, den 01.10.2024, haben zwei Profilfach-Wirtschaftskurse der 10. Klasse des Realschul- und Hauptschulzweiges, zusammen mit Frau Fuchs und Frau Akbaşak eine Betriebsbesichtigung im Lager 3000 gemacht. Die Kurse versammelten sich um 10:00 Uhr im Forum, um zusammen zur Bushaltestelle zu laufen. Um ca. 11:00 Uhr kamen wir in Wiefelstede am Betrieb an und wurden sehr freundlich von Herrn Stascheit empfangen.</p><p>Wir bekamen zuerst einen Vortrag über das Unternehmen und die Entwicklung von Lager 3000 zu hören. Lager 3000 ist bekannt für die Lagerung von Akten, sowohl auf Papier als auch digital. Diese werden in Containern ordentlich einsortiert und gut gesichert. Das zeichnet das Lager 3000 aus und hebt es von ähnlichen Betrieben ab. Die Container sind wasser- und feuerresistent, sodass die gelagerten Akten nicht beschädigt werden können.</p><p>Dadurch konnte der Betrieb viele Kunden gewinnen, zum Beispiel verschiedene Banken. Weitere Informationen findet ihr auf der Homepage. (<a href=\"http://www.lager3000.de\">www.lager3000.de</a>)</p><p>Nach dem Vortrag bekamen wir von Herrn Stascheit eine Führung durch die verschiedenen Hallen und Büros für die Archivierung. Die Hallen waren riesig und die Container wurden bis unter die Decke gestapelt. Weiter ging es zu der Aktendigitalisierung. Dort wurden erst Papierakten von Klammern befreit und diese anschließend durch einen Hightech-Kopierer, der sehr schnell von beiden Seiten kopierte, gegeben. Das war sehr beeindruckend.</p><p>Für die Interessierten von euch: Es gibt auch Ausbildungs- und Praktikumsplätze sowie Ferienjobs.</p><p>Vielen Dank an Herrn Stascheit und das gesamte Team!</p><p>Es war sehr interessant!</p>"},"id":"d8c369ed-25c9-4622-b0d2-af70d47fc8f7","isHidden":false,"type":"text"}],"id":"98865e61-10a3-447a-b678-32bf363ec8b5","width":"1/1"}],"id":"d3efee83-ff49-451c-9563-0c2d7b4b54db"}]
+
+----
+
+Date: 2024-10-24 11:30:00
+
+----
+
+Datumstartseite: 2025-02-24 11:30:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Matilda St.10C2
+
+----
+
+Tags: Exkursion, Ausflug, Wirtschaft, Profilfach, 10. Jahrgang, Ausbildung, Praktikum
+
+----
+
+Downloads: 
+
+----
+
+Uuid: KhhAdwewijEE2Odf
