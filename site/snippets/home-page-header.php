@@ -54,15 +54,15 @@
       </div>
 
       <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-        <a href="<?= page('blogs')->url() ?>">
+        <a href="https://wiki.kgs-rastede.de/de/eltern">
           <div class="flex gap-x-4 rounded-xl bg-white/70 p-6 ring-1 ring-inset ring-white/10">
             <svg class="h-7 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z" />
               <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z" />
             </svg>
             <div class="text-lg leading-7">
-              <h3 class="font-semibold text-blue-700">Aktuelles</h3>
-              <p class="mt-2 text-blue-900">Neues aus der Schule</p>
+              <h3 class="font-semibold text-blue-700">Eltern</h3>
+              <p class="mt-2 text-blue-900">Übersichtsseite für Eltern</p>
             </div>
           </div>
         </a>
