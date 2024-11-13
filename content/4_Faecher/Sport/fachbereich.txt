@@ -14,11 +14,14 @@ Email: as@kgs-rastede.eu
 
 ----
 
-Text: 
+Text: [{"content":{"text":"<p>Bewegung ist Lernen, ist Leben</p>"},"id":"a127f5b4-484d-4693-9f8d-b944035cb867","isHidden":false,"type":"text"}]
 
 ----
 
-Pages: - page://06gEoguQZdduASYA
+Pages:
+
+- page://06gEoguQZdduASYA
+- page://bKAhjFHW6i969l1F
 
 ----
 
@@ -26,7 +29,7 @@ Symbolbild: - file://gdAkW0osltSbLYLA
 
 ----
 
-Tags: Sport
+Tags: Sport, Schwimmen
 
 ----
 
