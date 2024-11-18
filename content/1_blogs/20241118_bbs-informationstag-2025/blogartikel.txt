@@ -1,0 +1,33 @@
+Title: BBS-Informationstag 2025
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://xDaA6kQCZXv47KDN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"e607ca95-ac12-4b5a-8540-13d3f0cd70dd","isHidden":false,"type":"image"}],"id":"aa32b677-0d73-4c7d-9fa0-8b9c0e250157","width":"1/1"}],"id":"5f1b91c4-f812-46c2-b405-5bddfe2324f0"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Der BBS-Informationstag findet am <strong>17. Januar 2025</strong> in der Zeit von<strong> 14:00</strong> bis <strong>17:00 Uhr</strong> statt.</p>"},"id":"2e43ae73-6c9b-4fc1-bd5d-18b4c7df03a6","isHidden":false,"type":"text"}],"id":"caa087cf-a811-4f87-be76-9260c7d99691","width":"1/1"}],"id":"687a3350-4b62-4121-a301-ef6a6c107b50"}]
+
+----
+
+Date: 2024-11-18 11:05:00
+
+----
+
+Datumstartseite: 2025-03-18 11:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Informationstag, BBS, Berufsschule
+
+----
+
+Downloads: 
+
+----
+
+Uuid: FRyCvpH7hFrKfvBM

@@ -1,0 +1,33 @@
+Title: Matheolympiade
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://4kt1L3yimG4VKJti"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ef71e7c6-5d98-4fc0-913a-80878fd11d27","isHidden":false,"type":"image"}],"id":"d6002be3-abce-42a3-a953-5ee986eb1d38","width":"1/1"}],"id":"67d2ee96-8d13-4121-8802-94c991307a84"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Am Mittwoch, dem 13.11.2024 fand die Schulrunde der Mathe Olympiade statt. Knapp 30 der talentiertesten Schüler:innen der KGS tüftelten jeweils an 4 kniffligen Mathe-Aufgaben. Wir drücken die Daumen, dass möglichst viele ein Ticket für die Landesrunde im Februar in Göttingen bekommen!</strong></p>"},"id":"38369437-c549-4e1c-a707-9b2357385f34","isHidden":false,"type":"text"}],"id":"eddbba02-459c-449b-914e-4f3da40c97c9","width":"1/1"}],"id":"269ddbaf-2de1-47f9-9fd6-be2d25f64e06"}]
+
+----
+
+Date: 2024-11-18 11:00:00
+
+----
+
+Datumstartseite: 2025-03-18 11:00:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Wettbewerb, Mathematik
+
+----
+
+Downloads: 
+
+----
+
+Uuid: zUkXVlYL8X3SNnlN

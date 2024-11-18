@@ -1,0 +1,33 @@
+Title: Herausragend in Chemie
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ip3rZs9LLaqkuznZ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"0bd8634f-8507-4894-a56a-1d714e5bb824","isHidden":false,"type":"image"}],"id":"97836ee0-c468-4e93-a137-aa4751ac51c3","width":"1/1"}],"id":"1b1053c8-6081-4eac-a267-913fa21013e4"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Greta Steinkamp aus der 10D3 hat in der Uni Oldenburg den Angelus-Sala-Preis verliehen bekommen. Mit dem Preis werden herausragende Leistungen im Fach Chemie gewürdigt. Neben der Urkunde gab es ein interessantes Buch mit chemischen Kochrezepten. Wir freuen uns für Greta über diese tolle Auszeichnung.</p>"},"id":"2bf5942e-5a74-4f6e-bbc6-8dab255dce3d","isHidden":false,"type":"text"}],"id":"c674904d-1ccf-413b-a4fa-e146cec5472e","width":"1/1"}],"id":"31014b25-ae39-4ad0-b154-a4f39dac8849"}]
+
+----
+
+Date: 2024-11-18 11:05:00
+
+----
+
+Datumstartseite: 2025-03-18 11:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Wettbewerb, Preis, Uni Oldenburg, Chemie, Naturwissenschaften, Auszeichnung
+
+----
+
+Downloads: 
+
+----
+
+Uuid: ysBw31UJPgg4wTMb
