@@ -7,6 +7,8 @@ $links_bilder =
         'https://kgs-rastede.eu' => 'IServ_Logo.svg',
         'https://foerderverein.kgsraste.de/' => 'foerderverein.png',
         'https://kgs-rastede.l-e-o.eu' => 'mensa.png',
+        'https://test.com' => 'eu.svg',
+
     );
 $alt =
     array(
@@ -14,14 +16,15 @@ $alt =
         'Schülerzeitung',
         'IServ',
         'Förderverein',
-        'Mensa'
+        'Mensa',
+        'EU'
     );
 
 $count = -1;
 ?>
 
 <div class="container mb-2 sm:p-0 px-5 sm:px-0">
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-2 xl:gap-4 sm:gap-5 md:gap-2">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-2 xl:gap-4 sm:gap-5 md:gap-2">
         <?php foreach ($links_bilder as $link => $bild) :
             $count++ ?>
             <a href="<?= $link ?>" target="_blank" rel="noopener" class="px-2 py-2">
