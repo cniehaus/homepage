@@ -2,10 +2,20 @@ Title: KGS Rastede
 
 ----
 
+Togglenotfall: false
+
+----
+
+Notfalltext: Wir haben eine schlimme Situation an der Schule, bitte behalten Sie Ruhe
+
+----
+
 Pages:
 
-- schule
-- ser
-- unterricht
-- wichtige_informationen
-- sv
+- page://8M3KZYR9nhun0o0p
+- page://rmbkqgyyj5gntait
+- page://qqhtjnsg7jnwf06x
+
+----
+
+Toggle: 0
