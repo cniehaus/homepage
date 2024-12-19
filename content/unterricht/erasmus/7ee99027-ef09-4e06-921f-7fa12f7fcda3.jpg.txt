@@ -1,0 +1,5 @@
+Uuid: q0OnlNdURLfldpry
+
+----
+
+Template: blocks/image

@@ -1,0 +1,5 @@
+Uuid: tc2skbgeaCSpHBnY
+
+----
+
+Template: blocks/image

@@ -1,0 +1,5 @@
+Uuid: LicYhoydqy9OUgrr
+
+----
+
+Template: blocks/image

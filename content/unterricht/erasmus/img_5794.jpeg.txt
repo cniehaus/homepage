@@ -1,0 +1,5 @@
+Uuid: hyWaQarBONbcLeiA
+
+----
+
+Template: blocks/image

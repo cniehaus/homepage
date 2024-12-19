@@ -1,0 +1,5 @@
+Uuid: ICxWCbni8HzSXz26
+
+----
+
+Template: blocks/image

@@ -1,0 +1,5 @@
+Uuid: HMO2UU8bNfl0kfmI
+
+----
+
+Template: blocks/image

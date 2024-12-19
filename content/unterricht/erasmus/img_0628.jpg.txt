@@ -1,0 +1,5 @@
+Uuid: wkoKE2eN75NWALZa
+
+----
+
+Template: blocks/image

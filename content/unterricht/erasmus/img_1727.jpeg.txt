@@ -1,0 +1,5 @@
+Uuid: Pu2voFHZ27e6GSOT
+
+----
+
+Template: blocks/image

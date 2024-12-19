@@ -1,0 +1,5 @@
+Uuid: SrPH0bSlos4v19MU
+
+----
+
+Template: blocks/image

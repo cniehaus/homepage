@@ -1,0 +1,5 @@
+Uuid: WgqPLOSPhGB15Kk1
+
+----
+
+Template: blocks/image

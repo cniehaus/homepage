@@ -1,0 +1,5 @@
+Uuid: WH22VJrel50nA2JD
+
+----
+
+Template: blocks/image

@@ -1,0 +1,5 @@
+Uuid: kC232vzftkrLIfb0
+
+----
+
+Template: blocks/image

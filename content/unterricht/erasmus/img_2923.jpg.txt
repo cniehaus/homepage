@@ -1,0 +1,5 @@
+Uuid: 4Wpn2jwhgZ4vU0Uz
+
+----
+
+Template: blocks/image

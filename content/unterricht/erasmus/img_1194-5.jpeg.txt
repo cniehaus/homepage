@@ -1,0 +1,5 @@
+Uuid: glttsXh23UAM9LFQ
+
+----
+
+Template: blocks/image
