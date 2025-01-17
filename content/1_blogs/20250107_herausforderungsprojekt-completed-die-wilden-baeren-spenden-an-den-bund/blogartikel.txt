@@ -1,0 +1,33 @@
+Title: „Herausforderungsprojekt completed“ – „die wilden Bären“ spenden an den BUND
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://CTK0MAwSvUyGgV25"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"eb379377-9004-40a6-b532-07c5b24ed0b1","isHidden":false,"type":"image"}],"id":"456326e2-d729-4b5d-942c-caea898190bc","width":"1/1"}],"id":"b336cee6-1c51-4caa-a076-8d758873bb6e"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Wir sind Kalle, Anton, Lasse, Niklas, Jesko, Tjade und unsere Begleiterin Bele. Wir sind beim Herausforderungsprojekt 2024 als Gruppe mit dem Namen „Die wilden Bären“ ganze 900 Kilometer bis nach Amsterdam geradelt. Dabei haben wir 1644,92 Euro Spenden gesammelt, die wir nun an den BUND überwiesen haben. Der BUND ist eine Organisation, die sich vor allem für Umweltschutz einsetzt. Somit setzen wir ein Zeichen auch für den Schutz der Meere, was uns besonders am Herzen liegt.</p>"},"id":"a64db923-3622-41f6-905e-6744f60455ed","isHidden":false,"type":"text"}],"id":"7b441314-48f3-44f4-a5ef-a8f783e06372","width":"1/1"}],"id":"6c00db7a-6d79-4929-a6b3-321c21d5daa3"}]
+
+----
+
+Date: 2025-01-07 10:30:00
+
+----
+
+Datumstartseite: 2025-05-07 10:30:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Kalle Janout, Kirstin Westerholt
+
+----
+
+Tags: herausforderungsprojekt, projekt, spende
+
+----
+
+Downloads: 
+
+----
+
+Uuid: lXNgjzcToM5Y9FqF

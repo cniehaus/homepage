@@ -1,0 +1,33 @@
+Title: Vorlesewettbewerb der 6. Klassen an der KGS-Rastede
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://th7F5axjrEMcDCB5"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"6c34d3ef-1002-4262-9850-b782cfe610ff","isHidden":false,"type":"image"}],"id":"b3583943-af00-4602-979a-927e1609f812","width":"1/1"}],"id":"dc5a8297-b4ef-43b6-967a-2260bebce322"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am 10. Dezember 2024 wurde an der KGS-Rastede erneut der Vorlesewettbewerb der 6. Klassen ausgetragen. Insgesamt acht Schülerinnen und Schüler traten an, um mit spannenden Buchauszügen und viel Lesetalent zu beeindrucken. Die Jury setzte sich aus Frau Schneemann, Frau Oehne-Berdau, Herrn Dr. Stockmann sowie den Schülerinnen Alexa Stephan, der Gewinnerin des Vorjahres, und Sharlyn Kobler und Emma Wurm aus dem 13. Jahrgang zusammen.</p><p>Der Wettbewerb bestand aus zwei Durchgängen. In der ersten Runde stellten die Teilnehmenden zunächst ihr ausgewähltes Buch vor, bevor sie eine selbst gewählte Passage daraus vorlasen. Kriterien wie Lesetechnik, Interpretation und die Wahl der Textstelle spielten dabei eine Rolle. Nach der ersten Runde gab es eine kleine Pause, in der alle Beteiligten mit Süßigkeiten und Getränken versorgt wurden. Die zweite Runde stellte die Leserinnen und Leser vor eine andere Herausforderung: Sie mussten einen vorher nicht bekannten Text vorlesen und nach 2 Minuten weitergeben. In diesem Jahr war es ein Auszug aus dem Jugendbuch „Woodwalkers – Carags Verwandlung“ von Katja Brandis.</p><p>Nach beiden Runden und intensiven Beratungen der Jury stand die Gewinnerin fest: Leentje Bruns überzeugte mit ihrer Lesung aus „Charlottes Traumpferd“ von Nele Neuhaus und konnte sich gegen die starke Konkurrenz durchsetzen. Den zweiten Platz belegte Leonie Hau. Herzlichen Glückwunsch!</p><p>Ein herzliches Dankeschön gilt der Buchhandlung „Seite 1“ in Rastede, die auch in diesem Jahr beide Hauptpreise, zwei Bücher, gesponsert hat. Der Vorlesewettbewerb war ein voller Erfolg und sorgte nicht nur bei den Teilnehmenden, sondern auch bei der Jury für eine tolle Atmosphäre und jeder Menge Lesespaß.</p>"},"id":"00f816ee-f446-478d-85d4-42b5907a2b22","isHidden":false,"type":"text"}],"id":"356d153e-cc58-4e26-a01d-c1fb26a1e218","width":"1/1"}],"id":"bca7d6ce-68bd-401f-81cd-1626051b45f9"}]
+
+----
+
+Date: 2025-01-15 10:55:00
+
+----
+
+Datumstartseite: 2025-05-15 10:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Sharlyn Kobler und Emma Wurm
+
+----
+
+Tags: Deutsch, Wettbewerb, Lesen, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: zQlR7dc62FI3yRYd

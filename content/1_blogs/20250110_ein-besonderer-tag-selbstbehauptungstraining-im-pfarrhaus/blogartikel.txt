@@ -1,0 +1,33 @@
+Title: Ein besonderer Tag - Selbstbehauptungstraining im Pfarrhaus
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Ein besonderer Tag: Selbstbehauptungstraining im Pfarrhaus</strong> </p><p>Unser Tag begann anders als sonst: Kein Unterricht, keine Bücher – stattdessen waren wir im Pfarrhaus der katholischen Kirche in Rastede. Dort wartete ein spannendes Selbstbehauptungstraining auf uns, geleitet von Herrn Krause, einem echten Profi, und unserem Schulsozialarbeiter Herrn Pernt. </p><p><strong>Spielerisch starten: Obstsalat</strong> </p><p>Zum Einstieg haben wir das Spiel „Obstsalat“ gespielt. Es wurden Fragen gestellt, wie zum Beispiel: „Wer mag Pizza?“ oder „Wer hat heute verschlafen?“ Wenn eine Aussage auf einen zutraf, musste man aufstehen und schnell den Platz wechseln. Dabei wurde viel gelacht, und wir haben gleich zu Beginn richtig Schwung in die Gruppe gebracht. </p><p><strong>Poolnudeln: Kampf mit überraschendem Ende</strong> </p><p>Ein weiteres Highlight war das Spiel mit den Poolnudeln. Zwei Personen traten gegeneinander an und sollten sich mit den weichen Poolnudeln „kämpfen“. Was sie nicht wussten: Die restliche Gruppe feuerte sie lautstark an. Dabei wurde die Lautstärke mit einer Lärmampel gemessen, was die Stimmung richtig angeheizt hat! Erst wurde eine Person angefeuert, dann wechselte auf ein stilles, verabredetes Signal der Jubel zur anderen Person. Doch plötzlich, auf ein weiteres Kommando, wurde es völlig still – niemand feuerte mehr an. </p><p>Diese plötzliche Stille war eine Überraschung für die Teilnehmenden und hatte eine spannende Wirkung: Viele merkten, wie wichtig die Unterstützung der Gruppe für ihre Energie und Motivation war. Ohne Anfeuerung fühlte sich der „Kampf“ gleich ganz anders an – weniger kraftvoll und motivierend. Es zeigte, wie stark man durch die Stimmung und das Verhalten der anderen beeinflusst wird. </p><p><strong>Herausforderungen als Team meistern</strong> </p><p>Besonders spannend war auch eine Aufgabe, bei der wir als Team zusammenarbeiten mussten. Ziel war es, einen Holzstab so weit wie möglich entfernt aufzustellen – ohne dabei eine Linie zu übertreten oder den Boden zu berühren. Das klang erstmal leicht, war aber eine echte Herausforderung! Wir mussten ausprobieren, Ideen sammeln und gut miteinander reden. Manchmal war es nicht einfach, wenn die Vorschläge von anderen erst einmal komisch wirkten. Aber genau das machte es so spannend: sich als Team zu finden und auch mal etwas zu riskieren. Am Ende waren wir selbst beeindruckt, was alles möglich war! </p><p><strong>Blinde Kuh mal anders</strong> </p><p>Eine andere Übung brachte uns zum Nachdenken – und zum Staunen. Wir sollten jemanden mit verbundenen Augen nur durch Berührungen oder Geräusche sicher durch den Raum führen. Die Schwierigkeit wurde später gesteigert, als andere im Raum laut sein durften. Das war ziemlich herausfordernd, weil wir uns voll aufeinander verlassen mussten. Aber genau das machte die Übung besonders – und hat viel Spaß gemacht! </p><p><strong>Laut werden erlaubt!</strong> </p><p>Natürlich durfte das Grenzen setzen auch nicht fehlen. In einer Übung sollten wir so tun, als würde jemand zu nah an uns herankommen, und dann laut und deutlich „Stopp!“ rufen. Dabei mussten wir so überzeugend wie möglich sein – und das hat echt Spaß gemacht! Eine Mitschülerin meinte hinterher lachend: „Endlich durfte ich mal laut sein, ohne Ärger zu kriegen!“ E</p><p><strong>in Tag voller neuer Erfahrungen</strong> </p><p>Der Tag war nicht nur lustig, sondern auch emotional. Manchmal wurde es knifflig, und es floss sogar mal eine Träne, wenn etwas nicht gleich klappte. Aber am Ende waren wir stolz auf das, was wir geschafft haben. Wir haben gelernt, mutiger zu sein, einander zu vertrauen und uns klar auszudrücken. </p><p>Ein großes Dankeschön geht an die kvhs Ammerland, die diese besondere Aktion möglich gemacht hat. Wir sind sehr dankbar für diese tolle Gelegenheit!</p>"},"id":"5779ad1e-70c9-427e-811a-ec558f663c79","isHidden":false,"type":"text"}],"id":"c024fa72-2d42-42e9-b4a1-2b4024d58f2e","width":"1/1"}],"id":"ce1bd1e2-2e0a-4689-8cb9-a6dbb496a2d6"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://x5VEEVjvBJ3xfsQB"],"caption":"","ratio":"","crop":"false"},"id":"960aae8c-46e1-40fd-8023-01dbe97c73e9","isHidden":false,"type":"gallery"}],"id":"18ef95f8-50ad-4fda-a6f3-8e7b56441005","width":"1/2"},{"blocks":[{"content":{"images":["file://aHIz3lpRJ85rAeVK"],"caption":"","ratio":"","crop":"false"},"id":"fc41fa55-4395-4b5e-9771-ebea75c25181","isHidden":false,"type":"gallery"}],"id":"3735881f-a012-4711-a862-c4cc07593115","width":"1/2"}],"id":"86737a46-1c0e-4407-bc9d-f7a1659e6c8e"}]
+
+----
+
+Date: 2025-01-10 10:40:00
+
+----
+
+Datumstartseite: 2025-05-10 10:40:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Klasse 6E3
+
+----
+
+Tags: soziales Lernen, Ausflug, Selbstbehauptungstraining, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: aPg7vvFP8o8F3ayE

@@ -1,0 +1,33 @@
+Title: Senioren und Schüler feiern gemeinsam Weihnachten
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://PxHZKCyngSXLGpsl"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b646ca6d-ec96-4a28-b15e-46414d71f906","isHidden":false,"type":"image"}],"id":"fc82d358-be5f-475c-9385-742845f5942c","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://0AU6k1QkH96bvSeC"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"5d3acc44-c599-406d-92e3-50bda35c9e47","isHidden":false,"type":"image"}],"id":"e2c74b72-e1fe-4ea1-8e01-d3eb3dd99db0","width":"1/2"}],"id":"880793e2-d529-4c0f-b001-d5ddd8a36381"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Die Weihnachtsfeier der Schülerfirma „Das Sofa-Team\" fand am 12.12.2024 mit zirka 20 Senioren statt. Die Feier, die wir mit viel Freude und Engagement gestaltet haben, begann stimmungsvoll, als wir alle zusammen das Lied „Alle Jahre wieder\" gesungen haben, um uns in die festliche Stimmung zu versetzen. </p><p>Im Anschluss trug eine Schülerin das Gedicht „Weihnachtsmann, kiek mi in\" vor, das die Herzen der Zuhörer berührte und für ein paar besinnliche Momente sorgte. Danach wurde es lebhaft, als wir Bingo spielten - mit weihnachtlich gestalteten Bingo-Karten, die für eine großartige Atmosphäre sorgten. Die Gewinner freuten sich über größere Schokoladen-Weihnachtsmänner, während alle anderen Teilnehmer mit kleineren Schokoladen-Weihnachtsmännern beschenkt wurden. </p><p>Nach dem Spiel stimmten wir gemeinsam das Lied „Schneeflöckchen, Weißröckchen\" an, gefolgt von „Morgen kommt der Weihnachtsmann\", was für fröhliches Mitsingen und gute Laune sorgte. </p><p>In der letzten halben Stunde tauschten wir uns in gemütlicher Runde aus. An den festlich dekorierten Tischen genossen wir Kaffee, Tee sowie weihnachtliche Leckereien wie Kekse und Mandarinen </p><p>Die Feier dauerte eineinhalb Stunden und wurde von rund 20 Senioren besucht. Es war ein gelungenes, gemeinschaftliches Fest, das allen Beteiligten große Freude bereitet hat. </p><p>Wir freuen uns schon auf die nächste Feier und bedanken uns herzlich bei allen, die mitgemacht und mitgeholfen haben! Besonders gefreut hat uns, dass der Förderverein der KGS dafür gesorgt hat, dass der nicht unerhebliche „Kaffeedurst“ aller Teilnehmer gestillt werden konnte.</p>"},"id":"08b776e1-bbdf-43a8-b255-9c23a0197905","isHidden":false,"type":"text"}],"id":"8acdfd00-3665-406e-a7c2-06f8b22c1f13","width":"1/1"}],"id":"4f54b4d1-000e-45c6-99b5-9f8f4599beab"}]
+
+----
+
+Date: 2025-01-10 10:10:00
+
+----
+
+Datumstartseite: 2025-05-10 10:10:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Rahaf A., 9B2
+
+----
+
+Tags: Das Sofa-Team, Schülerfirmen
+
+----
+
+Downloads: 
+
+----
+
+Uuid: AtX0RuwdLf8a77GM

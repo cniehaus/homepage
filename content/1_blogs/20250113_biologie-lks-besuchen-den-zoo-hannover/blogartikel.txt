@@ -1,0 +1,33 @@
+Title: Biologie-LKs besuchen den Zoo Hannover
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://fn6KeW5WezsswXHg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"e748a267-c9e5-4a2c-ab00-26cf40f629e9","isHidden":false,"type":"image"}],"id":"4086f689-d94e-4c8e-aecc-33dbb11d2abd","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://kLlWsj2DEpFnBUxl"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"2e4a7873-1805-489f-91ec-6191befb9193","isHidden":false,"type":"image"}],"id":"047bfb29-11db-4466-a56a-f5d36332ffc0","width":"1/2"}],"id":"982536e1-c634-49f1-b61d-532f1ce124e4"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Verhaltensbeobachtungen im Zoo Hannover</p><p>Kurz vor den Weihnachtsferien machten sich die drei Leistungskurse Biologie auf den Weg zum Zoo Hannover, um in einem Workshop geschlechtsspezifisches Verhalten bei Primaten zu beobachten. Nachdem die Schüler<em>innen bereits im Unterricht die Ausbildung von Geschlechtsdimorphismus, Rangordnungen und Paarungsstrategien als Ergebnis von evolutionären Prozessen kennengelernt hatten, sollten nun endlich einmal lebende Tiere dem ansonsten eher abstrakten Unterricht Anschauung verleihen. Die recht lange Anfahrt mit Bahn und Bus klappte (erstaunlich) reibungslos und die Schüler</em>innen wurden im Zoo freundlich von den Mitarbeiterinnen begrüßt und durch den Zoo geführt.</p><p>Dabei stellte sich heraus, dass Beobachtungen am lebenden Objekt so ihre Tücken haben. Während die eine Schülergruppe auf einen recht schläfrigen Schimpansenclan traf und auch bei den Drills Napongo, Pinto sowie Dutse und Kiana nur mäßig aktiv waren, erlebte die andere Gruppe einen aufregenden Vormittag, der zunächst bei den Zebras startete. Hier ging es zunächst allgemein um die Frage ob moderne Zoos noch artgerecht oder eher unvertretbar seien. Danach ging es dann zu den Drills, an denen der Sexualdimorphismus und das dominante Verhalten gegenüber anderen männlichen Artgenossen beobachtet wurde. Bei den Drills können die Männchen die dreifache Masse der Weibchen haben, große Eckzähne besitzen, obwohl sie Vegetarier sind, und extrem auffällige sexuelle Hautfärbungen aufweisen.</p><p>Das Gorillamännchen lag lässig an der Fensterscheibe, beobachtete uns aber aus dem Augenwinkel heraus ganz genau, um seine Weibchen zu beschützen. Zum Schluss schauten wir uns dann die Schimpansen an und lernten auch das 60-jährige Schimpansen-Männchen „Max“ kennen, der noch im Dschungel geboren wurde. Heute ist es verboten, Tiere aus ihrem natürlichen Lebensraum zu nehmen, um diese in einem Zoo zu halten. Während uns sehr viel über das Verhalten von Schimpansen erzählt wurde, fand Max uns irgendwann lästig und schlug an die Scheibe, damit wir endlich verschwinden. Die 105 Minuten vergingen wie im Flug und nach der Führung konnte man noch ein wenig den Zoo oder die Stadt Hannover erkunden.</p>"},"id":"342a5a83-5a02-4dc3-a7ff-710cf8d9aa2e","isHidden":false,"type":"text"}],"id":"a9876c3a-325e-497b-821e-8cfad337d023","width":"1/1"}],"id":"50bca56d-518c-4989-bac3-1a846f2a9ecb"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://OSNBkk2ju9WTtWgS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ae681076-22ce-4fbc-b622-a5e605ba5925","isHidden":false,"type":"image"}],"id":"2e284e51-2154-4954-b756-ac9e44acff35","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://dDsjMZXOuv7FXJlS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a188c454-6028-4bb4-a128-cefb7c26fadb","isHidden":false,"type":"image"}],"id":"278b4aac-6580-4db0-85b2-13ad67ef0973","width":"1/2"}],"id":"c7951a78-02fc-4fbd-95ea-fc5cd09c3012"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://NLUc2LcpE20DVq1E"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"8228cfff-09f1-4bed-9d79-7da9e78ed230","isHidden":false,"type":"image"}],"id":"dec31df7-d6b2-427a-bb0b-d456db1b6823","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://5c2MvENumZrUxWw8"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"4f792888-6d29-456c-9578-98091352c979","isHidden":false,"type":"image"}],"id":"43be6d3c-ede9-4337-8c93-f0b2698f9bde","width":"1/2"}],"id":"99621c88-8965-4c11-81b0-774b3e0d524e"}]
+
+----
+
+Date: 2025-01-13 09:05:00
+
+----
+
+Datumstartseite: 2025-05-13 09:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: BiL1,BiL3,BiL5
+
+----
+
+Tags: Biologie, Ausflug, Projekt, Leistungskurs
+
+----
+
+Downloads: 
+
+----
+
+Uuid: hwDwXKo9UQjDNsnn

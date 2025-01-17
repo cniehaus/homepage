@@ -1,0 +1,33 @@
+Title: Ein Wintergedicht
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://kuUYsTrRpvKgYEsT"],"caption":"","ratio":"","crop":"false"},"id":"42e23c3c-9d75-4935-baa8-b8b53a6cf091","isHidden":false,"type":"gallery"}],"id":"072e676a-d090-4fba-bd1b-e3074daee3e8","width":"1/1"}],"id":"0746663f-a788-4f2a-b6dd-3130e774b2bf"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Der Schneesturm</strong></p><p> </p><p>Der Wind ist laut, die Nacht ist kalt,</p><p>der Schnee fällt leis, bedeckt den Wald.</p><p>Kein Stern, kein Licht, es funkelt nicht, kein Weg zu sehen,</p><p>Man kann nicht gehen.</p><p> </p><p>Die Schneeflocken toben im Wind,</p><p>der Wind wird stärker geschwind.</p><p>Der Sturm wird stark, er tobt und schreit,</p><p>er bringt den Winter weit und breit.</p><p> </p><p>Ein Mann stapft durch die Nacht,</p><p>der Sturm ist laut und kracht.</p><p>Sein Herz pocht schnell,</p><p>der Weg bleibt dunkel und gar nicht hell.</p><p> </p><p>Ihm ist so kalt, er pustet leis,</p><p>er hat Angst, dass er den Weg nicht weiß.</p><p>Er hofft, dass der Sturm vergeht.</p><p>Und alles wieder stillsteht.</p><p> </p><p>Dann ist der Sturm fort,</p><p>nun ist es ein ruhiger Ort,</p><p>der Schnee leuchtet hell im Sonnenschein,</p><p>so friedlich kann der Winter sein.</p><p><strong>Lasse 7A2</strong></p>"},"id":"0b765076-ba35-465a-b0ba-49e438030d04","isHidden":false,"type":"text"}],"id":"cce9530b-1f3c-4185-97f1-5b2c0deca321","width":"1/1"}],"id":"1dc36592-ee15-45b8-94e7-6aec3aa292f4"},{"attrs":[],"columns":[{"blocks":[{"content":{"images":["file://0rqEF8bsu69itTI9"],"caption":"","ratio":"","crop":"false"},"id":"c49ce96b-3cd3-4ba0-a6d5-34548cc3532a","isHidden":false,"type":"gallery"}],"id":"e7fde4d4-d637-4a82-bbd3-c73658ea67b3","width":"1/1"}],"id":"a9b5345d-16dc-4e04-9b2c-211909dc5e69"}]
+
+----
+
+Date: 2025-01-10 10:00:00
+
+----
+
+Datumstartseite: 2025-05-10 10:00:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Lasse 7A2
+
+----
+
+Tags: Deutsch, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: O3ibcMBJGRsZC15P
