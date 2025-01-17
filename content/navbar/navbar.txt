@@ -4,84 +4,83 @@ Title: Menü. Bezeichnungen
 
 Navbar:
 
--
+- 
   dropdowntoggle: 'true'
   kategorietitel: Kontakt
   kategorieseite: [ ]
   unterpunkte:
-    -
+    - 
       isexternal: 'false'
       linktitle: Anfahrt
       pagelink:
-        - allgemeines/anfahrt
+        - page://mg9wMgYkrIaFlCbM
       externallink: ""
       trennstrich: 'true'
       icon: geo-alt
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulleitung
       pagelink:
-        - kontakte/schulleitung
+        - page://Vvqk7AgFZYXHcQbG
       externallink: ""
       trennstrich: 'false'
       icon: person-circle
-    -
+    - 
       isexternal: 'false'
       linktitle: Fachbereichsleiter
       pagelink:
-        - kontakte/fbl
+        - page://MdNd7iz8FCMpn2jG
       externallink: ""
       trennstrich: 'false'
       icon: person-square
-    -
+    - 
       isexternal: 'false'
       linktitle: Kollegium
-      pagelink:
-        - lehrer
+      pagelink: [ ]
       externallink: ""
       trennstrich: 'false'
       icon: person-lines-fill
-    -
+    - 
       isexternal: 'false'
       linktitle: Sekretariate
       pagelink:
-        - kontakte/sekretariate
+        - page://cNrTqydd2x8g4rGq
       externallink: ""
       trennstrich: 'false'
       icon: telephone-fill
-    -
+    - 
       isexternal: 'false'
       linktitle: Hausmeister
       pagelink:
-        - kontakte/sekretariate
+        - page://cNrTqydd2x8g4rGq
       externallink: ""
       trennstrich: 'true'
       icon: tools
-    -
+    - 
       isexternal: 'false'
       linktitle: 'Schüler*innen Vertretung (SV)'
       pagelink:
-        - sv
+        - page://bSp5sUOo62vU1QZC
       externallink: ""
       trennstrich: 'false'
       icon: people-fill
-    -
+    - 
       isexternal: 'false'
       linktitle: Personalrat (SPR)
       pagelink:
-        - kontakte/spr
+        - page://gAuaVJzFieglbAvm
       externallink: ""
       trennstrich: 'false'
       icon: briefcase-fill
-    -
+    - 
       isexternal: 'false'
       linktitle: Gleichstellungsbeauftragte
       pagelink:
-        - kontakte/gleichstellung
+        - page://tba3OyjSqcGw4uzI
       externallink: ""
       trennstrich: 'false'
       icon: person-fill
-    -
+    - 
       isexternal: 'true'
       linktitle: Schulelternrat (SER)
       pagelink: [ ]
@@ -95,302 +94,324 @@ Navbar:
       externallink: https://foerderverein.kgsraste.de/
       trennstrich: 'false'
       icon: tags-fill
--
+- 
   dropdowntoggle: 'true'
   kategorietitel: Über die Schule
   kategorieseite: [ ]
   unterpunkte:
-    -
+    - 
       isexternal: 'false'
       linktitle: Leitbild
       pagelink:
-        - schule/leitbild
+        - page://Z9tm2VsMrsIBwb4r
       externallink: ""
       trennstrich: 'false'
       icon: bar-chart
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulprogramm
       pagelink:
-        - schule/schulprogramm
+        - page://zK50gumpWWjMhDE1
       externallink: ""
       trennstrich: 'false'
       icon: layout-wtf
-    -
+    - 
+      isexternal: 'false'
+      linktitle: Schulvorstand
+      pagelink:
+        - page://9ghOiiXzBHr8rdLp
+      externallink: ""
+      trennstrich: 'false'
+      icon: people-fill
+    - 
       isexternal: 'false'
       linktitle: Unsere Geschichte
       pagelink:
-        - schule/geschichte
+        - page://Cg8KeI3uXYcKD5wL
       externallink: ""
       trennstrich: 'true'
       icon: book
-    -
+    - 
       isexternal: 'false'
       linktitle: Übergang Grundschule / KGS
       pagelink:
-        - schule/grundschule
+        - page://FsXZSF81gmA8vf4k
       externallink: ""
       trennstrich: 'true'
       icon: box-arrow-right
-    -
+    - 
       isexternal: 'false'
       linktitle: Die drei Schulzweige
       pagelink:
-        - schule/zweige
+        - page://gPkdfOsduFxm10MG
       externallink: ""
       trennstrich: 'false'
       icon: list-ol
-    -
+    - 
       isexternal: 'false'
       linktitle: Oberstufe
       pagelink:
-        - schule/oberstufe
+        - page://Surdto5GGPSksT6U
       externallink: ""
       trennstrich: 'false'
       icon: star
-    -
+    - 
       isexternal: 'false'
       linktitle: Abschlüsse an der KGS Rastede
       pagelink:
-        - schule/abschluesse
+        - page://OD3fGm89HxlY5hW3
       externallink: ""
       trennstrich: 'true'
       icon: journal-text
-    -
+    - 
       isexternal: 'false'
       linktitle: Profile und Wahlen
       pagelink:
-        - schule/wahlen
+        - page://4qlReM13q4Bf2UeM
       externallink: ""
       trennstrich: 'true'
       icon: shield-check
-    -
+    - 
       isexternal: 'false'
       linktitle: Zuständigkeiten / Organigramm
       pagelink:
-        - schule/organigramm
+        - page://wLiIqRX5s15HNl8f
       externallink: ""
       trennstrich: 'true'
       icon: diagram-3
-    -
+    - 
       isexternal: 'false'
       linktitle: Ausbildungsschule
       pagelink:
-        - schule/ausbildungsschule
+        - page://wqRe4vOjEEqzXOJE
       externallink: ""
       trennstrich: 'true'
       icon: award
-    -
+    - 
       isexternal: 'false'
       linktitle: Unsere Schule in der Presse
       pagelink:
-        - schule/presse
+        - page://Ag2nsBiezh4V6D53
       externallink: ""
       trennstrich: 'false'
       icon: newspaper
--
+- 
   dropdowntoggle: 'true'
   kategorietitel: 'Unterricht & Schulleben'
   kategorieseite: [ ]
   unterpunkte:
-    -
+    - 
       isexternal: 'false'
       linktitle: Fächer
       pagelink:
-        - Faecher
+        - page://r5GGlS3XnBei9xZx
       externallink: ""
       trennstrich: 'false'
       icon: easel
-    -
+    - 
       isexternal: 'false'
       linktitle: Schülerfirmen
       pagelink:
-        - unterricht/schuelerfirmen
+        - page://Iv6N3LkRMgPr3Ado
       externallink: ""
       trennstrich: 'false'
       icon: shop
-    -
+    - 
       isexternal: 'false'
       linktitle: Berufliche Orientierung
       pagelink:
-        - unterricht/berufsorientierung
+        - page://WmBuvtXUaiQj7R4J
       externallink: ""
       trennstrich: 'false'
       icon: signpost-split
-    -
+    - 
       isexternal: 'false'
       linktitle: Inklusion
       pagelink:
-        - unterricht/inklusion
+        - page://DyCJQXvtMnV9tYD5
       externallink: ""
       trennstrich: 'false'
       icon: door-open
-    -
+    - 
       isexternal: 'false'
       linktitle: 'Unterstützung & Beratung'
       pagelink:
-        - beratungskonzept
+        - page://Z7zH7x8Spw00TbNj
       externallink: ""
       trennstrich: 'false'
       icon: chat-dots
-    -
+    - 
       isexternal: 'false'
       linktitle: 'Schule ohne Rassismus - Schule mit Courage'
       pagelink:
-        - >
-          unterricht/schule-ohne-rassismus-schule-mit-courage
+        - page://XBS428kB2t2ZANOA
       externallink: ""
       trennstrich: 'false'
       icon: peace
-    -
+    - 
       isexternal: 'false'
-      linktitle: Herausforderungsprojekt
+      linktitle: Erasmus
       pagelink:
-        - >
-          unterricht/herausforderungsprojekt/herausforderungsprojekt-2022
+        - page://dlehOwgRnV51f8Oz
+      externallink: ""
+      trennstrich: 'false'
+      icon: globe-europe-africa
+    - 
+      isexternal: 'false'
+      linktitle: Herausforderungsprojekt 2025
+      pagelink:
+        - page://jTcBf7aeTJYKdbba
       externallink: ""
       trennstrich: 'true'
       icon: lightbulb
-    -
+    - 
       isexternal: 'false'
       linktitle: 'Online-Schüler*innenzeitung IRREGULäR'
       pagelink:
-        - unterricht/online-schueler-innenzeitung
+        - page://sRv6UzBltcawrmlT
       externallink: ""
       trennstrich: 'false'
       icon: bookmark
-    -
+    - 
       isexternal: 'false'
       linktitle: Junge Kultur e.V.
       pagelink:
-        - unterricht/jungekultur
+        - page://lhEgI9vlcOpNiuBI
       externallink: ""
       trennstrich: 'true'
       icon: music-note-beamed
-    -
+    - 
       isexternal: 'false'
       linktitle: Arbeitsgemeinschaften
       pagelink:
-        - unterricht/ag-angebot
+        - page://oj2o73UyhYrHZpfN
       externallink: ""
       trennstrich: 'false'
       icon: collection
-    -
+    - 
       isexternal: 'false'
       linktitle: Wettbewerbe
       pagelink:
-        - unterricht/wettbewerbe
+        - page://S6uGNjfzASVhS33G
       externallink: ""
       trennstrich: 'true'
       icon: trophy
-    -
+    - 
       isexternal: 'false'
       linktitle: "AG 'Für den Frieden'"
       pagelink:
-        - unterricht/ag-frieden
+        - page://88gOlr2oSHLoSTvT
       externallink: ""
       trennstrich: 'false'
       icon: peace
-    -
+    - 
       isexternal: 'false'
       linktitle: Streitschlichter
       pagelink:
-        - unterricht/streitschlichter
+        - page://FIuN1VaOLkCAzCQA
       externallink: ""
       trennstrich: 'false'
       icon: chat-left-text
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulsanitätsdienst
       pagelink:
-        - unterricht/ssd
+        - page://uQRuI6KFHzeaQxRW
       externallink: ""
       trennstrich: 'false'
       icon: people
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulsportassistenten
       pagelink:
-        - unterricht/schulsport
+        - page://Vx9yK4McvhSQeBqB
       externallink: ""
       trennstrich: 'false'
       icon: flower1
-    -
+    - 
       isexternal: 'false'
       linktitle: >
         BO-Coaches. Hilfe bei der
         Berufsorientierung
       pagelink:
-        - unterricht/bo-coaches
+        - page://doUyUBJCK02dLrId
       externallink: ""
       trennstrich: 'false'
       icon: signpost
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulhund
       pagelink:
-        - unterricht/schulhund
+        - page://wa8zghDMNrIMR8GH
       externallink: ""
       trennstrich: 'false'
       icon: suit-heart
-    -
+    - 
       isexternal: 'false'
       linktitle: SCHULRADELN
       pagelink:
-        - unterricht/schulradeln
+        - page://PwKaQ3Sku8tmhzAX
       externallink: ""
       trennstrich: 'false'
       icon: bicycle
--
+- 
   dropdowntoggle: 'true'
   kategorietitel: 'Service & Downloads'
   kategorieseite: [ ]
   unterpunkte:
-    -
+    - 
       isexternal: 'false'
       linktitle: Informationen und Formulare
       pagelink:
-        - allgemeines/wichtigelinks
+        - page://21HnypzmhaCIrStR
       externallink: ""
       trennstrich: 'false'
       icon: paperclip
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulbuchlisten
       pagelink:
-        - allgemeines/schulbuchlisten
+        - page://Tm2gYmbcfkDLMGIL
       externallink: ""
       trennstrich: 'false'
       icon: filter
-    -
+    - 
       isexternal: 'false'
       linktitle: Schulbusverkehr
       pagelink:
-        - allgemeines/bus
+        - page://qYcZ5CKvc0WU9YBH
       externallink: ""
       trennstrich: 'false'
       icon: truck
-    -
+    - 
       isexternal: 'false'
       linktitle: Zeitraster
       pagelink:
-        - allgemeines/zeitraster
+        - page://2VPHxftm7U6chJAL
       externallink: ""
       trennstrich: 'false'
       icon: clock
-    -
+    - 
       isexternal: 'false'
       linktitle: Suche
       pagelink:
-        - search
+        - page://ajeS0F1xR5PXwt34
       externallink: ""
       trennstrich: 'false'
       icon: search
--
+    - 
+      isexternal: 'true'
+      linktitle: Eltern-Wiki
+      pagelink: [ ]
+      externallink: >
+        https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt
+      trennstrich: 'false'
+      icon: person-raised-hand
+- 
   dropdowntoggle: 'false'
   kategorietitel: Kalender
   kategorieseite:
-    - allgemeines/kalender
+    - page://iIDmud7HvCJUSCay
   unterpunkte: [ ]
 
 ----

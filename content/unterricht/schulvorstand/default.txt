@@ -1,0 +1,21 @@
+Title: Schulvorstand
+
+----
+
+Heading: 
+
+----
+
+Text: [{"content":{"text":"<p>Der Schulvorstand spielt eine zentrale Rolle in der Schulorganisation. Er setzt sich aus Mitgliedern der Schulgemeinschaft zusammen, darunter Eltern, Lehrkräfte und Schüler:innen, und hat die Aufgabe, die Interessen dieser Gruppen zu vertreten und die schulischen Belange zu fördern.</p><p>Zu den wesentlichen Aufgaben des Schulvorstands gehört die Mitwirkung an der Entwicklung und Umsetzung des Schulprogramms. Hierbei wird darauf geachtet, dass die pädagogischen Ziele der Schule im Einklang mit den Bedürfnissen der Schüler und der Gemeinschaft stehen. Der Schulvorstand ist auch in die Überwachung des Haushalts der Schule eingebunden. Die Aufgaben und Befugnisse des Schulvorstands sind wie folgt festgelegt:</p><p><strong>Mitglieder des aktuellen Schulvorstands:</strong></p><p><u>Schüler:innen:</u></p><p>Laura Dinter, Yassir Hassoun, Simon Kobler, Theda Lay</p><p><u>Eltern</u>:</p><p>Sandra Cordes, Hartwig Haßmann, Yvonne Hennemann, Jutta Steinkamp</p><p><u>Lehrkräfte:</u></p><p>Saskia Duin-Lay (DUI), Angela Eckhardt-Klebert (KB), Thorsten Meyer (MY), Carsten Mönnich (MCH), Andreas Pätzold (PTZ), Philip Pauleit (PL), Silvia Pohlgeers (PGR), Claudia Berger (BE)</p><p>Erreichbar ist der Schulvorstand unter <a href=\"mailto:schulvorstand@kgs-rastede.eu\">schulvorstand@kgs-rastede.eu</a> oder die Lehrkräfte direkt unter ihrem <em>Kürzel@kgs-rastede.eu.</em></p>"},"id":"96b8fbc9-9892-4972-82f0-21dbf458eb2c","isHidden":false,"type":"text"}]
+
+----
+
+Downloads:
+
+- file://UqGyLtBBjTAo3tTo
+- file://Kq3eB8YsCvbMs80K
+- file://uXQRWmuhvNggkC9e
+
+----
+
+Uuid: 9ghOiiXzBHr8rdLp
