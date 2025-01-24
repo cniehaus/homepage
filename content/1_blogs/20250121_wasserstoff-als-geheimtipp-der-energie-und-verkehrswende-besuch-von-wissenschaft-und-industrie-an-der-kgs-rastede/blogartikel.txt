@@ -1,0 +1,33 @@
+Title: Wasserstoff als Geheimtipp der Energie- und Verkehrswende – Besuch von Wissenschaft und Industrie an der KGS Rastede
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://CkZsJqlG9w6u6Ahb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"22f822ec-217a-4e27-84e5-6491dcfd5cf8","isHidden":false,"type":"image"}],"id":"69f9e5b4-73ad-4386-b3bb-c310b7fb0c47","width":"1/1"}],"id":"6d5bd6e8-dd75-4f6e-bf48-c03ae4d88626"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Im Wahlpflichtkurs „Mobilität der Zukunft“ befasst sich der Kurs W2Chemie in Jahrgang 11 mit Fragen zur Verkehrswende und dabei mit alternativen Antrieben und Treibstoffen. Dabei spielt Wasserstoff eine wichtige Rolle in der aktuellen Diskussion. </p><p>Am 09.01.2025 durften wir im Kurs zwei wahre Experten, Herrn Dr. Alexander Dyck vom Deutschen Zentrum für Luft- und Raumfahrt (DLR) und Herrn Hilmer Heineke vom nachhaltigen Projektmanagementdienstleister THHIMA, für eine spannende vierstündige Präsentation zum Thema Wasserstoff begrüßen. Die Veranstaltung bot uns Schüler:innen und unseren Lehrern Herrn Dr. Fach und Herrn Niebur eine umfassende Einführung in die Welt des Wasserstoffs als zukunftsweisender Energieträger. </p><p>Besonders war auch noch eine Live-Internet-Schaltung zu einer Mitarbeiterin der Firma OGE, einer Betreiberfirma für Gasnetze, die am Aufbau einer Wasserstoffinfrastruktur in Deutschland und Europa beteiligt ist. Herr Dyck erläuterte in einem ausführlichen Vortrag die chemischen und physikalischen Eigenschaften von Wasserstoff und zeigte dessen Potenzial in der Energiewende auf. Mit einigen anschaulichen Experimenten und praxisnahen Beispielen führte er durch die verschiedenen Einsatzmöglichkeiten, von der Mobilität bis zur industriellen Nutzung. </p><p>Besonders eindrucksvoll war das mitgebrachte Auto vom koreanischen Hersteller Hyundai, welches wir zu Gesicht bekommen durften. Dieses wandelt mit einer Brennstoffzelle Wasserstoff in Strom und erzeugt so die Energie fürs Fahren. Es zeigte uns, was bereits alles möglich ist mit dem Energieträger Wasserstoff. Herr Heineke erläuterte an verschiedenen Stellen immer wieder Fragen bzw. Problemstellungen rund um die Vernetzung der Sektoren, in denen Wasserstoff zum Einsatz kommen soll: Verkehr, Industrie, Stromerzeugung, Wärmeerzeugung. </p><p>Die Präsentation endete mit einer angeregten Fragerunde, in der die Schüler die Gelegenheit hatten, Fragen zu stellen, welche die beiden Experten dann beantworteten. </p><p>Die KGS Rastede bedankt sich herzlich bei Herrn Dr. Dyck und Herrn Heineke für diese lehrreiche und inspirierende Veranstaltung.</p>"},"id":"694c8dac-e58a-463f-9326-7bccad01f84f","isHidden":false,"type":"text"}],"id":"176419a1-92e7-4f1e-b5b7-5f96d636850c","width":"1/1"}],"id":"a9358f40-208e-4ca7-af93-3829e86bb53c"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://mnCky4mqlhxpHdhB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"05dcf6df-6317-4e70-bc9b-6d868a2b7c6f","isHidden":false,"type":"image"}],"id":"e19850f9-9669-4eea-8fcc-d9a7a34f4c8b","width":"1/1"}],"id":"05a93958-bb6f-49bb-8735-60c1eeb4528f"}]
+
+----
+
+Date: 2025-01-21 09:35:00
+
+----
+
+Datumstartseite: 2025-05-21 09:35:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Ben Gottschalk (11F) und Herr Dr. Fach
+
+----
+
+Tags: Chemie, WPK, Jahrgang 11, Mobilität der Zukunft, Wasserstoff, Projekttag, Projekt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: SZ2flFuId0j22P0c
