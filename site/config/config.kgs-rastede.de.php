@@ -25,7 +25,7 @@ return [
   ],
 
   'studyGroups' => [
-    'url' => 'https://ag-wahl.kgsraste.de/api/v1/study_groups',
+    'url' => 'https://ag-wahl.kgs-rastede.de/api/v1/study_groups',
     'apiKey' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJBUElVU0VSIiwiaWF0IjoxNTE2MjM5MDIyfQ.CYrLWRa3dIURYyXjAW0FBfyiQK2C5mYoVeMY2clN_hY'
   ],
 
