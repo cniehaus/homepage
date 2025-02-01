@@ -1,0 +1,1 @@
+<a href='<?= $pfad ?>' class='text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400'><?= $name ?></a>

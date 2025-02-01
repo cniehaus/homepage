@@ -26,7 +26,7 @@
                             d="M9.638 1.093a.75.75 0 01.724 0l2 1.104a.75.75 0 11-.724 1.313L10 2.607l-1.638.903a.75.75 0 11-.724-1.313l2-1.104zM5.403 4.287a.75.75 0 01-.295 1.019l-.805.444.805.444a.75.75 0 01-.724 1.314L3.5 7.02v.73a.75.75 0 01-1.5 0v-2a.75.75 0 01.388-.657l1.996-1.1a.75.75 0 011.019.294zm9.194 0a.75.75 0 011.02-.295l1.995 1.101A.75.75 0 0118 5.75v2a.75.75 0 01-1.5 0v-.73l-.884.488a.75.75 0 11-.724-1.314l.806-.444-.806-.444a.75.75 0 01-.295-1.02zM7.343 8.284a.75.75 0 011.02-.294L10 8.893l1.638-.903a.75.75 0 11.724 1.313l-1.612.89v1.557a.75.75 0 01-1.5 0v-1.557l-1.612-.89a.75.75 0 01-.295-1.019zM2.75 11.5a.75.75 0 01.75.75v1.557l1.608.887a.75.75 0 01-.724 1.314l-1.996-1.101A.75.75 0 012 14.25v-2a.75.75 0 01.75-.75zm14.5 0a.75.75 0 01.75.75v2a.75.75 0 01-.388.657l-1.996 1.1a.75.75 0 11-.724-1.313l1.608-.887V12.25a.75.75 0 01.75-.75zm-7.25 4a.75.75 0 01.75.75v.73l.888-.49a.75.75 0 01.724 1.313l-2 1.104a.75.75 0 01-.724 0l-2-1.104a.75.75 0 11.724-1.313l.888.49v-.73a.75.75 0 01.75-.75z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>Company</span>
+                    <span>KGS Rastede</span>
                 </a>
                 <!-- END Logo -->
 
@@ -38,7 +38,7 @@
                         <a
                             href="javascript:void(0)"
                             class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-indigo-600 dark:text-gray-100 dark:group-hover:text-indigo-400">
-                            <span>Solutions</span>
+                            <span>Kontakt</span>
                             <svg
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
@@ -62,40 +62,21 @@
                                     <div class="space-y-6 p-8">
                                         <h4
                                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                                            Products
+                                            Desktop links
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                HTML Editor
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                CSS Editor
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Website Builder
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Animations Pack
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                3D Web Studio
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Web Templates
-                                            </a>
-                                        </nav>
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?> </nav>
                                     </div>
                                     <div class="space-y-6 p-8">
                                         <h4
@@ -103,43 +84,25 @@
                                             Features
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Overview
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Components
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Media Libraries
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Databases
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Auto Backups
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                24/7 Support
-                                            </a>
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?>
                                         </nav>
                                     </div>
                                     <div
                                         class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
                                         <h4
                                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                                            From the blog
+                                            Aktuelles
                                         </h4>
                                         <div class="grid grid-cols-2 gap-4 xl:gap-8">
                                             <a
@@ -173,11 +136,11 @@
                     </li>
                     <li
                         class="group [&:focus-within>div]:visible [&:focus-within>div>div]:scale-100 [&:focus-within>div>div]:opacity-100 [&:focus-within>div>div>div]:scale-100 [&:focus-within>div>div>div]:opacity-100">
-                        <!-- Developers Link -->
+                        <!-- Über die Schule Link -->
                         <a
                             href="javascript:void(0)"
                             class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-indigo-600 dark:text-gray-100 dark:group-hover:text-indigo-400">
-                            <span>Developers</span>
+                            <span>Über die Schule</span>
                             <svg
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
@@ -189,9 +152,9 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                         </a>
-                        <!-- END Developers Link -->
+                        <!-- END Über die Schule Link -->
 
-                        <!-- Developers Menu -->
+                        <!-- Über die Schule Menu -->
                         <div
                             class="invisible absolute top-8 right-8 left-8 z-1 pt-8 group-hover:visible">
                             <div
@@ -204,31 +167,18 @@
                                             Get Started
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Installation
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Configuration
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Structure
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Starter Kits
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Deployment
-                                            </a>
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?>
                                         </nav>
                                     </div>
                                     <div class="space-y-6 p-8">
@@ -237,31 +187,18 @@
                                             The Basics
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Routing
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Middleware
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Controllers
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Responses
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Views
-                                            </a>
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?>
                                         </nav>
                                     </div>
                                     <div class="space-y-6 p-8">
@@ -270,31 +207,18 @@
                                             Database
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Query Builder
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Pagination
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Migrations
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Seeding
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Redis
-                                            </a>
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?>
                                         </nav>
                                     </div>
                                     <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
@@ -325,7 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- END Developers Menu -->
+                        <!-- END Über die Schule Menu -->
                     </li>
                     <li
                         class="group [&:focus-within>div]:visible [&:focus-within>div>div]:scale-100 [&:focus-within>div>div]:opacity-100 [&:focus-within>div>div>div]:scale-100 [&:focus-within>div>div>div]:opacity-100">
@@ -333,7 +257,7 @@
                         <a
                             href="javascript:void(0)"
                             class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-indigo-600 dark:text-gray-100 dark:group-hover:text-indigo-400">
-                            <span>Resources</span>
+                            <span>Unterricht und Schulleben</span>
                             <svg
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
@@ -360,36 +284,20 @@
                                             Learn
                                         </h4>
                                         <nav class="flex flex-col gap-3">
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Resource Center
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Developer Docs
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                User Guides
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Starters
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Video Library
-                                            </a>
-                                            <a
-                                                href="javascript:void(0)"
-                                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                                Tutorials
-                                            </a>
+
+                                            <?php
+                                            $menuItems = [
+                                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                                            ];
+
+                                            foreach ($menuItems as $item) {
+                                                snippet('menupath-mobile', $item);
+                                            }
+                                            ?>
+
                                         </nav>
                                     </div>
                                     <div
@@ -467,9 +375,9 @@
                     </li>
                     <li class="group">
                         <a
-                            href="javascript:void(0)"
+                            href="/allgemeines/kalender "
                             class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-indigo-600 dark:text-gray-100 dark:group-hover:text-indigo-400">
-                            <span>Pricing</span>
+                            <span>Kalender</span>
                         </a>
                     </li>
                 </ul>
@@ -479,31 +387,6 @@
 
             <!-- Right Section -->
             <div class="flex items-center">
-                <!-- Actions -->
-                <div class="flex items-center justify-center gap-2">
-                    <a
-                        href="javascript:void(0)"
-                        class="hidden items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none lg:inline-flex dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700">
-                        <span>Sign In</span>
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        class="inline-flex items-center justify-center gap-2 rounded-lg border border-indigo-700 bg-indigo-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-indigo-600 hover:bg-indigo-600 hover:text-white focus:ring-3 focus:ring-indigo-400/50 active:border-indigo-700 active:bg-indigo-700 dark:focus:ring-indigo-400/90">
-                        <span>Get Access</span>
-                        <svg
-                            class="hi-mini hi-arrow-right hidden size-5 opacity-50 sm:inline-block"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            aria-hidden="true">
-                            <path
-                                fill-rule="evenodd"
-                                d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </div>
-                <!-- END Actions -->
 
                 <!-- Open Mobile Navigation -->
                 <div class="ml-3 lg:hidden">
@@ -564,7 +447,7 @@
                             d="M9.638 1.093a.75.75 0 01.724 0l2 1.104a.75.75 0 11-.724 1.313L10 2.607l-1.638.903a.75.75 0 11-.724-1.313l2-1.104zM5.403 4.287a.75.75 0 01-.295 1.019l-.805.444.805.444a.75.75 0 01-.724 1.314L3.5 7.02v.73a.75.75 0 01-1.5 0v-2a.75.75 0 01.388-.657l1.996-1.1a.75.75 0 011.019.294zm9.194 0a.75.75 0 011.02-.295l1.995 1.101A.75.75 0 0118 5.75v2a.75.75 0 01-1.5 0v-.73l-.884.488a.75.75 0 11-.724-1.314l.806-.444-.806-.444a.75.75 0 01-.295-1.02zM7.343 8.284a.75.75 0 011.02-.294L10 8.893l1.638-.903a.75.75 0 11.724 1.313l-1.612.89v1.557a.75.75 0 01-1.5 0v-1.557l-1.612-.89a.75.75 0 01-.295-1.019zM2.75 11.5a.75.75 0 01.75.75v1.557l1.608.887a.75.75 0 01-.724 1.314l-1.996-1.101A.75.75 0 012 14.25v-2a.75.75 0 01.75-.75zm14.5 0a.75.75 0 01.75.75v2a.75.75 0 01-.388.657l-1.996 1.1a.75.75 0 11-.724-1.313l1.608-.887V12.25a.75.75 0 01.75-.75zm-7.25 4a.75.75 0 01.75.75v.73l.888-.49a.75.75 0 01.724 1.313l-2 1.104a.75.75 0 01-.724 0l-2-1.104a.75.75 0 11.724-1.313l.888.49v-.73a.75.75 0 01.75-.75z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>Company</span>
+                    <span>KGS Rastede</span>
                 </a>
                 <!-- END Logo -->
 
@@ -588,275 +471,158 @@
             <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
             <div class="flex flex-col gap-8 px-6 py-6">
                 <div class="grid grid-cols-2 gap-6">
-                    <h3 class="col-span-2 font-semibold">Solutions</h3>
+                    <h3 class="col-span-2 font-semibold">Kontakt</h3>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            Products
+                            Kontakt linke Spalte
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                HTML Editor
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                CSS Editor
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Website Builder
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Animations Pack
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                3D Web Studio
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Web Templates
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
                         </nav>
                     </div>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            Features
+                            Kontakt rechte Spalte
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Overview
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Components
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Media Libraries
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Databases
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Auto Backups
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                24/7 Support
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
                         </nav>
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-6">
-                    <h3 class="col-span-2 font-semibold">Developers</h3>
+                    <h3 class="col-span-2 font-semibold">Über die Schule</h3>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            Get Started
+                            Links
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Installation
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Configuration
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Structure
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Starter Kits
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Deployment
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
+
                         </nav>
                     </div>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            The Basics
+                            Mitte
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Routing
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Middleware
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Controllers
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Responses
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Views
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
                         </nav>
                     </div>
                     <div class="col-span-2 space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            Database
+                            Rechts
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Query Builder
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Pagination
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Migrations
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Seeding
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Redis
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
                         </nav>
                     </div>
                 </div>
                 <div class="grid grid-cols-2 gap-6">
-                    <h3 class="col-span-2 font-semibold">Resources</h3>
+                    <h3 class="col-span-2 font-semibold">Service und Downloads</h3>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
                             Learn
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Resource Center
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Developer Docs
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                User Guides
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Starters
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Video Library
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Tutorials
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
+
                         </nav>
                     </div>
                     <div class="space-y-2">
                         <h4
                             class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                            More
+                            Downloads
                         </h4>
                         <nav class="flex flex-col gap-3">
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Pricing
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Latest Posts
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                class="text-sm font-medium text-gray-700 hover:text-indigo-600 dark:text-gray-300 dark:hover:text-indigo-400">
-                                Latest Tutorials
-                            </a>
+                            <?php
+                            $menuItems = [
+                                ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                                ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                                ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ];
+
+                            foreach ($menuItems as $item) {
+                                snippet('menupath-mobile', $item);
+                            }
+                            ?>
                         </nav>
                     </div>
                 </div>
             </div>
-            <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
-            <div class="flex flex-col gap-2 p-6">
-                <a
-                    href="javascript:void(0)"
-                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-transparent dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700">
-                    <span>Sign In</span>
-                </a>
-                <a
-                    href="javascript:void(0)"
-                    class="inline-flex items-center justify-center gap-2 rounded-lg border border-indigo-700 bg-indigo-700 px-3 py-2 text-sm leading-5 font-semibold text-white hover:border-indigo-600 hover:bg-indigo-600 hover:text-white focus:ring-3 focus:ring-indigo-400/50 active:border-indigo-700 active:bg-indigo-700 dark:focus:ring-indigo-400/90">
-                    <span>Get Access</span>
-                    <svg
-                        class="hi-mini hi-arrow-right inline-block size-5 opacity-50"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        aria-hidden="true">
-                        <path
-                            fill-rule="evenodd"
-                            d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
-            </div>
+
         </nav>
         <!-- END Mobile Navigation -->
 
