@@ -1,17 +1,8 @@
-@import "tailwindcss";
-
-/*
-  In most projects, Tailwind CSS v4 will automatically detect your
-  source files containing the Tailwind classes. If the automated
-  upgrade tool added them in the main CSS file or your project
-  requires them, then be sure to keep them or point to them manually
-  respectively.
-*/
-/* @source "../views"; */
-/* @source "../other/folder/with/your/source/files"; */
+/* Tailwind importieren und nur im angegebenen source Ordner scannen */
+@import "tailwindcss" source("../../site/");
 
 /* Plugins */
-@plugin '@tailwindcss/typography';
+@plugin "@tailwindcss/typography";
 
 /* Class based dark mode */
 @variant dark (&:where(.dark, .dark *));
