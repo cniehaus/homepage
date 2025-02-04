@@ -1609,9 +1609,6 @@
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
-  }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
   }
@@ -1650,9 +1647,6 @@
   }
   .table {
     display: table;
-  }
-  .aspect-4\/3 {
-    aspect-ratio: 4/3;
   }
   .aspect-\[2\/3\] {
     aspect-ratio: 2/3;
@@ -2129,12 +2123,6 @@
   .border-slate-700 {
     border-color: var(--color-slate-700);
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
-  }
-  .bg-amber-500 {
-    background-color: var(--color-amber-500);
-  }
   .bg-blue-700 {
     background-color: var(--color-blue-700);
   }
@@ -2155,9 +2143,6 @@
   }
   .bg-gray-600 {
     background-color: var(--color-gray-600);
-  }
-  .bg-gray-800 {
-    background-color: var(--color-gray-800);
   }
   .bg-gray-900 {
     background-color: var(--color-gray-900);
@@ -2336,9 +2321,6 @@
   .pr-5 {
     padding-right: calc(var(--spacing) * 5);
   }
-  .pb-6 {
-    padding-bottom: calc(var(--spacing) * 6);
-  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
   }
@@ -2457,10 +2439,6 @@
   .leading-tight {
     --tw-leading: var(--leading-tight);
     line-height: var(--leading-tight);
-  }
-  .font-black {
-    --tw-font-weight: var(--font-weight-black);
-    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -2595,12 +2573,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .decoration-indigo-400 {
-    text-decoration-color: var(--color-indigo-400);
-  }
-  .underline-offset-2 {
-    text-underline-offset: 2px;
   }
   .antialiased {
     -webkit-font-smoothing: antialiased;
@@ -2853,11 +2825,6 @@
   .group-active\:bg-indigo-100 {
     &:is(:where(.group):active *) {
       background-color: var(--color-indigo-100);
-    }
-  }
-  .group-active\:bg-indigo-800 {
-    &:is(:where(.group):active *) {
-      background-color: var(--color-indigo-800);
     }
   }
   .odd\:bg-slate-300 {
@@ -3949,11 +3916,6 @@
   .lg\:text-left {
     @media (width >= 64rem) {
       text-align: left;
-    }
-  }
-  .xl\:w-1\/2 {
-    @media (width >= 80rem) {
-      width: calc(1/2 * 100%);
     }
   }
   .xl\:max-w-3xl {
