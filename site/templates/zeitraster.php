@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container mx-auto">
 
@@ -63,4 +63,4 @@
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

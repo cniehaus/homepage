@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container">
 
@@ -20,7 +20,10 @@
                         </p>
                     </div>
 
-                    <?php if ($kontakt->phone()->isNotEmpty() or $kontakt->email()->isNotEmpty()): ?>
+                    <?php if (
+                      $kontakt->phone()->isNotEmpty() or
+                      $kontakt->email()->isNotEmpty()
+                    ): ?>
                         <div class="">
                             <?php if ($kontakt->phone()->isNotEmpty()): ?>
                                 <p>
@@ -28,7 +31,7 @@
 
                                     <?= $kontakt->phone() ?>
                                 </p>
-                            <?php endif ?>
+                            <?php endif; ?>
 
                             <?php if ($kontakt->email()->isNotEmpty()): ?>
                                 <p>
@@ -44,14 +47,14 @@
                                         document.close();
                                     </script>
                                 </p>
-                            <?php endif ?>
+                            <?php endif; ?>
                         </div>
-                    <?php endif ?>
+                    <?php endif; ?>
 
                 </div>
 
 
-            <?php endforeach ?>
+            <?php endforeach; ?>
 
         </div>
     </div>
@@ -61,4 +64,4 @@
 
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 <div class="teamfarbe1 teamfarbe2 teamfarbe3 teamfarbe4 teamfarbe5 teamfarbe6 teamfarbe7"> </div>
 
 
@@ -36,4 +36,4 @@
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

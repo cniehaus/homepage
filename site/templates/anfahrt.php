@@ -1,5 +1,5 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
 <div class="mx-auto max-w-7xl px-2 lg:px-8">
     <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
@@ -42,10 +42,10 @@
     </div>
     <div class="relative overflow-hidden pt-16 lg:pt-20">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <?= $page->karte()->toBlocks(); ?>
+            <?= $page->karte()->toBlocks() ?>
         </div>
     </div>
 
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

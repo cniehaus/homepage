@@ -1,8 +1,8 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <?php if ($page->blogtag()->isNotEmpty()): ?>
 
@@ -12,17 +12,22 @@
             Blogeinträge für das Tag
         </h2>
 
+        <?php foreach (
+          page('blogs')
+            ->children()
+            ->listed()
+            ->filterBy('tags', $page->blogtag(), ',')
+            ->flip()
+          as $subpage
+        ):
+          snippet('blogkarte', ['subpage' => $subpage]); ?>
+
         <?php
-        foreach (page('blogs')->children()->listed()->filterBy('tags', $page->blogtag(), ',')->flip() as $subpage):
-
-            snippet('blogkarte', ['subpage' => $subpage]);
-            ?>
-
-        <?php endforeach ?>
+        endforeach; ?>
 
     </div>
-<?php endif ?>
+<?php endif; ?>
 
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 
 <!-- 
@@ -55,4 +55,4 @@ Mailadresse) enthalten sind. -->
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

@@ -13,7 +13,8 @@
   <meta name="description" content="Die Homepage der Kooperativen Gesamtschule Rastede (KGS Rastede)" />
 
   <?php // Auf dem richtigen Server wird die minifizierte CSS geladen.
-  if (option('debug', false) === true ) {
+
+if (option('debug', false) === true) {
     echo css('assets/css/twkgs_shrinked.css');
   } else {
     echo css('assets/css/twkgs_shrinked.min.css');
@@ -36,11 +37,12 @@
 
 <body>
 
-  <?php snippet('menu/megamenu') ?>
+  <?php snippet('menu/megamenu'); ?>
 
-  <?php if ($_SERVER["HTTP_HOST"] == "niehaus-ol.de"):
-    // Auf https://niehaus-ol.de wird ein riesiges knall gelbes Banner angezeigt, dass darüber informaiert das man nicht auf der richtigen Seite ist. Wenn niehaus-ol z.B. in SuchmaschinenErgebnissen auftaucht 
-  ?>
+  <?php if (
+    $_SERVER['HTTP_HOST'] == 'niehaus-ol.de'
+  ):// Auf https://niehaus-ol.de wird ein riesiges knall gelbes Banner angezeigt, dass darüber informaiert das man nicht auf der richtigen Seite ist. Wenn niehaus-ol z.B. in SuchmaschinenErgebnissen auftaucht
+     ?>
 
     <div class="container-fluid p-5 md:p-5 py-4 bg-yellow-200">
       <h1 class="mb-3">Sie befinden sich momentan nicht auf der offiziellen Homepage der KGS. Diese erreichen Sie
@@ -52,4 +54,4 @@
     </div>
 
 
-  <?php endif ?>
+  <?php endif; ?>

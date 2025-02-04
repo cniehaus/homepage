@@ -1,9 +1,9 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
 <?= css('assets/css/geschichte.css') ?>
 
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 
 
@@ -20,4 +20,4 @@
     </div>
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

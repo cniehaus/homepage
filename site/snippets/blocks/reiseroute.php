@@ -2,19 +2,16 @@
 $features = [];
 $koordinaten = [];
 
-$features = snippet(
-  'koordinaten-extrahieren',
-  [
-    'koordinaten' => $koordinaten,
-    'features' => $features,
-    'block' => $block
-  ]
-);
+$features = snippet('koordinaten-extrahieren', [
+  'koordinaten' => $koordinaten,
+  'features' => $features,
+  'block' => $block,
+]);
 
 print_r($features);
 gettype($features);
 
-echo ($features);
+echo $features;
 ?>
 
 
@@ -232,15 +229,13 @@ echo ($features);
             // Wenn das geht natürlich automatisch (siehe Zeile 20-31)
 
 
-            <?php
-            foreach ($koordinaten as $value) {
-              echo "[";
+            <?php foreach ($koordinaten as $value) {
+              echo '[';
               echo $value[0];
-              echo ",";
+              echo ',';
               echo $value[1];
-              echo "],";
-            }
-            ?>
+              echo '],';
+            } ?>
 
 
             [-122.483696, 37.833818],

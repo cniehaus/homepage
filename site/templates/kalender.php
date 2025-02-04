@@ -1,8 +1,8 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('kalender_vorbereiten') ?>
+<?php snippet('kalender_vorbereiten'); ?>
 
 
 <script>
@@ -91,4 +91,4 @@
 
 <div id='calendar'></div> -->
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

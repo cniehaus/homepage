@@ -60,4 +60,4 @@
     })
   </script>
 
-<?php endif ?>
+<?php endif; ?>

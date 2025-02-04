@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 
 <div class="container mx-auto">
@@ -12,28 +12,26 @@
 
     <?php
     // `toStructure()` erzeugt einen Iterator fuer die URLs
-    $items = $page->pressenachrichten()->toStructure()->sortBy("datum")->flip();
+    $items = $page->pressenachrichten()->toStructure()->sortBy('datum')->flip();
 
     $list = $items->paginate(12);
 
-    $quelle = "";
+    $quelle = '';
 
     // Nun kann man jede URL durchgehen und jeweils einen Links erzeugen
     foreach ($list as $item): ?>
 
-      <?php
-      if ($item->medium() == "nwz") {
-        $quelle = "Nordwest Zeitung";
-      } elseif ($item->medium() == "youtube") {
-        $quelle = "YouTube";
-      } elseif ($item->medium() == "rastederrundschau") {
-        $quelle = "Rasteder Rundschau";
-      } elseif ($item->medium() == "gemeinde") {
-        $quelle = "Gemeinde Rastede";
+      <?php if ($item->medium() == 'nwz') {
+        $quelle = 'Nordwest Zeitung';
+      } elseif ($item->medium() == 'youtube') {
+        $quelle = 'YouTube';
+      } elseif ($item->medium() == 'rastederrundschau') {
+        $quelle = 'Rasteder Rundschau';
+      } elseif ($item->medium() == 'gemeinde') {
+        $quelle = 'Gemeinde Rastede';
       } else {
-        $quelle = "";
-      }
-      ?>
+        $quelle = '';
+      } ?>
 
       <article
         class="col-span-1 flex flex-col px-2 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-2 md:px-4 h-full bg-slate-50 hover:bg-slate-100">
@@ -60,12 +58,13 @@
       </article>
 
 
-    <?php endforeach ?>
+    <?php endforeach;
+    ?>
   </div>
 </div>
 
 
-<?php $pagination = $list->pagination() ?>
-<?php snippet('pagination', ['pagination' => $pagination]) ?>
+<?php $pagination = $list->pagination(); ?>
+<?php snippet('pagination', ['pagination' => $pagination]); ?>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

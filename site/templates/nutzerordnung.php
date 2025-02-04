@@ -1,5 +1,5 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
 
 
@@ -25,16 +25,20 @@
                         </p>
 
                     </div>
-                    <?php snippet('knopf-klein', ['subpage' => $datei, 'knopftext' => "Datei herunterladen"]); ?>
+                    <?php snippet('knopf-klein', [
+                      'subpage' => $datei,
+                      'knopftext' => 'Datei herunterladen',
+                    ]); ?>
 
                 </div>
 
-            <?php endforeach ?>
+            <?php endforeach;
+            ?>
         </div>
     </div>
 
 </div>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

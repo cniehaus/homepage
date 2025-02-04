@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 <h4>Hinweise zum Bestellen</h4>
 <p>
@@ -11,4 +11,4 @@
     Diese Option wird nicht korrekt funktionieren, da der aktuell eingesetzte Webbrowser keine Inline-Frames unterstützt!
 </iframe>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

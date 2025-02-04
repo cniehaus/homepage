@@ -1,12 +1,12 @@
 <?php
 
 /** @var \Kirby\Cms\Block $block */
-$alt     = $block->alt();
+$alt = $block->alt();
 $caption = $block->caption();
-$crop    = $block->crop()->isTrue();
-$link    = $block->link();
-$ratio   = $block->ratio()->or('auto');
-$src     = null;
+$crop = $block->crop()->isTrue();
+$link = $block->link();
+$ratio = $block->ratio()->or('auto');
+$src = null;
 
 if ($block->location() == 'web') {
   $src = $block->src()->esc();
@@ -14,22 +14,21 @@ if ($block->location() == 'web') {
   $alt = $alt ?? $image->alt();
   $src = $image->url();
 }
-
 ?>
 
 
-<?php if ($src) : ?>
+<?php if ($src): ?>
 
   <div class="relative w-1/2">
     <figure>
       <img src="<?= $src ?>" alt="<?= $alt->esc() ?>" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2">
       <div class="absolute inset-0 rounded-2xl ring-1 ring-gray-900/10 ring-inset"></div>
-      <?php if ($caption->isNotEmpty()) : ?>
+      <?php if ($caption->isNotEmpty()): ?>
         <figcaption>
           <?= $caption ?>
         </figcaption>
-      <?php endif ?>
+      <?php endif; ?>
     </figure>
   </div>
 
-<?php endif ?>
+<?php endif; ?>

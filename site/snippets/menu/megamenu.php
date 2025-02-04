@@ -24,8 +24,12 @@
                 <!-- Mega Menu visible on large screens -->
                 <ul class="mt-0.5 hidden items-center lg:flex">
                     <!-- Kontakt Kategorie -->
-                    <?php snippet('menu/menu-category', ['title' => 'Kontakt'], slots: true) ?>
-                        <?php slot('menuContent') ?>
+                    <?php snippet(
+                      'menu/menu-category',
+                      ['title' => 'Kontakt'],
+                      slots: true,
+                    ); ?>
+                        <?php slot('menuContent'); ?>
                             <div
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
                                 
@@ -43,7 +47,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Links', 'menuItems' => $menuItems]);
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Links',
+                                  'menuItems' => $menuItems,
+                                ]);
 
                                 // prettier-ignore
                                 $menuItems = [
@@ -62,7 +69,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Ausbildungsschule"],
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Rechts', 'menuItems' => $menuItems]);
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Rechts',
+                                  'menuItems' => $menuItems,
+                                ]);
                                 ?>
                                 <div
                                     class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
@@ -96,13 +106,17 @@
                                     </div>
                                 </div>
                             </div>
-                        <?php endslot() ?>
-                    <?php endsnippet() ?>
+                        <?php endslot(); ?>
+                    <?php endsnippet(); ?>
                     <!-- END Kontakt Kategorie -->
 
                     <!-- Ueber die Schule Kategorie -->
-                    <?php snippet('menu/menu-category', ['title' => 'Über die Schule'], slots: true) ?>
-                        <?php slot('menuContent') ?>
+                    <?php snippet(
+                      'menu/menu-category',
+                      ['title' => 'Über die Schule'],
+                      slots: true,
+                    ); ?>
+                        <?php slot('menuContent'); ?>
                             <div
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
                                 
@@ -114,7 +128,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Links', 'menuItems' => $menuItems]);
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Links',
+                                  'menuItems' => $menuItems,
+                                ]);
 
                                 // prettier-ignore
                                 $menuItems = [
@@ -123,7 +140,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Mitte', 'menuItems' => $menuItems]);
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Mitte',
+                                  'menuItems' => $menuItems,
+                                ]);
 
                                 // prettier-ignore
                                 $menuItems = [
@@ -132,8 +152,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Rechts', 'menuItems' => $menuItems]);
-
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Rechts',
+                                  'menuItems' => $menuItems,
+                                ]);
                                 ?>
 
                                 <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
@@ -162,13 +184,17 @@
                                     </a>
                                 </div>
                             </div>
-                        <?php endslot() ?>
-                    <?php endsnippet() ?>
+                        <?php endslot(); ?>
+                    <?php endsnippet(); ?>
                     <!-- END Ueber die Schule Kategorie -->
 
                     <!-- Unterricht und Schulleben Kategorie -->
-                    <?php snippet('menu/menu-category', ['title' => 'Unterricht und Schulleben'], slots: true) ?>
-                        <?php slot('menuContent') ?>
+                    <?php snippet(
+                      'menu/menu-category',
+                      ['title' => 'Unterricht und Schulleben'],
+                      slots: true,
+                    ); ?>
+                        <?php slot('menuContent'); ?>
                             <div
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
 
@@ -180,7 +206,10 @@
                                     ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
                                 ];
-                                snippet('menu/menu-category-column', ['title' => 'Desktop Links', 'menuItems' => $menuItems]);
+                                snippet('menu/menu-category-column', [
+                                  'title' => 'Desktop Links',
+                                  'menuItems' => $menuItems,
+                                ]);
                                 ?>
 
                                 <div
@@ -252,8 +281,8 @@
                                     </div>
                                 </div>
                             </div>
-                        <?php endslot() ?>
-                    <?php endsnippet() ?>
+                        <?php endslot(); ?>
+                    <?php endsnippet(); ?>
                     <!-- END Unterricht und Schulleben Kategorie -->
   
                     <li class="group">
@@ -362,7 +391,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -383,7 +412,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -407,7 +436,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -439,7 +468,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -471,7 +500,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -495,7 +524,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -517,7 +546,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menu/menu-item', $item);
+                              snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>

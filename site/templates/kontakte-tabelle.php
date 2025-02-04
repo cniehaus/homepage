@@ -1,5 +1,5 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
 
 
@@ -45,10 +45,9 @@
         <!-- Table Body -->
         <tbody>
             <?php foreach ($page->children() as $kontakt): ?>
-                <?php
-                if ($kontakt->fotoansicht() != "sek")
-                    continue;
-                ?>
+                <?php if ($kontakt->fotoansicht() != 'sek') {
+                  continue;
+                } ?>
 
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900/50">
                     <td class="p-3 text-xl">
@@ -78,7 +77,7 @@
                     </td>
 
                 </tr>
-            <?php endforeach ?>
+            <?php endforeach; ?>
 
         </tbody>
         <!-- END Table Body -->
@@ -124,11 +123,9 @@
         <!-- Table Body -->
         <tbody>
             <?php foreach ($page->children() as $kontakt): ?>
-                <?php
-                if ($kontakt->fotoansicht() != "hausmeister") {
-                    continue;
-                }
-                ?>
+                <?php if ($kontakt->fotoansicht() != 'hausmeister') {
+                  continue;
+                } ?>
 
                 <tr class="hover:bg-gray-50 dark:hover:bg-gray-900/50">
                     <td class="p-3 text-xl">
@@ -158,7 +155,7 @@
                     </td>
 
                 </tr>
-            <?php endforeach ?>
+            <?php endforeach; ?>
 
         </tbody>
         <!-- END Table Body -->
@@ -169,4 +166,4 @@
 <!-- END Tables: Hover -->
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

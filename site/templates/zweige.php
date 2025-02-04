@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container mx-auto p-4">
 
@@ -18,14 +18,17 @@
           <?= $zweig->leitung() ?>
 
         </h3>
-        <?php snippet('knopf-klein', ['subpage' => $zweig, 'knopftext' => "Weitere Informationen"]); ?>
+        <?php snippet('knopf-klein', [
+          'subpage' => $zweig,
+          'knopftext' => 'Weitere Informationen',
+        ]); ?>
 
 
       </div>
-    <?php endforeach ?>
+    <?php endforeach; ?>
 
   </div>
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

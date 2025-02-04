@@ -1,22 +1,21 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 
 <div class="container">
+  <?php foreach (
+    page('blogs')->children()->listed()->filterBy('tags', 'SV', ',')->flip()
+    as $subpage
+  ):
+    snippet('blogkarte', [
+      'subpage' => $subpage,
+    ]); ?>
+
   <?php
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'SV', ',')
-    ->flip() as $subpage) :
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
-
-  <?php endforeach ?>
+  endforeach; ?>
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

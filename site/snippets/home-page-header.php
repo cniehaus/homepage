@@ -6,11 +6,10 @@
   // Code nach https://www.php.net/manual/en/function.date-sun-info.php
 
   // Die Bilder sind in /content/design/ gespeichert
-  $page = page("design");
+  $page = page('design');
 
   // Dieser Pfad speichert die URL des Hintergrundbildes
   $bannerpfad = $page->bildregen()->toFile()->url();
-
 
   // Setze die Zeitzone auf Berlin
   date_default_timezone_set('Europe/Berlin');
@@ -36,7 +35,6 @@
     // Von Sonnenuntergang bis Sonnenaufgang des Folgetages
     $bannerpfad = $page->bildnacht()->toFile()->url();
   }
-
   ?>
 
 
@@ -88,9 +86,9 @@
 
 
 
-  <?php if (!page('wichtige-informationen')->toggle()->bool() === true) :
-
-    //Ein blauer Balken wird gezeigt wenn es keine Banner gibt. Siehe snippets/box-notfall.php 
-  ?>
+  <?php if (
+    !page('wichtige-informationen')->toggle()->bool() === true
+  )://Ein blauer Balken wird gezeigt wenn es keine Banner gibt. Siehe snippets/box-notfall.php
+     ?>
     <div class="p-4 mb-0 bg-light text-primary"></div>
-  <?php endif ?>
+  <?php endif; ?>

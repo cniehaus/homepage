@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 <!-- Blog List Section: In Grid Alternate -->
 <div class="bg-white dark:bg-gray-900 dark:text-gray-100">
@@ -9,11 +9,11 @@
 
     <!-- Latest Posts -->
     <div class="grid grid-cols-1 gap-8 md:grid-cols-3 lg:gap-10">
-      <?php foreach ($articles as $article)
+      <?php foreach ($articles as $article) {
         snippet('blogkarte-einfach', [
-          'subpage' => $article
-        ])
-      ?>
+          'subpage' => $article,
+        ]);
+      } ?>
     </div>
     <!-- END Latest Posts -->
   </div>
@@ -27,9 +27,9 @@
   $pagination = $articles->pagination();
 
   snippet('pagination', [
-    'pagination' => $pagination
-  ])
+    'pagination' => $pagination,
+  ]);
   ?>
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

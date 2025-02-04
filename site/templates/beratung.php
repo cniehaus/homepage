@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

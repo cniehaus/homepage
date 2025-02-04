@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
 <!-- Pages: Errors: 404 -->
 <!-- Page Container -->
@@ -87,4 +87,4 @@
 <!-- END Pages: Errors: 404 -->
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

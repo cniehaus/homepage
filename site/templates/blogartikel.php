@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 
 <!-- Blog Post Section: Left Aligned With Extras -->
@@ -12,20 +12,23 @@
       <div
         class="mb-1 text-sm font-bold tracking-wider text-gray-600 uppercase dark:text-gray-500">
         <?php snippet('tagliste', [
-          'item' => $page
-        ]) ?>
+          'item' => $page,
+        ]); ?>
       </div>
 
       <h3
         class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300">
 
-        <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()): ?>
+        <?php if (
+          $page->date()->isNotEmpty() ||
+          $page->author()->isNotEmpty()
+        ): ?>
 
           <a
             href="javascript:void(0)"
             class="text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-300"><?= $page->author() ?></a>
-        <?php endif ?>
-        <span class="font-semibold"><?= $page->date()->toDate("d.m.Y") ?></span>
+        <?php endif; ?>
+        <span class="font-semibold"><?= $page->date()->toDate('d.m.Y') ?></span>
       </h3>
     </div>
     <!-- END Heading -->
@@ -43,10 +46,10 @@
                   <?= $column->blocks() ?>
                 </div>
               </div>
-            <?php endforeach ?>
+            <?php endforeach; ?>
           </div>
         </section>
-      <?php endforeach ?>
+      <?php endforeach; ?>
 
     </article>
     <!-- END Blog Post -->
@@ -56,4 +59,4 @@
 
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

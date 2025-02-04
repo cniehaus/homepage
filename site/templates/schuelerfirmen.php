@@ -1,8 +1,8 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 
 
@@ -16,7 +16,7 @@
           <div>
             <?php if ($image = $sf->bild()->toFile()): ?>
               <img src="<?= $image->url() ?>" class="aspect-[3/2] w-full rounded-2xl object-cover">
-            <?php endif ?>
+            <?php endif; ?>
 
             <div>
               <h3 class="mt-3 text-lg font-semibold text-gray-900 group-hover:text-gray-600">
@@ -33,11 +33,14 @@
           </div>
 
           <div class="mt-4">
-            <?php snippet('knopf-klein', ['subpage' => $sf, 'knopftext' => "weiterlesen..."]); ?>
+            <?php snippet('knopf-klein', [
+              'subpage' => $sf,
+              'knopftext' => 'weiterlesen...',
+            ]); ?>
           </div>
 
         </div>
-      <?php endforeach ?>
+      <?php endforeach; ?>
     </div>
 
 
@@ -47,13 +50,18 @@
         Aktuelles aus den Schülerfirmen
       </h2>
 
+      <?php foreach (
+        page('blogs')
+          ->children()
+          ->listed()
+          ->filterBy('tags', 'Schülerfirmen', ',')
+          ->flip()
+        as $subpage
+      ):
+        snippet('blogkarte', ['subpage' => $subpage]); ?>
+
       <?php
-      foreach (page('blogs')->children()->listed()->filterBy('tags', 'Schülerfirmen', ',')->flip() as $subpage):
-
-        snippet('blogkarte', ['subpage' => $subpage]);
-        ?>
-
-      <?php endforeach ?>
+      endforeach; ?>
 
     </div>
 
@@ -61,4 +69,4 @@
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

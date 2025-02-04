@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<?php snippet('page-header') ?>
+<?php snippet('page-header'); ?>
 
 <div class="container mx-auto">
   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
@@ -30,7 +30,8 @@
                 <p><?= $relatedPage->title() ?></p>
               </div>
             </a>
-          <?php endforeach ?>
+          <?php endforeach;
+          ?>
 
         </div>
       </div>
@@ -42,4 +43,4 @@
 
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

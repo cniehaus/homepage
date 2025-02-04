@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* Diese Datei erstellt das Layout einer aufklappbaren Kategorie im Menü. Dabei wird nicht der 
 Inhalt, welcher im aufgeklappten Menü angezeigt wird, festgelegt. Dieser wird mit Kirby Slots übergeben.
 Siehe: https://getkirby.com/docs/guide/templates/snippets#passing-slots-to-snippets */

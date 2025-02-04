@@ -1,5 +1,5 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
 <div class="container">
   <div class="grid grid-cols-1 md:grid-cols-2">
@@ -8,7 +8,11 @@
     </div>
     <?php if ($image = $page->image()): ?>
       <div>
-        <?= $image->thumb(['width' => 600])->html(['class' => '"aspect-[3/2] w-full rounded-2xl object-cover"']) ?>
+        <?= $image
+          ->thumb(['width' => 600])
+          ->html([
+            'class' => '"aspect-[3/2] w-full rounded-2xl object-cover"',
+          ]) ?>
       </div>
     <?php endif; ?>
   </div>
@@ -16,11 +20,15 @@
     <dl>
       <dt>AG-Leitung:</dt>
       <dd>
-        <?= Escape::html(implode(', ', $page->content->teachers()->toArray()['teachers'])) ?>
+        <?= Escape::html(
+          implode(', ', $page->content->teachers()->toArray()['teachers']),
+        ) ?>
       </dd>
       <dt>Jahrgänge:</dt>
       <dd>
-        <?= Escape::html(implode(', ', $page->content->grades()->toArray()['grades'])) ?>
+        <?= Escape::html(
+          implode(', ', $page->content->grades()->toArray()['grades']),
+        ) ?>
       </dd>
       <dt>Termin:</dt>
       <dd>
@@ -33,8 +41,11 @@
     </dl>
   </div>
   <div class="text-right mt-2 mb-2">
-    <?php snippet('knopf-klein', ['subpage' => $page->parent(), 'knopftext' => "Zurück zur Übersicht aller Arbeitsgemeinschaften"]); ?>
+    <?php snippet('knopf-klein', [
+      'subpage' => $page->parent(),
+      'knopftext' => 'Zurück zur Übersicht aller Arbeitsgemeinschaften',
+    ]); ?>
   </div>
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

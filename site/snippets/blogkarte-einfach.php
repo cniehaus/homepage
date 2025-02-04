@@ -4,7 +4,9 @@
     <div class="relative">
         <p
             class="mt-3 mb-1 text-sm font-medium text-gray-600 dark:text-red-400">
-            <span class="font-medium"><?= $subpage->date()->toDate("d.m.Y") ?></span>
+            <span class="font-medium"><?= $subpage
+              ->date()
+              ->toDate('d.m.Y') ?></span>
         </p>
         <h4
             class="mb-2 text-lg leading-6 font-bold text-gray-800 dark:text-gray-200">
@@ -12,7 +14,10 @@
         </h4>
         <p
             class="mt-3 mb-1 text-sm font-medium text-gray-600 dark:text-gray-400">
-            <span class="font-medium"> <?= $subpage->Text()->toBlocks()->excerpt(250) ?>
+            <span class="font-medium"> <?= $subpage
+              ->Text()
+              ->toBlocks()
+              ->excerpt(250) ?>
             </span>
         </p>
     </div>

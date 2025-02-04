@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container">
 
@@ -9,18 +9,21 @@
 
   <h2>Projekte:</h2>
 
+  <?php foreach (
+    page('blogs')
+      ->children()
+      ->listed()
+      ->filterBy('tags', 'Projektwoche', ',')
+      ->flip()
+    as $subpage
+  ):
+    snippet('blogkarte', [
+      'subpage' => $subpage,
+    ]); ?>
+
   <?php
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'Projektwoche', ',')
-    ->flip() as $subpage) :
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
-
-  <?php endforeach ?>
+  endforeach; ?>
 
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

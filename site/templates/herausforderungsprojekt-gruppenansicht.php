@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container">
   <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -23,11 +23,12 @@
             <?= $image->beschreibung() ?>
           </h2>
         </div>
-      <?php endforeach ?>
+      <?php endforeach;
+      ?>
 
     </div>
   </div>
 </div>
 
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

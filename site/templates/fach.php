@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container">
   <?php if ($page->lehrplaene()->isNotEmpty()): ?>
@@ -27,11 +27,13 @@
                 <tr>
                   <td class="whitespace-nowrap px-3 py-4">
                     <a href="<?= $lehrplan->url() ?>">
-                      <?= $lehrplan->kurzbeschreibung()->or($lehrplan->name()) ?>
+                      <?= $lehrplan
+                        ->kurzbeschreibung()
+                        ->or($lehrplan->name()) ?>
                     </a>
                   </td>
                 </tr>
-              <?php endforeach ?>
+              <?php endforeach; ?>
 
             </tbody>
           </table>
@@ -40,24 +42,22 @@
     </div>
 
 
-  <?php endif ?>
+  <?php endif; ?>
 
 
   <?php if (collection('blogs-haupttag')->isNotEmpty()): ?>
 
     <h2 class="mt-2 text-2xl">Aktuelles aus dem Fach</h2>
 
+    <?php foreach (collection('blogs-haupttag')->flip() as $subpage):
+      snippet('blogkarte', ['subpage' => $subpage]); ?>
+
     <?php
-    foreach (collection('blogs-haupttag')->flip() as $subpage):
+    endforeach; ?>
 
-      snippet('blogkarte', ['subpage' => $subpage]);
-      ?>
-
-    <?php endforeach ?>
-
-  <?php endif ?>
+  <?php endif; ?>
 
 
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>

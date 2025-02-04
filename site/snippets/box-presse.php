@@ -8,42 +8,52 @@
 
     <ul class="divide-y divide-slate-200 rounded-lg border border-slate-300 bg-white dark:divide-slate-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100">
       <?php
-      $items = page('schule/presse')->pressenachrichten()->toStructure()->sortBy("datum")->flip()->limit(6);
+      $items = page('schule/presse')
+        ->pressenachrichten()
+        ->toStructure()
+        ->sortBy('datum')
+        ->flip()
+        ->limit(6);
 
-      foreach ($items as $item) : 
+      foreach ($items as $item):
+
         // Je nach Link wird ein anderes Bild/Icon hinzugefügt
-        $bildURL = $kirby->url('assets') . "/bilder/"  ;
+        $bildURL = $kirby->url('assets') . '/bilder/';
         switch ($item->medium()) {
-          case "nwz":
-            $bildURL .= "nwzonline-favicon.png";
+          case 'nwz':
+            $bildURL .= 'nwzonline-favicon.png';
             break;
-          case "youtube":
-            $bildURL .= "youtube-logo.svg";
+          case 'youtube':
+            $bildURL .= 'youtube-logo.svg';
             break;
-          case "rastederrundschau":
-            $bildURL .= "rasteder-rundschau-favicon.png";
+          case 'rastederrundschau':
+            $bildURL .= 'rasteder-rundschau-favicon.png';
             break;
-          case "gemeinde":
-            $bildURL .= "rastede-favicon.png";
+          case 'gemeinde':
+            $bildURL .= 'rastede-favicon.png';
             break;
           default:
-          $bildURL = "";
-        } 
-      ?>
+            $bildURL = '';
+        }
+        ?>
         <li class="flex items-center even:bg-slate-50 odd:bg-white odd:hover:bg-slate-200 even:hover:bg-slate-300 p-4">
 
           <?php // URL ist leer -> keine bestimmte Seite -> default icon
-          if (empty($bildURL)) {  ?>
+        // URL ist leer -> keine bestimmte Seite -> default icon
+        if (empty($bildURL)) { ?>
             <i class="bi bi-box-arrow-up-right mr-4"></i>
           <?php // Sonst Bild einfügen
-        } else {  ?> 
+            // Sonst Bild einfügen
+            } else { ?> 
             <img src=<?= $bildURL ?> class="mr-4" width="20px" alt="Logo der Presse-Seite">
           <?php } ?>
 
           <span class="mr-1 text-base"><a class="text-black text-decoration-none" href="<?= $item->link() ?>" target="_blank" rel="noopener"><?= $item->name() ?></a>
             (<?= $item->datum()->toDate('d.m.y') ?>)</span>
         </li>
-      <?php endforeach ?>
+      <?php
+      endforeach;
+      ?>
 
     </ul>
   </div>

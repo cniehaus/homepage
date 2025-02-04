@@ -1,7 +1,7 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('header'); ?>
+<?php snippet('page-header'); ?>
 
-<?php snippet('sidebar') ?>
+<?php snippet('sidebar'); ?>
 
 <div class="container mb-4 mt-4">
   <h3 class="mb-3">Arbeitsgemeinschaften im Schuljahr
@@ -20,7 +20,9 @@
 
           <?php if ($image = $arbeitsgemeinschaft->image()): ?>
             <a href="<?= $arbeitsgemeinschaft->url() ?>" class="block">
-              <?= $image->crop(650, 488, 'center')->html(['class' => "w-full object-cover max-h-96"]) ?>
+              <?= $image
+                ->crop(650, 488, 'center')
+                ->html(['class' => 'w-full object-cover max-h-96']) ?>
             </a>
           <?php else: ?>
             <div class="p-4">
@@ -45,14 +47,15 @@
     Berichte aus den Arbeitsgemeinschaften
   </h2>
 
+  <?php foreach (
+    page('blogs')->children()->listed()->filterBy('tags', 'AGs', ',')->flip()
+    as $subpage
+  ):
+    snippet('blogkarte', ['subpage' => $subpage]); ?>
+
   <?php
-  foreach (page('blogs')->children()->listed()->filterBy('tags', 'AGs', ',')->flip() as $subpage):
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-    ?>
-
-  <?php endforeach ?>
+  endforeach; ?>
 
 </div>
 
-<?php snippet('footertw') ?>
+<?php snippet('footertw'); ?>
