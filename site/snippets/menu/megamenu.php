@@ -29,7 +29,8 @@
                             <div
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
                                 
-                                <?php 
+                                <?php
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
@@ -44,6 +45,7 @@
                                 ];
                                 snippet('menu/menu-category-column', ['title' => 'Desktop Links', 'menuItems' => $menuItems]);
 
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
@@ -105,6 +107,7 @@
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
                                 
                                 <?php
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -113,6 +116,7 @@
                                 ];
                                 snippet('menu/menu-category-column', ['title' => 'Desktop Links', 'menuItems' => $menuItems]);
 
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -121,6 +125,7 @@
                                 ];
                                 snippet('menu/menu-category-column', ['title' => 'Desktop Mitte', 'menuItems' => $menuItems]);
 
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -168,6 +173,7 @@
                                 class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
 
                                 <?php
+                                // prettier-ignore
                                 $menuItems = [
                                     ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                     ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -347,6 +353,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -367,6 +374,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -390,6 +398,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -411,6 +420,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
@@ -446,6 +456,7 @@
                         <nav class="flex flex-col gap-3">
 
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
@@ -475,6 +486,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
@@ -496,6 +508,7 @@
                         </h4>
                         <nav class="flex flex-col gap-3">
                             <?php
+                            // prettier-ignore
                             $menuItems = [
                                 ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
                                 ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],

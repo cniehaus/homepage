@@ -23,21 +23,7 @@
         $kassenzeichen = $data["kassenzeichen"];
         $betrag = $data["betrag"];
 
-        $values = array(
-          "BCD" . "\r\n" .
-            "002" . "\r\n" .
-            "2" . "\r\n" .
-            "SCT" . "\r\n" .
-            "" . "\r\n" .
-            $beguenstigter . "\r\n" .
-            $iban . "\r\n" .
-            'EUR' . $betrag . "\r\n" .
-            "" . "\r\n" .
-            $kassenzeichen . "\r\n" .
-            $kassenzeichen . ' ' . $verwendungszweck . "\r\n" .
-            "Hint",
-          "QRCode",
-        );
+        $values = ["BCD\r\n002\r\n2\r\nSCT\r\n\r\n$beguenstigter\r\n$iban\r\nEUR$betrag\r\n\r\n$kassenzeichen\r\n$kassenzeichen $verwendungszweck\r\nHint", 'QRCode', ];
 
         $qr = new Kirby\Image\QrCode(implode("\r\n", $values));
         $qr->toImage();
