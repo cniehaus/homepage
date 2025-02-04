@@ -30,7 +30,7 @@
 
 <body>
 
-  <?php snippet('megamenu') ?>
+  <?php snippet('menu/megamenu') ?>
 
   <?php if ($_SERVER["HTTP_HOST"] == "niehaus-ol.de"):
     // Auf https://niehaus-ol.de wird ein riesiges knall gelbes Banner angezeigt, dass darüber informaiert das man nicht auf der richtigen Seite ist. Wenn niehaus-ol z.B. in SuchmaschinenErgebnissen auftaucht 

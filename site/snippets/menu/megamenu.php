@@ -71,7 +71,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?> </nav>
                                     </div>
@@ -100,7 +100,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?>
                                         </nav>
@@ -183,7 +183,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?>
                                         </nav>
@@ -203,7 +203,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?>
                                         </nav>
@@ -223,7 +223,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?>
                                         </nav>
@@ -301,7 +301,7 @@
                                             ];
 
                                             foreach ($menuItems as $item) {
-                                                snippet('menupath-mobile', $item);
+                                                snippet('menu/menu-item', $item);
                                             }
                                             ?>
 
@@ -485,7 +485,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -505,7 +505,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -528,7 +528,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -559,7 +559,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -590,7 +590,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -613,7 +613,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -634,7 +634,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                                snippet('menupath-mobile', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
