@@ -9,6 +9,11 @@
 
 /* Tailkit configuration */
 @theme {
+  /* Colors */
+  --color-kgs-red: #a34e1c;
+  --color-kgs-lblue: #8e9fcc;
+  --color-kgs-blue: #0e5499;
+  
   /* Fonts */
   --font-sans: "Pangea", "sans-serif";
 

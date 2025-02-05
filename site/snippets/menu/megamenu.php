@@ -77,13 +77,13 @@
                         <div
                             class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
                             <h4
-                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                                 Aktuelles
                             </h4>
                             <div class="grid grid-cols-2 gap-4 xl:gap-8">
                                 <a
                                     href="javascript:void(0)"
-                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                     <img
                                         src="https://cdn.tailkit.com/media/placeholders/photo-8pb7Hq539Zw-300x180.jpg"
                                         class="rounded-lg"
@@ -94,7 +94,7 @@
                                 </a>
                                 <a
                                     href="javascript:void(0)"
-                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                     <img
                                         src="https://cdn.tailkit.com/media/placeholders/photo-TxXuh_hAFd8-300x180.jpg"
                                         class="rounded-lg"
@@ -160,14 +160,14 @@
 
                         <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
                             <h4
-                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                                 From the docs
                             </h4>
                             <a
                                 href="javascript:void(0)"
-                                class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                 <div
-                                    class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-indigo-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-indigo-400">
+                                    class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-kgs-blue dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-kgs-lblue">
                                     <svg
                                         class="hi-mini hi-document-text inline-block size-10"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -215,13 +215,13 @@
                         <div
                             class="col-span-3 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
                             <h4
-                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                                 Das Wichtigste für Eltern
                             </h4>
                             <div class="grid grid-cols-3 gap-4 xl:gap-8">
                                 <a
                                     href="https://wiki.kgs-rastede.de/de/eltern"
-                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                     <div
                                         class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-emerald-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-emerald-400">
                                         <svg
@@ -249,7 +249,7 @@
                     <li class="group">
                         <a
                             href="/allgemeines/kalender "
-                            class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-indigo-600 dark:text-gray-100 dark:group-hover:text-indigo-400">
+                            class="inline-flex h-8 items-center gap-1 px-2.5 text-sm font-semibold text-gray-900 group-hover:text-kgs-blue dark:text-gray-100 dark:group-hover:text-kgs-lblue">
                             <span>Kalender</span>
                         </a>
                     </li>
@@ -338,7 +338,7 @@
                     <h3 class="col-span-2 font-semibold">Kontakt</h3>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Kontakt linke Spalte
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -359,7 +359,7 @@
                     </div>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Kontakt rechte Spalte
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -383,7 +383,7 @@
                     <h3 class="col-span-2 font-semibold">Über die Schule</h3>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Links
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -405,7 +405,7 @@
                     </div>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Mitte
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -440,7 +440,7 @@
                     </div>
                     <div class="col-span-2 space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Rechts
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -471,7 +471,7 @@
                     <h3 class="col-span-2 font-semibold">Service und Downloads</h3>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Learn
                         </h4>
                         <nav class="flex flex-col gap-3">
@@ -493,7 +493,7 @@
                     </div>
                     <div class="space-y-2">
                         <h4
-                            class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                            class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                             Downloads
                         </h4>
                         <nav class="flex flex-col gap-3">
