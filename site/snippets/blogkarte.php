@@ -1,3 +1,9 @@
+<?php
+/**
+ * Diese Karte zeigt einen Blog mit seinen Tags, Titel, Autor und kurzem Ausschnitt an, jedoch ohne Bild.
+ * Bietet sich an, um unter einer Seite Artikel zum gleichen Thema zu zeigen. 
+*/
+?>
 <div class="flex flex-col my-4 bg-slate-50 rounded-lg overflow-hidden shadow-sm">
     <div class="p-2 lg:p-4 hover:bg-slate-100">
         <div class="mb-3">

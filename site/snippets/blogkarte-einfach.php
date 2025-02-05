@@ -1,3 +1,9 @@
+<?php
+/**
+ * Diese Karte zeigt einen Blog mit seinem Datum, Titel und kurzem Ausschnitt an. Das ist praktisch 
+ * für Übersichten mit vielen Blogs, die chronologisch sortiert sind. 
+*/
+?>
 <a href="<?= $subpage->url() ?>" class="group relative block">
     <div
         class="absolute inset-0 scale-0 rounded-sm bg-gray-100 opacity-0 transition group-hover:scale-110 group-hover:opacity-100 group-active:bg-indigo-100 dark:bg-gray-800 dark:group-active:bg-indigo-600/25"></div>
