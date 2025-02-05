@@ -2,7 +2,7 @@
 
 
   <!-- Titelfeld -->
-  <div class="bg-light text-black p-3 mb-2">
+  <div class="p-3 mb-2">
     <h1 class="text-2xl">
       <?= $page->title() ?>
     </h1>
