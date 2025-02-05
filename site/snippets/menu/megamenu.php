@@ -25,266 +25,227 @@
                 <ul class="mt-0.5 hidden items-center lg:flex">
                     <!-- Kontakt Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Kontakt'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Kontakt'],
+                        slots: true,
                     ); ?>
-                        <?php slot('menuContent'); ?>
-                            <div
-                                class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
-                                
-                                <?php
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Fachbereichsleiter"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Sekretariate"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Hausmeister"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schüler:innen Vertretung (SV)"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulpersonalrat (SPR)"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Gleichstellungsbeauftragte"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Links',
-                                  'menuItems' => $menuItems,
-                                ]);
+                    <?php slot('menuContent'); ?>
+                    <div
+                        class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
 
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Unsere Geschichte"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Übergang Grundschule / KGS"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Die drei Schulzweige"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Oberstufe"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Abschlüsse an der KGS"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Profile und Wahlen"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Zuständigkeiten / Organigram"],
+                        <?php
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Fachbereichsleiter"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Sekretariate"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Hausmeister"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schüler:innen Vertretung (SV)"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulpersonalrat (SPR)"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Gleichstellungsbeauftragte"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
+                        ]);
 
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Ausbildungsschule"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Rechts',
-                                  'menuItems' => $menuItems,
-                                ]);
-                                ?>
-                                <div
-                                    class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
-                                    <h4
-                                        class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                                        Aktuelles
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Unsere Geschichte"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Übergang Grundschule / KGS"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Die drei Schulzweige"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Oberstufe"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Abschlüsse an der KGS"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Profile und Wahlen"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Zuständigkeiten / Organigram"],
+
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Ausbildungsschule"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Rechts',
+                            'menuItems' => $menuItems,
+                        ]);
+                        ?>
+                        <div
+                            class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
+                            <h4
+                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                Aktuelles
+                            </h4>
+                            <div class="grid grid-cols-2 gap-4 xl:gap-8">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    <img
+                                        src="https://cdn.tailkit.com/media/placeholders/photo-8pb7Hq539Zw-300x180.jpg"
+                                        class="rounded-lg"
+                                        alt="Preview Image" />
+                                    <h4>
+                                        How to create the best web apps online with our app
                                     </h4>
-                                    <div class="grid grid-cols-2 gap-4 xl:gap-8">
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                            <img
-                                                src="https://cdn.tailkit.com/media/placeholders/photo-8pb7Hq539Zw-300x180.jpg"
-                                                class="rounded-lg"
-                                                alt="Preview Image" />
-                                            <h4>
-                                                How to create the best web apps online with our app
-                                            </h4>
-                                        </a>
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                            <img
-                                                src="https://cdn.tailkit.com/media/placeholders/photo-TxXuh_hAFd8-300x180.jpg"
-                                                class="rounded-lg"
-                                                alt="Preview Image" />
-                                            <h4>
-                                                Inspiring results from your first work week online
-                                            </h4>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a>
+                                <a
+                                    href="javascript:void(0)"
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    <img
+                                        src="https://cdn.tailkit.com/media/placeholders/photo-TxXuh_hAFd8-300x180.jpg"
+                                        class="rounded-lg"
+                                        alt="Preview Image" />
+                                    <h4>
+                                        Inspiring results from your first work week online
+                                    </h4>
+                                </a>
                             </div>
-                        <?php endslot(); ?>
+                        </div>
+                    </div>
+                    <?php endslot(); ?>
                     <?php endsnippet(); ?>
                     <!-- END Kontakt Kategorie -->
 
                     <!-- Ueber die Schule Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Über die Schule'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Über die Schule'],
+                        slots: true,
                     ); ?>
-                        <?php slot('menuContent'); ?>
-                            <div
-                                class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
-                                
-                                <?php
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Links',
-                                  'menuItems' => $menuItems,
-                                ]);
+                    <?php slot('menuContent'); ?>
+                    <div
+                        class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
 
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Mitte',
-                                  'menuItems' => $menuItems,
-                                ]);
+                        <?php
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
+                        ]);
 
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Rechts',
-                                  'menuItems' => $menuItems,
-                                ]);
-                                ?>
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Mitte',
+                            'menuItems' => $menuItems,
+                        ]);
 
-                                <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
-                                    <h4
-                                        class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                                        From the docs
-                                    </h4>
-                                    <a
-                                        href="javascript:void(0)"
-                                        class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                        <div
-                                            class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-indigo-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-indigo-400">
-                                            <svg
-                                                class="hi-mini hi-document-text inline-block size-10"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 20 20"
-                                                fill="currentColor"
-                                                aria-hidden="true">
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
-                                        <h4>Get Started with ease</h4>
-                                    </a>
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Rechts',
+                            'menuItems' => $menuItems,
+                        ]);
+                        ?>
+
+                        <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
+                            <h4
+                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                From the docs
+                            </h4>
+                            <a
+                                href="javascript:void(0)"
+                                class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                <div
+                                    class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-indigo-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-indigo-400">
+                                    <svg
+                                        class="hi-mini hi-document-text inline-block size-10"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                        aria-hidden="true">
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                                            clip-rule="evenodd" />
+                                    </svg>
                                 </div>
-                            </div>
-                        <?php endslot(); ?>
+                                <h4>Get Started with ease</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <?php endslot(); ?>
                     <?php endsnippet(); ?>
                     <!-- END Ueber die Schule Kategorie -->
 
                     <!-- Unterricht und Schulleben Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Unterricht und Schulleben'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Unterricht und Schulleben'],
+                        slots: true,
                     ); ?>
-                        <?php slot('menuContent'); ?>
-                            <div
-                                class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
+                    <?php slot('menuContent'); ?>
+                    <div
+                        class="grid scale-95 grid-cols-4 opacity-0 transition duration-500 ease-out group-hover:scale-100 group-hover:opacity-100">
 
-                                <?php
-                                // prettier-ignore
-                                $menuItems = [
-                                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                                ];
-                                snippet('menu/menu-category-column', [
-                                  'title' => 'Desktop Links',
-                                  'menuItems' => $menuItems,
-                                ]);
-                                ?>
+                        <?php
+                        // prettier-ignore
+                        $menuItems = [
+                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                        ];
+                        snippet('menu/menu-category-column', [
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
+                        ]);
+                        ?>
 
-                                <div
-                                    class="col-span-3 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
-                                    <h4
-                                        class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
-                                        From the blog
-                                    </h4>
-                                    <div class="grid grid-cols-3 gap-4 xl:gap-8">
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                            <div
-                                                class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-emerald-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-emerald-400">
-                                                <svg
-                                                    class="hi-mini hi-users inline-block size-10"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true">
-                                                    <path
-                                                        d="M7 8a3 3 0 100-6 3 3 0 000 6zM14.5 9a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM1.615 16.428a1.224 1.224 0 01-.569-1.175 6.002 6.002 0 0111.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 017 18a9.953 9.953 0 01-5.385-1.572zM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 00-1.588-3.755 4.502 4.502 0 015.874 2.636.818.818 0 01-.36.98A7.465 7.465 0 0114.5 16z" />
-                                                </svg>
-                                            </div>
-                                            <h4>
-                                                How to work with your colleagues on the same app
-                                            </h4>
-                                        </a>
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                            <div
-                                                class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-rose-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-rose-400">
-                                                <svg
-                                                    class="hi-mini hi-command-line inline-block size-10"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true">
-                                                    <path
-                                                        fill-rule="evenodd"
-                                                        d="M3.25 3A2.25 2.25 0 001 5.25v9.5A2.25 2.25 0 003.25 17h13.5A2.25 2.25 0 0019 14.75v-9.5A2.25 2.25 0 0016.75 3H3.25zm.943 8.752a.75.75 0 01.055-1.06L6.128 9l-1.88-1.693a.75.75 0 111.004-1.114l2.5 2.25a.75.75 0 010 1.114l-2.5 2.25a.75.75 0 01-1.06-.055zM9.75 10.25a.75.75 0 000 1.5h2.5a.75.75 0 000-1.5h-2.5z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                            </div>
-                                            <h4>
-                                                Most popular tips and tricks to integration with APIs
-                                            </h4>
-                                        </a>
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
-                                            <div
-                                                class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-orange-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-orange-400">
-                                                <svg
-                                                    class="hi-mini hi-puzzle-piece inline-block size-10"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                    aria-hidden="true">
-                                                    <path
-                                                        d="M12 4.467c0-.405.262-.75.559-1.027.276-.257.441-.584.441-.94 0-.828-.895-1.5-2-1.5s-2 .672-2 1.5c0 .362.171.694.456.953.29.265.544.6.544.994a.968.968 0 01-1.024.974 39.655 39.655 0 01-3.014-.306.75.75 0 00-.847.847c.14.993.242 1.999.306 3.014A.968.968 0 014.447 10c-.393 0-.729-.253-.994-.544C3.194 9.17 2.862 9 2.5 9 1.672 9 1 9.895 1 11s.672 2 1.5 2c.356 0 .683-.165.94-.441.276-.297.622-.559 1.027-.559a.997.997 0 011.004 1.03 39.747 39.747 0 01-.319 3.734.75.75 0 00.64.842c1.05.146 2.111.252 3.184.318A.97.97 0 0010 16.948c0-.394-.254-.73-.545-.995C9.171 15.693 9 15.362 9 15c0-.828.895-1.5 2-1.5s2 .672 2 1.5c0 .356-.165.683-.441.94-.297.276-.559.622-.559 1.027a.998.998 0 001.03 1.005c1.337-.05 2.659-.162 3.961-.337a.75.75 0 00.644-.644c.175-1.302.288-2.624.337-3.961A.998.998 0 0016.967 12c-.405 0-.75.262-1.027.559-.257.276-.584.441-.94.441-.828 0-1.5-.895-1.5-2s.672-2 1.5-2c.362 0 .694.17.953.455.265.291.601.545.995.545a.97.97 0 00.976-1.024 41.159 41.159 0 00-.318-3.184.75.75 0 00-.842-.64c-1.228.164-2.473.271-3.734.319A.997.997 0 0112 4.467z" />
-                                                </svg>
-                                            </div>
-                                            <h4>
-                                                How to put together the components to create your UI
-                                            </h4>
-                                        </a>
+                        <div
+                            class="col-span-3 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
+                            <h4
+                                class="text-xs font-semibold tracking-wider text-indigo-600 uppercase dark:text-indigo-400">
+                                Das Wichtigste für Eltern
+                            </h4>
+                            <div class="grid grid-cols-3 gap-4 xl:gap-8">
+                                <a
+                                    href="https://wiki.kgs-rastede.de/de/eltern"
+                                    class="block space-y-3 text-sm font-semibold transition-opacity hover:text-indigo-600 hover:opacity-90 dark:hover:text-indigo-400">
+                                    <div
+                                        class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-emerald-500 dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-emerald-400">
+                                        <svg
+                                            class="hi-mini hi-users inline-block size-10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 20 20"
+                                            fill="currentColor"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M7 8a3 3 0 100-6 3 3 0 000 6zM14.5 9a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM1.615 16.428a1.224 1.224 0 01-.569-1.175 6.002 6.002 0 0111.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 017 18a9.953 9.953 0 01-5.385-1.572zM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 00-1.588-3.755 4.502 4.502 0 015.874 2.636.818.818 0 01-.36.98A7.465 7.465 0 0114.5 16z" />
+                                        </svg>
                                     </div>
-                                </div>
+                                    <h4>
+                                        Elterninformationen
+                                    </h4>
+                                </a>
+
                             </div>
-                        <?php endslot(); ?>
+                        </div>
+                    </div>
+                    <?php endslot(); ?>
                     <?php endsnippet(); ?>
                     <!-- END Unterricht und Schulleben Kategorie -->
-  
+
                     <li class="group">
                         <a
                             href="/allgemeines/kalender "
@@ -391,7 +352,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -412,7 +373,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -436,7 +397,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -468,7 +429,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -500,7 +461,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
@@ -524,7 +485,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
 
@@ -546,7 +507,7 @@
                             ];
 
                             foreach ($menuItems as $item) {
-                              snippet('menu/menu-item', $item);
+                                snippet('menu/menu-item', $item);
                             }
                             ?>
                         </nav>
