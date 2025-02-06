@@ -201,10 +201,12 @@
                         <?php
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ['pfad' => "/allgemeines/wichtigelinks", 'name' => "Informationen und Formular"],
+                            ['pfad' => "/allgemeines/schulbuchlisten", 'name' => "Schulbuchlisten"],
+                            ['pfad' => "/allgemeines/bus", 'name' => "Buszeiten"],
+                            ['pfad' => "/allgemeines/zeitraster", 'name' => "Zeitraster"],
+                            ['pfad' => "/suche", 'name' => "Suche"],
+                            ['pfad' => "https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt", 'name' => "Eltern-Wiki"]
                         ];
                         snippet('menu/menu-category-column', [
                             'title' => 'Desktop Links',
