@@ -124,9 +124,10 @@
                         // prettier-ignore
                         $menuItems = [
                             ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ['pfad' => "/unterricht/schulhund", 'name' => "Schulhund"],
+                            ['pfad' => "/unterricht/schulradeln", 'name' => "Schulradeln"],
+                            ['pfad' => "/unterricht/ssd", 'name' => "Schulsanitätsdienst"]
                         ];
                         snippet('menu/menu-category-column', [
                             'title' => 'Desktop Links',
@@ -135,10 +136,13 @@
 
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                            ['pfad' => "/unterricht/schulsport", 'name' => "Schulsport"],
+                            ['pfad' => "/unterricht/bo-coaches", 'name' => "BO-Coaches. Hilfe bei der Berufsorientierung"],
+                            ['pfad' => "/unterricht/wettbewerbe", 'name' => "Wettbewerbe"],
+                            ['pfad' => "/unterricht/ag-angebot", 'name' => "Arbeitsgemeinschaften"],
+                            ['pfad' => "/unterricht/online-schueler-innenzeitung", 'name' => "Schüler:innenzeitschrift IRREGULäR"],
+                            ['pfad' => "/unterricht/herausforderungsprojekt/herausforderungsprojekt-2025", 'name' => "Herausforderungsprojekt 2025"]
+
                         ];
                         snippet('menu/menu-category-column', [
                             'title' => 'Desktop Mitte',
@@ -147,10 +151,13 @@
 
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                        ['pfad' => "/unterricht/erasmus", 'name' => "Erasmus"],
+                        ['pfad' => "/unterricht/schule-ohne-rassismus-schule-mit-courage", 'name' => "Schule ohne Rassismus - Schule mit Courage"],
+                        ['pfad' => "/beratungskonzept", 'name' => "Unterstützung und Beratung"],
+                        ['pfad' => "/unterricht/inklusion", 'name' => "Inklusion"],
+                        ['pfad' => "/unterricht/berufsorientierung", 'name' => "Berufliche Orientierung"],
+                        ['pfad' => "/unterricht/schuelerfirmen", 'name' => "Schülerfirmen"],
+                        ['pfad' => "/Faecher", 'name' => "Fächer"]
                         ];
                         snippet('menu/menu-category-column', [
                             'title' => 'Desktop Rechts',
@@ -161,10 +168,10 @@
                         <div class="space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
                             <h4
                                 class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                                From the docs
+                                  Aktuell im Fokus
                             </h4>
                             <a
-                                href="javascript:void(0)"
+                                href="/unterricht/herausforderungsprojekt/herausforderungsprojekt-2025"
                                 class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                 <div
                                     class="flex h-32 items-center justify-center rounded-lg border border-gray-200 bg-white text-kgs-blue dark:border-gray-700/75 dark:bg-gray-900/50 dark:text-kgs-lblue">
@@ -180,7 +187,7 @@
                                             clip-rule="evenodd" />
                                     </svg>
                                 </div>
-                                <h4>Get Started with ease</h4>
+                                <h4>Herausforderungsprojekt 2025</h4>
                             </a>
                         </div>
                     </div>
