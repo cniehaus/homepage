@@ -1199,14 +1199,26 @@ function mouseovermarker(marker) {
     const coordinates = marker.geometry.coordinates.slice();
     const description = marker.properties.message;
 
+    /* Notiz: Geht scheinbar auch ohne diesen code
     // Stelle sicher, dass die Popups über dem richtigen Feature erscheinen
     while (Math.abs(map.getCenter().lng - coordinates[0]) > 180) {
-        coordinates[0] += map.getCenter().lng > coordinates[0] ? 360 : -360; 
+        coordinates[0] += map.getCenter().lng > coordinates[0] ? 0ß : -360; 
     }
+        
+    //Popup verschieben, sodass es nicht den Marker verdeckt
+    var offset = [0, -30];
+    const popupPosition = map.project(coordinates);
+    if (popupPosition.y < 250) {  // Wenn das Popup nahe am oberen Rand ist
+        offset = [0, 30];  // Verschiebe es nach unten
+    }
+*/
+
 
     // Populiere das Popup und setze die Koordinaten
     popup.setLngLat(coordinates).setHTML(description).addTo(map);
+    popup.setOffset(offset);
     console.log(`Die Koordinate ist '${coordinates}' und die Beschreibung: ${description}.`);
+    map.options.scrollWheelZoom = false;
 }
 
 
