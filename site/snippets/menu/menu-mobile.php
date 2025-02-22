@@ -20,6 +20,7 @@
     aria-labelledby="tkMobileNavLabel"
     x-bind:aria-modal="mobileNavOpen ? 'true' : null"
     x-bind:role="mobileNavOpen ? 'dialog' : null">
+
     <div class="flex items-center justify-between p-6">
         <!-- Logo -->
         <a
@@ -52,183 +53,136 @@
     <div class="h-px bg-gray-200/75 dark:bg-gray-700/75"></div>
     <div class="flex flex-col gap-8 px-6 py-6">
         <div class="grid grid-cols-2 gap-6">
-            <h3 class="col-span-2 font-semibold">Kontakt</h3>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Kontakt linke Spalte
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                    ];
+            <?php snippet(
+              'menu/menu-mobile-category',
+              ['title' => 'Kontakt'],
+              slots: true,
+            ); ?>
+                <?php slot('menuContent'); ?>
+                <?php
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Kontakt linke Spalte',
+                  'menuItems' => $menuItems,
+                ]);
 
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-                </nav>
-            </div>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Kontakt rechte Spalte
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                    ];
-
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-                </nav>
-            </div>
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Kontakt rechte Spalte',
+                  'menuItems' => $menuItems,
+                ]);
+                ?>
+                <?php endslot(); ?>
+            <?php endsnippet(); ?>
         </div>
+        <div class="grid grid-cols-3 gap-6">
+            <?php snippet(
+              'menu/menu-mobile-category',
+              ['title' => 'Über die Schule'],
+              slots: true,
+            ); ?>
+                <?php slot('menuContent'); ?>
+                <?php
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Links',
+                  'menuItems' => $menuItems,
+                ]);
+
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Unsere Geschichte"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Übergang Grundschule / KGS"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Die drei Schulzweige"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Oberstufe"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Abschlüsse an der KGS"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Profile und Wahlen"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Zuständigkeiten / Organigram"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Ausbildungsschule"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Mitte',
+                  'menuItems' => $menuItems,
+                ]);
+
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Fachbereichsleiter"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Sekretariate"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Hausmeister"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schüler:innen Vertretung (SV)"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulpersonalrat (SPR)"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Gleichstellungsbeauftragte"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
+                    ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Rechts',
+                  'menuItems' => $menuItems,
+                ]);
+                ?>
+                <?php endslot(); ?>
+            <?php endsnippet(); ?>
+        </div>  
         <div class="grid grid-cols-2 gap-6">
-            <h3 class="col-span-2 font-semibold">Über die Schule</h3>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Links
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                    ];
+            <?php snippet(
+              'menu/menu-mobile-category',
+              ['title' => 'Service und Downloads'],
+              slots: true,
+            ); ?>
+                <?php slot('menuContent'); ?>
+                <?php
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Learn',
+                  'menuItems' => $menuItems,
+                ]);
 
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-
-                </nav>
-            </div>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Mitte
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Unsere Geschichte"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Übergang Grundschule / KGS"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Die drei Schulzweige"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Oberstufe"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Abschlüsse an der KGS"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Profile und Wahlen"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Zuständigkeiten / Organigram"],
-
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Ausbildungsschule"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
-                    ];
-
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-
-
-
-
-                </nav>
-            </div>
-            <div class="col-span-2 space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Rechts
-                </h4>
-                <nav class="flex flex-col gap-3">
-
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Fachbereichsleiter"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Sekretariate"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Hausmeister"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Schüler:innen Vertretung (SV)"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulpersonalrat (SPR)"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Gleichstellungsbeauftragte"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
-                    ];
-
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-                </nav>
-            </div>
-        </div>
-        <div class="grid grid-cols-2 gap-6">
-            <h3 class="col-span-2 font-semibold">Service und Downloads</h3>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Learn
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                    ];
-
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-
-                </nav>
-            </div>
-            <div class="space-y-2">
-                <h4
-                    class="text-xs font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                    Downloads
-                </h4>
-                <nav class="flex flex-col gap-3">
-                    <?php
-                    // prettier-ignore
-                    $menuItems = [
-                        ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
-                        ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
-                        ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
-                    ];
-
-                    foreach ($menuItems as $item) {
-                      snippet('menu/menu-item', $item);
-                    }
-                    ?>
-                </nav>
-            </div>
+                // prettier-ignore
+                $menuItems = [
+                    ['pfad' => "/unterricht/ag-frieden", 'name' => "AG 'Für den Frieden'"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"],
+                    ['pfad' => "/unterricht/streitschlichter", 'name' => "Streitschlichter"],
+                    ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulsanitätsdienst"]
+                ];
+                snippet('menu/menu-mobile-category-column', [
+                  'title' => 'Downloads',
+                  'menuItems' => $menuItems,
+                ]);
+                ?>
+                <?php endslot(); ?>
+            <?php endsnippet(); ?>
         </div>
     </div>
 
