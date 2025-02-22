@@ -1145,12 +1145,12 @@ function getmarkergeojson(){
                     'properties': {
                         <?php
                         if ($block->name()->value() == "Feldbreite") : ?> 
-                        'message': '<?= $page->adresse_s2()->toBlocks() ?>',
+                        'message': '<?= $page->adresse_s2()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
                         'iconSize': [50, 50],
 
                         
                         <?php elseif ($block->name()->value() == "Hauptgebäude") : ?> 
-                        'message': '<?= $page->adresse_s1()->toBlocks() ?>',
+                        'message': '<?= $page->adresse_s1()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
                         'iconSize': [50, 50],
 
                         <?php else : ?> 
@@ -1159,7 +1159,7 @@ function getmarkergeojson(){
                         'iconSize': [50, 50],
 
                         <?php endif ?>
-                        
+                                            
 
                         <?php
                         if ($block->bild()->isEmpty()) : ?> 
@@ -1185,6 +1185,8 @@ function getmarkergeojson(){
 }
 
 
+
+
 // Create a popup, but don't add it to the map yet. -> Für die Icons zum Anzeigen der Beschreibung
 const popup = new mapboxgl.Popup({
     closeButton: false,
@@ -1199,7 +1201,7 @@ function mouseovermarker(marker) {
 
     // Stelle sicher, dass die Popups über dem richtigen Feature erscheinen
     while (Math.abs(map.getCenter().lng - coordinates[0]) > 180) {
-        coordinates[0] += map.getCenter().lng > coordinates[0] ? 360 : -360;
+        coordinates[0] += map.getCenter().lng > coordinates[0] ? 360 : -360; 
     }
 
     // Populiere das Popup und setze die Koordinaten
