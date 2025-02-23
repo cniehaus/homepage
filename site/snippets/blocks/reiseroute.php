@@ -911,7 +911,16 @@ echo ($features);
         raumsuchen(gesuchterRaum)
     }
 
-    function raumsuchen(searchTerm) {
+    function raumsuchen(gesuchterRaum) {
+        let ersterBuchstabe = gesuchterRaum.charAt(0).toUpperCase();
+        let zweiterBuchstabe = gesuchterRaum.charAt(1);
+        let searchTerm;
+        if (["A", "B", "C", "M", "V"].includes(ersterBuchstabe) && !isNaN(zweiterBuchstabe)) {
+            searchTerm = String(gesuchterRaum).toUpperCase();
+        } else {
+            searchTerm = String(gesuchterRaum);
+        }
+
         var roomFound = false;
         var etageChanged = false; // Variable zur Verfolgung des Etagenwechsels bei Raumsuche
 
