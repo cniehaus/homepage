@@ -1615,6 +1615,9 @@
   .grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .grid-cols-\[repeat\(auto-fill\,_minmax\(330px\,_1fr\)\)\] {
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -3634,11 +3637,6 @@
   .\32 xl\:mx-40 {
     @media (width >= 96rem) {
       margin-inline: calc(var(--spacing) * 40);
-    }
-  }
-  .\32 xl\:grid-cols-3 {
-    @media (width >= 96rem) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .dark\:divide-slate-700 {

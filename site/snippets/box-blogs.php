@@ -4,7 +4,7 @@
   collection('blogs-startseite')->isNotEmpty()
 ):// Wenn aktuelle Artikel vorhanden sind
    ?>
-  <div class="my-4 grid grid-cols-1 gap-2 md:grid-cols-2 2xl:grid-cols-3">
+  <div class="grid grid-cols-[repeat(auto-fill,_minmax(330px,_1fr))] gap-2 my-4">
     <?php foreach (collection('blogs-startseite') as $subpage) {
       snippet('blogkarte-bild', ['subpage' => $subpage]);
     } ?>
