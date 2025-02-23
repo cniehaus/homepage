@@ -269,7 +269,7 @@
             <!-- Right Section -->
             <div class="flex items-center">
                 <!-- Icon mit aufklappbarer Suche zeigen -->
-                <i x-show="!searchOpen" @click="searchOpen = true; $nextTick(() => $refs.searchInput.focus())" class="bi bi-search hidden lg:block"></i>
+                <i x-show="!searchOpen" @click="searchOpen = true; $nextTick(() => $refs.searchInput.focus())" class="bi bi-search hidden rounded-full py-1 px-2 lg:block hover:sclae-105 hover:bg-gray-200"></i>
                 <form
                     x-show="searchOpen"
                     x-transition:enter="transition ease-out duration-300"
@@ -285,7 +285,7 @@
                             id="search" name="q" placeholder="Suche..." />
                         <button type="button"
                             @click="searchOpen = false"
-                            class="text-gray-500 bg-white hover:text-gray-700 hover:bg-gray-200">
+                            class="text-gray-500 bg-white rounded-full px-1 hover:text-gray-700 hover:bg-gray-200">
                             <i class="bi bi-x"></i>
                         </button>
                     </div>
