@@ -1011,6 +1011,9 @@ echo ($features);
                         }
                     });
                     map.moveLayer('room_searched');
+                    levels.forEach((level) => {
+                        map.moveLayer(`room_labels_floor_${level}`);
+                    })
                     return; // Beende die Schleife, wenn der Raum gefunden wurde
                 }
             }
@@ -1077,12 +1080,11 @@ echo ($features);
                     console.log("Raum geklickt. Etage: " + name);
                     if (map.getLayer('room_searched')) {
                         map.removeLayer('room_searched');
-                    } else{
-                       raumsuchen(name);
                         if (currentPopup) {
                             currentPopup.remove();
                         }  
-                       
+                    } else{
+                       raumsuchen(name);
                     }
                     return;
                 }
