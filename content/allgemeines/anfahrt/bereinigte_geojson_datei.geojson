@@ -8583,7 +8583,8 @@
         "height": 5.0,
         "indoor": "room",
         "level": "1",
-        "room": "stairs"
+        "room": "stairs",
+        "colour": "black"
       },
       "geometry": {
         "type": "Polygon",
@@ -12310,7 +12311,8 @@
       "properties": {
         "@id": "way/1308441162",
         "indoor": "level",
-        "level": "0"
+        "level": "0",
+        "colour": "black"
       },
       "geometry": {
         "type": "Polygon",
@@ -13328,7 +13330,8 @@
       "properties": {
         "@id": "way/1308441274",
         "indoor": "level",
-        "level": "0"
+        "level": "0",
+        "colour": "black"
       },
       "geometry": {
         "type": "Polygon",
