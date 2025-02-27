@@ -243,7 +243,6 @@ $features = snippet(
     let etage = '0';
     var searchTerm;
 
-    map.setStyle('mapbox://styles/mapbox/outdoors-v12');
     
     // ---------------------------------------------------------
     //  Karte Laden
