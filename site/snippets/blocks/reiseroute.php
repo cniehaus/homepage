@@ -241,7 +241,7 @@ $features = snippet(
     const levels = ['-1','0', '1', '2'];
     let twoD = false;
     let etage = '0';
-    var searchTerm;
+    let searchTerm;
 
     
     // ---------------------------------------------------------
@@ -274,7 +274,7 @@ $features = snippet(
         twoD = true;
 
         // Zoom- und Rotationssteuerelemente hinzufügem
-        var nav = new mapboxgl.NavigationControl();
+        const nav = new mapboxgl.NavigationControl();
         map.addControl(nav, 'bottom-right'); // Platziere sie unten rechts
 
         // Skala hinzufügen
@@ -331,7 +331,7 @@ $features = snippet(
         addLayerForHalls('2');
 
         function addLayerForStairs(level) {
-            var filter = stair_filter(level);
+            const filter = stair_filter(level);
             map.addLayer({
                 'id': `stair_extrusion_${level}`,
                 'type': 'fill-extrusion',
@@ -355,7 +355,7 @@ $features = snippet(
         addLayerForStairs('2');
 
         function addLayerForRooms(level) {
-            var filter = stair_filter(level);
+            const filter = stair_filter(level);
             map.addLayer({
                 'id': `room_extrusion_${level}`,
                 'type': 'fill-extrusion',
@@ -383,7 +383,7 @@ $features = snippet(
         addLayerForRooms('2');
 
         function addLayerRoomnumbers(level){
-            var offset = level*(-4)
+            const offset = level*(-4)
             map.addLayer({
             'id': `room_labels_floor_${level}`,
             'type': 'symbol',
@@ -453,7 +453,7 @@ $features = snippet(
 
     //==========================================================
     //========== Icons ==========
-    var markergeojson = getmarkergeojson();
+    const markergeojson = getmarkergeojson();
 
     map.addSource('geojson-source', {
         'type': 'geojson',
@@ -790,7 +790,7 @@ $features = snippet(
 
         //EtagenKopffarbe der Ausgewählten etage richtig setzen
         levels.forEach((level) => {
-            var floor_button = document.getElementById(`floor_${level}`);
+            const floor_button = document.getElementById(`floor_${level}`);
             if(level == etage){
                 floor_button.style.backgroundColor = "#d0d0d0";
             }
@@ -810,7 +810,7 @@ $features = snippet(
 
         //Höhe auf auf 3d setzen
         levels.forEach((level) => {
-            var offset = level*(-4);
+            const offset = level*(-4);
             map.setPaintProperty(`floor_extrusion_${level}`, 'fill-extrusion-height', ['get', 'height']);
             map.setPaintProperty(`floor_extrusion_${level}`, 'fill-extrusion-base', ['get', 'base_height']);
 
@@ -837,12 +837,12 @@ $features = snippet(
     // Etage-Knöpfe
     //Knopfdruck erkennen
     levels.forEach((level) => {
-        var floor_button = document.getElementById(`floor_${level}`);
+        const floor_button = document.getElementById(`floor_${level}`);
         
         floor_button.addEventListener('click', () => {
             // Alle Knöpfe auf die ursprüngliche Farbe zurücksetzen
             levels.forEach((otherLevel) => {
-                var other_button = document.getElementById(`floor_${otherLevel}`);
+                const other_button = document.getElementById(`floor_${otherLevel}`);
                 other_button.style.backgroundColor = "#ffffff"; // Ihre ursprüngliche Farbe hier
             });
             // Die Farbe des angeklickten Knopfes ändern
@@ -888,10 +888,10 @@ $features = snippet(
             map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`floor_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
         });
-        var featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
+        const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
         if (featuresTemp.length > 0) {
-            for (var i = 0; i < featuresTemp.length; i++) {
-                var featureTemp = featuresTemp[i];
+            for (let i = 0; i < featuresTemp.length; i++) {
+                let featureTemp = featuresTemp[i];
                 if(searchTerm && featureTemp.properties.name == searchTerm){
                     map.setLayoutProperty(`room_searched`, 'visibility', featureTemp.properties.level === etage ? 'visible' : 'none');
                 }
@@ -905,7 +905,7 @@ $features = snippet(
             etage = 'ALLE';
             raumnummernVerstecken();
             waendeVerstecken();
-            for (var i = 0; i < 2; i++) {
+            for (let i = 0; i < 2; i++) {
                 i;
                 map.setLayoutProperty(`room_labels_floor_${i}`, 'visibility', 'visible');
                 map.setLayoutProperty(`hall_extrusion_${i}`, 'visibility', 'visible');
@@ -920,7 +920,7 @@ $features = snippet(
     // Raumsuche Knopf
     // Funktion zum Auslösen der Suche -> Rest ist in Load drin
     function performSearch() {
-        var query = document.getElementById('searchInput').value;
+        const query = document.getElementById('searchInput').value;
         // Füge hier den Code hinzu, um die Suche durchzuführen
         gesuchterRaum = query;
         raumsuchen(gesuchterRaum)
@@ -936,8 +936,8 @@ $features = snippet(
             searchTerm = String(gesuchterRaum);
         }
 
-        var roomFound = false;
-        var etageChanged = false; // Variable zur Verfolgung des Etagenwechsels bei Raumsuche
+        let roomFound = false;
+        let etageChanged = false; // Variable zur Verfolgung des Etagenwechsels bei Raumsuche
 
         // Iteriere durch die Ebenen (levels)
         levels.forEach((level) => {
@@ -947,7 +947,7 @@ $features = snippet(
 
             // Überprüfe, ob die Ebene (roomLayerId) existiert
             if (map.getLayer(roomLayerId)) {
-                var featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: roomLayerId });
+                const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: roomLayerId });
 
                 if (featuresTemp.length > 0) {
 
@@ -955,11 +955,9 @@ $features = snippet(
                     if (map.getLayer('room_searched')) {
                         map.removeLayer('room_searched');
                     }
-                    for (var i = 0; i < featuresTemp.length; i++) {
-                        var featureTemp = featuresTemp[i];
+                    for (let i = 0; i < featuresTemp.length; i++) {
+                        let featureTemp = featuresTemp[i];
                         if (featureTemp.properties.name == searchTerm) {
-                            // Setze das Level des gefundenen Raums in der Layer "room_searched"
-                            //var roomSearchedLevel = level;
 
                             // Erstelle die zusätzliche Ebene für den gesuchten Raum
                             map.addLayer({
@@ -994,12 +992,12 @@ $features = snippet(
                             // Die Datenquelle 'floorplan' wurde vollständig geladen
                             // Jetzt können wir die Aktionen ausführen
 
-                            var featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
+                            const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
 
                             if (featuresTemp && !etageChanged) {
                                 etageChanged = true;
-                                for (var i = 0; i < featuresTemp.length; i++) {
-                                    var featureTemp = featuresTemp[i];
+                                for (let i = 0; i < featuresTemp.length; i++) {
+                                    let featureTemp = featuresTemp[i];
                                     if(featureTemp.properties.name == searchTerm){
                                         if (featureTemp.properties.level == '-1') {
                                             etage = '-1';
@@ -1016,7 +1014,7 @@ $features = snippet(
 
                                 // Ändere die Knopffarben hier entsprechend der ausgewählten Etage
                                 levels.forEach((otherLevel) => {
-                                    var floor_button = document.getElementById(`floor_${otherLevel}`);
+                                    const floor_button = document.getElementById(`floor_${otherLevel}`);
                                     floor_button.style.backgroundColor = otherLevel === etage ? "#d0d0d0" : "#ffffff";
                                 });
                             }
@@ -1081,10 +1079,10 @@ $features = snippet(
     // Hinzufügen eines Klick-Event-Listeners zur Karte
     map.on('click', function (evt) {
         // Fügen Sie hier Ihren Code hinzu, um auf Klicks zu reagieren
-        var featuresTemp = map.queryRenderedFeatures(evt.point);
+        const featuresTemp = map.queryRenderedFeatures(evt.point);
         if (featuresTemp) {
-            for (var i = 0; i < featuresTemp.length; i++) {
-                var featureTemp = featuresTemp[i];
+            for (let i = 0; i < featuresTemp.length; i++) {
+                let featureTemp = featuresTemp[i];
                 if (featureTemp.properties.indoor === 'room') {
                     //angeklickte Etage auswählen => Irrelevant, da die raumsuchfunktion das bereits macht
                     //etage = featureTemp.properties.level;
@@ -1108,7 +1106,7 @@ $features = snippet(
 
     function zoomToRoom(featureTemp){
        // Nehme die einzelne Koordinate des Raums
-        var centerRoom = calculateMiddleofFeaure(featureTemp); ;
+        const centerRoom = calculateMiddleofFeaure(featureTemp); ;
         map.flyTo({
             center: centerRoom,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -1165,7 +1163,7 @@ $features = snippet(
 
 
     function stair_filter(level) {
-        var filter;
+        let filter;
         if (level === '-1') {
                     filter = ['any',
                         ['==', 'level', '-1'],
