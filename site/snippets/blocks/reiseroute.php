@@ -14,10 +14,6 @@ $features = snippet(
   ]
 );
 
-print_r($features);
-gettype($features);
-
-echo ($features);
 ?>
 
 <!-- Gebäudeplan selber bearbeiten unter: https://osminedit.pavie.info/#18/53.24411/8.19696/0-->
@@ -229,14 +225,6 @@ echo ($features);
     //mapboxgl.accessToken auf den soeben geholten Token setzen
     mapboxgl.accessToken = "<?= $mapboxAccessToken; ?>";
 
-    /*
-    const geojson = {
-    'type': 'FeatureCollection',
-    'features': <?= json_encode($features, JSON_PRETTY_PRINT) ?>
-    };
-
-    */
-     
       
     const map = new mapboxgl.Map({
         container: 'map',
