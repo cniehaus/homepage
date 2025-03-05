@@ -246,8 +246,7 @@
     // ---------------------------------------------------------
     <?php
         //Accestoken aus der config.php Datei holen
-        $config = require 'site/config/config.php';
-        $mapboxAccessToken = $config['mapbox']['access_token'];   
+        $mapboxAccessToken = Config::get('mapbox.access_token');
     ?>
     //mapboxgl.accessToken auf den soeben geholten Token setzen
     mapboxgl.accessToken = "<?= $mapboxAccessToken; ?>";
