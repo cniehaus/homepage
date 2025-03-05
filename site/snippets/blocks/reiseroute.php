@@ -253,9 +253,10 @@
             duration: 1000 //Dauer der Animation
         });
 
-        setTimeout(() => {
+        // Sobald die Animation abgeschlossen ist, wird setTwoD() aufgerufen
+        map.once('moveend', () => {
             setTwoD();
-        }, 1000); // Verzögerung zum Starten der zweiten Phase 
+        });
 
 
         //------------Steuerungselemente hinzufügen------------------------
@@ -1077,7 +1078,7 @@
     //==========Ende von Knöpfen==========
     //==========================================================
 
-    
+
     //==========================================================
     //==========Raum anklicken für mehr Infos==========
     // Hinzufügen eines Klick-Event-Listeners zur Karte
