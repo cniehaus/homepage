@@ -180,6 +180,36 @@
         background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */
         background-position: center; /* Zentriert das Bild */
     }
+    /*==========Toast Nachricht (Raum nicht gefunden Fehlernachricht)==========*/
+    @keyframes toastAnimation {
+        0% {
+            opacity: 0;
+            transform: translateY(0);
+        }
+        10% {
+            opacity: 1;
+            transform: translateY(-5px);
+        }
+        90% {
+            opacity: 1;
+            transform: translateY(-5px);
+        }
+        100% {
+            opacity: 0;
+            transform: translateY(0);
+        }
+    }
+    .toast {
+        position: absolute;
+        background: red; /* Standard Hintergrundfarbe */
+        color: white;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0;
+        animation: toastAnimation 3s ease-in-out forwards;
+    }
 </style>
 
 
@@ -1039,14 +1069,7 @@
 
         let toast = document.createElement('div');
         toast.innerText = message;
-        toast.style.position = 'absolute';
-        toast.style.background = bgColor;
-        toast.style.color = 'white';
-        toast.style.padding = '8px 12px';
-        toast.style.borderRadius = '5px';
-        toast.style.fontSize = '14px';
-        toast.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.2)';
-        toast.style.opacity = '0';
+        toast.className = 'toast';
         toast.style.transition = 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out';
 
         // Position über dem Search-Container berechnen
@@ -1056,19 +1079,12 @@
 
         document.body.appendChild(toast);
 
-        setTimeout(() => {
-            toast.style.opacity = '1';
-            toast.style.transform = 'translateY(-5px)';
-        }, 100);
-
-        setTimeout(() => {
-            toast.style.opacity = '0';
-            toast.style.transform = 'translateY(0px)';
-            setTimeout(() => {
-                toast.remove();
-            }, 300);
-        }, 3000);
+        // Die Animation endet nach 3 Sekunden und entfernt das Toast automatisch
+        toast.addEventListener('animationend', () => {
+            toast.remove();
+        });
     }
+
     //==========Ende von Knöpfen==========
     //==========================================================
 
