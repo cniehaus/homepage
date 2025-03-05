@@ -229,8 +229,10 @@
         <button id="floor_-1" class="circle">-1</button>
     </div>
     <div class="search-container">
-        <input type="text" class="search-input" id="searchInput" placeholder="Raum suchen...">
-        <button class="search-button" id="searchButton">Suchen</button>
+        <form id="searchForm">
+            <input type="text" class="search-input" id="searchInput" placeholder="Raum suchen...">
+            <button class="search-button" type="submit" id="searchButton">Suchen</button>
+        </form>
     </div>
 </div>
 
@@ -670,16 +672,16 @@
     //==========================================================
     //==========Rest==========
 
-    // Event Listener für den Suchknopf
-    document.getElementById('searchButton').addEventListener('click', performSearch);
-
-    // Event Listener für die Enter-Taste im Suchfeld
-    document.getElementById('searchInput').addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            e.preventDefault(); // Verhindert das Standard-Enter-Verhalten
-            performSearch(); // Führt die Suche aus
+    // Event listener für das Formular (onsubmit)
+    document.getElementById('searchForm').onsubmit = function(e) {
+        e.preventDefault(); // Verhindert das Standardverhalten des Formulars (Seitenneu-Laden)
+        const query = document.getElementById('searchInput').value;
+        if (query) {
+            gesuchterRaum = query;
+            raumsuchen(gesuchterRaum); // Führt die Suche aus
         }
-    });
+    };
+
     });
 
     function raumnummernVerstecken(){
@@ -883,12 +885,6 @@
     // ---------------------------------------------------------
     //  Raum suchen Knopf
     // ---------------------------------------------------------
-    // Funktion zum Auslösen der Suche -> Rest ist in Load drin
-    function performSearch() {
-        const query = document.getElementById('searchInput').value;
-        gesuchterRaum = query;
-        raumsuchen(gesuchterRaum)
-    }
 
     function raumsuchen(gesuchterRaum) {
         let ersterBuchstabe = gesuchterRaum.charAt(0).toUpperCase();
