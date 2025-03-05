@@ -301,177 +301,115 @@
         map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
         
 
-        //------------Quellen für alle Layers hinzufügen------------
+        // ------------ Quelle für alle Layer hinzufügen ------------
         map.addSource('floorplan', {
             'type': 'geojson',
-            'data': '/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson' // bereinigte_geojson_datei.geojson ist floorplan.geojson, aber einige Daten verändert (mit einem pythonskript, das aktuell nicht hochgeladen ist)
+            'data': '/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson'
         });
 
-        function addLayerForFloor(level) {
+        // Liste der Stockwerke
+        const levels = ['-1', '0', '1', '2'];
+
+        // Generische Funktion zum Hinzufügen einer Layer
+        function addLayer(idPrefix, type, level, filter, paint = {}, layout = {}) {
             map.addLayer({
-                'id': `floor_extrusion_${level}`,
-                'type': 'fill-extrusion',
+                'id': `${idPrefix}_${level}`,
+                'type': type,
                 'source': 'floorplan',
-                'filter': ['all',
-                    ['==', 'indoor', 'level'],
-                    ['==', 'level', level], 
-                ],
-                'paint': {
+                'filter': filter,
+                'paint': paint,
+                'layout': layout
+            });
+        }
+
+        // --------- Layer für Böden, Etagenwände, Treppen, Räume hinzufügen ---------
+        levels.forEach(level => {
+            // Boden (Etagen)
+            addLayer(`floor_extrusion`, 'fill-extrusion', level, 
+                ['all', ['==', 'indoor', 'level'], ['==', 'level', level]], 
+                {
                     'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 1
                 }
-            });
-        }
+            );
 
-        addLayerForFloor('-1');
-        addLayerForFloor('0');
-        addLayerForFloor('1');
-        addLayerForFloor('2');
-        map.setLayoutProperty(`floor_extrusion_${etage}`, 'visibility', 'none');
-
-
-        function addLayerForHalls(level) {
-            map.addLayer({
-                'id': `hall_extrusion_${level}`,
-                'type': 'fill-extrusion',
-                'source': 'floorplan',
-                'filter': ['all',
-                    ['!=', 'indoor', 'level'],
-                    ['==', 'level', level]
-                ],
-                'paint': {
+            // Etagenwände
+            addLayer(`hall_extrusion`, 'fill-extrusion', level, 
+                ['all', ['!=', 'indoor', 'level'], ['==', 'level', level]], 
+                {
                     'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'base_height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 1
                 }
-            });
-        }
-        addLayerForHalls('-1');
-        addLayerForHalls('0');
-        addLayerForHalls('1');
-        addLayerForHalls('2');
+            );
 
-        function addLayerForStairs(level) {
-            const filter = stair_filter(level);
-            map.addLayer({
-                'id': `stair_extrusion_${level}`,
-                'type': 'fill-extrusion',
-                'source': 'floorplan',
-                'filter': ['all',
-                    ['==', 'room', 'stairs'],
-                    ['!=', 'indoor', 'level'],
-                    filter
-                ],
-                'paint': {
+            // Treppen
+            const stairFilter = stair_filter(level) || ['==', 'level', level]; // Falls `stair_filter(level)` undefined ist
+            addLayer(`stair_extrusion`, 'fill-extrusion', level, 
+                ['all', ['==', 'room', 'stairs'], ['!=', 'indoor', 'level'], stairFilter], 
+                {
                     'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
                     'fill-extrusion-opacity': 1
                 }
-            });
-        }
-        addLayerForStairs('-1');
-        addLayerForStairs('0');
-        addLayerForStairs('1');
-        addLayerForStairs('2');
+            );
 
-        function addLayerForRooms(level) {
-            const filter = stair_filter(level);
-            map.addLayer({
-                'id': `room_extrusion_${level}`,
-                'type': 'fill-extrusion',
-                'source': 'floorplan',
-                'filter': ['all',
-                    ['!=', 'indoor', 'level'],
-                    ['!=', 'room', 'lobby'],
-                    ['!=', 'room', 'stairs'],
-                    ['!=', 'indoor', 'corridor'],
-                    ['!=', 'name', 'B020'],
-                    filter
-                ],
-                'paint': {
+            // Räume
+            addLayer(`room_extrusion`, 'fill-extrusion', level, 
+                ['all', ['!=', 'indoor', 'level'], ['!=', 'room', 'lobby'], ['!=', 'room', 'stairs'], 
+                ['!=', 'indoor', 'corridor'], ['!=', 'name', 'B020'], stairFilter], 
+                {
                     'fill-extrusion-color': ['get', 'colour'],
                     'fill-extrusion-height': ['get', 'height'],
                     'fill-extrusion-base': ['get', 'base_height'],
-
                     'fill-extrusion-opacity': 1
                 }
-            });
-        }
-        addLayerForRooms('-1');
-        addLayerForRooms('0');
-        addLayerForRooms('1');
-        addLayerForRooms('2');
+            );
+        });
 
-        function addLayerRoomnumbers(level){
-            const offset = level*(-4)
-            map.addLayer({
-            'id': `room_labels_floor_${level}`,
-            'type': 'symbol',
-            'source': 'floorplan',
-            'filter': ['==', 'level', level],
-            'layout': {
-                'text-allow-overlap': false,  //Raumnummern überlappen nicht
-                'text-ignore-placement': false, 
-                'text-field': ['get', 'name'], 
-                'text-size': [
-                    'interpolate',
-                    ['linear'],
-                    ['zoom'],
-                    //Manuell Textgröße in abhängigkeit von der Zoomstufe festgelegt, damit diese immer passend ist
-                    17, 3,   // zoomstufe , textgröße
-                    18, 7.25,   // zoomstufe , textgröße
-                    19, 12.5,   // zoomstufe , textgröße
-                    20, 25,   // zoomstufe , textgröße
-                    21, 50,   // zoomstufe , textgröße
-                    22, 100   // zoomstufe , textgröße
-                ],
-                'text-offset': [0, offset] // Offset, um den Text zu verschieben, damit er in der 3D ansicht IM Raum angezeigt wird.
-            },
-            'paint': {
-                'text-color': '#fff',
-                'text-halo-color': '#AAA',
-                'text-halo-width': 0.7,
-                'text-translate-anchor': 'map' // Anpassung an die Kartenrotation
-            }
-            });
-        }
-        //Raumnummern hinzufügen
-        addLayerRoomnumbers('-1');
-        addLayerRoomnumbers('0');
-        addLayerRoomnumbers('1');
-        addLayerRoomnumbers('2');
-
-
-        function addWalls(level){
-            map.addLayer({
-                'id': `room_walls_${level}`,
-                'type': 'line',
-                'source': 'floorplan',
-                'filter': ['all',
-                    ['==', 'level', level], 
-                    ['==', 'indoor', 'room'],
-                ],
-                'layout': {
-                'line-join': 'round',
-                'line-cap': 'round'
+        // --------- Raumnummern hinzufügen ---------
+        levels.forEach(level => {
+            const offset = level * (-4);
+            addLayer(`room_labels_floor`, 'symbol', level, ['==', 'level', level], 
+                {
+                    'text-color': '#fff',
+                    'text-halo-color': '#AAA',
+                    'text-halo-width': 0.7,
+                    'text-translate-anchor': 'map'
                 },
-                'paint': {
-                'line-color': '#222',
-                'line-opacity': 0.25,
-                'line-width': 1
+                {
+                    'text-allow-overlap': false,
+                    'text-ignore-placement': false,
+                    'text-field': ['get', 'name'],
+                    'text-size': [
+                        'interpolate', ['linear'], ['zoom'],
+                        17, 3, 18, 7.25, 19, 12.5, 20, 25, 21, 50, 22, 100
+                    ],
+                    'text-offset': [0, offset]
                 }
-            });
-        }
-        addWalls('-1');
-        addWalls('0');
-        addWalls('1');
-        addWalls('2');
+            );
+        });
 
-        //Raumnummer und Wände zu beginn verstecken, damit das Gebäude beim laden der Karte schneller Läd
+        // --------- Wände hinzufügen ---------
+        levels.forEach(level => {
+            addLayer(`room_walls`, 'line', level, ['all', ['==', 'level', level], ['==', 'indoor', 'room']], 
+                {
+                    'line-color': '#222',
+                    'line-opacity': 0.25,
+                    'line-width': 1
+                },
+                {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                }
+            );
+        });
+
+        // Raumnummern & Wände zu Beginn verstecken für schnelleres Laden
         raumnummernVerstecken();
         waendeVerstecken();
 
