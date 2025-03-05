@@ -1,25 +1,7 @@
-<!-- ========================================================= -->
-<!-- Hole Koordinaten aus speicher-->
-<!-- ========================================================= -->
-<?php 
-  $features = [];
-  $koordinaten = [];
-
-$features = snippet(
-  'koordinaten-extrahieren',
-  [
-    'koordinaten' => $koordinaten,
-    'features' => $features,
-    'block' => $block
-  ]
-);
-
-?>
-
 <!-- Gebäudeplan selber bearbeiten unter: https://osminedit.pavie.info/#18/53.24411/8.19696/0-->
-
 <!-- Gebäudeplan selber exportieren unter: https://overpass-turbo.eu/#-->
 <!-- Einfach die KGS-Rastede Suchen > Kartenausschnitt manuell wählen > Gebäude makieren > exportieren > geojson downloaden > Datei bei /content/allgemeines/anfahrt/ einfügen -->
+
 
 <!-- ========================================================= -->
 <!-- Karte holen -->
@@ -27,6 +9,25 @@ $features = snippet(
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+
+
+<!-- ========================================================= -->
+<!-- Hole Koordinaten aus speicher-->
+<!-- ========================================================= -->
+<?php 
+    $features = [];
+    $koordinaten = [];
+
+    $features = snippet(
+        'koordinaten-extrahieren',
+        [
+            'koordinaten' => $koordinaten,
+            'features' => $features,
+            'block' => $block
+        ]
+    );
+?>
+
 
 <!-- ========================================================= -->
 <!-- Definiere HTML-Elemente (Knöpfe, Marker, Kartencontainer, etc.)-->
@@ -44,9 +45,10 @@ $features = snippet(
       overflow: hidden; 
     }
     #map {
-    width: 100%; /* Breite auf 100% des Containers setzen */
-    height: 87%; /* Höhe auf 100% des Containers setzen */
-}
+        width: 100%; /* Breite auf 100% des Containers setzen */
+        height: 87%; /* Höhe auf 100% des Containers setzen */
+    }
+
     /*==========Knöpfe für die 2D und 3D Ansicht==========*/
     #perspective-buttons {
         position: absolute;
@@ -60,7 +62,6 @@ $features = snippet(
         border-radius: 8px; /* Abgerundete Ecken für modernen Look */
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
     }
-
     #perspective-buttons button {
         background-color: #ffffff; /* Weißer Hintergrund für die Buttons */
         color: #333333; /* Dunkelgrauer Text */
@@ -72,12 +73,10 @@ $features = snippet(
         font-size: 12px; /* Kleinere Schriftgröße für einen schlankeren Look */
         transition: background-color 0.3s, transform 0.3s; /* Sanfte Übergänge bei Hover */
     }
-
     #perspective-buttons button:hover {
         background-color: #e0e0e0; /* Hellgrauer Hintergrund bei Hover */
         transform: translateY(-2px); /* Leichter Hover-Effekt */
     }
-
     #perspective-buttons button:active {
         background-color: #d0d0d0; /* Dunkleres Grau bei Aktivierung */
         transform: translateY(0); /* Rückstellung des Hover-Effekts */
@@ -117,6 +116,7 @@ $features = snippet(
         background-color: #d0d0d0;
         transform: translateY(0);
     }
+
     /*==========Suchleiste==========*/
     .search-container {
         display: flex;
@@ -159,7 +159,7 @@ $features = snippet(
         border-color: #bbbbbb; /* Noch dunklerer Rand beim Klicken */
         transform: translateY(1px); /* Leichter Klick-Effekt */
     }
-        
+    /*==========Marker==========*/
     .marker {
         display: flex;
         justify-content: center;
@@ -173,7 +173,6 @@ $features = snippet(
         overflow: hidden;         /* Verhindert Überlauf des Bildes */
         cursor: pointer
     }
-
     .marker div {
         width: 30px;             /* Größe des Bildes innerhalb des Markers */
         height: 30px;
@@ -181,63 +180,57 @@ $features = snippet(
         background-repeat: no-repeat; /* Verhindert Wiederholung des Bildes */
         background-position: center; /* Zentriert das Bild */
     }
+</style>
 
-
-
-
-
-  </style>
 
 <!-- ========================================================= -->
 <!-- Knöpfe(mit Text) in der Karte erstellen  -->
 <!-- ========================================================= -->
 <div id="map-container">
-  <div id="perspective-buttons">
-    <button id="toggle-2d" >2D</button>
-    <button id="toggle-3d">3D</button>
-  </div>
-  <div id="map"></div>
-  <div id="floor-buttons">
-    <button id="floor_2" class="circle">2</button>
-    <button id="floor_1" class="circle">1</button>
-    <button id="floor_0" class="circle">0</button>
-    <button id="floor_-1" class="circle">-1</button>
-  </div>
-  <div class="search-container">
+    <div id="perspective-buttons">
+        <button id="toggle-2d" >2D</button>
+        <button id="toggle-3d">3D</button>
+    </div>
+    <div id="map"></div>
+    <div id="floor-buttons">
+        <button id="floor_2" class="circle">2</button>
+        <button id="floor_1" class="circle">1</button>
+        <button id="floor_0" class="circle">0</button>
+        <button id="floor_-1" class="circle">-1</button>
+    </div>
+    <div class="search-container">
         <input type="text" class="search-input" id="searchInput" placeholder="Raum suchen...">
         <button class="search-button" id="searchButton">Suchen</button>
     </div>
+</div>
+
 
 <!-- ========================================================= -->
 <!-- Skripte -->
 <!-- ========================================================= -->
-
-
 <script>
     // ---------------------------------------------------------
     //  Variablen setzen
     // ---------------------------------------------------------
     <?php
-    //Accestoken aus der config.php Datei holen
-    $config = require 'site/config/config.php';
-    $mapboxAccessToken = $config['mapbox']['access_token'];   
+        //Accestoken aus der config.php Datei holen
+        $config = require 'site/config/config.php';
+        $mapboxAccessToken = $config['mapbox']['access_token'];   
     ?>
     //mapboxgl.accessToken auf den soeben geholten Token setzen
     mapboxgl.accessToken = "<?= $mapboxAccessToken; ?>";
-
       
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/outdoors-v12',
-        center: [8.1964, 53.2442],//Diesen Teil nutzen, um Keine Animation zu haben
-        zoom: 18.5, //Diesen Teil nutzen, um Keine Animation zu haben
-        //center: [8.1964, 53.2442], //Diesen Teil nutzen, um eine Schöne Animation zu haben
-        //zoom: 19, //Diesen Teil nutzen, um eine Schöne Animation zu haben
-        pitch: 50,
-        bearing: 20,
+        style: 'mapbox://styles/mapbox/outdoors-v12', 
+        center: [8.1964, 53.2442],
+        zoom: 18.5, 
+        pitch: 50, 
+        bearing: 20, 
         antialias: true,
         projection: 'globe'
     });
+    
     const levels = ['-1','0', '1', '2'];
     let twoD = false;
     let etage = '0';
@@ -248,31 +241,24 @@ $features = snippet(
     //  Karte Laden
     // ---------------------------------------------------------
     map.on('load', () => {
-        // Die KGS-Rastede (Hauptgebäude dynamisch heranzoomen)
-           map.fitBounds([
-            [8.1960, 53.2435], // [lng, lat] - southwestern corner of the bounds
-            [8.1968, 53.2446]  // [lng, lat] - northeastern corner of the bounds
+        //------------Die KGS-Rastede (Hauptgebäude) dynamisch heranzoomen------------------------
+        map.fitBounds([
+            [8.1960, 53.2435], // [lng, lat] - südwestliche Ecke des angezeigten Kartenausschnitts
+            [8.1968, 53.2446]  // [lng, lat] - nordöstliche Ecke des angezeigten Kartenausschnitts
         ], {
             padding: { top: 10, bottom: 25, left: 15, right: 5 }, // Optional padding
             pitch: 50, // Behalte den aktuellen pitch
             bearing: 20, // Behalte den aktuellen bearing
             maxZoom: 18.5, // Optional: Begrenze den Zoom, damit er nicht zu weit herauszoomt
-            duration: 1000
+            duration: 1000 //Dauer der Animation
         });
 
         setTimeout(() => {
             setTwoD();
         }, 1000); // Verzögerung zum Starten der zweiten Phase 
-        
-
-        map.addSource('floorplan', {
-            'type': 'geojson',
-            'data': '/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson'
-        });
 
 
-        twoD = true;
-
+        //------------Steuerungselemente hinzufügen------------------------
         // Zoom- und Rotationssteuerelemente hinzufügem
         const nav = new mapboxgl.NavigationControl();
         map.addControl(nav, 'bottom-right'); // Platziere sie unten rechts
@@ -283,6 +269,13 @@ $features = snippet(
         //Vollbild Knopf hinzufügen
         map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
         
+
+        //------------Quellen für alle Layers hinzufügen------------
+        map.addSource('floorplan', {
+            'type': 'geojson',
+            'data': '/content/allgemeines/anfahrt/bereinigte_geojson_datei.geojson' // bereinigte_geojson_datei.geojson ist floorplan.geojson, aber einige Daten verändert (mit einem pythonskript, das aktuell nicht hochgeladen ist)
+        });
+
         function addLayerForFloor(level) {
             map.addLayer({
                 'id': `floor_extrusion_${level}`,
@@ -300,13 +293,13 @@ $features = snippet(
                 }
             });
         }
-        // /*
+
         addLayerForFloor('-1');
         addLayerForFloor('0');
         addLayerForFloor('1');
         addLayerForFloor('2');
         map.setLayoutProperty(`floor_extrusion_${etage}`, 'visibility', 'none');
-        // */
+
 
         function addLayerForHalls(level) {
             map.addLayer({
@@ -390,14 +383,14 @@ $features = snippet(
             'source': 'floorplan',
             'filter': ['==', 'level', level],
             'layout': {
-                'text-allow-overlap': false,  // The icon will be visible even if it collides with other previously drawn symbols.
+                'text-allow-overlap': false,  //Raumnummern überlappen nicht
                 'text-ignore-placement': false, 
                 'text-field': ['get', 'name'], 
                 'text-size': [
                     'interpolate',
                     ['linear'],
                     ['zoom'],
-                    
+                    //Manuell Textgröße in abhängigkeit von der Zoomstufe festgelegt, damit diese immer passend ist
                     17, 3,   // zoomstufe , textgröße
                     18, 7.25,   // zoomstufe , textgröße
                     19, 12.5,   // zoomstufe , textgröße
@@ -405,7 +398,7 @@ $features = snippet(
                     21, 50,   // zoomstufe , textgröße
                     22, 100   // zoomstufe , textgröße
                 ],
-                'text-offset': [0, offset] // Offset, um den Text zu verschieben, falls nötig
+                'text-offset': [0, offset] // Offset, um den Text zu verschieben, damit er in der 3D ansicht IM Raum angezeigt wird.
             },
             'paint': {
                 'text-color': '#fff',
@@ -447,6 +440,7 @@ $features = snippet(
         addWalls('1');
         addWalls('2');
 
+        //Raumnummer und Wände zu beginn verstecken, damit das Gebäude beim laden der Karte schneller Läd
         raumnummernVerstecken();
         waendeVerstecken();
 
@@ -527,27 +521,25 @@ $features = snippet(
             hidePopup();
         });
 
-        // Add markers to the map.
+        // Fügt den Marker der Map hinzu
         new mapboxgl.Marker(el)
             .setLngLat(marker.geometry.coordinates)
             .addTo(map);
     }
-
     //========== Ende von Icons ==========
     //==========================================================
 
 
-
     //==========================================================
     //==========Alle Gebäude in 3D==========
-    const layers = map.getStyle().layers; // Insert the layer beneath any symbol layer.
+    const layers = map.getStyle().layers; // Holt sich alle layers, damit gleich die Symbol-Layer gefunden wird
     const labelLayerId = layers.find(
         (layer) => layer.type === 'symbol' && layer.layout['text-field']
     ).id;
 
-    // The 'building' layer in the Mapbox Streets
-    // vector tileset contains building height data
-    // from OpenStreetMap.
+    // Die Ebene „building“ im Mapbox-Streets-
+    // Vektorkachelset enthält Gebäudedaten
+    // mit Höheninformationen aus OpenStreetMap.
     map.addLayer(
         {
             'id': 'add-3d-buildings',
@@ -564,9 +556,7 @@ $features = snippet(
             'paint': {
                 'fill-extrusion-color': '#aaa',
 
-                // Use an 'interpolate' expression to
-                // add a smooth transition effect to
-                // the buildings as the user zooms in.
+                //Kleine Animation, wenn rangezoomed/rausgezoomed wird
                 'fill-extrusion-height': [
                     'interpolate',
                     ['linear'],
@@ -576,6 +566,8 @@ $features = snippet(
                     15.05,
                     ['get', 'height']
                 ],
+
+                //Kleine Animation, wenn rangezoomed/rausgezoomed wird
                 'fill-extrusion-base': [
                     'interpolate',
                     ['linear'],
@@ -638,7 +630,7 @@ $features = snippet(
         data: geojsonWegZwischenSchulen
     });
 
-    // add a line layer without line-dasharray defined to fill the gaps in the dashed line
+    // Layer, die die Hintergrundfarbe des animierten Weges anzeigt (in den Lücken)
     map.addLayer({
         type: 'line',
         source: 'line',
@@ -650,7 +642,7 @@ $features = snippet(
         }
     });
 
-    // add a line layer with line-dasharray set to the first value in dashArraySequence
+    // Layer, die die Streifen anzeigt
     map.addLayer({
         type: 'line',
         source: 'line',
@@ -662,8 +654,10 @@ $features = snippet(
         }
     });
 
-    // technique based on https://jsfiddle.net/2mws8y3q/
-    // an array of valid line-dasharray values, specifying the lengths of the alternating dashes and gaps that form the dash pattern
+    // Linienanimation basierend auf https://jsfiddle.net/2mws8y3q/
+    // Ein Array mit gültigen Werten für line-dasharray,
+    // das die Längen der abwechselnden Striche und Lücken
+    // im Strichmuster festlegt
     const dashArraySequence = [
         [0, 4, 3],
         [0.5, 4, 2.5],
@@ -684,8 +678,8 @@ $features = snippet(
     let step = 0;
 
     function animateDashArray(timestamp) {
-        // Update line-dasharray using the next value in dashArraySequence. The
-        // divisor in the expression `timestamp / 50` controls the animation speed.
+        // Aktualisiert line-dasharray mit dem nächsten Wert aus dashArraySequence.  
+        // Der Divisor im Ausdruck `timestamp / 50` steuert die Animationsgeschwindigkeit.
         const newStep = parseInt(
             (timestamp / 50) % dashArraySequence.length
         );
@@ -698,17 +692,20 @@ $features = snippet(
             );
             step = newStep;
         }
-
-        // Request the next frame of the animation.
+        
+        //Anfrage für nächsten Frame 
         requestAnimationFrame(animateDashArray);
     }
 
-    // start the animation
+    // Start der Animation
     animateDashArray(0);
-
-
-     //==========Ende von Wege animieren==========
+    //==========Ende von Wege animieren==========
     //==========================================================
+
+
+
+    //==========================================================
+    //==========Rest==========
 
     // Event Listener für den Suchknopf
     document.getElementById('searchButton').addEventListener('click', performSearch);
@@ -736,18 +733,21 @@ $features = snippet(
                 map.setLayoutProperty(`room_walls_${level}`, 'visibility', 'none');
             });
     }
+    //==========Ende von Rest==========
+    //==========================================================
 
 
+    //==========================================================
+    //==========Knöpfe Eventhandler und umsetzung==========
+    
     // ---------------------------------------------------------
-    //  Knöpfe Eventhandler
+    //  2D und 3D Wechsel und Knöpfe dafür
     // ---------------------------------------------------------
-
     // 2D button
     document.getElementById('toggle-2d').addEventListener('click', () => {
         setTwoD();
     });
 
-    
     // 3D button
     document.getElementById('toggle-3d').addEventListener('click', () => {
         setThreeD();
@@ -763,7 +763,7 @@ $features = snippet(
         twoD = true;
         map.dragRotate.disable();
         map.setLayoutProperty(`room_labels_floor_${etage}`, 'visibility', 'visible');
-        map.easeTo({ pitch: 0, zoom: 18.7, duration: 1000}); // Set pitch to 0 for 2D view and zoom out
+        map.easeTo({ pitch: 0, zoom: 18.7, duration: 1000}); // Setzte Neigung auf 0 für 2D Ansicht und zoome raus
 
         //Höhe auf 0 setzen
         levels.forEach((level) => {
@@ -788,24 +788,22 @@ $features = snippet(
                 
         });
 
-        //EtagenKopffarbe der Ausgewählten etage richtig setzen
+        //EtagenKopffarbe der Ausgewählten Etage richtig setzen
         levels.forEach((level) => {
             const floor_button = document.getElementById(`floor_${level}`);
             if(level == etage){
                 floor_button.style.backgroundColor = "#d0d0d0";
             }
         });
-
         toggleFloor(); 
     }
 
     function setThreeD(){
         twoD = false;
-        map.dragRotate.enable(); //enable rotation
-        map.touchZoomRotate.enableRotation(); //enable rotation
-        map.easeTo({ pitch: 50, zoom: 18, duration: 1000}); // Set pitch to 50 degrees for 3D view and zoom in
+        map.dragRotate.enable(); //erlaube Rotation
+        map.touchZoomRotate.enableRotation(); //erlaube zoom
+        map.easeTo({ pitch: 50, zoom: 18, duration: 1000}); // Setzte Neigung auf 50 Graf für 3D sicht und zoome rein
     
-        //raumnummernVerstecken();
         waendeVerstecken();
 
         //Höhe auf auf 3d setzen
@@ -833,7 +831,9 @@ $features = snippet(
     }
 
 
-
+    // ---------------------------------------------------------
+    //  Etagen Knöpfe und wechsel
+    // ---------------------------------------------------------
     // Etage-Knöpfe
     //Knopfdruck erkennen
     levels.forEach((level) => {
@@ -843,7 +843,7 @@ $features = snippet(
             // Alle Knöpfe auf die ursprüngliche Farbe zurücksetzen
             levels.forEach((otherLevel) => {
                 const other_button = document.getElementById(`floor_${otherLevel}`);
-                other_button.style.backgroundColor = "#ffffff"; // Ihre ursprüngliche Farbe hier
+                other_button.style.backgroundColor = "#ffffff";
             });
             // Die Farbe des angeklickten Knopfes ändern
             if(etage == level){
@@ -882,12 +882,12 @@ $features = snippet(
 
         // Filter setzen
         levels.forEach((level) => {
-            //map.setLayoutProperty(`floor_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`hall_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`room_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`stair_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
             map.setLayoutProperty(`floor_extrusion_${level}`, 'visibility', etage === level ? 'visible' : 'none');
         });
+
         const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
         if (featuresTemp.length > 0) {
             for (let i = 0; i < featuresTemp.length; i++) {
@@ -917,11 +917,12 @@ $features = snippet(
         
     }
 
-    // Raumsuche Knopf
+    // ---------------------------------------------------------
+    //  Raum suchen Knopf
+    // ---------------------------------------------------------
     // Funktion zum Auslösen der Suche -> Rest ist in Load drin
     function performSearch() {
         const query = document.getElementById('searchInput').value;
-        // Füge hier den Code hinzu, um die Suche durchzuführen
         gesuchterRaum = query;
         raumsuchen(gesuchterRaum)
     }
@@ -939,19 +940,18 @@ $features = snippet(
         let roomFound = false;
         let etageChanged = false; // Variable zur Verfolgung des Etagenwechsels bei Raumsuche
 
-        // Iteriere durch die Ebenen (levels)
         levels.forEach((level) => {
             const roomLayerId = `room_extrusion_${level}`;
 
             map.setPaintProperty(roomLayerId, 'fill-extrusion-opacity', 1);
 
-            // Überprüfe, ob die Ebene (roomLayerId) existiert
+            // Hier wird überprüft, ob die Ebene (roomLayerId) existiert
             if (map.getLayer(roomLayerId)) {
                 const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: roomLayerId });
 
                 if (featuresTemp.length > 0) {
 
-                    // Entferne die "room_searched"-Ebene, falls sie existiert
+                    // Entfernt die "room_searched"-Ebene, falls sie existiert
                     if (map.getLayer('room_searched')) {
                         map.removeLayer('room_searched');
                     }
@@ -959,7 +959,7 @@ $features = snippet(
                         let featureTemp = featuresTemp[i];
                         if (featureTemp.properties.name == searchTerm) {
 
-                            // Erstelle die zusätzliche Ebene für den gesuchten Raum
+                            // Erstellt die zusätzliche Ebene für den gesuchten Raum
                             map.addLayer({
                                 'id': 'room_searched',
                                 'type': 'fill-extrusion',
@@ -981,7 +981,7 @@ $features = snippet(
                             
                             //=====Popup mit der raumnummer anzeigen=====
                             showRoomNamePopup(featureTemp)
-                            break; // Du kannst die Schleife beenden, da der Raum gefunden wurde
+                            break; 
                         }
                     
                     }
@@ -989,8 +989,6 @@ $features = snippet(
                     // Die Etage, in der der gesuchte Raum angezeigt wird (sobald der gesuchte Raum gefunden/erstellt wurde)
                     map.on('data', function (e) {
                         if (e.dataType === 'source' && e.sourceId === 'floorplan' && e.isSourceLoaded && roomFound) {
-                            // Die Datenquelle 'floorplan' wurde vollständig geladen
-                            // Jetzt können wir die Aktionen ausführen
 
                             const featuresTemp = map.querySourceFeatures('floorplan', { sourceLayer: 'room_searched' });
 
@@ -1012,7 +1010,7 @@ $features = snippet(
                                 }
                                 toggleFloor();
 
-                                // Ändere die Knopffarben hier entsprechend der ausgewählten Etage
+                                // Ändert die Knopffarben entsprechend der ausgewählten Etage
                                 levels.forEach((otherLevel) => {
                                     const floor_button = document.getElementById(`floor_${otherLevel}`);
                                     floor_button.style.backgroundColor = otherLevel === etage ? "#d0d0d0" : "#ffffff";
@@ -1026,16 +1024,19 @@ $features = snippet(
                     levels.forEach((level) => {
                         map.moveLayer(`room_labels_floor_${level}`);
                     })
-                    return; // Beende die Schleife, wenn der Raum gefunden wurde
+                    return; 
                 }
             }
         });
 
         if (!roomFound) {
-            //alert('Raum nicht gefunden.');
             showToast('Raum nicht gefunden');
         }
     }
+
+    // ---------------------------------------------------------
+    //  Nachricht, wenn Raum nicht gefunden wird
+    // ---------------------------------------------------------
 
     function showToast(message, bgColor = 'red') {
         let searchContainer = document.querySelector('.search-container');
@@ -1073,21 +1074,19 @@ $features = snippet(
             }, 300);
         }, 3000);
     }
+    //==========Ende von Knöpfen==========
+    //==========================================================
 
-
-
+    
+    //==========================================================
+    //==========Raum anklicken für mehr Infos==========
     // Hinzufügen eines Klick-Event-Listeners zur Karte
     map.on('click', function (evt) {
-        // Fügen Sie hier Ihren Code hinzu, um auf Klicks zu reagieren
         const featuresTemp = map.queryRenderedFeatures(evt.point);
         if (featuresTemp) {
             for (let i = 0; i < featuresTemp.length; i++) {
                 let featureTemp = featuresTemp[i];
                 if (featureTemp.properties.indoor === 'room') {
-                    //angeklickte Etage auswählen => Irrelevant, da die raumsuchfunktion das bereits macht
-                    //etage = featureTemp.properties.level;
-                    //toggleFloor();
-                    //Raumname 
                     name = featureTemp.properties.name;
                     if (map.getLayer('room_searched')) {
                         map.removeLayer('room_searched');
@@ -1103,13 +1102,12 @@ $features = snippet(
         }
     });
     
-
     function zoomToRoom(featureTemp){
-       // Nehme die einzelne Koordinate des Raums
+       // Koordinate des Raumes holen
         const centerRoom = calculateMiddleofFeaure(featureTemp); ;
         map.flyTo({
             center: centerRoom,
-            essential: true // this animation is considered essential with respect to prefers-reduced-motion
+            essential: true 
         });
     }
 
@@ -1132,7 +1130,7 @@ $features = snippet(
     }
 
     function showRoomNamePopup(featureTemp){
-        //=====Popup mit der raumnummer anzeigen=====
+        //=====Popup mit der Raumnummer anzeigen=====
         const center = calculateMiddleofFeaure(featureTemp); 
 
         if (currentPopup) {
@@ -1153,14 +1151,19 @@ $features = snippet(
 
 
     function rotateCamera(timestamp) {
-        // clamp the rotation between 0 -360 degrees
-        // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
+        // Begrenze die Rotation auf 0–360 Grad.
+        // Teile den Timestamp durch 100, um die Rotation auf ca. 10 Grad pro Sekunde zu verlangsamen.
         map.rotateTo((timestamp / 100) % 360, { duration: 0 });
-        // Request the next frame of the animation.
+        // Fordere das nächste Frame der Animation an.
         requestAnimationFrame(rotateCamera);
     };
+    //==========Ende von Raum anklicken==========
+    //==========================================================
 
 
+    // ---------------------------------------------------------
+    //  Treppen GANZ anzeigen, auch wenn eine bestimmte Etage angezeigt wird
+    // ---------------------------------------------------------
 
     function stair_filter(level) {
         let filter;
@@ -1203,90 +1206,89 @@ $features = snippet(
         return filter
     };
 
-//==========================================================
-//==========Icons==========
-function getmarkergeojson(){
-    return geojson = {
-        'type': 'FeatureCollection',
-        'features': [
-            <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
-                    'type': 'Feature',
-                    'properties': {
-                        <?php
-                        if ($block->name()->value() == "Feldbreite") : ?> 
-                        'message': '<?= $page->adresse_s2()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
-                        'iconSize': [50, 50],
+    //==========================================================
+    //==========Icons==========
+    function getmarkergeojson(){
+        return geojson = {
+            'type': 'FeatureCollection',
+            'features': [
+                <?php foreach ($block->reise()->toBlocks() as $block) : ?> {
+                        'type': 'Feature',
+                        'properties': {
+                            <?php
+                            if ($block->name()->value() == "Feldbreite") : ?> 
+                            'message': '<?= $page->adresse_s2()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
+                            'iconSize': [50, 50],
 
-                        
-                        <?php elseif ($block->name()->value() == "Hauptgebäude") : ?> 
-                        'message': '<?= $page->adresse_s1()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
-                        'iconSize': [50, 50],
+                            
+                            <?php elseif ($block->name()->value() == "Hauptgebäude") : ?> 
+                            'message': '<?= $page->adresse_s1()->toBlocks()->first()->content()->text()->value() ?>', //Holt Die Beschreibung des Icons
+                            'iconSize': [50, 50],
 
-                        <?php else : ?> 
+                            <?php else : ?> 
 
-                        'message': 'Keine Adresse Vorhanden',
-                        'iconSize': [50, 50],
+                            'message': 'Keine Adresse Vorhanden',
+                            'iconSize': [50, 50],
 
-                        <?php endif ?>
-                                            
+                            <?php endif ?>
+                                                
 
-                        <?php
-                        if ($block->bild()->isEmpty()) : ?> 
-                            //Es wurde kein Bild hinterlegt, also ein Standard-Bild
-                           'iconUrl': '<?= $kirby->url('assets') ?>/logo-kgs.jpg'
+                            <?php
+                            if ($block->bild()->isEmpty()) : ?> 
+                                //Es wurde kein Bild hinterlegt, also ein Standard-Bild
+                            'iconUrl': '<?= $kirby->url('assets') ?>/logo-kgs.jpg'
 
-                        <?php else : ?> 
+                            <?php else : ?> 
 
-                            'iconUrl': '<?= $block->bild()->toFile()->url() ?>'
+                                'iconUrl': '<?= $block->bild()->toFile()->url() ?>'
 
-                        <?php endif ?>
+                            <?php endif ?>
 
 
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
+                        }
                     },
-                    'geometry': {
-                        'type': 'Point',
-                        'coordinates': [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
-                    }
-                },
-            <?php endforeach ?>
-        ]
-    };
-}
+                <?php endforeach ?>
+            ]
+        };
+    }
 
 
 
 
-// Create a popup, but don't add it to the map yet. -> Für die Icons zum Anzeigen der Beschreibung
-const popup = new mapboxgl.Popup({
-    closeButton: false,
-    closeOnClick: false
-});
+    // Erstelle ein Popup (aber es wird noch nicht angezeigt) -> Für die Icons zum Anzeigen der Beschreibung
+    const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+    });
 
-// Definiere die mouseovermarker-Funktion
-function mouseovermarker(marker) {
-    // Kopiere die Koordinaten
-    const coordinates = marker.geometry.coordinates.slice();
-    const description = marker.properties.message;
+    // Definiere die mouseovermarker-Funktion
+    function mouseovermarker(marker) {
+        // Kopiere die Koordinaten
+        const coordinates = marker.geometry.coordinates.slice();
+        const description = marker.properties.message;
+
+        // Populiere das Popup und setze die Koordinaten
+        popup.setLngLat(coordinates).setHTML(description).addTo(map);
+        popup.setOffset(offset);
+        map.options.scrollWheelZoom = false;
+    }
 
 
-    // Populiere das Popup und setze die Koordinaten
-    popup.setLngLat(coordinates).setHTML(description).addTo(map);
-    popup.setOffset(offset);
-    map.options.scrollWheelZoom = false;
-}
+    map.on('mouseenter', 'geojson-source', (e) => {
+        
+    });
 
+    map.on('mouseleave', 'places', () => {
+        map.getCanvas().style.cursor = '';
+        
+    });
 
-map.on('mouseenter', 'geojson-source', (e) => {
-    
-});
-
-map.on('mouseleave', 'places', () => {
-    map.getCanvas().style.cursor = '';
-    
-});
-
-//==========Ende von Icons==========
-//==========================================================
+    //==========Ende von Icons==========
+    //==========================================================
 </script>
 
 </body>
