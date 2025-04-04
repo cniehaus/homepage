@@ -1,24 +1,20 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet(
+  'default-page-layout',
+  [
+    'sidebarEnabled' => true,
+    'relatedBlogsTitle' => 'Berichte aus Wettbewerben',
+    'relatedBlogs' => page('blogs')
+      ->children()
+      ->listed()
+      ->filterBy('tags', 'Wettbewerb', ',')
+      ->flip(),
+  ],
+  slots: true,
+);
+slot();
+?>
 
-<?php snippet('sidebar') ?>
+<?= $page->text()->toBlocks() ?>
 
-<div class="container">
-
-  <h2>Berichte aus Wettbewerben</h2>
-
-  <?php
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'Wettbewerb', ',')
-    ->flip() as $subpage) :
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
-
-  <?php endforeach ?>
-
-</div>
-
-<?php snippet('footertw') ?>
+<?php endslot(); ?>
+<?php endsnippet(); ?>

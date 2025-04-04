@@ -1,25 +1,20 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet(
+  'default-page-layout',
+  [
+    'sidebarEnabled' => true,
+    'relatedBlogsTitle' => 'Berichte aus dem Herausforderungsprojekt',
+    'relatedBlogs' => page('blogs')
+      ->children()
+      ->listed()
+      ->filterBy('tags', 'Herausforderungsprojekt', ',')
+      ->flip(),
+  ],
+  slots: true,
+);
+slot();
+?>
 
-<?php snippet('sidebar') ?>
+<?= $page->text()->toBlocks() ?>
 
-
-<div class="container">
-
-  <h2>Berichte aus dem Herausforderungsprojekt</h2>
-
-  <?php
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'Herausforderungsprojekt', ',')
-    ->flip() as $subpage) :
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
-
-  <?php endforeach ?>
-
-</div>
-
-<?php snippet('footertw') ?>
+<?php endslot(); ?>
+<?php endsnippet(); ?>

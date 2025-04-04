@@ -18,7 +18,8 @@
         <i class="bi bi-<?= $block->icon() ?>"></i>
         <?= $relatedPage->title() ?>
       </a>
-    <?php endforeach ?>
+    <?php endforeach;
+    ?>
 
   </div>
 </div>

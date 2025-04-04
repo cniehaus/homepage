@@ -1,26 +1,20 @@
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet(
+  'default-page-layout',
+  [
+    'sidebarEnabled' => true,
+    'relatedBlogsTitle' => 'Projekte:',
+    'relatedBlogs' => page('blogs')
+      ->children()
+      ->listed()
+      ->filterBy('tags', 'Projektwoche', ',')
+      ->flip(),
+  ],
+  slots: true,
+);
+slot();
+?>
 
-<?php snippet('sidebar') ?>
+<?= $page->text()->toBlocks() ?>
 
-<div class="container">
-
-
-
-  <h2>Projekte:</h2>
-
-  <?php
-  foreach (page('blogs')
-    ->children()
-    ->listed()
-    ->filterBy('tags', 'Projektwoche', ',')
-    ->flip() as $subpage) :
-
-    snippet('blogkarte', ['subpage' => $subpage]);
-  ?>
-
-  <?php endforeach ?>
-
-</div>
-
-<?php snippet('footertw') ?>
+<?php endslot(); ?>
+<?php endsnippet(); ?>

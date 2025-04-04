@@ -27,7 +27,8 @@
             </button>
           </a>
         </dl>
-      <?php endforeach ?>
+      <?php endforeach;
+      ?>
 
     </div>
   </div>

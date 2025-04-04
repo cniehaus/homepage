@@ -41,16 +41,20 @@
                         'message': '<?= $block->name() ?>',
                         'iconSize': [50, 50],
 
-                        <?php
-                        if ($block->bild()->isEmpty()): ?>
+                        <?php if ($block->bild()->isEmpty()): ?>
                                             //Es wurde kein Bild hinterlegt, also ein Standard-Bild
-                                           'iconUrl': '<?= $kirby->url('assets') ?>/logo-kgs.jpg'
+                                           'iconUrl': '<?= $kirby->url(
+                                             'assets',
+                                           ) ?>/logo-kgs.jpg'
 
                                 <?php else: ?> 
 
-                                            'iconUrl': '<?= $block->bild()->toFile()->url() ?>'
+                                            'iconUrl': '<?= $block
+                                              ->bild()
+                                              ->toFile()
+                                              ->url() ?>'
 
-                                <?php endif ?>
+                                <?php endif; ?>
 
 
                     },
@@ -59,7 +63,7 @@
                         'coordinates': [<?= $block->breitengrad() ?>, <?= $block->laengengrad() ?>]
                     }
                 },
-            <?php endforeach ?>
+            <?php endforeach; ?>
         ]
     };
 

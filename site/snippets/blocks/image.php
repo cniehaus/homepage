@@ -1,12 +1,12 @@
 <?php
 
 /** @var \Kirby\Cms\Block $block */
-$alt     = $block->alt();
+$alt = $block->alt();
 $caption = $block->caption();
-$crop    = $block->crop()->isTrue();
-$link    = $block->link();
-$ratio   = $block->ratio()->or('auto');
-$src     = null;
+$crop = $block->crop()->isTrue();
+$link = $block->link();
+$ratio = $block->ratio()->or('auto');
+$src = null;
 
 if ($block->location() == 'web') {
   $src = $block->src()->esc();
@@ -14,29 +14,21 @@ if ($block->location() == 'web') {
   $alt = $alt ?? $image->alt();
   $src = $image->url();
 }
-
-/**
- * Erweiterung, um Bilder links/rechts/mittig darzustellen
- * https://getbootstrap.com/docs/5.3/content/images/#responsive-images
- */
-$orientation = $block->orientation() == 'links' ? 'float-start' : ($block->orientation() == 'rechts' ? 'float-end' : ($block->orientation() == 'mitte' ? 'mx-auto d-block' : ''));
 ?>
 
 
-<?php if ($src) : ?>
-  <figure <?= Html::attr(['data-ratio' => $ratio, 'data-crop' => $crop], null, ' ') ?>>
-    <?php if ($link->isNotEmpty()) : ?>
-      <a href="<?= Str::esc($link->toUrl()) ?>">
-        <img src="<?= $src ?>" class="h-auto my-3 max-w-xl rounded-lg shadow-xl dark:shadow-gray-800 <?= $orientation ?>" alt="<?= $alt->esc() ?>">
-      </a>
-    <?php else : ?>
-      <img src="<?= $src ?>" class="h-auto my-3 max-w-xl rounded-lg shadow-xl dark:shadow-gray-800 <?= $orientation ?>" alt="<?= $alt->esc() ?>">
-    <?php endif ?>
+<?php if ($src): ?>
 
-    <?php if ($caption->isNotEmpty()) : ?>
-      <figcaption>
-        <?= $caption ?>
-      </figcaption>
-    <?php endif ?>
-  </figure>
-<?php endif ?>
+  <div class="relative w-1/2">
+    <figure>
+      <img src="<?= $src ?>" alt="<?= $alt->esc() ?>" class="aspect-video w-full rounded-2xl bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2">
+      <div class="absolute inset-0 rounded-2xl ring-1 ring-gray-900/10 ring-inset"></div>
+      <?php if ($caption->isNotEmpty()): ?>
+        <figcaption>
+          <?= $caption ?>
+        </figcaption>
+      <?php endif; ?>
+    </figure>
+  </div>
+
+<?php endif; ?>
