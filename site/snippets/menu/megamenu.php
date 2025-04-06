@@ -25,9 +25,9 @@
                 <ul x-show="!searchOpen" class="mt-0.5 hidden items-center lg:flex">
                     <!-- Kontakt Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Kontakt'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Kontakt'],
+                        slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
                     <div
@@ -36,20 +36,20 @@
                         <?php
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/unterricht/ag-frieden", 'name' => "Anfahrt"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulleitung"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Fachbereichsleiter"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Sekretariate"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Hausmeister"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schüler:innen Vertretung (SV)"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulpersonalrat (SPR)"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Gleichstellungsbeauftragte"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulelternrat (SER)"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Förderverein"]
+                            ['pfad' => "/allgemeines/anfahrt", 'name' => "Anfahrt"],
+                            ['pfad' => "/kontakte/schulleitung", 'name' => "Schulleitung"],
+                            ['pfad' => "/kontakte/fbl", 'name' => "Fachbereichsleiter"],
+                            ['pfad' => "/kontakte/sekretariate", 'name' => "Sekretariate"],
+                            ['pfad' => "/kontakte/sekretariate", 'name' => "Hausmeister"],
+                            ['pfad' => "/sv", 'name' => "Schüler:innen Vertretung (SV)"],
+                            ['pfad' => "/kontakte/spr", 'name' => "Schulpersonalrat (SPR)"],
+                            ['pfad' => "/kontakte/gleichstellung", 'name' => "Gleichstellungsbeauftragte"],
+                            ['pfad' => "https://www.ser-kgs.de", 'name' => "Schulelternrat (SER)"],
+                            ['pfad' => "https://foerderverein.kgsraste.de", 'name' => "Förderverein"]
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Links',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
                         ]);
 
                         // prettier-ignore
@@ -70,8 +70,8 @@
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Rechts',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Rechts',
+                            'menuItems' => $menuItems,
                         ]);
                         ?>
                         <div
@@ -112,9 +112,9 @@
 
                     <!-- Ueber die Schule Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Über die Schule'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Über die Schule'],
+                        slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
                     <div
@@ -130,8 +130,8 @@
                             ['pfad' => "/unterricht/ssd", 'name' => "Schulsanitätsdienst"]
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Links',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
                         ]);
 
                         // prettier-ignore
@@ -145,8 +145,8 @@
 
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Mitte',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Mitte',
+                            'menuItems' => $menuItems,
                         ]);
 
                         // prettier-ignore
@@ -160,8 +160,8 @@
                             ['pfad' => "/Faecher", 'name' => "Fächer"]
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Rechts',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Rechts',
+                            'menuItems' => $menuItems,
                         ]);
                         ?>
 
@@ -197,9 +197,9 @@
 
                     <!-- Unterricht und Schulleben Kategorie -->
                     <?php snippet(
-                      'menu/menu-category',
-                      ['title' => 'Unterricht und Schulleben'],
-                      slots: true,
+                        'menu/menu-category',
+                        ['title' => 'Unterricht und Schulleben'],
+                        slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
                     <div
@@ -215,8 +215,8 @@
                             ['pfad' => "https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt", 'name' => "Eltern-Wiki"]
                         ];
                         snippet('menu/menu-category-column', [
-                          'title' => 'Desktop Links',
-                          'menuItems' => $menuItems,
+                            'title' => 'Desktop Links',
+                            'menuItems' => $menuItems,
                         ]);
                         ?>
 
