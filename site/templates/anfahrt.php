@@ -1,9 +1,6 @@
-<head>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<?php snippet('header') ?>
-<?php snippet('page-header') ?>
+<?php snippet('default-page-layout', slots: true);
+slot();
+?>
 
 <div class="container mx-auto px-4">
     <div class="outer-box border-3 border-gray-300 p-5 my-5 bg-gray-200 rounded-xl max-w-7xl mx-auto">
@@ -37,4 +34,6 @@
     </div>
 </div>
 
-<?php snippet('footer') ?>
+
+<?php endslot(); ?>
+<?php endsnippet(); ?>
