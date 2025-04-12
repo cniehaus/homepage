@@ -26,7 +26,7 @@
                     <!-- Kontakt Kategorie -->
                     <?php snippet(
                         'menu/menu-category',
-                        ['title' => 'Kontakt'],
+                        ['title' => 'Über die Schule'],
                         slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
@@ -48,17 +48,16 @@
                             ['pfad' => "https://foerderverein.kgsraste.de", 'name' => "Förderverein"]
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Links',
+                            'title' => 'Kontakt',
                             'menuItems' => $menuItems,
                         ]);
 
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/unterricht/ag-frieden", 'name' => "Leitbild"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Schulprogramm"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
-                            ['pfad' => "/unterricht/sanitaetsdienst", 'name' => "Unsere Geschichte"],
-                            ['pfad' => "/unterricht/streitschlichter", 'name' => "Schulvorstand"],
+                            ['pfad' => "/schule/leitbild", 'name' => "Leitbild"],
+                            ['pfad' => "/schule/schulprogramm", 'name' => "Schulprogramm"],
+                            ['pfad' => "/unterricht/schulvorstand", 'name' => "Schulvorstand"],
+                            ['pfad' => "/schule/geschichte", 'name' => "Unsere Geschichte"],
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Übergang Grundschule / KGS"],
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Die drei Schulzweige"],
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Oberstufe"],
@@ -70,7 +69,7 @@
                             ['pfad' => "/unterricht/streitschlichter", 'name' => "Unsere Schule in der Presse"]
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Rechts',
+                            'title' => 'Die KGS',
                             'menuItems' => $menuItems,
                         ]);
                         ?>
@@ -113,7 +112,7 @@
                     <!-- Ueber die Schule Kategorie -->
                     <?php snippet(
                         'menu/menu-category',
-                        ['title' => 'Über die Schule'],
+                        ['title' => 'Unterricht & Schulleben'],
                         slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
@@ -198,7 +197,7 @@
                     <!-- Unterricht und Schulleben Kategorie -->
                     <?php snippet(
                         'menu/menu-category',
-                        ['title' => 'Unterricht und Schulleben'],
+                        ['title' => 'Informationen'],
                         slots: true,
                     ); ?>
                     <?php slot('menuContent'); ?>
@@ -215,7 +214,7 @@
                             ['pfad' => "https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt", 'name' => "Eltern-Wiki"]
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Links',
+                            'title' => 'Informationen',
                             'menuItems' => $menuItems,
                         ]);
                         ?>
