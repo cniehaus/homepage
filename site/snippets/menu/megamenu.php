@@ -81,25 +81,25 @@
                             </h4>
                             <div class="grid grid-cols-2 gap-4 xl:gap-8">
                                 <a
-                                    href="javascript:void(0)"
+                                    href="https://kgs-rastede.de/blogs/anmeldung-5"
                                     class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                     <img
                                         src="https://cdn.tailkit.com/media/placeholders/photo-8pb7Hq539Zw-300x180.jpg"
                                         class="rounded-lg"
                                         alt="Preview Image" />
                                     <h5>
-                                        How to create the best web apps online with our app
+                                        Anmeldung JG 5
                                     </h5>
                                 </a>
                                 <a
-                                    href="javascript:void(0)"
+                                    href="https://kgs-rastede.de/blogs/wpk-wahl-jahrgang-5-im-realschulzweig"
                                     class="block space-y-3 text-sm font-semibold transition-opacity hover:text-kgs-blue hover:opacity-90 dark:hover:text-kgs-lblue">
                                     <img
                                         src="https://cdn.tailkit.com/media/placeholders/photo-TxXuh_hAFd8-300x180.jpg"
                                         class="rounded-lg"
                                         alt="Preview Image" />
                                     <h5>
-                                        Inspiring results from your first work week online
+                                        Wahlen WPK JG 5
                                     </h5>
                                 </a>
                             </div>
