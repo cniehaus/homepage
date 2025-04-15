@@ -129,7 +129,7 @@
                             ['pfad' => "/unterricht/ssd", 'name' => "Schulsanitätsdienst"]
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Links',
+                            'title' => '',
                             'menuItems' => $menuItems,
                         ]);
 
@@ -144,7 +144,7 @@
 
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Mitte',
+                            'title' => '',
                             'menuItems' => $menuItems,
                         ]);
 
@@ -159,7 +159,7 @@
                             ['pfad' => "/Faecher", 'name' => "Fächer"]
                         ];
                         snippet('menu/menu-category-column', [
-                            'title' => 'Desktop Rechts',
+                            'title' => '',
                             'menuItems' => $menuItems,
                         ]);
                         ?>
