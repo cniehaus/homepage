@@ -1,4 +1,5 @@
 <?php
+
 /**
  * In diesem Snippet werden bis zu drei Blöcke mit zusätzlichen Informationen generiert.
  * Da je nach Seite 1, 2 oder 3 Blöcke angezeigt werden können, ist eine schöne Gestaltung leicht aufwendiger.
@@ -29,8 +30,8 @@ if ($anzahlVorhandenerBloecke >= 1): ?>
 
 
     <?php
-  /* -- Die tatsächlichen Blöcke -- */
-  ?>
+    /* -- Die tatsächlichen Blöcke -- */
+    ?>
     <?php if ($sidebar->isNotEmpty()): ?>
       <?php
       // "Weiterführende Links" ist vorhanden
@@ -51,8 +52,8 @@ if ($anzahlVorhandenerBloecke >= 1): ?>
         </div>
       </div>
     <?php endif; ?>
-    <?php if ($related->isNotEmpty()):// "Weitere Informationen" ist vorhanden
-       ?>
+    <?php if ($related->isNotEmpty()): // "Weitere Informationen" ist vorhanden
+    ?>
       <div class="flex flex-col text-slate-800 bg-slate-50 shadow-md rounded-lg">
         <h5 class="block mb-2 mr-2 ml-2 mt-3 antialiased leading-7 font-semibold">
           <?= $page->relatedtitel()->or('Weitere Informationen') ?>
@@ -69,8 +70,8 @@ if ($anzahlVorhandenerBloecke >= 1): ?>
         </div>
       </div>
     <?php endif; ?>
-    <?php if ($downloads->isNotEmpty()):// "Zugehörige Downloads" ist vorhanden
-       ?>
+    <?php if ($downloads->isNotEmpty()): // "Zugehörige Downloads" ist vorhanden
+    ?>
       <div class="flex flex-col text-slate-800 bg-slate-50 shadow-md rounded-lg">
         <h5 class="block mb-2 mr-2 ml-2 mt-3 antialiased leading-7 font-semibold">
           <?= $page->downloadtitel()->or('Zugehörige Downloads') ?>
@@ -80,10 +81,10 @@ if ($anzahlVorhandenerBloecke >= 1): ?>
           <?php foreach ($downloads->toFiles() as $file): ?>
 
             <a a href="<?= $file->url() ?>" class="flex flex-row items-center p-1 transition-all rounded-lg hover:bg-gray-300 hover:bg-opacity-80 hover:text-gray-700">
-              <span class="flex rounded p-2 mr-2 text-white leading-none text-base font-semibold uppercase bg-kgsblue-dark">
+              <span class="ml-4 mr-4 hidden rounded-full bg-gray-900/5 px-2 font-mono text-xs/5 font-medium whitespace-nowrap text-gray-600 hover:bg-gray-200 md:block">
                 <?= $file->extension() ?>
               </span>
-              <p class="flex flex-grow justify-center">
+              <p class="flex flex-grow">
                 <?= $file->anzeigename()->or($file->name()) ?>
               </p>
             </a>
