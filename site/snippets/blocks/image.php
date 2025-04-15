@@ -26,7 +26,7 @@ if ($block->location() == 'web') {
 
       <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-gray-900/10 ring-inset"></div>
 
-      <div class="flex bg-slate-400/50 justify-center rounded-2xl">
+      <div class="flex bg-slate-300/50 justify-center rounded-2xl">
         <h3 class="mt-3 text-lg/6 font-semibold text-white pb-4 px-4">
           <?= $caption ?>
         </h3>
