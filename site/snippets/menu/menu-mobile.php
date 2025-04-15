@@ -37,7 +37,7 @@
     <button
       x-on:click="mobileNavOpen = false"
       type="button"
-      class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-800 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700">
+      class="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm leading-5 font-semibold text-gray-900 hover:border-gray-300 hover:text-gray-900 hover:shadow-xs focus:ring-3 focus:ring-gray-300/25 active:border-gray-200 active:shadow-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:border-gray-600 dark:hover:text-gray-200 dark:focus:ring-gray-600/40 dark:active:border-gray-700">
       <svg
         class="hi-mini hi-x-mark -mx-0.5 inline-block size-5"
         xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@
         ['pfad' => "/kontakte/gleichstellung", 'name' => "Gleichstellungsbeauftragte"],
         ['pfad' => "https://www.ser-kgs.de", 'name' => "Schulelternrat (SER)"],
         ['pfad' => "https://foerderverein.kgsraste.de", 'name' => "Förderverein"]
-    ];
+      ];
       snippet('menu/menu-mobile-category-column', [
         'title' => 'Kontakt linke Spalte',
         'menuItems' => $menuItems,
@@ -93,7 +93,7 @@
 
         ['pfad' => "/schule/ausbildungsschule", 'name' => "Ausbildungsschule"],
         ['pfad' => "/schule/presse", 'name' => "Unsere Schule in der Presse"]
-    ];
+      ];
       snippet('menu/menu-mobile-category-column', [
         'title' => 'Kontakt rechte Spalte',
         'menuItems' => $menuItems,
@@ -124,7 +124,7 @@
         ['pfad' => "/unterricht/online-schueler-innenzeitung", 'name' => "Schüler:innenzeitschrift IRREGULäR"],
         ['pfad' => "/unterricht/herausforderungsprojekt/herausforderungsprojekt-2025", 'name' => "Herausforderungsprojekt 2025"]
 
-    ];
+      ];
       snippet('menu/menu-mobile-category-column', [
         'title' => 'Mitte',
         'menuItems' => $menuItems,
@@ -139,7 +139,7 @@
         ['pfad' => "/unterricht/berufsorientierung", 'name' => "Berufliche Orientierung"],
         ['pfad' => "/unterricht/schuelerfirmen", 'name' => "Schülerfirmen"],
         ['pfad' => "/Faecher", 'name' => "Fächer"]
-    ];
+      ];
       snippet('menu/menu-mobile-category-column', [
         'title' => 'Rechts',
         'menuItems' => $menuItems,
@@ -163,7 +163,7 @@
         ['pfad' => "/allgemeines/bus", 'name' => "Buszeiten"],
         ['pfad' => "/allgemeines/zeitraster", 'name' => "Zeitraster"],
         ['pfad' => "https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt", 'name' => "Eltern-Wiki"]
-    ];
+      ];
       snippet('menu/menu-mobile-category-column', [
         'title' => 'Downloads',
         'menuItems' => $menuItems,

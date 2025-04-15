@@ -115,7 +115,7 @@
 
 
         </nav>
-        <div class="text-gray-500 dark:text-gray-400/80">
+        <div class="text-gray-500 dark:text-gray-300/80">
             <span class="font-medium">
                 <div class="col" id="copyrightText">
                     <script>
