@@ -1,6 +1,6 @@
 <!-- Main Header Section: With Mega Menu -->
 <div
-    class="relative bg-white dark:bg-gray-900 dark:text-gray-100">
+    class="z-50 relative bg-white dark:bg-gray-900 dark:text-gray-100">
     <!-- Header -->
     <header
         x-data="{ mobileNavOpen: false, searchOpen: false }"
