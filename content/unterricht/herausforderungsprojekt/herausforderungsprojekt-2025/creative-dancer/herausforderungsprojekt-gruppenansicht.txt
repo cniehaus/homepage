@@ -1,0 +1,25 @@
+Title: Creative Dancers
+
+----
+
+Kurzname: Creative Dancers
+
+----
+
+Teamlogo: - file://2KjHxkbQWxJQEmfB
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Creative Dancers und unsere größte Herausforderung ist es, in zwei Tagen mit dem Fahrrad nach Osnabrück zu fahren. Dort haben wir einen sehr schönen HipHop Wettkampf. Unsere weitere Route verläuft bis nach Münster runter und danach durch Rheine wieder zurück nach Rastede. Während unseres Projektes besuchen wir ein Altersheim oder auch Pferde- und Bauernhöfe, um dort zu helfen. Hier findet ihr die täglichen Bilder: </p><p><a href=\"https://nds.edumaps.de/59218/35976/21cgdl2ein/r2sc70kyh8\">https://nds.edumaps.de/59218/35976/21cgdl2ein/r2sc70kyh8</a></p>"},"id":"b2bd34f4-cd25-43b6-a325-ff506b30b71c","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://2KjHxkbQWxJQEmfB"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"96931903-ae0f-4fa9-95a9-eae4a3c97341","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: 4jZWLoMDQa0t4QCy

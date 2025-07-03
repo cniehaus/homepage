@@ -6,6 +6,124 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.ammerland-touristik.de/event/oeffentliche-fuehrung-der-jungen-talente-der-kgs
+  name: >
+    Öffentliche Führung der jungen Talente
+    der KGS
+  anfang: >
+    Die SchülerInnen des Leistungskurses
+    Kunst der Kooperativen Gesamtschule
+    Rastede haben eine Serie von 15
+    Radierungen geschaffen. In Form eines
+    Rundgangs berichten Sie über die Werke
+    in der Ausstellung.
+  datum: 2025-07-01
+  medium: sonstiges
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/debatte-um-schulvertrag-zwischen-rastede-und-wiefelstede-keine-hilfe-von-aussen-fdp-scheitert-mit-antrag-fuer-vermittlungsausschuss_a_4,2,1109570614.html
+  name: 'Debatte um Schulvertrag im Ammerland - Verhandlungen zwischen Rastede und Wiefelstede ohne Hilfe von außen'
+  anfang: >
+    Rastede beteiligt Wiefelstede an den
+    Kosten für die Kooperative
+    Gesamtschule. Seit über einem Jahr wird
+    der Schulvertrag neu verhandelt. Die FDP
+    wollte per Vermittlungsausschuss Schwung
+    in die Sache bringen.
+  datum: 2025-06-26
+  medium: nwz
+- 
+  link: >
+    https://www.landeszeitung.de/lokales/lueneburg-lk/bardowick/mit-dem-fahrrad-ins-abenteuer-sechs-schuelerinnen-radeln-240-kilometer-fuer-soziales-projekt-FFA7VOV3N5DYDL7BIY6IROB7CE.html?outputType=valid_amp
+  name: 'Von Rastede bis nach St. Dionys Mit dem Fahrrad ins Abenteuer: Schülerinnen radeln 240 Kilometer für soziales Projekt'
+  anfang: 'Sechs 14-jährige Mädchen, sechs Fahrräder – und eine Mission: Im Rahmen eines Schulprojekts radeln Schülerinnen der KGS Rastede über 240 Kilometer Richtung Lüneburger Heide, um sich in zwei Kirchengemeinden sozial zu engagieren.'
+  datum: 2025-06-17
+  medium: sonstiges
+- 
+  link: >
+    https://www.rastede.de/2025/06/praeventionsprojekt-balu-und-du-vierter-durchgang-setzt-erfolgsgeschichte-fort/
+  name: 'Präventionsprojekt „Balu und Du“: Vierter Durchgang setzt Erfolgsgeschichte fort'
+  anfang: >
+    Der vierte Durchgang des
+    Präventionsprojekts „Balu und Du“
+    ist in dieser Woche erfolgreich zu Ende
+    gegangen. Im Rahmen einer kleinen
+    Abschlussfeier übergab Bürgermeister
+    Lars Krause Urkunden und Medaillen an
+    die teilnehmenden Schülerinnen und
+    Schüler der Kooperativen Gesamtschule
+    (KGS) Rastede sowie der Grundschulen
+    Feldbreite, Leuchtenburg und Kleibrok.
+  datum: 2025-06-08
+  medium: gemeinde
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/anne-frank-ausstellung-in-rastede-kgs-erinnert-an-schicksal-des-juedischen-maedchens_a_4,2,744671717.html
+  name: >
+    Ausstellung in Rastede erinnert an
+    jüdisches Mädchen Anne Frank
+  anfang: >
+    In Rastede findet im Juni eine
+    Anne-Frank-Ausstellung statt. Führungen
+    und ein umfangreiches Begleitprogramm
+    bieten Einblicke in ihr Leben und die
+    NS-Zeit. Welche Veranstaltungen erwarten
+    die Besucher?
+  datum: 2025-05-22
+  medium: nwz
+- 
+  link: >
+    https://www.ostfriesland.travel/orte/landkreis-ammerland/rastede/veranstaltungen-in-rastede/veranstaltung/29062025--101049188--deine-anne-ein-madchen-schreibt-geschichte
+  name: 'Deine Anne - ein Mädchen schreibt Geschichte'
+  anfang: 'Die Geschichte des jüdischen Mädchens Anne Frank, das in einem Hinterhaus versteckt ihr berühmtes Tagebuch schrieb und letztendlich von den Nationalsozialisten entdeckt, deportiert und ermordet wurde, wird in der Wanderausstellung "Deine Anne - ein Mädchen schreibt Geschichte" in der Kooperativen Gesamtschule Rastede gezeigt.'
+  datum: 2025-05-14
+  medium: sonstiges
+- 
+  link: >
+    https://kvhs-ammerland.de/programm/kultur/kurs/NEU-Ausstellung-Deine-Anne-Ein-Maedchen-schreibt-Geschichte/O1018?knradd=O1018
+  name: 'NEU Ausstellung: Deine Anne – Ein Mädchen schreibt Geschichte'
+  anfang: >
+    Die Kooperative Gesamtschule Rastede
+    präsentiert im Juni die interaktive
+    Ausstellung „Deine Anne – Ein
+    Mädchen schreibt Geschichte“,
+    entwickelt vom Anne Frank Zentrum Berlin
+    in Kooperation mit dem Anne Frank Haus
+    in Amsterdam. Schülerinnen und Schüler
+    der KGS Rastede begleiten durch diese
+    eindrucksvolle und hoch aktuelle
+    Ausstellung und diskutieren dabei zum
+    Thema "Diskriminierung damals und
+    heute". Gemeinsam mit der KVHS Ammerland
+    möchte die KGS Rastede auch externen
+    Gästen den Besuch der Ausstellung
+    ermöglichen und lädt dazu herzlich
+    ein. Treffpunkt ist der Haupteingang der
+    KGS Rastede, Wilhelmstr. 5 in 26180
+    Rastede. Die Veranstaltung ist
+    entgeltfrei. Um Voranmeldung über die
+    KVHS Ammerland wird gebeten.
+  datum: 2025-04-30
+  medium: sonstiges
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/der-schuetzenverein-leuchtenburg-feiert-sein-schuetzenfest-ende-april_a_4,2,391900431.html
+  name: 'Schießwettbewerbe, Spiele und Party - Schützenfest in Leuchtenburg für Groß und Klein'
+  anfang: >
+    Befreundete Schützenvereine sind
+    herzlich zum Preisschießen eingeladen.
+    Den Teilnehmern winken viele Sachpreise.
+  datum: 2025-04-16
+  medium: nwz
+- 
+  link: >
+    https://www.rastede.de/2025/04/rastede-strampelt-auch-2025-fuers-klima/
+  name: Rastede strampelt auch 2025 fürs Klima
+  anfang: 'Drei Wochen lang für möglichst viele Alltagswege das Fahrrad nutzen – darum geht es beim Wettbewerb „Stadtradeln“. Die Gemeinde Rastede nimmt in diesem Jahr bereits zum fünften Mal an der Aktion teil und wirbt um Unterstützung: Vom 18. Mai bis zum 7. Juni sind alle Menschen, die in der Gemeinde leben, arbeiten, einen Verein oder eine Schule besuchen dazu aufgerufen, per Rad zurückgelegte Kilometer zu sammeln.'
+  datum: 2025-04-15
+  medium: gemeinde
+- 
+  link: >
     https://www.nwzonline.de/ammerland/tabuzonen-fuer-snackautomaten-im-ammerland-sollen-solche-geraete-in-der-naehe-von-schulen-stehen-duerfen_a_4,2,237058884.html
   name: 'Einkaufen - Tabuzonen für Snackautomaten?'
   anfang: >
@@ -5765,6 +5883,17 @@ Pressenachrichten:
     also auf dem Programm.
   datum: 2015-01-02
   medium: rastederrundschau
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/schlosspark-rastede-waldjugendspiele-der-kooperativen-gesamtschule-kgs-rastede_a_4,2,1096747237.html
+  name: 'Waldjugendspiele der KGS - Rasteder Schlosspark wird für einen Tag zum Klassenzimmer'
+  anfang: >
+    Rund 300 Sechstklässler nahmen an den
+    Waldjugendspielen der KGS Rastede teil.
+    An 17 Stationen ging es um das Thema
+    Wald.
+  datum: 2025-06-25
+  medium: nwz
 
 ----
 

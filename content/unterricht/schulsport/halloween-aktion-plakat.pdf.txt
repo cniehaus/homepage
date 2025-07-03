@@ -3,3 +3,7 @@ Anzeigename: Halloween-Aktion (Plakat)
 ----
 
 Template: datei
+
+----
+
+Uuid: 9x1cGuAnhkbYUHy5

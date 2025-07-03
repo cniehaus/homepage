@@ -1,0 +1,25 @@
+Title: Lucky Seven on Tour
+
+----
+
+Kurzname: Lucky Seven on Tour.
+
+----
+
+Teamlogo: - file://msRJxkbXL39bSQZ3
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Unsere Herausforderung ist, dass wir anderen etwas beibringen, da wir so etwas noch nie gemacht haben. Hier findet ihr die täglichen Fotos:</p><p><a href=\"https://nds.edumaps.de/59228/35976/pxdc3qy2l7/d8318ij3td\">https://nds.edumaps.de/59228/35976/pxdc3qy2l7/d8318ij3td</a></p>"},"id":"3c4f7a08-2ad4-4bc0-a206-02dc67577cc3","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://msRJxkbXL39bSQZ3"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"2460ca8c-d399-493e-8b41-a60abc8678c1","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: iWxMhVj7v7D5OLBK

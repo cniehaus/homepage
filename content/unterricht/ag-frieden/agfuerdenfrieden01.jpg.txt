@@ -1,1 +1,5 @@
 Template: blogbild
+
+----
+
+Uuid: kUg2BfQ8Z3V5utuZ

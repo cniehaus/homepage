@@ -1,0 +1,5 @@
+Uuid: lp75SWGUgZZZPzfd
+
+----
+
+Template: blocks/image

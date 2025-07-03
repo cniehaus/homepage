@@ -1,0 +1,25 @@
+Title: The Nature Teacher on Tour
+
+----
+
+Kurzname: The Nature Teacher on Tour
+
+----
+
+Teamlogo: - file://WTPPmy24GyHyoExR
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Nature Teacher on Tour und fahren an eine Grundschule, um dort ein paar Projekttage zu gestalten. Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/59219/35976/8ra2dw8cif/mq5ifoj3hs\">https://nds.edumaps.de/59219/35976/8ra2dw8cif/mq5ifoj3hs</a></p>"},"id":"ab118e15-d9b7-41e0-9040-cad5242a9bd1","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://WTPPmy24GyHyoExR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ca13086e-1f43-4fc1-abe9-4a80a36e22f6","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: - file://RfpqbnD52R3SsHBz
+
+----
+
+Uuid: MGVEpNhhPUWUvJsu

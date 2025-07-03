@@ -6,6 +6,10 @@ Heading:
 
 ----
 
+Blogtag: 
+
+----
+
 Text: [{"content":{"text":"<p>Dem Organigramm sind die jeweiligen Ansprechpartner:innen zu entnehmen. Alle Lehrkräfte sind via E-Mail erreichbar: Kürzel@kgs-rastede.eu</p>"},"id":"ad9e3a8b-d89d-49d1-aad9-83810729f1a2","isHidden":false,"type":"text"}]
 
 ----
@@ -22,7 +26,7 @@ Downloadtitel:
 
 ----
 
-Downloads: - file://G0daINS5PJJmk1Fz
+Downloads: - file://o1ztOUm4BKRW8fFR
 
 ----
 

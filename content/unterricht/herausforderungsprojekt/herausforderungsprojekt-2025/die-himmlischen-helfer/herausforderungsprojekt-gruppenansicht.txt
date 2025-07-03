@@ -1,0 +1,25 @@
+Title: Die himmlischen Helfer
+
+----
+
+Kurzname: himmlische Helfer
+
+----
+
+Teamlogo: - file://YqIb1NLL74QipJQI
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Himmlischen Helfer und fahren mit dem Fahrrad in die Lüneburger Heide. Dort wollen wir 2 Kirchengemeinden unterstützen. Hier findet ihr die täglichen Bilder:</p><p><a href=\"https://nds.edumaps.de/59224/35976/j1ffifx3lq/v9bbwfvjt2\">https://nds.edumaps.de/59224/35976/j1ffifx3lq/v9bbwfvjt2</a></p>"},"id":"571aeb3f-f52c-4f06-8ee8-2c0ecb6f2a86","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://YqIb1NLL74QipJQI"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"022870db-f0ab-49b6-8ce1-d2d7c19784d4","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: CbHYmIAHzXAFnGSb

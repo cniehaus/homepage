@@ -1,0 +1,25 @@
+Title: Die Pedalprinzessinnen
+
+----
+
+Kurzname: Die Pedalprinzessinnen
+
+----
+
+Teamlogo: - file://Jy7T0CXxRiVdCqi5
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Pedalprinzessinnen und wollen mit dem Fahrrad am Weserradweg bis nach Bielefeld fahren. Dabei schreiben und gestalten wir ein Bilderbuch über unsere Erlebnisse. Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/58799/35976/ded5zqakpz/qu3ddgnkbc\">https://nds.edumaps.de/58799/35976/ded5zqakpz/qu3ddgnkbc</a></p>"},"id":"c00ace71-ab08-4001-a503-bcb10d19b4a4","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://Jy7T0CXxRiVdCqi5"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"47b782b5-b46d-4e57-b9a5-211f395f1f18","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: T4jruaGxXCoDx93L

@@ -4,10 +4,8 @@ Title: KGS Rastede
 
 Pages:
 
-- page://8M3KZYR9nhun0o0p
-- page://rmbkqgyyj5gntait
-- page://qqhtjnsg7jnwf06x
-
-----
-
-Toggle: 0
+- schule
+- ser
+- unterricht
+- wichtige_informationen
+- sv

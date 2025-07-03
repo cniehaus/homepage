@@ -1,0 +1,25 @@
+Title: Die Gummibärchenbande
+
+----
+
+Kurzname: die Gummibärchenbande
+
+----
+
+Teamlogo: - file://v9XOoGCPwoaX2HW8
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gummibärchenbande und unser Ziel ist es, uns sozial zu engagieren. Deshalb machen wir etwas mit Kindern, Jugendlichen und auch Senioren. Unser Reiseziel ist dabei die Jugendherberge auf Wangerooge. Hier findet ihr die täglichen Fotos:</p><p><a href=\"https://nds.edumaps.de/59226/35976/4mvxgy8bki/os4bx85non\">https://nds.edumaps.de/59226/35976/4mvxgy8bki/os4bx85non</a></p>"},"id":"88473a64-c217-4dc1-bddf-c48fda5b2b7f","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://v9XOoGCPwoaX2HW8"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"16eae756-4274-462f-924d-2c59b6d2daea","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: U5jhXmu7nrDeUrIk

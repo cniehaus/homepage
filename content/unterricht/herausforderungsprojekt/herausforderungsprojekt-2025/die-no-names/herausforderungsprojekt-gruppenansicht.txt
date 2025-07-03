@@ -1,0 +1,25 @@
+Title: Die No-Names
+
+----
+
+Kurzname: Die No-Names
+
+----
+
+Teamlogo: - file://2Ekve3yh8cYvTTPk
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir fahren durch Norddeutschland, ernähren uns vegetarisch und klären Grundschüler über Mobbing auf. Wir sind Yousef, Henrik, Moritz, Tammo, Moritz und Tim. Hier findet ihr die täglichen Bilder: </p><p><a href=\"https://nds.edumaps.de/59221/35976/nmb1lk8vaj/15ermkvh5l\">https://nds.edumaps.de/59221/35976/nmb1lk8vaj/15ermkvh5l</a></p>"},"id":"d36af544-57b2-489c-9d83-d98294cb2780","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://2Ekve3yh8cYvTTPk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"145e8fb5-e52a-44ea-88e4-df7cb39d0fc8","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: keRkKY3l77CNMGlj

@@ -1,0 +1,25 @@
+Title: Die wilden Tiere
+
+----
+
+Kurzname: die wilden Tiere
+
+----
+
+Teamlogo: - file://n9Y8G30GPmEKAgt7
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Gruppe „Die Wilden Tiere“ und bestehen aus Tamme,Sverre,Bennet,Lucian,David und Mats. Begleitet werden wir von Theda und Raya. Wir fahren mit dem Fahrrad ca.260km nach Sundern im Sauerland. Dort helfen wir bei einer Tierauffangstation, die auf Meerschweinchen spezialisiert ist. Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/59220/35976/t4sj6d8cw4/z6vq8o11w7\">https://nds.edumaps.de/59220/35976/t4sj6d8cw4/z6vq8o11w7</a></p>"},"id":"22c8ed17-4d44-43ec-bfb7-7aeb85b9eddf","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://n9Y8G30GPmEKAgt7"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"a0c123f4-227b-48c6-8759-fdfd428c43b2","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: USryBjicFbRIfntB

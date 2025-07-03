@@ -1,0 +1,25 @@
+Title: Die Halbstarken
+
+----
+
+Kurzname: Die Halbstarken
+
+----
+
+Teamlogo: - file://TPXNsUWknY4SzNVP
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir wollen nach Amsterdam fahren und dort ein Mud Race machen. Hier findet ihr die täglichen Fotos:</p><p><a href=\"https://nds.edumaps.de/59222/35976/6ttu1xmtqs/p070mhybee\">https://nds.edumaps.de/59222/35976/6ttu1xmtqs/p070mhybee</a></p>"},"id":"c5a8fea5-b2dd-4ee5-93e3-f8c4be479cd6","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://TPXNsUWknY4SzNVP"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ed294349-52da-4c76-bcf6-9de3ea430409","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: wlZO8XTQ7t0Vwmii

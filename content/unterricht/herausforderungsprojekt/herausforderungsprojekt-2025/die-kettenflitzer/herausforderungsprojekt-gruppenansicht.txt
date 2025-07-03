@@ -1,0 +1,25 @@
+Title: Die Kettenflitzer
+
+----
+
+Kurzname: die kettenflitzer
+
+----
+
+Teamlogo: - file://39t9etp3BFvtN507
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind das Team \"Die Kettenflitzer\". Unsere Route führt uns von Rastede über Bremerhaven, Otterndorf und Cuxhaven und bietet eine abwechslungsreiche Mischung aus Natur, Abenteuer und tollen Erlebnissen. Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/59229/35976/xt08pkz5gj/xehwwgqc2g\">https://nds.edumaps.de/59229/35976/xt08pkz5gj/xehwwgqc2g</a></p>"},"id":"4f9bd554-ad89-4941-a8c0-14c4ce3d8782","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://39t9etp3BFvtN507"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"6d1a6d7b-07e3-49e3-b844-fe7beb166b4b","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: rPlvoClYsvepXEuW

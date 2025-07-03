@@ -1,0 +1,25 @@
+Title: Die Rad-Kiddies
+
+----
+
+Kurzname: Die Rad-Kiddies
+
+----
+
+Teamlogo: - file://k1OTasK9XJ4CdyYn
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Wir sind die Rad- Kiddies, wir fahren nach Freren über Merzen und zurück. Dabei setzen wir uns für das Tierwohl ein und lernen Gebärdensprache. Hier findet ihr die täglichen Fotos:</p><p><a href=\"https://nds.edumaps.de/59223/35976/s8bewdfag2/uq0hk587if\">https://nds.edumaps.de/59223/35976/s8bewdfag2/uq0hk587if</a></p>"},"id":"fe9e58a0-b6c8-4466-9e58-155b8d056e3d","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://k1OTasK9XJ4CdyYn"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"c283e598-3aad-4370-8273-2a973e0bd7e2","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: xIjcsujWT2aOdqqN

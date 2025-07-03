@@ -1,0 +1,25 @@
+Title: Die Überflieger
+
+----
+
+Kurzname: Die Überflieger
+
+----
+
+Teamlogo: - file://WlDi1zwvlbH1bk5O
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Hey, wir sind die Überflieger und fahren von Rastede in die Niederlande und an der Nordsee wieder zurück. In dieser Zeit werden wir auf Pferde- und Bauernhöfen helfen. Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/59225/35976/gc5si7pc5c/8uu2hcqfe8\">https://nds.edumaps.de/59225/35976/gc5si7pc5c/8uu2hcqfe8</a></p>"},"id":"225ff25f-80e8-4841-8c3e-0404066c3e5b","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://WlDi1zwvlbH1bk5O"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"014ec061-de55-4916-90dc-c5922497ece9","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: av09H8AMRtYyLboy

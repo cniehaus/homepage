@@ -1,0 +1,25 @@
+Title: Die Baller
+
+----
+
+Kurzname: Die baller
+
+----
+
+Teamlogo: - file://6qJoiuBpu7MYhY8P
+
+----
+
+Teamfarbe: 
+
+----
+
+Text: [{"content":{"text":"<p>Hier findet ihr die täglichen Bilder:</p><p><a href=\"https://nds.edumaps.de/59216/35976/ljwmss2wc2/92n4gzk5th\">https://nds.edumaps.de/59216/35976/ljwmss2wc2/92n4gzk5th</a></p>"},"id":"8aa71a15-1bdd-4e97-a4f3-c555eb040c0c","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://6qJoiuBpu7MYhY8P"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b2e23710-71e1-4220-926e-ac40535ae666","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: J2vDd4jzvUHs73C9

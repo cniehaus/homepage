@@ -1,0 +1,25 @@
+Title: Die 4 1/2 Veganer
+
+----
+
+Kurzname: 4 1/2 Veganer
+
+----
+
+Teamlogo: - file://xqsYln0sDvN1kLH4
+
+----
+
+Teamfarbe: teamfarbe1
+
+----
+
+Text: [{"content":{"text":"<p>Ida, Mia, Sönke und Isabel wollen versuchen vegan zu leben und sich für den Tierschutz einzusetzen. Dabei legen sie ihre Strecke zu Fuß zurück.  Hier findet ihr die täglichen Fotos: </p><p><a href=\"https://nds.edumaps.de/59227/35976/emkdvvzm1l/nsp45bjohc\">https://nds.edumaps.de/59227/35976/emkdvvzm1l/nsp45bjohc</a></p>"},"id":"13f5bc99-db17-4109-b347-5f453ab53c2e","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://xqsYln0sDvN1kLH4"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"f234539e-2fa8-4dd4-a4d2-ff954f861f71","isHidden":false,"type":"image"}]
+
+----
+
+Gallery: 
+
+----
+
+Uuid: As3VCrvx85IStFR4
