@@ -10,16 +10,21 @@ slot();
   ]); ?>
 
   <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()): ?>
-    <h3 class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300">
-      <span class="me-4 text-gray-600 dark:text-gray-300">
+  <h3 class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300">
+    <?php if ($page->author()->isNotEmpty()): ?>
+      <span class="mr-4 text-gray-600 dark:text-gray-300">
         <?= $page->author() ?>
       </span>
+    <?php endif; ?>
 
+    <?php if ($page->date()->isNotEmpty()): ?>
       <span class="font-semibold">
         <?= $page->date()->toDate('d.m.Y') ?>
       </span>
-    </h3>
-  <?php endif; ?>
+    <?php endif; ?>
+  </h3>
+<?php endif; ?>
+
 </div>
 <!-- END Heading -->
 
