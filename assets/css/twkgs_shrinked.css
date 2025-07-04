@@ -419,9 +419,6 @@
   .my-px {
     margin-block: 1px;
   }
-  .me-4 {
-    margin-inline-end: calc(var(--spacing) * 4);
-  }
   .prose {
     color: var(--tw-prose-body);
     max-width: 65ch;
@@ -1388,10 +1385,6 @@
     width: calc(var(--spacing) * 5);
     height: calc(var(--spacing) * 5);
   }
-  .size-6 {
-    width: calc(var(--spacing) * 6);
-    height: calc(var(--spacing) * 6);
-  }
   .size-10 {
     width: calc(var(--spacing) * 10);
     height: calc(var(--spacing) * 10);
@@ -2307,9 +2300,6 @@
   .text-indigo-500 {
     color: var(--color-indigo-500);
   }
-  .text-indigo-600 {
-    color: var(--color-indigo-600);
-  }
   .text-indigo-800 {
     color: var(--color-indigo-800);
   }
@@ -2793,13 +2783,6 @@
       }
     }
   }
-  .hover\:text-indigo-400 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-indigo-400);
-      }
-    }
-  }
   .hover\:text-kgs-blue {
     &:hover {
       @media (hover: hover) {
@@ -3147,11 +3130,6 @@
       gap: calc(var(--spacing) * 4);
     }
   }
-  .sm\:gap-5 {
-    @media (width >= 40rem) {
-      gap: calc(var(--spacing) * 5);
-    }
-  }
   .sm\:space-y-0 {
     @media (width >= 40rem) {
       :where(& > :not(:last-child)) {
@@ -3182,11 +3160,6 @@
   .sm\:rounded-lg {
     @media (width >= 40rem) {
       border-radius: var(--radius-lg);
-    }
-  }
-  .sm\:p-0 {
-    @media (width >= 40rem) {
-      padding: calc(var(--spacing) * 0);
     }
   }
   .sm\:p-4 {
@@ -3295,11 +3268,6 @@
   .md\:grid-cols-6 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(6, minmax(0, 1fr));
-    }
-  }
-  .md\:gap-2 {
-    @media (width >= 48rem) {
-      gap: calc(var(--spacing) * 2);
     }
   }
   .md\:gap-4 {
@@ -3768,11 +3736,6 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
-  .xl\:gap-4 {
-    @media (width >= 80rem) {
-      gap: calc(var(--spacing) * 4);
-    }
-  }
   .xl\:gap-6 {
     @media (width >= 80rem) {
       gap: calc(var(--spacing) * 6);
@@ -4005,11 +3968,6 @@
       color: var(--color-indigo-200);
     }
   }
-  .dark\:text-indigo-400 {
-    &:where(.dark, .dark *) {
-      color: var(--color-indigo-400);
-    }
-  }
   .dark\:text-kgs-lblue {
     &:where(.dark, .dark *) {
       color: var(--color-kgs-lblue);
@@ -4139,15 +4097,6 @@
       &:hover {
         @media (hover: hover) {
           color: var(--color-gray-300);
-        }
-      }
-    }
-  }
-  .dark\:hover\:text-indigo-300 {
-    &:where(.dark, .dark *) {
-      &:hover {
-        @media (hover: hover) {
-          color: var(--color-indigo-300);
         }
       }
     }
