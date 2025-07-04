@@ -10,36 +10,42 @@ slot();
   ]); ?>
 
   <?php if ($page->date()->isNotEmpty() || $page->author()->isNotEmpty()): ?>
-    <h3 class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300">
-      <span class="me-4 text-gray-600 dark:text-gray-300">
+  <h3 class="text-xl leading-relaxed font-medium text-gray-700 dark:text-gray-300">
+    <?php if ($page->author()->isNotEmpty()): ?>
+      <span class="mr-4 text-gray-600 dark:text-gray-300">
         <?= $page->author() ?>
       </span>
+    <?php endif; ?>
 
+    <?php if ($page->date()->isNotEmpty()): ?>
       <span class="font-semibold">
         <?= $page->date()->toDate('d.m.Y') ?>
       </span>
-    </h3>
-  <?php endif; ?>
+    <?php endif; ?>
+  </h3>
+<?php endif; ?>
+
 </div>
 <!-- END Heading -->
 
 <!-- Blog Post -->
 <article
-  class="prose prose-lg prose-gray dark:prose-invert prose-a:no-underline prose-a:hover:opacity-75 prose-img:rounded-lg">
+  class="prose prose-lg dark:prose-invert prose-a:text-indigo-600 prose-a:no-underline prose-a:hover:text-indigo-400 prose-a:hover:opacity-75 dark:prose-a:text-indigo-400 dark:prose-a:hover:text-indigo-300 prose-img:rounded-lg"
+    >
 
   <?php foreach ($page->text()->toLayouts() as $layout): ?>
-    <section class="grid" id="<?= $layout->id() ?>">
-      <div class="row align-items-start">
-        <?php foreach ($layout->columns() as $column): ?>
-          <div class="col">
-            <div class="blocks">
-              <?= $column->blocks() ?>
-            </div>
+  <section class="grid" id="<?= $layout->id() ?>">
+    <div class="grid grid-cols-1 md:grid-cols-<?= $layout->columns()->count() ?> gap-4 items-start">
+      <?php foreach ($layout->columns() as $column): ?>
+        <div>
+          <div class="blocks">
+            <?= $column->blocks() ?>
           </div>
-        <?php endforeach; ?>
-      </div>
-    </section>
-  <?php endforeach; ?>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </section>
+<?php endforeach; ?>
 
 </article>
 <!-- END Blog Post -->

@@ -6,25 +6,22 @@ $links_bilder = [
   'https://kgs-rastede.eu' => 'IServ_Logo.svg',
   'https://foerderverein.kgsraste.de/' => 'foerderverein.png',
   'https://kgs-rastede.l-e-o.eu' => 'mensa.png',
-  'https://test.com' => 'eu.svg',
+  'http://kgs-rastede.de/unterricht/erasmus' => 'eu.svg',
 ];
 $alt = ['Webuntis', 'Schülerzeitung', 'IServ', 'Förderverein', 'Mensa', 'EU'];
 
 $count = -1;
 ?>
 
-<div class="flex justify-center w-full mb-2 px-5 sm:p-0 sm:px-0">
-  <div class="grid grid-cols-1 max-w-7xl gap-2 sm:gap-5 md:grid-cols-6 md:gap-2 xl:gap-4">
+<div class="flex justify-center w-full mb-2 px-5 sm:px-0">
+  <div class="grid grid-cols-1 max-w-7xl gap-2 sm:gap-4 md:grid-cols-6 md:gap-4 xl:gap-6 mx-auto">
     <?php foreach ($links_bilder as $link => $bild):
       $count++; ?>
       <a href="<?= $link ?>" target="_blank" rel="noopener" class="flex justify-center items-center">
-
         <img src="<?= $kirby->url('assets') ?>/bilder/<?= $bild ?>"
-        alt="<?= $alt[$count] ?>"
-        class="max-h-16 md:max-h-32">
-
+             alt="<?= $alt[$count] ?>"
+             class="max-h-16 md:max-h-32">
       </a>
-    <?php
-    endforeach; ?>
+    <?php endforeach; ?>
   </div>
 </div>

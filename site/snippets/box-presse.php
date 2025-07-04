@@ -50,7 +50,7 @@
             <img src=<?= $bildURL ?> class="mr-4" width="20px" alt="Logo der Presse-Seite">
           <?php } ?>
 
-          <span class="mr-1 text-base"><a class="text-black text-decoration-none" href="<?= $item->link() ?>" target="_blank" rel="noopener"><?= $item->name() ?></a>
+          <span class="mr-1 text-base"><a class="no-underline text-black" href="<?= $item->link() ?>" target="_blank" rel="noopener"><?= $item->name() ?></a>
             (<?= $item->datum()->toDate('d.m.y') ?>)</span>
         </li>
       <?php
