@@ -207,7 +207,7 @@
                         <?php
                         // prettier-ignore
                         $menuItems = [
-                            ['pfad' => "/allgemeines/wichtigelinks", 'name' => "Informationen und Formular"],
+                            ['pfad' => "/allgemeines/wichtigelinks", 'name' => "Informationen und Formulare"],
                             ['pfad' => "/allgemeines/schulbuchlisten", 'name' => "Schulbuchlisten"],
                             ['pfad' => "/allgemeines/bus", 'name' => "Buszeiten"],
                             ['pfad' => "/allgemeines/zeitraster", 'name' => "Zeitraster"],

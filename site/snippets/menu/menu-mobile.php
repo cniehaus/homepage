@@ -69,7 +69,7 @@
         ['pfad' => "/kontakte/sekretariate", 'name' => "Hausmeister"],
         ['pfad' => "/sv", 'name' => "Schüler:innen Vertretung (SV)"],
         ['pfad' => "/kontakte/spr", 'name' => "Schulpersonalrat (SPR)"],
-        ['pfad' => "/kontakte/gleichstellung", 'name' => "Gleichstellungsbeauftragte"],
+        ['pfad' => "/kontakte/gleichstellung", 'name' => "Gleichstellung"],
         ['pfad' => "https://www.ser-kgs.de", 'name' => "Schulelternrat (SER)"],
         ['pfad' => "https://foerderverein.kgsraste.de", 'name' => "Förderverein"]
       ];
@@ -158,7 +158,7 @@
       <?php
       // prettier-ignore
       $menuItems = [
-        ['pfad' => "/allgemeines/wichtigelinks", 'name' => "Informationen und Formular"],
+        ['pfad' => "/allgemeines/wichtigelinks", 'name' => "Downloads"],
         ['pfad' => "/allgemeines/schulbuchlisten", 'name' => "Schulbuchlisten"],
         ['pfad' => "/allgemeines/bus", 'name' => "Buszeiten"],
         ['pfad' => "/allgemeines/zeitraster", 'name' => "Zeitraster"],
