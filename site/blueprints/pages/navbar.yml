@@ -54,24 +54,30 @@ tabs:
         label: Menü "Unterricht und Schulleben"
         type: headline
 
+      linkmenue2_1_text:
+        type: text
+        label: Beschriftung
+        width: 2/3
 
-      toggle2_1:
-        label: Menü 2, Highlight 1 Im Menü anzeigen?
-        type: toggle
-        text:
-          - "nein"
-          - "ja"
-      
       linkmenue2_1:
         label: 'Erster Link'
         type: link
         options:
           - page
           - url
-      linkmenue2_1_text:
-        type: text
-        label: Beschriftung
+        width: 2/3
 
+      toggle2_1:
+        label: Menü 2, Highlight 1 – Im Menü anzeigen?
+        type: toggle
+        text:
+          - "nein"
+          - "ja"
+        width: 1/3
+
+
+      lineC:
+        type: line
 
       toggle2_2:
           label: Menü 2, Highlight 2 Im Menü anzeigen?
@@ -79,21 +85,30 @@ tabs:
           text:
             - "nein"
             - "ja"
+        width: 1/3
+
       linkmenue2_2:
         label: 'Zweiter Link'
         type: link
         options:
           - page
           - url
+        width: 2/3
+
       linkmenue2_2_text:
         type: text
         label: Beschriftung
-      lineC:
-        type: line
+        width: 2/3
+
+
+
+       
+
 
 
 
   menu_3:
+  
     label: Informationen
     icon: text
     fields:  

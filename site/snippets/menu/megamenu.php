@@ -1,5 +1,6 @@
 <?php
-$navbar = page('navbar'); // 'navbar' ist der Slug
+$navbar = page('navbar');
+// 'navbar' ist der Slug
 ?>
 
 <!-- Main Header Section: With Mega Menu -->
@@ -84,15 +85,27 @@ $navbar = page('navbar'); // 'navbar' ist der Slug
                                 Aktuelles
                             </h4>
                             <div class="grid grid-cols-2 gap-4 xl:gap-8">
-                                <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue1_1()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue1_1_text()->value(),
+                                <?= snippet('highlightfeld_menu', [
+                                  'feld_toggle' => $navbar
+                                    ->toggle1_1()
+                                    ->toBool(),
+                                  'feld_link' => $navbar
+                                    ->linkmenue1_1()
+                                    ->toUrl(),
+                                  'feld_text' => $navbar
+                                    ->linkmenue1_1_text()
+                                    ->value(),
                                 ]) ?>
-                                <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue2_2()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue2_2_text()->value(),
+                                <?= snippet('highlightfeld_menu', [
+                                  'feld_toggle' => $navbar
+                                    ->toggle1_2()
+                                    ->toBool(),
+                                  'feld_link' => $navbar
+                                    ->linkmenue2_2()
+                                    ->toUrl(),
+                                  'feld_text' => $navbar
+                                    ->linkmenue2_2_text()
+                                    ->value(),
                                 ]) ?>
                             </div>
                         </div>
@@ -162,16 +175,21 @@ $navbar = page('navbar'); // 'navbar' ist der Slug
                                 class="font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
                                 Aktuell im Fokus
                             </h4>
-                            <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue2_1()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue2_1_text()->value(),
-                                ]) ?>
-                             <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue2_2()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue2_2_text()->value(),
-                                ]) ?> 
+                            <?= snippet('highlightfeld_menu', [
+                              'feld_toggle' => $navbar->toggle2_1()->toBool(),
+                              'feld_link' => $navbar->linkmenue2_1()->toUrl(),
+                              'feld_text' => $navbar
+                                ->linkmenue2_1_text()
+                                ->value(),
+                            ]) ?>
+                             <?= snippet('highlightfeld_menu', [
+                               'feld_toggle' => $navbar->toggle2_2()->toBool(),
+
+                               'feld_link' => $navbar->linkmenue2_2()->toUrl(),
+                               'feld_text' => $navbar
+                                 ->linkmenue2_2_text()
+                                 ->value(),
+                             ]) ?> 
                         </div>
                     </div>
                     <?php endslot(); ?>
@@ -211,15 +229,25 @@ $navbar = page('navbar'); // 'navbar' ist der Slug
                             </h4>
                             <div class="grid grid-cols-3 gap-4 xl:gap-8">
                                 
-                            <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue3_1()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue3_1_text()->value(),
-                                ]) ?>
-                                <?= snippet('highlightfeld_menu', 
-                                [
-                                    'feld_link' => $navbar->linkmenue3_2()->toUrl(),
-                                    'feld_text' => $navbar->linkmenue3_2_text()->value(),
+                            <?= snippet('highlightfeld_menu', [
+                              'feld_toggle' => $navbar->toggle3_1()->toBool(),
+
+                              'feld_link' => $navbar->linkmenue3_1()->toUrl(),
+                              'feld_text' => $navbar
+                                ->linkmenue3_1_text()
+                                ->value(),
+                            ]) ?>
+                                <?= snippet('highlightfeld_menu', [
+                                  'feld_toggle' => $navbar
+                                    ->toggle3_2()
+                                    ->toBool(),
+
+                                  'feld_link' => $navbar
+                                    ->linkmenue3_2()
+                                    ->toUrl(),
+                                  'feld_text' => $navbar
+                                    ->linkmenue3_2_text()
+                                    ->value(),
                                 ]) ?>
 
                             </div>

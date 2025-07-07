@@ -2,11 +2,19 @@ Title: Highlights im Menü
 
 ----
 
+Toggle1-1: false
+
+----
+
 Linkmenue1-1: page://sYpQWRLtgRedw1vw
 
 ----
 
 Linkmenue1-1-text: 1. Link "Über die Schule"
+
+----
+
+Toggle1-2: true
 
 ----
 
@@ -18,11 +26,19 @@ Linkmenue1-2-text: zweiter link "Über die Schule"
 
 ----
 
+Linkmenue2-1-text: 1. Link "Über die Schule"
+
+----
+
 Linkmenue2-1: https://www.zeit.de
 
 ----
 
-Linkmenue2-1-text: 1. Link "Über die Schule"
+Toggle2-1: true
+
+----
+
+Toggle2-2: true
 
 ----
 
@@ -34,11 +50,19 @@ Linkmenue2-2-text: 2. Link "Über die Schule"
 
 ----
 
+Toggle3-1: true
+
+----
+
 Linkmenue3-1: page://gm098sb3tnigakoa
 
 ----
 
 Linkmenue3-1-text: 1. Link "Informationen"
+
+----
+
+Toggle3-2: true
 
 ----
 
