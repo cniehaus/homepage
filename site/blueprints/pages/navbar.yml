@@ -1,6 +1,12 @@
 title: Menü - Highlights definieren
 
 fields:
+  toggle1_1:
+      label: Menü 1, Highlight 1 Im Menü anzeigen?
+      type: toggle
+      text:
+        - "nein"
+        - "ja"
   menue1:
     label: Menü "Über die Schule"
     type: headline
@@ -13,6 +19,13 @@ fields:
   linkmenue1_1_text:
     type: text
     label: Beschriftung
+  
+  toggle1_2:
+      label: Menü 1, Highlight 2 Im Menü anzeigen?
+      type: toggle
+      text:
+        - "nein"
+        - "ja"
   linkmenue1_2:
     label: 'Zweiter Link'
     type: link
@@ -25,9 +38,19 @@ fields:
   lineB:
     type: line
 
+
+
   menue2:
     label: Menü "Unterricht und Schulleben"
     type: headline
+  
+  toggle2_1:
+    label: Menü 2, Highlight 1 Im Menü anzeigen?
+    type: toggle
+    text:
+      - "nein"
+      - "ja"
+  
   linkmenue2_1:
     label: 'Erster Link'
     type: link
@@ -38,6 +61,13 @@ fields:
     type: text
     label: Beschriftung
 
+
+  toggle2_2:
+      label: Menü 2, Highlight 2 Im Menü anzeigen?
+      type: toggle
+      text:
+        - "nein"
+        - "ja"
   linkmenue2_2:
     label: 'Zweiter Link'
     type: link
@@ -53,6 +83,14 @@ fields:
   menue3:
     label: Menü "Informationen"
     type: headline
+
+  toggle3_1:
+    label: Menü 3, Highlight 1 Im Menü anzeigen?
+    type: toggle
+    text:
+      - "nein"
+      - "ja"
+
   linkmenue3_1:
     label: 'Erster Link'
     type: link
@@ -62,6 +100,13 @@ fields:
   linkmenue3_1_text:
     type: text
     label: Beschriftung
+
+  toggle3_2:
+    label: Menü 3, Highlight 2 Im Menü anzeigen?
+    type: toggle
+    text:
+      - "nein"
+      - "ja"
   linkmenue3_2:
     label: 'Zweiter Link'
     type: link
