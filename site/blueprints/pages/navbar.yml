@@ -26,6 +26,15 @@ tabs:
         type: text
         label: Beschriftung
 
+      bild_1_1:
+        label: Bild Highlight 1/1
+        type: files
+        layout: cards
+        query: page.images
+        max: 1
+
+      lineB:
+        type: line
 
       toggle1_2:
           label: Menü 1, Highlight 2 Im Menü anzeigen?
@@ -42,8 +51,13 @@ tabs:
       linkmenue1_2_text:
         type: text
         label: Beschriftung
-      lineB:
-        type: line
+
+      bild_1_2:
+        label: Bild Highlight 1/2
+        type: files
+        layout: cards
+        query: page.images
+        max: 1
 
 
   menu_2:
@@ -58,6 +72,13 @@ tabs:
         type: text
         label: Beschriftung
         width: 2/3
+
+      bild_2_1:
+        label: Bild Highlight 2/1
+        type: files
+        layout: cards
+        query: page.images
+        max: 1
 
       linkmenue2_1:
         label: 'Erster Link'
@@ -74,6 +95,7 @@ tabs:
           - "nein"
           - "ja"
         width: 1/3
+
 
 
       lineC:
@@ -99,6 +121,15 @@ tabs:
         type: text
         label: Beschriftung
         width: 2/3
+
+      bild_2_2:  
+        label: Bild Highlight 2/2
+        type: files
+        layout: cards
+        query: page.images
+        max: 1
+
+    
 
 
 
@@ -135,6 +166,14 @@ tabs:
         options:
           - page
           - url
+
+      bild_3_1:
+        label: Bild Highlight 3/1
+        type: files
+        layout: cards
+        query: page.images
+        max: 1
+
       linkmenue3_1_text:
         type: text
         label: Beschriftung
@@ -154,3 +193,10 @@ tabs:
       linkmenue3_2_text:
         type: text
         label: Beschriftung
+
+      bild_3_2:
+        label: Bild Highlight 3/2
+        type: files
+        layout: cards
+        query: page.images
+        max: 1

@@ -14,6 +14,10 @@ Linkmenue1-1-text: 1. Link "Über die Schule"
 
 ----
 
+Bild-1-1: - file://0ydzk0wltwo5rgjw
+
+----
+
 Toggle1-2: true
 
 ----
@@ -26,7 +30,15 @@ Linkmenue1-2-text: zweiter link "Über die Schule"
 
 ----
 
+Bild-1-2: - file://c5ndcmgeti6lmunn
+
+----
+
 Linkmenue2-1-text: 1. Link "Über die Schule"
+
+----
+
+Bild-2-1: - file://xewadqtcbg8mesw3
 
 ----
 
@@ -50,11 +62,19 @@ Linkmenue2-2-text: 2. Link "Über die Schule"
 
 ----
 
+Bild-2-2: - file://0ydzk0wltwo5rgjw
+
+----
+
 Toggle3-1: true
 
 ----
 
 Linkmenue3-1: page://gm098sb3tnigakoa
+
+----
+
+Bild-3-1: - file://idyq4kdiolmkrjgh
 
 ----
 
@@ -71,6 +91,18 @@ Linkmenue3-2: page://r5GGlS3XnBei9xZx
 ----
 
 Linkmenue3-2-text: 2. Link "Informationen"
+
+----
+
+Bild-3-2: - file://0ydzk0wltwo5rgjw
+
+----
+
+Downloads: - file://c5ndcmgeti6lmunn
+
+----
+
+Downloads2: - file://idyq4kdiolmkrjgh
 
 ----
 
