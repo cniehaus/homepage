@@ -1,11 +1,14 @@
 /* Tailwind importieren und nur im angegebenen source Ordner scannen */
-@import "tailwindcss" source("../../site/");
+@import 'tailwindcss' source('../../site/');
 
 /* Plugins */
 @plugin "@tailwindcss/typography";
 
 /* Class based dark mode */
 @variant dark (&:where(.dark, .dark *));
+
+/* Enable hover on mobile / Erklärung hier: https://tailkit.com/app/changelog */
+@custom-variant hover (&:hover);
 
 /* Für AlpineJS im mobilen Menü */
 [x-cloak] {
@@ -18,9 +21,9 @@
   --color-kgs-red: #a34e1c;
   --color-kgs-lblue: #8e9fcc;
   --color-kgs-blue: #0e5499;
-  
+
   /* Fonts */
-  --font-sans: "Pangea", "sans-serif";
+  --font-sans: 'Pangea', 'sans-serif';
 
   /* Animations */
   --animate-spin-slow: spin-slow 8s linear infinite;
@@ -55,5 +58,5 @@
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("/assets/css/Pangea-LightWeb.woff2") format("woff2");
+  src: url('/assets/css/Pangea-LightWeb.woff2') format('woff2');
 }
