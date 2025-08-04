@@ -14,12 +14,12 @@
 
   <?php // Auf dem richtigen Server wird die minifizierte CSS geladen.
 
-if (option('debug', false) === true) {
+  if (option('debug', false) === true) {
     echo css('assets/css/twkgs_shrinked.css');
   } else {
     echo css('assets/css/twkgs_shrinked.min.css');
   } ?>
-  
+
   <script defer src="/node_modules/alpinejs/dist/cdn.min.js"></script>
 
   <link rel="preload" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" as="style"
@@ -35,14 +35,14 @@ if (option('debug', false) === true) {
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="antialiased">
 
   <?php snippet('menu/megamenu'); ?>
 
   <?php if (
     $_SERVER['HTTP_HOST'] == 'niehaus-ol.de'
-  ):// Auf https://niehaus-ol.de wird ein riesiges knall gelbes Banner angezeigt, dass darüber informaiert das man nicht auf der richtigen Seite ist. Wenn niehaus-ol z.B. in SuchmaschinenErgebnissen auftaucht
-     ?>
+  ): // Auf https://niehaus-ol.de wird ein riesiges knall gelbes Banner angezeigt, dass darüber informaiert das man nicht auf der richtigen Seite ist. Wenn niehaus-ol z.B. in SuchmaschinenErgebnissen auftaucht
+  ?>
 
     <div class="container-fluid p-5 md:p-5 py-4 bg-yellow-200">
       <h1 class="mb-3">Sie befinden sich momentan nicht auf der offiziellen Homepage der KGS. Diese erreichen Sie
