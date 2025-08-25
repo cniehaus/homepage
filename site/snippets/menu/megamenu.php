@@ -68,7 +68,7 @@ $navbar = page('navbar');
               ['pfad' => "/schule/oberstufe", 'name' => "Oberstufe"],
               ['pfad' => "/schule/abschluesse", 'name' => "Abschlüsse an der KGS"],
               ['pfad' => "/schule/wahlen", 'name' => "Profile und Wahlen"],
-              ['pfad' => "/schule/organigramm", 'name' => "Zuständigkeiten / Organigram"],
+              ['pfad' => "/schule/organigramm", 'name' => "Zuständigkeiten / Organigramm"],
 
               ['pfad' => "/schule/ausbildungsschule", 'name' => "Ausbildungsschule"],
               ['pfad' => "/schule/presse", 'name' => "Unsere Schule in der Presse"]
