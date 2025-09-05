@@ -74,8 +74,7 @@
         ['pfad' => "https://foerderverein.kgsraste.de", 'name' => "Förderverein"]
       ];
       snippet('menu/menu-mobile-category-column', [
-        'title' => 'Kontakt linke Spalte',
-        'menuItems' => $menuItems,
+        'menuItems' => $menuItems
       ]);
 
       // prettier-ignore
@@ -95,8 +94,7 @@
         ['pfad' => "/schule/presse", 'name' => "Unsere Schule in der Presse"]
       ];
       snippet('menu/menu-mobile-category-column', [
-        'title' => 'Kontakt rechte Spalte',
-        'menuItems' => $menuItems,
+        'menuItems' => $menuItems
       ]);
       ?>
       <?php endslot(); ?>
@@ -125,8 +123,7 @@
 
       ];
       snippet('menu/menu-mobile-category-column', [
-        'title' => 'Mitte',
-        'menuItems' => $menuItems,
+        'menuItems' => $menuItems
       ]);
 
       // prettier-ignore
@@ -140,8 +137,7 @@
         ['pfad' => "/Faecher", 'name' => "Fächer"]
       ];
       snippet('menu/menu-mobile-category-column', [
-        'title' => 'Rechts',
-        'menuItems' => $menuItems,
+        'menuItems' => $menuItems
       ]);
       ?>
       <?php endslot(); ?>
@@ -164,8 +160,7 @@
         ['pfad' => "https://wiki.kgs-rastede.de/de/eltern/elterninfos_kompakt", 'name' => "Eltern-Wiki"]
       ];
       snippet('menu/menu-mobile-category-column', [
-        'title' => 'Downloads',
-        'menuItems' => $menuItems,
+        'menuItems' => $menuItems
       ]);
       ?>
       <?php endslot(); ?>
