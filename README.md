@@ -57,7 +57,7 @@ Kein Problem! Wir können uns entweder mal (z.B. in einer Mittagspause) treffen 
 
 Um den Quellcode zu verwalten braucht man [Git](https://git-scm.com/). Das kann man einfach installieren, Visual Code kann das dann direkt benutzen. Man (jedenfalls ich) benutzt Git direkt aus VS Code heraus. Auch andere sehr gute Editoren (Vim, Sublime, Atom, ...) unterstüzten Git direkt, denn Git ist ein Standard geworden. Jeder benutzt es.
 
-# WebServer (Kurzfassung: Unter Windows WAMP installieren!)
+# WebServer (Kurzfassung: Unter Windows WAMP oder Herd installieren!)
 
 Nginx ist heutzutage von vielen bevorzugt. Apache ist natürlich genauso gut. Wir brauchen _keinen MySQL-Server_ (oder irgendeinen anderen Datenbankserver), denn Kirby nutzt intern kein SQL.
 
