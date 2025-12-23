@@ -68,7 +68,7 @@ Ich verwende [Wamp64](http://www.wampserver.com/en/download-wampserver-64bits/).
 
 ## PHP (muss eigentlich nicht direkt installiert werden, kommt mit dem Webserver)
 
-Kirby setzt technisch gesehen PHP8 voraus. Die echte Homepage läuft schon auf PHP 8.3.
+Kirby setzt technisch gesehen PHP 8.2 voraus. Die echte Homepage läuft schon auf PHP 8.4.
 
 Man muss PHP aber nicht direkt installieren, denn PHP kommt als Teil vom Wamp64 mit.
 
