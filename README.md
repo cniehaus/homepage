@@ -95,7 +95,7 @@ sudo launchctl start com.docker.vmnetd
 
 # Git
 
-Die Homepage wird mit Git verwaltet werden. Jeder, der mitmachen möchte, sollte also einen Account bei Gitlab haben. Bitte geh also auf [Gitlab](https://gitlab.com/cniehaus/homepage) lege einen Account an
+Die Homepage wird mit Git verwaltet werden. Jeder, der mitmachen möchte, sollte also einen Account bei Github haben. Bitte geh also auf [Github](https://github.com/KGS-Rastede/homepage/) und lege einen Account an
 
 # CSS
 

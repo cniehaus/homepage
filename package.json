@@ -4,7 +4,7 @@
   "description": "Die Homepage der KGS Rastede, programmiert mit dem CMS Kirby",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/cniehaus/homepage"
+    "url": "https://github.com/KGS-Rastede/homepage/"
   },
   "keywords": [],
   "author": "",
