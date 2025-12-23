@@ -1,7 +1,7 @@
 <?php /* $links_bilder: Die URL zur Seite => Der Name des Bildes (im Ordner assets/bilder), $alt: Alternativtext für das Bild
  !!Beide arrays müssen gleich lang sein!! */
 $links_bilder = [
-  'https://thalia.webuntis.com/WebUntis/?school=kgs-rastede' => 'webuntis.png',
+  'https://kgs-rastede.webuntis.com/' => 'webuntis.png',
   'https://kgs-rastede.eu' => 'IServ_Logo.svg',
   'https://foerderverein.kgsraste.de/' => 'foerderverein.png',
   'https://kgs-rastede.l-e-o.eu' => 'mensa.png',
