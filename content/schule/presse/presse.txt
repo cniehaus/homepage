@@ -6,6 +6,125 @@ Pressenachrichten:
 
 - 
   link: >
+    https://www.nwzonline.de/ammerland/schulvertrag-zwischen-wiefelstede-und-rastede-verhandlungen-ueber-neue-regelung-werden-fortgesetzt_a_4,2,3374556932.html
+  name: 'Nach Kündigung des Schulvertrags - Verhandlungen zwischen Rastede und Wiefelstede werden fortgesetzt – Scharfe Kritik aus der Politik'
+  anfang: >
+    Die Kündigung des Schulvertrags
+    zwischen Wiefelstede und Rastede sorgt
+    für Unruhe. Trotz Fortschritten in den
+    Verhandlungen wird die fehlende
+    Transparenz kritisiert. Wie geht es
+    jetzt weiter?
+  datum: 2026-01-05
+  medium: nwz
+- 
+  link: >
+    https://www.rastede.de/2025/12/schulvertrag-zur-kostenbeteiligung-wird-gekuendigt-kommunen-setzen-verhandlungen-fort/
+  name: >
+    Schulvertrag zur Kostenbeteiligung wird
+    gekündigt – Kommunen setzen
+    Verhandlungen fort
+  anfang: >
+    Die Gemeinde Rastede kündigt den
+    bestehenden Schulvertrag zur
+    Kostenbeteiligung mit der Gemeinde
+    Wiefelstede. Ab dem ersten Quartal 2026
+    wollen die beiden Kommunen die
+    Verhandlungen über ein neues
+    Vertragswerk fortsetzen.
+  datum: 2025-12-23
+  medium: gemeinde
+- 
+  link: 'https://www.nwzonline.de/ammerland/verhandlungen-ueber-kgs-besuch-rastede-kuendigt-schulvertrag-mit-wiefelstede_a_4,2,3282000495.html#'
+  name: 'Verhandlungen über Oberstufenbesuch - Rastede erhöht Druck auf Wiefelstede und kündigt Schulvertrag'
+  anfang: >
+    Seit Monaten ringen Rastede und
+    Wiefelstede um einen neuen Schulvertrag.
+    Es geht um den Besuch von Wiefelsteder
+    Schülern auf der KGS des Nachbarn –
+    und vor allem geht es um Geld.
+  datum: 2025-12-23
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/schulplanung-in-wiefelstede-eltern-fordern-schnelle-loesung-fuer-gymnasialschueler_a_4,2,2932590398.html
+  name: 'Schulplanung in der Kritik  - Wohin mit Wiefelsteder Gymnasialschülern? – Eltern drängen auf schnelle Lösung'
+  anfang: >
+    Eltern in Wiefelstede sind besorgt über
+    die unklare Zukunft ihrer Kinder an
+    weiterführenden Schulen. Die geplanten
+    Gespräche zur Lösung des Schulproblems
+    sollen erst im Januar stattfinden.
+  datum: 2025-11-26
+  medium: nwz
+- 
+  link: >
+    https://www.nwzonline.de/ammerland/schulfinanzierung-in-rastede-verhandlungen-mit-wiefelstede-ohne-einigung-differenzen-ueber-schuelerkosten_a_4,2,2349841354.html
+  name: 'Erhebliche Differenzen - Streit zwischen Rastede und Wiefelstede um Schülerkosten'
+  anfang: >
+    Rastede und Wiefelstede streiten über
+    einen neuen Schulvertrag. Der
+    Pauschalbetrag von 490 Euro pro Schüler
+    deckt die Kosten nicht mehr. Ein neuer
+    Vorschlag liegt vor, doch eine Einigung
+    ist nicht in Sicht.
+  datum: 2025-10-08
+  medium: nwz
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/10/01/verein-stolpersteine-rastede-gegruendet/
+  name: >
+    Verein „Stolpersteine Rastede“
+    gegründet
+  anfang: >
+    Die ersten Gedenksteine sollen am 9.
+    Februar zur Erinnerung an die Familie
+    Hattendorf in der Schloßstraße verlegt
+    werden
+  datum: 2025-10-01
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/09/22/altkleider-sammeln-reparieren-und-tauschen/
+  name: >
+    Altkleider sammeln, reparieren und
+    tauschen
+  anfang: >
+    Die Mädchen und Jungen der Klasse 5B3
+    an der KGS Rastede nehmen mit
+    Engagement, tollen Ideen und großer
+    Freude an dem Projekt „Textil Race“
+    teil. Unterstützt werden sie dabei von
+    Susanne Bürig und Gerd Breuker.
+  datum: 2025-09-22
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/09/19/outdoor-ausstellung-zur-ns-zeit/
+  name: Outdoor-Ausstellung zur NS-Zeit
+  anfang: >
+    Die Residenzort Rastede GmbH erarbeitet
+    eine Ausstellung über Rastede im
+    Nationalsozialismus, die im Palaisgarten
+    realisiert werden soll. Bürgerinnen und
+    Bürger sind aufgerufen, sich zu
+    beteiligen.
+  datum: 2025-09-19
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.nwzonline.de/friesland/textil-race-in-friesland-ammerland-und-wilhelmshaven-schueler-sammeln-altkleider-fuer-klimaschutz-und-wettbewerb_a_4,2,2018432208.html
+  name: 'Aktion in Friesland, Ammerland und Wilhelmshaven - „Textil Race“ im Nordwesten – Schüler sammeln Altkleider für mehr Klimaschutz'
+  anfang: >
+    Schülerinnen und Schüler aus
+    Friesland, Wilhelmshaven und dem
+    Ammerland sammeln bei einem „Textil
+    Race“ Alttextilien. Wer etwas abgeben
+    möchte, kann sich melden.
+  datum: 2025-09-11
+  medium: nwz
+- 
+  link: >
     https://www.nwzonline.de/ammerland/schulung-medienhelden-fuer-lehrkraefte-und-sozialarbeiter-in-rastede_a_4,2,1953727250.html
   name: >
     Präventionsprojekt Rastede bekommt
@@ -45,6 +164,15 @@ Pressenachrichten:
   medium: gemeinde
 - 
   link: >
+    https://www.rasteder-rundschau.de/2025/08/29/besondere-fuehrung-im-palais-rastede/
+  name: Besondere Führung im Palais Rastede
+  anfang: >
+    Junge Talente der KGS präsentieren ihre
+    Werke
+  datum: 2025-08-29
+  medium: rastederrundschau
+- 
+  link: >
     https://www.nwzonline.de/ammerland/schulhof-in-rastede-spd-fordert-neues-spielfeld-fuer-kgs-schueler_a_4,2,1812818988.html
   name: 'Weniger Dreck und mehr Spielspaß - Schluss mit Bolzen auf Sand – SPD Rastede beantragt neues Spielfeld für KGS-Schulhof'
   anfang: >
@@ -69,6 +197,18 @@ Pressenachrichten:
     festliche Atmosphäre zu genießen.
   datum: 2025-08-24
   medium: sonstiges
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/08/13/repaircafe-rastede-startet-wieder/
+  name: RepairCafé Rastede startet wieder
+  anfang: >
+    Ab diesem Samstag reparieren
+    Ehrenamtliche in der KGS Rastede einmal
+    im Monat Alltagsgegenstände oder
+    unterstützen Hilfesuchende bei der
+    Reparatur
+  datum: 2025-08-13
+  medium: rastederrundschau
 - 
   link: 'https://pages.et4.de/de/rastede/default/detail/Event/e_100986996/repair-cafe-rastede?From=2025-07-26T02%3A45%3A00%2B00%3A00'
   name: 'Repair Café Rastede  - Eintritt frei'
@@ -98,6 +238,19 @@ Pressenachrichten:
   medium: nwz
 - 
   link: >
+    https://www.rasteder-rundschau.de/2025/07/14/ein-interkulturelles-projekt-das-verbindet/
+  name: >
+    Ein interkulturelles Projekt, das
+    verbindet
+  anfang: >
+    Auch in diesem Jahr bereicherte der
+    Hollandaustausch zwischen der KGS
+    Rastede und dem Vechtdal College
+    Hardenberg die Beteiligten
+  datum: 2025-07-14
+  medium: rastederrundschau
+- 
+  link: >
     https://www.ioeb.de/de/beitrag/studierende-fuehren-potenzialanalyse-profil-ac-durch.html
   name: 'Unterstützung im Rahmen der Beruflichen Orientierung: Studierende des IfÖB führen Potenzialanalyse Profil AC an der KGS Rastede durch'
   anfang: 'Kurz vor den Sommerferien nahmen rund 100 Schüler*innen der 8. Jahrgangsstufe des Hauptschulzweigs der KGS Rastede an dem Potenzialanalyseverfahren „Profil AC“ teil. Die Durchführung des Verfahrens wurde erstmals vollumfänglich von Studierenden des Instituts für Ökonomische Bildung (IfÖB) an der Carl von Ossietzky Universität Oldenburg verantwortet.'
@@ -118,6 +271,21 @@ Pressenachrichten:
     in der Ausstellung.
   datum: 2025-07-01
   medium: sonstiges
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/06/30/die-schule-endet-aber-das-spiel-geht-weiter/
+  name: >
+    „Die Schule endet, aber das Spiel geht
+    weiter“
+  anfang: >
+    Die Entlassungsfeier der Abiturientinnen
+    und Abiturienten der KGS Rastede stand
+    unter dem Motto „CABISINO – 13 Jahre
+    um jeden Punkt gepokert“. Die Metapher
+    des „Spiels“ zog sich durch die
+    gesamte Veranstaltung.
+  datum: 2025-06-30
+  medium: rastederrundschau
 - 
   link: >
     https://www.nwzonline.de/ammerland/debatte-um-schulvertrag-zwischen-rastede-und-wiefelstede-keine-hilfe-von-aussen-fdp-scheitert-mit-antrag-fuer-vermittlungsausschuss_a_4,2,1109570614.html
@@ -144,6 +312,19 @@ Pressenachrichten:
   medium: nwz
 - 
   link: >
+    https://www.rasteder-rundschau.de/2025/06/25/kein-vermittlungsausschuss-gewuenscht/
+  name: Kein Vermittlungsausschuss gewünscht
+  anfang: >
+    Die FDP hatte beantragt, einen
+    Vermittlungsausschuss mit der Gemeinde
+    Wiefelstede einzuberufen, um beim
+    Schulvertrag für die Nutzung der KGS
+    voranzukommen. Der Schulausschuss
+    stimmte am Montag dagegen.
+  datum: 2025-06-25
+  medium: rastederrundschau
+- 
+  link: >
     https://www.landeszeitung.de/lokales/lueneburg-lk/bardowick/mit-dem-fahrrad-ins-abenteuer-sechs-schuelerinnen-radeln-240-kilometer-fuer-soziales-projekt-FFA7VOV3N5DYDL7BIY6IROB7CE.html?outputType=valid_amp
   name: 'Von Rastede bis nach St. Dionys Mit dem Fahrrad ins Abenteuer: Schülerinnen radeln 240 Kilometer für soziales Projekt'
   anfang: 'Sechs 14-jährige Mädchen, sechs Fahrräder – und eine Mission: Im Rahmen eines Schulprojekts radeln Schülerinnen der KGS Rastede über 240 Kilometer Richtung Lüneburger Heide, um sich in zwei Kirchengemeinden sozial zu engagieren.'
@@ -168,6 +349,27 @@ Pressenachrichten:
   medium: gemeinde
 - 
   link: >
+    https://www.rasteder-rundschau.de/2025/06/06/wuerdigung-einer-mutigen-helferin/
+  name: Würdigung einer mutigen Helferin
+  anfang: '„Die Kastanien an der Gracht – Miep Gies und das Tagebuch der Anne Frank“: Lesung mit Agnes Imhof am 19. Juni -  Im Rahmen der Rasteder Lesestunden liest Agnes Imhof am 19. Juni, 19.30 Uhr, in Raum C 005 der KGS aus ihrem Roman „Die Kastanien an der Gracht – Miep Gies und das Tagebuch der Anne Frank“.'
+  datum: 2025-06-06
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/06/06/mahnung-zur-zivilcourage/
+  name: Mahnung zur Zivilcourage
+  anfang: 'Anne Frank-Ausstellung eröffnet: „Deine Anne – Ein Mädchen schreibt Geschichte“ ist noch bis zum 27. Juni in der KGS zu sehen'
+  datum: 2025-06-06
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/06/05/doppelte-spendenscheck-uebergabe/
+  name: Doppelte Spendenscheck-Übergabe
+  anfang: 'Die VR-Stiftung der Volks- und Raiffeisenbanken und die Raiffeisenbank Rastede eG fördern die Rasteder Musiktage und die Wanderausstellung „Deine Anne. Ein Mädchen schreibt Geschichte“, die heute in der KGS eröffnet wird'
+  datum: 2025-06-05
+  medium: rastederrundschau
+- 
+  link: >
     https://www.nwzonline.de/ammerland/anne-frank-ausstellung-in-rastede-kgs-erinnert-an-schicksal-des-juedischen-maedchens_a_4,2,744671717.html
   name: >
     Ausstellung in Rastede erinnert an
@@ -181,6 +383,26 @@ Pressenachrichten:
     die Besucher?
   datum: 2025-05-22
   medium: nwz
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/05/20/ohne-ehrenamtliche-kein-pausensnack/
+  name: Ohne Ehrenamtliche kein Pausensnack
+  anfang: KGS-Cafeteria sucht helfende Hände
+  datum: 2025-05-20
+  medium: rastederrundschau
+- 
+  link: >
+    https://www.rasteder-rundschau.de/2025/05/15/leere-weite-wuchernder-wald/
+  name: Leere Weite, wuchernder Wald
+  anfang: >
+    Die Ausstellung „Hoch.Tief.Flach.
+    Landschaft im Nordwesten“ wird an
+    diesem Sonntag im Palais Rastede
+    eröffnet. Drei regionale
+    Kunstschaffende zeigen die Vielfalt des
+    Drucks.
+  datum: 2025-05-15
+  medium: rastederrundschau
 - 
   link: >
     https://www.ostfriesland.travel/orte/landkreis-ammerland/rastede/veranstaltungen-in-rastede/veranstaltung/29062025--101049188--deine-anne-ein-madchen-schreibt-geschichte
@@ -5995,15 +6217,18 @@ Pressenachrichten:
   medium: rastederrundschau
 - 
   link: >
-    https://www.nwzonline.de/friesland/textil-race-in-friesland-ammerland-und-wilhelmshaven-schueler-sammeln-altkleider-fuer-klimaschutz-und-wettbewerb_a_4,2,2018432208.html
-  name: 'Aktion in Friesland, Ammerland und Wilhelmshaven - „Textil Race“ im Nordwesten – Schüler sammeln Altkleider für mehr Klimaschutz'
+    https://www.nwzonline.de/termine/veranstaltungen-rastede-informationsveranstaltung-ueber-die-gymnasiale-oberstufe_e_63990412-3.html
+  name: >
+    Informationsveranstaltung über die
+    gymnasiale Oberstufe
   anfang: >
-    Schülerinnen und Schüler aus
-    Friesland, Wilhelmshaven und dem
-    Ammerland sammeln bei einem „Textil
-    Race“ Alttextilien. Wer etwas abgeben
-    möchte, kann sich melden.
-  datum: 2025-09-11
+    Interessierte Eltern sind dazu herzlich
+    eingeladen. Letzter Anmeldetermin für
+    die Aufnahme zum 1. August –
+    einheitlich für alle gymnasialen
+    Oberstufen in Niedersachsen – ist der
+    20. Februar 2026
+  datum: 2026-01-13
   medium: nwz
 
 ----
