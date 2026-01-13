@@ -20,7 +20,7 @@ $navbar = page('navbar');
         <a
           href="<?= $site->url() ?>"
           class="group inline-flex items-center gap-2 text-xl font-bold tracking-wide text-gray-900 hover:text-gray-600 dark:text-gray-100 dark:hover:text-gray-300">
-          <?= asset('assets/bilder/logo_square.svg')->read() ?>
+          <?= asset('assets/bilder/logo-50-square-100.webp') ?>
 
           <span>KGS Rastede</span>
         </a>
@@ -79,43 +79,43 @@ $navbar = page('navbar');
             ]);
             ?>
             <?php //falls es nichts aktuelles gibt soll der ganze Bereich nicht angezeigt werden
-              $toggle1 = $navbar->toggle1_1()->toBool();
-              $toggle2 = $navbar->toggle1_2()->toBool();
-              if ($toggle1 || $toggle2):
+            $toggle1 = $navbar->toggle1_1()->toBool();
+            $toggle2 = $navbar->toggle1_2()->toBool();
+            if ($toggle1 || $toggle2):
             ?>
-            <div
-              class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
-              <h4
-                class="font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
-                Aktuelles
-              </h4>        
-              <div class="grid grid-cols-2 gap-4 xl:gap-8">
-                <?= snippet('highlightfeld_menu', [
-                  'feld_bild' => $navbar
-                    ->bild_1_1()
-                    ->toFile(),
-                  'feld_toggle' => $toggle1,
-                  'feld_link' => $navbar
-                    ->linkmenue1_1()
-                    ->toUrl(),
-                  'feld_text' => $navbar
-                    ->linkmenue1_1_text()
-                    ->value(),
-                ]) ?>
-                <?= snippet('highlightfeld_menu', [
-                  'feld_bild' => $navbar
-                    ->bild_1_2()
-                    ->toFile(),
-                  'feld_toggle' => $toggle2,
-                  'feld_link' => $navbar
-                    ->linkmenue1_2()
-                    ->toUrl(),
-                  'feld_text' => $navbar
-                    ->linkmenue1_2_text()
-                    ->value(),
-                ]) ?>
+              <div
+                class="col-span-2 space-y-6 bg-gray-50 p-8 dark:bg-gray-700/25">
+                <h4
+                  class="font-semibold tracking-wider text-kgs-blue uppercase dark:text-kgs-lblue">
+                  Aktuelles
+                </h4>
+                <div class="grid grid-cols-2 gap-4 xl:gap-8">
+                  <?= snippet('highlightfeld_menu', [
+                    'feld_bild' => $navbar
+                      ->bild_1_1()
+                      ->toFile(),
+                    'feld_toggle' => $toggle1,
+                    'feld_link' => $navbar
+                      ->linkmenue1_1()
+                      ->toUrl(),
+                    'feld_text' => $navbar
+                      ->linkmenue1_1_text()
+                      ->value(),
+                  ]) ?>
+                  <?= snippet('highlightfeld_menu', [
+                    'feld_bild' => $navbar
+                      ->bild_1_2()
+                      ->toFile(),
+                    'feld_toggle' => $toggle2,
+                    'feld_link' => $navbar
+                      ->linkmenue1_2()
+                      ->toUrl(),
+                    'feld_text' => $navbar
+                      ->linkmenue1_2_text()
+                      ->value(),
+                  ]) ?>
+                </div>
               </div>
-            </div>
             <?php endif; ?>
           </div>
           <?php endslot(); ?>
