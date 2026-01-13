@@ -1,0 +1,33 @@
+Title: JG 7. Einführung der Arbeit mit iPads ab dem 2. Halbjahr
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Der Elterninformationsabend zur Bestellung der iPads findet am 04.11.2025 um 19 Uhr in der Neuen Aula der KGS-Rastede statt. Die Einladung wurde per E-Mail via Elternbriefmodul in IServ verschickt.<br><br>Alle Informationen rund um das iPad finden Sie <a href=\"https://nds.edumaps.de/67761/2049/beh09r3r5w/epuorqqfrz\">hier</a>."},"id":"5141e53a-6a80-473b-9d25-b51b3ca9e820","isHidden":false,"type":"heading"}],"id":"0a0f815e-56de-4b84-9d54-afe0c46cc784","width":"1/1"}],"id":"c7eac5ba-65a6-416c-a6e0-9e7b9ca030fc"}]
+
+----
+
+Date: 2025-09-29 09:55:00
+
+----
+
+Datumstartseite: 2026-01-29 09:55:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: Topartikel
+
+----
+
+Downloads: 
+
+----
+
+Uuid: zbsrbmsxlpeyowpx

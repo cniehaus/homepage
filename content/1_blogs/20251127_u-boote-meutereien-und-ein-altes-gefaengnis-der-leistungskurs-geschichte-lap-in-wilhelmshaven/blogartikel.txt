@@ -1,0 +1,33 @@
+Title: U-Boote, Meutereien und ein altes Gefängnis - der Leistungskurs Geschichte (LAP) in Wilhelmshaven
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://6uotl3xnrohwzsxb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"42729a92-b315-4aa6-9a7e-c36283096962","isHidden":false,"type":"image"}],"id":"46e19b6b-0354-4c5e-917a-7ea9a0072bfe","width":"1/1"}],"id":"47a15848-b4e7-4cc5-a2f8-b201826d0626"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Bei strahlendem Sonnenschein und ruhiger See traf sich der Leistungskurs Geschichte von Frau Lapp gemeinsam mit Frau Hinrichs zur Stadttour durch Wilhelmshaven. Dort erkundeten sie die Originalschauplätze der Matrosenmeuterei gegen den Flottenbefehl vom 29.10.1918 und gingen der Frage nach, ob es sich bei dem Aufstand um eine Meuterei oder um gerechtfertigten Widerstand gegen widerrechtliches Handeln der obersten Seekriegsleitung handelte. Es wurde sehr deutlich, wie unterschiedlich die politische Haltung der Matrosen und Anheizer auf der einen Seite und der adeligen Offiziere auf der anderen Seite war. Abgerundet wurde der Stadtrundgang durch eine Führung durch das Marinemuseum, wo die Schülerinnen und Schüler ihre Fähigkeiten, Frakturschrift zu lesen, unter Beweis stellen und die beklemmende Enge eines U-Bootes am eigenen Leib erfahren konnten.</p><p>Nach einem gemeinsamen Mittagessen ging es zurück in die Stadt, um anhand der Christus- und Garnisonskirche ein Beispiel für eine zeitgenössische, kritisch reflektierende Erinnerungskultur zu untersuchen. Zum krönenden Abschluss bummelten die Schülerinnen und Schüler noch kurz über den kleinen, aber sehr gemütlichen wilhelmshavener Weihnachtsmarkt, bevor es dann zurück nach Rastede ging.</p><p>Alles in allem hatte der Geschichtsleistungskurs einen wunderbaren, lehrreichen und sicherlich auch unterhaltsamen Tag.</p>"},"id":"f0015cb8-a149-47e7-b071-dee57e671c96","isHidden":false,"type":"text"}],"id":"a4030d1b-4506-401f-95ea-0c036324127f","width":"1/1"}],"id":"6d2c39e2-2dc2-4fa9-9726-5a7f87b2e9b8"}]
+
+----
+
+Date: 2025-11-27 10:35:00
+
+----
+
+Datumstartseite: 2026-03-27 10:35:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Katrin Lapp
+
+----
+
+Tags: Geschichte, Exkursion
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 3tytew7mrqzxhblx

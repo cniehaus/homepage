@@ -1,0 +1,9 @@
+Beschreibung: 
+
+----
+
+Uuid: lafaxh99kswapn47
+
+----
+
+Template: blocks/image

@@ -1,0 +1,33 @@
+Title: Gemeinsame Weihnachtsfeier der Schülerfirma "Das Sofa-Team" und Seniorinnen und Senioren
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://naazl0j9nqy9v2kv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"4034a3d2-a40e-4ef6-a0a2-5338a2b387dc","isHidden":false,"type":"image"}],"id":"3dfa5681-ba46-4ecb-92bb-eef3d130b0a2","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://fcguz45bofwq0cl3"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"ef96df99-5526-49a9-ba8d-02cda665f790","isHidden":false,"type":"image"}],"id":"74dcb456-96fb-4178-b648-b96722940cb6","width":"1/2"}],"id":"6f7fb33b-7328-46d1-84ab-6d5f756d9182"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am 04. Dezember 2025 fand die Weihnachtsfeier der Schülerfirma \"Das Sofa-Team\" statt, zu der rund 15 Senioren eingeladen waren. Die Schüler gestalteten die anderthalbstündige Feier mit viel Freude und Engagement.<br>Die Feier begann stimmungsvoll, als gemeinsam das Lied \"Leise rieselt der Schnee\" gesungen wurde, wobei eine Schülerin für die musikalische Unterstützung sorgte. Dies stimmte alle Anwesenden in die festliche Atmosphäre ein. Im Anschluss trugen die Jugendlichen zwei Gedichte, darunter das Gedicht \"Weihnachten\", vor, die die Herzen der Zuhörer berührten und für besinnliche Momente sorgten.<br>Danach stand das Bingo-Spiel auf dem Programm, das mit weihnachtlich gestalteten Karten für eine gute Atmosphäre sorgte. Die Runde dauerte eine ganze Weile, aber die Freude war groß, als eine einzige Gewinnerin feststand, die sich über einen größeren Schokoladen-Weihnachtsmann freute. Alle anderen Teilnehmer erhielten ebenfalls kleinere Schokoladen-Weihnachtsmänner.<br>An den festlich dekorierten Tischen genossen die Teilnehmer in der letzten halben Stunde gemütlichen Austausch, begleitet von Kaffee, Tee sowie weihnachtlichen Leckereien wie Keksen und Mandarinen.<br>Die Feier war ein gelungenes, gemeinschaftliches Fest, das allen Beteiligten große Freude bereitete. Das \"Sofa-Team\" bedankt sich herzlich bei allen, die mitgemacht und mitgeholfen haben, insbesondere beim Förderverein der KGS, der den nicht unerheblichen „Kaffeedurst“ aller Teilnehmer gestillt hat. Man freut sich bereits auf die nächste Feier.<br><br>Das SOFA-Team</p>"},"id":"9038b208-d8b6-46e5-9c83-cdd75087bbcb","isHidden":false,"type":"text"}],"id":"60819f21-3486-4169-a2bd-b389fa81f6d0","width":"1/1"}],"id":"3561d09d-9b59-4011-a096-474cd2f47f80"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://rzv84srrqg4vh3iu"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"f753d32e-9a2b-43d0-85e5-b2c1528a7a96","isHidden":false,"type":"image"}],"id":"9e6cd99b-73b4-4263-af0b-bee4d62c621d","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://udwsboeueiajgfeo"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b005ec97-91a8-4a9b-9fb1-c4a03ffa2510","isHidden":false,"type":"image"}],"id":"e5d99972-3f8a-480e-b4c2-27cdb16c1322","width":"1/2"}],"id":"6a5097b8-533a-45ff-adf6-8064f5baebfb"}]
+
+----
+
+Date: 2026-01-06 11:15:00
+
+----
+
+Datumstartseite: 2026-05-06 11:15:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Sofa-Team
+
+----
+
+Tags: Weihnachtsfeier, SOFA Team, Schülerfirmen
+
+----
+
+Downloads: 
+
+----
+
+Uuid: z5xu5npoa6dw12dz

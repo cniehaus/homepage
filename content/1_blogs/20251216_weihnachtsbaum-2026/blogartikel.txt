@@ -1,0 +1,33 @@
+Title: Weihnachtliche Grüße aus dem Fachbereich Naturwissenschaften
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Dass Chemie und kreative Gestaltung keine Gegensätze sind, haben die Schüler*innen des Chemiekurses von Herrn Fiehne (Jg 12) eindrucksvoll zeigen können. Sie haben in einer Projektarbeit in Gruppen mit minimaler Aufgabenstellung aus Stativmaterial, Reaktionsgefäßen, Säuren, Laugen und Indikatoren gemeinsam ein kleines Kunstwerk geschaffen, dass in vielen Klassen schon für leuchtende Augen gesorgt hat und von dem vielleicht auch schon zuhause berichtet worden ist. Unser Baum wandert in der Adventszeit von Raum zu Raum und sorgt für eine angenehme Arbeitsatmosphäre - und auch für ein bisschen mehr Vorfreude.</p><p></p><p>In diesem Sinne wünschen wir Ihnen allen eine besinnliche Weihnachtszeit!</p>"},"id":"d64cc3c4-6211-4c88-933e-80d9bed4214c","isHidden":false,"type":"text"}],"id":"0ec46db2-cad4-45a7-b493-d53e10ef0ee9","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://qmi571txfigwfxmu"],"src":"","alt":"Chemischer Weihnachtsbaum","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"fc161bf5-9990-458e-91e6-c23574e3b9c2","isHidden":false,"type":"image"}],"id":"7e3be1b4-e190-4b01-8f7e-cbdcba16561f","width":"1/2"}],"id":"c1703670-1424-4374-b23b-64e5a8194d4a"}]
+
+----
+
+Date: 2025-12-16 19:05:00
+
+----
+
+Datumstartseite: 2026-04-16 19:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: vsbhmztrkwbiva6y

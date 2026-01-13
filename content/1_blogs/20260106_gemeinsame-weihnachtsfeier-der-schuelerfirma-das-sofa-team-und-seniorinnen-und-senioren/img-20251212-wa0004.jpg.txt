@@ -1,0 +1,9 @@
+Beschreibung: 
+
+----
+
+Uuid: fcguz45bofwq0cl3
+
+----
+
+Template: blocks/image

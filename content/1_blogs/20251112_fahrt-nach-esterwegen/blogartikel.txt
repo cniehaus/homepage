@@ -1,0 +1,33 @@
+Title: Fahrt nach Esterwegen
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Am 05.09.2025 und am 16.09.2025 fuhren insgesamt fünf Klassen der Jahrgangsstufen 9 und 10 der KGS Rastede zur Gedenkstätte Esterwegen. Zu Beginn erläuterte ein Vortrag, wie die Nationalsozialisten in den Emslandlagern systematisch den Widerstand brechen wollten. Am Beispiel von Carl von Ossietzky und durch das Protestlied „Die Moorsoldaten“ wurde das Schicksal der Häftlinge eindrücklich veranschaulicht. Im Anschluss hatten die Schülerinnen und Schüler Gelegenheit, die Ausstellung zu besuchen; der Besuch endete mit einem Rundgang über das Gelände, bei dem abschließend Fragen beantwortet wurden.<br><br>Die Exkursion war eindrucksvoll und lehrreich. Wir danken der Gedenkstätte Esterwegen und dem Verein „Gegen Vergessen – Für Demokratie e. V.“ herzlich für die Unterstützung durch einen kleinen Kostenzuschuss.</p>"},"id":"9ca0cb65-9147-4aa0-a03c-b8be218536b6","isHidden":false,"type":"text"}],"id":"c63c2635-3558-4498-b916-38e140013981","width":"1/1"}],"id":"90128675-6613-493b-9bef-b8b815d3409d"}]
+
+----
+
+Date: 2025-11-12 08:45:00
+
+----
+
+Datumstartseite: 2026-03-12 08:45:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Katrin Lapp
+
+----
+
+Tags: Geschichte, Exkursion
+
+----
+
+Downloads: 
+
+----
+
+Uuid: 7u1wqonetsvep7dm

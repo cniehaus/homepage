@@ -1,0 +1,33 @@
+Title: Hausmesse an der KGS Rastede ein voller Erfolg
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://7p5tockoqce5vkzr"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"0d9fb6fc-d52c-4f86-91ba-08f23a4b53f3","isHidden":false,"type":"image"}],"id":"d04f88c9-40e8-44fa-865f-539e8bf489be","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://aw4s9hctzcfs6lfn"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"d6a06593-a942-4687-a65b-6339a6c60c00","isHidden":false,"type":"image"}],"id":"e78cff00-cbcd-46b1-943c-42b550ceab79","width":"1/2"}],"id":"9500b44e-5e24-4992-b3f4-b86d4c483fd0"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>Hausmesse an der KGS Rastede: Regionale Unternehmen zeigen großes Engagement für den Nachwuchs</strong></p><p>Am 6. November 2025 fand an der KGS Rastede erneut die Hausmesse statt – inzwischen fest etabliert als wichtiger Bestandteil der Berufsorientierung. Über 60 Unternehmen und Institutionen aus Rastede und der Umgebung präsentierten ihre Ausbildungsberufe und dualen Studiengänge und zeigten damit deutlich: Unsere Region bietet vielfältige und attraktive Karrierechancen für junge Menschen.</p><p>Viele Betriebe brachten ihre aktuellen Auszubildenden mit, darunter zahlreiche ehemalige Schülerinnen und Schüler der KGS. Diese persönlichen Gespräche „auf Augenhöhe“ halfen den Jugendlichen der Jahrgänge 8 bis 13, eigene Stärken besser einzuschätzen und passende berufliche Wege kennenzulernen.</p><p>Begleitet wurde die Messe von der Berufsberatung sowie Lehrkräften des Fachbereichs Arbeit-Wirtschaft-Technik, die die Veranstaltung organisierten und die Schülerinnen und Schüler beim Informationsaustausch unterstützten. Ein strukturierter Zeitplan und die Vor- und Nachbereitung im Unterricht sorgten dafür, dass die Klassen gut vorbereitet waren und ihre Eindrücke nachhaltig reflektieren konnten.</p><p>Die Azubimesse zeigt einmal mehr, wie wertvoll die Zusammenarbeit zwischen Schule und regionaler Wirtschaft ist. Unser Dank gilt den zahlreichen Unternehmen, die sich die Zeit genommen haben, den Jugendlichen ihre beruflichen Perspektiven näherzubringen und sie auf ihrem Weg in die Zukunft zu unterstützen.</p><p>Weitere Informationen zu den teilnehmenden Betrieben finden sich unter:</p><p>👉 zukunft.kgs-rastede.de</p>"},"id":"76382479-9fef-4533-a34a-73ae90cc3b2d","isHidden":false,"type":"text"}],"id":"e1f59548-c50d-450f-bb5b-058bc3b78e00","width":"1/1"}],"id":"81bd4d01-89db-4224-ac6c-6e85f8f31c1d"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ho3opvdokien78fc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"1b6f99d4-64cd-4d97-99f0-7848117e528d","isHidden":false,"type":"image"}],"id":"23e94705-80cb-4198-ab01-6bda92799568","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://lafaxh99kswapn47"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"d021c5d2-ae66-44bf-affe-a8dcd3f8fbaf","isHidden":false,"type":"image"}],"id":"97ef79bc-cf88-41f0-b6b0-5250db79ef86","width":"1/2"}],"id":"c3bc6421-1916-40f0-8213-3f71677fc035"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://5qlkvuj1rvxd4r3z"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","orientation":""},"id":"b399c1a0-3040-4e46-993d-bfd8380afec3","isHidden":false,"type":"image"}],"id":"205a6a8b-865c-4e1f-94ee-c6acb190a94d","width":"1/1"}],"id":"f63b6546-20fd-4dcd-b4d3-62fa7d35af01"}]
+
+----
+
+Date: 2025-11-12 08:45:00
+
+----
+
+Datumstartseite: 2026-03-12 08:45:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Angelika Akbaşak
+
+----
+
+Tags: 
+
+----
+
+Downloads: 
+
+----
+
+Uuid: ml7kwhm5jyl8biu2

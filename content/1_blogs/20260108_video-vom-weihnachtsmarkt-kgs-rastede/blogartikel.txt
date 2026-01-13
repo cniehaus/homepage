@@ -1,0 +1,33 @@
+Title: Video vom Weihnachtsmarkt KGS Rastede
+
+----
+
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Hier gibt es ein Video vom Weihnachtsmarkt der KGS Rastede:</p><p><a href=\"https://peertube.kgs-rastede.de/w/4LnWPBHat42VKSikDKRuee\">https://peertube.kgs-rastede.de/w/4LnWPBHat42VKSikDKRuee</a></p>"},"id":"075cd849-47c2-4be6-b2af-5110c7fbf314","isHidden":false,"type":"text"}],"id":"ad4ff1bb-72e1-461a-a8fb-c5f4964583ff","width":"1/1"}],"id":"1f555147-dfff-4f84-9c56-abe939868d7e"}]
+
+----
+
+Date: 2026-01-08 11:05:00
+
+----
+
+Datumstartseite: 2026-05-08 11:05:00
+
+----
+
+Togglestartseite: false
+
+----
+
+Author: Video AG der KGS Rastede
+
+----
+
+Tags: Video AG, Weihnachtsmarkt
+
+----
+
+Downloads: 
+
+----
+
+Uuid: xqtkj6qdzqaekyrh

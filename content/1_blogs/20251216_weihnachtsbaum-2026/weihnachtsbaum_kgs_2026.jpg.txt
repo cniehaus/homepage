@@ -1,0 +1,9 @@
+Beschreibung: 
+
+----
+
+Uuid: qmi571txfigwfxmu
+
+----
+
+Template: blocks/image

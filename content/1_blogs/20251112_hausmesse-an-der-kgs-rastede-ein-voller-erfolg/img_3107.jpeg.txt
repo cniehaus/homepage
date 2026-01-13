@@ -1,0 +1,9 @@
+Beschreibung: 
+
+----
+
+Uuid: ho3opvdokien78fc
+
+----
+
+Template: blocks/image
