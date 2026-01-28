@@ -152,7 +152,7 @@ $navbar = page('navbar');
               ['pfad' => "/unterricht/bo-coaches", 'name' => "BO-Coaches. Hilfe bei der Berufsorientierung"],
               ['pfad' => "/unterricht/wettbewerbe", 'name' => "Wettbewerbe"],
               ['pfad' => "/unterricht/ag-angebot", 'name' => "Arbeitsgemeinschaften"],
-              ['pfad' => "/unterricht/herausforderungsprojekt/herausforderungsprojekt-2025", 'name' => "Herausforderungsprojekt 2025"]
+              ['pfad' => "/unterricht/herausforderungsprojekt/herausforderungsprojekt-2026", 'name' => "Herausforderungsprojekt 2026"]
 
             ];
             snippet('menu/menu-category-column', [
