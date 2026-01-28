@@ -9,8 +9,17 @@ options:
 
 sections:
   content:
+
+
+
+
     type: fields
     fields:
+
+      headlineWarnung:
+        label: Großes Textfeld oben (Schneefrei, SchiLF, ...)
+        type: headline
+
       toggle:
         label: Banner für Schulausfall
         type: toggle
@@ -18,6 +27,12 @@ sections:
         text:
           - Banner inaktiv
           - Banner aktiv
+    
+      textVorlage:
+        label: Vorlagenfeld
+        type: textarea
+        help: Vorlage für den Bannertext
+
 
       text:
         label: Inhalt des Banners
@@ -25,16 +40,20 @@ sections:
         when:
           toggle: true
 
+      headlineKrisenfall:
+        label: Notfallmodus - Krisensituation (Amok, Terror, Schule brennt, Todesfall, ...)
+        type: headline
+
+
       togglenotfall:
         label: Notfallmodus - Bitte nur im Notfall aktivieren!
         help: Deaktiviert die normale Homepage
         type: toggle
-        text:
-          - Regelbetrieb
-          - Notfallbetrieb (normale Homepage deaktivieren)
+
 
       notfalltext:
         label: Text für den Notfall
+        help: Im absoluten Notfall (Amok, Terror, Schule brennt, Todesfall, ...)
         type: textarea
         when:
           togglenotfall: true
