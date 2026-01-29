@@ -1,11 +1,12 @@
-<div class="flex flex-row gap-3 justify-center sm:gap-4">
+<div class="flex gap-3 lg:flex-row sm:justify-center sm:flex-col sm:gap-4">
+
     <?= snippet('knopf-gross', [
         'subpage' => page('schule/oberstufe'),
         'knopftext' => 'Information Oberstufe',
     ]) ?>
 
     <?= snippet('knopf-gross', [
-        'subpage' => page('anmeldung-5'),
+        'subpage' => page('blogs/anmeldung-5'),
         'knopftext' => 'Anmeldung JG 5',
     ]) ?>
 
