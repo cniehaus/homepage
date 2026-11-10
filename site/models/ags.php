@@ -89,23 +89,44 @@ class AgsPage extends Page
 
     private function fetchStudyGroupsData()
     {
-        $request = Remote::get(
-            $this->apiEndpointUri() . '?token=' . $this->apiKey(),
-        );
-
-        if ($request->code() === 200) {
-            $data = $request->json(true);
-
-            $this->updateStudyGroupsDataCache($data);
-
-            return $data;
-        } else {
-            if ($this->hasCachedStudyGroupsData()) {
-                return $this->readCachedStudyGroupsData();
-            } else {
-                throw new \RuntimeException('Could not load study group information from remote system.');
-            }
+        // Ohne Konfiguration (z. B. lokal ohne secrets.php) gar nicht erst anfragen.
+        if (empty($this->apiEndpointUri()) || empty($this->apiKey())) {
+            return $this->fallbackStudyGroupsData();
         }
+
+        try {
+            $request = Remote::get(
+                $this->apiEndpointUri() . '?token=' . urlencode($this->apiKey()),
+            );
+
+            if ($request->code() === 200) {
+                $data = $request->json(true);
+
+                if (is_array($data) && isset($data['study_groups'])) {
+                    $this->updateStudyGroupsDataCache($data);
+                    return $data;
+                }
+            }
+        } catch (\Throwable $e) {
+            // Netzwerk-/Konfigurationsfehler: weiter mit Fallback
+        }
+
+        return $this->fallbackStudyGroupsData();
+    }
+
+    /**
+     * Veralteter Cache, falls vorhanden – sonst eine leere AG-Liste.
+     */
+    private function fallbackStudyGroupsData()
+    {
+        if ($this->hasCachedStudyGroupsData()) {
+            return $this->readCachedStudyGroupsData();
+        }
+
+        return [
+            'study_groups'      => [],
+            'current_term_year' => '',
+        ];
     }
 
     private function updateStudyGroupsDataCache($data)
