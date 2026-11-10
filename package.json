@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fullcalendar": "7.0.0-rc.2",
-    "@fullcalendar/icalendar": "7.0.0-rc.2",
+    "fullcalendar": "^7.1.4",
+    "@fullcalendar/icalendar": "^7.1.4",
     "ical.js": "^2.2.1",
-    "temporal-polyfill": "^0.3.2",
+    "temporal-polyfill": "^1.0.8",
     "alpinejs": "^3.15.12",
     "bootstrap-icons": "^1.13.1"
   },
@@ -28,7 +28,7 @@
     "farben": "node scripts/farbanalyse.js"
   },
   "devDependencies": {
-    "@prettier/plugin-php": "^0.25.0",
+    "@prettier/plugin-php": "^0.26.0",
     "@tailwindcss/cli": "4.3",
     "@tailwindcss/typography": "^0.5.16",
     "fast-glob": "^3.3.3",
